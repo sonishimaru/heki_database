@@ -67,6 +67,38 @@
     - {id: shitei, weight: sub, note: '資料: 東京都立呪術高等専門学校の教師として、自身の影響力を用いて強く若い仲間たちを保護し育成している。', src: gemini}
   patterns: []
 
+- id: holo
+  name: ホロ
+  kana: ほろ
+  work: 狼と香辛料
+  year: 2006
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-25'
+  elements:
+    - {id: akame, weight: core, note: 'danbooru red_eyes 75%', src: danbooru}
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 83%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
+    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 98%', src: danbooru}
+  patterns: []
+
+- id: index
+  name: インデックス
+  kana: いんでっくす
+  work: とある魔術の禁書目録
+  year: 2004
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-25'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 81%', src: danbooru}
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 70%', src: danbooru}
+    - {id: shisutaa, weight: core, note: 'danbooru nun 71%', src: danbooru}
+    - {id: aogami, weight: sub, note: 'danbooru blue_hair 45%', src: danbooru}
+  patterns: []
+
 - id: kamado-nezuko
   name: 竈門禰豆子
   kana: かまどねずこ
@@ -82,6 +114,22 @@
     - {id: messhu, weight: core, note: 'danbooru multicolored_hair 66%', src: danbooru}
     - {id: wasou, weight: core, note: 'danbooru japanese_clothes 69%', src: danbooru}
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 36%', src: danbooru}
+  patterns: []
+
+- id: kikyou
+  name: 桔梗
+  kana: ききょう
+  work: 犬夜叉
+  year: 1996
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-25'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 90%', src: danbooru}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 88%', src: danbooru}
+    - {id: miko, weight: core, note: 'danbooru miko 75%', src: danbooru}
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 88%', src: danbooru}
   patterns: []
 
 - id: makima
@@ -114,6 +162,42 @@
     - {id: chapatsu, weight: core, note: 'danbooru brown_hair 90%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 50%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 40%', src: danbooru}
+  patterns: []
+
+- id: oshino-shinobu
+  name: 忍野忍
+  kana: おしのしのぶ
+  work: 化物語
+  year: 2006
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-25'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 92%', src: danbooru}
+    - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 76%', src: danbooru}
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 95%', src: danbooru}
+    - {id: erufu, weight: sub, note: 'danbooru pointy_ears 46%', src: danbooru}
+  patterns: []
+
+- id: power
+  name: パワー
+  kana: ぱわー
+  work: チェンソーマン
+  year: 2018
+  summary: 悪魔に憑依された魔人であり、監視と統括を受ける身でありながらパートナーとともにデビルハンターとして活動する構造。
+  analysis:
+    method: both+danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-25'
+  elements:
+    - {id: akuma, weight: core, note: 'danbooru demon_horns 53% / 資料: 悪魔に憑依された死体である「魔人」であり、「血の魔人（Blood Fiend）」とされる。', src: both}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 85%', src: danbooru}
+    - {id: jingai, weight: core, note: 'danbooru horns 95%', src: danbooru}
+    - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 66%', src: danbooru}
+    - {id: aibou, weight: sub, note: '資料: デンジとパートナーとして共に働いている。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 47%', src: danbooru}
+    - {id: shujuu, weight: sub, note: '資料: マキマの下で不本意ながら働いており、早川アキの監視のもとで働いている。', src: gemini}
   patterns: []
 
 - id: rem

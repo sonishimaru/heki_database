@@ -5,6 +5,30 @@
 # new_tag_proposals: classify が語彙に無いと判断した概念の提案。
 # 採用・却下は人が決める。処理済みのエントリは消してよい。
 
+- id: holo
+  name: ホロ
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: wolf_girl
+    frequency: 0.8813
+  - tag: wolf_tail
+    frequency: 0.7949
+  - tag: nude
+    frequency: 0.3658
+  - tag: brown_tail
+    frequency: 0.3603
+  new_tag_proposals: []
+- id: index
+  name: インデックス
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: nun_headdress
+    frequency: 0.5024
+  - tag: robe
+    frequency: 0.4169
+  - tag: safety_pin
+    frequency: 0.3599
+  new_tag_proposals: []
 - id: kamado-nezuko
   name: 竈門禰豆子
   date: '2026-08-25'
@@ -28,6 +52,21 @@
   - tag: sash
     frequency: 0.3542
   new_tag_proposals: []
+- id: kikyou
+  name: 桔梗
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: red_hakama
+    frequency: 0.4672
+  - tag: wide_sleeves
+    frequency: 0.4562
+  - tag: blunt_bangs
+    frequency: 0.4197
+  - tag: white_kimono
+    frequency: 0.4161
+  - tag: hakama_skirt
+    frequency: 0.3832
+  new_tag_proposals: []
 - id: misaka-mikoto
   name: 御坂美琴
   date: '2026-08-25'
@@ -42,6 +81,19 @@
     frequency: 0.3905
   - tag: sweater_vest
     frequency: 0.3721
+  new_tag_proposals: []
+- id: power
+  name: パワー
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: red_horns
+    frequency: 0.7729
+  - tag: symbol-shaped_pupils
+    frequency: 0.6296
+  - tag: cross-shaped_pupils
+    frequency: 0.6024
+  - tag: sharp_teeth
+    frequency: 0.5144
   new_tag_proposals: []
 - id: tohru
   name: トール
