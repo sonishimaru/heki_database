@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>性癖データベース</title>
+<meta name="description" content="キャラクターを構成要素に分解し、性癖を「主体×変化×条件」の文法で記述する辞典。">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23232019'/><text x='16' y='23' font-size='19' text-anchor='middle' fill='%23f4f1ea' font-family='serif'>癖</text></svg>">
+</head>
+<body>
+<div class="topbar"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark">癖</span>
+      <span class="brand-text">
+        <span class="brand-title">性癖データベース</span>
+        <span class="brand-sub">キャラクターを構成要素に分解して引く</span>
+      </span>
+    </a>
+    <nav class="tabs" id="tabs">
+      <a href="#/" data-view="characters">キャラ名鑑</a>
+      <a href="#/patterns" data-view="patterns">性癖パターン</a>
+      <a href="#/elements" data-view="elements">要素辞典</a>
+    </nav>
+    <div class="counts" id="counts"></div>
+  </div>
+</header>
+
+<main class="wrap" id="app">
+  <p class="loading">読み込み中…</p>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>初期データは権利関係が明快な古典・パブリックドメイン作品のキャラクターで構成しています。記述は構成要素の分析に限り、本文・画像の転載は行っていません。</p>
+    <p><a href="https://github.com/sonishimaru/heki_database">データを追加する（GitHub）</a></p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

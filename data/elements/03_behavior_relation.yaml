@@ -1,0 +1,371 @@
+# 振る舞い・言語／関係性の構成要素
+
+# --- behavior.speech ---
+- id: keigo
+  name: 敬語
+  kana: けいご
+  aliases: [丁寧語, です・ます]
+  axis: behavior.speech
+  summary: 距離を保つための言語形式。親しさの上限を固定する。
+  description: >-
+    誰にでも敬語である場合、それは礼儀ではなく壁として機能している。
+    崩れる瞬間、あるいは一人にだけ崩れないという運用の両方が使える。
+  effect: 言語の階層で距離を可視化し、その変化を関係の計測器にする。
+  pairs_with: [shisei-no-yosa, joukyuu-shusshin, hohoemi-no-kamen, tebukuro]
+  contrasts_with: [dokuzetsu]
+  tags: [距離, 計測器]
+
+- id: gobi
+  name: 特徴的な語尾
+  kana: とくちょうてきなごび
+  aliases: [口癖, 語尾]
+  axis: behavior.speech
+  summary: 発話の末尾に固定される型。声の指紋。
+  description: >-
+    反復によって記憶に定着し、消えたときに異常が伝わる。
+    本気の場面でだけ外れる運用が定石。
+  effect: 平常運転の印を作り、それが外れた瞬間を非常事態にする。
+  pairs_with: [kuchiguse, ohirakebo, hitonarazaru]
+  contrasts_with: []
+  tags: [反復, 識別子]
+
+- id: ichininshou
+  name: 一人称のずれ
+  kana: いちにんしょうのずれ
+  aliases: [僕っ娘, わたくし, 俺]
+  axis: behavior.speech
+  summary: 見た目や立場から予測される一人称と異なる選択。
+  description: >-
+    一人称は自己認識の宣言であるため、そのずれは本人の自己像と
+    周囲の期待の不一致をそのまま示す。切り替える場面が本音の露出になる。
+  effect: 自己認識を一語で提示し、切り替えを内面の切り替えとして読ませる。
+  pairs_with: [jikoenshutsu, futatsu-no-kao, joukyuu-shusshin]
+  contrasts_with: []
+  tags: [自己認識, 切替]
+
+- id: kuchibeta
+  name: 口下手
+  kana: くちべた
+  aliases: [説明が下手, 言葉が足りない]
+  axis: behavior.speech
+  summary: 意図を言語化できない性質。行動が先に出る。
+  description: >-
+    誤解が構造的に発生するため、行動でしか真意が伝わらない。
+    観客は真意を知っているので、伝わらないことへの焦れが生まれる。
+  effect: 言語チャンネルを封じ、行動と沈黙に意味を集中させる。
+  pairs_with: [muhyoujou, me-o-sorasu, shokunin-kishitsu, hitomishiri]
+  contrasts_with: [tsukkomi]
+  tags: [伝達不全, 行動優先]
+
+- id: tsukkomi
+  name: 突っ込み役
+  kana: つっこみやく
+  aliases: [常識人, 苦労人]
+  axis: behavior.speech
+  summary: 場の異常を言語化する役。観客の代弁者。
+  description: >-
+    最も常識的であるがゆえに、この人物が突っ込みを止めた瞬間に
+    事態の深刻さが伝わる。負荷が一身に集中する立場でもある。
+  effect: 場の基準線を引き、その基準が沈黙したときに異常を知らせる。
+  pairs_with: [jitome, tareme, sewayaki, hayakuchi]
+  contrasts_with: [kuchibeta]
+  tags: [基準線, 負荷集中]
+
+# --- behavior.voice ---
+- id: kogoe
+  name: 小声
+  kana: こごえ
+  aliases: [声が小さい, ぼそぼそ]
+  axis: behavior.voice
+  summary: 音量の低い発話。聞き取るために距離を詰める必要が生じる。
+  description: >-
+    聞く側に接近を強いるため、音量そのものが物理的な距離を規定する。
+    大声を出した一回が事件として成立する。
+  effect: 会話に物理的な近接を要求し、声量の変化を感情の指標にする。
+  pairs_with: [hitomishiri, kuudere, jiko-hyouka-no-hikusa]
+  contrasts_with: [hayakuchi]
+  tags: [音量, 近接強制]
+
+- id: chinmoku
+  name: 沈黙
+  kana: ちんもく
+  aliases: [間, 答えない]
+  axis: behavior.voice
+  summary: 発話しないという選択。肯定にも否定にも読める余白。
+  description: >-
+    答えないことは、嘘をつかずに情報を渡さない唯一の方法である。
+    沈黙の長さが、そのまま抱えているものの重さとして計測される。
+  effect: 情報を伏せたまま誠実さを保ち、観客に推測を要求する。
+  pairs_with: [kataranu-kako, muhyoujou, misue, kuchibeta]
+  contrasts_with: []
+  tags: [余白, 非開示]
+
+- id: hayakuchi
+  name: 早口
+  kana: はやくち
+  aliases: [まくしたてる]
+  axis: behavior.voice
+  summary: 発話速度の速さ。思考量か動揺のいずれかが漏れている。
+  description: >-
+    平常時に早口な人物は思考が先行しており、普段落ち着いている人物が
+    早口になった場合は動揺の露出になる。同じ現象が真逆の意味を持つ。
+  effect: 速度という一次元で、知性と動揺を同時に表現できる。
+  pairs_with: [shokunin-kishitsu, tsukkomi, gouri]
+  contrasts_with: [kogoe, chinmoku]
+  tags: [速度, 両義的]
+
+# --- behavior.habit ---
+- id: mimi-ga-akai
+  name: 耳が赤い
+  kana: みみがあかい
+  aliases: [首筋が赤い, 頬が染まる]
+  axis: behavior.habit
+  summary: 自律神経の反応。意思で制御できない生理的な露出。
+  description: >-
+    表情を殺せても血流は殺せない。取り繕いが完璧な人物ほど、
+    この一点だけが裏切るという構図が強く効く。
+  effect: 演技の外側に、制御不能な真実の窓を一つ開ける。
+  pairs_with: [muhyoujou, tsundere, kuudere, hohoemi-no-kamen]
+  contrasts_with: []
+  tags: [生理反応, 制御不能]
+
+- id: muri-o-suru
+  name: 無理をする
+  kana: むりをする
+  aliases: [平気なふり, 隠れて倒れる]
+  axis: behavior.habit
+  summary: 限界を申告しない癖。破綻するまで表面上は正常に見える。
+  description: >-
+    周囲が気づけない設計になっているため、気づいた人物が
+    自動的に特別な位置に立つ。倒れる場面が関係の転換点になる。
+  effect: 消耗を不可視化し、それを見抜いた者だけを内側に入れる。
+  pairs_with: [kihakusa, gisei-shikou, kuma, hohoemi-no-kamen]
+  contrasts_with: []
+  tags: [隠蔽, 転換点]
+
+- id: kansatsu-guse
+  name: 観察癖
+  kana: かんさつぐせ
+  aliases: [人を見ている, 記憶している]
+  axis: behavior.habit
+  summary: 他人の細部を無意識に記録する癖。関心の副産物。
+  description: >-
+    覚えていた事実が不意に露出したとき、本人の意図と無関係に
+    関心の量が暴露される。指摘されて初めて自覚する場合が多い。
+  effect: 蓄積された観察を、後から一度に好意の証拠として提出する。
+  pairs_with: [gouri, dokuzetsu, ihoujin, kizuka-re-tenai-koui]
+  contrasts_with: []
+  tags: [蓄積, 暴露]
+
+- id: te-guse
+  name: 無意識の手癖
+  kana: てぐせ
+  aliases: [髪を触る, 指を鳴らす]
+  axis: behavior.habit
+  summary: 思考や動揺に伴って出る反復動作。本人は気づいていない。
+  description: >-
+    観客と親しい人物だけがその意味を知っているという二層構造を作れる。
+    「その癖が出ているときは嘘」といった読解のルールを設置できる。
+  effect: 読み取れる者だけに通じる、内面の常時発信チャンネルを作る。
+  pairs_with: [tebukuro, kansatsu-guse, mimi-ga-akai]
+  contrasts_with: []
+  tags: [反復動作, 内輪の読解]
+
+# --- relation.position ---
+- id: shujuu
+  name: 主従
+  kana: しゅじゅう
+  aliases: [仕える, 従者]
+  axis: relation.position
+  summary: 命令と服従で結ばれた非対称。役割が感情に先行する。
+  description: >-
+    命令だから従っているのか、そうしたいから従っているのかが
+    原理的に判別できない。その判別不能性が関係の核になる。
+  effect: 好意と義務を混同させ、両者に判定を保留させ続ける。
+  pairs_with: [keigo, kokuin, choker, shien-shoku]
+  contrasts_with: [aibou]
+  tags: [非対称, 判定不能]
+
+- id: osananajimi
+  name: 幼馴染
+  kana: おさななじみ
+  aliases: [昔からの関係]
+  axis: relation.position
+  summary: 選ぶ前から成立していた関係。歴史が先に存在する。
+  description: >-
+    共有された過去が長いほど、現在の関係を変更するコストが上がる。
+    「今さら言えない」という状態が構造的に発生する。
+  effect: 蓄積した安定を、変化に対する抵抗として作用させる。
+  pairs_with: [onaji-basho, yakusoku, kizuka-re-tenai-koui]
+  contrasts_with: [ihoujin]
+  tags: [既存関係, 変更困難]
+
+- id: shitei
+  name: 師弟
+  kana: してい
+  aliases: [師匠と弟子]
+  axis: relation.position
+  summary: 教える者と教わる者。追い越されることが前提に組まれている。
+  description: >-
+    技術の継承と同時に、立場の逆転が予約されている関係。
+    教える側が退場することで完成する構造を持つ。
+  effect: 関係の終わり方をあらかじめ設計し、その到達を目指させる。
+  pairs_with: [toshiue, shokunin-kishitsu, keishou, taijou]
+  contrasts_with: []
+  tags: [継承, 逆転予約]
+
+- id: shukuteki
+  name: 宿敵
+  kana: しゅくてき
+  aliases: [好敵手, ライバル]
+  axis: relation.position
+  summary: 敵対しながら最も深く理解し合っている関係。
+  description: >-
+    互いを最も正確に把握しているのが敵同士であるという逆説が中心にある。
+    味方より会話が成立してしまう場面が最大の見せ場になる。
+  effect: 敵対という形式のまま、最高密度の相互理解を成立させる。
+  pairs_with: [rigi, kagami-awase, misue, yakusoku]
+  contrasts_with: []
+  tags: [逆説, 相互理解]
+
+- id: aibou
+  name: 相棒
+  kana: あいぼう
+  aliases: [対等な二人]
+  axis: relation.position
+  summary: 上下のない協働関係。役割分担が信頼で成立している。
+  description: >-
+    対等であるがゆえに、片方が欠けたときの穴が構造的に埋まらない。
+    背中を預けるという動作が信頼の可視化として機能する。
+  effect: 対称な関係を作り、欠損時に代替不能であることを保証する。
+  pairs_with: [rigi, kyuumei-no-on, buki]
+  contrasts_with: [shujuu]
+  tags: [対等, 代替不能]
+
+- id: hogosha
+  name: 保護者代わり
+  kana: ほごしゃがわり
+  aliases: [親代わり, 拾った関係]
+  axis: relation.position
+  summary: 血縁のない養育関係。選択によって成立した家族。
+  description: >-
+    「養う理由がない」という前提があるため、続いていること自体が
+    感情の証明になる。巣立ちが必然として組み込まれる。
+  effect: 継続の事実そのものを愛情の証拠に変え、別離を予定する。
+  pairs_with: [sewayaki, sodachi-no-kage, wakare-to-saikai]
+  contrasts_with: []
+  tags: [選択家族, 別離予定]
+
+# --- relation.distance ---
+- id: kabau
+  name: 庇う
+  kana: かばう
+  aliases: [身を挺する]
+  axis: relation.distance
+  summary: 自分の身体を相手の前に置く動作。優先順位の即時開示。
+  description: >-
+    思考する時間のない場面で起きるため、言葉より信用できる。
+    庇われた側に負債が発生し、関係の均衡が崩れる。
+  effect: 優先順位を反射速度で証明し、同時に負債を発生させる。
+  pairs_with: [gisei-shikou, nagami, kyuumei-no-on, toshiue]
+  contrasts_with: []
+  tags: [即時開示, 負債]
+
+- id: kyori-no-hanten
+  name: 立場の逆転
+  kana: たちばのぎゃくてん
+  aliases: [追い越す, 守られる側になる]
+  axis: relation.distance
+  summary: 上下関係が入れ替わる推移。守る側と守られる側の交代。
+  description: >-
+    以前の関係が十分に描かれているほど、逆転の効果が大きい。
+    逆転された側の受容の仕方に人格が最も出る。
+  effect: 既に確立した関係を反転させ、蓄積を一度に回収する。
+  pairs_with: [shitei, toshiue, keishou, kabau]
+  contrasts_with: []
+  tags: [反転, 回収]
+
+- id: uragiri
+  name: 裏切り
+  kana: うらぎり
+  aliases: [離反]
+  axis: relation.distance
+  summary: 信頼の前提が破棄される推移。過去の全場面が再解釈される。
+  description: >-
+    裏切りの価値は、それ以前に積んだ信頼の量に完全に比例する。
+    理由が明かされる順番によって、悲劇にも救済にもなる。
+  effect: 蓄積した信頼を燃料に変え、過去の全場面の意味を書き換える。
+  pairs_with: [himitsu-no-shoutai, futatsu-no-kao, tsumi-no-ishiki]
+  contrasts_with: []
+  tags: [破棄, 再解釈]
+
+- id: wakare-to-saikai
+  name: 別離と再会
+  kana: べつりとさいかい
+  aliases: [数年後, 変わってしまった]
+  axis: relation.distance
+  summary: 時間を挟んだ関係の再開。空白期間が両者を変質させる。
+  description: >-
+    空白の間に何があったかを互いに知らないため、
+    知らない部分の存在そのものが新しい距離として作用する。
+  effect: 関係を一度切断し、埋まらない空白を新たな要素として追加する。
+  pairs_with: [hogosha, osananajimi, kataranu-kako, onaji-basho]
+  contrasts_with: []
+  tags: [空白, 変質]
+
+# --- relation.bond ---
+- id: keiyaku
+  name: 契約
+  kana: けいやく
+  aliases: [誓約, 取引]
+  axis: relation.bond
+  summary: 明文化された条件で結ばれた関係。感情の外側にある拘束。
+  description: >-
+    契約が切れても一緒にいるかどうかという問いが、必ず最後に残る。
+    条件を持ち出すことが本心を隠す口実にもなる。
+  effect: 関係の根拠を外部化し、それが失効する日を期限として設定する。
+  pairs_with: [ringu, kokuin, jinzou, shujuu]
+  contrasts_with: []
+  tags: [外部根拠, 期限]
+
+- id: fuuin
+  name: 封印
+  kana: ふういん
+  aliases: [枷, 抑制]
+  axis: relation.bond
+  summary: 力や存在を押さえつけている仕掛け。解けることが前提にある。
+  description: >-
+    封じている側と封じられている側の双方に依存関係が生まれる。
+    解放が救済なのか災厄なのかが最後まで確定しない。
+  effect: 解放の予感を常時鳴らし続け、その意味を宙吊りにする。
+  pairs_with: [houtai, choker, kokuin, hitonarazaru]
+  contrasts_with: []
+  tags: [抑制, 解放予告]
+
+- id: himitsu-no-kyouyuu
+  name: 秘密の共有
+  kana: ひみつのきょうゆう
+  aliases: [二人だけが知っている]
+  axis: relation.bond
+  summary: 他者に言えない情報を共有している状態。共犯関係。
+  description: >-
+    秘密の重さがそのまま結束の強度になるが、同時に
+    関係を秘密に依存させる。秘密が公になると関係の根拠が消える。
+  effect: 排他的な結束を作り、その根拠を失う危険と抱き合わせにする。
+  pairs_with: [futari-dake, himitsu-no-shoutai, chinmoku]
+  contrasts_with: []
+  tags: [共犯, 排他]
+
+- id: kyuumei-no-on
+  name: 命の借り
+  kana: いのちのかり
+  aliases: [助けられた恩]
+  axis: relation.bond
+  summary: 返しきれない負債。関係を強制的に継続させる。
+  description: >-
+    返済不能であるため、恩を口実に居続けることができる。
+    本当は恩など理由ではないという疑いが常に残る。
+  effect: 一緒にいる理由を外部に用意し、本心の告白を先送りさせる。
+  pairs_with: [rigi, kabau, aibou, kuchibeta]
+  contrasts_with: []
+  tags: [負債, 口実]

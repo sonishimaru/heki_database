@@ -1,0 +1,23 @@
+name: validate
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pyyaml
+      - name: データを検証する
+        run: python3 tools/build.py --check
+      - name: 生成物が最新か確認する
+        run: |
+          python3 tools/build.py
+          git diff --exit-code docs/data/db.json \
+            || (echo "docs/data/db.json が古いです。python3 tools/build.py を実行してコミットしてください。" && exit 1)

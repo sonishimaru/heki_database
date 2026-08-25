@@ -1,0 +1,288 @@
+# キャラクター名鑑（分解の実例）
+#
+# 初期データは権利関係が明快な古典・パブリックドメイン作品のキャラクターで構成している。
+# 現代作品のキャラクターを追加する場合も、記述は「どの要素で構成されているか」の
+# 分析に限り、本文・画像の転載は行わないこと。
+#
+# weight: core（その人物の骨格）/ sub（補強）/ spice（一点差し）
+
+- id: sherlock-holmes
+  name: シャーロック・ホームズ
+  kana: しゃーろっくほーむず
+  work: シャーロック・ホームズ シリーズ
+  year: 1887
+  author: アーサー・コナン・ドイル
+  summary: 観察の精度で世界を読み切る一方、生活能力と情緒だけが欠落している探偵。
+  elements:
+    - {id: kansatsu-guse, weight: core, note: 靴の泥と袖の擦れから経歴を再構成する}
+    - {id: gouri, weight: core, note: 感情を判断材料から明示的に排除している}
+    - {id: shokunin-kishitsu, weight: core, note: 専門領域でのみ饒舌になる}
+    - {id: zubora, weight: sub, note: 下宿の惨状と不規則な生活}
+    - {id: dokuzetsu, weight: sub}
+    - {id: hayakuchi, weight: sub, note: 推理の披露時に速度が上がる}
+    - {id: aibou, weight: core, note: ワトソンという記録者との対}
+    - {id: shukuteki, weight: sub, note: モリアーティという同水準の知性}
+    - {id: kataranu-kako, weight: spice}
+  patterns: [kanzen-no-hokorobi, gouri-no-reigai, tekitai-no-rikai]
+
+- id: kaguya-hime
+  name: かぐや姫
+  kana: かぐやひめ
+  work: 竹取物語
+  year: 900
+  author: 作者不詳
+  summary: 期限つきで地上に置かれ、去ることが最初から決まっている来訪者。
+  elements:
+    - {id: hitonarazaru, weight: core, note: 月の住人であり地上の理に属さない}
+    - {id: kikan-gentei, weight: core, note: 帰還の日が確定している}
+    - {id: joukyuu-shusshin, weight: sub}
+    - {id: kimono, weight: sub}
+    - {id: long-straight, weight: spice}
+    - {id: hogosha, weight: sub, note: 翁と媼という血縁のない養育}
+    - {id: chinmoku, weight: sub, note: 帰還の理由を最後まで説明しない}
+    - {id: taijou, weight: core}
+    - {id: ushinatta-mono, weight: sub, note: 残される側に穴が空く}
+  patterns: [nichijou-no-ikei, ienai-mama-owaru]
+
+- id: frankenstein-creature
+  name: フランケンシュタインの怪物
+  kana: ふらんけんしゅたいんのかいぶつ
+  work: フランケンシュタイン
+  year: 1818
+  author: メアリー・シェリー
+  summary: 作られた側が、作った側に「なぜ生んだのか」を問い返す存在。
+  elements:
+    - {id: jinzou, weight: core, note: 目的なく作られ、目的なく放棄された}
+    - {id: kizuato, weight: core, note: 縫合痕そのものが出自の証明}
+    - {id: hitonarazaru, weight: core}
+    - {id: sodachi-no-kage, weight: sub, note: 養育を受けずに言語と倫理を独学する}
+    - {id: misuterareru-fuan, weight: core}
+    - {id: fukushuu, weight: sub}
+    - {id: jiko-hyouka-no-hikusa, weight: sub}
+    - {id: kataribe, weight: spice, note: 自らの半生を語る章を持つ}
+  patterns: [jinzou-no-hatsu-ishi, kyohi-kara-no-juyou, kizu-wa-shoumei]
+
+- id: jekyll-hyde
+  name: ジキルとハイド
+  kana: じきるとはいど
+  work: ジキル博士とハイド氏
+  year: 1886
+  author: ロバート・ルイス・スティーヴンソン
+  summary: 分離したはずの二面が、やがて本体の側を侵食していく。
+  elements:
+    - {id: futatsu-no-kao, weight: core, note: 薬によって人格が分離している}
+    - {id: himitsu-no-shoutai, weight: core}
+    - {id: shokunin-kishitsu, weight: sub, note: 医学者としての社会的信用}
+    - {id: muri-o-suru, weight: sub, note: 制御できている体を装い続ける}
+    - {id: tenraku, weight: core}
+    - {id: hohoemi-no-kamen, weight: sub}
+    - {id: tsumi-no-ishiki, weight: sub}
+  patterns: [genkai-made-kakusu]
+
+- id: scrooge
+  name: エベネーザ・スクルージ
+  kana: えべねーざすくるーじ
+  work: クリスマス・キャロル
+  year: 1843
+  author: チャールズ・ディケンズ
+  summary: 徹底した合理で他者を切り捨ててきた老人が、一夜で回帰する。
+  elements:
+    - {id: gouri, weight: core, note: 感情を勘定に入れない経営}
+    - {id: kyomu, weight: sub}
+    - {id: ushinatta-mono, weight: core, note: 若い頃に手放した関係}
+    - {id: shiren-o-ataeru-mono, weight: sub, note: 三人の精霊による試練}
+    - {id: kaiki, weight: core}
+    - {id: kyuusai, weight: core}
+    - {id: onaji-basho, weight: sub, note: 過去の同じ部屋を再訪する}
+  patterns: [kyohi-kara-no-juyou]
+
+- id: little-mermaid
+  name: 人魚姫
+  kana: にんぎょひめ
+  work: 人魚姫
+  year: 1837
+  author: ハンス・クリスチャン・アンデルセン
+  summary: 伝える手段を代価として支払ったため、最後まで何も伝えられない。
+  elements:
+    - {id: hitonarazaru, weight: core}
+    - {id: chinmoku, weight: core, note: 声を対価として失っている}
+    - {id: kizuka-re-tenai-koui, weight: core}
+    - {id: gisei-shikou, weight: core}
+    - {id: keiyaku, weight: sub, note: 魔女との取引に条件が明記されている}
+    - {id: kikan-gentei, weight: sub}
+    - {id: taijou, weight: core}
+    - {id: kuchibeta, weight: spice, note: 発話手段そのものの喪失として極端化されている}
+  patterns: [ienai-mama-owaru, kizuka-nai-koui]
+
+- id: sun-wukong
+  name: 孫悟空
+  kana: そんごくう
+  work: 西遊記
+  year: 1592
+  author: 呉承恩（伝）
+  summary: 力を封じられることで初めて、居場所と同行者を得た無法者。
+  elements:
+    - {id: muhou-mono, weight: core, note: 天界の秩序に反逆した前史を持つ}
+    - {id: fuuin, weight: core, note: 緊箍児による強制的な抑制}
+    - {id: kihakusa, weight: core}
+    - {id: shitei, weight: core, note: 三蔵法師との非対称な同行}
+    - {id: buki, weight: sub, note: 如意棒}
+    - {id: kemomimi, weight: sub, note: 猿としての身体}
+    - {id: kataranu-kako, weight: spice, note: 五百年の幽閉}
+  patterns: [kaeru-basho, kyori-no-gyakuten]
+
+- id: hamlet
+  name: ハムレット
+  kana: はむれっと
+  work: ハムレット
+  year: 1601
+  author: ウィリアム・シェイクスピア
+  summary: 復讐の資格も理由も揃っているのに、決定的な一手だけが打てない。
+  elements:
+    - {id: joukyuu-shusshin, weight: core}
+    - {id: fukushuu, weight: core}
+    - {id: jikoenshutsu, weight: sub, note: 狂気を装う}
+    - {id: futatsu-no-kao, weight: sub}
+    - {id: chinmoku, weight: sub}
+    - {id: tsumi-no-ishiki, weight: sub}
+    - {id: uragiri, weight: sub}
+    - {id: tenraku, weight: core}
+  patterns: [teki-ni-narikirenai, uragiri-no-nenryou]
+
+- id: edmond-dantes
+  name: エドモン・ダンテス
+  kana: えどもんだんてす
+  work: モンテ・クリスト伯
+  year: 1844
+  author: アレクサンドル・デュマ
+  summary: 信頼していた者に落とされ、別人として戻ってくる。
+  elements:
+    - {id: uragiri, weight: core, note: 友人と同僚による密告}
+    - {id: himitsu-no-shoutai, weight: core, note: 伯爵という別身分}
+    - {id: futatsu-no-kao, weight: core}
+    - {id: fukushuu, weight: core}
+    - {id: yoyuu, weight: sub, note: 完成された社交上の余裕}
+    - {id: kataranu-kako, weight: sub}
+    - {id: kizuato, weight: spice, note: 十四年の幽閉が残した変質}
+    - {id: kyomu, weight: sub, note: 完遂後に残る空白}
+  patterns: [uragiri-no-nenryou, kizu-wa-shoumei]
+
+- id: jean-valjean
+  name: ジャン・バルジャン
+  kana: じゃんばるじゃん
+  work: レ・ミゼラブル
+  year: 1862
+  author: ヴィクトル・ユゴー
+  summary: 一度受け取ってしまった赦しを、生涯かけて返済し続ける。
+  elements:
+    - {id: tsumi-no-ishiki, weight: core}
+    - {id: himitsu-no-shoutai, weight: core, note: 名を変えて市長として生きる}
+    - {id: kyuusai, weight: core, note: 銀の燭台による赦し}
+    - {id: hogosha, weight: core, note: コゼットとの血縁なき養育}
+    - {id: kinniku, weight: sub, note: 徒刑場で得た怪力}
+    - {id: kokuin, weight: sub, note: 囚人番号という消えない登録}
+    - {id: gisei-shikou, weight: sub}
+    - {id: taijou, weight: sub}
+  patterns: [kyohi-kara-no-juyou, gentei-no-sugao]
+
+- id: javert
+  name: ジャヴェール
+  kana: じゃゔぇーる
+  work: レ・ミゼラブル
+  year: 1862
+  author: ヴィクトル・ユゴー
+  summary: 法という単一の原理で立っていたため、例外を一つ認めた瞬間に崩れる。
+  elements:
+    - {id: kyoujin-na-ishi, weight: core, note: 法と秩序を唯一の基準とする}
+    - {id: gouri, weight: core}
+    - {id: gunpuku, weight: sub}
+    - {id: shisei-no-yosa, weight: sub}
+    - {id: sodachi-no-kage, weight: sub, note: 監獄で生まれた出自}
+    - {id: tenraku, weight: core, note: 原理の破綻がそのまま自壊になる}
+    - {id: kagami-awase, weight: core, note: バルジャンと同じ問いに逆の答えを出す}
+  patterns: [gouri-no-reigai]
+
+- id: cyrano
+  name: シラノ・ド・ベルジュラック
+  kana: しらのどべるじゅらっく
+  work: シラノ・ド・ベルジュラック
+  year: 1897
+  author: エドモン・ロスタン
+  summary: 他人の恋のために言葉を尽くし、自分の分だけを最後まで残す。
+  elements:
+    - {id: kizuka-re-tenai-koui, weight: core}
+    - {id: shien-shoku, weight: core, note: 代筆という形で他者の恋を成立させる}
+    - {id: jiko-hyouka-no-hikusa, weight: core, note: 容貌を理由に資格がないと判定している}
+    - {id: dokuzetsu, weight: sub}
+    - {id: buki, weight: sub, note: 剣と詩を同時に扱う}
+    - {id: jikoenshutsu, weight: sub}
+    - {id: kuchibeta, weight: spice, note: 雄弁でありながら自分の件だけ言えない}
+    - {id: taijou, weight: core}
+  patterns: [ienai-mama-owaru, sasaeru-gawa-no-yokubou, kizuka-nai-koui]
+
+- id: peter-pan
+  name: ピーター・パン
+  kana: ぴーたーぱん
+  work: ピーター・パン
+  year: 1904
+  author: J・M・バリー
+  summary: 年を取らないため、関わった全員を必ず見送る側に回る。
+  elements:
+    - {id: choujumyou, weight: core, note: 成長しないという形の不老}
+    - {id: ohirakebo, weight: sub}
+    - {id: wakare-to-saikai, weight: core, note: 数十年後に再訪して差分だけが露出する}
+    - {id: onaji-basho, weight: sub, note: 同じ窓に戻ってくる}
+    - {id: ushinatta-mono, weight: sub}
+    - {id: shukuteki, weight: sub, note: フックとの反復する対立}
+    - {id: kikan-gentei, weight: sub}
+  patterns: [choujumyou-no-miokuri, ienai-mama-owaru]
+
+- id: alice
+  name: アリス
+  kana: ありす
+  work: 不思議の国のアリス
+  year: 1865
+  author: ルイス・キャロル
+  summary: 異常な世界に唯一の常識を持ち込み、その常識ごと揺さぶられる。
+  elements:
+    - {id: ihoujin, weight: core, note: 論理の通じない世界へ落ちる}
+    - {id: tsukkomi, weight: core, note: 場の異常を言語化する唯一の役}
+    - {id: kansatsu-guse, weight: sub}
+    - {id: ohirakebo, weight: sub}
+    - {id: kaiki, weight: sub, note: 元の岸辺へ戻って終わる}
+  patterns: []
+
+- id: benkei
+  name: 武蔵坊弁慶
+  kana: むさしぼうべんけい
+  work: 義経記・弁慶伝承
+  year: 1400
+  author: 作者不詳
+  summary: 支える側であることを選び、最後は立ったまま盾になって終わる。
+  elements:
+    - {id: shien-shoku, weight: core}
+    - {id: shujuu, weight: core, note: 義経への従属を自ら選択している}
+    - {id: kinniku, weight: sub}
+    - {id: muhou-mono, weight: sub, note: 帰依以前の狼藉}
+    - {id: buki, weight: sub, note: 薙刀と七つ道具}
+    - {id: gisei-yaku, weight: core}
+    - {id: kizuato, weight: sub, note: 全身に矢を受けたまま立つ}
+    - {id: rigi, weight: sub}
+  patterns: [kizu-wa-shoumei, sasaeru-gawa-no-yokubou]
+
+- id: cao-cao
+  name: 曹操
+  kana: そうそう
+  work: 三国志演義
+  year: 1400
+  author: 羅貫中（伝）
+  summary: 有能さと非情さを同時に極めながら、才能だけは敵にも惜しむ。
+  elements:
+    - {id: shihaisha, weight: core}
+    - {id: gouri, weight: core, note: 情より利を選ぶことを公言する}
+    - {id: dokuzetsu, weight: sub}
+    - {id: kansatsu-guse, weight: sub, note: 人材の目利き}
+    - {id: kagami-awase, weight: core, note: 劉備という逆の原理との対}
+    - {id: yoyuu, weight: sub}
+    - {id: kizuka-re-tenai-koui, weight: spice, note: 敵将の才への未練}
+  patterns: [tekitai-no-rikai, gouri-no-reigai]

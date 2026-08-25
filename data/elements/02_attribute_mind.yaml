@@ -1,0 +1,484 @@
+# 属性・立場／内面・気質の構成要素
+
+# --- attribute.age ---
+- id: toshiue
+  name: 年上
+  kana: としうえ
+  aliases: [姉貴分, 兄貴分]
+  axis: attribute.age
+  summary: 相手より長く生きている立場。経験の非対称。
+  description: >-
+    先に知っているという優位が既定値になるため、対等になった瞬間や
+    追い越された瞬間が事件になる。庇護と甘えの方向が最初から決まる。
+  effect: 上位の座席を先に与え、そこから降りる／降ろされる過程を作る。
+  pairs_with: [yoyuu, sewayaki, kabau]
+  contrasts_with: [nenrei-sabaku]
+  tags: [非対称, 経験差]
+
+- id: nenrei-sabaku
+  name: 年齢と外見の乖離
+  kana: ねんれいのかいり
+  aliases: [見た目詐欺, ロリババア, 童顔]
+  axis: attribute.age
+  summary: 実年齢と見た目が一致していない状態。扱いと実体がずれる。
+  description: >-
+    周囲が外見に基づいて接するため、本人は常に誤った扱いを受け続ける。
+    その誤差の蓄積が、諦めにも武器にもなる。
+  effect: 対人関係のすべてに恒常的な誤差を注入する。
+  pairs_with: [kohaku, choujumyou, dokuzetsu, hitonarazaru]
+  contrasts_with: [toshiue]
+  tags: [落差源, 誤解]
+
+- id: choujumyou
+  name: 長命・不老
+  kana: ちょうじゅみょう
+  aliases: [不老, 永い時間]
+  axis: attribute.age
+  summary: 他者より遥かに長い時間を生きる性質。別れが標準装備になる。
+  description: >-
+    見送る側に固定されるため、関係を持つこと自体がコストになる。
+    無関心を装う理由として最も強い根拠を提供する。
+  effect: 「どうせ先に失う」という前提を全関係に敷く。
+  pairs_with: [hitonarazaru, kyomu, ushinatta-mono, shirogami]
+  contrasts_with: []
+  tags: [時間, 喪失前提]
+
+# --- attribute.species ---
+- id: hitonarazaru
+  name: 人ならざるもの
+  kana: ひとならざるもの
+  aliases: [亜人, 神, 妖]
+  axis: attribute.species
+  summary: 人間の枠外にいる存在。倫理と感覚の基準が異なる。
+  description: >-
+    人間側の常識が通じないため、通じた瞬間の意味が跳ね上がる。
+    「人らしくなっていく」ことも「人をやめていく」ことも軸にできる。
+  effect: 共感の成立自体を到達点に変える。
+  pairs_with: [muhyoujou, shirogami, heterochromia, kokuin]
+  contrasts_with: []
+  tags: [異物感, 基準ずれ]
+
+- id: kemomimi
+  name: 獣の耳と尾
+  kana: けものみみ
+  aliases: [獣人, 尻尾]
+  axis: attribute.species
+  summary: 人型に付加された動物の器官。意思と無関係に動く部位。
+  description: >-
+    尾や耳は本人の制御外で感情を表示する。取り繕う人物ほど、
+    そこだけが正直であるという構図が成立する。
+  effect: 言動と別系統の感情表示器を身体に増設する。
+  pairs_with: [ahoge, muhyoujou, hitonarazaru]
+  contrasts_with: []
+  tags: [感情漏洩, 付加器官]
+
+- id: jinzou
+  name: 人造・機械
+  kana: じんぞう
+  aliases: [アンドロイド, 人形]
+  axis: attribute.species
+  summary: 作られた存在。目的を与えられて生まれている。
+  description: >-
+    「命令」と「自分の意思」の区別がつかないという固有の問題を抱える。
+    自分で選んだ最初の一回が、そのまま物語の頂点になる。
+  effect: 自由意志の有無そのものを問いとして常設する。
+  pairs_with: [muhyoujou, keiyaku, gishu, kataranu-kako]
+  contrasts_with: []
+  tags: [目的, 自由意志]
+
+- id: fushi
+  name: 死ねない身体
+  kana: しねないからだ
+  aliases: [不死, 再生]
+  axis: attribute.species
+  summary: 損壊しても復元する身体。痛みが終わらない。
+  description: >-
+    死という退路が塞がれているため、自己犠牲が犠牲として成立しない。
+    生を罰として扱う視点が導入できる。
+  effect: 終わりを禁止し、消耗だけが蓄積する状態を作る。
+  pairs_with: [choujumyou, kyomu, tsumi-no-ishiki]
+  contrasts_with: []
+  tags: [終わらない, 罰]
+
+# --- attribute.role ---
+- id: shokunin-kishitsu
+  name: 職人気質
+  kana: しょくにんかたぎ
+  aliases: [専門家, 技術屋]
+  axis: attribute.role
+  summary: 一領域に特化した技能者。その領域でだけ饒舌になる。
+  description: >-
+    普段は無口でも、専門の話題では別人のように喋る。技能の話をしている間だけ
+    警戒が解けるという、限定的な開示口を持つ。
+  effect: 専門領域という一点に、性格の抜け道を用意する。
+  pairs_with: [buki, megane, hakui, kuchibeta]
+  contrasts_with: []
+  tags: [特化, 抜け道]
+
+- id: shihaisha
+  name: 統率者
+  kana: とうそつしゃ
+  aliases: [上司, 王, 隊長]
+  axis: attribute.role
+  summary: 他者の生殺与奪に責任を持つ立場。決定が業務になっている。
+  description: >-
+    弱音を吐く相手がいないという構造的な孤立を伴う。誰にも見せない場所を
+    必ず一つ持つことになる。
+  effect: 責任の重さと引き換えに、常時の孤立を発生させる。
+  pairs_with: [gunpuku, yoyuu, misue, kohaku]
+  contrasts_with: []
+  tags: [責任, 孤立]
+
+- id: shien-shoku
+  name: 支える側
+  kana: ささえるがわ
+  aliases: [参謀, 従者, 後方支援]
+  axis: attribute.role
+  summary: 主役の隣で機能する立場。自分の願いを後回しにする職能。
+  description: >-
+    「あなたのため」が言い訳として無限に使えるため、自分の欲望を
+    最後まで言語化しないまま進行できる。
+  effect: 本人の欲望を構造的に隠蔽し、露出したときの威力を溜める。
+  pairs_with: [sewayaki, gisei-shikou, shujuu, kizuka-re-tenai-koui]
+  contrasts_with: [shihaisha]
+  tags: [従属, 抑圧]
+
+- id: muhou-mono
+  name: 無法者
+  kana: むほうもの
+  aliases: [ならず者, 賞金首]
+  axis: attribute.role
+  summary: 社会の規範の外側で生きる者。制度に守られていない。
+  description: >-
+    信用の代わりに実績と腕で立っているため、約束を守る場面の重みが増す。
+    帰る場所がないことが行動の自由と裏表になる。
+  effect: 規範外に置くことで、規範を守る選択を能動的なものに変える。
+  pairs_with: [tobo, gaitou, buki, rigi]
+  contrasts_with: [keigo]
+  tags: [規範外, 自由]
+
+# --- attribute.origin ---
+- id: joukyuu-shusshin
+  name: 高貴な出自
+  kana: こうきなしゅっしん
+  aliases: [名家, 令嬢, 王族]
+  axis: attribute.origin
+  summary: 家の格を背負って生まれた立場。所作と義務が先に決まっている。
+  description: >-
+    個人の願いより家の都合が優先される前提があるため、
+    「自分で選ぶ」という行為そのものが反逆になる。
+  effect: 選択の自由を初期状態で奪い、取り戻す過程を物語にする。
+  pairs_with: [hime-cut, kimono, keigo, shisei-no-yosa]
+  contrasts_with: [tobo]
+  tags: [義務, 不自由]
+
+- id: tobo
+  name: 流れ者
+  kana: ながれもの
+  aliases: [根無し草, 逃亡者]
+  axis: attribute.origin
+  summary: 定住しない立場。いつでも去れる状態を維持している。
+  description: >-
+    去る自由を持ち続けることが防衛であり、留まる決断が最大の変化になる。
+    過去を語らない理由としても機能する。
+  effect: 「いつでも消える」という前提を置き、留まる選択を重くする。
+  pairs_with: [gaitou, kataranu-kako, muhou-mono, ihoujin]
+  contrasts_with: [joukyuu-shusshin]
+  tags: [非定住, 防衛]
+
+- id: ihoujin
+  name: 異邦人
+  kana: いほうじん
+  aliases: [余所者, 転移者]
+  axis: attribute.origin
+  summary: その土地の文化を共有していない者。常識の翻訳が必要。
+  description: >-
+    知らないがゆえに問える立場であり、観客の代理として機能する。
+    馴染んだ後も完全には同化しきらない残余が残る。
+  effect: 世界の説明役を兼ねつつ、決して土着になれない距離を保つ。
+  pairs_with: [kansatsu-guse, tobo, hitonarazaru]
+  contrasts_with: []
+  tags: [外部視点, 非同化]
+
+- id: sodachi-no-kage
+  name: 陰のある育ち
+  kana: そだちのかげ
+  aliases: [不遇な生い立ち]
+  axis: attribute.origin
+  summary: 標準的な養育を受けていない履歴。欠けた常識が残る。
+  description: >-
+    当たり前のことを知らない、あるいは過剰に警戒するという形で
+    生い立ちが日常動作に露出する。本人は異常だと気づいていない。
+  effect: 日常の小さな挙動に、説明されていない過去を滲ませる。
+  pairs_with: [jiko-hyouka-no-hikusa, kataranu-kako, misuterareru-fuan]
+  contrasts_with: []
+  tags: [欠落, 日常露出]
+
+# --- mind.temperament ---
+- id: tsundere
+  name: 素直じゃない
+  kana: すなおじゃない
+  aliases: [ツンデレ, 天邪鬼]
+  axis: mind.temperament
+  summary: 好意を反対の言葉で出力する癖。言動と本心が符号反転している。
+  description: >-
+    観客には本心が見えていて、作中の相手には見えていないという情報の非対称が
+    面白さの本体。本人も自覚がない場合、さらに深くなる。
+  effect: 観客だけが真意を知っている状態を作り、もどかしさを生成する。
+  pairs_with: [tsurime, me-o-sorasu, mimi-ga-akai, dokuzetsu]
+  contrasts_with: [ohirakebo]
+  tags: [符号反転, 情報非対称]
+
+- id: kuudere
+  name: 平熱が低い
+  kana: へいねつがひくい
+  aliases: [クーデレ, 淡白]
+  axis: mind.temperament
+  summary: 感情の出力が常に小さい状態。振れ幅の基準が低い。
+  description: >-
+    基準が低いため、わずかな温度上昇が事件として検出される。
+    本人は変化を自覚しておらず、周囲が先に気づく。
+  effect: 感情の検出感度を上げ、微小な変化を大事件に変換する。
+  pairs_with: [muhyoujou, kogoe, jitome]
+  contrasts_with: [ohirakebo]
+  tags: [低振幅, 増幅器]
+
+- id: ohirakebo
+  name: 開けっぴろげ
+  kana: あけっぴろげ
+  aliases: [裏表がない, 陽]
+  axis: mind.temperament
+  summary: 感情をそのまま出す性質。隠す機能を持たない。
+  description: >-
+    嘘がつけないため、この人物が黙る／隠す場面が異常事態の合図になる。
+    周囲の閉じた人物を開ける触媒としても働く。
+  effect: 明るさを基準値にし、翳った一瞬を最大の情報にする。
+  pairs_with: [yaeba, twintail, kihakusa]
+  contrasts_with: [tsundere, kuudere, hohoemi-no-kamen]
+  tags: [高振幅, 触媒]
+
+- id: yoyuu
+  name: 余裕
+  kana: よゆう
+  aliases: [大人の態度, 泰然]
+  axis: mind.temperament
+  summary: 何が起きても動じない構え。処理能力の余りを見せている状態。
+  description: >-
+    余裕は維持コストのかかる演技でもある。崩れたときに
+    「ずっと無理をしていた」という後方への解釈修正が起きる。
+  effect: 崩す価値のある高さを設定し、落差の位置エネルギーを蓄える。
+  pairs_with: [toshiue, misue, nagami, shihaisha]
+  contrasts_with: [kihakusa]
+  tags: [高位置, 崩し前提]
+
+- id: kihakusa
+  name: 苛烈
+  kana: かれつ
+  aliases: [激情, 気迫]
+  axis: mind.temperament
+  summary: 感情の出力が強い性質。加減という機能を持たない。
+  description: >-
+    常に全力であるため消耗が早く、続かないことが最初から見えている。
+    その持続不能性そのものが魅力になる。
+  effect: 燃焼速度の速さを提示し、終わりの予感を常時漂わせる。
+  pairs_with: [tsurime, short-nape, kyoujin-na-ishi, muri-o-suru]
+  contrasts_with: [yoyuu]
+  tags: [高出力, 消耗]
+
+- id: hitomishiri
+  name: 人見知り
+  kana: ひとみしり
+  aliases: [対人不安]
+  axis: mind.temperament
+  summary: 他者との接触に高いコストを払う性質。距離の詰め方が下手。
+  description: >-
+    近づける相手の少なさが、選ばれた相手の価値を自動的に上げる。
+    無理をして話しかけた一回が大きな出来事になる。
+  effect: 交流の単価を上げ、些細な接触を達成に変える。
+  pairs_with: [kogoe, heddohon, kuchibeta, jiko-hyouka-no-hikusa]
+  contrasts_with: [ohirakebo]
+  tags: [高コスト, 希少化]
+
+- id: dokuzetsu
+  name: 毒舌
+  kana: どくぜつ
+  aliases: [口が悪い]
+  axis: mind.temperament
+  summary: 攻撃的な語彙を既定値にする性質。正確な観察が前提にある。
+  description: >-
+    的確に刺すためには相手をよく見ている必要があり、
+    悪口の精度がそのまま関心の強さの証明になってしまう。
+  effect: 攻撃の形をとった関心を出力し、本人だけがそれに気づかない。
+  pairs_with: [tsundere, jitome, kansatsu-guse, nenrei-sabaku]
+  contrasts_with: [keigo]
+  tags: [攻撃形, 関心の証明]
+
+- id: sewayaki
+  name: 世話焼き
+  kana: せわやき
+  aliases: [面倒見がいい, 過保護]
+  axis: mind.temperament
+  summary: 他人の生活に手を出す性質。自分の事は後回しになる。
+  description: >-
+    他人を世話している間は自分を見なくて済むという回避行動でもある。
+    世話する相手を失ったときに何も残らない構造を作れる。
+  effect: 献身を通じて自己の空白を隠し、その空白の露出を用意する。
+  pairs_with: [tareme, toshiue, shien-shoku, jiko-hyouka-no-hikusa]
+  contrasts_with: []
+  tags: [献身, 回避]
+
+- id: zubora
+  name: ずぼら
+  kana: ずぼら
+  aliases: [生活能力の欠如, だらしない]
+  axis: mind.temperament
+  summary: 私生活が破綻している性質。公の顔との落差を作る。
+  description: >-
+    仕事や戦闘での有能さと同居させると、能力の偏りが人間味になる。
+    誰かが世話を焼く口実としても機能する。
+  effect: 有能さの裏に生活の穴を開け、他人が入り込む隙を作る。
+  pairs_with: [kuma, hane-kami, heyagi, hakui]
+  contrasts_with: [shisei-no-yosa, kajou-souhoku]
+  tags: [生活, 隙]
+
+- id: jikoenshutsu
+  name: 自己演出
+  kana: じこえんしゅつ
+  aliases: [キャラ作り, 見栄]
+  axis: mind.temperament
+  summary: 見られ方を自分で設計している性質。素と役の境界が曖昧になる。
+  description: >-
+    演じている自覚があるうちは制御できるが、演じ続けるうちに
+    どちらが本体か分からなくなる過程を描ける。
+  effect: 「本当の自分」という問いを常時抱えさせる。
+  pairs_with: [kajou-souhoku, hohoemi-no-kamen, futatsu-no-kao, twintail]
+  contrasts_with: [ohirakebo]
+  tags: [演技, 自己不確定]
+
+# --- mind.creed ---
+- id: kyoujin-na-ishi
+  name: 曲げない意志
+  kana: まげないいし
+  aliases: [信念, 頑固]
+  axis: mind.creed
+  summary: 損得と無関係に選択を固定する原理。折れるまで曲がらない。
+  description: >-
+    周囲を巻き込みながら進むため、被害と成果が同時に発生する。
+    折れる場面がある場合、その一回が物語の中心になる。
+  effect: 行動の予測可能性を上げ、逸脱した一回の意味を最大化する。
+  pairs_with: [kihakusa, kyasha, gisei-shikou, yakusoku]
+  contrasts_with: [gouri, kyomu]
+  tags: [固定, 折れ点]
+
+- id: gisei-shikou
+  name: 自己犠牲
+  kana: じこぎせい
+  aliases: [身を投げ出す]
+  axis: mind.creed
+  summary: 自分の損失を先に選ぶ原理。自分の価値を低く見積もっている。
+  description: >-
+    美談として処理されがちだが、実態は自己評価の低さの表れであることが多い。
+    止める側の存在によって初めて欠陥として可視化される。
+  effect: 献身の裏に自己否定を隠し、それを見抜く他者を必要にする。
+  pairs_with: [jiko-hyouka-no-hikusa, shien-shoku, tsumi-no-ishiki, kabau]
+  contrasts_with: [gouri]
+  tags: [献身, 自己否定]
+
+- id: rigi
+  name: 義理
+  kana: ぎり
+  aliases: [筋を通す, 恩義]
+  axis: mind.creed
+  summary: 受けた恩に対して返礼を義務とする原理。感情より順序を優先する。
+  description: >-
+    好悪と別の軸で行動が決まるため、敵対しながら助けるといった
+    ねじれた行動が自然に成立する。
+  effect: 感情と行動を切り離し、敵味方の線を曖昧にする。
+  pairs_with: [muhou-mono, kyuumei-no-on, shukuteki, yakusoku]
+  contrasts_with: []
+  tags: [順序, ねじれ]
+
+- id: gouri
+  name: 合理主義
+  kana: ごうりしゅぎ
+  aliases: [効率優先, 冷徹]
+  axis: mind.creed
+  summary: 感情を計算から除外する原理。最適解を選び続ける。
+  description: >-
+    合理で説明できない選択をした瞬間に、本人の中の例外が露出する。
+    その例外が誰なのかが最大の情報になる。
+  effect: 例外を作った時点で、その相手を特別だと自動的に証明させる。
+  pairs_with: [muhyoujou, megane, shihaisha, kansatsu-guse]
+  contrasts_with: [gisei-shikou, kyoujin-na-ishi]
+  tags: [計算, 例外検出]
+
+- id: kyomu
+  name: 諦観
+  kana: ていかん
+  aliases: [虚無, 期待しない]
+  axis: mind.creed
+  summary: 結果に期待しない構え。失望を先回りして回避している。
+  description: >-
+    傷つかないための装備であるため、期待してしまう場面が
+    そのまま無防備になる場面と一致する。
+  effect: 期待という行為自体を、その人物にとってのリスクに変える。
+  pairs_with: [choujumyou, fushi, hikari-no-nai-me, misuterareru-fuan]
+  contrasts_with: [kyoujin-na-ishi]
+  tags: [防衛, 無期待]
+
+# --- mind.lack ---
+- id: tsumi-no-ishiki
+  name: 罪の意識
+  kana: つみのいしき
+  aliases: [贖罪, 後悔]
+  axis: mind.lack
+  summary: 過去の選択を清算できていない状態。幸福を自分に許可しない。
+  description: >-
+    赦されることを拒否するため、他者からの好意が罰として作用する。
+    受け取れないという形で欠落が露出する。
+  effect: 与えられる救いを受け取れない体質にし、救済の難度を上げる。
+  pairs_with: [kuma, katami, kataranu-kako, gisei-shikou]
+  contrasts_with: []
+  tags: [未清算, 受容不能]
+
+- id: ushinatta-mono
+  name: 失ったもの
+  kana: うしなったもの
+  aliases: [喪失, 埋まらない席]
+  axis: mind.lack
+  summary: 既に取り返しがつかない欠損。日常の随所に穴が残る。
+  description: >-
+    大きな悲嘆より、二人分用意してしまう食事のような細部で描かれるほど効く。
+    新しい関係を作ることへの罪悪感と接続する。
+  effect: 過去を現在の生活動作の中に居座らせる。
+  pairs_with: [katami, choujumyou, tsumi-no-ishiki, onaji-basho]
+  contrasts_with: []
+  tags: [欠損, 日常露出]
+
+- id: jiko-hyouka-no-hikusa
+  name: 自己評価の低さ
+  kana: じこひょうかのひくさ
+  aliases: [自己肯定感の欠如]
+  axis: mind.lack
+  summary: 自分の価値を過小に見積もる状態。称賛を誤りとして処理する。
+  description: >-
+    他者からの評価がそのまま届かないため、好意の伝達に必ず遅延と減衰が生じる。
+    有能さと併存させると歪みが際立つ。
+  effect: 好意の受信を構造的に妨害し、伝わるまでの過程を長くする。
+  pairs_with: [gisei-shikou, sewayaki, sodachi-no-kage, hitomishiri]
+  contrasts_with: [jikoenshutsu]
+  tags: [受信障害, 歪み]
+
+- id: misuterareru-fuan
+  name: 見捨てられ不安
+  kana: みすてられふあん
+  aliases: [依存, 執着]
+  axis: mind.lack
+  summary: 関係が失われる予感に常時さらされている状態。
+  description: >-
+    先に離れることで傷を制御しようとする、あるいは繋ぎ止めるために
+    過剰な献身に走るという、両極端の行動として表面化する。
+  effect: 安定した関係そのものを、その人物にとっての恐怖に変える。
+  pairs_with: [sodachi-no-kage, kyomu, choker, yakusoku]
+  contrasts_with: []
+  tags: [不安, 両極化]

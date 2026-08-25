@@ -1,0 +1,424 @@
+# 性癖パターン
+#
+# 要素そのものではなく、要素の「配置」から生まれる快の型。
+# formula は次の文法で記述する:
+#   subject   … 誰が（主体の初期条件）
+#   delta     … 何が変化するか（落差の中身）
+#   trigger   … 何によって発火するか
+#   condition … どの範囲でのみ成立するか（限定性）
+#   observer  … 誰の視点から観測されると効くか
+# requires が満たされていない場合、その性癖は成立しない。
+
+- id: yoyuu-kuzure
+  name: 余裕の崩壊
+  kana: よゆうのほうかい
+  aliases: [余裕がなくなる, 崩れる大人]
+  core_axis: structure.gap
+  summary: 常に上から構えていた人物が、たった一人の前で制御を失う。
+  formula:
+    subject: 平常時は動じず、会話の主導権を握り続けている上位者
+    delta: 言葉に詰まる／目を逸らす／耳が赤くなるという制御の喪失
+    trigger: 格下と見ていた相手からの、想定外の一手
+    condition: その相手の前でのみ発生し、他者の前では即座に復元される
+    observer: 崩れる前の姿を十分に見てきた者
+  requires: [yoyuu, misue, futari-dake]
+  intensifiers: [toshiue, nagami, mimi-ga-akai, me-o-sorasu, shihaisha]
+  breaks_when: 平常時の余裕が十分に描かれていない場合、落差が発生せず単なる動揺になる。
+  related: [gentei-no-sugao, gouri-no-reigai]
+  tags: [落差, 限定, 逆転]
+
+- id: gentei-no-sugao
+  name: 一人にだけ素顔
+  kana: ひとりにだけすがお
+  aliases: [あなたの前でだけ]
+  core_axis: structure.condition
+  summary: 全員に見せている顔と、一人にだけ見せる顔が違う。
+  formula:
+    subject: 社会的な役割を完璧に演じ切っている人物
+    delta: 敬語が崩れる／髪を下ろす／弱音を漏らすという役割の脱衣
+    trigger: 二人きりになること、あるいは役割が終了する時間帯
+    condition: 特定の一人の前、または特定の場所でのみ
+    observer: その特権を与えられた側
+  requires: [futari-dake, hohoemi-no-kamen]
+  intensifiers: [keigo, heyagi, hair-down, gunpuku, shihaisha]
+  breaks_when: 誰の前でも素を見せていると、限定性が消えて特権が成立しない。
+  related: [yoyuu-kuzure, kamen-no-shita]
+  tags: [限定, 特権化, 開示]
+
+- id: bimyou-na-hendou
+  name: 無表情の小数点
+  kana: むひょうじょうのしょうすうてん
+  aliases: [わずかに動く, 感情の検出]
+  core_axis: structure.gap
+  summary: 表情が動かない人物の、コンマ一段階の変化がすべてを語る。
+  formula:
+    subject: 感情の出力が常に一定で、平熱の低い人物
+    delta: 眉が一ミリ動く／語尾が僅かに揺れる／尻尾だけが跳ねる
+    trigger: 本人にとって想定外の好意や損失
+    condition: 変化に気づけるのは、長く観察してきた者だけ
+    observer: 差分を検出できるほど付き合いの長い人物
+  requires: [muhyoujou, kuudere]
+  intensifiers: [ahoge, kemomimi, mimi-ga-akai, kansatsu-guse, jinzou]
+  breaks_when: 基準となる無表情が十分な尺で提示されていないと、変化が検出できない。
+  related: [gouri-no-reigai, jinzou-no-hatsu-ishi]
+  tags: [微分, 増幅, 観察]
+
+- id: gouri-no-reigai
+  name: 合理主義者の例外
+  kana: ごうりしゅぎしゃのれいがい
+  aliases: [計算が合わない, 一人だけ勘定に入らない]
+  core_axis: mind.creed
+  summary: 全てを損得で処理する人物が、一人に対してだけ計算を放棄する。
+  formula:
+    subject: 感情を判断から排除して最適解を選び続けてきた人物
+    delta: 明らかに損な選択を、理由を説明せずに実行する
+    trigger: 対象の危機、あるいは対象を切り捨てれば済む局面
+    condition: その一人に関わる案件でのみ、判断基準が壊れる
+    observer: その人物の合理性を信頼していた周囲
+  requires: [gouri, misue]
+  intensifiers: [muhyoujou, megane, shihaisha, kuchibeta, kabau]
+  breaks_when: 例外の理由を本人が言語化して説明すると、例外ではなく別の合理になる。
+  related: [bimyou-na-hendou, yoyuu-kuzure]
+  tags: [例外, 証明, 無自覚]
+
+- id: kanzen-no-hokorobi
+  name: 完璧な人の生活破綻
+  kana: かんぺきなひとのせいかつはたん
+  aliases: [部屋が汚い, 私生活だけ駄目]
+  core_axis: structure.gap
+  summary: 職務では非の打ち所がない人物の、生活能力だけが壊滅している。
+  formula:
+    subject: 専門領域で圧倒的な成果を出している人物
+    delta: 食事を抜く／部屋が荒れている／寝ていないという生活の欠損
+    trigger: 職務の場から私的な空間へ場面が移ること
+    condition: 職場では完全に隠蔽され、私室に入った者だけが知る
+    observer: 世話を焼かざるを得なくなった同居者・部下
+  requires: [zubora, tsuyosa-to-moroi]
+  intensifiers: [kuma, hakui, hane-kami, heyagi, sewayaki]
+  breaks_when: 職務上の有能さが具体的に示されていないと、単にだらしない人物になる。
+  related: [gentei-no-sugao, genkai-made-kakusu]
+  tags: [落差, 生活, 介入余地]
+
+- id: genkai-made-kakusu
+  name: 限界まで隠す
+  kana: げんかいまでかくす
+  aliases: [無理を隠す, 倒れて初めてばれる]
+  core_axis: behavior.habit
+  summary: 消耗を最後まで申告せず、破綻して初めて周囲が気づく。
+  formula:
+    subject: 弱さの開示を敗北か迷惑とみなしている人物
+    delta: 平然とした表情のまま、身体だけが先に停止する
+    trigger: 負荷が閾値を超える、あるいは隠す必要のない相手と二人になる
+    condition: 気づけるのは、細部の違和を拾える一部の人物のみ
+    observer: 異常に最初に気づいてしまった者
+  requires: [muri-o-suru, hohoemi-no-kamen]
+  intensifiers: [gisei-shikou, kihakusa, kuma, jiko-hyouka-no-hikusa, kowareta-egao]
+  breaks_when: 本人が早期に弱音を吐くと、隠蔽の緊張が発生しない。
+  related: [kanzen-no-hokorobi, tsuyosa-no-mubousa]
+  tags: [隠蔽, 破綻, 発見]
+
+- id: tsuyosa-no-mubousa
+  name: 最強の無防備
+  kana: さいきょうのむぼうび
+  aliases: [強いのに危うい, 寝顔]
+  core_axis: structure.gap
+  summary: 誰よりも強い人物が、ある一点においてまったく守られていない。
+  formula:
+    subject: 戦闘・権力・才能のいずれかで突出している人物
+    delta: 眠る／怪我を手当てされる／背中を預けるという防御の放棄
+    trigger: 安全だと判断した相手・場所に入ったとき
+    condition: 無防備になる相手が限定されている
+    observer: 無防備を許された側
+  requires: [tsuyosa-to-moroi, futari-dake]
+  intensifiers: [kyasha, kinniku, kizuato, gishu, heyagi]
+  breaks_when: 強さの証明が不足していると、無防備が単なる弱さとして読まれる。
+  related: [genkai-made-kakusu, kizu-wa-shoumei]
+  tags: [落差, 信頼, 許可]
+
+- id: kizuka-nai-koui
+  name: 本人だけ気づいていない
+  kana: ほんにんだけきづいていない
+  aliases: [自覚がない, 好意の無自覚]
+  core_axis: structure.hidden
+  summary: 観客と周囲には明白な感情を、当人だけが別の名前で呼んでいる。
+  formula:
+    subject: 感情の分類を誤っている、あるいは認めない人物
+    delta: 行動だけが先行し、説明が後から破綻する
+    trigger: 対象が他者と親密にしている場面の目撃
+    condition: 当事者の視界の中でのみ、真意が不可視になっている
+    observer: 全部見えている観客と、呆れている第三者
+  requires: [kizuka-re-tenai-koui, tsundere]
+  intensifiers: [me-o-sorasu, mimi-ga-akai, dokuzetsu, jitome, kansatsu-guse]
+  breaks_when: 引き延ばしが過ぎると、鈍感ではなく不誠実として読まれ共感が切れる。
+  related: [tekitai-no-rikai, ienai-mama-owaru]
+  tags: [情報非対称, 遅延, もどかしさ]
+
+- id: tekitai-no-rikai
+  name: 敵だけが理解している
+  kana: てきだけがりかいしている
+  aliases: [宿敵の対話, 一番わかっているのが敵]
+  core_axis: relation.position
+  summary: 味方の誰にも通じない話が、殺し合う相手とだけ成立する。
+  formula:
+    subject: 立場上、決して和解できない二者
+    delta: 戦闘の合間に、他の誰とも交わせない水準の会話が成立する
+    trigger: 互いの選択の理由が明かされる局面
+    condition: 敵対関係が維持されている間だけ成立し、和解すると消える
+    observer: 蚊帳の外に置かれた味方
+  requires: [shukuteki, kagami-awase]
+  intensifiers: [misue, rigi, yakusoku, kyoujin-na-ishi, chinmoku]
+  breaks_when: どちらかが敵対の理由を失うと、関係の緊張が消えて凡庸な友情になる。
+  related: [teki-ni-narikirenai, kizuka-nai-koui]
+  tags: [逆説, 相互理解, 敵対]
+
+- id: teki-ni-narikirenai
+  name: 敵になりきれない
+  kana: てきになりきれない
+  aliases: [手を抜く, 殺せない]
+  core_axis: relation.distance
+  summary: 敵対する立場を選んだのに、決定的な一手だけが打てない。
+  formula:
+    subject: 組織や信条の都合で、かつての味方と対峙している人物
+    delta: 明らかに詰めを誤る／逃走経路を残す／致命傷を外す
+    trigger: とどめを刺せる状況が実際に訪れること
+    condition: 第三者の目がない場面でのみ露出する
+    observer: 手心に気づいてしまった相手
+  requires: [uragiri, rigi]
+  intensifiers: [kataranu-kako, tsumi-no-ishiki, chinmoku, futatsu-no-kao]
+  breaks_when: 手心の理由がすぐ説明されると、緊張が一度で解消してしまう。
+  related: [tekitai-no-rikai, uragiri-no-nenryou]
+  tags: [矛盾, 保留, 未練]
+
+- id: uragiri-no-nenryou
+  name: 信頼が燃料になる
+  kana: しんらいがねんりょうになる
+  aliases: [積み上げてから裏切る]
+  core_axis: relation.distance
+  summary: 裏切りの威力は、それ以前に積んだ日常の量に正確に比例する。
+  formula:
+    subject: 長期にわたって信頼を獲得してきた人物
+    delta: 前提が破棄され、過去のすべての場面が別の意味を持つ
+    trigger: 隠していた目的が達成可能になる局面
+    condition: 裏切られる側が、最も無防備になった瞬間
+    observer: 積み重ねを一緒に見てきた観客
+  requires: [uragiri, himitsu-no-shoutai]
+  intensifiers: [gishiki, kuchiguse, onaji-basho, hohoemi-no-kamen, futatsu-no-kao]
+  breaks_when: 日常の蓄積が薄いと、裏切りが展開上の処理として消費される。
+  related: [teki-ni-narikirenai, nichijou-no-ikei]
+  tags: [蓄積, 再解釈, 破壊]
+
+- id: kyori-no-gyakuten
+  name: 守る側が守られる
+  kana: まもるがわがまもられる
+  aliases: [立場が逆転する, 追い越される]
+  core_axis: relation.distance
+  summary: ずっと庇ってきた側が、初めて庇われる側に回る。
+  formula:
+    subject: 保護者・師・年長者として関係を固定してきた人物
+    delta: 支えられる、守られる、諭されるという役割の反転
+    trigger: 保護者側の限界、あるいは被保護者側の成長の完了
+    condition: 反転の前段が十分な時間をかけて描かれていること
+    observer: 反転させた側（かつて守られていた者）
+  requires: [kyori-no-hanten, kabau]
+  intensifiers: [shitei, hogosha, toshiue, keishou, muri-o-suru]
+  breaks_when: 元の非対称が薄いと、逆転ではなく単なる助力になる。
+  related: [sodateta-mono-ni-koeraeru, tsuyosa-no-mubousa]
+  tags: [反転, 回収, 成長]
+
+- id: sodateta-mono-ni-koeraeru
+  name: 育てた者に越えられる
+  kana: そだてたものにこえられる
+  aliases: [弟子に敗れる, 卒業]
+  core_axis: narrative.arc
+  summary: 教えた技で敗れることが、教育の完成として提示される。
+  formula:
+    subject: 自分の持つものを他者に渡してきた人物
+    delta: 敗北・退場が、喪失ではなく達成として処理される
+    trigger: 渡した側と渡された側が同じ土俵に立つこと
+    condition: 渡した内容が具体的に描かれていること
+    observer: 敗れた側の表情を見ている観客
+  requires: [shitei, keishou]
+  intensifiers: [buki, kuchiguse, taijou, kyori-no-hanten, toshiue]
+  breaks_when: 継承の中身が曖昧だと、勝敗の結果だけが残って感情が乗らない。
+  related: [kyori-no-gyakuten, nichijou-no-ikei]
+  tags: [継承, 完成, 退場]
+
+- id: ienai-mama-owaru
+  name: 言えないまま終わる
+  kana: いえないままおわる
+  aliases: [告げられなかった, 間に合わない]
+  core_axis: structure.hidden
+  summary: 伝える機会が確実にあったのに、一度も使われないまま関係が閉じる。
+  formula:
+    subject: 感情を保持しながら、言語化を先送りにし続けた人物
+    delta: 伝達の機会が物理的に消滅する
+    trigger: 別離・退場・時間切れ
+    condition: 観客だけが、伝わらなかった事実を知っている
+    observer: 双方の内心を知っている観客のみ
+  requires: [kizuka-re-tenai-koui, taijou]
+  intensifiers: [kuchibeta, chinmoku, katami, ushinatta-mono, kikan-gentei]
+  breaks_when: 最後に伝わってしまうと別の性癖（成就）に変わる。未達であることが要件。
+  related: [kizuka-nai-koui, choujumyou-no-miokuri]
+  tags: [未達, 喪失, 余韻]
+
+- id: yakusoku-no-kaishuu
+  name: 約束の回収
+  kana: やくそくのかいしゅう
+  aliases: [覚えていた, あの時の言葉]
+  core_axis: structure.repetition
+  summary: 忘れられたと思われていた過去の一言が、最終場面で効力を持つ。
+  formula:
+    subject: 過去に交わした取り決めを保持し続けている人物
+    delta: 現在の行動の根拠が、遡って過去の場面に接続される
+    trigger: 約束の条件が満たされる、あるいは破られかける局面
+    condition: 約束の場面が、意味を強調せずに提示済みであること
+    observer: 約束を忘れていた側、または忘れていた観客
+  requires: [yakusoku, kyoujin-na-ishi]
+  intensifiers: [osananajimi, kuchiguse, onaji-basho, katami, kaiki]
+  breaks_when: 初出時に重要性を強調しすぎると、回収時の驚きが失われる。
+  related: [nichijou-no-ikei, kaeru-basho]
+  tags: [伏線, 回収, 継続]
+
+- id: nichijou-no-ikei
+  name: 日常が別れの準備に見える
+  kana: にちじょうがわかれのじゅんびにみえる
+  aliases: [終わりが決まっている日常]
+  core_axis: structure.condition
+  summary: 退場が確定している人物の何気ない場面が、すべて遺言として読まれる。
+  formula:
+    subject: 消えることが構造的に決まっている人物
+    delta: 変化しない日常のほうが、観客側の解釈だけで変質する
+    trigger: 期限・余命・任期の提示
+    condition: 本人は自分の退場を知らない、あるいは受け入れている
+    observer: 先に結末を察知している観客
+  requires: [kikan-gentei, gisei-yaku]
+  intensifiers: [gishiki, onaji-basho, seifuku, kuchiguse, ohirakebo]
+  breaks_when: 日常場面が不足していると、退場が情報の処理で終わる。
+  related: [ienai-mama-owaru, sodateta-mono-ni-koeraeru]
+  tags: [先読み, 予定された喪失, 日常]
+
+- id: jinzou-no-hatsu-ishi
+  name: 作られた者の最初の意思
+  kana: つくられたもののさいしょのいし
+  aliases: [命令ではない選択]
+  core_axis: attribute.species
+  summary: 目的のために作られた存在が、初めて命令外の行動をとる。
+  formula:
+    subject: 与えられた目的に従って稼働してきた存在
+    delta: 命令にない行動を、理由を説明できないまま実行する
+    trigger: 命令と、蓄積された観察が矛盾する局面
+    condition: それまで一度も逸脱していないという履歴があること
+    observer: その存在を道具として扱ってきた者
+  requires: [jinzou, muhyoujou]
+  intensifiers: [keiyaku, kansatsu-guse, kuudere, gisei-shikou, kuchibeta]
+  breaks_when: 早期から人間らしく振る舞っていると、逸脱が事件にならない。
+  related: [bimyou-na-hendou, gouri-no-reigai]
+  tags: [自由意志, 初回, 逸脱]
+
+- id: choujumyou-no-miokuri
+  name: 見送り続ける者
+  kana: みおくりつづけるもの
+  aliases: [先に死なれる側, 永い孤独]
+  core_axis: attribute.age
+  summary: 長すぎる寿命を持つ者が、関係を持つたびに必ず残される。
+  formula:
+    subject: 他者より遥かに長い時間を生きる存在
+    delta: 関わりを避ける構えが、一人の相手によって破られる
+    trigger: 短命な相手が、拒絶を無視して近づいてくること
+    condition: 結末が最初から確定しており、双方がそれを知っている
+    observer: 見送る側の時間感覚に同期した観客
+  requires: [choujumyou, kyomu]
+  intensifiers: [ushinatta-mono, katami, onaji-basho, shirogami, fushi]
+  breaks_when: 寿命差が解消される救済を用意すると、前提そのものが消える。
+  related: [ienai-mama-owaru, kaeru-basho]
+  tags: [時間差, 喪失前提, 孤独]
+
+- id: kamen-no-shita
+  name: 仮面の下の年齢
+  kana: かめんのしたのねんれい
+  aliases: [中身が子供, 大人ぶっている]
+  core_axis: structure.gap
+  summary: 完成された態度の下に、まったく成熟していない部分が残っている。
+  formula:
+    subject: 立場のために年齢不相応な役を演じ続けてきた人物
+    delta: 拗ねる／怖がる／甘えるという、年齢に見合った反応が漏れる
+    trigger: 演技を維持する必要のない相手・疲労・睡眠前
+    condition: 漏れる相手が一人に限定されている
+    observer: 完成された姿しか知らなかった者
+  requires: [jikoenshutsu, futari-dake]
+  intensifiers: [nenrei-sabaku, joukyuu-shusshin, shihaisha, ichininshou, kogoe]
+  breaks_when: 普段から未熟さを見せていると、下の層が存在しないことになる。
+  related: [gentei-no-sugao, yoyuu-kuzure]
+  tags: [層構造, 限定, 退行]
+
+- id: kizu-wa-shoumei
+  name: 傷は生きた証明
+  kana: きずはいきたしょうめい
+  aliases: [語らない傷跡]
+  core_axis: appearance.mark
+  summary: 説明されない傷が、説明された経歴より雄弁に過去を保証する。
+  formula:
+    subject: 過去を語らないまま現在を生きている人物
+    delta: 偶然の露出によって、身体に残る履歴が第三者に見られる
+    trigger: 着替え・負傷・手当てなど、隠せない場面
+    condition: 本人が説明を拒否し続けること
+    observer: 見てしまい、問えなかった者
+  requires: [kizuato, kataranu-kako]
+  intensifiers: [chinmoku, gishu, kinniku, houtai, tobo]
+  breaks_when: 本人が来歴を丁寧に語ると、推測の余地が消えて記号が閉じる。
+  related: [tsuyosa-no-mubousa, kaeru-basho]
+  tags: [非言語, 推測, 履歴]
+
+- id: kaeru-basho
+  name: 帰る場所を得る
+  kana: かえるばしょをえる
+  aliases: [留まる決断, ただいま]
+  core_axis: narrative.arc
+  summary: いつでも去れる状態を保っていた者が、初めて留まることを選ぶ。
+  formula:
+    subject: 定住せず、関係を持たないことで身を守ってきた人物
+    delta: 荷物を解く／鍵を受け取る／「帰る」という語を使う
+    trigger: 去るべき合理的な理由が発生したにもかかわらず、残る局面
+    condition: それまで一貫して去り続けてきた履歴があること
+    observer: 引き止めなかった側
+  requires: [tobo, onaji-basho]
+  intensifiers: [muhou-mono, gaitou, sodachi-no-kage, misuterareru-fuan, gishiki]
+  breaks_when: 最初から居場所に執着していると、留まる決断が変化にならない。
+  related: [yakusoku-no-kaishuu, choujumyou-no-miokuri]
+  tags: [定着, 決断, 反転]
+
+- id: sasaeru-gawa-no-yokubou
+  name: 支える側の欲望
+  kana: ささえるがわのよくぼう
+  aliases: [従者の私情, あなたのためという嘘]
+  core_axis: attribute.role
+  summary: 献身を職務として続けてきた者の私的な欲望が、一度だけ表に出る。
+  formula:
+    subject: 「あなたのため」を理由に自分の願いを語ってこなかった人物
+    delta: 職務の範囲を明確に超えた要求・独占・拒否が出る
+    trigger: 主が自分以外を選ぼうとする局面
+    condition: 露出は一度きりで、直後に職務の顔へ戻ること
+    observer: 従属を当然だと思っていた側
+  requires: [shien-shoku, shujuu]
+  intensifiers: [keigo, kokuin, choker, gisei-shikou, kizuka-re-tenai-koui]
+  breaks_when: 常に私情を出していると、抑圧が蓄積せず露出の威力が出ない。
+  related: [gentei-no-sugao, kizuka-nai-koui]
+  tags: [抑圧, 一回性, 露出]
+
+- id: kyohi-kara-no-juyou
+  name: 赦しを受け取れない
+  kana: ゆるしをうけとれない
+  aliases: [救済の拒否, 自分を許さない]
+  core_axis: mind.lack
+  summary: 差し出された救いを、罰を手放せないという理由で拒み続ける。
+  formula:
+    subject: 過去の選択を清算できていない人物
+    delta: 好意を受け取れず、攻撃や逃走として返してしまう
+    trigger: 無条件の赦しが、繰り返し差し出されること
+    condition: 拒否が一度では終わらず、複数回反復されること
+    observer: 拒まれ続けても差し出し続ける側
+  requires: [tsumi-no-ishiki, kyuusai]
+  intensifiers: [jiko-hyouka-no-hikusa, katami, kuma, fushi, ichido-dake]
+  breaks_when: 一度で受け取ってしまうと、拒否の反復による蓄積が生まれない。
+  related: [genkai-made-kakusu, choujumyou-no-miokuri]
+  tags: [拒否, 反復, 受容]
