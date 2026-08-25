@@ -9,13 +9,17 @@
   kana: あーにゃふぉーじゃー
   work: SPY×FAMILY
   year: 2022
-  summary: （要記入）
+  summary: 研究室の被験者だった不遇な生い立ちと人の心を読める能力を持ちながら、利害の一致によって血縁のない保護者に引き取られ家族関係を営む構造。
   analysis:
-    method: danbooru+auto
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
     date: '2026-08-25'
   elements:
+    - {id: fuguu, weight: core, note: '資料: かつて不明の組織の研究室で被験者として扱われ、そこから逃亡して孤児院にいた経歴を持つ。', src: gemini}
+    - {id: hogosha, weight: core, note: '資料: 孤児院から養父となるロイドに引き取られ、養母ヨルとともに血縁のない養育関係を結んでいる。', src: gemini}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 76%', src: danbooru}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 90%', src: danbooru}
     - {id: ahoge, weight: sub, note: 'danbooru ahoge 49%', src: danbooru}
+    - {id: kako, weight: sub, note: '資料: 能力を与えられた研究室や不明の組織といった詳細な伏せられた前史が存在する。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 36%', src: danbooru}
   patterns: []
