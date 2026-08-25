@@ -28,4 +28,60 @@ characters:
     year: 2022
     danbooru: anya_(spy_x_family)
     anilist: Anya Forger
+  - id: frieren
+    name: フリーレン
+    kana: ふりーれん
+    work: 葬送のフリーレン
+    year: 2020
+    danbooru: frieren
+    anilist: Frieren
+  - id: gojo-satoru
+    name: 五条悟
+    kana: ごじょうさとる
+    work: 呪術廻戦
+    year: 2018
+    danbooru: gojou_satoru
+    anilist: Satoru Gojo
+  - id: yor-forger
+    name: ヨル・フォージャー
+    kana: よるふぉーじゃー
+    work: SPY×FAMILY
+    year: 2019
+    danbooru: yor_briar
+    anilist: Yor Forger
+  - id: makima
+    name: マキマ
+    kana: まきま
+    work: チェンソーマン
+    year: 2018
+    danbooru: makima_(chainsaw_man)
+    anilist: Makima
+  - id: rem
+    name: レム
+    kana: れむ
+    work: Re:ゼロから始める異世界生活
+    year: 2014
+    danbooru: rem_(re:zero)
+    anilist: Rem
+  - id: rengoku-kyojuro
+    name: 煉獄杏寿郎
+    kana: れんごくきょうじゅろう
+    work: 鬼滅の刃
+    year: 2016
+    danbooru: rengoku_kyoujurou
+    anilist: Kyojuro Rengoku
+  - id: zero-two
+    name: ゼロツー
+    kana: ぜろつー
+    work: ダーリン・イン・ザ・フランキス
+    year: 2018
+    danbooru: zero_two_(darling_in_the_franxx)
+    anilist: Zero Two
+  - id: misaka-mikoto
+    name: 御坂美琴
+    kana: みさかみこと
+    work: とある科学の超電磁砲
+    year: 2007
+    danbooru: misaka_mikoto
+    anilist: Mikoto Misaka
 

@@ -311,3 +311,48 @@
   pairs_with: [kako, shoutai, nimensei]
   contrasts_with: []
   tags: [定番]
+
+# --- 分析サイクル 2 巡目の追加 ---
+- id: bob-cut
+  name: ボブ
+  kana: ぼぶ
+  aliases: [ボブカット]
+  axis: appearance.hairstyle
+  summary: 顎から肩の長さで切り揃えた髪。整いと軽さの中間。
+  effect: 長髪の重さも短髪の潔さも持たない、均衡の記号として働く。
+  pairs_with: [kurokami, shisei]
+  contrasts_with: []
+  tags: [定番]
+
+- id: kyonyuu
+  name: 巨乳
+  kana: きょにゅう
+  aliases: [大きい胸]
+  axis: appearance.build
+  summary: 大きい胸。本人の意思と無関係に視線を集める部位。
+  effect: 見られることへの本人の態度（無頓着・羞恥・利用）に性格を映す。
+  pairs_with: [toshiue, yoyuu]
+  contrasts_with: [hinnyuu]
+  tags: [定番]
+
+- id: hinnyuu
+  name: 貧乳
+  kana: ひんにゅう
+  aliases: [小さい胸, ぺたんこ]
+  axis: appearance.build
+  summary: 小さい胸。本人が気にしているかどうかが定番の描写点。
+  effect: 触れてはいけない話題を一つ設置し、踏んだ者への反応で温度を測る。
+  pairs_with: [teishinchou, tsundere]
+  contrasts_with: [kyonyuu]
+  tags: [定番]
+
+- id: mekakushi
+  name: 目隠し
+  kana: めかくし
+  aliases: [ブラインドフォールド]
+  axis: appearance.marks
+  summary: 布などで両目を覆っている状態。視覚を自ら封じている。
+  effect: 「見えていないのに全て見えている」倒錯か、封印の代償かを問わせる。
+  pairs_with: [fuuin, tsuyoi-noni-moroi]
+  contrasts_with: []
+  tags: [遮蔽]

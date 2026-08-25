@@ -209,6 +209,18 @@ elements:
   aidoru:
     tags: [idol, idol_clothes]
 
+  # --- 2 巡目 ---
+  bob-cut:
+    tags: [bob_cut, short_hair_with_long_locks]
+  kyonyuu:
+    tags: [large_breasts, huge_breasts]
+    threshold: 0.5
+  hinnyuu:
+    tags: [flat_chest, small_breasts]
+    threshold: 0.5
+  mekakushi:
+    tags: [blindfold, covered_eyes]
+
 # 画像タグでは判定しない見出し語（vision.py または手作業の担当）
 #   unaji         … Danbooru に対応タグがない
 #   teishinchou   … 身長は単体の絵から判定できない（並んだ絵でのみ分かる）

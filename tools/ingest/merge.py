@@ -22,6 +22,7 @@ import common  # noqa: E402
 
 CHARACTERS = common.ROOT / "data" / "characters.yaml"
 AUTO_CHARACTERS = common.ROOT / "data" / "characters_auto.yaml"
+SUGGESTIONS = common.ROOT / "data" / "suggestions.yaml"
 AUTO_HEADER = """# 機械が生成・更新するキャラクター（自動取り込みの下書き）
 #
 # このファイルは tools/ingest/auto.py が全体を書き直す。手で編集しないこと。
@@ -72,6 +73,27 @@ def from_tags(tags_path: Path) -> tuple[list[dict], int]:
     return results, len(frames)
 
 
+# 見出し語の候補にならない汎用タグ（構図・ポーズ・背景・画面上の記号など）
+GENERIC_TAGS = {
+    "solo", "1girl", "1boy", "2girls", "2boys", "multiple_girls", "multiple_boys",
+    "looking_at_viewer", "looking_back", "looking_to_the_side", "smile", "grin",
+    "open_mouth", "closed_mouth", "parted_lips", "blush", "teeth", "upper_teeth_only",
+    "simple_background", "white_background", "grey_background", "gradient_background",
+    "upper_body", "full_body", "cowboy_shot", "portrait", "close-up", "standing",
+    "sitting", "holding", "arm_up", "arms_up", "hand_up", "hands_up", "long_sleeves",
+    "short_sleeves", "sleeveless", "bare_shoulders", "collared_shirt", "shirt",
+    "white_shirt", "black_shirt", "skirt", "black_skirt", "pleated_skirt", "dress",
+    "jacket", "pants", "shorts", "thighhighs", "pantyhose", "socks", "shoes", "boots",
+    "bangs", "sidelocks", "hair_ornament", "hairclip", "hairband", "ribbon",
+    "hair_ribbon", "bow", "hair_bow", "neck_ribbon", "bowtie", "necktie", "jewelry",
+    "earrings", "one_eye_closed", "day", "outdoors", "indoors", "sky", "cloud",
+    "blurry", "blurry_background", "depth_of_field", "official_alternate_costume",
+    "alternate_costume", "cosplay", "chibi", "heart", "sweat", "speech_bubble",
+    "signature", "artist_name", "watermark", "twitter_username", "virtual_youtuber",
+    "medium_breasts", "cleavage", "navel", "midriff", "floating_hair",
+}
+
+
 def from_danbooru(path: Path) -> list[dict]:
     """Danbooru の関連タグ頻度（群衆合意）を見出し語へ翻訳する。
 
@@ -83,6 +105,7 @@ def from_danbooru(path: Path) -> list[dict]:
     mapping = yaml.safe_load(common.WD_MAP.read_text(encoding="utf-8"))
     default_threshold = mapping.get("defaults", {}).get("threshold", 0.35)
 
+    mapped_tags = {tag for spec in mapping["elements"].values() for tag in spec["tags"]}
     results = []
     for element_id, spec in mapping["elements"].items():
         threshold = spec.get("threshold", default_threshold)
@@ -103,7 +126,13 @@ def from_danbooru(path: Path) -> list[dict]:
                 "_coverage": round(best_freq, 2),
             }
         )
-    return results
+    # 対応表に無い高頻度タグ = 語彙の穴の候補。suggestions として蓄積する
+    unmapped = [
+        {"tag": name, "frequency": value}
+        for name, value in sorted(freq.items(), key=lambda kv: -kv[1])
+        if value >= 0.35 and name not in mapped_tags and name not in GENERIC_TAGS
+    ][:10]
+    return results, unmapped
 
 
 def from_vision(vision_path: Path) -> tuple[list[dict], dict]:
@@ -165,11 +194,13 @@ def main() -> int:
     items: list[dict] = []
     frames = 0
     vision_payload: dict = {}
+    unmapped: list[dict] = []
     if args.tags:
         tag_items, frames = from_tags(args.tags)
         items += tag_items
     if args.danbooru:
-        items += from_danbooru(args.danbooru)
+        danbooru_items, unmapped = from_danbooru(args.danbooru)
+        items += danbooru_items
     if args.vision:
         vision_items, vision_payload = from_vision(args.vision)
         items += vision_items
@@ -236,6 +267,34 @@ def main() -> int:
             encoding="utf-8",
         )
         print(f"data/characters_auto.yaml を更新しました（{entry['id']} / {len(merged)} 要素）")
+
+        # 語彙の穴を suggestions に蓄積（人がレビューして見出し語に昇格させる）
+        new_tags = vision_payload.get("new_tags") or []
+        if unmapped or new_tags:
+            existing_s = []
+            if SUGGESTIONS.exists():
+                existing_s = yaml.safe_load(SUGGESTIONS.read_text(encoding="utf-8")) or []
+            existing_s = [s for s in existing_s if s.get("id") != entry["id"]]
+            existing_s.append(
+                {
+                    "id": entry["id"],
+                    "name": entry["name"],
+                    "date": (entry.get("analysis") or {}).get("date", ""),
+                    "unmapped_danbooru": unmapped,
+                    "new_tag_proposals": new_tags,
+                }
+            )
+            existing_s.sort(key=lambda s: s["id"])
+            header = (
+                "# 語彙の穴の候補（自動蓄積。tools/ingest/merge.py --write-auto が更新する）\n"
+                "#\n"
+                "# unmapped_danbooru: 対応表に無かった高頻度タグ。見出し語に昇格させるなら\n"
+                "#   data/elements/ に追加し、wd_map.yaml に対応を書く。\n"
+                "# new_tag_proposals: classify が語彙に無いと判断した概念の提案。\n"
+                "# 採用・却下は人が決める。処理済みのエントリは消してよい。\n\n"
+            )
+            SUGGESTIONS.write_text(header + yaml.safe_dump(existing_s, allow_unicode=True, sort_keys=False), encoding="utf-8")
+            print(f"  語彙の穴の候補 → data/suggestions.yaml（未対応タグ {len(unmapped)} / 新語提案 {len(new_tags)}）")
         return 0
 
     text = common.emit_character_yaml(entry)
