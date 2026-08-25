@@ -72,23 +72,31 @@ def process(entry: dict, api_key: str | None, sleep: float) -> None:
     workdir.mkdir(parents=True, exist_ok=True)
     python = sys.executable
 
+    def try_fetch(cmd: list, out_path: Path, label: str) -> bool:
+        """ソース単位の取得。失敗しても他のソースで続行する。"""
+        try:
+            run(cmd)
+            time.sleep(sleep)
+            return out_path.exists()
+        except subprocess.CalledProcessError:
+            print(f"  取得失敗（続行）: {label}")
+            return False
+
     danbooru_file = None
     if entry.get("danbooru"):
-        danbooru_file = workdir / "danbooru.json"
-        run([python, INGEST / "fetch.py", "--sleep", sleep, "danbooru", entry["danbooru"], "--out", danbooru_file])
-        time.sleep(sleep)
+        path = workdir / "danbooru.json"
+        if try_fetch([python, INGEST / "fetch.py", "--sleep", sleep, "danbooru", entry["danbooru"], "--out", path], path, f"danbooru {entry['danbooru']}"):
+            danbooru_file = path
 
     pages: list[Path] = []
     if entry.get("anilist"):
         path = workdir / "anilist.json"
-        run([python, INGEST / "fetch.py", "--sleep", sleep, "anilist", entry["anilist"], "--out", path])
-        pages.append(path)
-        time.sleep(sleep)
+        if try_fetch([python, INGEST / "fetch.py", "--sleep", sleep, "anilist", entry["anilist"], "--out", path], path, f"anilist {entry['anilist']}"):
+            pages.append(path)
     for index, url in enumerate(entry.get("pages") or []):
         path = workdir / f"page_{index}.txt"
-        run([python, INGEST / "fetch.py", "--sleep", sleep, "page", url, "--out", path])
-        pages.append(path)
-        time.sleep(sleep)
+        if try_fetch([python, INGEST / "fetch.py", "--sleep", sleep, "page", url, "--out", path], path, url):
+            pages.append(path)
 
     classify_file = None
     if api_key and pages:

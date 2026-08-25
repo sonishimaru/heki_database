@@ -11,8 +11,12 @@
 #     year: 2022
 #     danbooru: anya_(spy_x_family)    # キャラクタータグ（外見の群衆合意）
 #     anilist: Anya Forger             # AniList の検索名（プロフィール）
-#     pages:                           # 資料ページ（公式サイト・pixiv百科事典など）
-#       - https://dic.pixiv.net/a/アーニャ・フォージャー
+#     pages:                           # 資料ページ（公式サイト・Wikipedia・Fandom など）
+#       - https://ja.wikipedia.org/wiki/SPY%C3%97FAMILY
+#
+# 注意: pixiv百科事典は Cloudflare のボット保護があり Actions からは取得できない（403）。
+# pixiv の記事を使いたい場合は手元で fetch.py page を実行して work/ に置くか、
+# Wikipedia / Fandom / 公式サイトの URL を使う。
 #
 # danbooru / anilist / pages はどれも任意。書いたレーンだけが動く。
 
@@ -24,6 +28,4 @@ characters:
     year: 2022
     danbooru: anya_(spy_x_family)
     anilist: Anya Forger
-    pages:
-      - https://dic.pixiv.net/a/アーニャ・フォージャー
 
