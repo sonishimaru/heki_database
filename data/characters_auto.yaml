@@ -67,6 +67,23 @@
     - {id: shitei, weight: sub, note: '資料: 東京都立呪術高等専門学校の教師として、自身の影響力を用いて強く若い仲間たちを保護し育成している。', src: gemini}
   patterns: []
 
+- id: kamado-nezuko
+  name: 竈門禰豆子
+  kana: かまどねずこ
+  work: 鬼滅の刃
+  year: 2016
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-25'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 90%', src: danbooru}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 77%', src: danbooru}
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 66%', src: danbooru}
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 69%', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 36%', src: danbooru}
+  patterns: []
+
 - id: makima
   name: マキマ
   kana: まきま
@@ -75,14 +92,28 @@
   summary: 日本の公安における指導的人物であり、デンジを「人間のペット」として従属・支配する構造。
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-07-01'
+    date: '2026-08-25'
   elements:
     - {id: akagami, weight: core, note: 'danbooru red_hair 76%', src: danbooru}
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 61%', src: danbooru}
     - {id: mitsuami, weight: core, note: 'danbooru braid 66%', src: danbooru}
     - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 52%', src: danbooru}
     - {id: joushi, weight: sub, note: '資料: 日本の公安における指導的人物の一人として経験豊富な悪魔ハンターの間で相当な評判を得ている。', src: gemini}
+  patterns: []
+
+- id: misaka-mikoto
+  name: 御坂美琴
+  kana: みさかみこと
+  work: とある科学の超電磁砲
+  year: 2007
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-25'
+  elements:
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 90%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 50%', src: danbooru}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 40%', src: danbooru}
   patterns: []
 
 - id: rem
@@ -125,6 +156,28 @@
     - {id: gaitou, weight: sub, note: 'danbooru cape 43%', src: danbooru}
   patterns: []
 
+- id: tohru
+  name: トール
+  kana: とーる
+  work: 小林さんちのメイドラゴン
+  year: 2013
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-25'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 84%', src: danbooru}
+    - {id: jingai, weight: core, note: 'danbooru horns 94%', src: danbooru}
+    - {id: kemomimi, weight: core, note: 'danbooru tail 62%', src: danbooru}
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 74%', src: danbooru}
+    - {id: meido, weight: core, note: 'danbooru maid_headdress 71%', src: danbooru}
+    - {id: ryuu, weight: core, note: 'danbooru dragon_horns 81%', src: danbooru}
+    - {id: twintail, weight: core, note: 'danbooru twintails 73%', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru orange_eyes 42%', src: danbooru}
+    - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 58%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 58%', src: danbooru}
+  patterns: []
+
 - id: yor-forger
   name: ヨル・フォージャー
   kana: よるふぉーじゃー
@@ -133,19 +186,18 @@
   summary: 市役所事務員としての表の顔と暗殺組織の殺し屋という裏の顔を持ち、互いの利害の一致から偽装家族を演じる人物。
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-07-01'
+    date: '2026-08-25'
   elements:
     - {id: akame, weight: core, note: 'danbooru red_eyes 84%', src: danbooru}
     - {id: kurokami, weight: core, note: 'danbooru black_hair 87%', src: danbooru}
     - {id: nimensei, weight: core, note: '資料: バーリント市役所の事務員という表の顔と、暗殺組織ガーデンに所属する「いばら姫」という裏の顔の二重生活を送っている。', src: gemini}
     - {id: shoutai, weight: core, note: '資料: 表の職業は市役所の事務員だが、裏では「いばら姫」と呼ばれる殺し屋である正体を隠して生きている。', src: gemini}
+    - {id: buki, weight: sub, note: 'danbooru weapon 38%', src: danbooru}
     - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 55%', src: danbooru}
     - {id: hogosha, weight: sub, note: '資料: ロイドとの偽装結婚により、養女であるアーニャ・フォージャーの母親（保護者）となっている。', src: gemini}
     - {id: keiyaku, weight: sub, note: '資料: 正体が疑われるのを免れたい自身の目的と、任務で母親を必要とするロイドの目的が一致し、偽装結婚を取り決めた。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: プロフィールにおいて身長が170cmと記述されている。', src: gemini}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 56%', src: danbooru}
-    - {id: yubiwa, weight: sub, note: 'danbooru jewelry 53%', src: danbooru}
   patterns: []
 
 - id: zero-two

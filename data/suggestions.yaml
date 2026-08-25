@@ -1,0 +1,61 @@
+# 語彙の穴の候補（自動蓄積。tools/ingest/merge.py --write-auto が更新する）
+#
+# unmapped_danbooru: 対応表に無かった高頻度タグ。見出し語に昇格させるなら
+#   data/elements/ に追加し、wd_map.yaml に対応を書く。
+# new_tag_proposals: classify が語彙に無いと判断した概念の提案。
+# 採用・却下は人が決める。処理済みのエントリは消してよい。
+
+- id: kamado-nezuko
+  name: 竈門禰豆子
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: pink_eyes
+    frequency: 0.7012
+  - tag: gag
+    frequency: 0.6439
+  - tag: bit_gag
+    frequency: 0.6336
+  - tag: gagged
+    frequency: 0.6013
+  - tag: pink_ribbon
+    frequency: 0.5581
+  - tag: pink_kimono
+    frequency: 0.546
+  - tag: bamboo
+    frequency: 0.4461
+  - tag: forehead
+    frequency: 0.3901
+  - tag: sash
+    frequency: 0.3542
+  new_tag_proposals: []
+- id: misaka-mikoto
+  name: 御坂美琴
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: brown_eyes
+    frequency: 0.8357
+  - tag: tokiwadai_school_uniform
+    frequency: 0.4827
+  - tag: medium_hair
+    frequency: 0.3951
+  - tag: summer_uniform
+    frequency: 0.3905
+  - tag: sweater_vest
+    frequency: 0.3721
+  new_tag_proposals: []
+- id: tohru
+  name: トール
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: slit_pupils
+    frequency: 0.5328
+  - tag: under-elbow_gloves
+    frequency: 0.3985
+  new_tag_proposals: []
+- id: yor-forger
+  name: ヨル・フォージャー
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: black_dress
+    frequency: 0.4084
+  new_tag_proposals: []
