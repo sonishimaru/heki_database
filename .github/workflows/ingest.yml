@@ -61,4 +61,6 @@ jobs:
           fi
           COUNT=$(python3 -c "import yaml;print(len(yaml.safe_load(open('data/characters_auto.yaml')) or []))" 2>/dev/null || echo "0")
           git commit -m "自動取り込み: characters_auto を更新（収録 ${COUNT} 名）"
+          # 並行実行や直前のボットコミットと競合しないよう、取り込んでから押す
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
