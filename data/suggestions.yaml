@@ -53,6 +53,23 @@
   - tag: detached_sleeves
     frequency: 0.4708
   new_tag_proposals: []
+- id: rengoku-kyojuro
+  name: 煉獄杏寿郎
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: male_focus
+    frequency: 0.9668
+  - tag: forked_eyebrows
+    frequency: 0.8884
+  - tag: multicolored_hair
+    frequency: 0.8526
+  - tag: demon_slayer_uniform
+    frequency: 0.6361
+  - tag: two-tone_hair
+    frequency: 0.5644
+  - tag: weapon
+    frequency: 0.506
+  new_tag_proposals: []
 - id: yor-forger
   name: ヨル・フォージャー
   date: '2026-08-25'
@@ -67,3 +84,15 @@
   - name: 暗殺者
     axis: 外見 / 記号職
     reason: 暗殺組織ガーデン所属の殺し屋（いばら姫）という役割を表す記号職タグが標準語彙に存在しないため。
+- id: zero-two
+  name: ゼロツー
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: breasts
+    frequency: 0.6611
+  - tag: white_hairband
+    frequency: 0.389
+  new_tag_proposals:
+  - name: パイロット
+    axis: 外見 / 記号職
+    reason: 「エリートFRANXXパイロットである」と明記されているため。

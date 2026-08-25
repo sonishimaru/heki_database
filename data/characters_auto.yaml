@@ -109,6 +109,23 @@
     - {id: keigo, weight: sub, note: '資料: 表面上は丁寧な態度・語り口で話す傾向がある。', src: gemini}
   patterns: []
 
+- id: rengoku-kyojuro
+  name: 煉獄杏寿郎
+  kana: れんごくきょうじゅろう
+  work: 鬼滅の刃
+  year: 2016
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-25'
+  elements:
+    - {id: akagami, weight: core, note: 'danbooru red_hair 63%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 62%', src: danbooru}
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 78%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru sword 50%', src: danbooru}
+    - {id: gaitou, weight: sub, note: 'danbooru cape 43%', src: danbooru}
+  patterns: []
+
 - id: yor-forger
   name: ヨル・フォージャー
   kana: よるふぉーじゃー
@@ -130,4 +147,24 @@
     - {id: koushinchou, weight: sub, note: '資料: プロフィールにおいて身長が170cmと記述されている。', src: gemini}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 56%', src: danbooru}
     - {id: yubiwa, weight: sub, note: 'danbooru jewelry 53%', src: danbooru}
+  patterns: []
+
+- id: zero-two
+  name: ゼロツー
+  kana: ぜろつー
+  work: ダーリン・イン・ザ・フランキス
+  year: 2018
+  summary: 叫竜の血を引く人外としての異質な素性と、パートナーであるヒロと共に戦うエリートパイロットの立場が同居する構造。
+  analysis:
+    method: both+danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-25'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 94%', src: danbooru}
+    - {id: jingai, weight: core, note: 'danbooru horns 89% / 資料: 「叫竜（Klaxosaur）の血を引く人間の種のメンバー」と記載されている。', src: both}
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 94%', src: danbooru}
+    - {id: aibou, weight: sub, note: '資料: 「ヒロ（Hiro）がパートナーである」と記載されている。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 女性キャラクターとして「身長は170cm（5''7"）である」と記載されている。', src: gemini}
+    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 54%', src: danbooru}
+    - {id: ryuu, weight: sub, note: '資料: 「叫竜（Klaxosaur）の血を引く」と記載されている。', src: gemini}
   patterns: []
