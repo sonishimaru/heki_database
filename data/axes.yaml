@@ -1,49 +1,59 @@
 # 分類の軸
-# 見出し語（element）は「メガネ」「糸目」「長髪」「手」「両片思い」くらいの解像度で立てる。
-# 細かく分けるより、通りのいい言葉ひとつに寄せることを優先する。
-# element.axis には "<group>.<axis>" 形式で指定する。
+#
+# トップレベルは「外見・性格・関係性・物語役割」の 4 分類。
+# 見出し語は「メガネ」「糸目」「長髪」「手」「両片思い」の解像度で立てる。
+#
+# 粒度の憲法:
+#   1. 見出し語は pixiv百科事典 / Danbooru にタグ・記事として実在する通り語を優先する
+#      （物語役割の軸のみ概念語を許す）
+#   2. 1 軸 1 ファセット。色と形のように独立に選べるものは軸を分ける
+#   3. 1 軸 4〜12 語。超えたら分割を、実例が長期間 0 の語は降格を疑う
 
 groups:
   - id: appearance
     name: 外見
-    summary: 見た瞬間に処理される情報。
+    summary: 見た瞬間に処理される情報と、見た目に直結する設定。
     axes:
-      - id: hair
-        name: 髪
-        summary: 長さ・結い方・色。
-      - id: eyes
-        name: 目
-        summary: 目の形と色。
+      - id: hairstyle
+        name: 髪型
+        summary: 髪の形と結い方。
+      - id: haircolor
+        name: 髪色
+        summary: 髪の色。
+      - id: eyeshape
+        name: 目の形
+        summary: 目つきと瞳の状態。
+      - id: eyecolor
+        name: 目の色
+        summary: 瞳の色。
       - id: face
         name: 顔
         summary: 表情の既定値と顔の記号。
-      - id: body
-        name: 体・部位
-        summary: 体格と、そこだけを見てしまう部位。
+      - id: build
+        name: 体格
+        summary: 背格好・肌・体質・見た目の年齢感。
+      - id: parts
+        name: 部位
+        summary: そこだけを見てしまう身体の一点。
+      - id: marks
+        name: 痕
+        summary: 身体に残る履歴。傷・刻印・欠損と、それを覆うもの。
       - id: costume
         name: 服装
         summary: 何を着ているか。
+      - id: motif
+        name: 記号職
+        summary: 衣装と役割が一体化した記号。メイド・巫女など。
       - id: item
         name: 小物
         summary: 身に着けているもの、持っているもの。
-
-  - id: attribute
-    name: 属性
-    summary: その人物が世界の中で占めている座席。
-    axes:
-      - id: age
-        name: 年齢
-        summary: 年上か年下か、見た目と合っているか。
       - id: species
         name: 種族
-        summary: 人でない部分。
-      - id: role
-        name: 立場
-        summary: 何をしている人か、どこから来たか。
+        summary: 人でない部分。設定だが見た目に直結する。
 
   - id: mind
     name: 性格
-    summary: 放っておいたときにその人が取る姿勢。
+    summary: その人の内面と、それが表に漏れる経路。
     axes:
       - id: temperament
         name: 気質
@@ -53,12 +63,7 @@ groups:
         summary: 選択を迫られたときに何を優先するか。
       - id: wound
         name: 傷
-        summary: 埋まっていない穴。
-
-  - id: behavior
-    name: 振る舞い
-    summary: 内面が表に漏れる経路。
-    axes:
+        summary: 埋まっていない穴と、その出どころ。
       - id: speech
         name: 話し方
         summary: 口調・語彙・声。
@@ -67,9 +72,12 @@ groups:
         summary: 無意識に出る動き。
 
   - id: relation
-    name: 関係
-    summary: 一人では成立しない要素。
+    name: 関係性
+    summary: 他者との間で成立する要素。
     axes:
+      - id: position
+        name: 立場
+        summary: 世界の中で占めている座席。関係の初期値を決める。
       - id: type
         name: 関係の型
         summary: 二人がどういう間柄か。
@@ -78,8 +86,8 @@ groups:
         summary: その関係が今どうなっているか。
 
   - id: narrative
-    name: 展開
-    summary: 物語の中でその人物に割り当てられた仕事。
+    name: 物語役割
+    summary: 物語の中でその人物に割り当てられた仕事と演出の構造。
     axes:
       - id: role
         name: 役割
@@ -87,11 +95,6 @@ groups:
       - id: arc
         name: 結末
         summary: どこへ向かうか。
-
-  - id: structure
-    name: 構造
-    summary: 要素そのものではなく、要素の配置から生まれる性質。
-    axes:
       - id: gap
         name: ギャップ
         summary: 同一人物の中の矛盾。

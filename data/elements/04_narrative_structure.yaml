@@ -137,7 +137,7 @@
   name: 二面性
   kana: にめんせい
   aliases: [二つの顔, 表と裏, 二重生活]
-  axis: structure.gap
+  axis: narrative.gap
   summary: 場面によって別人格として振る舞う構造。両方とも本人である。
   description: >-
     どちらが本物かという問いは成立せず、両方が本物であることが本人の苦痛になる。両者が接触する場面が最大の危機。
@@ -150,7 +150,7 @@
   name: 建前と本音
   kana: たてまえとほんね
   aliases: [取り繕いの下の本音]
-  axis: structure.gap
+  axis: narrative.gap
   summary: 表層の言動と実際の感情が別方向を向いている状態。
   description: >-
     観客に片方だけを見せ、後から他方を明かす順序設計が価値の中心。どこで種明かしをするかで同じ場面が別物になる。
@@ -163,7 +163,7 @@
   name: 崩れる笑顔
   kana: くずれるえがお
   aliases: [笑いながら泣く, 壊れた笑顔]
-  axis: structure.gap
+  axis: narrative.gap
   summary: 笑顔を維持しようとして失敗している状態。
   description: >-
     崩れる過程が見えることが条件。完全に崩れるより、崩れかけで止まっているほうが強い。
@@ -176,7 +176,7 @@
   name: 強いのに脆い
   kana: つよいのにもろい
   aliases: [最強なのに危うい]
-  axis: structure.gap
+  axis: narrative.gap
   summary: 突出した能力と、日常的な無防備さが一人に同居している構造。
   description: >-
     能力の高い領域と欠けている領域が離れているほど、支える他者の必要性が具体的になる。
@@ -190,7 +190,7 @@
   name: 語られない過去
   kana: かたられないかこ
   aliases: [伏せられた前史]
-  axis: structure.secret
+  axis: narrative.secret
   summary: 存在は示されているが内容が明かされない履歴。
   description: >-
     断片だけが所作や反応に現れ、観客が推測を積み上げる。明かされた瞬間、それまでの全挙動が理由を得る。
@@ -203,7 +203,7 @@
   name: 隠された正体
   kana: かくされたしょうたい
   aliases: [正体を伏せている]
-  axis: structure.secret
+  axis: narrative.secret
   summary: 別の身分・別の存在であることを隠している状態。
   description: >-
     露見の危険が常時働くため、日常場面にも緊張が乗る。自分から明かすか暴かれるかで意味が正反対になる。
@@ -217,7 +217,7 @@
   name: 二人きり
   kana: ふたりきり
   aliases: [そのときだけ, 限定的な素顔]
-  axis: structure.limited
+  axis: narrative.limited
   summary: 特定の相手の前でのみ発生する挙動。観測者を限定する構造。
   description: >-
     公の場での姿を十分に見せてあることが前提。差が大きいほど、その相手の位置が高いことが自動的に証明される。
@@ -230,7 +230,7 @@
   name: 期間限定
   kana: きかんげんてい
   aliases: [終わりが決まっている, 余命, タイムリミット]
-  axis: structure.limited
+  axis: narrative.limited
   summary: 関係や状態に終了日が設定されている構造。
   description: >-
     残り時間が減っていくこと自体が進行になるため、何もない日常場面にも自動的に緊張が乗る。
@@ -243,7 +243,7 @@
   name: 一度だけ
   kana: いちどだけ
   aliases: [最初で最後]
-  axis: structure.limited
+  axis: narrative.limited
   summary: 生涯で一回しか起きない事象として提示される構造。
   description: >-
     反復されないことが保証されているため、その場面の密度を最大まで上げられる。二度目をやると価値が消える。
@@ -256,7 +256,7 @@
   name: 約束
   kana: やくそく
   aliases: [誓い, 指切り]
-  axis: structure.limited
+  axis: narrative.limited
   summary: 過去に固定された取り決め。現在の行動を縛り続ける。
   description: >-
     相手が既にいなくても効力を失わない。果たす・破る・忘れられていたのいずれもが決着に使える。
@@ -269,7 +269,7 @@
   name: 繰り返される台詞
   kana: くりかえされるせりふ
   aliases: [決め台詞, 合言葉]
-  axis: structure.limited
+  axis: narrative.limited
   summary: 何度も反復される定型句。反復のたびに意味が加算される。
   description: >-
     最初は何気なかった言葉が経過とともに重みを持つ。最終場面で別の人物が口にすると継承になる。
@@ -282,7 +282,7 @@
   name: 毎回やること
   kana: まいかいやること
   aliases: [儀式, ルーティン]
-  axis: structure.limited
+  axis: narrative.limited
   summary: 意味を問われないまま続いている手順。
   description: >-
     続いていること自体が関係の健在を示すため、途切れた回が異常の合図になる。
@@ -295,7 +295,7 @@
   name: いつもの場所
   kana: いつものばしょ
   aliases: [帰る場所, 同じ場所]
-  axis: structure.limited
+  axis: narrative.limited
   summary: 繰り返し訪れる特定の場所。時間の変化を映す定点。
   description: >-
     場所が変わらないことで、人物の変化だけが浮かび上がる。最後に一人で訪れる場面が別離の表現になる。

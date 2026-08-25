@@ -5,7 +5,7 @@
   name: 敬語
   kana: けいご
   aliases: [丁寧語, です・ます]
-  axis: behavior.speech
+  axis: mind.speech
   summary: 距離を保つ言語形式。親しさの上限を固定する。
   description: >-
     誰にでも敬語である場合、それは礼儀ではなく壁として働いている。
@@ -19,7 +19,7 @@
   name: 口下手
   kana: くちべた
   aliases: [言葉が足りない, 説明が下手]
-  axis: behavior.speech
+  axis: mind.speech
   summary: 意図を言語化できない性質。行動が先に出る。
   description: >-
     誤解が構造的に発生し、行動でしか真意が伝わらない。観客は真意を知っているので焦れが生まれる。
@@ -32,7 +32,7 @@
   name: 一人称
   kana: いちにんしょう
   aliases: [僕っ娘, わたくし, 俺]
-  axis: behavior.speech
+  axis: mind.speech
   summary: 自分を何と呼ぶか。自己認識の宣言。
   description: >-
     見た目や立場から予測される呼び方とずれていると、本人の自己像と周囲の期待の不一致が出る。
@@ -46,7 +46,7 @@
   name: 語尾
   kana: ごび
   aliases: [口癖, 特徴的な語尾]
-  axis: behavior.speech
+  axis: mind.speech
   summary: 発話の末尾に固定される型。声の指紋。
   description: >-
     反復で記憶に定着し、消えたときに異常が伝わる。本気の場面でだけ外れる運用が定石。
@@ -59,7 +59,7 @@
   name: 沈黙
   kana: ちんもく
   aliases: [間, 答えない]
-  axis: behavior.speech
+  axis: mind.speech
   summary: 発話しないという選択。肯定にも否定にも読める。
   description: >-
     答えないことは、嘘をつかずに情報を渡さない唯一の方法。沈黙の長さが抱えているものの重さになる。
@@ -72,7 +72,7 @@
   name: 小声
   kana: こごえ
   aliases: [声が小さい, ぼそぼそ]
-  axis: behavior.speech
+  axis: mind.speech
   summary: 音量の低い発話。聞くために近づく必要が出る。
   description: >-
     聞く側に接近を強いるため、音量が物理的な距離を規定する。大声を出した一回が事件になる。
@@ -85,7 +85,7 @@
   name: 早口
   kana: はやくち
   aliases: [まくしたてる]
-  axis: behavior.speech
+  axis: mind.speech
   summary: 発話速度が速いこと。思考量か動揺が漏れている。
   description: >-
     平常時に早口なら思考が先行しており、普段落ち着いている人物が早口になれば動揺の露出。
@@ -99,7 +99,7 @@
   name: ツッコミ
   kana: つっこみ
   aliases: [常識人, 苦労人]
-  axis: behavior.speech
+  axis: mind.speech
   summary: 場の異常を言語化する役。観客の代弁者。
   description: >-
     最も常識的であるがゆえに、この人物が黙った瞬間に事態の深刻さが伝わる。負荷が一身に集中する。
@@ -113,7 +113,7 @@
   name: 耳が赤くなる
   kana: みみがあかくなる
   aliases: [首筋が赤い, 顔に出る]
-  axis: behavior.habit
+  axis: mind.habit
   summary: 意思で制御できない生理的な露出。
   description: >-
     表情は殺せても血流は殺せない。取り繕いが完璧な人物ほど、この一点だけが裏切る。
@@ -126,7 +126,7 @@
   name: 無理をする
   kana: むりをする
   aliases: [平気なふり, 隠れて倒れる]
-  axis: behavior.habit
+  axis: mind.habit
   summary: 限界を申告しない癖。破綻するまで正常に見える。
   description: >-
     周囲が気づけない設計なので、気づいた人物が自動的に特別な位置に立つ。倒れる場面が転換点になる。
@@ -139,7 +139,7 @@
   name: 目を逸らす
   kana: めをそらす
   aliases: [視線が合わない]
-  axis: behavior.habit
+  axis: mind.habit
   summary: 視線を外す動作。言葉と身体が食い違う瞬間。
   description: >-
     嘘・照れ・罪悪感のどれでも起きるため、観客に解釈を要求する。直後に戻すかで意味が決まる。
@@ -152,7 +152,7 @@
   name: 見つめる
   kana: みつめる
   aliases: [目を逸らさない, 見据える]
-  axis: behavior.habit
+  axis: mind.habit
   summary: 視線を固定し続けること。圧としての凝視。
   description: >-
     捕食者の挙動でもあり、誠実さの証明でもある。どちらに転ぶかは相手が先に逸らすかで決まる。
@@ -165,7 +165,7 @@
   name: 手癖
   kana: てぐせ
   aliases: [髪を触る, 指を鳴らす]
-  axis: behavior.habit
+  axis: mind.habit
   summary: 動揺や思考に伴って出る反復動作。本人は気づいていない。
   description: >-
     親しい人物だけが意味を知っているという二層構造を作れる。「この癖が出ているときは嘘」という読解の規則を置ける。
@@ -178,7 +178,7 @@
   name: 見ている
   kana: みている
   aliases: [観察癖, 覚えている]
-  axis: behavior.habit
+  axis: mind.habit
   summary: 他人の細部を無意識に記録している癖。
   description: >-
     覚えていた事実が不意に出たとき、意図と無関係に関心の量が暴露される。指摘されて初めて自覚する。

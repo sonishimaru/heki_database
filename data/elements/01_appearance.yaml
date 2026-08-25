@@ -5,7 +5,7 @@
   name: 長髪
   kana: ちょうはつ
   aliases: [ロング, 黒髪ロング]
-  axis: appearance.hair
+  axis: appearance.hairstyle
   summary: 髪が長いこと。手入れの時間がそのまま外見に出る。
   description: >-
     長さ自体が「維持されている」という情報になる。風・水・寝起きで乱れるため、
@@ -19,7 +19,7 @@
   name: 短髪
   kana: たんぱつ
   aliases: [ショート, 刈り上げ]
-  axis: appearance.hair
+  axis: appearance.hairstyle
   summary: 髪が短いこと。首筋が出る。
   description: >-
     短さは決断や身軽さと読まれる。切った理由が語られる場合、髪型がそのまま経歴の要約になる。
@@ -32,7 +32,7 @@
   name: ツインテール
   kana: ついんてーる
   aliases: []
-  axis: appearance.hair
+  axis: appearance.hairstyle
   summary: 左右に結い分けた髪。感情に合わせて揺れる。
   description: >-
     本人が「そう見られたくて結っている」という選択の跡が残る。左右対称が幼さを足す。
@@ -45,7 +45,7 @@
   name: ポニーテール
   kana: ぽにーてーる
   aliases: [一つ結び]
-  axis: appearance.hair
+  axis: appearance.hairstyle
   summary: まとめ髪。動くために結っている。
   description: >-
     結ぶ・解くの両方が場面の切り替えに使える。うなじが出る。
@@ -58,7 +58,7 @@
   name: 姫カット
   kana: ひめかっと
   aliases: []
-  axis: appearance.hair
+  axis: appearance.hairstyle
   summary: 前髪と頬の髪を水平に切り揃えた形。
   description: >-
     直線で構成されるため、顔が額縁に入って見える。家格や管理された育ちを一撃で示す。
@@ -71,7 +71,7 @@
   name: アホ毛
   kana: あほげ
   aliases: [一本立ち]
-  axis: appearance.hair
+  axis: appearance.hairstyle
   summary: 一本だけ跳ねた毛。本人の制御外で動く。
   description: >-
     意思と無関係に動くため、感情を無断で漏らす。整った髪型ほど効く。
@@ -84,7 +84,7 @@
   name: 白髪
   kana: しらが
   aliases: [銀髪, 白い髪]
-  axis: appearance.hair
+  axis: appearance.haircolor
   summary: 色素の抜けた髪。人でないか、何かを支払った者。
   description: >-
     自然な初期値から外れた色は、種族・魔術・寿命・喪失の暗示になる。
@@ -98,7 +98,7 @@
   name: 癖っ毛
   kana: くせっけ
   aliases: [寝癖, はねた髪]
-  axis: appearance.hair
+  axis: appearance.hairstyle
   summary: 整わない髪。生活の手触りが残る。
   description: >-
     管理されていないことが、他人の目を気にしていない／気にする余裕がないという情報になる。
@@ -111,7 +111,7 @@
   name: 目隠れ
   kana: めかくれ
   aliases: [前髪が長い]
-  axis: appearance.hair
+  axis: appearance.hairstyle
   summary: 前髪で目が見えないこと。
   description: >-
     表情の主要部が遮られるため、口元だけで感情を読ませることになる。
@@ -126,7 +126,7 @@
   name: 糸目
   kana: いとめ
   aliases: [細目, 笑い目]
-  axis: appearance.eyes
+  axis: appearance.eyeshape
   summary: 常に細められている目。瞳が見えない。
   description: >-
     穏やかにも読め、何も考えていないようにも読め、何を考えているか分からないとも読める。
@@ -140,7 +140,7 @@
   name: ジト目
   kana: じとめ
   aliases: [半目]
-  axis: appearance.eyes
+  axis: appearance.eyeshape
   summary: 温度を下げた半開きの目。呆れと観察の中間。
   description: >-
     見ているのに評価は下げている、という二重の動作を一つの表情でやる。
@@ -154,7 +154,7 @@
   name: たれ目
   kana: たれめ
   aliases: []
-  axis: appearance.eyes
+  axis: appearance.eyeshape
   summary: 目尻が下がった形。黙っていても柔らかい。
   description: >-
     第一印象が無条件に好意的になるため、中身が冷たい場合の落差装置になる。
@@ -167,7 +167,7 @@
   name: つり目
   kana: つりめ
   aliases: []
-  axis: appearance.eyes
+  axis: appearance.eyeshape
   summary: 目尻が上がった形。黙っていても強気。
   description: >-
     意図せず怒って見えるため、誤解される状況が自動的に生まれる。弱ったときの落差が大きい。
@@ -180,7 +180,7 @@
   name: オッドアイ
   kana: おっどあい
   aliases: [左右で色が違う]
-  axis: appearance.eyes
+  axis: appearance.eyeshape
   summary: 左右で色の異なる目。
   description: >-
     改造・混血・憑依など「二つのものが一人に同居している」ことの最短表現。片目を隠す演出と相性がいい。
@@ -193,7 +193,7 @@
   name: ハイライトのない目
   kana: はいらいとのないめ
   aliases: [光のない目, 目が死んでいる]
-  axis: appearance.eyes
+  axis: appearance.eyeshape
   summary: 瞳の反射が消えている状態。
   description: >-
     通常時に光があることが前提の差分表現。数コマだけ消える運用が最も効く。
@@ -207,7 +207,7 @@
   name: 眼帯
   kana: がんたい
   aliases: [片目を隠す]
-  axis: appearance.eyes
+  axis: appearance.marks
   summary: 片目を覆っているもの。
   description: >-
     中身が何かより、隠され続けていること自体が情報になる。外す場面のために着けている。
@@ -288,7 +288,7 @@
   name: 手
   kana: て
   aliases: [指, 手つき]
-  axis: appearance.body
+  axis: appearance.parts
   summary: 手そのもの。骨張り、指の長さ、爪、手つき。
   description: >-
     顔と違って本人が演技しにくく、職業と生活が最も正直に出る部位。
@@ -302,7 +302,7 @@
   name: うなじ
   kana: うなじ
   aliases: [首筋]
-  axis: appearance.body
+  axis: appearance.parts
   summary: 髪をまとめたときに出る首の後ろ。
   description: >-
     本人の視界に入らない部位であるため、無防備さが本人の自覚なしに成立する。
@@ -316,7 +316,7 @@
   name: 鎖骨
   kana: さこつ
   aliases: [首元]
-  axis: appearance.body
+  axis: appearance.parts
   summary: 襟から覗く骨の線。
   description: >-
     服の開き具合でしか見えないため、衣装の設計とセットでしか成立しない。
@@ -330,7 +330,7 @@
   name: 背中
   kana: せなか
   aliases: [背中越し]
-  axis: appearance.body
+  axis: appearance.parts
   summary: 相手に見せている後ろ姿。
   description: >-
     表情が見えないため、観客は台詞と姿勢だけで読むことになる。
@@ -344,7 +344,7 @@
   name: 喉仏
   kana: のどぼとけ
   aliases: [喉]
-  axis: appearance.body
+  axis: appearance.parts
   summary: 喉の隆起。飲み込む動きで動く。
   description: >-
     急所であると同時に、緊張や動揺が可視化される場所。上を向いたときにだけ出る。
@@ -357,7 +357,7 @@
   name: 低身長
   kana: ていしんちょう
   aliases: [小柄, ちびっこ]
-  axis: appearance.body
+  axis: appearance.build
   summary: 平均より小さい体。誰と並んでも高低差ができる。
   description: >-
     見下ろされる側に固定されるため、当人の能力や地位が高い場合に強い不一致が出る。
@@ -370,7 +370,7 @@
   name: 高身長
   kana: こうしんちょう
   aliases: [長身]
-  axis: appearance.body
+  axis: appearance.build
   summary: 平均より大きい体。視界と圧を占める。
   description: >-
     庇う・覆う・遮るが自然に成立する。屈まないと目線が合わないという条件が関係の描写になる。
@@ -383,7 +383,7 @@
   name: 華奢
   kana: きゃしゃ
   aliases: [細い, 折れそう]
-  axis: appearance.body
+  axis: appearance.build
   summary: 線の細い体。壊れやすさが常時出ている。
   description: >-
     強い言動や高い戦闘力と組み合わせると、能力と器の不一致が際立つ。
@@ -396,7 +396,7 @@
   name: 筋肉
   kana: きんにく
   aliases: [鍛えた体]
-  axis: appearance.body
+  axis: appearance.build
   summary: 訓練の蓄積が形になった体。
   description: >-
     才能ではなく反復の証拠であるため、努力の履歴を説明せずに示せる。
@@ -409,7 +409,7 @@
   name: 姿勢がいい
   kana: しせいがいい
   aliases: [背筋が伸びている]
-  axis: appearance.body
+  axis: appearance.build
   summary: 立ち姿がまっすぐなこと。
   description: >-
     緊張ではなく既定値としての直立は、身体に染みた規律を示す。崩れた姿勢が特別扱いになる。
@@ -422,7 +422,7 @@
   name: 傷跡
   kana: きずあと
   aliases: [古傷]
-  axis: appearance.body
+  axis: appearance.marks
   summary: 治ったあとに残る痕。生き延びた物証。
   description: >-
     傷の位置が、守った物と守れなかった物を示す。本人が語らないほど推測の余地が増える。
@@ -435,7 +435,7 @@
   name: 義肢
   kana: ぎし
   aliases: [義手, 義足]
-  axis: appearance.body
+  axis: appearance.marks
   summary: 失った部位を置き換えた機構。
   description: >-
     失った事実と、それでも動いている事実を同時に出す。整備の場面が休息と対話の場になる。
@@ -448,7 +448,7 @@
   name: 刻印
   kana: こくいん
   aliases: [烙印, 契約紋]
-  axis: appearance.body
+  axis: appearance.marks
   summary: 体に刻まれた所属や契約の印。自分では消せない。
   description: >-
     本人の意思と無関係に押されている場合、身体が他人に書き込まれた状態になる。
@@ -621,7 +621,7 @@
   name: 包帯
   kana: ほうたい
   aliases: []
-  axis: appearance.item
+  axis: appearance.marks
   summary: 巻かれて隠されている部位。開示が保留されている。
   description: >-
     治療中であることと、隠していることの両方を同時に示す。巻き直す場面が対話の場になる。
@@ -674,7 +674,7 @@
   name: 金髪
   kana: きんぱつ
   aliases: [ブロンド]
-  axis: appearance.hair
+  axis: appearance.haircolor
   summary: 金色の髪。華やかさと異国性の既定値。
   effect: 視線を集める前提の造形にし、目立つことを引き受けさせる。
   pairs_with: [reijou, tsurime]
@@ -685,7 +685,7 @@
   name: 黒髪
   kana: くろかみ
   aliases: []
-  axis: appearance.hair
+  axis: appearance.haircolor
   summary: 黒い髪。落ち着きと土着性の既定値。
   effect: 装飾を引き算し、表情と所作に視線を集める。
   pairs_with: [chouhatsu, wasou, keigo]
@@ -696,7 +696,7 @@
   name: 茶髪
   kana: ちゃぱつ
   aliases: []
-  axis: appearance.hair
+  axis: appearance.haircolor
   summary: 茶色の髪。日常と親しみの既定値。
   effect: 構えのなさを示し、隣にいる存在として置く。
   pairs_with: [tenshin, osananajimi]
@@ -707,7 +707,7 @@
   name: 赤髪
   kana: あかがみ
   aliases: [オレンジ髪]
-  axis: appearance.hair
+  axis: appearance.haircolor
   summary: 赤系の髪。熱量と目立ちの記号。
   effect: 感情の温度が高いことを、動く前から予告する。
   pairs_with: [karetsu, tenshin]
@@ -718,7 +718,7 @@
   name: 青髪
   kana: あおがみ
   aliases: [水色の髪]
-  axis: appearance.hair
+  axis: appearance.haircolor
   summary: 青系の髪。静けさと距離の記号。
   effect: 温度の低さを先に提示し、上がった一瞬を際立たせる。
   pairs_with: [kuudere, muhyoujou]
@@ -729,7 +729,7 @@
   name: 緑髪
   kana: みどりがみ
   aliases: []
-  axis: appearance.hair
+  axis: appearance.haircolor
   summary: 緑の髪。まれな色ゆえの個体識別性。
   effect: 群衆から一人だけ切り出す識別色として働く。
   pairs_with: []
@@ -740,7 +740,7 @@
   name: ピンク髪
   kana: ぴんくがみ
   aliases: [桃色の髪]
-  axis: appearance.hair
+  axis: appearance.haircolor
   summary: 桃色の髪。愛される前提で設計された色。
   effect: 庇護と好意を引き出す初期値を設定する。
   pairs_with: [teishinchou, tenshin]
@@ -751,7 +751,7 @@
   name: 紫髪
   kana: むらさきがみ
   aliases: []
-  axis: appearance.hair
+  axis: appearance.haircolor
   summary: 紫の髪。高貴と妖しさの両義的な色。
   effect: 気品と警戒を同時に立ち上げ、どちらかを後で確定させる。
   pairs_with: [reijou, haraguro]
@@ -763,7 +763,7 @@
   name: 赤い目
   kana: あかいめ
   aliases: [赤目, 紅い瞳]
-  axis: appearance.eyes
+  axis: appearance.eyecolor
   summary: 赤い瞳。人ならざる予感の定番色。
   effect: 種族や来歴への疑いを、瞳の色だけで漂わせる。
   pairs_with: [shirogami, jingai]
@@ -774,7 +774,7 @@
   name: 青い目
   kana: あおいめ
   aliases: [碧眼]
-  axis: appearance.eyes
+  axis: appearance.eyecolor
   summary: 青い瞳。透明さと異国性の記号。
   effect: 澄んだ印象を先に置き、濁る瞬間を事件にする。
   pairs_with: [kinpatsu]
@@ -785,7 +785,7 @@
   name: 金の目
   kana: きんのめ
   aliases: [金眼, 琥珀の瞳]
-  axis: appearance.eyes
+  axis: appearance.eyecolor
   summary: 金色の瞳。捕食者と獣の記号。
   effect: 見られる側に、狙われているという感覚を与える。
   pairs_with: [kemomimi, mitsumeru]
@@ -796,7 +796,7 @@
   name: 緑の目
   kana: みどりのめ
   aliases: [翠眼]
-  axis: appearance.eyes
+  axis: appearance.eyecolor
   summary: 緑の瞳。静かな聡さの記号。
   effect: 観察されている感覚を穏やかな形で常設する。
   pairs_with: [kansatsu]
@@ -807,7 +807,7 @@
   name: 紫の目
   kana: むらさきのめ
   aliases: [紫眼]
-  axis: appearance.eyes
+  axis: appearance.eyecolor
   summary: 紫の瞳。まれな色ゆえの特別性。
   effect: 出自や血統に説明の余地を作る。
   pairs_with: [reijou, jingai]

@@ -13,7 +13,7 @@
   name: 余裕の崩壊
   kana: よゆうのほうかい
   aliases: [余裕がなくなる, 崩れる大人]
-  core_axis: structure.gap
+  core_axis: narrative.gap
   summary: 常に上から構えていた人物が、たった一人の前で制御を失う。
   formula:
     subject: 平常時は動じず、会話の主導権を握り続けている上位者
@@ -31,7 +31,7 @@
   name: 一人にだけ素顔
   kana: ひとりにだけすがお
   aliases: [あなたの前でだけ]
-  core_axis: structure.limited
+  core_axis: narrative.limited
   summary: 全員に見せている顔と、一人にだけ見せる顔が違う。
   formula:
     subject: 社会的な役割を完璧に演じ切っている人物
@@ -49,7 +49,7 @@
   name: 無表情の小数点
   kana: むひょうじょうのしょうすうてん
   aliases: [わずかに動く, 感情の検出]
-  core_axis: structure.gap
+  core_axis: narrative.gap
   summary: 表情が動かない人物の、コンマ一段階の変化がすべてを語る。
   formula:
     subject: 感情の出力が常に一定で、平熱の低い人物
@@ -85,7 +85,7 @@
   name: 完璧な人の生活破綻
   kana: かんぺきなひとのせいかつはたん
   aliases: [部屋が汚い, 私生活だけ駄目]
-  core_axis: structure.gap
+  core_axis: narrative.gap
   summary: 職務では非の打ち所がない人物の、生活能力だけが壊滅している。
   formula:
     subject: 専門領域で圧倒的な成果を出している人物
@@ -103,7 +103,7 @@
   name: 限界まで隠す
   kana: げんかいまでかくす
   aliases: [無理を隠す, 倒れて初めてばれる]
-  core_axis: behavior.habit
+  core_axis: mind.habit
   summary: 消耗を最後まで申告せず、破綻して初めて周囲が気づく。
   formula:
     subject: 弱さの開示を敗北か迷惑とみなしている人物
@@ -121,7 +121,7 @@
   name: 最強の無防備
   kana: さいきょうのむぼうび
   aliases: [強いのに危うい, 寝顔]
-  core_axis: structure.gap
+  core_axis: narrative.gap
   summary: 誰よりも強い人物が、ある一点においてまったく守られていない。
   formula:
     subject: 戦闘・権力・才能のいずれかで突出している人物
@@ -139,7 +139,7 @@
   name: 本人だけ気づいていない
   kana: ほんにんだけきづいていない
   aliases: [自覚がない, 好意の無自覚]
-  core_axis: structure.secret
+  core_axis: narrative.secret
   summary: 観客と周囲には明白な感情を、当人だけが別の名前で呼んでいる。
   formula:
     subject: 感情の分類を誤っている、あるいは認めない人物
@@ -247,7 +247,7 @@
   name: 言えないまま終わる
   kana: いえないままおわる
   aliases: [告げられなかった, 間に合わない]
-  core_axis: structure.secret
+  core_axis: narrative.secret
   summary: 伝える機会が確実にあったのに、一度も使われないまま関係が閉じる。
   formula:
     subject: 感情を保持しながら、言語化を先送りにし続けた人物
@@ -265,7 +265,7 @@
   name: 約束の回収
   kana: やくそくのかいしゅう
   aliases: [覚えていた, あの時の言葉]
-  core_axis: structure.limited
+  core_axis: narrative.limited
   summary: 忘れられたと思われていた過去の一言が、最終場面で効力を持つ。
   formula:
     subject: 過去に交わした取り決めを保持し続けている人物
@@ -283,7 +283,7 @@
   name: 日常が別れの準備に見える
   kana: にちじょうがわかれのじゅんびにみえる
   aliases: [終わりが決まっている日常]
-  core_axis: structure.limited
+  core_axis: narrative.limited
   summary: 退場が確定している人物の何気ない場面が、すべて遺言として読まれる。
   formula:
     subject: 消えることが構造的に決まっている人物
@@ -301,7 +301,7 @@
   name: 作られた者の最初の意思
   kana: つくられたもののさいしょのいし
   aliases: [命令ではない選択]
-  core_axis: attribute.species
+  core_axis: appearance.species
   summary: 目的のために作られた存在が、初めて命令外の行動をとる。
   formula:
     subject: 与えられた目的に従って稼働してきた存在
@@ -319,7 +319,7 @@
   name: 見送り続ける者
   kana: みおくりつづけるもの
   aliases: [先に死なれる側, 永い孤独]
-  core_axis: attribute.age
+  core_axis: appearance.species
   summary: 長すぎる寿命を持つ者が、関係を持つたびに必ず残される。
   formula:
     subject: 他者より遥かに長い時間を生きる存在
@@ -337,7 +337,7 @@
   name: 仮面の下の年齢
   kana: かめんのしたのねんれい
   aliases: [中身が子供, 大人ぶっている]
-  core_axis: structure.gap
+  core_axis: narrative.gap
   summary: 完成された態度の下に、まったく成熟していない部分が残っている。
   formula:
     subject: 立場のために年齢不相応な役を演じ続けてきた人物
@@ -355,7 +355,7 @@
   name: 傷は生きた証明
   kana: きずはいきたしょうめい
   aliases: [語らない傷跡]
-  core_axis: appearance.body
+  core_axis: appearance.marks
   summary: 説明されない傷が、説明された経歴より雄弁に過去を保証する。
   formula:
     subject: 過去を語らないまま現在を生きている人物
@@ -391,7 +391,7 @@
   name: 支える側の欲望
   kana: ささえるがわのよくぼう
   aliases: [従者の私情, あなたのためという嘘]
-  core_axis: attribute.role
+  core_axis: relation.position
   summary: 献身を職務として続けてきた者の私的な欲望が、一度だけ表に出る。
   formula:
     subject: 「あなたのため」を理由に自分の願いを語ってこなかった人物

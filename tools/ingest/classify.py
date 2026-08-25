@@ -81,7 +81,8 @@ PROMPT = """あなたはキャラクターを構成要素へ分解する辞典�
   - core  … 複数の場面・複数のレーンにまたがって繰り返し現れる（その人物の骨格）
   - sub   … 明確に現れるが、場面やレーンが限られる
   - spice … 一度きりだが強く印象づけられている
-- 外見（髪・目・顔・体・服装・小物）はここでは判定しない。静止画レーンの担当。
+- 髪・目・顔・部位・痕・服装・小物といった純粋な見た目はここでは判定しない（静止画レーンの担当）。
+  体格・種族・記号職（メイド等）は資料に明記されていれば判定してよい。
 - 語彙にない概念は new_tags に回す。判断がつかないものは uncertain に書く。
 - 迷ったら選ばない。漏れより誤りを避ける。
 
@@ -131,7 +132,7 @@ def validate(result: dict, db: dict) -> dict:
         if element is None:
             dropped.append(str(item.get("id")))
             continue
-        if element["group"] in common.VISUAL_GROUPS:
+        if element["axis"] in common.VISUAL_AXES:
             out_of_scope.append(item["id"])
             continue
         if not item.get("sources"):
@@ -160,7 +161,6 @@ def main() -> int:
     args = parser.parse_args()
 
     db = common.load_db()
-    non_visual = {g["id"] for g in db["groups"]} - common.VISUAL_GROUPS
 
     if args.from_json:
         result = json.loads(args.from_json.read_text(encoding="utf-8"))
@@ -178,7 +178,7 @@ def main() -> int:
 
         prompt = PROMPT.format(
             character=args.character,
-            vocabulary=common.vocabulary_block(db, non_visual),
+            vocabulary=common.vocabulary_block(db, exclude_axes=common.VISUAL_AXES),
             evidence="\n\n".join(blocks),
         )
         if args.prompt_only:

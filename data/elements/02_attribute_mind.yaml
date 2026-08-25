@@ -5,7 +5,7 @@
   name: 年上
   kana: としうえ
   aliases: [姉貴分, 兄貴分]
-  axis: attribute.age
+  axis: relation.type
   summary: 相手より長く生きている立場。
   description: >-
     先に知っている優位が既定値になるため、対等になった瞬間や追い越された瞬間が事件になる。
@@ -18,7 +18,7 @@
   name: 年下
   kana: としした
   aliases: [弟分, 妹分]
-  axis: attribute.age
+  axis: relation.type
   summary: 相手より後から来た立場。
   description: >-
     庇護される側に置かれるため、対等に扱われた一回が本人にとって特別になる。
@@ -32,7 +32,7 @@
   name: 年の差
   kana: としのさ
   aliases: [歳の差]
-  axis: attribute.age
+  axis: relation.type
   summary: 二人の間に開いている年齢の幅。
   description: >-
     経験・体格・社会的立場のすべてに非対称を作る。差が縮まらないことが分かっているため、
@@ -46,7 +46,7 @@
   name: 不老
   kana: ふろう
   aliases: [長命, 年を取らない]
-  axis: attribute.age
+  axis: appearance.species
   summary: 他人より遥かに長い時間を生きること。
   description: >-
     見送る側に固定されるため、関係を持つこと自体がコストになる。無関心を装う理由になる。
@@ -59,7 +59,7 @@
   name: 見た目年齢詐欺
   kana: みためねんれいさぎ
   aliases: [童顔, ロリババア, 老けている]
-  axis: attribute.age
+  axis: appearance.build
   summary: 実年齢と見た目が合っていないこと。
   description: >-
     周囲が外見に基づいて接するため、本人は常に誤った扱いを受け続ける。その誤差が諦めにも武器にもなる。
@@ -73,7 +73,7 @@
   name: 人外
   kana: じんがい
   aliases: [人ならざるもの, 神, 妖, 魔]
-  axis: attribute.species
+  axis: appearance.species
   summary: 人間の枠の外にいる存在。倫理と感覚の基準が違う。
   description: >-
     人間の常識が通じないため、通じた瞬間の意味が跳ね上がる。人になっていくことも、
@@ -87,7 +87,7 @@
   name: 獣耳
   kana: けものみみ
   aliases: [尻尾, 獣人]
-  axis: attribute.species
+  axis: appearance.species
   summary: 人型に付いた動物の耳や尾。意思と無関係に動く。
   description: >-
     尾や耳は制御外で感情を表示する。取り繕う人物ほど、そこだけが正直という構図になる。
@@ -100,7 +100,7 @@
   name: 人形・機械
   kana: にんぎょう
   aliases: [アンドロイド, 人造]
-  axis: attribute.species
+  axis: appearance.species
   summary: 作られた存在。目的を与えられて生まれている。
   description: >-
     命令と自分の意思の区別がつかないという固有の問題を抱える。自分で選んだ最初の一回が頂点になる。
@@ -113,7 +113,7 @@
   name: 不死
   kana: ふし
   aliases: [死ねない, 再生]
-  axis: attribute.species
+  axis: appearance.species
   summary: 損なわれても戻る身体。痛みが終わらない。
   description: >-
     死という退路が塞がれているため、自己犠牲が犠牲として成立しない。生を罰として扱える。
@@ -127,7 +127,7 @@
   name: 職人
   kana: しょくにん
   aliases: [技術屋, 専門家]
-  axis: attribute.role
+  axis: relation.position
   summary: 一つの領域に特化した技能者。そこでだけ饒舌になる。
   description: >-
     普段は無口でも専門の話では別人のように喋る。技能の話をしている間だけ警戒が解ける。
@@ -140,7 +140,7 @@
   name: 上に立つ人
   kana: うえにたつひと
   aliases: [上司, 上官, 王, 隊長]
-  axis: attribute.role
+  axis: relation.position
   summary: 他人の生殺与奪に責任を持つ立場。決定が仕事になっている。
   description: >-
     弱音を吐く相手がいないという構造的な孤立を伴う。誰にも見せない場所を必ず一つ持つ。
@@ -153,7 +153,7 @@
   name: 従者
   kana: じゅうしゃ
   aliases: [参謀, side, 支える側]
-  axis: attribute.role
+  axis: relation.position
   summary: 誰かの隣で機能する立場。自分の願いを後回しにする職能。
   description: >-
     「あなたのため」が言い訳として無限に使えるため、自分の欲望を最後まで言語化しないで済む。
@@ -166,7 +166,7 @@
   name: 無法者
   kana: むほうもの
   aliases: [ならず者, 賞金首]
-  axis: attribute.role
+  axis: relation.position
   summary: 社会の外側で生きる者。制度に守られていない。
   description: >-
     信用の代わりに腕で立っているため、約束を守る場面の重みが増す。帰る場所がないことが自由と裏表。
@@ -179,7 +179,7 @@
   name: 令嬢・御曹司
   kana: れいじょう
   aliases: [名家, 王族, いいところの子]
-  axis: attribute.role
+  axis: relation.position
   summary: 家の格を背負って生まれた立場。所作と義務が先に決まっている。
   description: >-
     個人の願いより家の都合が優先されるため、自分で選ぶという行為そのものが反逆になる。
@@ -192,7 +192,7 @@
   name: 流れ者
   kana: ながれもの
   aliases: [根無し草, 旅人]
-  axis: attribute.role
+  axis: relation.position
   summary: 定住しない立場。いつでも去れる状態を保っている。
   description: >-
     去る自由を持ち続けることが防衛で、留まる決断が最大の変化になる。過去を語らない理由にもなる。
@@ -205,7 +205,7 @@
   name: 余所者
   kana: よそもの
   aliases: [異邦人, 転移者]
-  axis: attribute.role
+  axis: relation.position
   summary: その土地の文化を共有していない者。
   description: >-
     知らないがゆえに問える立場で、観客の代理として機能する。馴染んだ後も同化しきらない残余が残る。
@@ -218,7 +218,7 @@
   name: 不遇な生い立ち
   kana: ふぐうなおいたち
   aliases: [陰のある育ち]
-  axis: attribute.role
+  axis: mind.wound
   summary: 標準的な養育を受けていない履歴。常識が欠けている。
   description: >-
     当たり前を知らない、あるいは過剰に警戒するという形で日常動作に生い立ちが出る。

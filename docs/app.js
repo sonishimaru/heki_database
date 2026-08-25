@@ -2,12 +2,9 @@
 
 const GROUP_COLORS = {
   appearance: '#b98b5e',
-  attribute: '#7f9c6c',
   mind: '#6b8fb5',
-  behavior: '#bfa03f',
   relation: '#a3739c',
   narrative: '#6fa39a',
-  structure: '#b56a5c',
 };
 
 const WEIGHT_LABEL = { core: '骨格', sub: '補強', spice: '一点' };

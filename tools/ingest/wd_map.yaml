@@ -17,7 +17,7 @@ elements:
   tanpatsu:
     tags: [short_hair, very_short_hair, pixie_cut, undercut, buzz_cut]
   twintail:
-    tags: [twintails, low_twintails, short_twintails, twin_braids]
+    tags: [twintails, low_twintails, short_twintails]
   ponytail:
     tags: [ponytail, high_ponytail, side_ponytail, folded_ponytail]
   hime-cut:
@@ -127,7 +127,7 @@ elements:
   kemomimi:
     tags: [animal_ears, cat_ears, fox_ears, wolf_ears, tail, animal_ear_fluff]
   jingai:
-    tags: [horns, demon_horns, pointy_ears, angel_wings, demon_girl, monster_girl, halo]
+    tags: [horns, monster_girl, slime_girl, lamia, mermaid]
   jinzou:
     tags: [android, robot, robot_joints, mechanical_parts, doll_joints, joints]
 
@@ -160,6 +160,54 @@ elements:
     tags: [green_eyes]
   murasaki-no-me:
     tags: [purple_eyes, violet_eyes]
+
+  # --- 髪型（追加） ---
+  mitsuami:
+    tags: [braid, single_braid, twin_braids, french_braid, braided_ponytail]
+  odango:
+    tags: [hair_bun, double_bun, single_hair_bun]
+
+  # --- 体格（追加） ---
+  kasshoku:
+    tags: [dark_skin, dark-skinned_female, tan, tanlines]
+  irojiro:
+    tags: [pale_skin]
+
+  # --- 種族（解像度） ---
+  kyuuketsuki:
+    tags: [vampire, fang_necklace]
+    threshold: 0.4
+  tenshi:
+    tags: [angel, halo, angel_wings]
+  akuma:
+    tags: [demon_girl, demon_horns, demon_tail, demon_wings, demon_boy]
+  erufu:
+    tags: [elf, pointy_ears]
+  ryuu:
+    tags: [dragon_girl, dragon_horns, dragon_tail, dragon_boy]
+  oni:
+    tags: [oni, oni_horns]
+  yuurei:
+    tags: [ghost]
+
+  # --- 記号職 ---
+  meido:
+    tags: [maid, maid_headdress, maid_apron]
+  miko:
+    tags: [miko, japanese_shrine_maiden]
+  shisutaa:
+    tags: [nun, habit]
+  naasu:
+    tags: [nurse, nurse_cap]
+  majo:
+    tags: [witch, witch_hat]
+  kishi:
+    tags: [knight, armor, plate_armor]
+    threshold: 0.4
+  shitsuji:
+    tags: [butler]
+  aidoru:
+    tags: [idol, idol_clothes]
 
 # 画像タグでは判定しない見出し語（vision.py または手作業の担当）
 #   unaji         … Danbooru に対応タグがない

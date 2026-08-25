@@ -1,0 +1,313 @@
+# 4分類への再編で追加した見出し語
+# （記号職の新設、種族の解像度、髪型・体格・関係・秘密の定番の欠け）
+
+# --- 髪型 ---
+- id: mitsuami
+  name: 三つ編み
+  kana: みつあみ
+  aliases: [おさげ]
+  axis: appearance.hairstyle
+  summary: 編んでまとめた髪。手間と素朴さの記号。
+  effect: 地味の記号として置き、解いた姿との落差を仕込む。
+  pairs_with: [megane, hitomishiri]
+  contrasts_with: []
+  tags: [定番]
+
+- id: odango
+  name: お団子
+  kana: おだんご
+  aliases: [シニヨン, 団子頭]
+  axis: appearance.hairstyle
+  summary: 丸くまとめた髪。活発さと和の気配。
+  effect: まとめている状態を基準にし、崩れを事件にする。
+  pairs_with: [wasou, tenshin]
+  contrasts_with: []
+  tags: [定番]
+
+# --- 体格 ---
+- id: kasshoku
+  name: 褐色肌
+  kana: かっしょくはだ
+  aliases: [日焼け, 浅黒い肌]
+  axis: appearance.build
+  summary: 濃い色の肌。健康と異国性の記号。
+  effect: 出自や生活の履歴を肌の色ひとつで暗示する。
+  pairs_with: [kinpatsu, shirogami]
+  contrasts_with: [irojiro]
+  tags: [定番]
+
+- id: irojiro
+  name: 色白
+  kana: いろじろ
+  aliases: [白い肌]
+  axis: appearance.build
+  summary: 淡い色の肌。深窓と虚弱の気配。
+  effect: 外に出ない生活や体質の弱さを無言で示す。
+  pairs_with: [reijou, byoujaku, kurokami]
+  contrasts_with: [kasshoku]
+  tags: [定番]
+
+- id: byoujaku
+  name: 病弱
+  kana: びょうじゃく
+  aliases: [身体が弱い]
+  axis: appearance.build
+  summary: 体質として弱いこと。行動範囲が最初から制限されている。
+  effect: 日常の全てに残り時間の気配を混ぜ、無理をする場面を事件にする。
+  pairs_with: [irojiro, kikan-gentei, muri]
+  contrasts_with: [kinniku]
+  tags: [定番]
+
+# --- 種族（人外の解像度） ---
+- id: kyuuketsuki
+  name: 吸血鬼
+  kana: きゅうけつき
+  aliases: [ヴァンパイア]
+  axis: appearance.species
+  summary: 血を糧とする不死者。捕食と貴族性の記号。
+  effect: 生存が他者への加害と結びつく葛藤を標準装備にする。
+  pairs_with: [furou, irojiro]
+  contrasts_with: []
+  tags: [定番, 種族]
+
+- id: tenshi
+  name: 天使
+  kana: てんし
+  aliases: []
+  axis: appearance.species
+  summary: 天上に属する存在。清らかさの既定値。
+  effect: 堕ちる余地を最初から用意する。
+  pairs_with: [shirogami, kyuusai]
+  contrasts_with: [akuma]
+  tags: [定番, 種族]
+
+- id: akuma
+  name: 悪魔
+  kana: あくま
+  aliases: [デーモン, 魔族]
+  axis: appearance.species
+  summary: 魔に属する存在。契約と誘惑の記号。
+  effect: 善行や情の一つ一つに「らしくなさ」という価値を付ける。
+  pairs_with: [keiyaku, haraguro]
+  contrasts_with: [tenshi]
+  tags: [定番, 種族]
+
+- id: erufu
+  name: エルフ
+  kana: えるふ
+  aliases: [長耳]
+  axis: appearance.species
+  summary: 長命の森の種族。尖った耳と美形の記号。
+  effect: 人との時間感覚のずれを標準装備にする。
+  pairs_with: [furou, kinpatsu]
+  contrasts_with: []
+  tags: [定番, 種族]
+
+- id: ryuu
+  name: 竜
+  kana: りゅう
+  aliases: [ドラゴン, 竜人]
+  axis: appearance.species
+  summary: 竜の血を引く存在。角と鱗と強大さの記号。
+  effect: 圧倒的な力と、人の姿に収まりきらない部分を同時に与える。
+  pairs_with: [tsuyoi-noni-moroi, kokuin]
+  contrasts_with: []
+  tags: [種族]
+
+- id: oni
+  name: 鬼
+  kana: おに
+  aliases: []
+  axis: appearance.species
+  summary: 角を持つ和の異形。怪力と疎外の記号。
+  effect: 力ゆえに恐れられ、人の輪に入れない前提を作る。
+  pairs_with: [kizuato, muhoumono]
+  contrasts_with: []
+  tags: [種族]
+
+- id: yuurei
+  name: 幽霊
+  kana: ゆうれい
+  aliases: [ゴースト, 亡霊]
+  axis: appearance.species
+  summary: 死後も残っている存在。触れられないことと未練の記号。
+  effect: 接触の不可能性と、成仏という退場期限を標準装備にする。
+  pairs_with: [taijou, kikan-gentei, soushitsu]
+  contrasts_with: []
+  tags: [種族]
+
+# --- 記号職 ---
+- id: meido
+  name: メイド
+  kana: めいど
+  aliases: [メイド服]
+  axis: appearance.motif
+  summary: 仕える者の制服。従属と献身が衣装になった記号。
+  effect: 主従の関係性を衣装だけで即座に立ち上げる。
+  pairs_with: [shujuu, keigo, juusha]
+  contrasts_with: []
+  tags: [定番, 記号職]
+
+- id: miko
+  name: 巫女
+  kana: みこ
+  aliases: [巫女服]
+  axis: appearance.motif
+  summary: 神に仕える者。清浄と俗世からの隔離の記号。
+  effect: 触れてはいけない領域にいる、という距離を初期値にする。
+  pairs_with: [wasou, fuuin]
+  contrasts_with: []
+  tags: [定番, 記号職]
+
+- id: shisutaa
+  name: シスター
+  kana: しすたー
+  aliases: [修道女]
+  axis: appearance.motif
+  summary: 神に身を捧げた者。禁欲と赦しの記号。
+  effect: 戒律という壁を常設し、破る一回に全重量を載せる。
+  pairs_with: [keigo, zaiakukan, kyuusai]
+  contrasts_with: []
+  tags: [定番, 記号職]
+
+- id: naasu
+  name: ナース
+  kana: なーす
+  aliases: [看護師]
+  axis: appearance.motif
+  summary: 看護する者。手当てと管理の記号。
+  effect: 触れることが職務として許可された関係を作る。
+  pairs_with: [sewayaki, houtai]
+  contrasts_with: []
+  tags: [記号職]
+
+- id: majo
+  name: 魔女
+  kana: まじょ
+  aliases: [ウィッチ]
+  axis: appearance.motif
+  summary: 魔術を使う者。知恵と隔絶の記号。
+  effect: 常人に見えないものを扱う代償として、孤立を初期値にする。
+  pairs_with: [furou, keiyaku, nagaremono]
+  contrasts_with: []
+  tags: [定番, 記号職]
+
+- id: kishi
+  name: 騎士
+  kana: きし
+  aliases: [ナイト]
+  axis: appearance.motif
+  summary: 主君に剣を捧げる者。忠誠と鎧の記号。
+  effect: 守るべき対象を持つことを存在の前提にする。
+  pairs_with: [shujuu, buki, giri]
+  contrasts_with: []
+  tags: [定番, 記号職]
+
+- id: shitsuji
+  name: 執事
+  kana: しつじ
+  aliases: [バトラー]
+  axis: appearance.motif
+  summary: 家に仕える者。完璧な所作と一歩引いた距離の記号。
+  effect: 完璧な職務の裏に私情を隠す構造を標準装備にする。
+  pairs_with: [keigo, juusha, tatemae-honne]
+  contrasts_with: []
+  tags: [記号職]
+
+- id: aidoru
+  name: アイドル
+  kana: あいどる
+  aliases: []
+  axis: appearance.motif
+  summary: 見られることが職業になった者。舞台上と楽屋の二層の記号。
+  effect: 公の顔を職業として固定し、素顔の価値を吊り上げる。
+  pairs_with: [neko-o-kaburu, tsukuri-warai, futari-dake]
+  contrasts_with: []
+  tags: [定番, 記号職]
+
+# --- 性格/傷 ---
+- id: yandere
+  name: ヤンデレ
+  kana: やんでれ
+  aliases: [病んでる]
+  axis: mind.wound
+  summary: 好意が執着へ変質し、手段を選ばなくなる状態。
+  effect: 愛情の深さと危険性を同じ目盛りに載せる。
+  pairs_with: [misuterare, kyouizon, kataomoi]
+  contrasts_with: []
+  tags: [定番]
+
+# --- 話し方 ---
+- id: hougen
+  name: 方言
+  kana: ほうげん
+  aliases: [訛り, 関西弁]
+  axis: mind.speech
+  summary: 土地の言葉で話すこと。出自が発話のたびに露出する。
+  effect: 標準語の場での異物感と、素に戻る瞬間の検出器を兼ねる。
+  pairs_with: [yosomono, tenshin]
+  contrasts_with: [keigo]
+  tags: [定番]
+
+# --- 関係の型 ---
+- id: futago
+  name: 双子
+  kana: ふたご
+  aliases: []
+  axis: relation.type
+  summary: 同じ顔で生まれた二人。比較と入れ替わりが常に可能。
+  description: >-
+    同一の出発点を持つため、差異のすべてが選択の結果として読める。
+    入れ替わり・取り違え・片割れの喪失が構造として最初から用意されている。
+  effect: 鏡合わせと入れ替わりの装置を血縁で常設する。
+  pairs_with: [kagami, nimensei]
+  contrasts_with: []
+  tags: [定番]
+
+- id: gikyoudai
+  name: 義兄妹
+  kana: ぎきょうだい
+  aliases: [義姉弟, 血の繋がらない兄妹]
+  axis: relation.type
+  summary: 血縁のない家族関係。家族の距離と他人の可能性が同居する。
+  effect: 最も近い距離に「本当は他人」という一枚を差し込む。
+  pairs_with: [hogosha, osananajimi]
+  contrasts_with: []
+  tags: [定番]
+
+- id: mibunsa
+  name: 身分差
+  kana: みぶんさ
+  aliases: [格差, 主人と使用人]
+  axis: relation.type
+  summary: 社会的な立場の隔たりがある二人。関係の成立自体が違反になる。
+  effect: 近づく一歩ごとに社会的な代償を課金する。
+  pairs_with: [reijou, meido, shujuu]
+  contrasts_with: []
+  tags: [定番]
+
+- id: sankaku-kankei
+  name: 三角関係
+  kana: さんかくかんけい
+  aliases: []
+  axis: relation.state
+  summary: 三人の間で好意が一方通行に循環している状態。
+  effect: 誰かの成就が必ず誰かの喪失になる構造を作る。
+  pairs_with: [kataomoi, surechigai, osananajimi]
+  contrasts_with: []
+  tags: [定番]
+
+# --- 秘密 ---
+- id: kioku-soushitsu
+  name: 記憶喪失
+  kana: きおくそうしつ
+  aliases: [記憶を失っている]
+  axis: narrative.secret
+  summary: 過去が本人からも伏せられている状態。
+  description: >-
+    「語られない過去」の変種だが、本人すら知らない点が異なる。
+    思い出すことが救済にも破滅にもなり、思い出す順序が物語の設計そのものになる。
+  effect: 過去の開示を、本人と観客が同時に受け取る事件に変える。
+  pairs_with: [kako, shoutai, nimensei]
+  contrasts_with: []
+  tags: [定番]

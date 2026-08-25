@@ -15,8 +15,21 @@ ROOT = Path(__file__).resolve().parent.parent.parent
 DB = ROOT / "docs" / "data" / "db.json"
 WD_MAP = Path(__file__).resolve().parent / "wd_map.yaml"
 
-# 外見の軸。WD-Tagger が担当する範囲。
-VISUAL_GROUPS = {"appearance"}
+# 画像・タグ集計だけで判定する軸（classify はここへ踏み込めない）。
+# 体格・種族・記号職は appearance 配下だが、公式プロフィールにも書かれるため
+# 資料レーン（classify）からも判定を許す。
+VISUAL_AXES = {
+    "appearance.hairstyle",
+    "appearance.haircolor",
+    "appearance.eyeshape",
+    "appearance.eyecolor",
+    "appearance.face",
+    "appearance.parts",
+    "appearance.marks",
+    "appearance.costume",
+    "appearance.item",
+}
+VISUAL_GROUPS = {"appearance"}  # 後方互換（ダッシュボードの表示用）
 
 WEIGHT_ORDER = {"core": 0, "sub": 1, "spice": 2}
 
@@ -27,20 +40,21 @@ def load_db() -> dict:
     return json.loads(DB.read_text(encoding="utf-8"))
 
 
-def vocabulary(db: dict, groups: set[str] | None = None) -> list[dict]:
-    """見出し語の一覧。groups を指定するとその大分類だけに絞る。"""
+def vocabulary(db: dict, groups: set[str] | None = None, exclude_axes: set[str] | None = None) -> list[dict]:
+    """見出し語の一覧。groups で大分類を絞り、exclude_axes で軸を除外する。"""
     return [
         e
         for e in db["elements"]
-        if groups is None or e["group"] in groups
+        if (groups is None or e["group"] in groups)
+        and (exclude_axes is None or e["axis"] not in exclude_axes)
     ]
 
 
-def vocabulary_block(db: dict, groups: set[str] | None = None) -> str:
+def vocabulary_block(db: dict, groups: set[str] | None = None, exclude_axes: set[str] | None = None) -> str:
     """モデルに渡す語彙表。id と名前と一行定義だけを、軸ごとにまとめる。"""
     lines: list[str] = []
     current = None
-    for e in sorted(vocabulary(db, groups), key=lambda x: (x["axis"], x["id"])):
+    for e in sorted(vocabulary(db, groups, exclude_axes), key=lambda x: (x["axis"], x["id"])):
         if e["axis"] != current:
             current = e["axis"]
             lines.append(f"\n[{e['group_name']} / {e['axis_name']}]")
