@@ -113,15 +113,14 @@ elements:
   choker:
     tags: [choker, collar, neck_belt]
   yubiwa:
-    tags: [ring, wedding_band, jewelry]
+    tags: [ring, wedding_band, wedding_ring]
     threshold: 0.5
-    note: jewelry は範囲が広いので、指輪が確認できるときだけ採用する
   houtai:
     tags: [bandages, bandaged_arm, bandaged_head, bandaid, bandaged_hand]
   heddohon:
     tags: [headphones, headset, earphones]
   buki:
-    tags: [holding_weapon, sword, katana, gun, spear, scythe, holding_sword]
+    tags: [holding_weapon, weapon, sword, katana, gun, spear, scythe, holding_sword]
 
   # --- 種族（外見から確実に読める範囲だけ） ---
   kemomimi:
@@ -220,6 +219,10 @@ elements:
     threshold: 0.5
   mekakushi:
     tags: [blindfold, covered_eyes]
+
+  # --- 3 巡目 ---
+  messhu:
+    tags: [multicolored_hair, two-tone_hair, streaked_hair, gradient_hair, colored_inner_hair]
 
 # 画像タグでは判定しない見出し語（vision.py または手作業の担当）
 #   unaji         … Danbooru に対応タグがない

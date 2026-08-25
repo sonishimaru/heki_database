@@ -356,3 +356,48 @@
   pairs_with: [fuuin, tsuyoi-noni-moroi]
   contrasts_with: []
   tags: [遮蔽]
+
+# --- 分析サイクル 3 巡目（suggestions からの昇格） ---
+- id: saikyou
+  name: 最強
+  kana: さいきょう
+  aliases: [世界最強]
+  axis: relation.position
+  summary: その世界で並ぶ者がいない立場。強さが比較を失っている。
+  effect: 勝敗の緊張を捨てる代わりに、孤独と退屈と「唯一の例外」への渇望を得る。
+  pairs_with: [yoyuu, tsuyoi-noni-moroi, joushi]
+  contrasts_with: []
+  tags: [定番]
+
+- id: ansatsusha
+  name: 暗殺者
+  kana: あんさつしゃ
+  aliases: [殺し屋, アサシン]
+  axis: relation.position
+  summary: 人を殺すことを職業にしている立場。日常との二重生活が前提になる。
+  effect: 温かい日常の全てに「本業がばれたら終わる」という緊張を敷く。
+  pairs_with: [nimensei, shoutai, muhoumono]
+  contrasts_with: []
+  tags: [定番]
+
+- id: petto-atsukai
+  name: ペット扱い
+  kana: ぺっとあつかい
+  aliases: [飼われている, 飼い慣らし]
+  axis: relation.type
+  summary: 対等な相手ではなく愛玩物として扱う・扱われる関係。
+  effect: 愛情と支配の区別を消し、首輪の心地よさという倒錯を成立させる。
+  pairs_with: [shujuu, choker, kyouizon]
+  contrasts_with: [aibou]
+  tags: [定番]
+
+- id: messhu
+  name: メッシュ
+  kana: めっしゅ
+  aliases: [ツートン, インナーカラー, グラデ髪]
+  axis: appearance.haircolor
+  summary: 二色以上が混ざった髪。単色の初期値から外れた選択。
+  effect: 「見えている面が全部ではない」ことを髪の内側の色で宣言する。
+  pairs_with: [nimensei, neko-o-kaburu]
+  contrasts_with: []
+  tags: [定番]

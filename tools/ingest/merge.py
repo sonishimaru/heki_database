@@ -91,6 +91,9 @@ GENERIC_TAGS = {
     "alternate_costume", "cosplay", "chibi", "heart", "sweat", "speech_bubble",
     "signature", "artist_name", "watermark", "twitter_username", "virtual_youtuber",
     "medium_breasts", "cleavage", "navel", "midriff", "floating_hair",
+    "breasts", "male_focus", "parted_bangs", "x_hair_ornament", "detached_sleeves",
+    "capelet", "white_capelet", "black_necktie", "ringed_eyes", "forked_eyebrows",
+    "roswaal_mansion_maid_uniform", "demon_slayer_uniform",
 }
 
 
