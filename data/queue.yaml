@@ -16,4 +16,12 @@
 #
 # danbooru / anilist / pages はどれも任意。書いたレーンだけが動く。
 
-characters: []
+characters:
+  - id: anya-forger
+    name: アーニャ・フォージャー
+    kana: あーにゃふぉーじゃー
+    work: SPY×FAMILY
+    year: 2022
+    danbooru: anya_(spy_x_family)
+    anilist: Anya Forger
+
