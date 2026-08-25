@@ -1,0 +1,139 @@
+# WD-Tagger（Danbooru 語彙）→ 本データベースの見出し語
+#
+# WD-Tagger が確実に当てられるのは外見だけなので、対応表も外見に限っている。
+# 性格・関係・展開・構造は画像から判定させない（vision.py と手作業の担当）。
+#
+#   tags      … いずれかが閾値を超えたらその見出し語を立てる
+#   threshold … 既定 0.35 を上書きする（誤検出しやすいタグは高めにする）
+#   note      … 判定時の注意。merge.py が出力するメモの下敷きにもなる
+
+defaults:
+  threshold: 0.35
+
+elements:
+  # --- 髪 ---
+  chouhatsu:
+    tags: [long_hair, very_long_hair, absurdly_long_hair]
+  tanpatsu:
+    tags: [short_hair, very_short_hair, pixie_cut, undercut, buzz_cut]
+  twintail:
+    tags: [twintails, low_twintails, short_twintails, twin_braids]
+  ponytail:
+    tags: [ponytail, high_ponytail, side_ponytail, folded_ponytail]
+  hime-cut:
+    tags: [hime_cut]
+  ahoge:
+    tags: [ahoge, antenna_hair, huge_ahoge]
+  shirogami:
+    tags: [white_hair, grey_hair, silver_hair, platinum_blonde_hair]
+  kusekke:
+    tags: [messy_hair, bedhead, hair_between_eyes]
+    threshold: 0.5
+    note: hair_between_eyes は該当率が高すぎるので閾値を上げている
+  mekakure:
+    tags: [hair_over_eyes, hair_over_one_eye, bangs_over_eyes]
+
+  # --- 目 ---
+  jitome:
+    tags: [jitome, half-closed_eyes]
+  tsurime:
+    tags: [tsurime]
+  tareme:
+    tags: [tareme]
+  itome:
+    tags: [closed_eyes, "=_="]
+    threshold: 0.6
+    note: 閉眼と糸目は Danbooru 上で区別されにくい。常時その顔かどうかは要確認
+  heterochromia:
+    tags: [heterochromia]
+  hikari-nashi:
+    tags: [empty_eyes, expressionless_eyes, dark_persona]
+  gantai:
+    tags: [eyepatch, medical_eyepatch]
+
+  # --- 顔 ---
+  muhyoujou:
+    tags: [expressionless, blank_stare]
+  yaeba:
+    tags: [fang, fangs, skin_fang]
+  namida-bokuro:
+    tags: [mole_under_eye, mole_under_mouth]
+  kuma:
+    tags: [eyebags, dark_circles]
+  tsukuri-warai:
+    tags: [fake_smile, forced_smile]
+    threshold: 0.5
+
+  # --- 体・部位 ---
+  te:
+    tags: [hand_focus, finger_focus, veiny_arms]
+    note: 構図として手が主役になっている場合に立てる
+  senaka:
+    tags: [back_focus, from_behind, back]
+  sakotsu:
+    tags: [collarbone]
+  nodobotoke:
+    tags: ["adam's_apple"]
+  kinniku:
+    tags: [muscular, muscular_male, muscular_female, abs, toned]
+  kyasha:
+    tags: [skinny, slender, narrow_waist]
+    threshold: 0.5
+  kizuato:
+    tags: [scar, scar_on_face, scar_across_eye, scar_on_cheek, burn_scar]
+  gishi:
+    tags: [prosthesis, mechanical_arm, mechanical_hand, artificial_limb]
+  kokuin:
+    tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo]
+
+  # --- 服装 ---
+  seifuku:
+    tags: [school_uniform, serafuku, gakuran, blazer, sailor_collar]
+  hakui:
+    tags: [labcoat, lab_coat, white_coat]
+  wasou:
+    tags: [kimono, yukata, japanese_clothes, hakama, haori]
+  gunpuku:
+    tags: [military_uniform, epaulettes, peaked_cap, military, aiguillette]
+  heyagi:
+    tags: [pajamas, nightgown, loungewear, casual]
+    threshold: 0.5
+  bukabuka:
+    tags: [oversized_clothes, oversized_shirt, sleeves_past_wrists, sleeves_past_fingers]
+  furiru:
+    tags: [frills, frilled_dress, lolita_fashion, gothic_lolita, layered_dress]
+  gaitou:
+    tags: [cape, cloak, coat, long_coat, hooded_cloak, trench_coat]
+
+  # --- 小物 ---
+  megane:
+    tags: [glasses, semi-rimless_eyewear, round_eyewear, rimless_eyewear, sunglasses]
+  tebukuro:
+    tags: [gloves, fingerless_gloves, elbow_gloves, black_gloves, white_gloves]
+  choker:
+    tags: [choker, collar, neck_belt]
+  yubiwa:
+    tags: [ring, wedding_band, jewelry]
+    threshold: 0.5
+    note: jewelry は範囲が広いので、指輪が確認できるときだけ採用する
+  houtai:
+    tags: [bandages, bandaged_arm, bandaged_head, bandaid, bandaged_hand]
+  heddohon:
+    tags: [headphones, headset, earphones]
+  buki:
+    tags: [holding_weapon, sword, katana, gun, spear, scythe, holding_sword]
+
+  # --- 種族（外見から確実に読める範囲だけ） ---
+  kemomimi:
+    tags: [animal_ears, cat_ears, fox_ears, wolf_ears, tail, animal_ear_fluff]
+  jingai:
+    tags: [horns, demon_horns, pointy_ears, angel_wings, demon_girl, monster_girl, halo]
+  jinzou:
+    tags: [android, robot, robot_joints, mechanical_parts, doll_joints, joints]
+
+# 画像タグでは判定しない見出し語（vision.py または手作業の担当）
+#   unaji         … Danbooru に対応タグがない
+#   teishinchou   … 身長は単体の絵から判定できない（並んだ絵でのみ分かる）
+#   koushinchou   … 同上
+#   shisei        … 姿勢の良さを表すタグがない
+#   katami        … 物の由来は画像から分からない

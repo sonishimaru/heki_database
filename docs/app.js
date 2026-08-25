@@ -506,6 +506,15 @@ function renderCharacterDetail(id) {
             <tr><th>作品</th><td>${esc(c.work)}</td></tr>
             ${c.year ? `<tr><th>成立</th><td>${esc(c.year)} 年頃</td></tr>` : ''}
             ${c.author ? `<tr><th>作者</th><td>${esc(c.author)}</td></tr>` : ''}
+            ${
+              c.analysis && c.analysis.method
+                ? `<tr><th>分析</th><td>${esc(c.analysis.method)}${
+                    c.analysis.model ? `・${esc(c.analysis.model)}` : ''
+                  }${c.analysis.frames ? `・${esc(c.analysis.frames)}枚` : ''}${
+                    c.analysis.cuts ? `／${esc(c.analysis.cuts)}カット` : ''
+                  }</td></tr>`
+                : ''
+            }
           </table>
         </div>
         <div class="block">

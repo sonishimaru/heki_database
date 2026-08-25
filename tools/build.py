@@ -22,6 +22,7 @@ OUT = ROOT / "docs" / "data" / "db.json"
 
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 WEIGHTS = ("core", "sub", "spice")
+ANALYSIS_KEYS = ("method", "model", "frames", "cuts", "date")
 FORMULA_KEYS = ("subject", "delta", "trigger", "condition", "observer")
 
 
@@ -160,6 +161,14 @@ def load_characters(problems: Problems, elements: dict, patterns: dict) -> dict[
                 problems.add(where, f"weight は {WEIGHTS} のいずれか: {weight}")
         if not seen:
             problems.add(where, "要素が 1 つも登録されていません")
+        analysis = entry.get("analysis")
+        if analysis is not None:
+            if not isinstance(analysis, dict):
+                problems.add(where, "analysis はマッピングで指定してください")
+            else:
+                for key in analysis:
+                    if key not in ANALYSIS_KEYS:
+                        problems.add(where, f"analysis の未知の項目: {key}")
         entry.setdefault("patterns", [])
         for ref in entry["patterns"]:
             if ref not in patterns:
@@ -262,6 +271,7 @@ def build(elements: dict, patterns: dict, characters: dict, groups: list, axis_i
                 "year": entry.get("year"),
                 "author": entry.get("author", ""),
                 "summary": entry["summary"],
+                "analysis": entry.get("analysis") or {},
                 "elements": [
                     {
                         "id": item["id"],

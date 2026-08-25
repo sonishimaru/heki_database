@@ -1,2 +1,9 @@
 __pycache__/
 .DS_Store
+
+# 取り込み作業用（動画・フレーム・タグの中間ファイルはコミットしない）
+work/
+images/
+*.mp4
+*.mkv
+*.webm
