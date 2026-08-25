@@ -92,7 +92,7 @@ elements:
   hakui:
     tags: [labcoat, lab_coat, white_coat]
   wasou:
-    tags: [kimono, yukata, japanese_clothes, hakama, haori]
+    tags: [kimono, yukata, japanese_clothes, hakama, haori, white_kimono, pink_kimono]
   gunpuku:
     tags: [military_uniform, epaulettes, peaked_cap, military, aiguillette]
   heyagi:
@@ -109,7 +109,7 @@ elements:
   megane:
     tags: [glasses, semi-rimless_eyewear, round_eyewear, rimless_eyewear, sunglasses]
   tebukuro:
-    tags: [gloves, fingerless_gloves, elbow_gloves, black_gloves, white_gloves]
+    tags: [gloves, fingerless_gloves, elbow_gloves, black_gloves, white_gloves, under-elbow_gloves]
   choker:
     tags: [choker, collar, neck_belt]
   yubiwa:
@@ -124,9 +124,9 @@ elements:
 
   # --- 種族（外見から確実に読める範囲だけ） ---
   kemomimi:
-    tags: [animal_ears, cat_ears, fox_ears, wolf_ears, tail, animal_ear_fluff]
+    tags: [animal_ears, cat_ears, fox_ears, wolf_ears, animal_ear_fluff, wolf_girl, cat_girl, fox_girl]
   jingai:
-    tags: [horns, monster_girl, slime_girl, lamia, mermaid]
+    tags: [horns, monster_girl, slime_girl, lamia, mermaid, red_horns]
   jinzou:
     tags: [android, robot, robot_joints, mechanical_parts, doll_joints, joints]
 
@@ -195,7 +195,7 @@ elements:
   miko:
     tags: [miko, japanese_shrine_maiden]
   shisutaa:
-    tags: [nun, habit]
+    tags: [nun, habit, nun_headdress]
   naasu:
     tags: [nurse, nurse_cap]
   majo:
@@ -223,6 +223,29 @@ elements:
   # --- 3 巡目 ---
   messhu:
     tags: [multicolored_hair, two-tone_hair, streaked_hair, gradient_hair, colored_inner_hair]
+
+  # --- 4 巡目 ---
+  shippo:
+    tags: [tail, wolf_tail, cat_tail, fox_tail, dog_tail, dragon_tail, demon_tail, brown_tail]
+  sarugutsuwa:
+    tags: [gag, gagged, bit_gag, ball_gag]
+    threshold: 0.5
+    note: 常設の口枷（禰豆子の竹筒など）に限る。一枚絵だけの拘束は立てない
+  hakama:
+    tags: [hakama, hakama_skirt, red_hakama, hakama_pants]
+  roobu:
+    tags: [robe]
+  pattsun:
+    tags: [blunt_bangs]
+    threshold: 0.4
+  semi-long:
+    tags: [medium_hair]
+  momoiro-no-me:
+    tags: [pink_eyes]
+  chairo-no-me:
+    tags: [brown_eyes]
+  gizaba:
+    tags: [sharp_teeth]
 
 # 画像タグでは判定しない見出し語（vision.py または手作業の担当）
 #   unaji         … Danbooru に対応タグがない

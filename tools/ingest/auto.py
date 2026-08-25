@@ -38,32 +38,39 @@ def run(cmd: list[str], **kwargs) -> subprocess.CompletedProcess:
     return subprocess.run([str(c) for c in cmd], check=True, cwd=ROOT, **kwargs)
 
 
-def load_auto_dates() -> dict[str, str]:
+def load_auto_meta() -> dict[str, dict]:
     if not AUTO_CHARACTERS.exists():
         return {}
     entries = yaml.safe_load(AUTO_CHARACTERS.read_text(encoding="utf-8")) or []
-    return {e["id"]: (e.get("analysis") or {}).get("date", "") for e in entries}
+    return {e["id"]: (e.get("analysis") or {}) for e in entries}
 
 
-def select_targets(queue: list[dict], auto_dates: dict[str, str], max_age_days: int, only: str | None) -> list[dict]:
-    today = time.strftime("%Y-%m-%d")
+def select_targets(queue: list[dict], auto_meta: dict[str, dict], max_age_days: int, only: str | None, backfill_gemini: bool) -> list[dict]:
     cutoff = time.strftime("%Y-%m-%d", time.localtime(time.time() - max_age_days * 86400))
-    targets = []
+    fresh, stale, lane_gap = [], [], []
     for entry in queue:
         cid = entry.get("id") or common.slugify(entry.get("name", ""))
         entry["id"] = cid
         if only:
             if cid == only:
-                targets.append(entry)
+                fresh.append(entry)
             continue
-        last = auto_dates.get(cid)
-        if last is None:
+        meta = auto_meta.get(cid)
+        if meta is None:
             entry["_reason"] = "新規"
-            targets.append(entry)
-        elif not last or last < cutoff:
+            fresh.append(entry)
+            continue
+        last = meta.get("date", "")
+        if not last or last < cutoff:
             entry["_reason"] = f"期限切れ（前回 {last or '不明'}）"
-            targets.append(entry)
-    return targets
+            stale.append(entry)
+            continue
+        # クォータ切れ等で資料レーンだけ落ちた件は、期限を待たずに埋め直す
+        wants_gemini = bool(entry.get("anilist") or entry.get("pages"))
+        if backfill_gemini and wants_gemini and "gemini" not in (meta.get("method") or ""):
+            entry["_reason"] = f"資料レーン未取得（前回 {last}）"
+            lane_gap.append(entry)
+    return fresh + stale + lane_gap
 
 
 def process(entry: dict, api_key: str | None, sleep: float) -> None:
@@ -152,7 +159,8 @@ def main() -> int:
         print("キューが空です。data/queue.yaml にキャラクターを足してください。")
         return 0
 
-    targets = select_targets(queue, load_auto_dates(), args.max_age_days, args.only)
+    api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    targets = select_targets(queue, load_auto_meta(), args.max_age_days, args.only, backfill_gemini=bool(api_key))
     if not targets:
         print("処理対象がありません（全件が期限内）。")
         return 0
@@ -163,8 +171,6 @@ def main() -> int:
         print(f"  - {entry['id']}: {entry.get('name')}（{entry.get('_reason', '指定')}）")
     if args.dry_run:
         return 0
-
-    api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
     failed = []
     for entry in targets:
         print(f"\n=== {entry['id']} ===")

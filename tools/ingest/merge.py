@@ -94,6 +94,10 @@ GENERIC_TAGS = {
     "breasts", "male_focus", "parted_bangs", "x_hair_ornament", "detached_sleeves",
     "capelet", "white_capelet", "black_necktie", "ringed_eyes", "forked_eyebrows",
     "roswaal_mansion_maid_uniform", "demon_slayer_uniform",
+    "nude", "safety_pin", "forehead", "sash", "wide_sleeves", "sweater_vest",
+    "black_dress", "bamboo", "symbol-shaped_pupils", "cross-shaped_pupils",
+    "slit_pupils", "tokiwadai_school_uniform", "summer_uniform",
+    "pink_ribbon", "red_ribbon", "blue_ribbon",
 }
 
 

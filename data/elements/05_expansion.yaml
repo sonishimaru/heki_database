@@ -401,3 +401,103 @@
   pairs_with: [nimensei, neko-o-kaburu]
   contrasts_with: []
   tags: [定番]
+
+# --- 4巡目: 自動蓄積（ホロ・禰豆子・桔梗・御坂・パワー）からの昇格 ---
+- id: shippo
+  name: 尻尾
+  kana: しっぽ
+  aliases: [尾]
+  axis: appearance.parts
+  summary: 獣や竜の尾。感情がそのまま出る第二の表情。
+  effect: 口では隠した感情を尻尾の動きで漏らさせる。
+  pairs_with: [kemomimi, ryuu]
+  contrasts_with: []
+  tags: [定番]
+
+- id: sarugutsuwa
+  name: 猿轡
+  kana: さるぐつわ
+  aliases: [口枷]
+  axis: appearance.item
+  summary: 口を塞ぐ枷。言葉を封じられた状態の記号。
+  effect: 喋れない理由を設定に組み込み、目と仕草だけで語らせる。
+  pairs_with: [muhyoujou]
+  contrasts_with: []
+  tags: []
+
+- id: hakama
+  name: 袴
+  kana: はかま
+  aliases: [袴姿]
+  axis: appearance.costume
+  summary: 和装の下衣。巫女・剣士・書生の記号。
+  effect: 立ち姿に規律と時代の気配を与える。
+  pairs_with: [miko, wasou]
+  contrasts_with: []
+  tags: [定番]
+
+- id: roobu
+  name: ローブ
+  kana: ろーぶ
+  aliases: [法衣]
+  axis: appearance.costume
+  summary: 身体の線を隠すゆったりした外衣。魔導と聖職の記号。
+  effect: 中身を隠すことで、まとう者の役割を先に語らせる。
+  pairs_with: [majo, shisutaa]
+  contrasts_with: []
+  tags: []
+
+- id: pattsun
+  name: ぱっつん
+  kana: ぱっつん
+  aliases: [ぱっつん前髪, 切り揃え前髪]
+  axis: appearance.hairstyle
+  summary: 一直線に切り揃えた前髪。人形めいた端正さ。
+  effect: 直線の前髪が無表情を強調し、崩れた時の落差を作る。
+  pairs_with: [hime-cut, kurokami]
+  contrasts_with: []
+  tags: [定番]
+
+- id: semi-long
+  name: セミロング
+  kana: せみろんぐ
+  aliases: [ミディアムヘア]
+  axis: appearance.hairstyle
+  summary: 肩に届く程度の中間の長さ。等身大の記号。
+  effect: 長すぎず短すぎない現実感で、生活の気配を出す。
+  pairs_with: []
+  contrasts_with: [chouhatsu, tanpatsu]
+  tags: [定番]
+
+- id: momoiro-no-me
+  name: 桃色の目
+  kana: ももいろのめ
+  aliases: [ピンクの瞳]
+  axis: appearance.eyecolor
+  summary: 桃色の瞳。甘さと人外性の両方に振れる色。
+  effect: 髪色と揃えるか外すかで、血統や人工性を暗示する。
+  pairs_with: [pinku-gami]
+  contrasts_with: []
+  tags: [定番]
+
+- id: chairo-no-me
+  name: 茶色の目
+  kana: ちゃいろのめ
+  aliases: [茶目]
+  axis: appearance.eyecolor
+  summary: 茶色の瞳。もっとも現実に近い色。
+  effect: 特別さを引き算し、等身大の存在感を支える。
+  pairs_with: [chapatsu]
+  contrasts_with: []
+  tags: [定番]
+
+- id: gizaba
+  name: ギザ歯
+  kana: ぎざば
+  aliases: [鮫歯]
+  axis: appearance.face
+  summary: ギザギザに尖った歯並び。獰猛さと無邪気さの同居。
+  effect: 笑顔に捕食者の気配を混ぜる。
+  pairs_with: [yaeba, akuma]
+  contrasts_with: []
+  tags: [定番]
