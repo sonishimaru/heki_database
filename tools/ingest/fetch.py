@@ -117,10 +117,12 @@ def cmd_anilist(args) -> int:
 
 def cmd_danbooru(args) -> int:
     tag = args.tag.strip()
-    # キャラクタータグと同時に付く一般タグの頻度 = そのキャラの外見の群衆合意
+    # キャラクタータグと同時に付く一般タグの頻度 = そのキャラの外見の群衆合意。
+    # solo（一人絵）に限定しないと、同じ絵に写る別キャラの髪色などが混入する。
+    query = tag if args.no_solo else f"{tag} solo"
     url = (
         "https://danbooru.donmai.us/related_tag.json?"
-        + urllib.parse.urlencode({"query": tag, "category": "General", "limit": args.limit})
+        + urllib.parse.urlencode({"query": query, "category": "General", "limit": args.limit})
     )
     raw = json.loads(http(url))
     related = []
@@ -197,6 +199,7 @@ def main() -> int:
     p = sub.add_parser("danbooru", help="Danbooru の関連タグ集計（外見の群衆合意）")
     p.add_argument("tag", help="キャラクタータグ（例: anya_(spy_x_family)）")
     p.add_argument("--limit", type=int, default=80)
+    p.add_argument("--no-solo", action="store_true", help="solo（一人絵）への限定を外す")
     p.add_argument("--out", help="保存先を指定する")
     p.set_defaults(func=cmd_danbooru)
 
