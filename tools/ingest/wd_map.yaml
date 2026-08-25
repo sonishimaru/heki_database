@@ -131,6 +131,36 @@ elements:
   jinzou:
     tags: [android, robot, robot_joints, mechanical_parts, doll_joints, joints]
 
+  # --- 髪色 ---
+  kinpatsu:
+    tags: [blonde_hair]
+  kurokami:
+    tags: [black_hair]
+  chapatsu:
+    tags: [brown_hair, light_brown_hair]
+  akagami:
+    tags: [red_hair, orange_hair]
+  aogami:
+    tags: [blue_hair, light_blue_hair, aqua_hair]
+  midorigami:
+    tags: [green_hair]
+  pinku-gami:
+    tags: [pink_hair]
+  murasaki-gami:
+    tags: [purple_hair, lavender_hair]
+
+  # --- 目の色 ---
+  akame:
+    tags: [red_eyes]
+  aome:
+    tags: [blue_eyes, light_blue_eyes, aqua_eyes]
+  kin-no-me:
+    tags: [yellow_eyes, orange_eyes, amber_eyes]
+  midori-no-me:
+    tags: [green_eyes]
+  murasaki-no-me:
+    tags: [purple_eyes, violet_eyes]
+
 # 画像タグでは判定しない見出し語（vision.py または手作業の担当）
 #   unaji         … Danbooru に対応タグがない
 #   teishinchou   … 身長は単体の絵から判定できない（並んだ絵でのみ分かる）

@@ -668,3 +668,148 @@
   pairs_with: [shokunin, kinniku, te, gaitou]
   contrasts_with: []
   tags: [生き方]
+
+# --- 髪色 ---
+- id: kinpatsu
+  name: 金髪
+  kana: きんぱつ
+  aliases: [ブロンド]
+  axis: appearance.hair
+  summary: 金色の髪。華やかさと異国性の既定値。
+  effect: 視線を集める前提の造形にし、目立つことを引き受けさせる。
+  pairs_with: [reijou, tsurime]
+  contrasts_with: [kurokami]
+  tags: [定番, 髪色]
+
+- id: kurokami
+  name: 黒髪
+  kana: くろかみ
+  aliases: []
+  axis: appearance.hair
+  summary: 黒い髪。落ち着きと土着性の既定値。
+  effect: 装飾を引き算し、表情と所作に視線を集める。
+  pairs_with: [chouhatsu, wasou, keigo]
+  contrasts_with: [kinpatsu]
+  tags: [定番, 髪色]
+
+- id: chapatsu
+  name: 茶髪
+  kana: ちゃぱつ
+  aliases: []
+  axis: appearance.hair
+  summary: 茶色の髪。日常と親しみの既定値。
+  effect: 構えのなさを示し、隣にいる存在として置く。
+  pairs_with: [tenshin, osananajimi]
+  contrasts_with: []
+  tags: [髪色]
+
+- id: akagami
+  name: 赤髪
+  kana: あかがみ
+  aliases: [オレンジ髪]
+  axis: appearance.hair
+  summary: 赤系の髪。熱量と目立ちの記号。
+  effect: 感情の温度が高いことを、動く前から予告する。
+  pairs_with: [karetsu, tenshin]
+  contrasts_with: [aogami]
+  tags: [髪色]
+
+- id: aogami
+  name: 青髪
+  kana: あおがみ
+  aliases: [水色の髪]
+  axis: appearance.hair
+  summary: 青系の髪。静けさと距離の記号。
+  effect: 温度の低さを先に提示し、上がった一瞬を際立たせる。
+  pairs_with: [kuudere, muhyoujou]
+  contrasts_with: [akagami]
+  tags: [髪色]
+
+- id: midorigami
+  name: 緑髪
+  kana: みどりがみ
+  aliases: []
+  axis: appearance.hair
+  summary: 緑の髪。まれな色ゆえの個体識別性。
+  effect: 群衆から一人だけ切り出す識別色として働く。
+  pairs_with: []
+  contrasts_with: []
+  tags: [髪色]
+
+- id: pinku-gami
+  name: ピンク髪
+  kana: ぴんくがみ
+  aliases: [桃色の髪]
+  axis: appearance.hair
+  summary: 桃色の髪。愛される前提で設計された色。
+  effect: 庇護と好意を引き出す初期値を設定する。
+  pairs_with: [teishinchou, tenshin]
+  contrasts_with: []
+  tags: [髪色]
+
+- id: murasaki-gami
+  name: 紫髪
+  kana: むらさきがみ
+  aliases: []
+  axis: appearance.hair
+  summary: 紫の髪。高貴と妖しさの両義的な色。
+  effect: 気品と警戒を同時に立ち上げ、どちらかを後で確定させる。
+  pairs_with: [reijou, haraguro]
+  contrasts_with: []
+  tags: [髪色]
+
+# --- 目の色 ---
+- id: akame
+  name: 赤い目
+  kana: あかいめ
+  aliases: [赤目, 紅い瞳]
+  axis: appearance.eyes
+  summary: 赤い瞳。人ならざる予感の定番色。
+  effect: 種族や来歴への疑いを、瞳の色だけで漂わせる。
+  pairs_with: [shirogami, jingai]
+  contrasts_with: []
+  tags: [定番, 目の色]
+
+- id: aome
+  name: 青い目
+  kana: あおいめ
+  aliases: [碧眼]
+  axis: appearance.eyes
+  summary: 青い瞳。透明さと異国性の記号。
+  effect: 澄んだ印象を先に置き、濁る瞬間を事件にする。
+  pairs_with: [kinpatsu]
+  contrasts_with: []
+  tags: [目の色]
+
+- id: kin-no-me
+  name: 金の目
+  kana: きんのめ
+  aliases: [金眼, 琥珀の瞳]
+  axis: appearance.eyes
+  summary: 金色の瞳。捕食者と獣の記号。
+  effect: 見られる側に、狙われているという感覚を与える。
+  pairs_with: [kemomimi, mitsumeru]
+  contrasts_with: []
+  tags: [目の色]
+
+- id: midori-no-me
+  name: 緑の目
+  kana: みどりのめ
+  aliases: [翠眼]
+  axis: appearance.eyes
+  summary: 緑の瞳。静かな聡さの記号。
+  effect: 観察されている感覚を穏やかな形で常設する。
+  pairs_with: [kansatsu]
+  contrasts_with: []
+  tags: [目の色]
+
+- id: murasaki-no-me
+  name: 紫の目
+  kana: むらさきのめ
+  aliases: [紫眼]
+  axis: appearance.eyes
+  summary: 紫の瞳。まれな色ゆえの特別性。
+  effect: 出自や血統に説明の余地を作る。
+  pairs_with: [reijou, jingai]
+  contrasts_with: []
+  tags: [目の色]
