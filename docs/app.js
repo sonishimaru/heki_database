@@ -727,11 +727,150 @@ function renderNotFound() {
     <p class="empty">その項目は登録されていません。</p></section>`;
 }
 
+
+/* ---------------- dashboard ---------------- */
+
+const LANE_LABEL = {
+  danbooru: '外見（Danbooru）',
+  'wd-tagger': '外見（画像）',
+  gemini: '資料・分類',
+  speech: '台詞',
+  observe: '映像',
+};
+
+function characterLanes(c) {
+  const lanes = new Set();
+  c.elements.forEach((it) => { if (it.src) lanes.add(it.src); });
+  const method = ((c.analysis || {}).method || '');
+  method.split('+').forEach((m) => {
+    if (m && m !== 'auto') lanes.add(m);
+  });
+  return [...lanes];
+}
+
+function characterGaps(c) {
+  const gaps = [];
+  if (!c.summary || c.summary === '（要記入）') gaps.push('summary未記入');
+  const hasVisual = c.elements.some((it) => (elById[it.id] || {}).group === 'appearance');
+  const hasNonVisual = c.elements.some((it) => (elById[it.id] || {}).group !== 'appearance');
+  if (!hasVisual) gaps.push('外見なし');
+  if (!hasNonVisual) gaps.push('非外見なし');
+  if (!c.patterns.length) gaps.push('性癖未設定');
+  return gaps;
+}
+
+function weightCounts(c) {
+  const n = { core: 0, sub: 0, spice: 0 };
+  c.elements.forEach((it) => { n[it.weight] = (n[it.weight] || 0) + 1; });
+  return n;
+}
+
+function tile(num, unit, label) {
+  return `<div class="tile"><div class="num">${esc(num)}<small> ${esc(unit)}</small></div><div class="lbl">${esc(label)}</div></div>`;
+}
+
+function statusBadge(c) {
+  return c.curated
+    ? '<span class="badge ok">レビュー済み</span>'
+    : '<span class="badge warn">自動下書き</span>';
+}
+
+function renderDashboard() {
+  const chars = DB.characters;
+  const curated = chars.filter((c) => c.curated);
+  const drafts = chars.filter((c) => !c.curated);
+  const inDb = new Set(chars.map((c) => c.id));
+  const waiting = (DB.queue || []).filter((q) => !inDb.has(q.id));
+  const patternsWithCases = DB.patterns.filter((p) => p.characters.length).length;
+  const elementsWithCases = DB.elements.filter((e) => e.characters.length).length;
+
+  const rows = chars
+    .slice()
+    .sort((a, b) => {
+      const da = (a.analysis || {}).date || '';
+      const db_ = (b.analysis || {}).date || '';
+      if (da !== db_) return db_.localeCompare(da);
+      return a.kana.localeCompare(b.kana, 'ja');
+    })
+    .map((c) => {
+      const lanes = characterLanes(c);
+      const laneHtml = lanes.length
+        ? lanes.map((l) => `<span class="badge lane">${esc(LANE_LABEL[l] || l)}</span>`).join(' ')
+        : '<span class="badge lane">手作業</span>';
+      const n = weightCounts(c);
+      const gaps = characterGaps(c);
+      const date = (c.analysis || {}).date || '—';
+      return `<tr>
+          <td><a href="#/c/${c.id}">${esc(c.name)}</a><div class="sub-line">${esc(c.work)}</div></td>
+          <td>${statusBadge(c)}</td>
+          <td>${laneHtml}</td>
+          <td>${esc(date)}</td>
+          <td>${c.elements.length}<div class="sub-line">骨格${n.core}・補強${n.sub}・一点${n.spice}</div></td>
+          <td>${c.patterns.length || '—'}</td>
+          <td>${gaps.length ? `<span class="gap-note">${esc(gaps.join('・'))}</span>` : '<span class="badge ok">完備</span>'}</td>
+        </tr>`;
+    })
+    .join('');
+
+  const waitingRows = waiting
+    .map(
+      (q) => `<tr>
+        <td>${esc(q.name)}<div class="sub-line">${esc(q.work)}</div></td>
+        <td><span class="badge wait">待機中</span></td>
+        <td>${q.lanes.map((l) => `<span class="badge lane">${esc(l)}</span>`).join(' ')}</td>
+        <td colspan="4"><span class="sub-line">次回の自動実行（毎日 05:00 JST）で取り込まれる</span></td>
+      </tr>`
+    )
+    .join('');
+
+  const groupCoverage = DB.groups
+    .map((g) => {
+      const total = g.axes.reduce((n_, a) => n_ + a.count, 0);
+      const used = DB.elements.filter((e) => e.group === g.id && e.characters.length).length;
+      const pct = total ? Math.round((used / total) * 100) : 0;
+      return `<div class="cov-row">
+          <span class="cov-label">${esc(g.name)}</span>
+          <span class="cov-track"><span class="cov-fill" style="width:${pct}%;background:${GROUP_COLORS[g.id]}"></span></span>
+          <span class="cov-num">${used} / ${total}</span>
+        </div>`;
+    })
+    .join('');
+
+  app.innerHTML = `
+    <div class="tiles">
+      ${tile(chars.length, '名', '収録キャラクター')}
+      ${tile(curated.length, '名', 'レビュー済み（手書き）')}
+      ${tile(drafts.length, '名', '自動下書き（未レビュー）')}
+      ${tile(waiting.length, '件', 'キュー待機中')}
+      ${tile(`${patternsWithCases} / ${DB.patterns.length}`, '', '実例のある性癖')}
+      ${tile(`${elementsWithCases} / ${DB.elements.length}`, '', '実例のある要素')}
+    </div>
+
+    <section class="dash-section">
+      <h2>キャラクター別の分析状況</h2>
+      <p class="hint">レーン = どの収集ラインの証拠で構成されているか。自動下書きは data/characters_auto.yaml、レビュー済みは data/characters.yaml。</p>
+      <div class="table-scroll">
+        <table class="status">
+          <thead><tr><th>キャラクター</th><th>状態</th><th>レーン</th><th>最終分析</th><th>要素</th><th>性癖</th><th>欠け</th></tr></thead>
+          <tbody>${waitingRows}${rows}</tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="dash-section">
+      <h2>要素辞典のカバレッジ</h2>
+      <p class="hint">各分類の見出し語のうち、実例（キャラクター）が付いている割合。</p>
+      <div class="block">${groupCoverage}</div>
+    </section>
+    <div style="height:40px"></div>`;
+}
+
 /* ---------------- routing ---------------- */
 
 function currentView(hash) {
   if (hash.startsWith('#/patterns') || hash.startsWith('#/p/')) return 'patterns';
   if (hash.startsWith('#/elements') || hash.startsWith('#/e/')) return 'elements';
+  if (hash.startsWith('#/dashboard')) return 'dashboard';
   return 'characters';
 }
 
@@ -750,6 +889,7 @@ function route() {
   }
   if (view === 'patterns') return renderPatterns();
   if (view === 'elements') return renderElements();
+  if (view === 'dashboard') return renderDashboard();
   return renderCharacters();
 }
 

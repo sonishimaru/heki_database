@@ -267,3 +267,73 @@ table.kv tr:last-child td, table.kv tr:last-child th { border-bottom: 0; }
   .counts { width: 100%; margin-left: 0; }
   .detail-head h1 { font-size: 26px; }
 }
+
+/* ---------- dashboard ---------- */
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 22px 0 8px;
+}
+
+.tile {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 14px 10px;
+}
+
+.tile .num { font-family: var(--serif); font-size: 26px; font-weight: 700; line-height: 1.2; }
+.tile .num small { font-size: 13px; font-weight: 400; color: var(--ink-weak); font-family: var(--sans); }
+.tile .lbl { font-size: 11.5px; color: var(--ink-mid); margin-top: 2px; }
+
+.badge {
+  display: inline-block;
+  font-size: 10.5px;
+  padding: 1px 8px;
+  border-radius: 4px;
+  border: 1px solid var(--line-strong);
+  color: var(--ink-mid);
+  background: var(--card);
+  white-space: nowrap;
+}
+.badge.ok   { background: #e2efe7; border-color: #b9d6c6; color: #1d5344; }
+.badge.warn { background: #f7ecd8; border-color: #e3ceA0; color: #7a5c1e; }
+.badge.wait { background: var(--chip); border-color: var(--line); color: var(--ink-weak); }
+.badge.lane { background: var(--panel); }
+
+table.status {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.5px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+table.status th {
+  text-align: left; font-size: 11px; color: var(--ink-weak); font-weight: 600;
+  padding: 9px 12px; background: var(--panel); border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+table.status td { padding: 8px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.status tr:last-child td { border-bottom: 0; }
+table.status td a { color: var(--accent-ink); font-weight: 600; text-decoration: none; }
+table.status td a:hover { text-decoration: underline; }
+table.status .sub-line { color: var(--ink-weak); font-size: 11px; }
+table.status .gap-note { color: #8a4c3b; font-size: 11.5px; }
+.table-scroll { overflow-x: auto; }
+
+.cov-row { display: flex; align-items: center; gap: 10px; padding: 5px 0; }
+.cov-row .cov-label { width: 8em; font-size: 12px; color: var(--ink-mid); flex: none; }
+.cov-row .cov-track { display: block; flex: 1; height: 10px; background: var(--chip); border-radius: 5px; overflow: hidden; }
+.cov-row .cov-fill { display: block; height: 100%; border-radius: 5px; }
+.cov-row .cov-num { width: 6em; font-size: 11.5px; color: var(--ink-weak); text-align: right; flex: none; }
+
+.dash-section { margin: 26px 0 10px; }
+.dash-section > h2 {
+  font-family: var(--serif); font-size: 18px; margin: 0 0 4px;
+  padding-bottom: 6px; border-bottom: 2px solid var(--accent);
+}
+.dash-section > p.hint { margin: 6px 0 12px; font-size: 12px; color: var(--ink-weak); }

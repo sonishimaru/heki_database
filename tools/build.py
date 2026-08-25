@@ -147,6 +147,7 @@ def load_characters(problems: Problems, elements: dict, patterns: dict) -> dict[
             cid = entry.get("id")
             if is_auto and cid in characters:
                 continue  # 手書き（レビュー済み）が優先
+            entry["_auto"] = is_auto
             where = f"{path.name}/{cid}"
             require(problems, where, entry, ("id", "name", "kana", "work", "summary"))
             if cid and not ID_RE.match(str(cid)):
@@ -278,11 +279,13 @@ def build(elements: dict, patterns: dict, characters: dict, groups: list, axis_i
                 "author": entry.get("author", ""),
                 "summary": entry["summary"],
                 "analysis": entry.get("analysis") or {},
+                "curated": not entry.get("_auto", False),
                 "elements": [
                     {
                         "id": item["id"],
                         "weight": item.get("weight", "sub"),
                         "note": item.get("note", ""),
+                        "src": item.get("src", ""),
                     }
                     for item in items
                 ],
@@ -320,8 +323,22 @@ def build(elements: dict, patterns: dict, characters: dict, groups: list, axis_i
     for entry in patterns.values():
         all_tags.update(entry["tags"])
 
+    queue = []
+    queue_path = DATA / "queue.yaml"
+    if queue_path.exists():
+        for q in (load_yaml(queue_path) or {}).get("characters") or []:
+            queue.append(
+                {
+                    "id": q.get("id") or "",
+                    "name": q.get("name", ""),
+                    "work": q.get("work", ""),
+                    "lanes": [k for k in ("danbooru", "anilist", "pages") if q.get(k)],
+                }
+            )
+
     return {
         "groups": out_groups,
+        "queue": queue,
         "elements": out_elements,
         "patterns": out_patterns,
         "characters": out_characters,
