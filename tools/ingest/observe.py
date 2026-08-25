@@ -27,7 +27,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common  # noqa: E402
 
-DEFAULT_MODEL = os.environ.get("GEMINI_OBSERVE_MODEL", "gemini-2.5-flash")
+_ENV = os.environ.get("GEMINI_OBSERVE_MODEL")
+MODEL_CANDIDATES = [_ENV] if _ENV else ["gemini-3.6-flash", "gemini-2.5-flash"]
+DEFAULT_MODEL = MODEL_CANDIDATES[0]
 
 SCHEMA = {
     "type": "object",
@@ -154,7 +156,8 @@ def main() -> int:
             parts.append(common.image_part(image))
             parts.append({"text": f"（上の画像のファイル名: {image.name}）"})
 
-        result = common.call_gemini(args.model, parts, SCHEMA, api_key)
+        candidates = [args.model] if args.model != DEFAULT_MODEL else MODEL_CANDIDATES
+        _, result = common.call_gemini_fallback(candidates, parts, SCHEMA, api_key)
         result["scene"] = key
         result["start"] = scene["start"]
         result["images"] = [str(p) for p in images]

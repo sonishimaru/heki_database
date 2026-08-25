@@ -33,7 +33,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common  # noqa: E402
 
-DEFAULT_MODEL = os.environ.get("GEMINI_CLASSIFY_MODEL", "gemini-2.5-pro")
+_ENV = os.environ.get("GEMINI_CLASSIFY_MODEL")
+MODEL_CANDIDATES = [_ENV] if _ENV else ["gemini-3.6-pro", "gemini-3.6-flash", "gemini-2.5-pro"]
+DEFAULT_MODEL = MODEL_CANDIDATES[0]
 
 SCHEMA = {
     "type": "object",
@@ -182,8 +184,8 @@ def main() -> int:
         if args.prompt_only:
             print(prompt)
             return 0
-        result = common.call_gemini(args.model, [{"text": prompt}], SCHEMA, common.gemini_api_key())
-        model = args.model
+        candidates = [args.model] if args.model != DEFAULT_MODEL else MODEL_CANDIDATES
+        model, result = common.call_gemini_fallback(candidates, [{"text": prompt}], SCHEMA, common.gemini_api_key())
 
     result = validate(result, db)
     result["_meta"] = {"character": args.character, "model": model}

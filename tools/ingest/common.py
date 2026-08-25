@@ -130,6 +130,12 @@ def gemini_api_key() -> str:
     return key
 
 
+class GeminiHTTPError(RuntimeError):
+    def __init__(self, code: int, detail: str):
+        super().__init__(f"Gemini API エラー {code}: {detail}")
+        self.code = code
+
+
 def call_gemini(model: str, parts: list[dict], schema: dict, api_key: str, temperature: float = 0.2) -> dict:
     """generateContent を叩き、構造化 JSON を返す。"""
     import urllib.error
@@ -152,9 +158,27 @@ def call_gemini(model: str, parts: list[dict], schema: dict, api_key: str, tempe
         with urllib.request.urlopen(request, timeout=300) as response:
             payload = json.loads(response.read())
     except urllib.error.HTTPError as err:
-        raise SystemExit(f"Gemini API エラー {err.code}: {err.read().decode('utf-8', 'replace')[:500]}")
+        raise GeminiHTTPError(err.code, err.read().decode("utf-8", "replace")[:500])
     text = payload["candidates"][0]["content"]["parts"][0]["text"]
     return json.loads(text)
+
+
+def call_gemini_fallback(models: list[str], parts, schema, api_key: str, temperature: float = 0.2):
+    """モデル候補を順に試す。キーの世代によって使えるモデル名が違うため（404 は次候補へ）。
+
+    成功したモデル名と結果のタプルを返す。
+    """
+    last = None
+    for model in models:
+        try:
+            return model, call_gemini(model, parts, schema, api_key, temperature)
+        except GeminiHTTPError as err:
+            last = err
+            if err.code == 404:
+                print(f"  モデル {model} は利用不可（404）。次の候補を試します。")
+                continue
+            raise
+    raise SystemExit(f"利用できるモデルがありません: {', '.join(models)}\n{last}")
 
 
 def image_part(path) -> dict:
