@@ -1,0 +1,18 @@
+# 機械が生成・更新するキャラクター（自動取り込みの下書き）
+#
+# このファイルは tools/ingest/auto.py が全体を書き直す。手で編集しないこと。
+# レビューして採用するときは、そのエントリを data/characters.yaml へ移して磨く。
+# 同じ id が characters.yaml にある場合、そちらが優先され、このファイル側は無視される。
+
+- id: anya-forger
+  name: アーニャ・フォージャー
+  kana: あーにゃふぉーじゃー
+  work: SPY×FAMILY
+  year: 2022
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-25'
+  elements:
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 36%', src: danbooru}
+  patterns: []
