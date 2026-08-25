@@ -1,0 +1,69 @@
+# 語彙の穴の候補（自動蓄積。tools/ingest/merge.py --write-auto が更新する）
+#
+# unmapped_danbooru: 対応表に無かった高頻度タグ。見出し語に昇格させるなら
+#   data/elements/ に追加し、wd_map.yaml に対応を書く。
+# new_tag_proposals: classify が語彙に無いと判断した概念の提案。
+# 採用・却下は人が決める。処理済みのエントリは消してよい。
+
+- id: frieren
+  name: フリーレン
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: capelet
+    frequency: 0.4382
+  - tag: parted_bangs
+    frequency: 0.4248
+  - tag: white_capelet
+    frequency: 0.3936
+  new_tag_proposals: []
+- id: gojo-satoru
+  name: 五条悟
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: male_focus
+    frequency: 0.9484
+  new_tag_proposals:
+  - name: 最強
+    axis: 能力/力量
+    reason: 資料に「世界最強として広く認知されている」との記載があるが、既存の語彙に該当するタグがないため。
+- id: makima
+  name: マキマ
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: ringed_eyes
+    frequency: 0.716
+  - tag: breasts
+    frequency: 0.484
+  - tag: black_necktie
+    frequency: 0.4272
+  new_tag_proposals:
+  - name: ペット扱い
+    axis: 関係性 / 立場
+    reason: デンジを「人間のペット」として扱うという記述があり、一般的な主従（仕える・忠誠）を超えた非対等な飼育・支配関係を示すため。
+- id: rem
+  name: レム
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: breasts
+    frequency: 0.8088
+  - tag: x_hair_ornament
+    frequency: 0.8004
+  - tag: roswaal_mansion_maid_uniform
+    frequency: 0.522
+  - tag: detached_sleeves
+    frequency: 0.4708
+  new_tag_proposals: []
+- id: yor-forger
+  name: ヨル・フォージャー
+  date: '2026-08-25'
+  unmapped_danbooru:
+  - tag: breasts
+    frequency: 0.8275
+  - tag: black_dress
+    frequency: 0.4084
+  - tag: weapon
+    frequency: 0.3826
+  new_tag_proposals:
+  - name: 暗殺者
+    axis: 外見 / 記号職
+    reason: 暗殺組織ガーデン所属の殺し屋（いばら姫）という役割を表す記号職タグが標準語彙に存在しないため。

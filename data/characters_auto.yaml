@@ -23,3 +23,111 @@
     - {id: kako, weight: sub, note: '資料: 能力を与えられた研究室や不明の組織といった詳細な伏せられた前史が存在する。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 36%', src: danbooru}
   patterns: []
+
+- id: frieren
+  name: フリーレン
+  kana: ふりーれん
+  work: 葬送のフリーレン
+  year: 2020
+  summary: 1000年以上の長きを生きながら、師から継いだ魔法と知識の探求を弟子へと繋ぐ魔法使い。
+  analysis:
+    method: both+danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-25'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 79%', src: danbooru}
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 97% / 資料: 資料内では1000歳以上とあるのみだが、作品上エルフであることは確実。', src: both}
+    - {id: furou, weight: core, note: '資料: 1000歳以上の年齢であることが明記されている。', src: gemini}
+    - {id: majo, weight: core, note: '資料: 勇者パーティの魔法使いであり、どんなに些細なものであっても魔法知識を集め続けている。', src: gemini}
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 67%', src: danbooru}
+    - {id: shitei, weight: core, note: '資料: 人間の魔法使いフランメの弟子であり、フェルンの師匠でもある。', src: gemini}
+    - {id: twintail, weight: core, note: 'danbooru twintails 76%', src: danbooru}
+    - {id: yubiwa, weight: core, note: 'danbooru jewelry 80%', src: danbooru}
+    - {id: nagaremono, weight: sub, note: '資料: 魔王を倒すための10年間の旅を行い、魔法知識を収集し続けている。', src: gemini}
+    - {id: shirogami, weight: sub, note: 'danbooru white_hair 54%', src: danbooru}
+  patterns: []
+
+- id: gojo-satoru
+  name: 五条悟
+  kana: ごじょうさとる
+  work: 呪術廻戦
+  year: 2018
+  summary: 400年ぶりに血統の稀少な術式を受け継いだ世界最強の存在でありながら、自身の立場と影響力を利用して若手を保護し育てる教師でもある人物。
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-25'
+  elements:
+    - {id: aome, weight: core, note: 'danbooru blue_eyes 72%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru white_hair 74%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 87%', src: danbooru}
+    - {id: hogosha, weight: sub, note: '資料: 自身の立場・影響力を利用して、若く強力な味方を保護し育てている。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 身長が190cmと記載されている。', src: gemini}
+    - {id: shitei, weight: sub, note: '資料: 東京都立呪術高等専門学校で教師として働いている。', src: gemini}
+    - {id: keishou, weight: spice, note: '資料: 400年ぶりに「無下限」と「六眼」の両方を受け継いだとされている。', src: gemini}
+    - {id: reijou, weight: spice, note: '資料: 五条家に所属し、五条家の誉れとされている。', src: gemini}
+  patterns: []
+
+- id: makima
+  name: マキマ
+  kana: まきま
+  work: チェンソーマン
+  year: 2018
+  summary: 日本の公安における指導的人物であり、デンジを「人間のペット」として従属・支配する構造。
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-25'
+  elements:
+    - {id: akagami, weight: core, note: 'danbooru red_hair 76%', src: danbooru}
+    - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 61%', src: danbooru}
+    - {id: mitsuami, weight: core, note: 'danbooru braid 66%', src: danbooru}
+    - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 52%', src: danbooru}
+    - {id: joushi, weight: sub, note: '資料: 日本の公安における指導的人物の一人として経験豊富な悪魔ハンターの間で相当な評判を得ている。', src: gemini}
+  patterns: []
+
+- id: rem
+  name: レム
+  kana: れむ
+  work: 'Re:ゼロから始める異世界生活'
+  year: 2014
+  summary: 屋敷に仕えるメイドとして丁寧に応対しながらも、双子の姉への強い尊敬と深い罪悪感から自己評価の低さを抱えている人物。
+  analysis:
+    method: both+danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-25'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 95%', src: danbooru}
+    - {id: aome, weight: core, note: 'danbooru blue_eyes 90%', src: danbooru}
+    - {id: futago, weight: core, note: '資料: ラムの双子の妹である。', src: gemini}
+    - {id: meido, weight: core, note: 'danbooru maid 56% / 資料: ロズワール・L・メイザースに仕える双子のメイドのひとりである。', src: both}
+    - {id: mekakure, weight: core, note: 'danbooru hair_over_one_eye 62%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 88%', src: danbooru}
+    - {id: zaiakukan, weight: core, note: '資料: 過去の出来事から姉に対して崇拝に近い尊敬と罪悪感を抱いている。', src: gemini}
+    - {id: furiru, weight: sub, note: 'danbooru frills 38%', src: danbooru}
+    - {id: jikokoutei, weight: sub, note: '資料: 過去の出来事によって自分自身を劣っていると考えるようになった。', src: gemini}
+    - {id: keigo, weight: sub, note: '資料: 表面上は丁寧な態度・語り口で話す傾向がある。', src: gemini}
+  patterns: []
+
+- id: yor-forger
+  name: ヨル・フォージャー
+  kana: よるふぉーじゃー
+  work: SPY×FAMILY
+  year: 2019
+  summary: 市役所事務員としての表の顔と暗殺組織の殺し屋という裏の顔を持ち、互いの利害の一致から偽装家族を演じる人物。
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-25'
+  elements:
+    - {id: akame, weight: core, note: 'danbooru red_eyes 84%', src: danbooru}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 87%', src: danbooru}
+    - {id: nimensei, weight: core, note: '資料: バーリント市役所の事務員という表の顔と、暗殺組織ガーデンに所属する「いばら姫」という裏の顔の二重生活を送っている。', src: gemini}
+    - {id: shoutai, weight: core, note: '資料: 表の職業は市役所の事務員だが、裏では「いばら姫」と呼ばれる殺し屋である正体を隠して生きている。', src: gemini}
+    - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 55%', src: danbooru}
+    - {id: hogosha, weight: sub, note: '資料: ロイドとの偽装結婚により、養女であるアーニャ・フォージャーの母親（保護者）となっている。', src: gemini}
+    - {id: keiyaku, weight: sub, note: '資料: 正体が疑われるのを免れたい自身の目的と、任務で母親を必要とするロイドの目的が一致し、偽装結婚を取り決めた。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: プロフィールにおいて身長が170cmと記述されている。', src: gemini}
+    - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 56%', src: danbooru}
+    - {id: yubiwa, weight: sub, note: 'danbooru jewelry 53%', src: danbooru}
+  patterns: []
