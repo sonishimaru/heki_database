@@ -76,7 +76,7 @@
   analysis:
     method: danbooru+gemini+auto
     model: 'gemini-3.6-flash'
-    date: '2026-08-25'
+    date: '2026-07-01'
   elements:
     - {id: akagami, weight: core, note: 'danbooru red_hair 76%', src: danbooru}
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 61%', src: danbooru}
@@ -134,7 +134,7 @@
   analysis:
     method: danbooru+gemini+auto
     model: 'gemini-3.6-flash'
-    date: '2026-08-25'
+    date: '2026-07-01'
   elements:
     - {id: akame, weight: core, note: 'danbooru red_eyes 84%', src: danbooru}
     - {id: kurokami, weight: core, note: 'danbooru black_hair 87%', src: danbooru}

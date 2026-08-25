@@ -188,8 +188,9 @@ def call_gemini_fallback(models: list[str], parts, schema, api_key: str, tempera
             return model, call_gemini(model, parts, schema, api_key, temperature)
         except GeminiHTTPError as err:
             last = err
-            if err.code == 404:
-                print(f"  モデル {model} は利用不可（404）。次の候補を試します。")
+            if err.code in (404, 429):
+                reason = "利用不可" if err.code == 404 else "クォータ超過"
+                print(f"  モデル {model} は{reason}（{err.code}）。次の候補を試します。")
                 continue
             raise
     raise SystemExit(f"利用できるモデルがありません: {', '.join(models)}\n{last}")

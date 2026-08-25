@@ -100,12 +100,15 @@ def process(entry: dict, api_key: str | None, sleep: float) -> None:
 
     classify_file = None
     if api_key and pages:
-        facts_file = workdir / "facts.yaml"
-        run([python, INGEST / "facts.py", "--character", entry["name"], "--pages", *pages, "--out", facts_file])
-        classify_file = workdir / "classify.json"
-        run(
-            [python, INGEST / "classify.py", "--character", entry["name"], "--facts", facts_file, "--out", classify_file]
-        )
+        try:
+            facts_file = workdir / "facts.yaml"
+            run([python, INGEST / "facts.py", "--character", entry["name"], "--pages", *pages, "--out", facts_file])
+            classify_file = workdir / "classify.json"
+            run([python, INGEST / "classify.py", "--character", entry["name"], "--facts", facts_file, "--out", classify_file])
+        except subprocess.CalledProcessError:
+            # クォータ切れ等。前回の分類結果はレーン引き継ぎで残るので、外見だけ更新して続行する
+            print("  資料レーン失敗（続行）: 今回は外見のみ更新")
+            classify_file = None
     elif pages and not api_key:
         print("  GEMINI_API_KEY が無いため資料の抽出と分類を飛ばします（外見のみ更新）")
 
