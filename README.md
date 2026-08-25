@@ -81,69 +81,75 @@ cd docs && python3 -m http.server 8000   # http://localhost:8000 で閲覧
 ## 取り込みパイプライン（動画からの分析）
 
 現代作品のキャラクターは、映像から機械的に分解してから人が確認する。
-**どの工程に何を判定させるかを分けること**が精度の要になる。
+精度の要は二つ。**工程ごとに担当する軸を分けること**と、**観察と分類を分けること**。
+数カットの静止画から性格や関係を直接判定させると、モデルが作品知識で補完した
+「それらしい嘘」が混ざる。そこで「見たままを記録する工程」と「記録を横断して判定する工程」を
+別のコールに割り、判定には必ず根拠シーンの番号を要求する。
 
-| 工程 | 道具 | 担当する軸 |
-| --- | --- | --- |
-| カット割り | PySceneDetect `AdaptiveDetector` | — （代表フレームを抜く） |
-| 演技・空間時間 | Gemini Vision | 属性 / 性格 / 振る舞い / 関係 / 展開 / 構造 |
-| 静止画のタグ付け | WD-Tagger | 外見（髪・目・顔・体・服装・小物） |
-| 統合 | `merge.py` | 比重と確度の決定 |
+| # | 工程 | 道具 | 担当 |
+| --- | --- | --- | --- |
+| 1 | カット割り | PySceneDetect `AdaptiveDetector` | 代表フレームの抽出 |
+| 2 | シーン観察 | Gemini Vision（既定 `gemini-2.5-flash`） | 空間・時間・演技・人物の行動を**見たまま記録**。分類はしない |
+| 3 | 静止画タグ付け | WD-Tagger（`wd-swinv2-tagger-v3`） | 外見（髪・目・顔・体・服装・小物） |
+| 4 | 横断分類 | Gemini（既定 `gemini-2.5-pro`、テキストのみ） | 全シーンの観察記録から外見以外の軸を判定 |
+| 5 | 統合 | `merge.py`（決定的なルール） | 比重と確度の決定、YAML 断片の出力 |
+| 6 | 検証 | `build.py` ＋ 人 | 参照整合性。**性癖の成立判定は人だけ** |
 
-外見は静止画から確実に読めるので WD-Tagger に任せ、Gemini には**動きと文脈がないと分からない層**だけを見せる。
-Vision が外見の見出し語を返してきても `vision.py` が自動で破棄する。逆に WD-Tagger は性格を判定しない。
-語彙は両方とも `docs/data/db.json` から生成した**閉じた id 一覧**を渡すので、存在しないタグは出てこない。
-語彙に無い概念は `new_tags` として提案だけさせ、採用するかは人が決める。
+観察（2）はシーン数ぶん呼ぶので安い flash、分類（4）は一人につき一回で判断力が要るので pro、と
+モデルを分けている。`GEMINI_OBSERVE_MODEL` / `GEMINI_CLASSIFY_MODEL` で差し替え可能。
 
 ```bash
 pip install 'scenedetect[opencv]' onnxruntime huggingface_hub pillow numpy pandas
+export GEMINI_API_KEY=...
 
 # 1. カット割りして代表フレームを抜く
 python3 tools/ingest/scenes.py video.mp4 --out work/frames --per-cut 3
 
-# 2. 演技と空間・時間を読む（外見以外の軸 ＋ 静止画分析に回すフレームの選定）
-export GEMINI_API_KEY=...
-python3 tools/ingest/vision.py --images work/frames/cut-00*.jpg \
-    --name 名前 --work 作品 --out work/vision.json
+# 2. シーンごとに観察（--resume で中断から再開できる）
+python3 tools/ingest/observe.py --cuts work/frames/cuts.json \
+    --cast "少女=アーニャ, 父=ロイド" --out work/observations.json
 
-# 3. 選ばれたフレームだけ WD-Tagger にかける
-python3 tools/ingest/tagger.py work/frames/cut-0002-01.jpg ... --out work/tags.json
+# 3. 観察が選んだフレーム（observations.json 内 tagger_frames）を WD-Tagger にかける
+python3 tools/ingest/tagger.py work/frames/cut-0012-02.jpg ... --out work/tags.json
 
-# 4. 統合して characters.yaml の断片を得る
-python3 tools/ingest/merge.py --tags work/tags.json --vision work/vision.json \
-    --name 名前 --kana かな --work 作品 --cuts 42
+# 4. 一人ぶんの観察を横断して分類
+python3 tools/ingest/classify.py --observations work/observations.json \
+    --character アーニャ --tags work/tags.json --out work/classify.json
+
+# 5. 統合して characters.yaml の断片を得る
+python3 tools/ingest/merge.py --tags work/tags.json --vision work/classify.json \
+    --name アーニャ --kana あーにゃ --work 作品名 --cuts 42
 ```
 
-API キーがない環境では、プロンプトだけ出して AI Studio に貼り、応答を保存して読み込ませる。
+API キーがない環境では、`--prompt-only` でプロンプトを出して AI Studio に貼り、
+応答を保存して `classify.py --from-json` で読み込める。
 
-```bash
-python3 tools/ingest/vision.py --prompt-only > prompt.txt
-python3 tools/ingest/vision.py --from-json response.json --name 名前 --work 作品
-```
+### 各工程が「してはいけないこと」
+
+- **observe.py は分類しない。** 語彙を渡さず、性格の判定を禁止し、行動と表情の記述だけをさせる。
+- **classify.py は画像を見ない。外見を判定しない。** 判定には根拠シーンの列挙を必須にしてあり、
+  根拠シーンのない判定・語彙にない id・外見軸への越境は検証で自動的に落ちる。
+- **tagger.py は外見しか対応表にない。** 静止画から読めない概念（身長・姿勢・うなじ・形見）は
+  `wd_map.yaml` の末尾に理由付きで除外してある。
+- **merge.py は性癖を決めない。** 要素が揃っていることと性癖が成立していることは別の判断で、
+  `patterns` は人が `breaks_when` と照らして書く。
 
 ### 比重の決め方
 
-`merge.py` は「**継続して映っている特徴ほどその人物の骨格に近い**」という前提で比重を決める。
+「**繰り返し観察される特徴ほどその人物の骨格に近い**」を両系統に同じ原理で適用する。
 
-| 出現率 | 最大スコア | 比重 |
-| --- | --- | --- |
-| 60% 以上 | 0.6 以上 | `core`（骨格） |
-| 25% 以上、または | 0.85 以上 | `sub`（補強） |
-| それ未満 | | `spice`（一点差し） |
+- 外見（WD-Tagger）: フレーム出現率 60% 以上かつスコア 0.6 以上で `core`、
+  25% 以上またはスコア 0.85 以上で `sub`、それ未満は `spice`。
+- 非外見（classify）: 複数シーンにまたがれば `core`、場面が限られれば `sub`、一度きりなら `spice`。
 
-全カットに映り続ける髪型は `core`、一カットだけ寄りで抜かれた手は `spice` になる。
-`note` にはタグ名・スコア・出現枚数、あるいは Vision が挙げた根拠がそのまま入るので、後から検証できる。
-
-**`patterns`（性癖の成立）は自動では決めない。** 要素が揃っていることと性癖が成立していることは別の判断で、
-そこは人が `breaks_when` と照らして確かめる。
+`note` にはタグ名・スコア・出現枚数、または根拠シーン番号がそのまま残るので、後から検証できる。
 
 ### タグの対応表
 
 `tools/ingest/wd_map.yaml` が Danbooru 語彙と見出し語を繋いでいる。
 新しい見出し語を足したら、対応する Danbooru タグもここに書く。
-身長・姿勢・うなじ・形見のように、静止画のタグでは判定できないものは対応表の末尾に理由付きで除外してある。
 
-作業用の中間ファイル（動画・フレーム・タグ）は `work/` に置き、コミットしない。
+作業用の中間ファイル（動画・フレーム・観察記録・タグ）は `work/` に置き、コミットしない。
 
 ## データの足し方
 

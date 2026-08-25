@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """WD-Tagger の外見タグと Gemini Vision の読みを統合し、characters.yaml の断片を出力する。
 
-  python3 tools/ingest/merge.py --tags work/tags.json --vision work/vision.json \
+  python3 tools/ingest/merge.py --tags work/tags.json --vision work/classify.json \
       --name 名前 --work 作品 --kana かな [--append]
 
 比重は「継続して出ている特徴ほど骨格に近い」という前提で決める。
@@ -71,7 +71,7 @@ def from_vision(vision_path: Path) -> tuple[list[dict], dict]:
             "id": item["id"],
             "weight": item["weight"],
             "confidence": item["confidence"],
-            "source": "vision",
+            "source": "gemini",
             "note": item.get("evidence", ""),
         }
         for item in payload.get("elements", [])
@@ -98,7 +98,7 @@ def merge(items: list[dict]) -> list[dict]:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--tags", type=Path, help="tagger.py の出力")
-    parser.add_argument("--vision", type=Path, help="vision.py の出力")
+    parser.add_argument("--vision", type=Path, help="classify.py の出力")
     parser.add_argument("--name", required=True)
     parser.add_argument("--work", required=True)
     parser.add_argument("--kana", default="")

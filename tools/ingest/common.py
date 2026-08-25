@@ -110,3 +110,62 @@ def emit_character_yaml(entry: dict) -> str:
     patterns = entry.get("patterns") or []
     out.append(f"  patterns: [{', '.join(patterns)}]")
     return "\n".join(out) + "\n"
+
+
+# --- Gemini API ---
+
+GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+
+
+def gemini_api_key() -> str:
+    import os
+
+    key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    if not key:
+        raise SystemExit(
+            "GEMINI_API_KEY が未設定です。--prompt-only で出したプロンプトを AI Studio に貼り、"
+            "応答を --from-json で読み込む方法もあります。"
+        )
+    return key
+
+
+def call_gemini(model: str, parts: list[dict], schema: dict, api_key: str, temperature: float = 0.2) -> dict:
+    """generateContent を叩き、構造化 JSON を返す。"""
+    import urllib.error
+    import urllib.request
+
+    body = {
+        "contents": [{"parts": parts}],
+        "generationConfig": {
+            "temperature": temperature,
+            "response_mime_type": "application/json",
+            "response_schema": schema,
+        },
+    }
+    request = urllib.request.Request(
+        GEMINI_ENDPOINT.format(model=model) + f"?key={api_key}",
+        data=json.dumps(body).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=300) as response:
+            payload = json.loads(response.read())
+    except urllib.error.HTTPError as err:
+        raise SystemExit(f"Gemini API エラー {err.code}: {err.read().decode('utf-8', 'replace')[:500]}")
+    text = payload["candidates"][0]["content"]["parts"][0]["text"]
+    return json.loads(text)
+
+
+def image_part(path) -> dict:
+    import base64
+    import mimetypes
+    from pathlib import Path as _Path
+
+    path = _Path(path)
+    mime = mimetypes.guess_type(path.name)[0] or "image/jpeg"
+    return {
+        "inline_data": {
+            "mime_type": mime,
+            "data": base64.b64encode(path.read_bytes()).decode("ascii"),
+        }
+    }
