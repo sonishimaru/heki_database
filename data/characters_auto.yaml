@@ -52,7 +52,7 @@
   kana: ごじょうさとる
   work: 呪術廻戦
   year: 2018
-  summary: 400年ぶりに血統の稀少な術式を受け継いだ世界最強の存在でありながら、自身の立場と影響力を利用して若手を保護し育てる教師でもある人物。
+  summary: 400年ぶりの術式継承者にして世界最強の存在でありながら、教師として若い世代の保護と育成にあたる構造。
   analysis:
     method: danbooru+gemini+auto
     model: 'gemini-3.6-flash'
@@ -61,11 +61,11 @@
     - {id: aome, weight: core, note: 'danbooru blue_eyes 72%', src: danbooru}
     - {id: shirogami, weight: core, note: 'danbooru white_hair 74%', src: danbooru}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 87%', src: danbooru}
-    - {id: hogosha, weight: sub, note: '資料: 自身の立場・影響力を利用して、若く強力な味方を保護し育てている。', src: gemini}
-    - {id: koushinchou, weight: sub, note: '資料: 身長が190cmと記載されている。', src: gemini}
-    - {id: shitei, weight: sub, note: '資料: 東京都立呪術高等専門学校で教師として働いている。', src: gemini}
-    - {id: keishou, weight: spice, note: '資料: 400年ぶりに「無下限」と「六眼」の両方を受け継いだとされている。', src: gemini}
-    - {id: reijou, weight: spice, note: '資料: 五条家に所属し、五条家の誉れとされている。', src: gemini}
+    - {id: hogosha, weight: sub, note: '資料: 東京都立呪術高等専門学校の教師として、自身の影響力を用いて強く若い仲間たちを保護し育成している。', src: gemini}
+    - {id: keishou, weight: sub, note: '資料: 術式は無下限（Limitless）と六眼（Six Eyes）であり、400年ぶりに両方を継承した五条家の誇りである。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 身長は190cm（6''3"）である。', src: gemini}
+    - {id: saikyou, weight: sub, note: '資料: 階級は特級呪術師であり、世界最強として広く認知されている。', src: gemini}
+    - {id: shitei, weight: sub, note: '資料: 東京都立呪術高等専門学校の教師として、自身の影響力を用いて強く若い仲間たちを保護し育成している。', src: gemini}
   patterns: []
 
 - id: makima
