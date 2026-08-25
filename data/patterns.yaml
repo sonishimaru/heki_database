@@ -64,9 +64,9 @@
   tags: [微分, 増幅, 観察]
 
 - id: gouri-no-reigai
-  name: 合理主義者の例外
-  kana: ごうりしゅぎしゃのれいがい
-  aliases: [計算が合わない, 一人だけ勘定に入らない]
+  name: 合理の例外
+  kana: ごうりのれいがい
+  aliases: [合理主義者の例外, 計算が合わない, 一人だけ勘定に入らない]
   core_axis: mind.creed
   summary: 全てを損得で処理する人物が、一人に対してだけ計算を放棄する。
   formula:
@@ -82,9 +82,9 @@
   tags: [例外, 証明, 無自覚]
 
 - id: kanzen-no-hokorobi
-  name: 完璧な人の生活破綻
-  kana: かんぺきなひとのせいかつはたん
-  aliases: [部屋が汚い, 私生活だけ駄目]
+  name: 私生活ポンコツ
+  kana: しせいかつぽんこつ
+  aliases: [完璧な人の生活破綻, 部屋が汚い, 私生活だけ駄目]
   core_axis: narrative.gap
   summary: 職務では非の打ち所がない人物の、生活能力だけが壊滅している。
   formula:
@@ -136,9 +136,9 @@
   tags: [落差, 信頼, 許可]
 
 - id: kizuka-nai-koui
-  name: 本人だけ気づいていない
-  kana: ほんにんだけきづいていない
-  aliases: [自覚がない, 好意の無自覚]
+  name: 無自覚
+  kana: むじかく
+  aliases: [本人だけ気づいていない, 自覚がない, 好意の無自覚]
   core_axis: narrative.secret
   summary: 観客と周囲には明白な感情を、当人だけが別の名前で呼んでいる。
   formula:
@@ -154,9 +154,9 @@
   tags: [情報非対称, 遅延, もどかしさ]
 
 - id: tekitai-no-rikai
-  name: 敵だけが理解している
-  kana: てきだけがりかいしている
-  aliases: [宿敵の対話, 一番わかっているのが敵]
+  name: 敵こそ理解者
+  kana: てきこそりかいしゃ
+  aliases: [敵だけが理解している, 宿敵の対話, 一番わかっているのが敵]
   core_axis: relation.type
   summary: 味方の誰にも通じない話が、殺し合う相手とだけ成立する。
   formula:
@@ -172,9 +172,9 @@
   tags: [逆説, 相互理解, 敵対]
 
 - id: teki-ni-narikirenai
-  name: 敵になりきれない
-  kana: てきになりきれない
-  aliases: [手を抜く, 殺せない]
+  name: 殺せない
+  kana: ころせない
+  aliases: [敵になりきれない, 手を抜く]
   core_axis: relation.state
   summary: 敵対する立場を選んだのに、決定的な一手だけが打てない。
   formula:
@@ -190,9 +190,9 @@
   tags: [矛盾, 保留, 未練]
 
 - id: uragiri-no-nenryou
-  name: 信頼が燃料になる
-  kana: しんらいがねんりょうになる
-  aliases: [積み上げてから裏切る]
+  name: 信頼は燃料
+  kana: しんらいはねんりょう
+  aliases: [信頼が燃料になる, 積み上げてから裏切る]
   core_axis: relation.state
   summary: 裏切りの威力は、それ以前に積んだ日常の量に正確に比例する。
   formula:
@@ -208,9 +208,9 @@
   tags: [蓄積, 再解釈, 破壊]
 
 - id: kyori-no-gyakuten
-  name: 守る側が守られる
-  kana: まもるがわがまもられる
-  aliases: [立場が逆転する, 追い越される]
+  name: 守られる番
+  kana: まもられるばん
+  aliases: [守る側が守られる, 立場が逆転する, 追い越される]
   core_axis: relation.state
   summary: ずっと庇ってきた側が、初めて庇われる側に回る。
   formula:
@@ -226,9 +226,9 @@
   tags: [反転, 回収, 成長]
 
 - id: sodateta-mono-ni-koeraeru
-  name: 育てた者に越えられる
-  kana: そだてたものにこえられる
-  aliases: [弟子に敗れる, 卒業]
+  name: 弟子に敗れる
+  kana: でしにやぶれる
+  aliases: [育てた者に越えられる, 卒業]
   core_axis: narrative.arc
   summary: 教えた技で敗れることが、教育の完成として提示される。
   formula:
@@ -244,9 +244,9 @@
   tags: [継承, 完成, 退場]
 
 - id: ienai-mama-owaru
-  name: 言えないまま終わる
-  kana: いえないままおわる
-  aliases: [告げられなかった, 間に合わない]
+  name: 言えずじまい
+  kana: いえずじまい
+  aliases: [言えないまま終わる, 告げられなかった, 間に合わない]
   core_axis: narrative.secret
   summary: 伝える機会が確実にあったのに、一度も使われないまま関係が閉じる。
   formula:
@@ -280,9 +280,9 @@
   tags: [伏線, 回収, 継続]
 
 - id: nichijou-no-ikei
-  name: 日常が別れの準備に見える
-  kana: にちじょうがわかれのじゅんびにみえる
-  aliases: [終わりが決まっている日常]
+  name: 予告された別れ
+  kana: よこくされたわかれ
+  aliases: [日常が別れの準備に見える, 終わりが決まっている日常]
   core_axis: narrative.limited
   summary: 退場が確定している人物の何気ない場面が、すべて遺言として読まれる。
   formula:
@@ -298,9 +298,9 @@
   tags: [先読み, 予定された喪失, 日常]
 
 - id: jinzou-no-hatsu-ishi
-  name: 作られた者の最初の意思
-  kana: つくられたもののさいしょのいし
-  aliases: [命令ではない選択]
+  name: 自我の芽生え
+  kana: じがのめばえ
+  aliases: [作られた者の最初の意思, 命令ではない選択]
   core_axis: appearance.species
   summary: 目的のために作られた存在が、初めて命令外の行動をとる。
   formula:
@@ -406,9 +406,9 @@
   tags: [抑圧, 一回性, 露出]
 
 - id: kyohi-kara-no-juyou
-  name: 赦しを受け取れない
-  kana: ゆるしをうけとれない
-  aliases: [救済の拒否, 自分を許さない]
+  name: 赦しの拒否
+  kana: ゆるしのきょひ
+  aliases: [赦しを受け取れない, 救済の拒否, 自分を許さない]
   core_axis: mind.wound
   summary: 差し出された救いを、罰を手放せないという理由で拒み続ける。
   formula:

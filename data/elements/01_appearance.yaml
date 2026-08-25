@@ -190,9 +190,9 @@
   tags: [異物感]
 
 - id: hikari-nashi
-  name: ハイライトのない目
-  kana: はいらいとのないめ
-  aliases: [光のない目, 目が死んでいる]
+  name: 死んだ目
+  kana: しんだめ
+  aliases: [ハイライトのない目, 光のない目, 目が死んでいる]
   axis: appearance.eyeshape
   summary: 瞳の反射が消えている状態。
   description: >-

@@ -266,9 +266,9 @@
   tags: [定番, 反復]
 
 - id: kuchiguse
-  name: 繰り返される台詞
-  kana: くりかえされるせりふ
-  aliases: [決め台詞, 合言葉]
+  name: 決め台詞
+  kana: きめぜりふ
+  aliases: [繰り返される台詞, 合言葉]
   axis: narrative.limited
   summary: 何度も反復される定型句。反復のたびに意味が加算される。
   description: >-

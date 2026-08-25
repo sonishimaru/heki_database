@@ -481,9 +481,9 @@
   tags: [定番]
 
 - id: jikokoutei
-  name: 自己肯定感が低い
-  kana: じここうていかんがひくい
-  aliases: [自己評価が低い]
+  name: 自信がない
+  kana: じしんがない
+  aliases: [自己肯定感が低い, 自己評価が低い]
   axis: mind.wound
   summary: 自分の価値を過小に見積もる状態。称賛を誤りとして処理する。
   description: >-
