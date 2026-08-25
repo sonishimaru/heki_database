@@ -1,19 +1,23 @@
 #!/usr/bin/env python3
-"""観察記録を横断して、一人のキャラクターを語彙へ分類する。画像は見ない。
+"""各レーンの証拠を集約し、一人のキャラクターを語彙へ分類する。画像は見ない。
 
-observe.py が溜めたシーン観察（と、あれば WD-Tagger の集計）をテキストで渡し、
-外見以外の軸の見出し語へ写像する。分類の根拠は必ず観察記録のシーン番号で示させるので、
-「どのシーンにも根拠がない判定」は構造的に書けない。
-複数シーンで繰り返し観察された挙動だけが core になる。
+収集レーン（映像の観察・台詞の統計・資料の事実）が作った証拠ファイルをテキストで渡し、
+外見以外の軸の見出し語へ写像する。判定の根拠は必ず「どのレーンのどこ」で示させるので、
+どの証拠にも基づかない判定は構造的に書けない。
 
   export GEMINI_API_KEY=...
-  python3 tools/ingest/classify.py --observations work/observations.json \
-      --character アーニャ --out work/classify.json
+  python3 tools/ingest/classify.py --character アーニャ \
+      --facts work/facts.yaml \
+      --observations work/observations.json \
+      --speech work/speech.json \
+      --out work/classify.json
+
+三つの入力はどれも任意（最低一つ）。有名キャラなら --facts だけでも下書きが出る。
+映像の観察は仕草・演技の精度を上げたいときに足す。
 
   # API を叩けない環境
-  python3 tools/ingest/classify.py --observations work/observations.json \
-      --character アーニャ --prompt-only > prompt.txt
-  python3 tools/ingest/classify.py --from-json response.json --character アーニャ
+  python3 tools/ingest/classify.py --character アーニャ --facts work/facts.yaml --prompt-only > prompt.txt
+  python3 tools/ingest/classify.py --character アーニャ --from-json response.json
 
 出力は merge.py の --vision 入力としてそのまま使える。
 """
@@ -35,7 +39,6 @@ SCHEMA = {
     "type": "object",
     "properties": {
         "summary": {"type": "string"},
-        "space_time": {"type": "string"},
         "elements": {
             "type": "array",
             "items": {
@@ -44,10 +47,10 @@ SCHEMA = {
                     "id": {"type": "string"},
                     "weight": {"type": "string", "enum": ["core", "sub", "spice"]},
                     "confidence": {"type": "string", "enum": ["high", "mid", "low"]},
-                    "scenes": {"type": "array", "items": {"type": "string"}},
+                    "sources": {"type": "array", "items": {"type": "string"}},
                     "evidence": {"type": "string"},
                 },
-                "required": ["id", "weight", "confidence", "scenes", "evidence"],
+                "required": ["id", "weight", "confidence", "sources", "evidence"],
             },
         },
         "new_tags": {
@@ -64,19 +67,19 @@ SCHEMA = {
 }
 
 PROMPT = """あなたはキャラクターを構成要素へ分解する辞典の編集者です。
-渡されるのは、映像から機械的に起こした**シーンごとの観察記録**（JSON）です。
-このうち「{character}」について、下の語彙から当てはまる見出し語を選んでください。
+「{character}」について、下に並ぶ**証拠資料**だけを根拠に、語彙から当てはまる見出し語を選んでください。
 
 ## 判定の規則
 
-- 根拠にできるのは観察記録に書かれていることだけ。作品知識で補完しない。
-  観察記録から読めないが作品上ほぼ確実なことは、選んだ上で confidence を low にする。
-- **scenes には根拠となったシーン番号を必ず列挙する。** 根拠シーンを挙げられない判定は書かない。
-- weight は登場の仕方で決める:
-  - core  … 複数のシーンにまたがって繰り返し観察される（その人物の骨格）
-  - sub   … 明確に観察されるが、場面が限られる
-  - spice … 一度だけだが強く印象づけられている
-- 外見（髪・目・顔・体・服装・小物）はここでは判定しない。別工程の担当。
+- 根拠にできるのは証拠資料に書かれていることだけ。あなたの作品知識で補完しない。
+  証拠にないが作品上ほぼ確実なことは、選んだ上で confidence を low にする。
+- **sources には根拠を必ず列挙する**（例: "観察 scene 3", "台詞統計", "資料"）。
+  根拠を挙げられない判定は書かない。
+- weight は証拠の現れ方で決める:
+  - core  … 複数の場面・複数のレーンにまたがって繰り返し現れる（その人物の骨格）
+  - sub   … 明確に現れるが、場面やレーンが限られる
+  - spice … 一度きりだが強く印象づけられている
+- 外見（髪・目・顔・体・服装・小物）はここでは判定しない。静止画レーンの担当。
 - 語彙にない概念は new_tags に回す。判断がつかないものは uncertain に書く。
 - 迷ったら選ばない。漏れより誤りを避ける。
 
@@ -88,42 +91,39 @@ PROMPT = """あなたはキャラクターを構成要素へ分解する辞典�
 
 {vocabulary}
 
-## 観察記録
-
-{observations}
-{tags_block}"""
-
-TAGS_BLOCK = """
-## 外見タグの集計（参考情報。判定対象ではない）
-
-{tags}
-"""
+{evidence}"""
 
 
-def observations_for_prompt(payload: dict) -> str:
-    """観察記録から、プロンプトに不要なフィールドを落として詰める。"""
+def observations_block(path: Path) -> str:
+    payload = json.loads(path.read_text(encoding="utf-8"))
     scenes = []
     for scene in payload["scenes"]:
         slim = {k: v for k, v in scene.items() if k not in ("images", "tagger_frames")}
         scenes.append(slim)
-    return json.dumps(scenes, ensure_ascii=False, indent=1)
+    return (
+        "## 証拠: 映像の観察記録（シーンごとの機械的な記録。sources では \"観察 scene N\" と呼ぶ）\n\n"
+        + json.dumps(scenes, ensure_ascii=False, indent=1)
+    )
 
 
-def tags_summary(tags_path: Path) -> str:
-    payload = json.loads(tags_path.read_text(encoding="utf-8"))
-    from collections import Counter
+def speech_block(path: Path) -> str:
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    return (
+        "## 証拠: 台詞の統計（決定的な集計。sources では \"台詞統計\" と呼ぶ）\n\n"
+        + json.dumps(payload, ensure_ascii=False, indent=1)
+    )
 
-    best: Counter = Counter()
-    for frame in payload["frames"]:
-        for tag, score in frame["tags"].items():
-            best[tag] = max(best[tag], score)
-    top = ", ".join(f"{t} {s:.2f}" for t, s in best.most_common(40))
-    return top
+
+def facts_block(path: Path) -> str:
+    return (
+        "## 証拠: 資料による事実（公式プロフィール・設定・本編の出来事を人が書き出したもの。sources では \"資料\" と呼ぶ）\n\n"
+        + path.read_text(encoding="utf-8").strip()
+    )
 
 
 def validate(result: dict, db: dict) -> dict:
     by_id = {e["id"]: e for e in db["elements"]}
-    kept, dropped, out_of_scope, no_scene = [], [], [], []
+    kept, dropped, out_of_scope, no_source = [], [], [], []
     for item in result.get("elements", []):
         element = by_id.get(item.get("id"))
         if element is None:
@@ -132,24 +132,25 @@ def validate(result: dict, db: dict) -> dict:
         if element["group"] in common.VISUAL_GROUPS:
             out_of_scope.append(item["id"])
             continue
-        if not item.get("scenes"):
-            no_scene.append(item["id"])
+        if not item.get("sources"):
+            no_source.append(item["id"])
             continue
-        scenes = "・".join(item["scenes"][:4])
-        item["evidence"] = f"scene {scenes}: {item.get('evidence', '')}".strip()
+        sources = "・".join(item["sources"][:4])
+        item["evidence"] = f"{sources}: {item.get('evidence', '')}".strip()
         kept.append(item)
     result["elements"] = kept
     result["_dropped"] = dropped
     result["_out_of_scope"] = out_of_scope
-    result["_no_scene"] = no_scene
+    result["_no_source"] = no_source
     return result
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--observations", type=Path, help="observe.py の出力")
-    parser.add_argument("--character", required=True, help="観察記録内での人物名")
-    parser.add_argument("--tags", type=Path, help="tagger.py の出力（参考情報として渡す）")
+    parser.add_argument("--character", required=True)
+    parser.add_argument("--observations", type=Path, help="observe.py の出力（映像レーン）")
+    parser.add_argument("--speech", type=Path, help="speech.py の出力（台詞レーン）")
+    parser.add_argument("--facts", type=Path, help="資料レーンの facts ファイル（YAML またはテキスト）")
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--prompt-only", action="store_true")
     parser.add_argument("--from-json", type=Path)
@@ -163,14 +164,20 @@ def main() -> int:
         result = json.loads(args.from_json.read_text(encoding="utf-8"))
         model = f"{args.model}（手動実行）"
     else:
-        if not args.observations:
-            raise SystemExit("--observations が必要です（--from-json を使う場合を除く）。")
-        payload = json.loads(args.observations.read_text(encoding="utf-8"))
+        blocks = []
+        if args.facts:
+            blocks.append(facts_block(args.facts))
+        if args.observations:
+            blocks.append(observations_block(args.observations))
+        if args.speech:
+            blocks.append(speech_block(args.speech))
+        if not blocks:
+            raise SystemExit("--facts / --observations / --speech のいずれかは必要です（--from-json を使う場合を除く）。")
+
         prompt = PROMPT.format(
             character=args.character,
             vocabulary=common.vocabulary_block(db, non_visual),
-            observations=observations_for_prompt(payload),
-            tags_block=TAGS_BLOCK.format(tags=tags_summary(args.tags)) if args.tags else "",
+            evidence="\n\n".join(blocks),
         )
         if args.prompt_only:
             print(prompt)
@@ -188,8 +195,8 @@ def main() -> int:
     print(f"採用 {len(result['elements'])} 要素 → {out}")
     for key, label in (
         ("_dropped", "語彙にない id を破棄"),
-        ("_out_of_scope", "外見軸なので破棄（WD-Tagger の担当）"),
-        ("_no_scene", "根拠シーンがないので破棄"),
+        ("_out_of_scope", "外見軸なので破棄（静止画レーンの担当）"),
+        ("_no_source", "根拠がないので破棄"),
     ):
         if result[key]:
             print(f"  {label}: {', '.join(result[key])}")

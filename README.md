@@ -78,78 +78,90 @@ cd docs && python3 -m http.server 8000   # http://localhost:8000 で閲覧
 - **要素辞典** — 見出し語ごとの定義・効き方・相性・対比、逆引き（この要素を持つ人物 / 使う性癖）
 - キャラ詳細では、軸ごとの内訳と **構成比バー**、要素が重なる他の人物を表示
 
-## 取り込みパイプライン（動画からの分析）
+## データ収集元
 
-現代作品のキャラクターは、映像から機械的に分解してから人が確認する。
-精度の要は二つ。**工程ごとに担当する軸を分けること**と、**観察と分類を分けること**。
-数カットの静止画から性格や関係を直接判定させると、モデルが作品知識で補完した
-「それらしい嘘」が混ざる。そこで「見たままを記録する工程」と「記録を横断して判定する工程」を
-別のコールに割り、判定には必ず根拠シーンの番号を要求する。
+データベースに入る情報は、軸ごとに「どこから採るのが確実か」が違う。
+収集元を混ぜると精度が落ちる——映像から年齢を推定する、静止画から性格を判定する、といった取り違えが起きる。
+そこで収集を**レーン**に分け、各レーンは担当する軸の証拠ファイルだけを作る。判定はレーンの後段で一括して行う。
 
-| # | 工程 | 道具 | 担当 |
-| --- | --- | --- | --- |
-| 1 | カット割り | PySceneDetect `AdaptiveDetector` | 代表フレームの抽出 |
-| 2 | シーン観察 | Gemini Vision（既定 `gemini-2.5-flash`） | 空間・時間・演技・人物の行動を**見たまま記録**。分類はしない |
-| 3 | 静止画タグ付け | WD-Tagger（`wd-swinv2-tagger-v3`） | 外見（髪・目・顔・体・服装・小物） |
-| 4 | 横断分類 | Gemini（既定 `gemini-2.5-pro`、テキストのみ） | 全シーンの観察記録から外見以外の軸を判定 |
-| 5 | 統合 | `merge.py`（決定的なルール） | 比重と確度の決定、YAML 断片の出力 |
-| 6 | 検証 | `build.py` ＋ 人 | 参照整合性。**性癖の成立判定は人だけ** |
+| レーン | 収集元 | 確実に採れる軸 | 技術 | 出力 |
+| --- | --- | --- | --- | --- |
+| ① 静止画 | 設定画・立ち絵・キービジュアル（なければ映像フレーム） | 外見（髪・目・顔・体・服装・小物） | WD-Tagger + `wd_map.yaml` | `tags.json` |
+| ② 映像 | 本編アニメ・MV・カットシーン | 癖・仕草、演技の差分、関係の距離感 | PySceneDetect → Gemini Vision 観察（flash） | `observations.json` |
+| ③ 台詞 | 字幕・スクリプト・書き起こし | 話し方（一人称・語尾・敬語率） | `speech.py`（決定的な集計、モデル不使用） | `speech.json` |
+| ④ 資料 | 公式プロフィール・wiki・本編の知識 | 属性（年齢・種族・立場）、関係の型、展開 | 人が `facts.yaml` に記入（LLM 下書き可） | `facts.yaml` |
 
-観察（2）はシーン数ぶん呼ぶので安い flash、分類（4）は一人につき一回で判断力が要るので pro、と
-モデルを分けている。`GEMINI_OBSERVE_MODEL` / `GEMINI_CLASSIFY_MODEL` で差し替え可能。
+レーンの後段に判定と統合が続く。
+
+| 工程 | 入力 | 技術 |
+| --- | --- | --- |
+| 分類（非外見） | ②③④の証拠ファイル | Gemini pro（テキストのみ）: `classify.py` |
+| 統合 | ①の `tags.json` ＋ 分類の `classify.json` | 決定的なルール: `merge.py` |
+| 検証 | YAML | `build.py` ＋ 人。**性癖の成立判定は人だけ** |
+
+### 使い分けの原則
+
+- **カット割り（AdaptiveDetector）は②レーン内の前処理**であって、収集の本体ではない。
+  映像を使うのは「動きでしか分からないもの」（仕草、演技の差分、距離の詰め方）のためだけ。
+- **年齢・種族・立場のような明記された事実は④から採る。** 映像や静止画から推定させない。
+- **外見は①を優先する。** 設定画一枚のほうが映像フレーム百枚より綺麗に出る。映像フレームは衣装差分の補完。
+- **話し方は③が最も確実。** 映像を眺めて口調を判定させるより、台詞を数十行集計するほうが強い。
+- **有名キャラは④＋分類だけで下書きができる。** ②は仕草の精度を上げたいときに足す。
+  全レーンを毎回回す必要はなく、埋めたい軸に対応するレーンだけ動かせばよい。
+
+### 実行例
 
 ```bash
 pip install 'scenedetect[opencv]' onnxruntime huggingface_hub pillow numpy pandas
 export GEMINI_API_KEY=...
 
-# 1. カット割りして代表フレームを抜く
-python3 tools/ingest/scenes.py video.mp4 --out work/frames --per-cut 3
+# ① 静止画: 設定画・立ち絵にタグを付ける
+python3 tools/ingest/tagger.py art/*.png --out work/tags.json
 
-# 2. シーンごとに観察（--resume で中断から再開できる）
+# ② 映像: カット割り → シーン観察（--resume で中断から再開）
+python3 tools/ingest/scenes.py video.mp4 --out work/frames --per-cut 3
 python3 tools/ingest/observe.py --cuts work/frames/cuts.json \
     --cast "少女=アーニャ, 父=ロイド" --out work/observations.json
 
-# 3. 観察が選んだフレーム（observations.json 内 tagger_frames）を WD-Tagger にかける
-python3 tools/ingest/tagger.py work/frames/cut-0012-02.jpg ... --out work/tags.json
+# ③ 台詞: その人物の行を 1 行 1 台詞で抜き出して集計
+python3 tools/ingest/speech.py lines.txt --out work/speech.json
 
-# 4. 一人ぶんの観察を横断して分類
-python3 tools/ingest/classify.py --observations work/observations.json \
-    --character アーニャ --tags work/tags.json --out work/classify.json
+# ④ 資料: ひな形を埋める（tools/ingest/facts_template.yaml 参照）
+cp tools/ingest/facts_template.yaml work/facts.yaml && $EDITOR work/facts.yaml
 
-# 5. 統合して characters.yaml の断片を得る
+# 分類: 揃っている証拠だけ渡す（どれも任意、最低一つ）
+python3 tools/ingest/classify.py --character アーニャ \
+    --facts work/facts.yaml --observations work/observations.json --speech work/speech.json \
+    --out work/classify.json
+
+# 統合: characters.yaml の断片を得る
 python3 tools/ingest/merge.py --tags work/tags.json --vision work/classify.json \
-    --name アーニャ --kana あーにゃ --work 作品名 --cuts 42
+    --name アーニャ --kana あーにゃ --work 作品名
 ```
 
-API キーがない環境では、`--prompt-only` でプロンプトを出して AI Studio に貼り、
-応答を保存して `classify.py --from-json` で読み込める。
+API キーがない環境では `--prompt-only` でプロンプトを出して AI Studio に貼り、応答を `--from-json` で読み込める。
 
 ### 各工程が「してはいけないこと」
 
-- **observe.py は分類しない。** 語彙を渡さず、性格の判定を禁止し、行動と表情の記述だけをさせる。
-- **classify.py は画像を見ない。外見を判定しない。** 判定には根拠シーンの列挙を必須にしてあり、
-  根拠シーンのない判定・語彙にない id・外見軸への越境は検証で自動的に落ちる。
+- **observe.py は分類しない。** 語彙を渡さず、人格の判定を禁止し、行動と表情の記述だけをさせる。
+- **classify.py は画像を見ない。外見を判定しない。** 判定には根拠（どのレーンのどこ）の列挙を必須にしてあり、
+  根拠のない判定・語彙にない id・外見軸への越境は検証で自動的に落ちる。
 - **tagger.py は外見しか対応表にない。** 静止画から読めない概念（身長・姿勢・うなじ・形見）は
   `wd_map.yaml` の末尾に理由付きで除外してある。
-- **merge.py は性癖を決めない。** 要素が揃っていることと性癖が成立していることは別の判断で、
-  `patterns` は人が `breaks_when` と照らして書く。
+- **speech.py はモデルを使わない。** 数えられるものは数える。解釈はしない。
+- **merge.py は性癖を決めない。** `patterns` は人が `breaks_when` と照らして書く。
 
 ### 比重の決め方
 
-「**繰り返し観察される特徴ほどその人物の骨格に近い**」を両系統に同じ原理で適用する。
+「**繰り返し現れる特徴ほどその人物の骨格に近い**」を全レーンに同じ原理で適用する。
 
 - 外見（WD-Tagger）: フレーム出現率 60% 以上かつスコア 0.6 以上で `core`、
   25% 以上またはスコア 0.85 以上で `sub`、それ未満は `spice`。
-- 非外見（classify）: 複数シーンにまたがれば `core`、場面が限られれば `sub`、一度きりなら `spice`。
+- 非外見（classify）: 複数の場面・複数のレーンにまたがれば `core`、限られれば `sub`、一度きりなら `spice`。
 
-`note` にはタグ名・スコア・出現枚数、または根拠シーン番号がそのまま残るので、後から検証できる。
+`note` にはタグ名・スコア・出現枚数、または根拠レーンとシーン番号がそのまま残るので、後から検証できる。
 
-### タグの対応表
-
-`tools/ingest/wd_map.yaml` が Danbooru 語彙と見出し語を繋いでいる。
-新しい見出し語を足したら、対応する Danbooru タグもここに書く。
-
-作業用の中間ファイル（動画・フレーム・観察記録・タグ）は `work/` に置き、コミットしない。
+作業用の中間ファイル（動画・フレーム・観察記録・タグ・facts）は `work/` に置き、コミットしない。
 
 ## データの足し方
 
