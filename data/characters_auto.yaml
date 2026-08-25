@@ -14,8 +14,8 @@
     method: danbooru+auto
     date: '2026-08-25'
   elements:
-    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 80%', src: danbooru}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 43%', src: danbooru}
-    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 56%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 36%', src: danbooru}
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 76%', src: danbooru}
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 90%', src: danbooru}
+    - {id: ahoge, weight: sub, note: 'danbooru ahoge 49%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 36%', src: danbooru}
   patterns: []
