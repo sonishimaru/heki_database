@@ -84,19 +84,63 @@ cd docs && python3 -m http.server 8000   # http://localhost:8000 で閲覧
 収集元を混ぜると精度が落ちる——映像から年齢を推定する、静止画から性格を判定する、といった取り違えが起きる。
 そこで収集を**レーン**に分け、各レーンは担当する軸の証拠ファイルだけを作る。判定はレーンの後段で一括して行う。
 
+### 入口: 公開の検索可能なリソース
+
+素材は原則、公開の検索可能なリソースから `fetch.py` で取得して `work/sources/` に置く。
+信頼度の層で使い分ける。
+
+| 層 | リソース | 取れるもの | 取得方法 |
+| --- | --- | --- | --- |
+| 一次（公式） | アニメ・ゲーム公式サイトのキャラページ | 確定プロフィール、公式立ち絵、キービジュアル | `fetch.py page <URL>` |
+| 二次（構造化） | AniList（GraphQL・認証不要） | プロフィール文・公式画像・出演作品 | `fetch.py anilist <名前>` |
+| 二次（構造化） | **Danbooru 関連タグ集計** | **外見の群衆合意**（そのキャラの投稿にどのタグが何%付くか） | `fetch.py danbooru <タグ>` |
+| 二次（百科） | pixiv百科事典・Wikipedia・Fandom | 容姿・性格・人間関係・作中の出来事の記述 | `fetch.py page <URL>` |
+
+Danbooru は `wd_map.yaml` と同じ語彙なので、関連タグの頻度がそのまま外見の出現率として
+`merge.py --danbooru` に入る。数千枚の人力タグの合意であり、少数フレームの機械タグ付けより強い。
+百科系のテキストは `facts.py` が「資料に書かれている事実」だけを出典つきで facts.yaml に下書きし、
+人が確認してから分類に渡す。
+
+取得のマナー: 1 ページ・1 クエリ単位で取得し、巡回はしない。取得物は `work/`（gitignore 済み）に
+留めて再配布せず、リポジトリに入るのは抽出した事実と出典 URL だけ。
+
+### 標準ルート（最短）
+
+ほとんどのキャラはローカル素材なしで、公開リソースだけで下書きまで行ける。
+
+```bash
+# 1. 取得（公式キャラページ、pixiv百科事典、AniList、Danbooru）
+python3 tools/ingest/fetch.py page "https://<公式サイト>/character/xxx"
+python3 tools/ingest/fetch.py page "https://dic.pixiv.net/a/<記事名>"
+python3 tools/ingest/fetch.py anilist "Character Name" --download-image
+python3 tools/ingest/fetch.py danbooru "character_(work)"
+
+# 2. 資料 → 事実の下書き（出典つき。人が確認する）
+python3 tools/ingest/facts.py --character 名前 --pages work/sources/page_*.txt work/sources/anilist_*.json
+
+# 3. 分類（非外見）と統合（外見は Danbooru 合意から）
+python3 tools/ingest/classify.py --character 名前 --facts work/facts.yaml --out work/classify.json
+python3 tools/ingest/merge.py --danbooru work/sources/danbooru_*.json --vision work/classify.json \
+    --name 名前 --kana かな --work 作品名
+```
+
+映像・台詞のレーンは、このルートで埋まらない軸（癖・仕草・話し方の実測）を上げたいときに足す。
+
+### レーン一覧
+
 | レーン | 収集元 | 確実に採れる軸 | 技術 | 出力 |
 | --- | --- | --- | --- | --- |
-| ① 静止画 | 設定画・立ち絵・キービジュアル（なければ映像フレーム） | 外見（髪・目・顔・体・服装・小物） | WD-Tagger + `wd_map.yaml` | `tags.json` |
+| ① 静止画 | **Danbooru 関連タグ集計**、公式立ち絵・設定画（なければ映像フレーム） | 外見（髪・目・顔・体・服装・小物） | `fetch.py danbooru` / WD-Tagger + `wd_map.yaml` | `danbooru_*.json` / `tags.json` |
 | ② 映像 | 本編アニメ・MV・カットシーン | 癖・仕草、演技の差分、関係の距離感 | PySceneDetect → Gemini Vision 観察（flash） | `observations.json` |
 | ③ 台詞 | 字幕・スクリプト・書き起こし | 話し方（一人称・語尾・敬語率） | `speech.py`（決定的な集計、モデル不使用） | `speech.json` |
-| ④ 資料 | 公式プロフィール・wiki・本編の知識 | 属性（年齢・種族・立場）、関係の型、展開 | 人が `facts.yaml` に記入（LLM 下書き可） | `facts.yaml` |
+| ④ 資料 | 公式サイト・pixiv百科事典・AniList・Wikipedia | 属性（年齢・種族・立場）、関係の型、展開 | `fetch.py page/anilist` → `facts.py` 下書き → 人が確認 | `facts.yaml` |
 
 レーンの後段に判定と統合が続く。
 
 | 工程 | 入力 | 技術 |
 | --- | --- | --- |
 | 分類（非外見） | ②③④の証拠ファイル | Gemini pro（テキストのみ）: `classify.py` |
-| 統合 | ①の `tags.json` ＋ 分類の `classify.json` | 決定的なルール: `merge.py` |
+| 統合 | ①の `tags.json` / `danbooru_*.json` ＋ 分類の `classify.json` | 決定的なルール: `merge.py` |
 | 検証 | YAML | `build.py` ＋ 人。**性癖の成立判定は人だけ** |
 
 ### 使い分けの原則
@@ -104,7 +148,8 @@ cd docs && python3 -m http.server 8000   # http://localhost:8000 で閲覧
 - **カット割り（AdaptiveDetector）は②レーン内の前処理**であって、収集の本体ではない。
   映像を使うのは「動きでしか分からないもの」（仕草、演技の差分、距離の詰め方）のためだけ。
 - **年齢・種族・立場のような明記された事実は④から採る。** 映像や静止画から推定させない。
-- **外見は①を優先する。** 設定画一枚のほうが映像フレーム百枚より綺麗に出る。映像フレームは衣装差分の補完。
+- **外見は Danbooru 合意 → 公式立ち絵 → 映像フレームの順で強い。** 群衆の人力タグ、次に設定画、
+  映像フレームは衣装差分の補完という序列。
 - **話し方は③が最も確実。** 映像を眺めて口調を判定させるより、台詞を数十行集計するほうが強い。
 - **有名キャラは④＋分類だけで下書きができる。** ②は仕草の精度を上げたいときに足す。
   全レーンを毎回回す必要はなく、埋めたい軸に対応するレーンだけ動かせばよい。
@@ -115,8 +160,9 @@ cd docs && python3 -m http.server 8000   # http://localhost:8000 で閲覧
 pip install 'scenedetect[opencv]' onnxruntime huggingface_hub pillow numpy pandas
 export GEMINI_API_KEY=...
 
-# ① 静止画: 設定画・立ち絵にタグを付ける
-python3 tools/ingest/tagger.py art/*.png --out work/tags.json
+# ① 静止画: Danbooru 合意を取るか、手持ちの設定画・立ち絵にタグを付ける
+python3 tools/ingest/fetch.py danbooru "character_(work)"
+python3 tools/ingest/tagger.py work/art/*.png --out work/tags.json
 
 # ② 映像: カット割り → シーン観察（--resume で中断から再開）
 python3 tools/ingest/scenes.py video.mp4 --out work/frames --per-cut 3
@@ -126,8 +172,10 @@ python3 tools/ingest/observe.py --cuts work/frames/cuts.json \
 # ③ 台詞: その人物の行を 1 行 1 台詞で抜き出して集計
 python3 tools/ingest/speech.py lines.txt --out work/speech.json
 
-# ④ 資料: ひな形を埋める（tools/ingest/facts_template.yaml 参照）
-cp tools/ingest/facts_template.yaml work/facts.yaml && $EDITOR work/facts.yaml
+# ④ 資料: 公開資料から下書きして人が確認する（手書きなら facts_template.yaml）
+python3 tools/ingest/fetch.py page "https://dic.pixiv.net/a/<記事名>"
+python3 tools/ingest/facts.py --character 名前 --pages work/sources/page_*.txt
+$EDITOR work/facts.yaml
 
 # 分類: 揃っている証拠だけ渡す（どれも任意、最低一つ）
 python3 tools/ingest/classify.py --character アーニャ \
@@ -149,6 +197,9 @@ API キーがない環境では `--prompt-only` でプロンプトを出して A
 - **tagger.py は外見しか対応表にない。** 静止画から読めない概念（身長・姿勢・うなじ・形見）は
   `wd_map.yaml` の末尾に理由付きで除外してある。
 - **speech.py はモデルを使わない。** 数えられるものは数える。解釈はしない。
+- **fetch.py は取得しかしない。** 判定・要約はせず、原文を work/sources/ に保存するだけ。
+- **facts.py は資料にない情報を書かない。** 解釈・印象は禁止し、各事実に出典を付けさせる。
+  矛盾する記述は採らずに notes へ回す。出力は下書きで、人の確認を経てから classify に渡す。
 - **merge.py は性癖を決めない。** `patterns` は人が `breaks_when` と照らして書く。
 
 ### 比重の決め方

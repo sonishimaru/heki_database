@@ -64,6 +64,40 @@ def from_tags(tags_path: Path) -> tuple[list[dict], int]:
     return results, len(frames)
 
 
+def from_danbooru(path: Path) -> list[dict]:
+    """Danbooru の関連タグ頻度（群衆合意）を見出し語へ翻訳する。
+
+    frequency は「そのキャラのタグが付いた投稿のうち、このタグも付いている割合」なので、
+    そのまま出現率として扱える。数千枚の人力タグの合意であり、少数フレームの機械タグより強い。
+    """
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    freq = {row["name"]: row["frequency"] for row in payload["related_tags"] if row.get("name")}
+    mapping = yaml.safe_load(common.WD_MAP.read_text(encoding="utf-8"))
+    default_threshold = mapping.get("defaults", {}).get("threshold", 0.35)
+
+    results = []
+    for element_id, spec in mapping["elements"].items():
+        threshold = spec.get("threshold", default_threshold)
+        best_tag, best_freq = None, 0.0
+        for tag in spec["tags"]:
+            value = freq.get(tag, 0.0)
+            if value > best_freq:
+                best_tag, best_freq = tag, value
+        if best_freq < threshold:
+            continue
+        results.append(
+            {
+                "id": element_id,
+                "weight": common.decide_weight(best_freq, best_freq),
+                "confidence": common.confidence_of(best_freq),
+                "source": "danbooru",
+                "note": f"danbooru {best_tag} {best_freq:.0%}",
+                "_coverage": round(best_freq, 2),
+            }
+        )
+    return results
+
+
 def from_vision(vision_path: Path) -> tuple[list[dict], dict]:
     payload = json.loads(vision_path.read_text(encoding="utf-8"))
     items = [
@@ -98,6 +132,7 @@ def merge(items: list[dict]) -> list[dict]:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--tags", type=Path, help="tagger.py の出力")
+    parser.add_argument("--danbooru", type=Path, help="fetch.py danbooru の出力（外見の群衆合意）")
     parser.add_argument("--vision", type=Path, help="classify.py の出力")
     parser.add_argument("--name", required=True)
     parser.add_argument("--work", required=True)
@@ -112,8 +147,8 @@ def main() -> int:
     parser.add_argument("--append", action="store_true", help="data/characters.yaml に追記する")
     args = parser.parse_args()
 
-    if not args.tags and not args.vision:
-        raise SystemExit("--tags か --vision のどちらかは必要です。")
+    if not args.tags and not args.vision and not args.danbooru:
+        raise SystemExit("--tags / --danbooru / --vision のいずれかは必要です。")
 
     db = common.load_db()
     known = {e["id"] for e in db["elements"]}
@@ -124,6 +159,8 @@ def main() -> int:
     if args.tags:
         tag_items, frames = from_tags(args.tags)
         items += tag_items
+    if args.danbooru:
+        items += from_danbooru(args.danbooru)
     if args.vision:
         vision_items, vision_payload = from_vision(args.vision)
         items += vision_items
