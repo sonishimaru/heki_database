@@ -29,22 +29,21 @@
   kana: ふりーれん
   work: 葬送のフリーレン
   year: 2020
-  summary: 1000年以上の長きを生きながら、師から継いだ魔法と知識の探求を弟子へと繋ぐ魔法使い。
+  summary: 千年以上の時を生きる不老の魔法使いであり、師から学んだ知識の探求を続けつつ弟子へと導く者。
   analysis:
     method: both+danbooru+gemini+auto
     model: 'gemini-3.6-flash'
     date: '2026-08-25'
   elements:
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 79%', src: danbooru}
-    - {id: erufu, weight: core, note: 'danbooru pointy_ears 97% / 資料: 資料内では1000歳以上とあるのみだが、作品上エルフであることは確実。', src: both}
-    - {id: furou, weight: core, note: '資料: 1000歳以上の年齢であることが明記されている。', src: gemini}
-    - {id: majo, weight: core, note: '資料: 勇者パーティの魔法使いであり、どんなに些細なものであっても魔法知識を集め続けている。', src: gemini}
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 97% / 資料: 1000年以上の長命な寿命を持つ。', src: both}
+    - {id: furou, weight: core, note: '資料: 年齢は1000歳以上（1000+）である。', src: gemini}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 67%', src: danbooru}
-    - {id: shitei, weight: core, note: '資料: 人間の魔法使いフランメの弟子であり、フェルンの師匠でもある。', src: gemini}
+    - {id: shitei, weight: core, note: '資料: フェルンの師匠であり、自身も幼少期にフランメから魔法と魔力制御のすべてを教わった。', src: gemini}
     - {id: twintail, weight: core, note: 'danbooru twintails 76%', src: danbooru}
-    - {id: yubiwa, weight: core, note: 'danbooru jewelry 80%', src: danbooru}
-    - {id: nagaremono, weight: sub, note: '資料: 魔王を倒すための10年間の旅を行い、魔法知識を収集し続けている。', src: gemini}
+    - {id: nagaremono, weight: sub, note: '資料: 勇者ヒンメルらとともに10年間の旅をし、魔王を討伐した。', src: gemini}
     - {id: shirogami, weight: sub, note: 'danbooru white_hair 54%', src: danbooru}
+    - {id: shokunin, weight: sub, note: '資料: どんなに些細な内容であっても魔法の知識を集め続けている。', src: gemini}
   patterns: []
 
 - id: gojo-satoru
