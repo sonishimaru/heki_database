@@ -85,3 +85,266 @@ characters:
     danbooru: misaka_mikoto
     anilist: Mikoto Misaka
 
+  # ---- 貯蓄分（日次実行が上から順に消化していく） ----
+  # 語彙のカバレッジを意識して選定:
+  #   種族: 竜（トール）・鬼（禰豆子・パワー）・吸血鬼（忍）・幽霊（幽奈）・人外（ホロ・金木）
+  #   記号職: メイド（トール）・巫女（桔梗）・シスター（インデックス）・魔女（アッコ・ほむら）・
+  #           騎士（アルトリア）・執事（セバスチャン）・アイドル（星野アイ）
+  #   性格・型: ヤンデレ（由乃）・病弱（かをり）・方言（春日歩）・中二病（六花）・
+  #             無口（長門・綾波）・ツンデレ（凛）・ギャル×褐色（長瀞）
+  #   部位・痕: 目隠し（六花の眼帯）・メッシュ（轟）・義手（ヴァイオレット・エド）・
+  #             お団子（うさぎ・神楽）・白眼（ヒナタ）
+
+  - id: tohru
+    name: トール
+    kana: とーる
+    work: 小林さんちのメイドラゴン
+    year: 2013
+    danbooru: tohru_(maidragon)
+    anilist: Tohru
+  - id: kamado-nezuko
+    name: 竈門禰豆子
+    kana: かまどねずこ
+    work: 鬼滅の刃
+    year: 2016
+    danbooru: kamado_nezuko
+    anilist: Nezuko Kamado
+  - id: power
+    name: パワー
+    kana: ぱわー
+    work: チェンソーマン
+    year: 2018
+    danbooru: power_(chainsaw_man)
+    anilist: Power
+  - id: oshino-shinobu
+    name: 忍野忍
+    kana: おしのしのぶ
+    work: 化物語
+    year: 2006
+    danbooru: oshino_shinobu
+    anilist: Shinobu Oshino
+  - id: holo
+    name: ホロ
+    kana: ほろ
+    work: 狼と香辛料
+    year: 2006
+    danbooru: holo
+    anilist: Holo
+  - id: kikyou
+    name: 桔梗
+    kana: ききょう
+    work: 犬夜叉
+    year: 1996
+    danbooru: kikyou_(inuyasha)
+    anilist: Kikyou
+  - id: index
+    name: インデックス
+    kana: いんでっくす
+    work: とある魔術の禁書目録
+    year: 2004
+    danbooru: index_(toaru_majutsu_no_index)
+    anilist: Index
+  - id: kagari-atsuko
+    name: 篝敦子
+    kana: かがりあつこ
+    work: リトルウィッチアカデミア
+    year: 2013
+    danbooru: kagari_atsuko
+    anilist: Atsuko Kagari
+  - id: artoria-pendragon
+    name: アルトリア・ペンドラゴン
+    kana: あるとりあぺんどらごん
+    work: Fate/stay night
+    year: 2004
+    danbooru: artoria_pendragon_(fate)
+    anilist: Artoria Pendragon
+  - id: tohsaka-rin
+    name: 遠坂凛
+    kana: とおさかりん
+    work: Fate/stay night
+    year: 2004
+    danbooru: tohsaka_rin
+    anilist: Rin Tohsaka
+  - id: sebastian-michaelis
+    name: セバスチャン・ミカエリス
+    kana: せばすちゃんみかえりす
+    work: 黒執事
+    year: 2006
+    danbooru: sebastian_michaelis
+    anilist: Sebastian Michaelis
+  - id: hoshino-ai
+    name: 星野アイ
+    kana: ほしのあい
+    work: 【推しの子】
+    year: 2020
+    danbooru: hoshino_ai_(oshi_no_ko)
+    anilist: Ai Hoshino
+  - id: gasai-yuno
+    name: 我妻由乃
+    kana: がさいゆの
+    work: 未来日記
+    year: 2006
+    danbooru: gasai_yuno
+    anilist: Yuno Gasai
+  - id: miyazono-kaori
+    name: 宮園かをり
+    kana: みやぞのかをり
+    work: 四月は君の嘘
+    year: 2011
+    danbooru: miyazono_kawori
+    anilist: Kaori Miyazono
+  - id: kasuga-ayumu
+    name: 春日歩
+    kana: かすがあゆむ
+    work: あずまんが大王
+    year: 1999
+    danbooru: kasuga_ayumu
+    anilist: Ayumu Kasuga
+  - id: nagato-yuki
+    name: 長門有希
+    kana: ながとゆき
+    work: 涼宮ハルヒの憂鬱
+    year: 2003
+    danbooru: nagato_yuki
+    anilist: Yuki Nagato
+  - id: ayanami-rei
+    name: 綾波レイ
+    kana: あやなみれい
+    work: 新世紀エヴァンゲリオン
+    year: 1995
+    danbooru: ayanami_rei
+    anilist: Rei Ayanami
+  - id: emilia
+    name: エミリア
+    kana: えみりあ
+    work: Re:ゼロから始める異世界生活
+    year: 2014
+    danbooru: emilia_(re:zero)
+    anilist: Emilia
+  - id: kamado-tanjirou
+    name: 竈門炭治郎
+    kana: かまどたんじろう
+    work: 鬼滅の刃
+    year: 2016
+    danbooru: kamado_tanjirou
+    anilist: Tanjirou Kamado
+  - id: yagami-light
+    name: 夜神月
+    kana: やがみらいと
+    work: DEATH NOTE
+    year: 2003
+    danbooru: yagami_light
+    anilist: Light Yagami
+  - id: l-lawliet
+    name: L
+    kana: える
+    work: DEATH NOTE
+    year: 2003
+    danbooru: l_(death_note)
+    anilist: L Lawliet
+  - id: violet-evergarden
+    name: ヴァイオレット・エヴァーガーデン
+    kana: ゔぁいおれっとえゔぁーがーでん
+    work: ヴァイオレット・エヴァーガーデン
+    year: 2015
+    danbooru: violet_evergarden_(character)
+    anilist: Violet Evergarden
+  - id: takanashi-rikka
+    name: 小鳥遊六花
+    kana: たかなしりっか
+    work: 中二病でも恋がしたい!
+    year: 2011
+    danbooru: takanashi_rikka
+    anilist: Rikka Takanashi
+  - id: nagatoro-hayase
+    name: 長瀞早瀬
+    kana: ながとろはやせ
+    work: イジらないで、長瀞さん
+    year: 2017
+    danbooru: nagatoro_hayase
+    anilist: Hayase Nagatoro
+  - id: todoroki-shouto
+    name: 轟焦凍
+    kana: とどろきしょうと
+    work: 僕のヒーローアカデミア
+    year: 2014
+    danbooru: todoroki_shouto
+    anilist: Shouto Todoroki
+  - id: hestia
+    name: ヘスティア
+    kana: へすてぃあ
+    work: ダンジョンに出会いを求めるのは間違っているだろうか
+    year: 2013
+    danbooru: hestia_(danmachi)
+    anilist: Hestia
+  - id: edward-elric
+    name: エドワード・エルリック
+    kana: えどわーどえるりっく
+    work: 鋼の錬金術師
+    year: 2001
+    danbooru: edward_elric
+    anilist: Edward Elric
+  - id: hyuuga-hinata
+    name: 日向ヒナタ
+    kana: ひゅうがひなた
+    work: NARUTO
+    year: 1999
+    danbooru: hyuuga_hinata
+    anilist: Hinata Hyuuga
+  - id: kagura
+    name: 神楽
+    kana: かぐら
+    work: 銀魂
+    year: 2003
+    danbooru: kagura_(gintama)
+    anilist: Kagura
+  - id: tsukino-usagi
+    name: 月野うさぎ
+    kana: つきのうさぎ
+    work: 美少女戦士セーラームーン
+    year: 1991
+    danbooru: tsukino_usagi
+    anilist: Usagi Tsukino
+  - id: akemi-homura
+    name: 暁美ほむら
+    kana: あけみほむら
+    work: 魔法少女まどか☆マギカ
+    year: 2011
+    danbooru: akemi_homura
+    anilist: Homura Akemi
+  - id: kaneki-ken
+    name: 金木研
+    kana: かねきけん
+    work: 東京喰種トーキョーグール
+    year: 2011
+    danbooru: kaneki_ken
+    anilist: Ken Kaneki
+  - id: mikasa-ackerman
+    name: ミカサ・アッカーマン
+    kana: みかさあっかーまん
+    work: 進撃の巨人
+    year: 2009
+    danbooru: mikasa_ackerman
+    anilist: Mikasa Ackerman
+  - id: levi
+    name: リヴァイ
+    kana: りゔぁい
+    work: 進撃の巨人
+    year: 2009
+    danbooru: levi_(shingeki_no_kyojin)
+    anilist: Levi
+  - id: yunohana-yuuna
+    name: 湯ノ花幽奈
+    kana: ゆのはなゆうな
+    work: ゆらぎ荘の幽奈さん
+    year: 2016
+    danbooru: yunohana_yuuna
+    anilist: Yuuna Yunohana
+  - id: nami
+    name: ナミ
+    kana: なみ
+    work: ONE PIECE
+    year: 1997
+    danbooru: nami_(one_piece)
+    anilist: Nami
+
