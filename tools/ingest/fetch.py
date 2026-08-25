@@ -86,6 +86,7 @@ def cmd_anilist(args) -> int:
         raise SystemExit(f"AniList にキャラクターが見つかりません: {args.search}")
 
     slug = common.slugify(character["name"]["full"] or args.search)
+    out_path = Path(args.out) if args.out else SOURCES / f"anilist_{slug}.json"
     out = {
         "source": "anilist",
         "url": character.get("siteUrl"),
@@ -101,7 +102,7 @@ def cmd_anilist(args) -> int:
         ],
         "image": (character.get("image") or {}).get("large"),
     }
-    save(SOURCES / f"anilist_{slug}.json", json.dumps(out, ensure_ascii=False, indent=2))
+    save(out_path, json.dumps(out, ensure_ascii=False, indent=2))
 
     if args.download_image and out["image"]:
         time.sleep(args.sleep)
@@ -153,7 +154,8 @@ def cmd_danbooru(args) -> int:
         "related_tags": related,
     }
     slug = common.slugify(tag)
-    save(SOURCES / f"danbooru_{slug}.json", json.dumps(out, ensure_ascii=False, indent=2))
+    out_path = Path(args.out) if args.out else SOURCES / f"danbooru_{slug}.json"
+    save(out_path, json.dumps(out, ensure_ascii=False, indent=2))
     top = ", ".join(f"{r['name']} {r['frequency']:.0%}" for r in related[:8])
     print(f"  上位: {top}")
     print("  → merge.py に --danbooru で渡すと外見の見出し語に翻訳される")
@@ -174,8 +176,9 @@ def cmd_page(args) -> int:
     body = "\n".join(line for line in lines if line)
 
     slug = common.slugify(urllib.parse.urlparse(args.url).path) or "page"
+    out_path = Path(args.out) if args.out else SOURCES / f"page_{slug}.txt"
     header = f"# source: {args.url}\n# fetched: {time.strftime('%Y-%m-%d')}\n\n"
-    save(SOURCES / f"page_{slug}.txt", header + body)
+    save(out_path, header + body)
     print(f"  {len(body)} 文字。facts.py --pages に渡して事実を抽出する")
     return 0
 
@@ -188,15 +191,18 @@ def main() -> int:
     p = sub.add_parser("anilist", help="AniList でキャラクターを検索する")
     p.add_argument("search", help="キャラクター名（ローマ字が確実）")
     p.add_argument("--download-image", action="store_true", help="公式画像も保存する（tagger.py 用）")
+    p.add_argument("--out", help="保存先を指定する")
     p.set_defaults(func=cmd_anilist)
 
     p = sub.add_parser("danbooru", help="Danbooru の関連タグ集計（外見の群衆合意）")
     p.add_argument("tag", help="キャラクタータグ（例: anya_(spy_x_family)）")
     p.add_argument("--limit", type=int, default=80)
+    p.add_argument("--out", help="保存先を指定する")
     p.set_defaults(func=cmd_danbooru)
 
     p = sub.add_parser("page", help="任意の 1 ページを取得してテキスト化する")
     p.add_argument("url")
+    p.add_argument("--out", help="保存先を指定する")
     p.set_defaults(func=cmd_page)
 
     args = parser.parse_args()

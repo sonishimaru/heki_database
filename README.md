@@ -126,6 +126,24 @@ python3 tools/ingest/merge.py --danbooru work/sources/danbooru_*.json --vision w
 
 映像・台詞のレーンは、このルートで埋まらない軸（癖・仕草・話し方の実測）を上げたいときに足す。
 
+### 自動更新（GitHub Actions）
+
+取得〜分析〜統合は GitHub Actions が毎日無人で実行する（`.github/workflows/ingest.yml`）。
+Actions のランナーには通常のネットワークがあるので、開発環境の制限に関係なく動く。
+
+1. **`data/queue.yaml` にキャラクターを足す**（これが人のやる唯一の操作）。
+   Danbooru タグ・AniList 名・資料 URL のうち書いたレーンだけが動く。
+2. push するか毎日 05:00 JST に、`tools/ingest/auto.py` が新規と期限切れ（30 日超）を
+   最大 5 件処理し、`data/characters_auto.yaml` へ書き込んでコミットする。
+3. 再取得ではレーン単位で置き換える。外見だけ更新しても、前回の分類結果や summary は消えない。
+4. Gemini を使う工程（facts / classify）はリポジトリの Secrets に `GEMINI_API_KEY` を
+   登録すると有効になる（Settings → Secrets and variables → Actions）。無ければ
+   Danbooru 合意による外見だけが更新される。
+
+`characters_auto.yaml` は機械専用の下書き置き場で、`analysis.method` に `auto` が付く。
+レビューして採用するときはエントリを `characters.yaml` へ移して磨く。同じ id が両方にあれば
+手書き側が優先されるので、移した後の自動更新に上書きされる心配はない。
+
 ### レーン一覧
 
 | レーン | 収集元 | 確実に採れる軸 | 技術 | 出力 |

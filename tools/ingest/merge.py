@@ -21,6 +21,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common  # noqa: E402
 
 CHARACTERS = common.ROOT / "data" / "characters.yaml"
+AUTO_CHARACTERS = common.ROOT / "data" / "characters_auto.yaml"
+AUTO_HEADER = """# 機械が生成・更新するキャラクター（自動取り込みの下書き）
+#
+# このファイルは tools/ingest/auto.py が全体を書き直す。手で編集しないこと。
+# レビューして採用するときは、そのエントリを data/characters.yaml へ移して磨く。
+# 同じ id が characters.yaml にある場合、そちらが優先され、このファイル側は無視される。
+"""
+
 
 
 def from_tags(tags_path: Path) -> tuple[list[dict], int]:
@@ -145,6 +153,7 @@ def main() -> int:
     parser.add_argument("--date", default="", help="分析日")
     parser.add_argument("--min-confidence", choices=["low", "mid", "high"], default="low")
     parser.add_argument("--append", action="store_true", help="data/characters.yaml に追記する")
+    parser.add_argument("--write-auto", action="store_true", help="data/characters_auto.yaml へ upsert する（自動実行用）")
     args = parser.parse_args()
 
     if not args.tags and not args.vision and not args.danbooru:
@@ -197,6 +206,37 @@ def main() -> int:
         ],
         "patterns": [],
     }
+
+    if args.write_auto:
+        # 今回動いたレーンの要素だけを置き換え、動かなかったレーンの前回結果は引き継ぐ。
+        # （外見だけの再取得で、前回の分類結果や summary を消さないため）
+        for element, item in zip(entry["elements"], merged):
+            element["src"] = item["source"]
+        existing = []
+        if AUTO_CHARACTERS.exists():
+            existing = yaml.safe_load(AUTO_CHARACTERS.read_text(encoding="utf-8")) or []
+        previous = next((e for e in existing if e.get("id") == entry["id"]), None)
+        if previous:
+            new_lanes = {element["src"] for element in entry["elements"]}
+            new_ids = {element["id"] for element in entry["elements"]}
+            for old in previous.get("elements") or []:
+                if old.get("src") and old["src"] not in new_lanes and old["id"] not in new_ids:
+                    entry["elements"].append(old)
+            if entry["summary"] in ("", "（要記入）"):
+                entry["summary"] = previous.get("summary", entry["summary"])
+            entry["patterns"] = previous.get("patterns") or []
+            lanes = sorted({element.get("src", "?") for element in entry["elements"]})
+            entry["analysis"]["method"] = "+".join(lanes)
+        entry["analysis"]["method"] = (entry["analysis"]["method"] or "") + "+auto"
+        existing = [e for e in existing if e.get("id") != entry["id"]]
+        existing.append(entry)
+        existing.sort(key=lambda e: e["id"])
+        AUTO_CHARACTERS.write_text(
+            AUTO_HEADER + "\n" + "\n".join(common.emit_character_yaml(e) for e in existing),
+            encoding="utf-8",
+        )
+        print(f"data/characters_auto.yaml を更新しました（{entry['id']} / {len(merged)} 要素）")
+        return 0
 
     text = common.emit_character_yaml(entry)
     if args.append:

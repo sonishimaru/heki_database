@@ -105,7 +105,8 @@ def emit_character_yaml(entry: dict) -> str:
     out.append("  elements:")
     for item in sorted(entry["elements"], key=lambda x: (WEIGHT_ORDER[x["weight"]], x["id"])):
         note = f", note: {yaml_quote(item['note'])}" if item.get("note") else ""
-        out.append(f"    - {{id: {item['id']}, weight: {item['weight']}{note}}}")
+        src = f", src: {item['src']}" if item.get("src") else ""
+        out.append(f"    - {{id: {item['id']}, weight: {item['weight']}{note}{src}}}")
 
     patterns = entry.get("patterns") or []
     out.append(f"  patterns: [{', '.join(patterns)}]")

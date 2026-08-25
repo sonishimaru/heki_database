@@ -1,0 +1,19 @@
+# 自動取り込みのキュー
+#
+# ここにキャラクターを足すと、GitHub Actions（毎日）が公開リソースから取得・分析し、
+# data/characters_auto.yaml へ書き込む。既存のエントリも 30 日ごとに再取得される。
+#
+# 書き方:
+#   - id: anya-forger                  # 省略すると name から生成
+#     name: アーニャ・フォージャー
+#     kana: あーにゃふぉーじゃー
+#     work: SPY×FAMILY
+#     year: 2022
+#     danbooru: anya_(spy_x_family)    # キャラクタータグ（外見の群衆合意）
+#     anilist: Anya Forger             # AniList の検索名（プロフィール）
+#     pages:                           # 資料ページ（公式サイト・pixiv百科事典など）
+#       - https://dic.pixiv.net/a/アーニャ・フォージャー
+#
+# danbooru / anilist / pages はどれも任意。書いたレーンだけが動く。
+
+characters: []
