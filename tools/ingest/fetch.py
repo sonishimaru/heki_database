@@ -168,8 +168,22 @@ TAG_STRIP_RE = re.compile(r"<(script|style|nav|header|footer)[^>]*>.*?</\1>", re
 TAG_RE = re.compile(r"<[^>]+>")
 
 
+def iri_to_uri(url: str) -> str:
+    """日本語などの非 ASCII を含む URL をパーセントエンコードする。"""
+    parts = urllib.parse.urlsplit(url)
+    return urllib.parse.urlunsplit(
+        (
+            parts.scheme,
+            parts.netloc.encode("idna").decode("ascii") if parts.netloc else parts.netloc,
+            urllib.parse.quote(parts.path, safe="/%"),
+            urllib.parse.quote(parts.query, safe="=&%"),
+            urllib.parse.quote(parts.fragment, safe="%"),
+        )
+    )
+
+
 def cmd_page(args) -> int:
-    raw = http(args.url).decode("utf-8", "replace")
+    raw = http(iri_to_uri(args.url)).decode("utf-8", "replace")
     text = TAG_STRIP_RE.sub(" ", raw)
     text = re.sub(r"<br\s*/?>|</p>|</div>|</li>|</h[1-6]>", "\n", text, flags=re.I)
     text = TAG_RE.sub(" ", text)
