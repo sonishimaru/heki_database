@@ -21,8 +21,8 @@
     trigger: 格下と見ていた相手からの、想定外の一手
     condition: その相手の前でのみ発生し、他者の前では即座に復元される
     observer: 崩れる前の姿を十分に見てきた者
-  requires: [yoyuu, misue, futari-dake]
-  intensifiers: [toshiue, nagami, mimi-ga-akai, me-o-sorasu, shihaisha]
+  requires: [yoyuu, mitsumeru, futari-dake]
+  intensifiers: [toshiue, koushinchou, mimi-ga-akai, me-o-sorasu, joushi]
   breaks_when: 平常時の余裕が十分に描かれていない場合、落差が発生せず単なる動揺になる。
   related: [gentei-no-sugao, gouri-no-reigai]
   tags: [落差, 限定, 逆転]
@@ -31,7 +31,7 @@
   name: 一人にだけ素顔
   kana: ひとりにだけすがお
   aliases: [あなたの前でだけ]
-  core_axis: structure.condition
+  core_axis: structure.limited
   summary: 全員に見せている顔と、一人にだけ見せる顔が違う。
   formula:
     subject: 社会的な役割を完璧に演じ切っている人物
@@ -39,8 +39,8 @@
     trigger: 二人きりになること、あるいは役割が終了する時間帯
     condition: 特定の一人の前、または特定の場所でのみ
     observer: その特権を与えられた側
-  requires: [futari-dake, hohoemi-no-kamen]
-  intensifiers: [keigo, heyagi, hair-down, gunpuku, shihaisha]
+  requires: [futari-dake, tsukuri-warai]
+  intensifiers: [keigo, heyagi, chouhatsu, gunpuku, joushi]
   breaks_when: 誰の前でも素を見せていると、限定性が消えて特権が成立しない。
   related: [yoyuu-kuzure, kamen-no-shita]
   tags: [限定, 特権化, 開示]
@@ -58,7 +58,7 @@
     condition: 変化に気づけるのは、長く観察してきた者だけ
     observer: 差分を検出できるほど付き合いの長い人物
   requires: [muhyoujou, kuudere]
-  intensifiers: [ahoge, kemomimi, mimi-ga-akai, kansatsu-guse, jinzou]
+  intensifiers: [ahoge, kemomimi, mimi-ga-akai, kansatsu, jinzou]
   breaks_when: 基準となる無表情が十分な尺で提示されていないと、変化が検出できない。
   related: [gouri-no-reigai, jinzou-no-hatsu-ishi]
   tags: [微分, 増幅, 観察]
@@ -75,8 +75,8 @@
     trigger: 対象の危機、あるいは対象を切り捨てれば済む局面
     condition: その一人に関わる案件でのみ、判断基準が壊れる
     observer: その人物の合理性を信頼していた周囲
-  requires: [gouri, misue]
-  intensifiers: [muhyoujou, megane, shihaisha, kuchibeta, kabau]
+  requires: [gouri, mitsumeru]
+  intensifiers: [muhyoujou, megane, joushi, kuchibeta, kabau]
   breaks_when: 例外の理由を本人が言語化して説明すると、例外ではなく別の合理になる。
   related: [bimyou-na-hendou, yoyuu-kuzure]
   tags: [例外, 証明, 無自覚]
@@ -93,8 +93,8 @@
     trigger: 職務の場から私的な空間へ場面が移ること
     condition: 職場では完全に隠蔽され、私室に入った者だけが知る
     observer: 世話を焼かざるを得なくなった同居者・部下
-  requires: [zubora, tsuyosa-to-moroi]
-  intensifiers: [kuma, hakui, hane-kami, heyagi, sewayaki]
+  requires: [zubora, tsuyoi-noni-moroi]
+  intensifiers: [kuma, hakui, kusekke, heyagi, sewayaki]
   breaks_when: 職務上の有能さが具体的に示されていないと、単にだらしない人物になる。
   related: [gentei-no-sugao, genkai-made-kakusu]
   tags: [落差, 生活, 介入余地]
@@ -111,8 +111,8 @@
     trigger: 負荷が閾値を超える、あるいは隠す必要のない相手と二人になる
     condition: 気づけるのは、細部の違和を拾える一部の人物のみ
     observer: 異常に最初に気づいてしまった者
-  requires: [muri-o-suru, hohoemi-no-kamen]
-  intensifiers: [gisei-shikou, kihakusa, kuma, jiko-hyouka-no-hikusa, kowareta-egao]
+  requires: [muri, tsukuri-warai]
+  intensifiers: [jiko-gisei, karetsu, kuma, jikokoutei, kuzureru-egao]
   breaks_when: 本人が早期に弱音を吐くと、隠蔽の緊張が発生しない。
   related: [kanzen-no-hokorobi, tsuyosa-no-mubousa]
   tags: [隠蔽, 破綻, 発見]
@@ -129,8 +129,8 @@
     trigger: 安全だと判断した相手・場所に入ったとき
     condition: 無防備になる相手が限定されている
     observer: 無防備を許された側
-  requires: [tsuyosa-to-moroi, futari-dake]
-  intensifiers: [kyasha, kinniku, kizuato, gishu, heyagi]
+  requires: [tsuyoi-noni-moroi, futari-dake]
+  intensifiers: [kyasha, kinniku, kizuato, gishi, heyagi]
   breaks_when: 強さの証明が不足していると、無防備が単なる弱さとして読まれる。
   related: [genkai-made-kakusu, kizu-wa-shoumei]
   tags: [落差, 信頼, 許可]
@@ -139,7 +139,7 @@
   name: 本人だけ気づいていない
   kana: ほんにんだけきづいていない
   aliases: [自覚がない, 好意の無自覚]
-  core_axis: structure.hidden
+  core_axis: structure.secret
   summary: 観客と周囲には明白な感情を、当人だけが別の名前で呼んでいる。
   formula:
     subject: 感情の分類を誤っている、あるいは認めない人物
@@ -147,8 +147,8 @@
     trigger: 対象が他者と親密にしている場面の目撃
     condition: 当事者の視界の中でのみ、真意が不可視になっている
     observer: 全部見えている観客と、呆れている第三者
-  requires: [kizuka-re-tenai-koui, tsundere]
-  intensifiers: [me-o-sorasu, mimi-ga-akai, dokuzetsu, jitome, kansatsu-guse]
+  requires: [kataomoi, tsundere]
+  intensifiers: [me-o-sorasu, mimi-ga-akai, dokuzetsu, jitome, kansatsu]
   breaks_when: 引き延ばしが過ぎると、鈍感ではなく不誠実として読まれ共感が切れる。
   related: [tekitai-no-rikai, ienai-mama-owaru]
   tags: [情報非対称, 遅延, もどかしさ]
@@ -157,7 +157,7 @@
   name: 敵だけが理解している
   kana: てきだけがりかいしている
   aliases: [宿敵の対話, 一番わかっているのが敵]
-  core_axis: relation.position
+  core_axis: relation.type
   summary: 味方の誰にも通じない話が、殺し合う相手とだけ成立する。
   formula:
     subject: 立場上、決して和解できない二者
@@ -165,8 +165,8 @@
     trigger: 互いの選択の理由が明かされる局面
     condition: 敵対関係が維持されている間だけ成立し、和解すると消える
     observer: 蚊帳の外に置かれた味方
-  requires: [shukuteki, kagami-awase]
-  intensifiers: [misue, rigi, yakusoku, kyoujin-na-ishi, chinmoku]
+  requires: [shukuteki, kagami]
+  intensifiers: [mitsumeru, giri, yakusoku, ganko, chinmoku]
   breaks_when: どちらかが敵対の理由を失うと、関係の緊張が消えて凡庸な友情になる。
   related: [teki-ni-narikirenai, kizuka-nai-koui]
   tags: [逆説, 相互理解, 敵対]
@@ -175,7 +175,7 @@
   name: 敵になりきれない
   kana: てきになりきれない
   aliases: [手を抜く, 殺せない]
-  core_axis: relation.distance
+  core_axis: relation.state
   summary: 敵対する立場を選んだのに、決定的な一手だけが打てない。
   formula:
     subject: 組織や信条の都合で、かつての味方と対峙している人物
@@ -183,8 +183,8 @@
     trigger: とどめを刺せる状況が実際に訪れること
     condition: 第三者の目がない場面でのみ露出する
     observer: 手心に気づいてしまった相手
-  requires: [uragiri, rigi]
-  intensifiers: [kataranu-kako, tsumi-no-ishiki, chinmoku, futatsu-no-kao]
+  requires: [uragiri, giri]
+  intensifiers: [kako, zaiakukan, chinmoku, nimensei]
   breaks_when: 手心の理由がすぐ説明されると、緊張が一度で解消してしまう。
   related: [tekitai-no-rikai, uragiri-no-nenryou]
   tags: [矛盾, 保留, 未練]
@@ -193,7 +193,7 @@
   name: 信頼が燃料になる
   kana: しんらいがねんりょうになる
   aliases: [積み上げてから裏切る]
-  core_axis: relation.distance
+  core_axis: relation.state
   summary: 裏切りの威力は、それ以前に積んだ日常の量に正確に比例する。
   formula:
     subject: 長期にわたって信頼を獲得してきた人物
@@ -201,8 +201,8 @@
     trigger: 隠していた目的が達成可能になる局面
     condition: 裏切られる側が、最も無防備になった瞬間
     observer: 積み重ねを一緒に見てきた観客
-  requires: [uragiri, himitsu-no-shoutai]
-  intensifiers: [gishiki, kuchiguse, onaji-basho, hohoemi-no-kamen, futatsu-no-kao]
+  requires: [uragiri, shoutai]
+  intensifiers: [gishiki, kuchiguse, itsumo-no-basho, tsukuri-warai, nimensei]
   breaks_when: 日常の蓄積が薄いと、裏切りが展開上の処理として消費される。
   related: [teki-ni-narikirenai, nichijou-no-ikei]
   tags: [蓄積, 再解釈, 破壊]
@@ -211,7 +211,7 @@
   name: 守る側が守られる
   kana: まもるがわがまもられる
   aliases: [立場が逆転する, 追い越される]
-  core_axis: relation.distance
+  core_axis: relation.state
   summary: ずっと庇ってきた側が、初めて庇われる側に回る。
   formula:
     subject: 保護者・師・年長者として関係を固定してきた人物
@@ -219,8 +219,8 @@
     trigger: 保護者側の限界、あるいは被保護者側の成長の完了
     condition: 反転の前段が十分な時間をかけて描かれていること
     observer: 反転させた側（かつて守られていた者）
-  requires: [kyori-no-hanten, kabau]
-  intensifiers: [shitei, hogosha, toshiue, keishou, muri-o-suru]
+  requires: [gyakuten, kabau]
+  intensifiers: [shitei, hogosha, toshiue, keishou, muri]
   breaks_when: 元の非対称が薄いと、逆転ではなく単なる助力になる。
   related: [sodateta-mono-ni-koeraeru, tsuyosa-no-mubousa]
   tags: [反転, 回収, 成長]
@@ -238,7 +238,7 @@
     condition: 渡した内容が具体的に描かれていること
     observer: 敗れた側の表情を見ている観客
   requires: [shitei, keishou]
-  intensifiers: [buki, kuchiguse, taijou, kyori-no-hanten, toshiue]
+  intensifiers: [buki, kuchiguse, taijou, gyakuten, toshiue]
   breaks_when: 継承の中身が曖昧だと、勝敗の結果だけが残って感情が乗らない。
   related: [kyori-no-gyakuten, nichijou-no-ikei]
   tags: [継承, 完成, 退場]
@@ -247,7 +247,7 @@
   name: 言えないまま終わる
   kana: いえないままおわる
   aliases: [告げられなかった, 間に合わない]
-  core_axis: structure.hidden
+  core_axis: structure.secret
   summary: 伝える機会が確実にあったのに、一度も使われないまま関係が閉じる。
   formula:
     subject: 感情を保持しながら、言語化を先送りにし続けた人物
@@ -255,8 +255,8 @@
     trigger: 別離・退場・時間切れ
     condition: 観客だけが、伝わらなかった事実を知っている
     observer: 双方の内心を知っている観客のみ
-  requires: [kizuka-re-tenai-koui, taijou]
-  intensifiers: [kuchibeta, chinmoku, katami, ushinatta-mono, kikan-gentei]
+  requires: [kataomoi, taijou]
+  intensifiers: [kuchibeta, chinmoku, katami, soushitsu, kikan-gentei]
   breaks_when: 最後に伝わってしまうと別の性癖（成就）に変わる。未達であることが要件。
   related: [kizuka-nai-koui, choujumyou-no-miokuri]
   tags: [未達, 喪失, 余韻]
@@ -265,7 +265,7 @@
   name: 約束の回収
   kana: やくそくのかいしゅう
   aliases: [覚えていた, あの時の言葉]
-  core_axis: structure.repetition
+  core_axis: structure.limited
   summary: 忘れられたと思われていた過去の一言が、最終場面で効力を持つ。
   formula:
     subject: 過去に交わした取り決めを保持し続けている人物
@@ -273,8 +273,8 @@
     trigger: 約束の条件が満たされる、あるいは破られかける局面
     condition: 約束の場面が、意味を強調せずに提示済みであること
     observer: 約束を忘れていた側、または忘れていた観客
-  requires: [yakusoku, kyoujin-na-ishi]
-  intensifiers: [osananajimi, kuchiguse, onaji-basho, katami, kaiki]
+  requires: [yakusoku, ganko]
+  intensifiers: [osananajimi, kuchiguse, itsumo-no-basho, katami, kikan]
   breaks_when: 初出時に重要性を強調しすぎると、回収時の驚きが失われる。
   related: [nichijou-no-ikei, kaeru-basho]
   tags: [伏線, 回収, 継続]
@@ -283,7 +283,7 @@
   name: 日常が別れの準備に見える
   kana: にちじょうがわかれのじゅんびにみえる
   aliases: [終わりが決まっている日常]
-  core_axis: structure.condition
+  core_axis: structure.limited
   summary: 退場が確定している人物の何気ない場面が、すべて遺言として読まれる。
   formula:
     subject: 消えることが構造的に決まっている人物
@@ -292,7 +292,7 @@
     condition: 本人は自分の退場を知らない、あるいは受け入れている
     observer: 先に結末を察知している観客
   requires: [kikan-gentei, gisei-yaku]
-  intensifiers: [gishiki, onaji-basho, seifuku, kuchiguse, ohirakebo]
+  intensifiers: [gishiki, itsumo-no-basho, seifuku, kuchiguse, tenshin]
   breaks_when: 日常場面が不足していると、退場が情報の処理で終わる。
   related: [ienai-mama-owaru, sodateta-mono-ni-koeraeru]
   tags: [先読み, 予定された喪失, 日常]
@@ -310,7 +310,7 @@
     condition: それまで一度も逸脱していないという履歴があること
     observer: その存在を道具として扱ってきた者
   requires: [jinzou, muhyoujou]
-  intensifiers: [keiyaku, kansatsu-guse, kuudere, gisei-shikou, kuchibeta]
+  intensifiers: [keiyaku, kansatsu, kuudere, jiko-gisei, kuchibeta]
   breaks_when: 早期から人間らしく振る舞っていると、逸脱が事件にならない。
   related: [bimyou-na-hendou, gouri-no-reigai]
   tags: [自由意志, 初回, 逸脱]
@@ -327,8 +327,8 @@
     trigger: 短命な相手が、拒絶を無視して近づいてくること
     condition: 結末が最初から確定しており、双方がそれを知っている
     observer: 見送る側の時間感覚に同期した観客
-  requires: [choujumyou, kyomu]
-  intensifiers: [ushinatta-mono, katami, onaji-basho, shirogami, fushi]
+  requires: [furou, teikan]
+  intensifiers: [soushitsu, katami, itsumo-no-basho, shirogami, fushi]
   breaks_when: 寿命差が解消される救済を用意すると、前提そのものが消える。
   related: [ienai-mama-owaru, kaeru-basho]
   tags: [時間差, 喪失前提, 孤独]
@@ -345,8 +345,8 @@
     trigger: 演技を維持する必要のない相手・疲労・睡眠前
     condition: 漏れる相手が一人に限定されている
     observer: 完成された姿しか知らなかった者
-  requires: [jikoenshutsu, futari-dake]
-  intensifiers: [nenrei-sabaku, joukyuu-shusshin, shihaisha, ichininshou, kogoe]
+  requires: [neko-o-kaburu, futari-dake]
+  intensifiers: [mitame-sabaku, reijou, joushi, ichininshou, kogoe]
   breaks_when: 普段から未熟さを見せていると、下の層が存在しないことになる。
   related: [gentei-no-sugao, yoyuu-kuzure]
   tags: [層構造, 限定, 退行]
@@ -355,7 +355,7 @@
   name: 傷は生きた証明
   kana: きずはいきたしょうめい
   aliases: [語らない傷跡]
-  core_axis: appearance.mark
+  core_axis: appearance.body
   summary: 説明されない傷が、説明された経歴より雄弁に過去を保証する。
   formula:
     subject: 過去を語らないまま現在を生きている人物
@@ -363,8 +363,8 @@
     trigger: 着替え・負傷・手当てなど、隠せない場面
     condition: 本人が説明を拒否し続けること
     observer: 見てしまい、問えなかった者
-  requires: [kizuato, kataranu-kako]
-  intensifiers: [chinmoku, gishu, kinniku, houtai, tobo]
+  requires: [kizuato, kako]
+  intensifiers: [chinmoku, gishi, kinniku, houtai, nagaremono]
   breaks_when: 本人が来歴を丁寧に語ると、推測の余地が消えて記号が閉じる。
   related: [tsuyosa-no-mubousa, kaeru-basho]
   tags: [非言語, 推測, 履歴]
@@ -381,8 +381,8 @@
     trigger: 去るべき合理的な理由が発生したにもかかわらず、残る局面
     condition: それまで一貫して去り続けてきた履歴があること
     observer: 引き止めなかった側
-  requires: [tobo, onaji-basho]
-  intensifiers: [muhou-mono, gaitou, sodachi-no-kage, misuterareru-fuan, gishiki]
+  requires: [nagaremono, itsumo-no-basho]
+  intensifiers: [muhoumono, gaitou, fuguu, misuterare, gishiki]
   breaks_when: 最初から居場所に執着していると、留まる決断が変化にならない。
   related: [yakusoku-no-kaishuu, choujumyou-no-miokuri]
   tags: [定着, 決断, 反転]
@@ -399,8 +399,8 @@
     trigger: 主が自分以外を選ぼうとする局面
     condition: 露出は一度きりで、直後に職務の顔へ戻ること
     observer: 従属を当然だと思っていた側
-  requires: [shien-shoku, shujuu]
-  intensifiers: [keigo, kokuin, choker, gisei-shikou, kizuka-re-tenai-koui]
+  requires: [juusha, shujuu]
+  intensifiers: [keigo, kokuin, choker, jiko-gisei, kataomoi]
   breaks_when: 常に私情を出していると、抑圧が蓄積せず露出の威力が出ない。
   related: [gentei-no-sugao, kizuka-nai-koui]
   tags: [抑圧, 一回性, 露出]
@@ -409,7 +409,7 @@
   name: 赦しを受け取れない
   kana: ゆるしをうけとれない
   aliases: [救済の拒否, 自分を許さない]
-  core_axis: mind.lack
+  core_axis: mind.wound
   summary: 差し出された救いを、罰を手放せないという理由で拒み続ける。
   formula:
     subject: 過去の選択を清算できていない人物
@@ -417,8 +417,8 @@
     trigger: 無条件の赦しが、繰り返し差し出されること
     condition: 拒否が一度では終わらず、複数回反復されること
     observer: 拒まれ続けても差し出し続ける側
-  requires: [tsumi-no-ishiki, kyuusai]
-  intensifiers: [jiko-hyouka-no-hikusa, katami, kuma, fushi, ichido-dake]
+  requires: [zaiakukan, kyuusai]
+  intensifiers: [jikokoutei, katami, kuma, fushi, ichido-dake]
   breaks_when: 一度で受け取ってしまうと、拒否の反復による蓄積が生まれない。
   related: [genkai-made-kakusu, choujumyou-no-miokuri]
   tags: [拒否, 反復, 受容]

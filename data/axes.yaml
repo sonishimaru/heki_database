@@ -1,117 +1,103 @@
-# 分解の軸（座標系）
-# キャラクターを構成要素へ分解するときの大分類（group）と中分類（axis）。
+# 分類の軸
+# 見出し語（element）は「メガネ」「糸目」「長髪」「手」「両片思い」くらいの解像度で立てる。
+# 細かく分けるより、通りのいい言葉ひとつに寄せることを優先する。
 # element.axis には "<group>.<axis>" 形式で指定する。
 
 groups:
   - id: appearance
-    name: 外見・造形
-    summary: 目に入った瞬間に処理される情報。輪郭・色・シルエットのレイヤ。
+    name: 外見
+    summary: 見た瞬間に処理される情報。
     axes:
       - id: hair
         name: 髪
-        summary: 長さ・結い方・色。キャラの識別記号として最も強い部位。
+        summary: 長さ・結い方・色。
       - id: eyes
-        name: 目・視線
-        summary: 形状と色に加え、「どこを見ているか」という運動の情報を含む。
+        name: 目
+        summary: 目の形と色。
       - id: face
-        name: 顔まわり
-        summary: 表情の既定値と、口元・眉が作る温度。
+        name: 顔
+        summary: 表情の既定値と顔の記号。
       - id: body
-        name: 体格・身体
-        summary: 背丈、線の太さ、可動域。相手との物理的な非対称を生む。
+        name: 体・部位
+        summary: 体格と、そこだけを見てしまう部位。
       - id: costume
-        name: 衣装
-        summary: 社会的な所属と、脱がせる／崩す余地の設計。
-      - id: accessory
-        name: 小物・装身具
-        summary: 持ち物と装身具。来歴を一点で背負わせられる。
-      - id: mark
-        name: 記号・刻印
-        summary: 傷、ほくろ、隈、包帯。身体に刻まれた履歴。
+        name: 服装
+        summary: 何を着ているか。
+      - id: item
+        name: 小物
+        summary: 身に着けているもの、持っているもの。
 
   - id: attribute
-    name: 属性・立場
-    summary: そのキャラが世界の中で占めている座席。関係の初期値を決める。
+    name: 属性
+    summary: その人物が世界の中で占めている座席。
     axes:
       - id: age
-        name: 年齢・見た目年齢
-        summary: 実年齢と外見年齢の一致／不一致。
+        name: 年齢
+        summary: 年上か年下か、見た目と合っているか。
       - id: species
-        name: 種族・非人間性
-        summary: 人でない部分の量と、それをどう扱うか。
+        name: 種族
+        summary: 人でない部分。
       - id: role
-        name: 職能・肩書き
-        summary: 何ができる人か。有能さの領域と限界。
-      - id: origin
-        name: 出自・階級
-        summary: どこから来たか。所作と語彙の根拠。
+        name: 立場
+        summary: 何をしている人か、どこから来たか。
 
   - id: mind
-    name: 内面・気質
+    name: 性格
     summary: 放っておいたときにその人が取る姿勢。
     axes:
       - id: temperament
         name: 気質
-        summary: 平常時の感情の出力形式。
+        summary: 感情の出力のしかた。
       - id: creed
-        name: 信条・行動原理
+        name: 信条
         summary: 選択を迫られたときに何を優先するか。
-      - id: lack
-        name: 欠落・傷
-        summary: 埋まっていない穴。物語がそこを狙って殴る。
+      - id: wound
+        name: 傷
+        summary: 埋まっていない穴。
 
   - id: behavior
-    name: 振る舞い・言語
-    summary: 内面が表層に漏れ出す経路。観測可能な部分。
+    name: 振る舞い
+    summary: 内面が表に漏れる経路。
     axes:
       - id: speech
-        name: 口調・語彙
-        summary: 一人称、語尾、二人称の距離。
-      - id: voice
-        name: 声・発話
-        summary: 音量、速度、間。沈黙も含む。
+        name: 話し方
+        summary: 口調・語彙・声。
       - id: habit
-        name: 癖・所作
-        summary: 無意識に出る手癖。嘘をつけない部分。
+        name: 癖・仕草
+        summary: 無意識に出る動き。
 
   - id: relation
-    name: 関係性
-    summary: 単体では成立せず、二者以上で初めて発生する要素。
+    name: 関係
+    summary: 一人では成立しない要素。
     axes:
-      - id: position
+      - id: type
         name: 関係の型
-        summary: 主従、幼馴染、師弟、宿敵。非対称の形。
-      - id: distance
-        name: 距離の推移
-        summary: 関係が時間とともにどう動くか。
-      - id: bond
-        name: 結び目
-        summary: 二人を物理的・契約的に繋いでいるもの。
+        summary: 二人がどういう間柄か。
+      - id: state
+        name: 関係の状態
+        summary: その関係が今どうなっているか。
 
   - id: narrative
-    name: 物語機能
-    summary: 作品の構造上、そのキャラに割り当てられた仕事。
+    name: 展開
+    summary: 物語の中でその人物に割り当てられた仕事。
     axes:
-      - id: function
-        name: 物語上の役割
+      - id: role
+        name: 役割
         summary: 誰の何を担当しているか。
       - id: arc
-        name: 展開・結末
-        summary: そのキャラに用意されている運動と着地。
+        name: 結末
+        summary: どこへ向かうか。
 
   - id: structure
-    name: 構造・落差
-    summary: 要素そのものではなく、要素の「配置」から生まれる性質。性癖の主成分。
+    name: 構造
+    summary: 要素そのものではなく、要素の配置から生まれる性質。
     axes:
       - id: gap
-        name: 落差・二面性
-        summary: 同一人物内での矛盾。距離が大きいほど電位が高い。
-      - id: hidden
-        name: 秘匿・開示
-        summary: 隠されている情報と、それが開く順番。
-      - id: condition
-        name: 限定・例外
-        summary: 「誰の前でだけ」「この状況でだけ」という条件付け。
-      - id: repetition
-        name: 反復・様式
-        summary: 繰り返されることで意味が蓄積する型。
+        name: ギャップ
+        summary: 同一人物の中の矛盾。
+      - id: secret
+        name: 秘密
+        summary: 伏せられている情報。
+      - id: limited
+        name: 限定・反復
+        summary: 「このときだけ」と「毎回これ」。

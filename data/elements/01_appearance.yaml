@@ -1,645 +1,670 @@
-# 外見・造形の構成要素
+# 外見
 
-- id: long-straight
-  name: ロングストレート
-  kana: ろんぐすとれーと
-  aliases: [黒髪ロング]
+# --- 髪 ---
+- id: chouhatsu
+  name: 長髪
+  kana: ちょうはつ
+  aliases: [ロング, 黒髪ロング]
   axis: appearance.hair
-  summary: 手入れの行き届いた長い直毛。静止画で最も面積を取る記号。
+  summary: 髪が長いこと。手入れの時間がそのまま外見に出る。
   description: >-
-    長さそのものが「時間をかけて維持されている」という情報になる。乱れたときの落差が大きく、
-    風・水・寝起きといった外力の可視化装置としても機能する。
-  effect: 平常時の完成度を高く設定し、以降のあらゆる崩れを事件に変える。
-  pairs_with: [shisei-no-yosa, hime-cut, muhyoujou]
-  contrasts_with: [hane-kami, hair-down]
-  tags: [定番, 崩し前提]
+    長さ自体が「維持されている」という情報になる。風・水・寝起きで乱れるため、
+    崩れの見せ場を常に用意できる。
+  effect: 平常時の完成度を高く置き、乱れたときの差を大きくする。
+  pairs_with: [shisei, hime-cut, muhyoujou]
+  contrasts_with: [tanpatsu, kusekke]
+  tags: [定番]
+
+- id: tanpatsu
+  name: 短髪
+  kana: たんぱつ
+  aliases: [ショート, 刈り上げ]
+  axis: appearance.hair
+  summary: 髪が短いこと。首筋が出る。
+  description: >-
+    短さは決断や身軽さと読まれる。切った理由が語られる場合、髪型がそのまま経歴の要約になる。
+  effect: 潔さを見せつつ、うなじという無防備な一点を常時晒す。
+  pairs_with: [unaji, kinniku, karetsu]
+  contrasts_with: [chouhatsu]
+  tags: [定番]
 
 - id: twintail
   name: ツインテール
   kana: ついんてーる
   aliases: []
   axis: appearance.hair
-  summary: 左右対称に結い上げた髪。感情に合わせて揺れる可動部を二つ増設する。
+  summary: 左右に結い分けた髪。感情に合わせて揺れる。
   description: >-
-    左右対称は幼さと自己演出の両方を示す。本人が「そう見られたくて結っている」という
-    意思の痕跡が残る点で、生来の造形ではなく選択の記号である。
-  effect: 感情の振れ幅を物理的な揺れに翻訳し、見た目の年齢を下げる。
-  pairs_with: [tsurime, ohirakebo, kohaku]
-  contrasts_with: [hair-down]
-  tags: [定番, 自己演出]
+    本人が「そう見られたくて結っている」という選択の跡が残る。左右対称が幼さを足す。
+  effect: 感情の起伏を物理的な揺れに翻訳する。
+  pairs_with: [tsurime, tenshin, teishinchou]
+  contrasts_with: []
+  tags: [定番]
 
 - id: ponytail
   name: ポニーテール
   kana: ぽにーてーる
   aliases: [一つ結び]
   axis: appearance.hair
-  summary: 動くために髪をまとめた形。うなじと首の線が露出する。
+  summary: まとめ髪。動くために結っている。
   description: >-
-    「これから何かをする」という実務的な合図。結ぶ動作・解く動作の両方が
-    場面の切り替えとして使えるため、時間の経過を表現しやすい。
-  effect: 有能さと隙を同時に置ける。結い直す仕草だけで一場面が成立する。
-  pairs_with: [shisei-no-yosa, short-nape, kinniku]
-  contrasts_with: [hair-down]
-  tags: [実務, 動作つき]
+    結ぶ・解くの両方が場面の切り替えに使える。うなじが出る。
+  effect: 実務の合図を出しつつ、解いた姿を特別扱いにできる。
+  pairs_with: [unaji, shisei, kinniku]
+  contrasts_with: []
+  tags: [定番]
 
 - id: hime-cut
   name: 姫カット
   kana: ひめかっと
   aliases: []
   axis: appearance.hair
-  summary: 前髪と頬の左右を水平に切り揃えた様式。輪郭が額縁になる。
+  summary: 前髪と頬の髪を水平に切り揃えた形。
   description: >-
-    直線で構成されるため、顔が「飾られている」印象になる。家格・伝統・管理された育ちを
-    一撃で示せる記号で、和装とも洋装とも接続できる。
-  effect: 育ちの良さと近寄りがたさを同時に付与する。
-  pairs_with: [long-straight, kimono, joukyuu-shusshin]
-  contrasts_with: [hane-kami]
-  tags: [様式, 階級]
+    直線で構成されるため、顔が額縁に入って見える。家格や管理された育ちを一撃で示す。
+  effect: 育ちの良さと近寄りがたさを同時に付ける。
+  pairs_with: [chouhatsu, wasou, reijou]
+  contrasts_with: [kusekke]
+  tags: [様式]
 
 - id: ahoge
   name: アホ毛
   kana: あほげ
   aliases: [一本立ち]
   axis: appearance.hair
-  summary: 整えた髪から一本だけ跳ねた毛。制御外の部位。
+  summary: 一本だけ跳ねた毛。本人の制御外で動く。
   description: >-
-    本人の意思とは無関係に動くパーツであり、感情のインジケータとして
-    無断で本音を漏らす。整った髪型ほど効く。
-  effect: どれだけ取り繕っていても内心が漏れている、という状態を常時可視化する。
-  pairs_with: [muhyoujou, hohoemi-no-kamen, long-straight]
+    意思と無関係に動くため、感情を無断で漏らす。整った髪型ほど効く。
+  effect: 取り繕っていても内心が漏れている状態を常時見せる。
+  pairs_with: [muhyoujou, tsukuri-warai, chouhatsu]
   contrasts_with: []
-  tags: [記号, 感情漏洩]
+  tags: [感情漏れ]
 
 - id: shirogami
-  name: 白髪・銀髪
-  kana: しろがみ
-  aliases: [銀髪, プラチナ]
+  name: 白髪
+  kana: しらが
+  aliases: [銀髪, 白い髪]
   axis: appearance.hair
-  summary: 色素の抜けた髪。人ならざるものか、代償を払った者を示す。
+  summary: 色素の抜けた髪。人でないか、何かを支払った者。
   description: >-
-    自然界の初期値から外れた色は、種族・魔術・寿命・喪失といった来歴の暗示に使われる。
-    「もとは違う色だった」という前史を仕込める点が強い。
-  effect: 説明抜きで異物感を与え、過去に何かがあったと観客に推測させる。
-  pairs_with: [hitonarazaru, kokuin, kizuato]
+    自然な初期値から外れた色は、種族・魔術・寿命・喪失の暗示になる。
+    「もとは違う色だった」という前史を仕込める。
+  effect: 説明なしに異物感を出し、過去に何かあったと推測させる。
+  pairs_with: [jingai, kokuin, furou]
   contrasts_with: []
-  tags: [来歴, 異物感]
+  tags: [来歴]
 
-- id: inner-color
-  name: インナーカラー・メッシュ
-  kana: いんなーからー
-  aliases: [差し色]
-  axis: appearance.hair
-  summary: 内側や一房だけ色を変えた髪。角度によって見え隠れする。
-  description: >-
-    正面からは隠れ、動いたときだけ現れる。本人が選んだ色である以上、
-    表向きの顔とは別の趣味が存在することの証拠になる。
-  effect: 「見えている面が全部ではない」ことを造形レベルで宣言する。
-  pairs_with: [futatsu-no-kao, heyagi]
-  contrasts_with: []
-  tags: [現代, 二面性]
-
-- id: hair-down
-  name: 結い解き
-  kana: ゆいほどき
-  aliases: [髪を下ろす]
-  axis: appearance.hair
-  summary: 常時結っている髪を解いた状態。日常の平常運転から外れた姿。
-  description: >-
-    結っている姿を先に十分見せてあることが前提条件になる、差分でしか成立しない要素。
-    入浴後・就寝前・負傷後など、社会的役割を降りた場面に配置される。
-  effect: 役割を脱いだ状態を一目で示し、見た側に「見てはいけないものを見た」感覚を与える。
-  pairs_with: [ponytail, heyagi, futari-dake]
-  contrasts_with: [ponytail, hime-cut]
-  tags: [差分, 限定開示]
-
-- id: short-nape
-  name: うなじの見える短髪
-  kana: うなじのみえるたんぱつ
-  aliases: [刈り上げ, ショート]
-  axis: appearance.hair
-  summary: 首筋が常時露出している髪型。防御を捨てた部位が見えている。
-  description: >-
-    短さは決断・軽さ・過去との断絶を示す。切った理由が語られる場合、
-    髪型そのものが物語の要約になる。
-  effect: 潔さを見せながら、無防備な一点を晒し続ける。
-  pairs_with: [kinniku, kihakusa, ponytail]
-  contrasts_with: [long-straight]
-  tags: [決断, 無防備]
-
-- id: hane-kami
-  name: 癖っ毛・寝癖
+- id: kusekke
+  name: 癖っ毛
   kana: くせっけ
-  aliases: [はねた髪]
+  aliases: [寝癖, はねた髪]
   axis: appearance.hair
-  summary: 整わない髪。生活の手触りが残っている。
+  summary: 整わない髪。生活の手触りが残る。
   description: >-
-    管理されていないことが、そのまま「他人の目を気にしていない」あるいは
-    「気にする余裕がない」という情報になる。
-  effect: 生活感と隙を供給し、他人が手を伸ばす口実を作る。
+    管理されていないことが、他人の目を気にしていない／気にする余裕がないという情報になる。
+  effect: 生活感と隙を出し、他人が手を伸ばす口実を作る。
   pairs_with: [heyagi, kuma, zubora]
-  contrasts_with: [long-straight, hime-cut]
-  tags: [生活感, 隙]
+  contrasts_with: [chouhatsu, hime-cut]
+  tags: [生活感]
+
+- id: mekakure
+  name: 目隠れ
+  kana: めかくれ
+  aliases: [前髪が長い]
+  axis: appearance.hair
+  summary: 前髪で目が見えないこと。
+  description: >-
+    表情の主要部が遮られるため、口元だけで感情を読ませることになる。
+    髪を上げる／風で見える一瞬が見せ場になる。
+  effect: 表情を伏せておき、見えた瞬間を事件にする。
+  pairs_with: [hitomishiri, kogoe, muhyoujou]
+  contrasts_with: []
+  tags: [遮蔽]
+
+# --- 目 ---
+- id: itome
+  name: 糸目
+  kana: いとめ
+  aliases: [細目, 笑い目]
+  axis: appearance.eyes
+  summary: 常に細められている目。瞳が見えない。
+  description: >-
+    穏やかにも読め、何も考えていないようにも読め、何を考えているか分からないとも読める。
+    開いた一回で意味が確定する、単独では中身を持たない記号。
+  effect: 内心の読み取りを封じ、目を開く瞬間に全部を預ける。
+  pairs_with: [tsukuri-warai, keigo, haraguro, tareme]
+  contrasts_with: [mitsumeru]
+  tags: [定番, 遮蔽, 開き待ち]
 
 - id: jitome
   name: ジト目
   kana: じとめ
   aliases: [半目]
   axis: appearance.eyes
-  summary: 感情の温度を下げた半開きの目。呆れと観察の中間。
+  summary: 温度を下げた半開きの目。呆れと観察の中間。
   description: >-
-    相手を見ているのに評価を下げている、という二重の動作を一つの表情で行う。
-    無関心ではなく「見た上で呆れている」点が重要。
-  effect: 関心を持っていることを隠しきれないまま、態度だけ冷たくできる。
+    見ているのに評価は下げている、という二重の動作を一つの表情でやる。
+    無関心ではなく「見た上で呆れている」のが要点。
+  effect: 関心があることを隠しきれないまま、態度だけ冷たくできる。
   pairs_with: [dokuzetsu, tsundere, tsukkomi]
-  contrasts_with: [ohirakebo]
-  tags: [表情, 呆れ]
+  contrasts_with: [tenshin]
+  tags: [定番]
 
 - id: tareme
   name: たれ目
   kana: たれめ
   aliases: []
   axis: appearance.eyes
-  summary: 目尻の下がった形。既定値として柔らかい印象を出す。
+  summary: 目尻が下がった形。黙っていても柔らかい。
   description: >-
-    黙っていても好意的に見えるため、実際の内面が冷たい場合の落差装置になる。
-    優しい人物にも、優しく見えるだけの人物にも使える両刃。
-  effect: 第一印象を無条件に和らげ、その後の内面提示で裏切る余地を残す。
-  pairs_with: [hohoemi-no-kamen, sewayaki]
+    第一印象が無条件に好意的になるため、中身が冷たい場合の落差装置になる。
+  effect: 入口を和らげ、あとで裏切る余地を残す。
+  pairs_with: [tsukuri-warai, sewayaki, itome]
   contrasts_with: [tsurime]
-  tags: [表情, 第一印象]
+  tags: [定番]
 
 - id: tsurime
   name: つり目
   kana: つりめ
   aliases: []
   axis: appearance.eyes
-  summary: 目尻の上がった形。攻撃性と気の強さの既定値。
+  summary: 目尻が上がった形。黙っていても強気。
   description: >-
-    黙っていても怒って見えるため、本人が意図せず誤解される状況を作れる。
-    弱った場面での効き目が大きい。
-  effect: 強気の記号を貼っておき、崩れたときの落差を確保する。
-  pairs_with: [tsundere, twintail, kihakusa]
+    意図せず怒って見えるため、誤解される状況が自動的に生まれる。弱ったときの落差が大きい。
+  effect: 強気の記号を貼り、崩れたときの差を確保する。
+  pairs_with: [tsundere, twintail, karetsu]
   contrasts_with: [tareme]
-  tags: [表情, 強気]
+  tags: [定番]
 
 - id: heterochromia
   name: オッドアイ
   kana: おっどあい
-  aliases: [虹彩異色]
+  aliases: [左右で色が違う]
   axis: appearance.eyes
-  summary: 左右で色の異なる目。身体そのものが非対称である証。
+  summary: 左右で色の異なる目。
   description: >-
-    人為的な改造、混血、憑依など「二つのものが一人に同居している」ことの
-    最短の表現。片目を隠す演出と組み合わせやすい。
-  effect: 一人の中に二つの出自が同居していると、視覚だけで宣言する。
-  pairs_with: [hitonarazaru, futatsu-no-kao, houtai]
+    改造・混血・憑依など「二つのものが一人に同居している」ことの最短表現。片目を隠す演出と相性がいい。
+  effect: 一人の中に二つの出自があると視覚だけで宣言する。
+  pairs_with: [jingai, nimensei, gantai]
   contrasts_with: []
-  tags: [異物感, 二重性]
+  tags: [異物感]
 
-- id: hikari-no-nai-me
-  name: 光のない目
-  kana: ひかりのないめ
-  aliases: [ハイライトが消える]
+- id: hikari-nashi
+  name: ハイライトのない目
+  kana: はいらいとのないめ
+  aliases: [光のない目, 目が死んでいる]
   axis: appearance.eyes
-  summary: 瞳の反射が失われた状態。感情の供給が止まっている合図。
+  summary: 瞳の反射が消えている状態。
   description: >-
-    通常時にハイライトがあることが前提の差分表現。数コマだけ消える運用が最も効く。
+    通常時に光があることが前提の差分表現。数コマだけ消える運用が最も効く。
     常時消えている場合は、既に一度壊れた後の人物を示す。
-  effect: 台詞なしで「今この人物は限界を越えた」と伝える。
-  pairs_with: [muhyoujou, kowareta-egao, tsumi-no-ishiki]
-  contrasts_with: [ohirakebo]
-  tags: [差分, 破綻]
+  effect: 台詞なしで限界を越えたことを伝える。
+  pairs_with: [muhyoujou, kuzureru-egao, zaiakukan]
+  contrasts_with: [tenshin]
+  tags: [破綻]
 
-- id: me-o-sorasu
-  name: 目を逸らす
-  kana: めをそらす
-  aliases: [視線が合わない]
+- id: gantai
+  name: 眼帯
+  kana: がんたい
+  aliases: [片目を隠す]
   axis: appearance.eyes
-  summary: 視線を外す動作。会話の内容と身体の反応が食い違う瞬間。
+  summary: 片目を覆っているもの。
   description: >-
-    嘘、照れ、罪悪感のいずれでも起きるため、観客に解釈を要求する。
-    直後に視線を戻すかどうかで意味が確定する。
-  effect: 発話内容を信用しなくてよい、と観客に知らせる。
-  pairs_with: [tsundere, tsumi-no-ishiki, kuchibeta]
-  contrasts_with: [misue]
-  tags: [動作, 不一致]
+    中身が何かより、隠され続けていること自体が情報になる。外す場面のために着けている。
+  effect: 未開示の情報を顔に貼り付け、外す場面を予約する。
+  pairs_with: [heterochromia, houtai, kako]
+  contrasts_with: []
+  tags: [秘匿]
 
-- id: misue
-  name: 目を逸らさない
-  kana: めをそらさない
-  aliases: [見据える]
-  axis: appearance.eyes
-  summary: 視線を固定し続ける。圧としての凝視。
+# --- 顔 ---
+- id: muhyoujou
+  name: 無表情
+  kana: むひょうじょう
+  aliases: [鉄面皮]
+  axis: appearance.face
+  summary: 表情の既定値がゼロ。感情がないのではなく出力されない。
   description: >-
-    捕食者の挙動でもあり、誠実さの証明でもある。どちらに転ぶかは
-    相手が先に目を逸らすかどうかで決まる。
-  effect: 会話の主導権を、台詞ではなく視線の持続時間で決着させる。
-  pairs_with: [yoyuu, shihaisha, kansatsu-guse]
-  contrasts_with: [me-o-sorasu]
-  tags: [動作, 支配]
+    観客が欠落を埋めようとするため、無表情は最も雄弁になる。
+    わずかな変化がすべて事件として読まれる増幅器。
+  effect: 表情の変化量あたりの情報密度を最大化する。
+  pairs_with: [ahoge, kuchibeta, jingai, mimi-ga-akai]
+  contrasts_with: [tenshin]
+  tags: [基準値, 増幅器]
+
+- id: tsukuri-warai
+  name: 作り笑い
+  kana: つくりわらい
+  aliases: [営業スマイル, 貼り付いた笑顔]
+  axis: appearance.face
+  summary: 常に笑っている状態。笑顔が防具になっている。
+  description: >-
+    崩さないこと自体が意思表示で、下は観測できない。崩れる瞬間を到達点に置ける。
+  effect: 内面へのアクセスを遮断し、それが破れる場面に価値を集める。
+  pairs_with: [tareme, itome, tatemae-honne, kuzureru-egao]
+  contrasts_with: [muhyoujou]
+  tags: [防具]
 
 - id: yaeba
   name: 八重歯
   kana: やえば
   aliases: []
   axis: appearance.face
-  summary: 整列から外れた歯。笑ったときだけ見える不完全さ。
+  summary: 整列から外れた歯。笑ったときだけ見える。
   description: >-
-    完璧に整っていないことが、親しみと野性の両方に読み替えられる。
-    笑顔という限定条件つきでしか露出しない点に価値がある。
-  effect: 笑ったときだけ出る差分を作り、笑顔の希少性を上げる。
-  pairs_with: [ohirakebo, kihakusa]
+    完璧に整っていないことが親しみにも野性にも読める。笑顔という条件つきでしか出ない。
+  effect: 笑ったときだけの差分を作り、笑顔の希少性を上げる。
+  pairs_with: [tenshin, karetsu]
   contrasts_with: []
-  tags: [記号, 限定露出]
+  tags: [限定露出]
 
 - id: namida-bokuro
   name: 泣きぼくろ
   kana: なきぼくろ
   aliases: []
   axis: appearance.face
-  summary: 目の下の小さな点。顔の一点に視線を固定する。
+  summary: 目の下の小さな点。
   description: >-
-    それ自体は何も語らないが、「泣いた跡」という誤読を常時誘発する。
-    無表情の人物に付けると、悲しみの先取りとして働く。
-  effect: 感情表現なしで、その人物に涙の予感を貼り付ける。
-  pairs_with: [muhyoujou, hohoemi-no-kamen]
+    それ自体は何も語らないが「泣いた跡」という誤読を常時誘発する。無表情に付けると悲しみの先取りになる。
+  effect: 感情表現なしで涙の予感を貼り付ける。
+  pairs_with: [muhyoujou, tsukuri-warai, itome]
   contrasts_with: []
-  tags: [記号, 予感]
+  tags: [予感]
 
-- id: muhyoujou
-  name: 無表情
-  kana: むひょうじょう
-  aliases: [鉄面皮]
+- id: kuma
+  name: 目の下の隈
+  kana: くま
+  aliases: [寝不足]
   axis: appearance.face
-  summary: 表情の既定値がゼロであること。感情がないのではなく出力されない。
+  summary: 睡眠と生活の欠損が顔に出たもの。
   description: >-
-    観客は情報の欠落を埋めようとするため、無表情は最も雄弁な表情になる。
-    わずかな変化がすべて事件として読まれる、増幅器としての機能を持つ。
-  effect: 表情の変化量あたりの情報密度を最大化する。
-  pairs_with: [ahoge, kuchibeta, hitonarazaru, mimi-ga-akai]
-  contrasts_with: [ohirakebo]
-  tags: [基準値, 増幅器]
+    何かに時間を吸われている証拠。仕事・執着・不眠・後悔のどれとも接続でき、原因を伏せたまま異常を示せる。
+  effect: 生活が壊れている事実を、本人の申告なしに開示する。
+  pairs_with: [hakui, zubora, zaiakukan, kusekke]
+  contrasts_with: []
+  tags: [消耗]
 
-- id: hohoemi-no-kamen
-  name: 貼り付いた笑顔
-  kana: はりついたえがお
-  aliases: [営業スマイル, 笑顔の仮面]
-  axis: appearance.face
-  summary: 常に微笑んでいる状態。表情が防具として運用されている。
-  description: >-
-    崩さないこと自体が意思表示であり、笑顔の下は観測できない。
-    崩れる瞬間を物語の到達点に置ける。
-  effect: 内面へのアクセスを遮断し、その遮断が破れる場面に価値を集中させる。
-  pairs_with: [tareme, kurokoge-no-honne, kowareta-egao]
-  contrasts_with: [muhyoujou]
-  tags: [防具, 崩し前提]
-
-- id: kohaku
-  name: 小柄
-  kana: こがら
-  aliases: [低身長]
+# --- 体・部位 ---
+- id: te
+  name: 手
+  kana: て
+  aliases: [指, 手つき]
   axis: appearance.body
-  summary: 平均より小さい体躯。あらゆる相手との間に高低差を作る。
+  summary: 手そのもの。骨張り、指の長さ、爪、手つき。
   description: >-
-    見下ろされる側に固定されるため、当人の能力や地位が高い場合に
-    強い不一致が生まれる。物理的な非対称の常設装置。
+    顔と違って本人が演技しにくく、職業と生活が最も正直に出る部位。
+    差し出す・掴む・触れないという動作の主語になるため、関係の描写を全部引き受けられる。
+  effect: 人格と関係の両方を、顔を映さずに一箇所で語らせる。
+  pairs_with: [tebukuro, shokunin, kizuato, te-guse]
+  contrasts_with: []
+  tags: [定番, 部位, 動作]
+
+- id: unaji
+  name: うなじ
+  kana: うなじ
+  aliases: [首筋]
+  axis: appearance.body
+  summary: 髪をまとめたときに出る首の後ろ。
+  description: >-
+    本人の視界に入らない部位であるため、無防備さが本人の自覚なしに成立する。
+    見えるかどうかが髪型に依存する、条件つきの部位。
+  effect: 本人が意図していない露出を作り、見る側だけを後ろめたくする。
+  pairs_with: [ponytail, tanpatsu, choker]
+  contrasts_with: []
+  tags: [部位, 無防備]
+
+- id: sakotsu
+  name: 鎖骨
+  kana: さこつ
+  aliases: [首元]
+  axis: appearance.body
+  summary: 襟から覗く骨の線。
+  description: >-
+    服の開き具合でしか見えないため、衣装の設計とセットでしか成立しない。
+    痩身や消耗の指標にもなる。
+  effect: 服の一段の緩みを、そのまま情報量に変える。
+  pairs_with: [kyasha, choker, heyagi]
+  contrasts_with: []
+  tags: [部位]
+
+- id: senaka
+  name: 背中
+  kana: せなか
+  aliases: [背中越し]
+  axis: appearance.body
+  summary: 相手に見せている後ろ姿。
+  description: >-
+    表情が見えないため、観客は台詞と姿勢だけで読むことになる。
+    預ける・追う・見送るという動作が全部ここに乗る。
+  effect: 表情を封じたまま、感情の重い場面を成立させる。
+  pairs_with: [aibou, kizuato, saikai]
+  contrasts_with: []
+  tags: [部位, 演出]
+
+- id: nodobotoke
+  name: 喉仏
+  kana: のどぼとけ
+  aliases: [喉]
+  axis: appearance.body
+  summary: 喉の隆起。飲み込む動きで動く。
+  description: >-
+    急所であると同時に、緊張や動揺が可視化される場所。上を向いたときにだけ出る。
+  effect: 言葉にしない動揺を、身体の一点で見せる。
+  pairs_with: [choker, keigo, muhyoujou]
+  contrasts_with: []
+  tags: [部位, 急所]
+
+- id: teishinchou
+  name: 低身長
+  kana: ていしんちょう
+  aliases: [小柄, ちびっこ]
+  axis: appearance.body
+  summary: 平均より小さい体。誰と並んでも高低差ができる。
+  description: >-
+    見下ろされる側に固定されるため、当人の能力や地位が高い場合に強い不一致が出る。
   effect: 実力や立場との落差を、立っているだけで発生させる。
-  pairs_with: [nenrei-sabaku, shihaisha, twintail]
-  contrasts_with: [nagami]
-  tags: [非対称, 落差源]
+  pairs_with: [mitame-sabaku, joushi, twintail]
+  contrasts_with: [koushinchou]
+  tags: [定番, 落差源]
 
-- id: nagami
-  name: 長身
-  kana: ながみ
-  aliases: [高身長]
+- id: koushinchou
+  name: 高身長
+  kana: こうしんちょう
+  aliases: [長身]
   axis: appearance.body
-  summary: 平均より大きい体躯。視界と圧を占有する。
+  summary: 平均より大きい体。視界と圧を占める。
   description: >-
-    庇う・覆う・遮るといった動作が自然に成立する。屈まなければ
-    目線が合わないという条件が、そのまま関係の描写になる。
-  effect: 保護と威圧のどちらにも転べる物理的優位を常設する。
+    庇う・覆う・遮るが自然に成立する。屈まないと目線が合わないという条件が関係の描写になる。
+  effect: 保護と威圧のどちらにも転べる優位を常設する。
   pairs_with: [kinniku, kabau, yoyuu]
-  contrasts_with: [kohaku]
-  tags: [非対称, 保護]
+  contrasts_with: [teishinchou]
+  tags: [定番]
 
 - id: kyasha
   name: 華奢
   kana: きゃしゃ
-  aliases: [細い首, 折れそう]
+  aliases: [細い, 折れそう]
   axis: appearance.body
-  summary: 線の細い身体。壊れやすさが常時提示されている。
+  summary: 線の細い体。壊れやすさが常時出ている。
   description: >-
     強い言動や高い戦闘力と組み合わせると、能力と器の不一致が際立つ。
-    受け手に「支えなければ」という誤った責任感を発生させる。
   effect: 本人の強さと無関係に、周囲へ保護欲を発生させる。
-  pairs_with: [kyoujin-na-ishi, muri-o-suru, choker]
+  pairs_with: [tsuyoi-noni-moroi, muri, sakotsu]
   contrasts_with: [kinniku]
-  tags: [脆弱, 誤読誘発]
+  tags: [脆さ]
 
 - id: kinniku
-  name: 鍛えられた身体
-  kana: きたえられたからだ
-  aliases: [筋肉]
+  name: 筋肉
+  kana: きんにく
+  aliases: [鍛えた体]
   axis: appearance.body
-  summary: 訓練の蓄積が形になった身体。過去の時間が可視化されている。
+  summary: 訓練の蓄積が形になった体。
   description: >-
     才能ではなく反復の証拠であるため、努力の履歴を説明せずに示せる。
-    傷跡と併置すると、生き延びてきた回数まで伝わる。
-  effect: 積み重ねた年月を、体型そのもので保証する。
-  pairs_with: [kizuato, short-nape, shokunin-kishitsu]
+  effect: 積み重ねた年月を体型そのもので保証する。
+  pairs_with: [kizuato, tanpatsu, shokunin]
   contrasts_with: [kyasha]
-  tags: [履歴, 説得力]
+  tags: [履歴]
 
-- id: shisei-no-yosa
-  name: 姿勢の良さ
-  kana: しせいのよさ
+- id: shisei
+  name: 姿勢がいい
+  kana: しせいがいい
   aliases: [背筋が伸びている]
   axis: appearance.body
-  summary: 立ち姿の直立。育ちか訓練のいずれかが背景にある。
+  summary: 立ち姿がまっすぐなこと。
   description: >-
-    緊張ではなく既定値としての直立は、身体に染み込んだ規律を示す。
-    崩れた姿勢を一度でも見せると、その場面が特別扱いになる。
+    緊張ではなく既定値としての直立は、身体に染みた規律を示す。崩れた姿勢が特別扱いになる。
   effect: 規律の内面化を無言で示し、脱力を貴重品に変える。
-  pairs_with: [joukyuu-shusshin, gunpuku, keigo]
+  pairs_with: [reijou, gunpuku, keigo]
   contrasts_with: [zubora]
-  tags: [規律, 崩し前提]
+  tags: [規律]
 
+- id: kizuato
+  name: 傷跡
+  kana: きずあと
+  aliases: [古傷]
+  axis: appearance.body
+  summary: 治ったあとに残る痕。生き延びた物証。
+  description: >-
+    傷の位置が、守った物と守れなかった物を示す。本人が語らないほど推測の余地が増える。
+  effect: 語られていない過去が確実にあると身体で保証する。
+  pairs_with: [kinniku, kako, shirogami]
+  contrasts_with: []
+  tags: [過去]
+
+- id: gishi
+  name: 義肢
+  kana: ぎし
+  aliases: [義手, 義足]
+  axis: appearance.body
+  summary: 失った部位を置き換えた機構。
+  description: >-
+    失った事実と、それでも動いている事実を同時に出す。整備の場面が休息と対話の場になる。
+  effect: 喪失を消さないまま前へ進んでいることを構造で示す。
+  pairs_with: [tebukuro, kizuato, jinzou]
+  contrasts_with: []
+  tags: [喪失]
+
+- id: kokuin
+  name: 刻印
+  kana: こくいん
+  aliases: [烙印, 契約紋]
+  axis: appearance.body
+  summary: 体に刻まれた所属や契約の印。自分では消せない。
+  description: >-
+    本人の意思と無関係に押されている場合、身体が他人に書き込まれた状態になる。
+    隠すか晒すかの選択が立場の表明になる。
+  effect: 意思の外側にある拘束を、身体に固定表示する。
+  pairs_with: [keiyaku, shujuu, tebukuro, shirogami]
+  contrasts_with: []
+  tags: [拘束]
+
+# --- 服装 ---
 - id: seifuku
   name: 制服
   kana: せいふく
   aliases: [学生服]
   axis: appearance.costume
-  summary: 集団への所属を示す既製の衣。個体差が着崩し方に集約される。
+  summary: 集団への所属を示す既製の服。
   description: >-
-    全員が同じ物を着ているという前提が、袖の長さ・ボタン・着方の
-    わずかな差を人格情報に変換する。期限つきの身分でもある。
-  effect: 同一の枠を用意することで、微細な差異を性格の情報に変える。
-  pairs_with: [heyagi, kikan-gentei, oversized]
+    全員が同じ物を着ている前提が、着崩し方のわずかな差を人格情報に変える。期限つきの身分でもある。
+  effect: 同一の枠を用意し、微細な差だけを性格として読ませる。
+  pairs_with: [heyagi, kikan-gentei, bukabuka]
   contrasts_with: [gunpuku]
-  tags: [所属, 期限つき]
+  tags: [定番, 所属]
 
 - id: hakui
   name: 白衣
   kana: はくい
   aliases: [ラボコート]
   axis: appearance.costume
-  summary: 職能を示す上着。羽織るだけで専門性が付与される。
+  summary: 職能を示す上着。羽織るだけで専門性が付く。
   description: >-
-    脱いだ状態との落差が作りやすく、下に何を着ているかで人格が露出する。
-    清潔さの記号でありながら、汚れの目立つ布でもある。
+    脱いだ状態との落差が作りやすく、下に何を着ているかで人格が出る。
   effect: 専門家の顔と素の顔を、一枚の脱ぎ着で切り替える。
-  pairs_with: [shokunin-kishitsu, kuma, zubora]
+  pairs_with: [shokunin, kuma, zubora]
   contrasts_with: []
-  tags: [職能, 切替装置]
+  tags: [職能]
 
-- id: kimono
+- id: wasou
   name: 和装
   kana: わそう
-  aliases: [着物]
+  aliases: [着物, 浴衣]
   axis: appearance.costume
-  summary: 可動域を制限する伝統衣。所作が衣に規定される。
+  summary: 可動域を制限する伝統衣。所作が服に規定される。
   description: >-
-    走れない、大股で歩けないという制約が、そのまま所作の様式を作る。
-    制約を破って走る場面は、それだけで異常事態の宣言になる。
-  effect: 動きに制約を課し、制約を破る瞬間の意味を跳ね上げる。
-  pairs_with: [hime-cut, joukyuu-shusshin, keigo]
+    走れない、大股で歩けないという制約が所作の様式を作る。破って走る場面が異常事態の宣言になる。
+  effect: 動きに制約を課し、破る瞬間の意味を跳ね上げる。
+  pairs_with: [hime-cut, reijou, keigo]
   contrasts_with: []
-  tags: [様式, 制約]
+  tags: [様式]
 
 - id: gunpuku
-  name: 軍服・礼装
+  name: 軍服
   kana: ぐんぷく
-  aliases: [制帽, 詰襟]
+  aliases: [制帽, 詰襟, 礼装]
   axis: appearance.costume
-  summary: 権限と責任を身体に貼り付ける衣。個人より役職が先に立つ。
+  summary: 権限と責任を身体に貼り付ける服。個人より役職が先に立つ。
   description: >-
-    着ている間は組織の意思として振る舞う必要がある。階級章や手袋など、
-    脱ぐ手順が多いほど「脱いだ状態」の情報量が増える。
-  effect: 個人と役職を分離し、どちらとして喋っているかを常に問える。
-  pairs_with: [shihaisha, keigo, tebukuro]
+    着ている間は組織の意思として振る舞う必要がある。脱ぐ手順が多いほど脱いだ状態の情報量が増える。
+  effect: 個人と役職を分け、どちらとして喋っているかを常に問える。
+  pairs_with: [joushi, keigo, tebukuro]
   contrasts_with: [heyagi, seifuku]
-  tags: [権威, 役職]
-
-- id: oversized
-  name: 大きすぎる上着
-  kana: おおきすぎるうわぎ
-  aliases: [借り物, ぶかぶか]
-  axis: appearance.costume
-  summary: 身体に合っていない衣。持ち主が別にいることを示す。
-  description: >-
-    サイズの不一致は関係の痕跡そのものであり、袖が余っている状態が
-    そのまま体格差と親密さの証拠になる。
-  effect: 二人の関係を、他方の不在下でも視覚的に証明する。
-  pairs_with: [nagami, futari-dake, katami]
-  contrasts_with: []
-  tags: [関係の痕跡, 体格差]
+  tags: [権威]
 
 - id: heyagi
   name: 部屋着
   kana: へやぎ
   aliases: [私服, 寝間着]
   axis: appearance.costume
-  summary: 他人に見せる前提のない衣。社会的な役割を降りた状態。
+  summary: 他人に見せる前提のない服。役割を降りた状態。
   description: >-
-    公の姿を十分に見せてある人物ほど効果が高い。誰の前でその姿になるかが、
-    そのまま信頼の証明になる。
-  effect: 役割の外側にいる姿を示し、それを見られる立場を特別にする。
-  pairs_with: [hair-down, hane-kami, futari-dake]
+    公の姿を十分に見せてある人物ほど効く。誰の前でその姿になるかが信頼の証明になる。
+  effect: 役割の外側の姿を示し、それを見られる立場を特別にする。
+  pairs_with: [kusekke, futari-dake, sakotsu]
   contrasts_with: [gunpuku, seifuku]
-  tags: [脱役割, 限定開示]
+  tags: [定番, 脱役割]
 
-- id: kajou-souhoku
-  name: 過剰な装飾
-  kana: かじょうそうしょく
-  aliases: [フリル, 盛り]
+- id: bukabuka
+  name: ぶかぶかの服
+  kana: ぶかぶかのふく
+  aliases: [借り物, 大きすぎる上着]
   axis: appearance.costume
-  summary: 機能を超えた量の装飾。見られることを前提に設計された衣。
+  summary: 体に合っていない服。持ち主が別にいる。
   description: >-
-    重い、動きにくい、手間がかかるという実用上の不利を引き受けてまで
-    装う意思が、そのまま自己演出の強度を表す。
+    サイズの不一致が関係の痕跡そのものになる。袖が余っている状態が体格差と親密さの証拠。
+  effect: 二人の関係を、相手が不在でも視覚的に証明する。
+  pairs_with: [koushinchou, futari-dake, katami]
+  contrasts_with: []
+  tags: [関係の痕跡]
+
+- id: furiru
+  name: フリル
+  kana: ふりる
+  aliases: [過剰な装飾, 盛り]
+  axis: appearance.costume
+  summary: 機能を超えた量の装飾。見られる前提の服。
+  description: >-
+    重い・動きにくい・手間がかかるという不利を引き受けてまで装う意思が、自己演出の強度を表す。
   effect: 「そう見られたい」という願望の大きさを物量で示す。
-  pairs_with: [jikoenshutsu, hime-cut, kohaku]
+  pairs_with: [neko-o-kaburu, hime-cut, teishinchou]
   contrasts_with: [zubora]
-  tags: [自己演出, 物量]
+  tags: [自己演出]
 
 - id: gaitou
-  name: 外套・マント
-  kana: がいとう
-  aliases: [コート, ローブ]
+  name: コート・マント
+  kana: こーと
+  aliases: [外套, ローブ]
   axis: appearance.costume
-  summary: 輪郭を隠す上掛け。身体の情報を遮断する。
+  summary: 輪郭を隠す上掛け。身体の情報を遮る。
   description: >-
     翻す動作が大きなシルエット変化を生むため、登場と退場の演出に使われる。
-    下に何を隠しているかを常に問える状態が続く。
-  effect: 身体情報を伏せたまま存在感だけを大きくする。
-  pairs_with: [gishu, buki, tobo]
+  effect: 身体情報を伏せたまま存在感だけ大きくする。
+  pairs_with: [gishi, buki, nagaremono]
   contrasts_with: [heyagi]
-  tags: [遮蔽, 登場演出]
+  tags: [遮蔽]
 
+# --- 小物 ---
 - id: megane
-  name: 眼鏡
+  name: メガネ
   kana: めがね
-  aliases: []
-  axis: appearance.accessory
-  summary: 顔の中央に置かれる境界物。外す動作が表情の解禁になる。
+  aliases: [眼鏡]
+  axis: appearance.item
+  summary: 顔の中央に置かれる境界物。外すと表情が解禁される。
   description: >-
-    知性の記号としてよりも、着脱可能な仕切りとして強い。反射で目を隠す、
-    ずり上げる、拭くなど、感情処理の時間稼ぎに使える動作が多い。
-  effect: 表情の前に一枚の層を置き、外す瞬間を切替点として使える。
-  pairs_with: [shokunin-kishitsu, jitome, keigo]
+    知性の記号としてより、着脱できる仕切りとして強い。反射で目を隠す、ずり上げる、拭くなど、
+    感情処理の時間稼ぎに使える動作が多い。
+  effect: 表情の前に一枚の層を置き、外す瞬間を切替点にする。
+  pairs_with: [shokunin, jitome, keigo, gouri]
   contrasts_with: []
-  tags: [切替装置, 動作つき]
-
-- id: choker
-  name: チョーカー
-  kana: ちょーかー
-  aliases: [首輪]
-  axis: appearance.accessory
-  summary: 首を一周する装身具。急所に巻かれた帯。
-  description: >-
-    装飾か拘束かの判別がつかない位置にあるため、所有・従属・封印といった
-    含みを常時帯びる。誰が付けたのかという問いが残り続ける。
-  effect: 装飾と拘束の区別を宙吊りにし、所有の気配を漂わせる。
-  pairs_with: [kyasha, shujuu, fuuin]
-  contrasts_with: []
-  tags: [両義的, 所有]
-
-- id: katami
-  name: 形見の品
-  kana: かたみのしな
-  aliases: [遺品, お守り]
-  axis: appearance.accessory
-  summary: 故人や離れた者から受け取った物。過去を携行している状態。
-  description: >-
-    常に身に着けているという事実が、まだ手放せていないことの証明になる。
-    壊れる・失くす・返すのいずれもが物語上の決着として使える。
-  effect: 未処理の過去を持ち歩いていると、持ち物ひとつで示す。
-  pairs_with: [tsumi-no-ishiki, ushinatta-mono, ringu]
-  contrasts_with: []
-  tags: [過去, 決着装置]
-
-- id: ringu
-  name: 指輪
-  kana: ゆびわ
-  aliases: [腕輪]
-  axis: appearance.accessory
-  summary: 身体に嵌める輪。契約の可視化。
-  description: >-
-    外せない／外さないの区別が重要で、どちらであるかが関係の性質を規定する。
-    嵌める位置と手の使用頻度によって、常時目に入る点も強い。
-  effect: 契約や誓いが継続中であることを、身体の一部として提示する。
-  pairs_with: [keiyaku, katami, shujuu]
-  contrasts_with: []
-  tags: [契約, 継続]
+  tags: [定番, 切替]
 
 - id: tebukuro
   name: 手袋
   kana: てぶくろ
   aliases: [グローブ]
-  axis: appearance.accessory
+  axis: appearance.item
   summary: 素手を隠す布。接触の遮断と儀礼を兼ねる。
   description: >-
-    外す動作が「本気を出す」「触れる許可を出す」の両方に読める。
-    手袋の下に何があるか（傷、刻印、義手）という含みも作れる。
+    外す動作が「本気を出す」「触れる許可を出す」の両方に読める。下に何があるかという含みも作れる。
   effect: 接触に一段階の手続きを挟み、外す動作を宣言に変える。
-  pairs_with: [gunpuku, kokuin, gishu, keigo]
+  pairs_with: [te, gunpuku, kokuin, gishi]
   contrasts_with: []
-  tags: [遮断, 動作つき]
+  tags: [定番, 遮断]
 
-- id: buki
-  name: 手放さない得物
-  kana: てばなさないえもの
-  aliases: [愛用の武器, 相棒]
-  axis: appearance.accessory
-  summary: 常時携行している道具。生き方が形になった物。
+- id: choker
+  name: チョーカー
+  kana: ちょーかー
+  aliases: [首輪]
+  axis: appearance.item
+  summary: 首を一周する装身具。急所に巻かれた帯。
   description: >-
-    手入れの様子、傷み具合、置き場所が人格描写になる。手放す・折れる・
-    誰かに預けるといった変化が、そのまま状態変化の宣言になる。
-  effect: 生き方の要約を持ち物一点に集約し、その喪失を事件にする。
-  pairs_with: [shokunin-kishitsu, kinniku, gaitou]
+    装飾か拘束かの判別がつかない位置にあるため、所有・従属・封印の含みを常時帯びる。
+  effect: 装飾と拘束の区別を宙吊りにし、所有の気配を漂わせる。
+  pairs_with: [nodobotoke, sakotsu, fuuin, shujuu]
   contrasts_with: []
-  tags: [生き方, 喪失前提]
+  tags: [両義的]
+
+- id: yubiwa
+  name: 指輪
+  kana: ゆびわ
+  aliases: [腕輪]
+  axis: appearance.item
+  summary: 身体に嵌める輪。契約の可視化。
+  description: >-
+    外せない／外さないの区別が関係の性質を決める。手を使うたび目に入る。
+  effect: 誓いが継続中であることを身体の一部として示す。
+  pairs_with: [keiyaku, katami, te]
+  contrasts_with: []
+  tags: [契約]
+
+- id: houtai
+  name: 包帯
+  kana: ほうたい
+  aliases: []
+  axis: appearance.item
+  summary: 巻かれて隠されている部位。開示が保留されている。
+  description: >-
+    治療中であることと、隠していることの両方を同時に示す。巻き直す場面が対話の場になる。
+  effect: 未開示の情報を身体に貼り、外す場面を予約する。
+  pairs_with: [gantai, kizuato, kako]
+  contrasts_with: []
+  tags: [秘匿]
 
 - id: heddohon
   name: ヘッドホン
   kana: へっどほん
   aliases: [イヤホン]
-  axis: appearance.accessory
-  summary: 外音を遮る装置。世界と自分の間に壁を常設する。
+  axis: appearance.item
+  summary: 外音を遮る装置。世界との間に壁を常設する。
   description: >-
-    外す動作が「あなたの話を聞く」という選択の表明になる。
-    片耳だけ外すという中間状態が使えるのが利点。
-  effect: 他者の遮断を既定値にし、外す相手を選ぶことで序列を示す。
-  pairs_with: [hitomishiri, heyagi, inner-color]
+    外す動作が「あなたの話を聞く」という選択の表明になる。片耳だけ外す中間状態が使える。
+  effect: 遮断を既定値にし、外す相手を選ぶことで序列を示す。
+  pairs_with: [hitomishiri, heyagi]
   contrasts_with: []
-  tags: [遮断, 選択]
+  tags: [遮断]
 
-- id: kizuato
-  name: 傷跡
-  kana: きずあと
-  aliases: [古傷]
-  axis: appearance.mark
-  summary: 治癒後も残る痕。生き延びた事実の物証。
+- id: katami
+  name: 形見
+  kana: かたみ
+  aliases: [遺品, お守り]
+  axis: appearance.item
+  summary: いない人から受け取った物。過去を携行している。
   description: >-
-    傷の位置が守った物と守れなかった物を示す。本人が語らないほど、
-    観客の推測余地が増える。
-  effect: 語られていない過去が確実に存在すると、身体で保証する。
-  pairs_with: [kinniku, shirogami, kataranu-kako]
+    常に身に着けている事実が、まだ手放せていない証明になる。壊れる・失くす・返すが決着に使える。
+  effect: 未処理の過去を持ち歩いていると、持ち物ひとつで示す。
+  pairs_with: [soushitsu, zaiakukan, yubiwa]
   contrasts_with: []
-  tags: [過去, 物証]
+  tags: [過去]
 
-- id: houtai
-  name: 包帯・眼帯
-  kana: ほうたい
-  aliases: [眼帯]
-  axis: appearance.mark
-  summary: 隠されている部位。開示が保留されている状態。
+- id: buki
+  name: 得物
+  kana: えもの
+  aliases: [愛用の武器, 相棒の道具]
+  axis: appearance.item
+  summary: 常に持っている道具。生き方が形になった物。
   description: >-
-    中身が何であるかより、隠され続けていること自体が情報になる。
-    外れる場面のために巻かれている、時限装置的な要素。
-  effect: 未開示の情報を身体に貼り付け、外す場面を予約する。
-  pairs_with: [heterochromia, fuuin, kataranu-kako]
+    手入れの様子、傷み具合、置き場所が人格描写になる。手放す・折れる・預けるが状態変化の宣言になる。
+  effect: 生き方の要約を一点に集約し、その喪失を事件にする。
+  pairs_with: [shokunin, kinniku, te, gaitou]
   contrasts_with: []
-  tags: [秘匿, 時限装置]
-
-- id: kuma
-  name: 目の下の隈
-  kana: めのしたのくま
-  aliases: [寝不足]
-  axis: appearance.mark
-  summary: 睡眠と生活の欠損が顔に出た状態。
-  description: >-
-    本人が何かに時間を吸われていることの証拠。仕事、執着、不眠、後悔の
-    いずれとも接続でき、原因を伏せたまま異常を示せる。
-  effect: 生活が壊れている事実を、本人の申告なしに開示する。
-  pairs_with: [hakui, zubora, tsumi-no-ishiki, hane-kami]
-  contrasts_with: []
-  tags: [消耗, 生活]
-
-- id: gishu
-  name: 義肢
-  kana: ぎし
-  aliases: [義手, 義足]
-  axis: appearance.mark
-  summary: 失った部位を置き換えた機構。喪失と再起が同居している。
-  description: >-
-    失った事実と、それでも動き続けている事実を同時に提示する。
-    整備の場面が休息と対話の場として機能する。
-  effect: 喪失を消さないまま前進していることを、身体の構造で示す。
-  pairs_with: [tebukuro, kizuato, hitonarazaru]
-  contrasts_with: []
-  tags: [喪失, 再起]
-
-- id: kokuin
-  name: 刻印・紋章
-  kana: こくいん
-  aliases: [烙印, 契約紋]
-  axis: appearance.mark
-  summary: 身体に刻まれた所属や契約の印。自分では消せない。
-  description: >-
-    本人の意思と無関係に押されている場合、身体が他者に書き込まれた状態になる。
-    隠す／晒すの選択が、そのまま立場の表明になる。
-  effect: 個人の意思の外側にある拘束を、身体上に固定表示する。
-  pairs_with: [keiyaku, shujuu, tebukuro, shirogami]
-  contrasts_with: []
-  tags: [拘束, 所属]
+  tags: [生き方]

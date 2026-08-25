@@ -1,104 +1,97 @@
-# 物語機能／構造・落差の構成要素
+# 展開／構造
 
-# --- narrative.function ---
-- id: kagami-awase
+# --- 役割 ---
+- id: kagami
   name: 鏡合わせ
   kana: かがみあわせ
   aliases: [対の存在, もう一つの可能性]
-  axis: narrative.function
-  summary: 主役と同じ条件から別の答えを出した存在。比較のために置かれる。
+  axis: narrative.role
+  summary: 同じ条件から別の答えを出した存在。比較のために置かれる。
   description: >-
-    出発点が同じであるほど、選択の差だけが際立つ。相手を否定することが
-    自分の選択の正しさの証明になってしまう構造を持つ。
-  effect: 主役の選択を、否定ではなく比較によって照明する。
-  pairs_with: [shukuteki, futatsu-no-kao, tenraku]
+    出発点が同じであるほど、選択の差だけが際立つ。相手を否定することが自分の選択の正しさの証明になってしまう。
+  effect: 主役の選択を、否定ではなく比較で照明する。
+  pairs_with: [shukuteki, nimensei, tenraku]
   contrasts_with: []
-  tags: [比較, 照明]
+  tags: [定番]
 
 - id: gisei-yaku
-  name: 犠牲になる役
-  kana: ぎせいになるやく
+  name: 犠牲役
+  kana: ぎせいやく
   aliases: [退場が決まっている, 死亡フラグ]
-  axis: narrative.function
-  summary: 物語の進行のために失われることが構造上決まっている位置。
+  axis: narrative.role
+  summary: 物語の進行のために失われることが決まっている位置。
   description: >-
-    観客が先に察知するため、退場までの日常場面がすべて別れの準備として
-    読まれる。本人だけがそれを知らない配置が最も効く。
-  effect: 通常の場面に前もって喪失の色を付け、全描写の意味を変える。
-  pairs_with: [gisei-shikou, muri-o-suru, taijou, kikan-gentei]
+    観客が先に察するため、退場までの日常場面がすべて別れの準備として読まれる。本人だけが知らない配置が効く。
+  effect: 通常の場面に前もって喪失の色を付ける。
+  pairs_with: [jiko-gisei, muri, taijou, kikan-gentei]
   contrasts_with: []
-  tags: [予定された喪失, 先読み]
+  tags: [定番]
 
 - id: kataribe
   name: 語り手
   kana: かたりべ
   aliases: [記録者, 観測者]
-  axis: narrative.function
-  summary: 出来事を伝える立場。当事者になりきれない位置にいる。
+  axis: narrative.role
+  summary: 出来事を伝える立場。当事者になりきれない。
   description: >-
-    記録する義務が、感情的に参加することを妨げる。
-    語り手が筆を置いて動く場面が、その人物の最大の転換点になる。
+    記録する義務が、感情的に参加することを妨げる。筆を置いて動く場面が最大の転換点になる。
   effect: 参加を禁じた位置を用意し、そこから踏み出す一回を作る。
-  pairs_with: [kansatsu-guse, ihoujin, chinmoku]
+  pairs_with: [kansatsu, yosomono, chinmoku]
   contrasts_with: []
-  tags: [非当事者, 越境]
+  tags: [非当事者]
 
-- id: shiren-o-ataeru-mono
-  name: 試練を与える者
-  kana: しれんをあたえるもの
-  aliases: [壁, 導き手]
-  axis: narrative.function
-  summary: 主役の成長のために立ちはだかる位置。敵とも師とも読める。
+- id: kabe
+  name: 立ちはだかる者
+  kana: たちはだかるもの
+  aliases: [壁, 導き手, 試練]
+  axis: narrative.role
+  summary: 成長のために立ちはだかる位置。敵とも師とも読める。
   description: >-
-    妨害の意図と育成の意図が同じ行動として現れるため、
-    真意が後から判明する構造を作りやすい。
+    妨害の意図と育成の意図が同じ行動として現れるため、真意が後から判明する構造を作れる。
   effect: 敵対行動を、後から愛情として再解釈できる状態に置く。
-  pairs_with: [shitei, shukuteki, kataranu-kako]
+  pairs_with: [shitei, shukuteki, kako]
   contrasts_with: []
-  tags: [両義的, 後出し解釈]
+  tags: [両義的]
 
-# --- narrative.arc ---
+# --- 結末 ---
 - id: tenraku
   name: 転落
   kana: てんらく
   aliases: [堕ちる, 変質]
   axis: narrative.arc
-  summary: 高い位置から崩れていく運動。かつての姿が参照点として残る。
+  summary: 高い位置から崩れていくこと。かつての姿が参照点として残る。
   description: >-
-    転落の速度より、本人が最後まで自覚しないことのほうが効く。
-    以前を知る人物の反応が、落差の計測器として機能する。
+    速度より、本人が最後まで自覚しないことのほうが効く。以前を知る人物の反応が落差の計測器になる。
   effect: 過去の姿を物差しにして、現在の損なわれ方を測らせる。
-  pairs_with: [yoyuu, hikari-no-nai-me, kagami-awase, kowareta-egao]
+  pairs_with: [yoyuu, hikari-nashi, kagami, kuzureru-egao]
   contrasts_with: [kyuusai]
-  tags: [下降, 計測]
+  tags: [定番]
 
 - id: kyuusai
   name: 救済
   kana: きゅうさい
   aliases: [赦し, 掬い上げ]
   axis: narrative.arc
-  summary: 抱えていた欠落が他者によって処理される到達。
+  summary: 抱えていた欠落が他者によって処理されること。
   description: >-
-    救われる側が受け取りを拒否するほど、成立したときの重みが増す。
-    誰が救うかより、なぜ受け取れたかのほうが本体になる。
+    救われる側が受け取りを拒むほど、成立したときの重みが増す。誰が救うかより、なぜ受け取れたかが本体。
   effect: 拒否と受容の攻防を作り、受け取った瞬間を頂点に置く。
-  pairs_with: [tsumi-no-ishiki, jiko-hyouka-no-hikusa, ichido-dake]
+  pairs_with: [zaiakukan, jikokoutei, ichido-dake]
   contrasts_with: [tenraku]
-  tags: [上昇, 受容]
+  tags: [定番]
 
 - id: keishou
   name: 継承
   kana: けいしょう
   aliases: [受け継ぐ, 託す]
   axis: narrative.arc
-  summary: 誰かの持っていたものが次に渡される運動。渡す側が退く。
+  summary: 誰かの持っていたものが次に渡ること。渡す側が退く。
   description: >-
-    物・技・意志のいずれを渡すかで質が変わる。渡された側が
-    元の持ち主と同じ選択をしないことで、継承が完成する。
+    物・技・意志のどれを渡すかで質が変わる。渡された側が同じ選択をしないことで継承が完成する。
   effect: 退場した人物を、残された者の行動として存続させる。
-  pairs_with: [shitei, katami, buki, kyori-no-hanten]
+  pairs_with: [shitei, katami, buki, gyakuten]
   contrasts_with: []
-  tags: [受け渡し, 存続]
+  tags: [定番]
 
 - id: taijou
   name: 退場
@@ -107,237 +100,206 @@
   axis: narrative.arc
   summary: 舞台から消えること。以後は他者の記憶としてのみ存在する。
   description: >-
-    退場そのものより、残された側の生活にどう穴が空くかで描かれる。
-    未完のまま去る場合、その未完が残された者の課題になる。
+    退場そのものより、残された側の生活にどう穴が空くかで描かれる。未完のまま去ると、それが残された者の課題になる。
   effect: 不在を通じて存在を描く方式に切り替える。
-  pairs_with: [gisei-yaku, ushinatta-mono, katami, keishou]
+  pairs_with: [gisei-yaku, soushitsu, katami, keishou]
   contrasts_with: []
-  tags: [不在, 残余]
+  tags: [定番]
 
 - id: fukushuu
   name: 復讐
   kana: ふくしゅう
-  aliases: [報復, 目的の完遂]
+  aliases: [報復]
   axis: narrative.arc
   summary: 過去の清算を目的に据えた運動。達成後に空白が残る。
   description: >-
-    目的が生きる理由と一体化しているため、成功が終わりを意味する。
-    やめる選択肢を提示する他者が、最大の障害かつ救いになる。
+    目的が生きる理由と一体化しているため、成功が終わりを意味する。やめる選択肢を出す他者が最大の障害かつ救いになる。
   effect: 達成と自壊を同義にし、途中で降りる選択を最大の分岐にする。
-  pairs_with: [kyoujin-na-ishi, tsumi-no-ishiki, kihakusa, kyomu]
+  pairs_with: [ganko, zaiakukan, karetsu, teikan]
   contrasts_with: []
-  tags: [目的固定, 達成後の空白]
+  tags: [定番]
 
-- id: kaiki
-  name: 回帰
-  kana: かいき
-  aliases: [帰還, 元の場所へ]
+- id: kikan
+  name: 帰還
+  kana: きかん
+  aliases: [回帰, 元の場所へ]
   axis: narrative.arc
-  summary: 出発点に戻る運動。同じ場所が別の意味を持って現れる。
+  summary: 出発点に戻ること。同じ場所が別の意味を持って現れる。
   description: >-
-    風景は変わらず、見る側だけが変わっているという差分で
-    経過した時間の総量を示す。
-  effect: 変化を、対象ではなく観測者の側に置いて測定する。
-  pairs_with: [onaji-basho, wakare-to-saikai, osananajimi]
+    風景は変わらず、見る側だけが変わっているという差分で、経過した時間の総量を示す。
+  effect: 変化を、対象ではなく観測者の側に置いて測る。
+  pairs_with: [itsumo-no-basho, saikai, osananajimi]
   contrasts_with: []
-  tags: [円環, 差分]
+  tags: [円環]
 
-# --- structure.gap ---
-- id: futatsu-no-kao
-  name: 二つの顔
-  kana: ふたつのかお
-  aliases: [表と裏, 二重生活]
+# --- ギャップ ---
+- id: nimensei
+  name: 二面性
+  kana: にめんせい
+  aliases: [二つの顔, 表と裏, 二重生活]
   axis: structure.gap
   summary: 場面によって別人格として振る舞う構造。両方とも本人である。
   description: >-
-    どちらが本物かという問いは通常成立せず、両方が本物であることが
-    本人にとっての苦痛になる。両者が接触する場面が最大の危機。
-  effect: 人格の同一性そのものを、その人物にとっての問題にする。
-  pairs_with: [jikoenshutsu, inner-color, heterochromia, ichininshou]
-  contrasts_with: [ohirakebo]
-  tags: [二重, 同一性]
+    どちらが本物かという問いは成立せず、両方が本物であることが本人の苦痛になる。両者が接触する場面が最大の危機。
+  effect: 人格の同一性そのものを問題にする。
+  pairs_with: [neko-o-kaburu, heterochromia, ichininshou, haraguro]
+  contrasts_with: [tenshin]
+  tags: [定番]
 
-- id: kurokoge-no-honne
-  name: 取り繕いの下の本音
-  kana: とりつくろいのしたのほんね
-  aliases: [建前の裏側]
+- id: tatemae-honne
+  name: 建前と本音
+  kana: たてまえとほんね
+  aliases: [取り繕いの下の本音]
   axis: structure.gap
   summary: 表層の言動と実際の感情が別方向を向いている状態。
   description: >-
-    観客に片方だけを見せ、後から他方を明かす順序設計が価値の中心。
-    どこで種明かしをするかで、同じ場面が別の作品になる。
-  effect: 情報の開示順によって、既に見た場面を後から書き換える。
-  pairs_with: [hohoemi-no-kamen, tsundere, keigo, kizuka-re-tenai-koui]
+    観客に片方だけを見せ、後から他方を明かす順序設計が価値の中心。どこで種明かしをするかで同じ場面が別物になる。
+  effect: 開示の順番によって、既に見た場面を後から書き換える。
+  pairs_with: [tsukuri-warai, tsundere, keigo, kataomoi]
   contrasts_with: []
-  tags: [開示順, 後付け解釈]
+  tags: [定番]
 
-- id: kowareta-egao
-  name: 壊れた笑顔
-  kana: こわれたえがお
-  aliases: [笑いながら泣く, 崩れる仮面]
+- id: kuzureru-egao
+  name: 崩れる笑顔
+  kana: くずれるえがお
+  aliases: [笑いながら泣く, 壊れた笑顔]
   axis: structure.gap
-  summary: 感情表示が破綻し、表情と内容が一致しなくなった状態。
+  summary: 笑顔を維持しようとして失敗している状態。
   description: >-
-    笑顔を維持しようとして失敗している過程が見えることが条件。
-    完全に崩れるより、崩れかけで止まっているほうが強い。
-  effect: 制御の失敗そのものを見せ、限界を超えた事実を証明する。
-  pairs_with: [hohoemi-no-kamen, hikari-no-nai-me, muri-o-suru, tenraku]
+    崩れる過程が見えることが条件。完全に崩れるより、崩れかけで止まっているほうが強い。
+  effect: 制御の失敗を見せ、限界を越えた事実を証明する。
+  pairs_with: [tsukuri-warai, hikari-nashi, muri, tenraku]
   contrasts_with: []
-  tags: [破綻, 過程]
+  tags: [破綻]
 
-- id: tsuyosa-to-moroi
-  name: 強さと脆さの同居
-  kana: つよさともろさのどうきょ
+- id: tsuyoi-noni-moroi
+  name: 強いのに脆い
+  kana: つよいのにもろい
   aliases: [最強なのに危うい]
   axis: structure.gap
   summary: 突出した能力と、日常的な無防備さが一人に同居している構造。
   description: >-
-    能力が高い領域と欠けている領域が離れているほど、
-    支える他者の必要性が具体的になる。
-  effect: 圧倒的な能力を持つ人物に、他者を必要とする理由を用意する。
-  pairs_with: [kyasha, zubora, kihakusa, muri-o-suru]
+    能力の高い領域と欠けている領域が離れているほど、支える他者の必要性が具体的になる。
+  effect: 圧倒的な人物に、他者を必要とする理由を用意する。
+  pairs_with: [kyasha, zubora, karetsu, muri]
   contrasts_with: []
-  tags: [能力偏在, 依存根拠]
+  tags: [定番]
 
-# --- structure.hidden ---
-- id: kataranu-kako
+# --- 秘密 ---
+- id: kako
   name: 語られない過去
   kana: かたられないかこ
   aliases: [伏せられた前史]
-  axis: structure.hidden
+  axis: structure.secret
   summary: 存在は示されているが内容が明かされない履歴。
   description: >-
-    断片だけが所作や反応に現れ、観客が推測を積み上げる。
-    明かされた瞬間に、それまでの全挙動が理由を得る。
-  effect: 未説明の挙動を蓄積させ、開示時に一括で回収する。
-  pairs_with: [kizuato, houtai, chinmoku, tobo]
+    断片だけが所作や反応に現れ、観客が推測を積み上げる。明かされた瞬間、それまでの全挙動が理由を得る。
+  effect: 未説明の挙動を溜め、開示時に一括で回収する。
+  pairs_with: [kizuato, houtai, chinmoku, nagaremono]
   contrasts_with: []
-  tags: [伏線, 一括回収]
+  tags: [定番, 伏線]
 
-- id: himitsu-no-shoutai
+- id: shoutai
   name: 隠された正体
   kana: かくされたしょうたい
   aliases: [正体を伏せている]
-  axis: structure.hidden
+  axis: structure.secret
   summary: 別の身分・別の存在であることを隠している状態。
   description: >-
-    露見の危険が常時働くため、日常場面にも緊張が乗る。
-    自分から明かすか、暴かれるかで意味が正反対になる。
-  effect: すべての日常場面に露見のリスクを敷き、告白を決断に変える。
-  pairs_with: [futatsu-no-kao, uragiri, himitsu-no-kyouyuu, gaitou]
+    露見の危険が常時働くため、日常場面にも緊張が乗る。自分から明かすか暴かれるかで意味が正反対になる。
+  effect: 日常のすべてに露見のリスクを敷き、告白を決断に変える。
+  pairs_with: [nimensei, uragiri, himitsu-kyouyuu, gaitou]
   contrasts_with: []
-  tags: [露見リスク, 決断]
+  tags: [定番]
 
-- id: kizuka-re-tenai-koui
-  name: 気づかれていない好意
-  kana: きづかれていないこうい
-  aliases: [片想い, 伝わらない]
-  axis: structure.hidden
-  summary: 観客には見えていて、当事者には見えていない感情。
-  description: >-
-    情報の非対称が持続するほど蓄積が増える一方、
-    引き延ばしすぎると当事者が鈍感なのではなく不誠実に見え始める。
-  effect: 観客だけに真実を握らせ、伝達の遅延を快感に変える。
-  pairs_with: [tsundere, kansatsu-guse, kuchibeta, shien-shoku]
-  contrasts_with: []
-  tags: [情報非対称, 遅延]
-
-# --- structure.condition ---
+# --- 限定・反復 ---
 - id: futari-dake
-  name: 二人きりのときだけ
-  kana: ふたりきりのときだけ
-  aliases: [限定的な素顔]
-  axis: structure.condition
+  name: 二人きり
+  kana: ふたりきり
+  aliases: [そのときだけ, 限定的な素顔]
+  axis: structure.limited
   summary: 特定の相手の前でのみ発生する挙動。観測者を限定する構造。
   description: >-
-    公の場での姿を十分に見せてあることが前提。差分が大きいほど、
-    その相手の位置が高いことが自動的に証明される。
-  effect: 素の姿を見られる資格を一人に絞り、その一人を特権化する。
-  pairs_with: [heyagi, hair-down, hohoemi-no-kamen, himitsu-no-kyouyuu]
+    公の場での姿を十分に見せてあることが前提。差が大きいほど、その相手の位置が高いことが自動的に証明される。
+  effect: 素顔を見る資格を一人に絞り、その一人を特権化する。
+  pairs_with: [heyagi, tsukuri-warai, himitsu-kyouyuu, kyouizon]
   contrasts_with: []
-  tags: [限定, 特権化]
+  tags: [定番, 限定]
 
 - id: kikan-gentei
   name: 期間限定
   kana: きかんげんてい
-  aliases: [終わりが決まっている, 余命]
-  axis: structure.condition
+  aliases: [終わりが決まっている, 余命, タイムリミット]
+  axis: structure.limited
   summary: 関係や状態に終了日が設定されている構造。
   description: >-
-    残り時間が減っていくこと自体が進行になるため、
-    何もない日常場面にも自動的に緊張が乗る。
+    残り時間が減っていくこと自体が進行になるため、何もない日常場面にも自動的に緊張が乗る。
   effect: 平凡な場面に残り時間の目盛りを重ね、価値を上げる。
-  pairs_with: [seifuku, gisei-yaku, ichido-dake, choujumyou]
+  pairs_with: [seifuku, gisei-yaku, ichido-dake, furou]
   contrasts_with: []
-  tags: [期限, 加速]
+  tags: [定番, 限定]
 
 - id: ichido-dake
   name: 一度だけ
   kana: いちどだけ
   aliases: [最初で最後]
-  axis: structure.condition
+  axis: structure.limited
   summary: 生涯で一回しか起きない事象として提示される構造。
   description: >-
-    反復されないことが保証されているため、その場面の描写密度を
-    最大まで上げられる。二度目をやると価値が消える。
+    反復されないことが保証されているため、その場面の密度を最大まで上げられる。二度目をやると価値が消える。
   effect: 反復不能を宣言し、単一場面に全重量を載せる。
   pairs_with: [kyuusai, kikan-gentei, futari-dake]
   contrasts_with: [kuchiguse, gishiki]
-  tags: [単発, 最大密度]
+  tags: [限定]
 
-# --- structure.repetition ---
 - id: yakusoku
-  name: 交わした約束
-  kana: かわしたやくそく
+  name: 約束
+  kana: やくそく
   aliases: [誓い, 指切り]
-  axis: structure.repetition
+  axis: structure.limited
   summary: 過去に固定された取り決め。現在の行動を縛り続ける。
   description: >-
-    相手が既にいない場合でも効力を失わない点が強い。
-    果たす／破る／忘れられていたのいずれもが決着として使える。
+    相手が既にいなくても効力を失わない。果たす・破る・忘れられていたのいずれもが決着に使える。
   effect: 過去の一場面に、現在を拘束する権限を与える。
-  pairs_with: [osananajimi, kyoujin-na-ishi, ushinatta-mono, rigi]
+  pairs_with: [osananajimi, ganko, soushitsu, giri]
   contrasts_with: []
-  tags: [拘束, 決着装置]
+  tags: [定番, 反復]
 
 - id: kuchiguse
-  name: 繰り返される言葉
-  kana: くりかえされることば
+  name: 繰り返される台詞
+  kana: くりかえされるせりふ
   aliases: [決め台詞, 合言葉]
-  axis: structure.repetition
+  axis: structure.limited
   summary: 何度も反復される定型句。反復のたびに意味が加算される。
   description: >-
-    最初は何気なかった言葉が、経過とともに重みを持つ。
-    最終場面で別の人物が口にすることで継承を示せる。
-  effect: 同一の台詞に履歴を蓄積させ、最後に別の意味で撃たせる。
+    最初は何気なかった言葉が経過とともに重みを持つ。最終場面で別の人物が口にすると継承になる。
+  effect: 同一の台詞に履歴を溜め、最後に別の意味で撃たせる。
   pairs_with: [gobi, keishou, taijou]
   contrasts_with: [ichido-dake]
-  tags: [蓄積, 再利用]
+  tags: [反復]
 
 - id: gishiki
-  name: 儀式化した習慣
-  kana: ぎしきかしたしゅうかん
-  aliases: [毎回やること, ルーティン]
-  axis: structure.repetition
-  summary: 意味を問われないまま続けられている手順。
+  name: 毎回やること
+  kana: まいかいやること
+  aliases: [儀式, ルーティン]
+  axis: structure.limited
+  summary: 意味を問われないまま続いている手順。
   description: >-
-    続いていること自体が関係の健在を示すため、
-    途切れた回が異常の合図として機能する。
+    続いていること自体が関係の健在を示すため、途切れた回が異常の合図になる。
   effect: 日常の反復を関係の生存確認装置として運用する。
-  pairs_with: [onaji-basho, te-guse, osananajimi]
+  pairs_with: [itsumo-no-basho, te-guse, osananajimi, kusare-en]
   contrasts_with: [ichido-dake]
-  tags: [手順, 生存確認]
+  tags: [反復]
 
-- id: onaji-basho
-  name: 同じ場所
-  kana: おなじばしょ
-  aliases: [いつもの場所, 帰る場所]
-  axis: structure.repetition
+- id: itsumo-no-basho
+  name: いつもの場所
+  kana: いつものばしょ
+  aliases: [帰る場所, 同じ場所]
+  axis: structure.limited
   summary: 繰り返し訪れる特定の場所。時間の変化を映す定点。
   description: >-
-    場所が変わらないことで、人物の変化だけが浮かび上がる。
-    最後に一人で訪れる場面が別離の表現として機能する。
-  effect: 不変の背景を用意し、その前で人物の差分を測定する。
-  pairs_with: [kaiki, osananajimi, ushinatta-mono, wakare-to-saikai]
+    場所が変わらないことで、人物の変化だけが浮かび上がる。最後に一人で訪れる場面が別離の表現になる。
+  effect: 不変の背景を用意し、その前で人物の差分を測る。
+  pairs_with: [kikan, osananajimi, soushitsu, saikai]
   contrasts_with: []
-  tags: [定点, 差分測定]
+  tags: [定番, 反復]
