@@ -50,11 +50,14 @@ jobs:
         run: |
           git config user.name "heki-database-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/characters_auto.yaml docs/data/db.json
+          git add -- docs/data/db.json
+          if [ -f data/characters_auto.yaml ]; then
+            git add -- data/characters_auto.yaml
+          fi
           if git diff --cached --quiet; then
             echo "変更なし"
             exit 0
           fi
-          COUNT=$(python3 -c "import yaml;print(len(yaml.safe_load(open('data/characters_auto.yaml')) or []))" 2>/dev/null || echo "?")
+          COUNT=$(python3 -c "import yaml;print(len(yaml.safe_load(open('data/characters_auto.yaml')) or []))" 2>/dev/null || echo "0")
           git commit -m "自動取り込み: characters_auto を更新（収録 ${COUNT} 名）"
           git push
