@@ -98,6 +98,11 @@ GENERIC_TAGS = {
     "black_dress", "bamboo", "symbol-shaped_pupils", "cross-shaped_pupils",
     "slit_pupils", "tokiwadai_school_uniform", "summer_uniform",
     "pink_ribbon", "red_ribbon", "blue_ribbon",
+    "ascot", "blue_sailor_collar", "black_thighhighs", "white_thighhighs",
+    "paradis_military_uniform", "purple_ribbon", "white_dress", "hat",
+    "flower", "hair_flower", "white_flower", "blood", "rei_no_himo",
+    "clothing_cutout", "cleavage_cutout", "pencil_dress", "bodysuit",
+    "white_bodysuit", "plugsuit_(evangelion)", "mecha_pilot_suit",
 }
 
 

@@ -501,3 +501,81 @@
   pairs_with: [yaeba, akuma]
   contrasts_with: []
   tags: [定番]
+
+# --- 5巡目: 45名の一括取り込みで浮いた語彙の穴からの昇格 ---
+- id: mahou-shoujo
+  name: 魔法少女
+  kana: まほうしょうじょ
+  aliases: [変身少女]
+  axis: appearance.motif
+  summary: 変身して戦う少女の様式。日常と戦闘の二重生活が前提になる。
+  effect: 変身の前後で人格と衣装を切り替え、その境目を物語の急所にする。
+  pairs_with: [majo, seifuku, nimensei]
+  contrasts_with: []
+  tags: [定番]
+
+- id: ninja
+  name: 忍者
+  kana: にんじゃ
+  aliases: [くノ一, 忍]
+  axis: appearance.motif
+  summary: 忍装束と体術の記号。姿を隠すことが職能になっている。
+  effect: 気配を消せる前提を置き、あえて姿を見せる場面を意味づける。
+  pairs_with: [ansatsusha, buki]
+  contrasts_with: []
+  tags: [定番]
+
+- id: chuukafuku
+  name: 中華服
+  kana: ちゅうかふく
+  aliases: [チャイナ服, 旗袍]
+  axis: appearance.costume
+  summary: 立襟とスリットの装い。異国と武の気配をまとう。
+  effect: 出自を衣服で示し、動きの軽さを絵として見せる。
+  pairs_with: [odango, kinniku]
+  contrasts_with: [wasou]
+  tags: [定番]
+
+- id: kurome
+  name: 黒目
+  kana: くろめ
+  aliases: [黒い瞳]
+  axis: appearance.eyecolor
+  summary: 黒い瞳。読み取らせない目。
+  effect: 感情の色を消し、何を考えているか分からない印象を作る。
+  pairs_with: [kurokami, muhyoujou]
+  contrasts_with: []
+  tags: [定番]
+
+- id: kami
+  name: 神
+  kana: かみ
+  aliases: [神様, 神格]
+  axis: appearance.species
+  summary: 人を超えた存在。寿命も力も人間の尺度から外れている。
+  effect: 全能に近い前提を置いたうえで、できないこと一点を弱点にする。
+  pairs_with: [furou, tenshi, saikyou]
+  contrasts_with: []
+  tags: [定番]
+
+- id: renkinjutsushi
+  name: 錬金術師
+  kana: れんきんじゅつし
+  aliases: [錬金術]
+  axis: relation.position
+  summary: 等価交換の理で物を変える術者。代償と知識で立つ立場。
+  effect: 支払った代償を身体に残し、力の出所を常に見える形にする。
+  pairs_with: [gishi, shokunin]
+  contrasts_with: []
+  tags: [定番]
+
+- id: taimu-ruupu
+  name: タイムループ
+  kana: たいむるーぷ
+  aliases: [ループ, 繰り返す時間]
+  axis: narrative.limited
+  summary: 同じ期間を何度もやり直すこと。記憶だけが持ち越される。
+  effect: 一人だけが回数を覚えている状態を作り、その孤独を積み上げる。
+  pairs_with: [gishiki, yakusoku, kikan-gentei]
+  contrasts_with: [ichido-dake]
+  tags: [定番]

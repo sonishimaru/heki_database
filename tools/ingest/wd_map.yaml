@@ -162,9 +162,9 @@ elements:
 
   # --- 髪型（追加） ---
   mitsuami:
-    tags: [braid, single_braid, twin_braids, french_braid, braided_ponytail]
+    tags: [braid, single_braid, twin_braids, french_braid, braided_ponytail, crown_braid]
   odango:
-    tags: [hair_bun, double_bun, single_hair_bun]
+    tags: [hair_bun, double_bun, single_hair_bun, bun_cover]
 
   # --- 体格（追加） ---
   kasshoku:
@@ -246,6 +246,16 @@ elements:
     tags: [brown_eyes]
   gizaba:
     tags: [sharp_teeth]
+
+  # --- 5 巡目 ---
+  mahou-shoujo:
+    tags: [magical_girl]
+  ninja:
+    tags: [ninja, kunoichi]
+  chuukafuku:
+    tags: [chinese_clothes, china_dress, tangzhuang]
+  kurome:
+    tags: [black_eyes]
 
 # 画像タグでは判定しない見出し語（vision.py または手作業の担当）
 #   unaji         … Danbooru に対応タグがない
