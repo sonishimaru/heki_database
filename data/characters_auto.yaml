@@ -9,7 +9,7 @@
   kana: あけみほむら
   work: 魔法少女まどか☆マギカ
   year: 2011
-  summary: かつて病弱であった過去を持ち、友人である鹿目まどかを救うため契約を交わして時間を巻き戻すループを繰り返す魔法少女。
+  summary: かつて病弱だった少女が、友人の絶望的な運命を阻止するために契約を交わし、時間を繰り返しやり直して戦い続ける構造。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b38005-T3NR8p2f021x.jpg'
     page: 'https://anilist.co/character/38005'
@@ -21,11 +21,11 @@
   elements:
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 95%', src: danbooru}
     - {id: kurokami, weight: core, note: 'danbooru black_hair 80%', src: danbooru}
-    - {id: mahou-shoujo, weight: core, note: 'danbooru magical_girl 38% / 資料: まどかを守る存在になるためキュゥべえと契約し、時間を操作する魔法少女となったと記載されているため。', src: both}
+    - {id: mahou-shoujo, weight: core, note: 'danbooru magical_girl 38% / 資料: 魔法少女であり、キュゥべえと契約して時間を操作する能力を持つ魔法少女となる。', src: both}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 61%', src: danbooru}
-    - {id: taimu-ruupu, weight: core, note: '資料: まどかの死や魔女化を防ぐため、失敗するたびに月の始め（初対面の日）へ時間を巻き戻すことを繰り返しているため。', src: gemini}
-    - {id: byoujaku, weight: sub, note: '資料: 心臓病により長期間入院生活を送っており、虚弱な転校生であったと記載されているため。', src: gemini}
-    - {id: keiyaku, weight: sub, note: '資料: まどかを守れる存在になるためキュゥべえと契約したという明確な記述があるため。', src: gemini}
+    - {id: taimu-ruupu, weight: core, note: '資料: まどかの死や魔法少女・魔女化を防ぐため、失敗するたびに月の最初に戻って時間のやり直しを繰り返す。', src: gemini}
+    - {id: byoujaku, weight: sub, note: '資料: もともとは心臓病のために長期間入院していた内気で弱い転校生であった。', src: gemini}
+    - {id: keiyaku, weight: sub, note: '資料: ワルプルギスの夜との戦いでまどかが死亡したため、キュゥべえと契約して魔法少女となる。', src: gemini}
   patterns: []
 
 - id: anya-forger
@@ -33,7 +33,7 @@
   kana: あーにゃふぉーじゃー
   work: SPY×FAMILY
   year: 2022
-  summary: 過去の不遇な生い立ちを経て得た血縁のない保護者との生活と、自身の超能力という隠された正体が同居する存在。
+  summary: 超能力を持つ元・被験者という隠された背景を持ちながら、仮初めの養父母のもとで生活する少女。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b138100-4Li0tWRCa5bQ.png'
     page: 'https://anilist.co/character/138100'
@@ -43,15 +43,15 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-26'
   elements:
-    - {id: hogosha, weight: core, note: '資料: 孤児院から養父ロイドに引き取られ、養母ヨルとともに血縁のない家族関係を形成していること。', src: gemini}
+    - {id: hogosha, weight: core, note: '資料: 孤児院からロイド・フォージャーの養子となり、ヨル・フォージャーを養母とする血縁のない養育関係にある。', src: gemini}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 76%', src: danbooru}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 90%', src: danbooru}
-    - {id: shoutai, weight: core, note: '資料: 人の心を読める超能力者（元・被験者）であることを隠して生活していること。', src: gemini}
     - {id: ahoge, weight: sub, note: 'danbooru ahoge 49%', src: danbooru}
-    - {id: fuguu, weight: sub, note: '資料: 超能力を与えられた実験室から逃亡し、孤児院に身を寄せていた経歴。', src: gemini}
+    - {id: fuguu, weight: sub, note: '資料: 未知の組織の研究所で被験者とされ、脱走して孤児院にいた経緯を持つ。', src: gemini}
+    - {id: neko-o-kaburu, weight: sub, note: '資料: 孤児院で養子に選ばれるよう、自分を賢い子供だと思わせる立ち回りを試みた。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 36%', src: danbooru}
     - {id: semi-long, weight: sub, note: 'danbooru medium_hair 37%', src: danbooru}
-    - {id: teishinchou, weight: sub, note: '資料: 自称6歳で身長が99.5cmと提示されていること。', src: gemini}
+    - {id: teishinchou, weight: sub, note: '資料: 身長が99.5 cmであり、自称6歳の小柄な体格である。', src: gemini}
   patterns: []
 
 - id: artoria-pendragon
@@ -59,7 +59,7 @@
   kana: あるとりあぺんどらごん
   work: Fate/stay night
   year: 2004
-  summary: 歴史的には男性とされながら現実には15歳の肉体年齢にとどまる騎士王であり、マスターとの主従関係のもとで戦う英雄。
+  summary: 王として上に立つ絶対的な威厳と、時を止められた15歳の肉体、そしてマスターのサーヴァントとして従う主従関係が同居する構造。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b497-Yg5pNmC8kxzs.png'
     page: 'https://anilist.co/character/497'
@@ -69,13 +69,13 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-26'
   elements:
-    - {id: joushi, weight: core, note: '資料: ブリテンの伝説的英雄であり、「過去にして未来の王」という王（指導者）の立場にあるため。', src: gemini}
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 85%', src: danbooru}
-    - {id: kishi, weight: core, note: '資料: 「騎士王」および「過去にして未来の王」として知られているため。', src: gemini}
-    - {id: shujuu, weight: core, note: '資料: 聖杯戦争においてマスター（衛宮士郎や衛宮切嗣等）にサーヴァントとして召喚され従事する立場にあるため。', src: gemini}
+    - {id: kishi, weight: core, note: '資料: 「騎士王」として知られる伝説的な英雄であると明記されている。', src: gemini}
     - {id: ahoge, weight: sub, note: 'danbooru ahoge 57%', src: danbooru}
+    - {id: joushi, weight: sub, note: '資料: 「騎士王」および「過去にして未来の王」として記述されている。', src: gemini}
     - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 45%', src: danbooru}
-    - {id: mitame-sabaku, weight: sub, note: '資料: 年代学上の年齢は35歳であるが、身体的には15歳であると記載されているため。', src: gemini}
+    - {id: mitame-sabaku, weight: sub, note: '資料: 時間経過上の年齢は35歳であるが、肉体年齢は15歳とされている。', src: gemini}
+    - {id: shujuu, weight: sub, note: '資料: 衛宮切嗣や衛宮士郎のサーヴァント（従者）として召喚されている。', src: gemini}
   patterns: []
 
 - id: ayanami-rei
@@ -102,7 +102,7 @@
   kana: えどわーどえるりっく
   work: 鋼の錬金術師
   year: 2001
-  summary: 人体錬成の失敗による大きな喪失を背負い、弟の身体と失った自らの肉体を取り戻すために振る舞う史上最年少の国家錬金術師。
+  summary: 人体錬成の失敗による大きな身体的喪失を抱えつつ、史上最年少の国家錬金術師として周囲の師や幼馴染との関わりの中で生きる人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b11-TA5Nuk7EDUZG.jpg'
     page: 'https://anilist.co/character/11'
@@ -114,14 +114,14 @@
   elements:
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 64%', src: danbooru}
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 86%', src: danbooru}
-    - {id: renkinjutsushi, weight: core, note: '資料: 12歳で史上最年少の国家錬金術師となった記述がある。', src: gemini}
-    - {id: soushitsu, weight: core, note: '資料: 人体錬成の失敗により、自身の右腕と左脚、そして弟の身体を失っている。', src: gemini}
+    - {id: renkinjutsushi, weight: core, note: '資料: 12歳で資格を取得した史上最年少の国家錬金術師であることが明記されている。', src: gemini}
     - {id: ahoge, weight: sub, note: 'danbooru ahoge 44%', src: danbooru}
     - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 57%', src: danbooru}
     - {id: gaitou, weight: sub, note: 'danbooru coat 37%', src: danbooru}
     - {id: mitsuami, weight: sub, note: 'danbooru braid 55%', src: danbooru}
-    - {id: osananajimi, weight: sub, note: '資料: 機械鎧の製作・整備を担当するウィンリィ・ロックベルが幼馴染として記載されている。', src: gemini}
-    - {id: shitei, weight: sub, note: '資料: イズミ・カーティスが師匠（teacher）として記載されている。', src: gemini}
+    - {id: osananajimi, weight: sub, note: '資料: 義肢の製作者であるウィンリィ・ロックベルが幼馴染として関係性に挙げられている。', src: gemini}
+    - {id: shitei, weight: sub, note: '資料: イズミ・カーティスが師匠として関係性に記載されている。', src: gemini}
+    - {id: soushitsu, weight: sub, note: '資料: 人体錬成に失敗し、自身の右腕と左足を失ったという喪失の出来事が記載されている。', src: gemini}
   patterns: []
 
 - id: emilia
@@ -150,7 +150,7 @@
   kana: ふりーれん
   work: 葬送のフリーレン
   year: 2020
-  summary: 千年以上の長命を生きて魔法の探求を続けつつ、師から受け継いだ技術を弟子へと繋ぐ魔法使い。
+  summary: 千年以上を生きる長命な魔法使いであり、師から受け継いだ技術と知識を弟子へと繋ぐ師弟の系譜の中心に立つ存在。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b176754-PCnpqIOkjhFk.png'
     page: 'https://anilist.co/character/176754'
@@ -161,10 +161,11 @@
     date: '2026-08-26'
   elements:
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 79%', src: danbooru}
-    - {id: erufu, weight: core, note: 'danbooru pointy_ears 97% / 資料: 資料上に直接の種族名記述はないが、1000年以上の寿命を持つ長命種族（エルフ）である。', src: both}
-    - {id: furou, weight: core, note: '資料: 年齢が1000歳以上とされ、人間である師のフランメや仲間との時間尺度の差が示されている。', src: gemini}
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 97% / 資料: 資料中に「エルフ」の表記自体はないが、1000年以上の寿命を持つ長命の種族であることは作品上確実である。', src: both}
+    - {id: furou, weight: core, note: '資料: 年齢が1000歳以上（1000+）と記述されており、圧倒的な長命である。', src: gemini}
+    - {id: majo, weight: core, note: '資料: 勇者パーティーの魔法使いであり、フランメの弟子として魔法の知識を集め続けている記述がある。', src: gemini}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 67%', src: danbooru}
-    - {id: shitei, weight: core, note: '資料: フランメから魔法と魔力制御の全てを学び、現在はフェルンの師匠として指導している。', src: gemini}
+    - {id: shitei, weight: core, note: '資料: フランメの弟子として魔法を学び、自身もフェルンの師匠であるという両方向の師弟関係を持つ。', src: gemini}
     - {id: twintail, weight: core, note: 'danbooru twintails 76%', src: danbooru}
     - {id: shirogami, weight: sub, note: 'danbooru white_hair 54%', src: danbooru}
   patterns: []
@@ -194,7 +195,7 @@
   kana: ごじょうさとる
   work: 呪術廻戦
   year: 2018
-  summary: 世界最強の呪術師としての圧倒的な力を誇りながら、教師として次世代の若者を保護し導く人物。
+  summary: 400年ぶりの術式継承者であり世界最強の圧倒的存在でありながら、教師として次世代の育成と保護を担う構造。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b127691-9zqh1xpIubn7.png'
     page: 'https://anilist.co/character/127691'
@@ -205,13 +206,12 @@
     date: '2026-08-26'
   elements:
     - {id: aome, weight: core, note: 'danbooru blue_eyes 71%', src: danbooru}
-    - {id: saikyou, weight: core, note: '資料: 世界最強の呪術師として広く認識されている。', src: gemini}
+    - {id: saikyou, weight: core, note: '資料: 世界最強として広く認識されている。', src: gemini}
     - {id: shirogami, weight: core, note: 'danbooru white_hair 74%', src: danbooru}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 87%', src: danbooru}
-    - {id: hogosha, weight: sub, note: '資料: 自身の影響力を用いて強く若い味方たちを保護している。', src: gemini}
+    - {id: keishou, weight: sub, note: '資料: 五条家において400年ぶりに無下限呪術と六眼の両方を継承した人物。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: 身長は190cm。', src: gemini}
-    - {id: shitei, weight: sub, note: '資料: 東京都立呪術高等専門学校で教師を務め、若い味方たちを訓練している。', src: gemini}
-    - {id: keishou, weight: spice, note: '資料: 400年ぶりに「無下限呪術」と「六眼」の両方を継承した。', src: gemini}
+    - {id: shitei, weight: sub, note: '資料: 東京都立呪術高等専門学校で教師として働き、強い若い仲間を保護し育成している。', src: gemini}
   patterns: []
 
 - id: hestia
@@ -219,7 +219,7 @@
   kana: へすてぃあ
   work: ダンジョンに出会いを求めるのは間違っているだろうか
   year: 2013
-  summary: 神という人外の存在でありながら、自らのファミリアの構成員である少年に深く恋をして嫉妬を燃やす人間くささを併せ持った主神。
+  summary: 神という絶対的な種族でありながら、小柄な身体で下界の生活を営み、自らのファミリア構成員へ健気な恋心を向ける神性と愛嬌が同居する存在。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b87654-UmmuLPwSK2Hd.jpg'
     page: 'https://anilist.co/character/87654'
@@ -231,16 +231,13 @@
   elements:
     - {id: aome, weight: core, note: 'danbooru blue_eyes 81%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
-    - {id: kami, weight: core, note: '資料: 種族が神（God）であることが明記されている。', src: gemini}
-    - {id: kataomoi, weight: core, note: '資料: ファミリア最初の構成員であるベルに深く恋をしている。', src: gemini}
+    - {id: kami, weight: core, note: '資料: 種族が神であり、下界へ降臨して自身のファミリアを結成し構成員にファルナを授ける存在であるため。', src: gemini}
     - {id: kurokami, weight: core, note: 'danbooru black_hair 82%', src: danbooru}
     - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 74%', src: danbooru}
     - {id: tebukuro, weight: core, note: 'danbooru gloves 71%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 89%', src: danbooru}
-    - {id: jingai, weight: sub, note: '資料: 人間ではなく神という人外の種族に属している。', src: gemini}
-    - {id: joushi, weight: sub, note: '資料: ヘスティア・ファミリアの主神としてベルを勧誘し率いている。', src: gemini}
-    - {id: sankaku-kankei, weight: sub, note: '資料: ベルに恋をする中で、ベルがアイズに興味を示したり関わりを持ったりすることに嫉妬している。', src: gemini}
-    - {id: teishinchou, weight: sub, note: '資料: 身長が140cmと小柄である。', src: gemini}
+    - {id: kataomoi, weight: sub, note: '資料: 最初の構成員であるベル・クラネルに対して強く恋をしており、彼が他の女性に興味を示すと嫉妬するため。', src: gemini}
+    - {id: teishinchou, weight: sub, note: '資料: 公式プロフィールにおいて身長が140cmと記載されているため。', src: gemini}
   patterns: []
 
 - id: holo
@@ -248,27 +245,26 @@
   kana: ほろ
   work: 狼と香辛料
   year: 2006
-  summary: 人々に忘れ去られた狼の豊作神であり、少女の姿で人間と共に旅を続ける流れ者の神格。
+  summary: 神としての超自然的な性質を持ちながら、人々に忘れ去られ商人とともに旅に出た少女姿の人外存在。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b7373-1BH0gELuZmHD.jpg'
     page: 'https://anilist.co/character/7373'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
+    method: danbooru+gemini+auto
     model: 'gemini-3.6-flash'
     date: '2026-08-26'
   elements:
     - {id: akame, weight: core, note: 'danbooru red_eyes 75%', src: danbooru}
     - {id: chapatsu, weight: core, note: 'danbooru brown_hair 83%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
-    - {id: jingai, weight: core, note: '資料: 真の姿は非常に大きな狼であり、人間の枠の外にある存在である。', src: gemini}
-    - {id: kami, weight: core, note: '資料: 北の地ヨイツ出身の狼の豊作神であると明記されている。', src: gemini}
-    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 98% / 資料: 少女の姿を選びつつも、大きな狼の耳と尾を残している。', src: both}
-    - {id: nagaremono, weight: core, note: '資料: 町を脱出し、ロレンスの馬車で彼と共に世界を見て回る旅をしている。', src: gemini}
+    - {id: jingai, weight: core, note: '資料: 本来の姿は畏怖される巨大な狼であり、人間の枠外に位置する神格。', src: gemini}
+    - {id: kami, weight: core, note: '資料: 「狼の収穫神」であると明記されている。', src: gemini}
+    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 98%', src: danbooru}
     - {id: shippo, weight: core, note: 'danbooru tail 81%', src: danbooru}
-    - {id: ichininshou, weight: sub, note: '資料: 一人称として「ヨイツの賢狼」と自称する記述がある。', src: gemini}
-    - {id: yakusoku, weight: sub, note: '資料: パスロエの町の人々と毎年小麦の豊作を保証する約束を交わしていた。', src: gemini}
-    - {id: mitame-sabaku, weight: spice, note: '資料: 神であり真の姿は巨大な狼だが、ロレンスより若い少女の姿を選んでいる。', src: gemini}
+    - {id: mitame-sabaku, weight: sub, note: '資料: 巨大な狼の神でありながら「少女の姿をとっている」ため実年齢と見かけが異なる。', src: gemini}
+    - {id: nagaremono, weight: sub, note: '資料: パスロエを脱出し、ロレンスとともに世界の変化を確かめる旅をしている。', src: gemini}
+    - {id: yakusoku, weight: sub, note: '資料: パスロエの町の人々と「毎年麦の豊作をもたらす約束」を交わしていた。', src: gemini}
   patterns: []
 
 - id: hoshino-ai
@@ -276,7 +272,7 @@
   kana: ほしのあい
   work: 【推しの子】
   year: 2020
-  summary: トップアイドルとしての表の顔と、世間に隠した双子の母親という秘密の顔を併せ持つ小柄な女性。
+  summary: '表向きは「B-Komachi」のリードアイドルでありながら、裏では妊娠・出産の事実を隠して母親の役割を同時に担っている構造を持つ人物。'
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b172759-cccVhJ2fQA92.png'
     page: 'https://anilist.co/character/172759'
@@ -286,10 +282,9 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-26'
   elements:
-    - {id: aidoru, weight: core, note: '資料: 苺プロダクション所属のアイドルグループ「B小町」のアイドルおよびリード（センター）である。', src: gemini}
-    - {id: himitsu-kyouyuu, weight: sub, note: '資料: 妊娠の事実を評判を損ねないためチームとともに隠した。', src: gemini}
-    - {id: shoutai, weight: sub, note: '資料: 双子を妊娠した事実を隠し、評判を損ねないためアイドルと母親の両立を図った。', src: gemini}
-    - {id: teishinchou, weight: sub, note: '資料: 身長は151cmである。', src: gemini}
+    - {id: aidoru, weight: core, note: '資料: アイドルグループ「B-Komachi」のリードアイドルとして活動している。', src: gemini}
+    - {id: nimensei, weight: sub, note: '資料: 評判を落とさないため妊娠の事実を隠し、アイドルと母親の二つの役割を兼ねて活動することを決めた。', src: gemini}
+    - {id: shoutai, weight: sub, note: '資料: 双子の子供を妊娠・隠蔽し、周囲やファンに秘密を持ったまま活動している。', src: gemini}
   patterns: []
 
 - id: hyuuga-hinata
@@ -297,7 +292,7 @@
   kana: ひゅうがひなた
   work: NARUTO
   year: 1999
-  summary: 名門一族の長女という立場でありながら父に見限られた不遇さを抱え、一途な片思いを力に変えて成長を目指す忍者。
+  summary: 名門一族の宗家長女でありながら父親に見放された影を抱え、忍としての立場と特定の相手への一途な片思いを同居させている構造。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1555-Q41GLTV3FvYF.png'
     page: 'https://anilist.co/character/1555'
@@ -308,11 +303,11 @@
     date: '2026-08-26'
   elements:
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 62%', src: danbooru}
-    - {id: kataomoi, weight: core, note: '資料: アカデミー時代から長年にわたり、うずまきナルトへ密かに好意を寄せ続けている。', src: gemini}
-    - {id: ninja, weight: core, note: '資料: 下忍および中忍という忍者の階級が明記されている。', src: gemini}
-    - {id: fuguu, weight: sub, note: '資料: 父から後継者として見限られ、夕日クレナイに預けられる際に「どうなっても構わない」と言われるなど苛烈な扱いを受けた。', src: gemini}
+    - {id: ninja, weight: core, note: '資料: パート1で下忍、パート2で中忍と明記されている。', src: gemini}
+    - {id: fuguu, weight: sub, note: '資料: 父親から跡取りとして訓練を受けたものの見放され、妹より才能がないとみなされた生い立ちを持つ。', src: gemini}
+    - {id: kataomoi, weight: sub, note: '資料: うずまきナルトに対しアカデミー時代から長年好意を寄せている。', src: gemini}
     - {id: kurokami, weight: sub, note: 'danbooru black_hair 57%', src: danbooru}
-    - {id: reijou, weight: sub, note: '資料: 日向一族宗家の長女として生まれている。', src: gemini}
+    - {id: reijou, weight: sub, note: '資料: 日向一族宗家の長女である。', src: gemini}
   patterns: []
 
 - id: index
@@ -320,7 +315,7 @@
   kana: いんでっくす
   work: とある魔術の禁書目録
   year: 2004
-  summary: 東京卍會の壱番隊隊長として人を率いる立場にありながら、明確な理由なく街中で拳を振るう苛烈さを同居させている。
+  summary: 東京卍會の一番隊隊長として組織の上に立つ立場でありながら、気分次第で路上で人を殴るような苛烈さを同居させている。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b145343-vRrkdWEUXwYM.jpg'
     page: 'https://anilist.co/character/145343'
@@ -334,8 +329,8 @@
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 70%', src: danbooru}
     - {id: shisutaa, weight: core, note: 'danbooru nun 71%', src: danbooru}
     - {id: aogami, weight: sub, note: 'danbooru blue_hair 45%', src: danbooru}
-    - {id: joushi, weight: sub, note: '資料: 東京卍會の壱番隊隊長であり、組織内で上に立つ立場にある。', src: gemini}
-    - {id: karetsu, weight: sub, note: '資料: マイキーから「特に理由がなくても、ただその気になっただけで街中で人を殴るような奴だ」と評されている。', src: gemini}
+    - {id: joushi, weight: sub, note: '資料: 東京卍會の一番隊隊長を務めている。', src: gemini}
+    - {id: karetsu, weight: sub, note: '資料: マイキーから、気分次第で特に理由もなく路上で人を殴るような奴だと評されている。', src: gemini}
     - {id: roobu, weight: sub, note: 'danbooru robe 42%', src: danbooru}
   patterns: []
 
@@ -344,7 +339,7 @@
   kana: かがりあつこ
   work: リトルウィッチアカデミア
   year: 2013
-  summary: 非魔法家系という余所者の背景を持ちながら、強い憧れと自信を原動力に魔女を目指す構造。
+  summary: 非魔法の家庭出身でありながら、憧れを追いかけて魔法学校で学ぶ魔女の生徒。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/81645-dvD1Ac67IkpJ.png'
     page: 'https://anilist.co/character/81645'
@@ -356,10 +351,9 @@
   elements:
     - {id: chapatsu, weight: core, note: 'danbooru brown_hair 86%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 77%', src: danbooru}
-    - {id: majo, weight: core, note: '資料: ルーナノヴァ魔法学校の生徒（魔女見習い）であること。', src: gemini}
+    - {id: majo, weight: core, note: '資料: ルーナノヴァ魔法学校の生徒（魔女の学生）であり、シャイニィシャリオに触発されて魔法学校に入学したと記述されているため。', src: gemini}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 57%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 37%', src: danbooru}
-    - {id: yosomono, weight: sub, note: '資料: 魔法家系ではない（non-magical background）の出身であること。', src: gemini}
   patterns: []
 
 - id: kagura
@@ -388,7 +382,7 @@
   kana: かまどねずこ
   work: 鬼滅の刃
   year: 2016
-  summary: 鬼へと変質させられ言葉を失いながらも、人を殺さず長時間の睡眠でエネルギーを補う人間性と異形性が同居した存在。
+  summary: 鬼に変えられたことで発話能力を失いながらも、身体の大きさを自在に変える人外の力を得て兄と共に旅をする存在。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b127518-NRlq1CQ1v1ro.png'
     page: 'https://anilist.co/character/127518'
@@ -398,16 +392,17 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-26'
   elements:
+    - {id: chinmoku, weight: core, note: '資料: 鬼に変えられたことにより言葉を喋れなくなった（無言となった）。', src: gemini}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 90%', src: danbooru}
-    - {id: jingai, weight: core, note: '資料: 鬼に変化させられた', src: gemini}
     - {id: kurokami, weight: core, note: 'danbooru black_hair 77%', src: danbooru}
     - {id: messhu, weight: core, note: 'danbooru multicolored_hair 66%', src: danbooru}
     - {id: momoiro-no-me, weight: core, note: 'danbooru pink_eyes 70%', src: danbooru}
-    - {id: oni, weight: core, note: '資料: 鬼に変化させられた', src: gemini}
+    - {id: oni, weight: core, note: '資料: 鬼に変えられた。', src: gemini}
     - {id: sarugutsuwa, weight: core, note: 'danbooru gag 64%', src: danbooru}
     - {id: wasou, weight: core, note: 'danbooru japanese_clothes 69%', src: danbooru}
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 36%', src: danbooru}
-    - {id: toshishita, weight: sub, note: '資料: 炭治郎（Tanjirou）は兄であり', src: gemini}
+    - {id: jingai, weight: sub, note: '資料: 鬼に変えられたこと、人間から栄養を摂る代わりに長時間の睡眠によってエネルギーを回復すること。', src: gemini}
+    - {id: mitame-sabaku, weight: sub, note: '資料: 身体の大きさを意のままに変えることができる。', src: gemini}
   patterns: []
 
 - id: kamado-tanjirou
@@ -415,7 +410,7 @@
   kana: かまどたんじろう
   work: 鬼滅の刃
   year: 2016
-  summary: 妹を持つ兄であり、自らが伝説の日の呼吸の使い手であることを見出す少年。
+  summary: 鬼となった妹を人間に戻すために旅立ち、水の呼吸と伝説の日の呼吸を駆使して戦う兄。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b126071-BTNEc1nRIv68.png'
     page: 'https://anilist.co/character/126071'
@@ -431,7 +426,7 @@
     - {id: buki, weight: sub, note: 'danbooru weapon 45%', src: danbooru}
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 47%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 51%', src: danbooru}
-    - {id: toshiue, weight: sub, note: '資料: 禰豆子が妹であることが明記されており、炭治郎は年上の兄にあたる。', src: gemini}
+    - {id: toshiue, weight: sub, note: '資料: 妹の禰豆子を非常に大切に思っており、彼女を治す方法を見つけることを目指しているという記述から、兄（年上）としての役割・立場が確認できる。', src: gemini}
   patterns: []
 
 - id: kaneki-ken
@@ -439,7 +434,7 @@
   kana: かねきけん
   work: 東京喰種トーキョーグール
   year: 2011
-  summary: 普通の大学生から喰種の臓器移植を経て人外の能力を得たことで、人間と喰種の狭間で自らの居場所を模索する人物。
+  summary: 普通の人間としての生から喰種の臓器移植を経て人外の存在となり、双方の狭間で自己の居場所を模索する構造。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b87275-mb13EWZBdbh3.png'
     page: 'https://anilist.co/character/87275'
@@ -450,13 +445,10 @@
     date: '2026-08-26'
   elements:
     - {id: akame, weight: core, note: 'danbooru red_eyes 69%', src: danbooru}
-    - {id: jingai, weight: core, note: '資料: 利世の臓器を移植されたことで喰種の眼や再生能力、人間の食べ物を受け付けない体質が身につき、人間世界にも喰種世界にも属さない存在となった。', src: gemini}
-    - {id: nimensei, weight: core, note: '資料: 人間世界と喰種世界のどちらにも完全には属さない自覚を持ち、葛藤しながら行動している。', src: gemini}
+    - {id: jingai, weight: core, note: '資料: 元々は人間であり普通の大学生であったが、リゼの臓器を移植されたことで喰種の眼や再生能力といった人外の特徴や能力を得た。', src: gemini}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 67%', src: danbooru}
-    - {id: fushi, weight: sub, note: '資料: 臓器移植によって喰種の持つ再生能力が身についた。', src: gemini}
+    - {id: kataomoi, weight: sub, note: '資料: 人間に扮していた女性喰種のリゼに対し好意を寄せていた。', src: gemini}
     - {id: shirogami, weight: sub, note: 'danbooru white_hair 55%', src: danbooru}
-    - {id: tenraku, weight: sub, note: '資料: 元々は普通の大学生の人間だったが、襲撃と臓器移植をきっかけに喰種の特徴を持つ存在へと変質した。', src: gemini}
-    - {id: kataomoi, weight: spice, note: '資料: 神代利世に好意を寄せていたが、その好意を利用されて襲撃された。', src: gemini}
   patterns: []
 
 - id: kasuga-ayumu
@@ -464,7 +456,7 @@
   kana: かすがあゆむ
   work: あずまんが大王
   year: 1999
-  summary: 本名が失われるほど周囲の命名（あだ名）が浸透し定着する一方で、周囲との関わりの中で将来の進路を見出していく構造。
+  summary: 脈絡のない言動とマイペースさで周囲を翻弄しながらも、あだ名「大阪」として定着し独自の進路を見出していく人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b183-SKDRguIQJ0Iz.png'
     page: 'https://anilist.co/character/183'
@@ -475,8 +467,9 @@
     date: '2026-08-26'
   elements:
     - {id: chapatsu, weight: core, note: 'danbooru brown_hair 62%', src: danbooru}
+    - {id: tennen, weight: core, note: '資料: 脈絡のない発言（non sequiturs）をする傾向があり、授業中の居眠りや脈絡のない言動で担任のゆかりを繰り返し苛立たせている描写がある。', src: gemini}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 52%', src: danbooru}
-    - {id: hougen, weight: sub, note: '資料: 大阪からの転校生であり「大阪」があだ名になっているが、発話データ自体は資料に含まれていないため作品知識補完として確信度lowで選出。', src: gemini}
+    - {id: hougen, weight: sub, note: '資料: 資料上は「大阪からの転校生」「あだ名が大阪」という記述にとどまるが、作品上は方言（関西弁）で話す特徴がほぼ確実であるため。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 55%', src: danbooru}
   patterns: []
 
@@ -485,7 +478,7 @@
   kana: ききょう
   work: 犬夜叉
   year: 1996
-  summary: 陰謀によって愛した者と破滅させられた過去を持ち、死者として復活した後に宿敵への復讐と慈悲の間で孤高の戦いを全うした巫女。
+  summary: 一度は陰謀によって命を落とし泥と葉の身体で蘇った巫女であり、裏切りの誤解と復讐心を抱えて旅をしながらも、最期は愛した者の腕の中で穏やかに死を迎えた存在。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1359-AFczK1HRd3ub.png'
     page: 'https://anilist.co/character/1359'
@@ -496,15 +489,16 @@
     date: '2026-08-26'
   elements:
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 90%', src: danbooru}
-    - {id: fukushuu, weight: core, note: '資料: 自身を殺した奈落の謀略を知り、地上に留まる時間を奈落を倒すことに捧げると決意して単独で追いつづけた。', src: gemini}
+    - {id: fukushuu, weight: core, note: '資料: 自分と犬夜叉をハメて死に追いやった奈落の存在と真相を知り、地上に留まって奈落を殺すことを決意し単独で追い続けた。', src: gemini}
+    - {id: jinzou, weight: core, note: '資料: 一度死亡した後、鬼女裏陶によって泥と葉で作られた身体で蘇らされた。', src: gemini}
     - {id: kurokami, weight: core, note: 'danbooru black_hair 88%', src: danbooru}
-    - {id: miko, weight: core, note: 'danbooru miko 75% / 資料: 職業・立場として巫女であることが明記されている。', src: both}
+    - {id: miko, weight: core, note: 'danbooru miko 75% / 資料: 立場・職業が巫女である。', src: both}
     - {id: wasou, weight: core, note: 'danbooru japanese_clothes 88%', src: danbooru}
     - {id: hakama, weight: sub, note: 'danbooru hakama 56%', src: danbooru}
     - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 42%', src: danbooru}
-    - {id: saikai, weight: sub, note: '資料: 鬼婆の裏陶によって復活させられた後、かつて愛していた犬夜叉と再会を果たしている。', src: gemini}
-    - {id: surechigai, weight: sub, note: '資料: 犬夜叉の姿に化けた奈落の策謀によって互いに裏切られたと思い込まされ、戦わされた挙句に命を落とした。', src: gemini}
-    - {id: taijou, weight: spice, note: '資料: 奈落の攻撃を受けた後、最後は犬夜叉の腕の中で安らかに息を引き取った。', src: gemini}
+    - {id: saikai, weight: sub, note: '資料: 蘇った後、かつて愛し裏切られたと思い込んでいた犬夜叉と再会した。', src: gemini}
+    - {id: taijou, weight: sub, note: '資料: 奈落の攻撃を受けた後、かつて愛した犬夜叉の腕の中で穏やかに息を引き取り死亡した。', src: gemini}
+    - {id: uragiri, weight: sub, note: '資料: 50年前に奈落が犬夜叉に化けたことで、犬夜叉に裏切られたと思い込んでいた。', src: gemini}
   patterns: []
 
 - id: l-lawliet
@@ -512,7 +506,7 @@
   kana: える
   work: DEATH NOTE
   year: 2003
-  summary: 世間に姿を晒さず助手を通じてのみ行動する世界的な探偵であり、夜神月がキラであることを証明すべく捜査に挑む人物。
+  summary: 世界的な名探偵でありながら正体を伏せて活動し、丁寧な口調の裏に皮肉を交えつつ宿敵であるキラ（夜神月）を追い詰めていく人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b71-1W4panC53vfs.png'
     page: 'https://anilist.co/character/71'
@@ -523,9 +517,12 @@
     date: '2026-08-26'
   elements:
     - {id: kurokami, weight: core, note: 'danbooru black_hair 77%', src: danbooru}
-    - {id: shoutai, weight: core, note: '資料: 世間との連絡を助手のワタリを通してのみ行っており、公に姿を出さず正体を伏せて活動している。', src: gemini}
+    - {id: shukuteki, weight: core, note: '資料: 夜神月（キラ）を疑い、彼がキラであることを証明することを目標にして調査・挑戦を行っている。', src: gemini}
+    - {id: dokuzetsu, weight: sub, note: '資料: 時に相手を見下すような態度をとることや、皮肉な発言をすることがある。', src: gemini}
+    - {id: keigo, weight: sub, note: '資料: 一部の人に対して丁寧な口調で接する。', src: gemini}
     - {id: kurome, weight: sub, note: 'danbooru black_eyes 55%', src: danbooru}
     - {id: kusekke, weight: sub, note: 'danbooru hair_between_eyes 50%', src: danbooru}
+    - {id: shoutai, weight: sub, note: '資料: 本名（エル・ローライト）を伏せ、ワタリを通してのみ世界と通信するなど姿や正体を隠して活動している。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 59%', src: danbooru}
   patterns: []
 
@@ -534,7 +531,7 @@
   kana: りゔぁい
   work: 進撃の巨人
   year: 2009
-  summary: 「人類最強の兵士」としての絶対的な武力と率いる立場を持ちながら、160cmの低身長や徹底した潔癖症、部下への深い配慮と同居している構造。
+  summary: 人類最強の兵士として部下を率いる上官の立場でありながら、小柄な体形や元地下街の無法者という出自、過度の潔癖性が同居しているキャラクター。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b45627-CR68RyZmddGG.png'
     page: 'https://anilist.co/character/45627'
@@ -544,11 +541,12 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-26'
   elements:
-    - {id: joushi, weight: core, note: '資料: 調査兵団内の特別作戦班（リヴァイ班）の兵士長（Squad Captain）である。', src: gemini}
+    - {id: joushi, weight: core, note: '資料: 調査兵団の特別作戦班（リヴァイ班）の兵士長を務めている。', src: gemini}
     - {id: kurokami, weight: core, note: 'danbooru black_hair 78%', src: danbooru}
     - {id: saikyou, weight: core, note: '資料: 「人類最強の兵士」として知られている。', src: gemini}
     - {id: buki, weight: sub, note: 'danbooru weapon 45%', src: danbooru}
-    - {id: teishinchou, weight: sub, note: '資料: 身長は160cmである。', src: gemini}
+    - {id: muhoumono, weight: sub, note: '資料: 兵士になる前は地下街の犯罪に関わっていたという噂がある。', src: gemini}
+    - {id: teishinchou, weight: sub, note: '資料: 身長が160cmであることが明記されている。', src: gemini}
   patterns: []
 
 - id: makima
@@ -556,7 +554,7 @@
   kana: まきま
   work: チェンソーマン
   year: 2018
-  summary: 公安の指導的人物として組織の上に立ちながら、他者を従属的なペットとして扱う構造。
+  summary: 公安の中心的指導者として組織を率いる立場にありながら、人間をペットとして従属させる絶対的な支配構造を持つ。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b137080-UHcynYNjb5ZU.png'
     page: 'https://anilist.co/character/137080'
@@ -567,11 +565,12 @@
     date: '2026-08-26'
   elements:
     - {id: akagami, weight: core, note: 'danbooru red_hair 76%', src: danbooru}
+    - {id: akuma, weight: core, note: '資料: 資料には公安悪魔ハンターと記載されているが、作品上は支配の悪魔である。', src: gemini}
+    - {id: joushi, weight: core, note: '資料: 日本の公安の中心的指導者のひとりであり、熟練した悪魔ハンターの間で高い評判を得ている。', src: gemini}
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 61%', src: danbooru}
     - {id: mitsuami, weight: core, note: 'danbooru braid 66%', src: danbooru}
+    - {id: petto-atsukai, weight: core, note: '資料: デンジを自分の人間のペットとして引き取った。', src: gemini}
     - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 52%', src: danbooru}
-    - {id: joushi, weight: sub, note: '資料: 日本の公安における指導的人物の一人であり、高い評判を持っているという記述から。', src: gemini}
-    - {id: petto-atsukai, weight: sub, note: '資料: デンジを自分の「人間のペット」として引き取ったとされているため。', src: gemini}
   patterns: []
 
 - id: mikasa-ackerman
@@ -579,7 +578,7 @@
   kana: みかさあっかーまん
   work: 進撃の巨人
   year: 2009
-  summary: 両親と養母の殺害という相次ぐ喪失を経験し、残された大切な幼馴染である養兄を守るために軍に入隊した強い保護衝動を持つ女性。
+  summary: 幼少期に肉親を奪われる激しい喪失を経験し、自らを救った幼馴染兼義兄妹である存在を守るために軍へ身を投じる人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b40881-F3gr1PkreDvj.png'
     page: 'https://anilist.co/character/40881'
@@ -589,15 +588,14 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-26'
   elements:
+    - {id: gikyoudai, weight: core, note: '資料: 両親の死亡後イェーガー家に引き取られ、エレンとは養兄弟の関係にある。', src: gemini}
     - {id: kurokami, weight: core, note: 'danbooru black_hair 82%', src: danbooru}
-    - {id: osananajimi, weight: core, note: '資料: エレン・イェーガーやアルミン・アルレルトと幼馴染の関係にある。', src: gemini}
-    - {id: sewayaki, weight: core, note: '資料: エレンから貰ったマフラーを常に着用し、彼を危険から守るという動機で軍へ入隊している。', src: gemini}
-    - {id: soushitsu, weight: core, note: '資料: 生みの両親を惨殺されただけでなく、引き取られた先の養母カルラも巨人に殺害されて失っている。', src: gemini}
+    - {id: osananajimi, weight: core, note: '資料: エレン・イェーガーおよびアルミン・アルレルトと幼馴染関係にあることが明記されている。', src: gemini}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 77%', src: danbooru}
-    - {id: fuguu, weight: sub, note: '資料: 幼少期に生みの両親を人身売買組織に殺害され、自身も拉致された経験を持つ。', src: gemini}
-    - {id: gikyoudai, weight: sub, note: '資料: イェーガー家に養子として引き取られ、エレンは養兄の関係にあたる。', src: gemini}
-    - {id: koushinchou, weight: sub, note: '資料: 身長が170cm〜176cmと明確に設定されている。', src: gemini}
+    - {id: fuguu, weight: sub, note: '資料: 幼少期に人身売買組織によって目の前で両親を殺害され、自身も誘拐された過酷な生い立ちを持つ。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 公式プロフィールにおいて身長が170cm〜176cmと記載されている。', src: gemini}
     - {id: kurome, weight: sub, note: 'danbooru black_eyes 39%', src: danbooru}
+    - {id: soushitsu, weight: sub, note: '資料: 実の両親を強盗に殺害され、さらに引き取られた養母カルラも巨人の侵攻により失っている。', src: gemini}
   patterns: []
 
 - id: misaka-mikoto
@@ -626,7 +624,7 @@
   kana: みやぞのかをり
   work: 四月は君の嘘
   year: 2011
-  summary: 自由奔放な性格で観客を惹きつける14歳のヴァイオリニスト。
+  summary: 審査員の批判を恐れず自らの演奏スタイルを貫く表現者としての姿勢と、同級生を介して新たな関係を広げていく日常性を同居させた人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b69411-lxM0FRvWHqlv.png'
     page: 'https://anilist.co/character/69411'
@@ -638,8 +636,8 @@
   elements:
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 96%', src: danbooru}
-    - {id: tenshin, weight: core, note: '資料: 楽譜に従わない演奏のため審査員から批判を受ける一方、観客からは絶大な人気を誇る自由奔放な性格。', src: gemini}
     - {id: aome, weight: sub, note: 'danbooru blue_eyes 51%', src: danbooru}
+    - {id: ganko, weight: sub, note: '資料: 楽譜に従わないスタイルにより審査員から多くの批判を受けながらも、自らの演奏スタイルを貫いている点。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 56%', src: danbooru}
   patterns: []
 
@@ -688,7 +686,7 @@
   kana: なみ
   work: ONE PIECE
   year: 1997
-  summary: 懸賞金を懸けられた無法者としての立場と、気象の分析と航行技能で船と乗組員を救う専門家（職人）としての役割を同居させた人物。
+  summary: 天候を察知・分析する卓越した航海士としての専門性と、懸賞金がかけられた海賊としての無法者の立場を同居させている。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b723-vp5hPptgnNEC.png'
     page: 'https://anilist.co/character/723'
@@ -701,10 +699,10 @@
     - {id: akagami, weight: core, note: 'danbooru orange_hair 91%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 64%', src: danbooru}
     - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 62%', src: danbooru}
-    - {id: shokunin, weight: core, note: '資料: 役職が航海士であり、直感によってわずかな天候の変化を認識・分析してグランドラインの不安定な天候から船と乗組員を何度も救った。', src: gemini}
+    - {id: muhoumono, weight: core, note: '資料: 麦わらの一味という海賊に所属し、3億6600万などの懸賞金がかけられている。', src: gemini}
+    - {id: shokunin, weight: core, note: '資料: 役職が航海士であり、直感により天候のわずかな変化を察知・分析して船と乗組員を何度も救っている。', src: gemini}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 42%', src: danbooru}
     - {id: kokuin, weight: sub, note: 'danbooru tattoo 57%', src: danbooru}
-    - {id: muhoumono, weight: sub, note: '資料: 麦わらの一味に所属し、366,000,000などの懸賞金を懸けられた賞金首である。', src: gemini}
   patterns: []
 
 - id: oshino-shinobu
@@ -712,7 +710,7 @@
   kana: おしのしのぶ
   work: 化物語
   year: 2006
-  summary: 500年以上生きる吸血鬼でありながら力を失い、幼い外見と新しい名を得て暮らす存在。
+  summary: 500年以上生きた強大な吸血鬼としての過去を持ちながら、力と本来の人格を失い8歳の少女の姿で存在する不老の異形。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b23602-Z4MDNYcoAWZu.png'
     page: 'https://anilist.co/character/23602'
@@ -725,12 +723,14 @@
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 92%', src: danbooru}
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 76%', src: danbooru}
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 95%', src: danbooru}
-    - {id: kyuuketsuki, weight: core, note: '資料: 500年以上生きている美しい吸血鬼であり、スーサイドマスターによって吸血鬼に変えられた記述がある。', src: gemini}
-    - {id: mitame-sabaku, weight: core, note: '資料: 実年齢は598-599歳だが、外見は8歳程度である。', src: gemini}
+    - {id: kyuuketsuki, weight: core, note: '資料: 過去に吸血鬼に変えられ、500年以上生きている。', src: gemini}
+    - {id: mitame-sabaku, weight: core, note: '資料: 実年齢は598-599歳であるが、外見は8歳の少女に見える。', src: gemini}
     - {id: erufu, weight: sub, note: 'danbooru pointy_ears 46%', src: danbooru}
-    - {id: furou, weight: sub, note: '資料: 500年以上生きている記述がある。', src: gemini}
-    - {id: jingai, weight: sub, note: '資料: 人間ではない吸血鬼である。', src: gemini}
-    - {id: reijou, weight: spice, note: '資料: 吸血鬼になる前は「アセロラ」という本名の姫であった。', src: gemini}
+    - {id: furou, weight: sub, note: '資料: 500年以上生きている。', src: gemini}
+    - {id: jingai, weight: sub, note: '資料: 人間から吸血鬼に変えられた存在である。', src: gemini}
+    - {id: teishinchou, weight: sub, note: '資料: 8歳の少女の外見をしている。', src: gemini}
+    - {id: tenraku, weight: sub, note: '資料: かつては強大な吸血鬼「キスショット」であったが、現在は能力や元の人格の痕跡を失い弱体化している。', src: gemini}
+    - {id: reijou, weight: spice, note: '資料: 吸血鬼になる前は「アセロラ」と呼ばれる姫であった。', src: gemini}
   patterns: []
 
 - id: power
@@ -738,7 +738,7 @@
   kana: ぱわー
   work: チェンソーマン
   year: 2018
-  summary: 悪魔としての人外の性質を持ちながら、公安対魔特務課でパートナーとともに活動する魔人。
+  summary: 悪魔の力を宿す魔人でありながら、監督・命令系統の元でパートナーとともに活動する二重構造。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b137079-6yLEUYR3bmpr.png'
     page: 'https://anilist.co/character/137079'
@@ -748,14 +748,15 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-26'
   elements:
-    - {id: akuma, weight: core, note: 'danbooru demon_horns 53% / 資料: 悪魔に憑依された死体である「血の魔人」として記述されている。', src: both}
+    - {id: akuma, weight: core, note: 'danbooru demon_horns 53% / 資料: 悪魔に憑依された死体である魔人（血の魔人）と明記されているため。', src: both}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 85%', src: danbooru}
     - {id: jingai, weight: core, note: 'danbooru horns 95%', src: danbooru}
     - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 66%', src: danbooru}
-    - {id: aibou, weight: sub, note: '資料: デンジとパートナーとして共に働いている。', src: gemini}
+    - {id: aibou, weight: sub, note: '資料: デンジのパートナーとして一緒に働いていると記載されているため。', src: gemini}
     - {id: gizaba, weight: sub, note: 'danbooru sharp_teeth 51%', src: danbooru}
     - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 47%', src: danbooru}
-    - {id: koushinchou, weight: sub, note: '資料: 女性で身長170cmである。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 女性で身長170cmあるとプロフィールに記載されているため。', src: gemini}
+    - {id: shujuu, weight: sub, note: '資料: マキマの下で本人の意に反して働き、早川アキの監督下にあると記載されているため。', src: gemini}
   patterns: []
 
 - id: rem
@@ -763,7 +764,7 @@
   kana: れむ
   work: 'Re:ゼロから始める異世界生活'
   year: 2014
-  summary: 双子の姉に対する強い敬意と罪悪感から自己評価を低く保ちつつ、雇い主に対して丁寧な言動で誠実に仕えるメイドの少女。
+  summary: メイドとして仕えながら、双子の姉に対する強い尊敬と過去に起因する罪悪感から自己評価を低く抑圧している構造。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b88575-Ayu8UPDA8NS6.png'
     page: 'https://anilist.co/character/88575'
@@ -775,16 +776,14 @@
   elements:
     - {id: aogami, weight: core, note: 'danbooru blue_hair 95%', src: danbooru}
     - {id: aome, weight: core, note: 'danbooru blue_eyes 90%', src: danbooru}
-    - {id: futago, weight: core, note: '資料: ラムという双子の姉がいる。', src: gemini}
-    - {id: meido, weight: core, note: 'danbooru maid 56% / 資料: ロズワール・L・メイザーズに仕える双子メイドのひとりである。', src: both}
+    - {id: meido, weight: core, note: 'danbooru maid 56% / 資料: ロズワール・L・メイザースのもとで働く双子のメイドの一人。', src: both}
     - {id: mekakure, weight: core, note: 'danbooru hair_over_one_eye 62%', src: danbooru}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 88%', src: danbooru}
+    - {id: zaiakukan, weight: core, note: '資料: 双子の姉であるラムに対し、崇拝に近い尊敬と罪悪感を抱いている。', src: gemini}
     - {id: furiru, weight: sub, note: 'danbooru frills 38%', src: danbooru}
-    - {id: jikokoutei, weight: sub, note: '資料: かつては自分を劣っていると考えていた。', src: gemini}
-    - {id: juusha, weight: sub, note: '資料: 主君・雇い主に仕える立場にある。', src: gemini}
-    - {id: keigo, weight: sub, note: '資料: 表面上は丁寧な態度・口調で話す傾向がある。', src: gemini}
-    - {id: shujuu, weight: sub, note: '資料: 雇い主であるロズワール・L・メイザーズにメイドとして仕えている。', src: gemini}
-    - {id: zaiakukan, weight: sub, note: '資料: 姉の過去の出来事に対して罪悪感を抱いている。', src: gemini}
+    - {id: futago, weight: sub, note: '資料: 双子のメイドの一人であり、双子の姉であるラムが存在する。', src: gemini}
+    - {id: jikokoutei, weight: sub, note: '資料: 過去の出来事と姉への罪悪感から自分を劣っていると考えていた。', src: gemini}
+    - {id: keigo, weight: sub, note: '資料: 表面上は丁寧な話し方をする傾向がある。', src: gemini}
   patterns: []
 
 - id: rengoku-kyojuro
@@ -810,7 +809,7 @@
   kana: せばすちゃんみかえりす
   work: 黒執事
   year: 2006
-  summary: 悪魔という人外の正体と能力を持ちながら、契約により少年に仕え難題を完璧にこなす執事。
+  summary: 契約によって主人の意志に従う悪魔の存在でありながら、同時に忠実な執事・従者としての役割を担う構造。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b10863-DsfonbP2CATa.png'
     page: 'https://anilist.co/character/10863'
@@ -821,15 +820,14 @@
     date: '2026-08-26'
   elements:
     - {id: akame, weight: core, note: 'danbooru red_eyes 69%', src: danbooru}
-    - {id: akuma, weight: core, note: '資料: 種族が悪魔（Demon）である。', src: gemini}
+    - {id: akuma, weight: core, note: '資料: 種族が悪魔（Demon）であることが明記されている。', src: gemini}
     - {id: kurokami, weight: core, note: 'danbooru black_hair 90%', src: danbooru}
-    - {id: shitsuji, weight: core, note: '資料: ファントムハイヴ家の執事として仕えている。', src: gemini}
-    - {id: shujuu, weight: core, note: '資料: シエルの護衛を務め、シエルの意志に従うよう悪魔の契約で縛られている。', src: gemini}
+    - {id: shitsuji, weight: core, note: '資料: ファントムハイヴ家の執事であり、シエルの執事兼ボディガードを務めている。', src: gemini}
     - {id: tebukuro, weight: core, note: 'danbooru gloves 66%', src: danbooru}
-    - {id: jingai, weight: sub, note: '資料: 人間ではなく悪魔という種族である。', src: gemini}
-    - {id: juusha, weight: sub, note: '資料: ファントムハイヴ家の執事であり、シエルの護衛を務めている。', src: gemini}
-    - {id: keiyaku, weight: sub, note: '資料: シエルの意志に従うよう悪魔の契約（Faustian contract）で縛られている。', src: gemini}
-    - {id: koushinchou, weight: sub, note: '資料: 身長が185cmである。', src: gemini}
+    - {id: juusha, weight: sub, note: '資料: シエルの執事兼ボディガードとして仕える立場であることが示されている。', src: gemini}
+    - {id: keiyaku, weight: sub, note: '資料: シエルの意志に従うようファウスト的契約によって縛られている記述がある。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 身長が185cm（6''1"）であると明記されている。', src: gemini}
+    - {id: shujuu, weight: sub, note: '資料: シエルの執事兼ボディガードであり、契約によりシエルの意志に従う間柄であると明記されている。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 55%', src: danbooru}
   patterns: []
 
@@ -838,7 +836,7 @@
   kana: たかなしりっか
   work: '中二病でも恋がしたい!'
   year: 2011
-  summary: 父親の喪失という現実を拒絶する心の傷を抱えつつ、中二病としての振る舞いや不器用な対人関係の中で新たな絆を結んでいく少女。
+  summary: 父親の喪失という現実に直面しつつ、架空の設定と他者との契約によって自分を保ち生きる少女。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b65865-AC0ru7cDXUgK.png'
     page: 'https://anilist.co/character/65865'
@@ -850,15 +848,15 @@
   elements:
     - {id: ahoge, weight: core, note: 'danbooru ahoge 70%', src: danbooru}
     - {id: gantai, weight: core, note: 'danbooru eyepatch 88%', src: danbooru}
-    - {id: soushitsu, weight: core, note: '資料: 過去に父親を亡くしており、その事実を頑なに拒絶することが中二病の原因となっている。', src: gemini}
+    - {id: soushitsu, weight: core, note: '資料: 過去に父親を亡くしており、それが不可視境界線を信じて中二病を発症する原因となった。', src: gemini}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 68%', src: danbooru}
     - {id: aome, weight: sub, note: 'danbooru blue_eyes 60%', src: danbooru}
-    - {id: ganko, weight: sub, note: '資料: 父親が亡くなったという事実を頑なに拒絶・否定し続けている。', src: gemini}
-    - {id: hitomishiri, weight: sub, note: '資料: 初対面の人に対して警戒心が強く戦闘ポーズをとり、友達もあまり多くない。', src: gemini}
-    - {id: keiyaku, weight: sub, note: '資料: 富樫勇太と恋に落ちて契約を結んだ。', src: gemini}
+    - {id: ganko, weight: sub, note: '資料: 過去に父親を亡くしたが、それを頑なに否定している。', src: gemini}
+    - {id: hitomishiri, weight: sub, note: '資料: 初対面の人に対して警戒心が強く、会うと戦闘ポーズをとる。', src: gemini}
+    - {id: keiyaku, weight: sub, note: '資料: 最終的に富樫勇太と恋に落ち、彼と契約を結んだ。', src: gemini}
     - {id: kurokami, weight: sub, note: 'danbooru black_hair 49%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 58%', src: danbooru}
-    - {id: teishinchou, weight: sub, note: '資料: 15〜18歳で身長が150cmである。', src: gemini}
+    - {id: teishinchou, weight: sub, note: '資料: 15歳〜18歳の年齢で身長150cmである。', src: gemini}
   patterns: []
 
 - id: todoroki-shouto
@@ -866,7 +864,7 @@
   kana: とどろきしょうと
   work: 僕のヒーローアカデミア
   year: 2014
-  summary: トップヒーローの息子としての血脈と相反する二重の能力を抱え、確執と葛藤を経て周囲へ心を開いていくヒーロー候補。
+  summary: トップヒーローである父親への不和と相反する二元的な個性を抱え、葛藤を経て成長していく少年。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b89220-KNBwaVFAR8FD.png'
     page: 'https://anilist.co/character/89220'
@@ -883,9 +881,9 @@
     - {id: shirogami, weight: core, note: 'danbooru white_hair 79%', src: danbooru}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 82%', src: danbooru}
     - {id: aome, weight: sub, note: 'danbooru blue_eyes 53%', src: danbooru}
-    - {id: fuguu, weight: sub, note: '資料: 体育祭での出来事を経て大きな心境の変化を経験するに至った家庭環境と生い立ち。', src: gemini}
-    - {id: koushinchou, weight: sub, note: '資料: 15歳以上の高校1年生時点で身長176cmであること。', src: gemini}
-    - {id: reijou, weight: sub, note: '資料: トップヒーローであるエンデヴァーの末っ子として生まれた血筋。', src: gemini}
+    - {id: fuguu, weight: sub, note: '資料: 父親を長年拒絶しており、その影響で片方の能力の制御に難を抱えるなどの生い立ちの陰が存在する。', src: gemini}
+    - {id: reijou, weight: sub, note: '資料: トップヒーローであるエンデヴァーの末っ子という出自を持つ。', src: gemini}
+    - {id: koushinchou, weight: spice, note: '資料: 15歳以上の年齢で176cmの長身である。', src: gemini}
   patterns: []
 
 - id: tohru
@@ -893,7 +891,7 @@
   kana: とーる
   work: 小林さんちのメイドラゴン
   year: 2013
-  summary: 人外の竜でありながら、命を救われた人間に恋をしてメイドとして仕える主従関係を軸に持つキャラクター。
+  summary: 人間を超越した竜という人外の存在でありながら、自分を救った人間への愛情からメイドとして従属する主従関係と同居生活を営む構造を持つ。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b120970-knjWLdlQIs1y.jpg'
     page: 'https://anilist.co/character/120970'
@@ -904,17 +902,17 @@
     date: '2026-08-26'
   elements:
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 84%', src: danbooru}
-    - {id: jingai, weight: core, note: 'danbooru horns 94% / 資料: 人間の少女に変身するドラゴンという人ならざる存在である。', src: both}
+    - {id: jingai, weight: core, note: 'danbooru horns 94% / 資料: 人間とは異なるドラゴンという種族として描かれている。', src: both}
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 74%', src: danbooru}
-    - {id: meido, weight: core, note: 'danbooru maid_headdress 71% / 資料: 小林に救われたことで恋に落ち、メイドとして働くことを決めた。', src: both}
-    - {id: ryuu, weight: core, note: 'danbooru dragon_horns 81% / 資料: 人間の少女に変身する能力を持つ雌のドラゴンである。', src: both}
+    - {id: meido, weight: core, note: 'danbooru maid_headdress 71% / 資料: 小林さんの家でメイドとして働いており、救出されたことをきっかけにメイドとなった記述が複数箇所にある。', src: both}
+    - {id: ryuu, weight: core, note: 'danbooru dragon_horns 81% / 資料: 人間の姿に変身する能力を持つ混沌勢力のドラゴンであり、自らの尻尾についての記述が存在する。', src: both}
     - {id: shippo, weight: core, note: 'danbooru tail 62%', src: danbooru}
-    - {id: shujuu, weight: core, note: '資料: 小林に救われて恋をし、彼女のメイドとして仕えている。', src: gemini}
     - {id: twintail, weight: core, note: 'danbooru twintails 73%', src: danbooru}
-    - {id: hogosha, weight: sub, note: '資料: カンナに対して保護的であり、母親と姉を合わせたような存在である。', src: gemini}
+    - {id: hogosha, weight: sub, note: '資料: カンナに対して母親であり姉のような存在として接していると記述されている。', src: gemini}
     - {id: kin-no-me, weight: sub, note: 'danbooru orange_eyes 42%', src: danbooru}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 58%', src: danbooru}
-    - {id: shukuteki, weight: sub, note: '資料: エルマとはライバル関係にある。', src: gemini}
+    - {id: shujuu, weight: sub, note: '資料: 小林さんに救出されたのち、彼女のメイドとして仕えている。', src: gemini}
+    - {id: shukuteki, weight: sub, note: '資料: エルマとライバル関係にあることが明記されている。', src: gemini}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 58%', src: danbooru}
   patterns: []
 
@@ -923,7 +921,7 @@
   kana: とおさかりん
   work: Fate/stay night
   year: 2004
-  summary: 名門魔術師の家系を継ぐマスターとして戦う一方で、学校では優等生として振る舞い、過酷な決断を下しきれない人間性を抱える人物。
+  summary: 学校では模範的生徒として振る舞いつつ、家伝の魔術を継承する魔術師として戦いに身を投じる二面性を持った人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b498-lwawtSpLyATL.png'
     page: 'https://anilist.co/character/498'
@@ -934,14 +932,16 @@
     date: '2026-08-26'
   elements:
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 96%', src: danbooru}
-    - {id: majo, weight: core, note: '資料: 遠坂家の魔術の継承者であり、魔術師および第五次聖杯戦争のマスターである。', src: gemini}
+    - {id: majo, weight: core, note: '資料: 秘密裏に活動する魔術師であり、遠坂家の魔術の継承者として聖杯戦争に参加している。', src: gemini}
+    - {id: nimensei, weight: core, note: '資料: 学校では模範的生徒として振る舞う一方で、秘密裏に魔術師として活動している。', src: gemini}
     - {id: aome, weight: sub, note: 'danbooru blue_eyes 59%', src: danbooru}
-    - {id: keishou, weight: sub, note: '資料: 遠坂家の魔術の継承者であり、父親の遠坂時臣から自身の利益より魔術を優先するよう指導を受けた。', src: gemini}
+    - {id: keishou, weight: sub, note: '資料: 遠坂家の魔術の継承者として父や後見人から指導を受けている。', src: gemini}
     - {id: kurokami, weight: sub, note: 'danbooru black_hair 54%', src: danbooru}
-    - {id: nimensei, weight: sub, note: '資料: 魔術師・マスターとして戦う一方で、衛宮士郎と同じ学校に通う優等生である。', src: gemini}
-    - {id: reijou, weight: sub, note: '資料: 遠坂家の魔術の継承者である名家の出身。', src: gemini}
-    - {id: shitei, weight: sub, note: '資料: 父親の死後、後見人である言峰綺礼から魔術の指導・助言を受けた。', src: gemini}
-    - {id: shujuu, weight: sub, note: '資料: 第五次聖杯戦争のマスターであり、サーヴァントであるアーチャーを召喚した。', src: gemini}
+    - {id: reijou, weight: sub, note: '資料: 遠坂家の魔術の継承者という名家の血筋と格を背負っている。', src: gemini}
+    - {id: shitei, weight: sub, note: '資料: 父親である遠坂時臣や後見人の言峰綺礼から魔術の指導を受けた。', src: gemini}
+    - {id: shoutai, weight: sub, note: '資料: 魔術師であることを隠し、秘密裏に活動している。', src: gemini}
+    - {id: shujuu, weight: sub, note: '資料: 聖杯戦争のマスターとしてサーヴァントであるアーチャーを召喚し従えている。', src: gemini}
+    - {id: kabau, weight: spice, note: '資料: 妹である間桐桜を殺すことができず、代わりに自ら攻撃を受けた。', src: gemini}
   patterns: []
 
 - id: tsukino-usagi
@@ -949,7 +949,7 @@
   kana: つきのうさぎ
   work: 美少女戦士セーラームーン
   year: 1991
-  summary: 学生としての日常を送りながらセーラームーンへと変身して戦う魔法少女であり、前世である月のプリンセスの宿命を背負う存在。
+  summary: 日常を送る中でセーラームーンに変身して戦う魔法少女の側面と、前世の月のプリンセス・セレニティという王族の転生体としての側面が同居する主人公。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2030-GQvVYPEYkXCy.jpg'
     page: 'https://anilist.co/character/2030'
@@ -962,12 +962,12 @@
     - {id: aome, weight: core, note: 'danbooru blue_eyes 77%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 92%', src: danbooru}
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 87%', src: danbooru}
-    - {id: mahou-shoujo, weight: core, note: 'danbooru magical_girl 62% / 資料: 学生であり、セーラームーンに変身して戦うヒーローである。', src: both}
+    - {id: mahou-shoujo, weight: core, note: 'danbooru magical_girl 62% / 資料: セーラームーンに変身するヒロイン・主人公であること、作中でセーラームーンに変身する点が記述されている。', src: both}
     - {id: odango, weight: core, note: 'danbooru hair_bun 78%', src: danbooru}
     - {id: seifuku, weight: core, note: 'danbooru sailor_collar 64%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 90%', src: danbooru}
     - {id: choker, weight: sub, note: 'danbooru choker 58%', src: danbooru}
-    - {id: reijou, weight: sub, note: '資料: 月のプリンセス・セレニティの現代における転生体である。', src: gemini}
+    - {id: reijou, weight: sub, note: '資料: 「月のプリンセス・セレニティの現代における転生体である」との記述から、王族（プリンセス）の立場を持つ。', src: gemini}
   patterns: []
 
 - id: violet-evergarden
@@ -975,7 +975,7 @@
   kana: ゔぁいおれっとえゔぁーがーでん
   work: ヴァイオレット・エヴァーガーデン
   year: 2015
-  summary: 孤児の幼少兵として命令に従い戦った過去と、退役後に手紙の代筆業を通して他人の感情を学んでいく姿が同居する人物。
+  summary: 孤児として過酷な軍歴を歩んだ不遇な過去を持ちつつ、手紙の代筆を行う職人（Doll）としての仕事を通して人間らしい感情を獲得していく元兵士の少女。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b90169-4wr1Zehnsac8.png'
     page: 'https://anilist.co/character/90169'
@@ -986,14 +986,11 @@
     date: '2026-08-26'
   elements:
     - {id: aome, weight: core, note: 'danbooru blue_eyes 80%', src: danbooru}
+    - {id: fuguu, weight: core, note: '資料: 軍に拾われる前は言語も理解できず殺害命令のみを理解する状態であり、孤児の兵士として育ったため。', src: gemini}
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 93%', src: danbooru}
     - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 69%', src: danbooru}
     - {id: mitsuami, weight: core, note: 'danbooru braid 62%', src: danbooru}
-    - {id: fuguu, weight: sub, note: '資料: 孤児の幼少兵として軍で育てられた背景を持つ。', src: gemini}
-    - {id: keigo, weight: sub, note: '資料: 軍を退役した後も軍人生活で使っていた硬い言葉遣いをする習慣が残っている。', src: gemini}
-    - {id: shokunin, weight: sub, note: '資料: 退役後は自動手記人形として手紙の代筆業を行っている。', src: gemini}
-    - {id: shujuu, weight: sub, note: '資料: かつて自分に命令を与える大人たちに従い、指示通りに行動していた。', src: gemini}
-    - {id: soushitsu, weight: sub, note: '資料: 戦争によって両腕を失い、義手を装着している。', src: gemini}
+    - {id: shokunin, weight: sub, note: '資料: 退役後に「Doll（自動手記人形）」として人々の手紙の代筆を行う仕事に従事しているため。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 36%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 44%', src: danbooru}
   patterns: []
@@ -1003,7 +1000,7 @@
   kana: やがみらいと
   work: DEATH NOTE
   year: 2003
-  summary: 優秀な学生として社会に適応しながら、裏ではノートを用いて自らを神と称し理想の世界を構築しようとする二面性を持つ人物。
+  summary: 学業優秀な学生としての表の顔と、デスノートを用いて理想の世界を築こうとする「キラ」という裏の顔が同居する構造。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b80-26EhwSsSqQ50.png'
     page: 'https://anilist.co/character/80'
@@ -1014,9 +1011,8 @@
     date: '2026-08-26'
   elements:
     - {id: chapatsu, weight: core, note: 'danbooru brown_hair 66%', src: danbooru}
-    - {id: koushinchou, weight: sub, note: '資料: 身長は179cm。', src: gemini}
-    - {id: nimensei, weight: sub, note: '資料: 東応大学の入学試験でトップクラスの成績を修める学生でありながら、「キラ」としてデスノートを使い理想の正義の世界を創ろうとした。', src: gemini}
-    - {id: shoutai, weight: sub, note: '資料: 「キラ」という通称を持ち、デスノートを使用し自らを新しい神とする理想の正義の世界を創ろうとした。', src: gemini}
+    - {id: nimensei, weight: core, note: '資料: 東応大学に入試トップクラスの成績で入学する学生の顔と、自身を新たな神とした正義の世界を作ろうとする「キラ」の顔を併せ持つ。', src: gemini}
+    - {id: shoutai, weight: core, note: '資料: 優秀な高校生・大学生として過ごしながら、裏では「キラ」としてデスノートを用い活動している。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 51%', src: danbooru}
   patterns: []
 
@@ -1025,7 +1021,7 @@
   kana: よるふぉーじゃー
   work: SPY×FAMILY
   year: 2019
-  summary: 市役所事務員という表の顔と暗殺者という裏の顔の二面性を持ち、利害の一致による契約（偽装結婚）で生活を営む人物。
+  summary: 市役所事務員としての穏やかな表の顔と暗殺者という裏の顔を持ち、利害の一致による偽装結婚によって正体を隠しながら生活する構造。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b138102-ZOAu9jI2d5ke.png'
     page: 'https://anilist.co/character/138102'
@@ -1036,14 +1032,15 @@
     date: '2026-08-26'
   elements:
     - {id: akame, weight: core, note: 'danbooru red_eyes 84%', src: danbooru}
-    - {id: ansatsusha, weight: core, note: '資料: 暗殺組織「ガーデン」に所属する暗殺者（いばら姫）として活動している。', src: gemini}
+    - {id: ansatsusha, weight: core, note: '資料: 市役所の事務員を務める裏で、暗殺組織『ガーデン』に所属する暗殺者（いばら姫）として活動している。', src: gemini}
     - {id: kurokami, weight: core, note: 'danbooru black_hair 87%', src: danbooru}
-    - {id: nimensei, weight: core, note: '資料: 市役所の事務員という日常の顔と、暗殺組織に所属する裏の顔の両方を持つ。', src: gemini}
-    - {id: shoutai, weight: core, note: '資料: 表向きは市役所の事務員だが、裏の顔として暗殺者であることを隠している。', src: gemini}
+    - {id: nimensei, weight: core, note: '資料: 普段は柔らかく穏やかな話し方の市役所事務員でありながら、裏では強力な準軍事暗殺組織の暗殺者という二つの顔を持つ。', src: gemini}
+    - {id: shoutai, weight: core, note: '資料: 周囲に暗殺者としての正体がバレることを心配し、その隠れ蓑としてロイドと偽装結婚を行った。', src: gemini}
     - {id: buki, weight: sub, note: 'danbooru weapon 38%', src: danbooru}
     - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 55%', src: danbooru}
-    - {id: hogosha, weight: sub, note: '資料: アーニャ・フォージャーを養女としている。', src: gemini}
-    - {id: keiyaku, weight: sub, note: '資料: 独身であることが発覚するのを防ぐため、利害の一致によりロイドと偽装結婚の合意に至った。', src: gemini}
+    - {id: hogosha, weight: sub, note: '資料: 養女であるアーニャ・フォージャーの母として生活している。', src: gemini}
+    - {id: keiyaku, weight: sub, note: '資料: 互いの目的と利害が一致したことから、ロイド・フォージャーと偽装結婚（Marriage of Convenience）を行った。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: プロフィールにおいて女性で身長170cmと明記されている。', src: gemini}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 56%', src: danbooru}
   patterns: []
 
@@ -1052,7 +1049,7 @@
   kana: ゆのはなゆうな
   work: ゆらぎ荘の幽奈さん
   year: 2016
-  summary: 生前の記憶を失った地縛霊として特定の場所に留まりながら、自身の正体を知るための協力者へ愛着を寄せる構造を持つ。
+  summary: 生前の記憶を失いゆらぎ荘に縛られている地縛霊であり、自分の正体を探す過程で協力者への愛着を深めていく構造。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b127238-AmnPnW9JsD3k.png'
     page: 'https://anilist.co/character/127238'
@@ -1064,9 +1061,9 @@
   elements:
     - {id: akame, weight: core, note: 'danbooru red_eyes 85%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 81%', src: danbooru}
-    - {id: kioku-soushitsu, weight: core, note: '資料: 生前の記憶がないため、自分が誰であったかを突き止めるために助けを求めている。', src: gemini}
+    - {id: kioku-soushitsu, weight: core, note: '資料: 生きている時の記憶がない。', src: gemini}
     - {id: shirogami, weight: core, note: 'danbooru white_hair 72%', src: danbooru}
-    - {id: yuurei, weight: core, note: 'danbooru ghost 63% / 資料: ゆらぎ荘に縛られている幽霊（地縛霊）であるという記述がある。', src: both}
+    - {id: yuurei, weight: core, note: 'danbooru ghost 63% / 資料: ゆらぎ荘に縛られている幽霊（地縛霊）である。', src: both}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 59%', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 35%', src: danbooru}
   patterns: []
@@ -1076,7 +1073,7 @@
   kana: ぜろつー
   work: ダーリン・イン・ザ・フランキス
   year: 2018
-  summary: 叫竜の血を引く人外の種族でありながら、特定の相手とパートナー関係を結んで戦うエリートパイロット。
+  summary: 叫竜の血を引く人外としての出自を持ちながら、パートナーとともに機体を駆るパイロットとしての側面を併せ持つ人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b124381-2gAVq76HPfL2.png'
     page: 'https://anilist.co/character/124381'
@@ -1087,10 +1084,10 @@
     date: '2026-08-26'
   elements:
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 94%', src: danbooru}
-    - {id: jingai, weight: core, note: 'danbooru horns 89% / 資料: 叫竜の血を引く人間の種族と記載されている', src: both}
+    - {id: jingai, weight: core, note: 'danbooru horns 89% / 資料: 叫竜（Klaxosaur）の血を引く人種のメンバー', src: both}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 94%', src: danbooru}
-    - {id: aibou, weight: sub, note: '資料: ヒロとパートナー関係にある', src: gemini}
-    - {id: koushinchou, weight: sub, note: '資料: 女性で身長が170cmある', src: gemini}
+    - {id: aibou, weight: sub, note: '資料: ヒロ（Hiro）がパートナーである。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 身長は170cmである。', src: gemini}
     - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 54%', src: danbooru}
-    - {id: ryuu, weight: sub, note: '資料: 叫竜の血を引く種族である', src: gemini}
+    - {id: ryuu, weight: sub, note: '資料: 叫竜（Klaxosaur）の血を引く人種のメンバー', src: gemini}
   patterns: []
