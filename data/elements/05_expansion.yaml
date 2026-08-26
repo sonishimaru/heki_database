@@ -668,3 +668,136 @@
   pairs_with: [hogosha, tennen]
   contrasts_with: [koushinchou]
   tags: [定番]
+
+# --- 7巡目: 95名まで広げて浮いた穴（70〜90年代作品と男性キャラの追加で見えたもの） ---
+- id: sakadachi-gami
+  name: 逆立ち髪
+  kana: さかだちがみ
+  aliases: [ツンツン頭, 逆立った髪]
+  axis: appearance.hairstyle
+  summary: 重力に逆らって立つ髪。気迫がそのまま形になっている。
+  effect: 髪の立ち方で戦意の高低を示し、萎れた姿を敗北の絵にする。
+  pairs_with: [kinniku, karetsu]
+  contrasts_with: [chouhatsu]
+  tags: [定番]
+
+- id: bouzu
+  name: 坊主頭
+  kana: ぼうずあたま
+  aliases: [スキンヘッド, 丸刈り]
+  axis: appearance.hairstyle
+  summary: 髪を落とした頭。飾りを捨てた者の記号。
+  effect: 髪型で個性を出せない分、表情と佇まいだけで語らせる。
+  pairs_with: [muhyoujou, saikyou]
+  contrasts_with: [chouhatsu]
+  tags: []
+
+- id: bushouhige
+  name: 無精髭
+  kana: ぶしょうひげ
+  aliases: [不精髭, 髭]
+  axis: appearance.face
+  summary: 剃り残した髭。生活の乱れと年季を同時に出す。
+  effect: 整えた姿との落差を作り、私生活のだらしなさを一目で見せる。
+  pairs_with: [zubora, kuma]
+  contrasts_with: []
+  tags: [定番]
+
+- id: sobakasu
+  name: そばかす
+  kana: そばかす
+  aliases: [雀斑]
+  axis: appearance.face
+  summary: 頬に散る斑点。素朴さと生活感の記号。
+  effect: 作り込まれた美しさから外し、手の届く距離感を出す。
+  pairs_with: [akagami, tennen]
+  contrasts_with: []
+  tags: [定番]
+
+- id: kamen
+  name: 仮面
+  kana: かめん
+  aliases: [マスク, 覆面]
+  axis: appearance.item
+  summary: 顔を覆うもの。素顔を見せないことが立場になっている。
+  effect: 外す瞬間を最大の見せ場に取っておき、それまで一度も見せない。
+  pairs_with: [shoutai, nimensei]
+  contrasts_with: []
+  tags: [定番]
+
+- id: uchuujin
+  name: 宇宙人
+  kana: うちゅうじん
+  aliases: [異星人, エイリアン]
+  axis: appearance.species
+  summary: 地球の外から来た存在。常識の基準がそもそも違う。
+  effect: 悪気のない逸脱を積み重ね、こちらの常識のほうを相対化する。
+  pairs_with: [jingai, tennen, yosomono]
+  contrasts_with: []
+  tags: [定番]
+
+- id: koukishin
+  name: 好奇心
+  kana: こうきしん
+  aliases: [知りたがり, 詮索好き]
+  axis: mind.temperament
+  summary: 気になったら止まらない性分。距離を詰める動力になる。
+  effect: 引っ込み思案な相手を引きずり出す役に置き、事件の起点にする。
+  pairs_with: [kansatsu, tenshin]
+  contrasts_with: [teikan]
+  tags: [定番]
+
+- id: sekininkan
+  name: 責任感
+  kana: せきにんかん
+  aliases: [職責, 引き受ける]
+  axis: mind.creed
+  summary: 引き受けたものは投げ出さないという構え。
+  effect: 普段は怠けている人物に一点だけ譲らない線を引き、そこで動かす。
+  pairs_with: [giri, jiko-gisei, joushi]
+  contrasts_with: [zubora]
+  tags: [定番]
+
+- id: shuushuuheki
+  name: 収集癖
+  kana: しゅうしゅうへき
+  aliases: [コレクター, 集める]
+  axis: mind.habit
+  summary: 集めずにいられない性分。持ち物が人格の履歴になる。
+  effect: 集めたものを一つずつ見せることで、語らせずに来歴を語る。
+  pairs_with: [katami, shokunin]
+  contrasts_with: []
+  tags: []
+
+- id: nouryokusha
+  name: 能力者
+  kana: のうりょくしゃ
+  aliases: [異能者, 超能力者]
+  axis: relation.position
+  summary: 常人にない力を持つ側。持つこと自体が立場になっている。
+  effect: 力の有無で線を引き、持たない側との断絶を関係の軸にする。
+  pairs_with: [saikyou, jingai]
+  contrasts_with: []
+  tags: [定番]
+
+- id: joyuu
+  name: 女優
+  kana: じょゆう
+  aliases: [俳優, 役者]
+  axis: relation.position
+  summary: 演じることが職業の人。素顔と役の境が仕事で曖昧になる。
+  effect: 演技と本心の区別がつかない状況を作り、どちらかを後で明かす。
+  pairs_with: [aidoru, nimensei, tsukuri-warai]
+  contrasts_with: []
+  tags: [定番]
+
+- id: samurai
+  name: 侍
+  kana: さむらい
+  aliases: [武士, 剣士]
+  axis: appearance.motif
+  summary: 刀と和装の記号。抜くか抜かないかが常に問われる。
+  effect: 抜かない理由を設定に置き、抜いた一度を決定的にする。
+  pairs_with: [wasou, buki, giri]
+  contrasts_with: []
+  tags: [定番]

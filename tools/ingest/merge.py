@@ -114,6 +114,22 @@ GENERIC_TAGS = {
     # 装飾小物（hair_ornament / jewelry と同類）
     "circlet", "crescent", "crescent_earrings", "red_choker", "gem", "green_gem",
     "brooch", "triangular_headpiece", "white_hairband", "hair_intakes",
+    # 作品固有（制服・装備・固有名）
+    "super_saiyan", "saiyan_armor", "dragonslayer_(sword)", "flak_jacket",
+    "konohagakure_shinobi_uniform", "jujutsu_tech_uniform", "dougi",
+    "shuuchiin_academy_school_uniform", "kamiyama_high_school_uniform_(hyouka)",
+    "naoetsu_high_school_uniform", "sobu_high_school_uniform",
+    "sakuragaoka_high_school_uniform", "interface_headset_(evangelion)",
+    "print_haori", "red_haori", "kikkoumon", "hair_tubes", "kishimen_hair",
+    # 汎用の服飾・装飾
+    "necklace", "red_bow", "black_bow", "hat_bow", "red_bowtie", "red_necktie",
+    "black_jacket", "red_skirt", "belt", "black_belt", "buttons", "pocket",
+    "breast_pocket", "object_in_pocket", "pen_in_pocket", "beads", "wrist_cuffs",
+    "detached_collar", "high_collar", "ribbon_trim", "tooth_necklace",
+    "formal_clothes", "black_pantyhose", "black_shorts", "apron",
+    "leotard", "black_leotard", "strapless_leotard", "strapless", "red_bodysuit",
+    "playboy_bunny", "animal_print", "tiger_print", "fake_animal_ears",
+    "transparent_background", "cat",
 }
 
 

@@ -19,7 +19,7 @@ elements:
   twintail:
     tags: [twintails, low_twintails, short_twintails, two_side_up]
   ponytail:
-    tags: [ponytail, high_ponytail, side_ponytail, folded_ponytail, one_side_up]
+    tags: [ponytail, high_ponytail, side_ponytail, folded_ponytail, one_side_up, low_ponytail, topknot]
   hime-cut:
     tags: [hime_cut]
   ahoge:
@@ -84,7 +84,7 @@ elements:
   gishi:
     tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb]
   kokuin:
-    tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo]
+    tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo, facial_mark, whisker_markings, facepaint]
 
   # --- 服装 ---
   seifuku:
@@ -103,7 +103,7 @@ elements:
   furiru:
     tags: [frills, frilled_dress, lolita_fashion, gothic_lolita, layered_dress]
   gaitou:
-    tags: [cape, cloak, coat, long_coat, hooded_cloak, trench_coat]
+    tags: [cape, cloak, coat, long_coat, hooded_cloak, trench_coat, hood]
 
   # --- 小物 ---
   megane:
@@ -120,13 +120,13 @@ elements:
   heddohon:
     tags: [headphones, headset, earphones]
   buki:
-    tags: [holding_weapon, weapon, sword, katana, gun, spear, scythe, holding_sword]
+    tags: [holding_weapon, weapon, sword, katana, gun, spear, scythe, holding_sword, sheath]
 
   # --- 種族（外見から確実に読める範囲だけ） ---
   kemomimi:
-    tags: [animal_ears, cat_ears, fox_ears, wolf_ears, animal_ear_fluff, wolf_girl, cat_girl, fox_girl]
+    tags: [animal_ears, cat_ears, fox_ears, wolf_ears, animal_ear_fluff, wolf_girl, cat_girl, fox_girl, dog_ears, rabbit_ears]
   jingai:
-    tags: [horns, monster_girl, slime_girl, lamia, mermaid, red_horns]
+    tags: [horns, monster_girl, slime_girl, lamia, mermaid, red_horns, cone_horns]
   jinzou:
     tags: [android, robot, robot_joints, mechanical_parts, doll_joints, joints]
 
@@ -199,7 +199,7 @@ elements:
   naasu:
     tags: [nurse, nurse_cap]
   majo:
-    tags: [witch, witch_hat]
+    tags: [witch, witch_hat, broom]
   kishi:
     tags: [knight, armor, plate_armor]
     threshold: 0.4
@@ -251,7 +251,7 @@ elements:
   mahou-shoujo:
     tags: [magical_girl]
   ninja:
-    tags: [ninja, kunoichi]
+    tags: [ninja, kunoichi, forehead_protector]
   chuukafuku:
     tags: [chinese_clothes, china_dress, tangzhuang, qipao]
   kurome:
@@ -265,6 +265,21 @@ elements:
   kodomo:
     tags: [child, aged_down]
     threshold: 0.5
+
+  # --- 7 巡目 ---
+  sakadachi-gami:
+    tags: [spiked_hair]
+  bouzu:
+    tags: [bald, shaved_head, buzz_cut]
+  bushouhige:
+    tags: [stubble, beard_stubble, facial_hair, beard, goatee]
+  sobakasu:
+    tags: [freckles]
+  kamen:
+    tags: [mask, mouth_mask, masked, domino_mask]
+    threshold: 0.4
+  samurai:
+    tags: [samurai]
 
 # 画像タグでは判定しない見出し語（vision.py または手作業の担当）
 #   unaji         … Danbooru に対応タグがない
