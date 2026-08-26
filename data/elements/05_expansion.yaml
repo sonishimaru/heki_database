@@ -579,3 +579,92 @@
   pairs_with: [gishiki, yakusoku, kikan-gentei]
   contrasts_with: [ichido-dake]
   tags: [定番]
+
+# --- 6巡目: 全45名を新語彙で当て直した後に残った穴 ---
+- id: chuuni
+  name: 中二病
+  kana: ちゅうにびょう
+  aliases: [邪気眼, 設定持ち]
+  axis: mind.temperament
+  summary: 自分だけの設定を本気で生きる態度。恥ずかしさと切実さが同居する。
+  effect: 設定を笑いにしたうえで、その設定が本人の逃げ場だった理由を後から出す。
+  pairs_with: [gantai, hitomishiri]
+  contrasts_with: [gouri]
+  tags: [定番]
+
+- id: kireizuki
+  name: 綺麗好き
+  kana: きれいずき
+  aliases: [潔癖]
+  axis: mind.habit
+  summary: 汚れと乱れが我慢できない性分。手を動かさずにいられない。
+  effect: 戦いのあとに掃除させることで、日常へ戻る手続きを見せる。
+  pairs_with: [shokunin, muhyoujou]
+  contrasts_with: [zubora]
+  tags: [定番]
+
+- id: kyoushi
+  name: 教師
+  kana: きょうし
+  aliases: [先生, 教官]
+  axis: relation.position
+  summary: 教える立場。次の世代を育てる責任を負っている。
+  effect: 教える側の限界を描き、生徒に超えられる筋道を用意する。
+  pairs_with: [shitei, joushi]
+  contrasts_with: []
+  tags: [定番]
+
+- id: hanyou
+  name: 半妖
+  kana: はんよう
+  aliases: [半人半妖, 半人外]
+  axis: appearance.species
+  summary: 人と人ならざるものの間に生まれた存在。どちらにも属しきれない。
+  effect: 双方から拒まれる立場を出発点にし、居場所を選ぶ話にする。
+  pairs_with: [jingai, yosomono, kemomimi]
+  contrasts_with: []
+  tags: [定番]
+
+- id: zense
+  name: 前世
+  kana: ぜんせ
+  aliases: [転生, 生まれ変わり]
+  axis: narrative.secret
+  summary: 今の生の前にあった別の生。本人より先に周囲が知っていることが多い。
+  effect: 前世の因縁を現在の関係に重ね、選び直しの話にする。
+  pairs_with: [kako, yakusoku, kioku-soushitsu]
+  contrasts_with: []
+  tags: [定番]
+
+- id: mafuraa
+  name: マフラー
+  kana: まふらー
+  aliases: [襟巻き, スカーフ]
+  axis: appearance.item
+  summary: 首に巻く布。贈り主の記憶を持ち歩く小物になりやすい。
+  effect: 誰にもらったかを一度だけ示し、以後は身につけている事実だけを見せる。
+  pairs_with: [katami, gaitou]
+  contrasts_with: []
+  tags: [定番]
+
+- id: gakki
+  name: 楽器
+  kana: がっき
+  aliases: [演奏]
+  axis: appearance.item
+  summary: 手にする楽器。言葉より先に本心が出る回路。
+  effect: 喋らない人物に演奏で語らせ、途切れた時を事件にする。
+  pairs_with: [shokunin, byoujaku]
+  contrasts_with: []
+  tags: [定番]
+
+- id: kodomo
+  name: 子供
+  kana: こども
+  aliases: [幼児, 小さい]
+  axis: appearance.build
+  summary: 幼い姿。守られる側に置かれ、発言の重みを割り引かれる。
+  effect: 見くびられる前提を作り、その子だけが知っている事実とぶつける。
+  pairs_with: [hogosha, tennen]
+  contrasts_with: [koushinchou]
+  tags: [定番]

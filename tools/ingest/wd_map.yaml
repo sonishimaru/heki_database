@@ -17,9 +17,9 @@ elements:
   tanpatsu:
     tags: [short_hair, very_short_hair, pixie_cut, undercut, buzz_cut]
   twintail:
-    tags: [twintails, low_twintails, short_twintails]
+    tags: [twintails, low_twintails, short_twintails, two_side_up]
   ponytail:
-    tags: [ponytail, high_ponytail, side_ponytail, folded_ponytail]
+    tags: [ponytail, high_ponytail, side_ponytail, folded_ponytail, one_side_up]
   hime-cut:
     tags: [hime_cut]
   ahoge:
@@ -59,7 +59,7 @@ elements:
   namida-bokuro:
     tags: [mole_under_eye, mole_under_mouth]
   kuma:
-    tags: [eyebags, dark_circles]
+    tags: [eyebags, dark_circles, bags_under_eyes]
   tsukuri-warai:
     tags: [fake_smile, forced_smile]
     threshold: 0.5
@@ -80,9 +80,9 @@ elements:
     tags: [skinny, slender, narrow_waist]
     threshold: 0.5
   kizuato:
-    tags: [scar, scar_on_face, scar_across_eye, scar_on_cheek, burn_scar]
+    tags: [scar, scar_on_face, scar_across_eye, scar_on_cheek, burn_scar, scar_on_forehead]
   gishi:
-    tags: [prosthesis, mechanical_arm, mechanical_hand, artificial_limb]
+    tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb]
   kokuin:
     tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo]
 
@@ -222,7 +222,7 @@ elements:
 
   # --- 3 巡目 ---
   messhu:
-    tags: [multicolored_hair, two-tone_hair, streaked_hair, gradient_hair, colored_inner_hair]
+    tags: [multicolored_hair, two-tone_hair, streaked_hair, gradient_hair, colored_inner_hair, split-color_hair]
 
   # --- 4 巡目 ---
   shippo:
@@ -253,9 +253,18 @@ elements:
   ninja:
     tags: [ninja, kunoichi]
   chuukafuku:
-    tags: [chinese_clothes, china_dress, tangzhuang]
+    tags: [chinese_clothes, china_dress, tangzhuang, qipao]
   kurome:
     tags: [black_eyes]
+
+  # --- 6 巡目 ---
+  mafuraa:
+    tags: [scarf, red_scarf]
+  gakki:
+    tags: [instrument, violin, piano, guitar, holding_instrument]
+  kodomo:
+    tags: [child, aged_down]
+    threshold: 0.5
 
 # 画像タグでは判定しない見出し語（vision.py または手作業の担当）
 #   unaji         … Danbooru に対応タグがない

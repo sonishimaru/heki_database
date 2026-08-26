@@ -151,6 +151,10 @@ def gemini_api_key() -> str:
     return key
 
 
+class GeminiEmptyResponse(RuntimeError):
+    """候補が返らなかった（安全フィルタ等）。モデルを変えても直らないので即座に諦める。"""
+
+
 class GeminiHTTPError(RuntimeError):
     def __init__(self, code: int, detail: str):
         super().__init__(f"Gemini API エラー {code}: {detail}")
@@ -180,8 +184,16 @@ def call_gemini(model: str, parts: list[dict], schema: dict, api_key: str, tempe
             payload = json.loads(response.read())
     except urllib.error.HTTPError as err:
         raise GeminiHTTPError(err.code, err.read().decode("utf-8", "replace")[:500])
-    text = payload["candidates"][0]["content"]["parts"][0]["text"]
-    return json.loads(text)
+    candidates = payload.get("candidates") or []
+    if not candidates:
+        # 安全フィルタでブロックされた場合など。理由を出して呼び出し元に投げる
+        reason = (payload.get("promptFeedback") or {}).get("blockReason") or "理由不明"
+        raise GeminiEmptyResponse(f"{model} が候補を返しませんでした（{reason}）")
+    parts_out = (candidates[0].get("content") or {}).get("parts") or []
+    if not parts_out:
+        reason = candidates[0].get("finishReason") or "理由不明"
+        raise GeminiEmptyResponse(f"{model} の応答が空でした（{reason}）")
+    return json.loads(parts_out[0]["text"])
 
 
 def call_gemini_fallback(models: list[str], parts, schema, api_key: str, temperature: float = 0.2):
@@ -193,6 +205,9 @@ def call_gemini_fallback(models: list[str], parts, schema, api_key: str, tempera
     for model in models:
         try:
             return model, call_gemini(model, parts, schema, api_key, temperature)
+        except GeminiEmptyResponse as err:
+            # モデルを変えても同じ結果になるので、traceback を出さずに諦める
+            raise SystemExit(str(err))
         except GeminiHTTPError as err:
             last = err
             if err.code in (404, 429):

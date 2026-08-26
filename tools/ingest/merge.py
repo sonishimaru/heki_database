@@ -103,6 +103,17 @@ GENERIC_TAGS = {
     "flower", "hair_flower", "white_flower", "blood", "rei_no_himo",
     "clothing_cutout", "cleavage_cutout", "pencil_dress", "bodysuit",
     "white_bodysuit", "plugsuit_(evangelion)", "mecha_pilot_suit",
+    # 作品固有の制服・装備
+    "azumanga_daioh's_school_uniform", "kita_high_school_uniform",
+    "icho_private_high_school_uniform", "kurumi-gaoka_high_school_uniform",
+    "sailor_senshi_uniform", "checkered_haori", "three-dimensional_maneuver_gear",
+    "hairpods", "winter_uniform",
+    # 汎用の服飾
+    "cardigan", "suit", "blue_jacket", "blue_skirt", "plaid_clothes", "plaid_skirt",
+    "puffy_sleeves", "white_ascot", "swimsuit", "bikini",
+    # 装飾小物（hair_ornament / jewelry と同類）
+    "circlet", "crescent", "crescent_earrings", "red_choker", "gem", "green_gem",
+    "brooch", "triangular_headpiece", "white_hairband", "hair_intakes",
 }
 
 
