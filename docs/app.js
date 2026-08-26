@@ -507,8 +507,8 @@ function renderCharacterDetail(id) {
         image.page
           ? `<a href="${esc(image.page)}" target="_blank" rel="noopener noreferrer">${esc(image.credit || '出典')}</a>`
           : esc(image.credit || '出典')
-      }（参照。当サイトは画像を保持していません）</p>`
-    : '<p class="portrait-credit">画像なし。髪色・目の色は分析結果から。</p>';
+      }（参照）</p>`
+    : '<p class="portrait-credit">画像なし（色は分析結果から）</p>';
 
   app.innerHTML = `<section class="detail">
     ${detailHead(c.name, c.kana, '#/', 'キャラ名鑑へ戻る')}
