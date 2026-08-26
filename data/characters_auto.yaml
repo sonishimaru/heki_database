@@ -172,18 +172,20 @@
   kana: ばくごうかつき
   work: 僕のヒーローアカデミア
   year: 2014
-  summary: 「爆破」という特殊能力を所持し、雄英高校1年A組に所属する14歳以上の男子生徒。
+  summary: 特異な能力である「個性」を持ち、ヒーローを目指して高校に通う生徒。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b88892-bdOha3lNcaN6.png'
     page: 'https://anilist.co/character/88892'
     credit: AniList
   analysis:
-    method: danbooru+auto
+    method: danbooru+gemini+auto
     model: 'gemini-3.6-flash'
     date: '2026-08-26'
   elements:
     - {id: akame, weight: core, note: 'danbooru red_eyes 62%', src: danbooru}
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 73%', src: danbooru}
+    - {id: nouryokusha, weight: core, note: '資料: 手のひらから分泌したニトロ状の汗を発火させて爆発を起こす「個性」を持つため。', src: gemini}
+    - {id: sakadachi-gami, weight: core, note: 'danbooru spiked_hair 82%', src: danbooru}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 71%', src: danbooru}
   patterns: []
 
@@ -408,13 +410,13 @@
   kana: ふじわらちか
   work: かぐや様は告らせたい
   year: 2015
-  summary: かつて周囲の過度な期待の中でピアノの神童として生きていたが解放され、勝負を経て四宮かぐやの「最初の友達」となった人物。
+  summary: 完璧を求めてピアノの神童となるも重圧から手放し、対決の条件を経て四宮かぐやの初の友人となった秀知院学園生徒会書記。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b121103-UGLxT8utLPnq.png'
     page: 'https://anilist.co/character/121103'
     credit: AniList
   analysis:
-    method: danbooru+auto
+    method: danbooru+gemini+auto
     model: 'gemini-3.6-flash'
     date: '2026-08-26'
   elements:
@@ -424,6 +426,7 @@
     - {id: pattsun, weight: core, note: 'danbooru blunt_bangs 67%', src: danbooru}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 93%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 49%', src: danbooru}
+    - {id: keiyaku, weight: spice, note: '資料: 勝ったら友達になるという条件で四宮かぐやにゲーム対決を挑み、友人関係を結んだため。', src: gemini}
   patterns: []
 
 - id: fushiguro-megumi
@@ -431,18 +434,21 @@
   kana: ふしぐろめぐみ
   work: 呪術廻戦
   year: 2018
-  summary: 15歳にして呪術高専に通う学生であり、十種影法術と禪院家の血脈をあわせ持つ呪術師。
+  summary: 呪術師としての特殊な能力と名門・禪院家の血統を併せ持つ呪術高専生。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b126635-L0y3I92JSUkN.png'
     page: 'https://anilist.co/character/126635'
     credit: AniList
   analysis:
-    method: danbooru+auto
+    method: danbooru+gemini+auto
     model: 'gemini-3.6-flash'
     date: '2026-08-26'
   elements:
     - {id: kurokami, weight: core, note: 'danbooru black_hair 83%', src: danbooru}
+    - {id: nouryokusha, weight: core, note: '資料: 職業が呪術師であり、固有の術式「十種影法術」を扱うため。', src: gemini}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 85%', src: danbooru}
+    - {id: reijou, weight: sub, note: '資料: 呪術界の名家である「禪院家の血筋（子孫）」と規定されているため。', src: gemini}
+    - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 58%', src: danbooru}
   patterns: []
 
 - id: gasai-yuno
@@ -813,17 +819,21 @@
   kana: いたどりゆうじ
   work: 呪術廻戦
   year: 2018
-  summary: （要記入）
+  summary: 呪術師としての特殊能力と『容器』としての異質な立場を兼ね備えた学生。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b127212-FVm2tD0erQ5B.png'
     page: 'https://anilist.co/character/127212'
     credit: AniList
   analysis:
-    method: danbooru+auto
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
     date: '2026-08-26'
   elements:
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 61%', src: danbooru}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 87%', src: danbooru}
+    - {id: gaitou, weight: sub, note: 'danbooru hood 39%', src: danbooru}
+    - {id: kokuin, weight: sub, note: 'danbooru facial_mark 37%', src: danbooru}
+    - {id: nouryokusha, weight: sub, note: '資料: プロフィールに職業・立場として『呪術師（Sorcerer）』と指定されている。', src: gemini}
   patterns: []
 
 - id: kagari-atsuko
@@ -1632,7 +1642,7 @@
     method: danbooru+auto
     date: '2026-08-26'
   elements:
-    - {id: akagami, weight: core, note: 'danbooru red_hair 63%', src: danbooru}
+    - {id: akagami, weight: core, note: 'danbooru red_hair 64%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 62%', src: danbooru}
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 78%', src: danbooru}
     - {id: messhu, weight: core, note: 'danbooru multicolored_hair 85%', src: danbooru}

@@ -5,5 +5,22 @@
 # new_tag_proposals: classify が語彙に無いと判断した概念の提案。
 # 採用・却下は人が決める。処理済みのエントリは消してよい。
 
-
-[]
+- id: fujiwara-chika
+  name: 藤原千花
+  date: '2026-08-26'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 神童
+    axis: 能力・経歴
+    reason: ピアノの神童となったが期待により過酷な練習を余儀なくされたという記述があるため。
+  - name: 生徒会役員
+    axis: 立場
+    reason: 秀知院学園生徒会の書記を務めているため。
+- id: itadori-yuuji
+  name: 虎杖悠仁
+  date: '2026-08-26'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 容器
+    axis: 立場
+    reason: 資料に『容器（Vessel）』という立場が明記されているが、既存の語彙に含まれないため。
