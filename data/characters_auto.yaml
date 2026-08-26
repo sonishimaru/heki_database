@@ -4,6 +4,31 @@
 # レビューして採用するときは、そのエントリを data/characters.yaml へ移して磨く。
 # 同じ id が characters.yaml にある場合、そちらが優先され、このファイル側は無視される。
 
+- id: agatsuma-zenitsu
+  name: 我妻善逸
+  kana: あがつまぜんいつ
+  work: 鬼滅の刃
+  year: 2016
+  summary: 鬼殺隊士として炭治郎たちと旅を共にし、普段の臆病さと戦闘時の圧倒的な強さという二面性を抱えて戦う剣士。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b129131-FZrQ7lSlxmEr.png'
+    page: 'https://anilist.co/character/129131'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: aibou, weight: core, note: '資料: 竈門炭治郎、竈門禰豆子、嘴平伊之助の旅の同行者として行動している。', src: gemini}
+    - {id: jikokoutei, weight: core, note: '資料: 資料に明記はないが、作品上において自己評価が非常に低く常に自分を卑下する言動が目立つ。', src: gemini}
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 81%', src: danbooru}
+    - {id: nimensei, weight: core, note: '資料: 資料に明記はないが、日常の臆病な状態と気絶・睡眠時に覚醒する圧倒的な強さの二面性を持つ。', src: gemini}
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 66%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 55%', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 50%', src: danbooru}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 52%', src: danbooru}
+  patterns: []
+
 - id: akemi-homura
   name: 暁美ほむら
   kana: あけみほむら
@@ -26,6 +51,28 @@
     - {id: taimu-ruupu, weight: core, note: '資料: まどかの死や魔法少女・魔女化を防ぐため、失敗するたびに月の最初に戻って時間のやり直しを繰り返す。', src: gemini}
     - {id: byoujaku, weight: sub, note: '資料: もともとは心臓病のために長期間入院していた内気で弱い転校生であった。', src: gemini}
     - {id: keiyaku, weight: sub, note: '資料: ワルプルギスの夜との戦いでまどかが死亡したため、キュゥべえと契約して魔法少女となる。', src: gemini}
+  patterns: []
+
+- id: amuro-ray
+  name: アムロ・レイ
+  kana: あむろれい
+  work: 機動戦士ガンダム
+  year: 1979
+  summary: 敵から「白い悪魔」と称される最強のモビルスーツパイロットとしての圧倒的な実力と、後輩であるカミーユに道を教える指導者としての側面を併せ持つ人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1335-uzT1UsLOu3nE.png'
+    page: 'https://anilist.co/character/1335'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 67%', src: danbooru}
+    - {id: saikyou, weight: sub, note: '資料: 戦いの中でニュータイプ能力に目覚め、最強のモビルスーツパイロットの一人と見なされるようになったと記述されている。', src: gemini}
+    - {id: shitei, weight: sub, note: '資料: カミーユとチームを組み、彼にニュータイプとしての道を教えたと記述されている。', src: gemini}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 48%', src: danbooru}
+    - {id: koushinchou, weight: spice, note: '資料: 『機動戦士ガンダム 逆襲のシャア』時の身長が180cmと記載されている。', src: gemini}
   patterns: []
 
 - id: anya-forger
@@ -52,6 +99,29 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 36%', src: danbooru}
     - {id: semi-long, weight: sub, note: 'danbooru medium_hair 37%', src: danbooru}
     - {id: teishinchou, weight: sub, note: '資料: 身長が99.5 cmであり、自称6歳の小柄な体格である。', src: gemini}
+  patterns: []
+
+- id: araragi-koyomi
+  name: 阿良々木暦
+  kana: あららぎこよみ
+  work: 化物語
+  year: 2006
+  summary: 過去に吸血鬼となった後遺症を体に残しながら、自分や他者への信頼を失いつつも他者のために身を差し出す人間性を併せ持つ高校生。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b22036-Ed3CjwPlDLp4.png'
+    page: 'https://anilist.co/character/22036'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: kyuuketsuki, weight: core, note: '資料: 春休みにキスショットに自分の血を与えて吸血鬼になった。', src: gemini}
+    - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 41%', src: danbooru}
+    - {id: fushi, weight: sub, note: '資料: 人間に戻った後も、平均的な人間よりも傷の治りが早いなどの後遺症が残っている。', src: gemini}
+    - {id: jiko-gisei, weight: sub, note: '資料: 春休みにキスショットに自分の血を与えて吸血鬼になった。', src: gemini}
+    - {id: jikokoutei, weight: sub, note: '資料: 出来事により、友人を作るのを避け、自分や他人への信頼を失っているように見えていた。', src: gemini}
+    - {id: kurokami, weight: sub, note: 'danbooru black_hair 42%', src: danbooru}
   patterns: []
 
 - id: artoria-pendragon
@@ -95,6 +165,145 @@
     - {id: akame, weight: core, note: 'danbooru red_eyes 80%', src: danbooru}
     - {id: aogami, weight: core, note: 'danbooru blue_hair 84%', src: danbooru}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 79%', src: danbooru}
+  patterns: []
+
+- id: bakugou-katsuki
+  name: 爆豪勝己
+  kana: ばくごうかつき
+  work: 僕のヒーローアカデミア
+  year: 2014
+  summary: 「爆破」という特殊能力を所持し、雄英高校1年A組に所属する14歳以上の男子生徒。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b88892-bdOha3lNcaN6.png'
+    page: 'https://anilist.co/character/88892'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: akame, weight: core, note: 'danbooru red_eyes 62%', src: danbooru}
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 73%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 71%', src: danbooru}
+  patterns: []
+
+- id: cc
+  name: C.C.
+  kana: しーつー
+  work: コードギアス
+  year: 2006
+  summary: 歳をとらず傷から回復する不老不死の身体を持ち、他者にギアスの能力を与える存在。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1111-UhmlFtRFrnWa.png'
+    page: 'https://anilist.co/character/1111'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 96%', src: danbooru}
+    - {id: furou, weight: core, note: '資料: 歳をとらず、十分な時間があればあらゆる傷から回復する不老不死の存在とされる。', src: gemini}
+    - {id: fushi, weight: core, note: '資料: 歳をとらず、十分な時間があればあらゆる傷から回復する不老不死の存在とされる。', src: gemini}
+    - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 77%', src: danbooru}
+    - {id: midorigami, weight: core, note: 'danbooru green_hair 94%', src: danbooru}
+  patterns: []
+
+- id: char-aznable
+  name: シャア・アズナブル
+  kana: しゃああずなぶる
+  work: 機動戦士ガンダム
+  year: 1979
+  summary: 「赤い彗星」と恐れられた戦士でありながら、別名で組織を率いる指揮官・指導者の側面を併せ持つ人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1336-VjllcTHMDuhI.png'
+    page: 'https://anilist.co/character/1336'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 68%', src: danbooru}
+    - {id: aome, weight: sub, note: 'danbooru blue_eyes 48%', src: danbooru}
+    - {id: gunpuku, weight: sub, note: 'danbooru military_uniform 48%', src: danbooru}
+    - {id: joushi, weight: sub, note: '資料: エゥーゴに参加し、指導員、指揮官、のちにリーダーを務めた。', src: gemini}
+    - {id: shoutai, weight: sub, note: '資料: ジオンと地球連邦の戦争後、クワトロ・バジーナという名前でエゥーゴに参加した。', src: gemini}
+    - {id: shukuteki, weight: sub, note: '資料: アムロと何度か会い、モビルスーツ戦の歴史における象徴的な戦闘を繰り広げた。', src: gemini}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 47%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 39%', src: danbooru}
+  patterns: []
+
+- id: chitanda-eru
+  name: 千反田える
+  kana: ちたんだえる
+  work: 氷菓
+  year: 2001
+  summary: 名門豪農の令嬢としての立場を持ちながら、強い好奇心から周囲を問題解決へと引き込む構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b55133-S7lRrP0gKXpX.png'
+    page: 'https://anilist.co/character/55133'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 90%', src: danbooru}
+    - {id: kuchiguse, weight: core, note: '資料: 好奇心を表現する際に「私気になります！」というフレーズをよく使用するため。', src: gemini}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 86%', src: danbooru}
+    - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 86%', src: danbooru}
+    - {id: reijou, weight: sub, note: '資料: 地域に4家残る名門豪農の一つである千反田家の一人娘であること。', src: gemini}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 56%', src: danbooru}
+  patterns: []
+
+- id: denji
+  name: デンジ
+  kana: でんじ
+  work: チェンソーマン
+  year: 2018
+  summary: 悪魔と一体化して蘇生した身体で、デビルハンターとして組織やパートナーと共に戦う構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b130102-FO1VHNnEnLlB.png'
+    page: 'https://anilist.co/character/130102'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: akuma, weight: core, note: '資料: チェンソーの悪魔として体からチェンソーを生やす能力を持つ。', src: gemini}
+    - {id: aibou, weight: sub, note: '資料: パワーがパートナーである。', src: gemini}
+    - {id: gizaba, weight: sub, note: 'danbooru sharp_teeth 51%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 38%', src: danbooru}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 48%', src: danbooru}
+  patterns: []
+
+- id: edogawa-conan
+  name: 江戸川コナン
+  kana: えどがわこなん
+  work: 名探偵コナン
+  year: 1994
+  summary: 17歳の高校生名探偵という本当の顔と、毒薬で体が縮み正体を隠す小学生という作られた顔を併せ持つ二重生活構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1742-NiV278NBFOvZ.png'
+    page: 'https://anilist.co/character/1742'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: aome, weight: core, note: 'danbooru blue_eyes 67%', src: danbooru}
+    - {id: kodomo, weight: core, note: '資料: 毒薬により体が6歳児の大きさに縮み、コナンとして6〜7歳の姿になっている。', src: gemini}
+    - {id: megane, weight: core, note: 'danbooru glasses 79%', src: danbooru}
+    - {id: mitame-sabaku, weight: core, note: '資料: 実年齢は17歳であるが、毒薬「APTX 4869」の影響で6歳児の大きさになっている。', src: gemini}
+    - {id: nimensei, weight: core, note: '資料: 高校生探偵・工藤新一としての正体と、小学生・江戸川コナンとして毛利小五郎の声を模倣して事件を解決する姿という二面性を持つ。', src: gemini}
+    - {id: shoutai, weight: core, note: '資料: 17歳の高校生探偵・工藤新一であることを伏せ、「江戸川コナン」と名乗り阿笠博士の遠い親戚の振りをしている。', src: gemini}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 60%', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 50%', src: danbooru}
+    - {id: hogosha, weight: sub, note: '資料: 正体を隠した状態で毛利蘭の保護のもとに身を寄せている。', src: gemini}
+    - {id: kurokami, weight: sub, note: 'danbooru black_hair 36%', src: danbooru}
   patterns: []
 
 - id: edward-elric
@@ -145,6 +354,30 @@
     - {id: shirogami, weight: sub, note: 'danbooru white_hair 53%', src: danbooru}
   patterns: []
 
+- id: eren-yeager
+  name: エレン・イェーガー
+  kana: えれんいぇーがー
+  work: 進撃の巨人
+  year: 2009
+  summary: 母を巨人に奪われた強い喪失と復讐心を持ち、幼馴染たちとの絆を胸に壁外の世界を目指す構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b40882-dsj7IP943WFF.jpg'
+    page: 'https://anilist.co/character/40882'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: fukushuu, weight: core, note: '資料: 母親が巨人に食べられたことを目撃し、すべての巨人を駆逐すると誓っている。', src: gemini}
+    - {id: osananajimi, weight: core, note: '資料: 幼少期からミカサや親友アルミンと共に過ごし、強い関係性を保っている。', src: gemini}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 53%', src: danbooru}
+    - {id: gikyoudai, weight: sub, note: '資料: ミカサは幼少期にイェーガー家に引き取られた養姉妹である。', src: gemini}
+    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 40%', src: danbooru}
+    - {id: soushitsu, weight: sub, note: '資料: シガンシナ区への巨人侵入時に母親を失っている。', src: gemini}
+    - {id: kabau, weight: spice, note: '資料: 幼少期に親友のアルミンをいじめっ子から庇っていた。', src: gemini}
+  patterns: []
+
 - id: frieren
   name: フリーレン
   kana: ふりーれん
@@ -168,6 +401,48 @@
     - {id: shitei, weight: core, note: '資料: フランメの弟子として魔法を学び、自身もフェルンの師匠であるという両方向の師弟関係を持つ。', src: gemini}
     - {id: twintail, weight: core, note: 'danbooru twintails 76%', src: danbooru}
     - {id: shirogami, weight: sub, note: 'danbooru white_hair 54%', src: danbooru}
+  patterns: []
+
+- id: fujiwara-chika
+  name: 藤原千花
+  kana: ふじわらちか
+  work: かぐや様は告らせたい
+  year: 2015
+  summary: かつて周囲の過度な期待の中でピアノの神童として生きていたが解放され、勝負を経て四宮かぐやの「最初の友達」となった人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b121103-UGLxT8utLPnq.png'
+    page: 'https://anilist.co/character/121103'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: aome, weight: core, note: 'danbooru blue_eyes 87%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 88%', src: danbooru}
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 61%', src: danbooru}
+    - {id: pattsun, weight: core, note: 'danbooru blunt_bangs 67%', src: danbooru}
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 93%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 49%', src: danbooru}
+  patterns: []
+
+- id: fushiguro-megumi
+  name: 伏黒恵
+  kana: ふしぐろめぐみ
+  work: 呪術廻戦
+  year: 2018
+  summary: 15歳にして呪術高専に通う学生であり、十種影法術と禪院家の血脈をあわせ持つ呪術師。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b126635-L0y3I92JSUkN.png'
+    page: 'https://anilist.co/character/126635'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 83%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 85%', src: danbooru}
   patterns: []
 
 - id: gasai-yuno
@@ -214,6 +489,102 @@
     - {id: shitei, weight: sub, note: '資料: 東京都立呪術高等専門学校で教師として働き、強い若い仲間を保護し育成している。', src: gemini}
   patterns: []
 
+- id: guts
+  name: ガッツ
+  kana: がっつ
+  work: ベルセルク
+  year: 1989
+  summary: 自身の目的を追求することと大切な人々を守ることという二つの意思の間で葛藤しながら旅を続ける放浪者の構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b422-XTaiTuvRohsV.png'
+    page: 'https://anilist.co/character/422'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: buki, weight: core, note: 'danbooru weapon 64%', src: danbooru}
+    - {id: gaitou, weight: sub, note: 'danbooru cape 38%', src: danbooru}
+    - {id: kinniku, weight: sub, note: '資料: 背が高く筋肉質で', src: gemini}
+    - {id: kishi, weight: sub, note: 'danbooru armor 58%', src: danbooru}
+    - {id: kizuato, weight: sub, note: 'danbooru scar 39%', src: danbooru}
+    - {id: koushinchou, weight: sub, note: '資料: 背が高く筋肉質で', src: gemini}
+    - {id: kurokami, weight: sub, note: 'danbooru black_hair 52%', src: danbooru}
+    - {id: nagaremono, weight: sub, note: '資料: 刻印を押された放浪者。', src: gemini}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 46%', src: danbooru}
+  patterns: []
+
+- id: hakurei-reimu
+  name: 博麗霊夢
+  kana: はくれいれいむ
+  work: 東方Project
+  year: 1996
+  summary: 気ままな面を見せつつも強い責任感と忍耐力を併せ持ち、かつての敵すら受け入れる博麗神社の巫女。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b5443-GhPScdRlME01.jpg'
+    page: 'https://anilist.co/character/5443'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 61%', src: danbooru}
+    - {id: miko, weight: core, note: '資料: 博麗神社の巫女である', src: gemini}
+    - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 56%', src: danbooru}
+    - {id: furiru, weight: sub, note: 'danbooru frills 45%', src: danbooru}
+  patterns: []
+
+- id: hatake-kakashi
+  name: はたけカカシ
+  kana: はたけかかし
+  work: NARUTO
+  year: 1999
+  summary: 高い才能を持つ忍であり指導者的立場を担いながら、マイペースな読書趣味や他者との独特な距離感を同居させている人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b85-mkVBh2yjxjmx.png'
+    page: 'https://anilist.co/character/85'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: ninja, weight: core, note: '資料: 木ノ葉隠れの里のはたけ一族に所属する忍であると記述されている。', src: gemini}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 39%', src: danbooru}
+    - {id: kizuato, weight: sub, note: 'danbooru scar 57%', src: danbooru}
+    - {id: koushinchou, weight: sub, note: '資料: 身長が180cmと記述されている。', src: gemini}
+    - {id: kyoushi, weight: sub, note: '資料: 自身のチームの訓練を行い、定期的に助言や指導力を求められる立場にある。', src: gemini}
+    - {id: shirogami, weight: sub, note: 'danbooru grey_hair 48%', src: danbooru}
+    - {id: shukuteki, weight: sub, note: '資料: マイト・ガイとライバル関係にあると明記されている。', src: gemini}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 52%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 48%', src: danbooru}
+  patterns: []
+
+- id: hayakawa-aki
+  name: 早川アキ
+  kana: はやかわあき
+  work: チェンソーマン
+  year: 2018
+  summary: 家族の復讐を果たすべく自らの身を削って複数の悪魔と契約し、仲間とともに戦う公安のデビルハンター。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b137081-TSrUR3mUJL6r.png'
+    page: 'https://anilist.co/character/137081'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: fukushuu, weight: core, note: '資料: 家族の復讐のために銃の悪魔を倒すことを主な目的としている。', src: gemini}
+    - {id: keiyaku, weight: core, note: '資料: 狐の悪魔、呪いの悪魔、未来の悪魔と契約を行っている。', src: gemini}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 68%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 64%', src: danbooru}
+    - {id: aibou, weight: sub, note: '資料: 姫野とパートナーの関係にある。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 身長182cmである。', src: gemini}
+  patterns: []
+
 - id: hestia
   name: ヘスティア
   kana: へすてぃあ
@@ -238,6 +609,60 @@
     - {id: twintail, weight: core, note: 'danbooru twintails 89%', src: danbooru}
     - {id: kataomoi, weight: sub, note: '資料: 最初の構成員であるベル・クラネルに対して強く恋をしており、彼が他の女性に興味を示すと嫉妬するため。', src: gemini}
     - {id: teishinchou, weight: sub, note: '資料: 公式プロフィールにおいて身長が140cmと記載されているため。', src: gemini}
+  patterns: []
+
+- id: himura-kenshin
+  name: 緋村剣心
+  kana: ひむらけんしん
+  work: るろうに剣心
+  year: 1994
+  summary: かつて人斬りとして恐れられた最強の剣士でありながら、贖罪と不殺の誓いを抱え、日常では家事をこなす流浪人として生きる二面性を持った構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b147-miunGYp6fkzb.png'
+    page: 'https://anilist.co/character/147'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: buki, weight: core, note: 'danbooru weapon 81%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 83%', src: danbooru}
+    - {id: kizuato, weight: core, note: 'danbooru scar 78%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 84%', src: danbooru}
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 89%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 56%', src: danbooru}
+    - {id: fuguu, weight: sub, note: '資料: 幼少期に両親をコレラで失い奴隷となった上、野盗の襲撃で後見人の奴隷女性達を殺害された生い立ちを持つ。', src: gemini}
+    - {id: hakama, weight: sub, note: 'danbooru hakama 41%', src: danbooru}
+    - {id: nagaremono, weight: sub, note: '資料: 倒幕派を去った後、10年間日本全国を流浪していた流浪人（wanderer）である。', src: gemini}
+    - {id: nimensei, weight: sub, note: '資料: 神速の抜刀術で「人斬り抜刀斎」と恐れられた剣豪でありながら、神谷薫の居候先では掃除・洗濯・料理などの家事を手伝っている。', src: gemini}
+    - {id: saikyou, weight: sub, note: '資料: 斉藤一との引き分けを除き、すべてのライバルを撃破する圧倒的な強さを持つ。', src: gemini}
+    - {id: shitei, weight: sub, note: '資料: 比古清十郎を恩人兼師匠とし、飛天御剣流を教わった。', src: gemini}
+    - {id: shukuteki, weight: sub, note: '資料: 斉藤一をライバルの一人として戦っている。', src: gemini}
+    - {id: teishinchou, weight: sub, note: '資料: 28歳の成人男性だが、身長は158cmと小柄である。', src: gemini}
+    - {id: zaiakukan, weight: sub, note: '資料: 自らの手で妻である巴を死なせてしまったことをきっかけに不殺の誓いを立て、逆刃刀を携えている。', src: gemini}
+  patterns: []
+
+- id: hirasawa-yui
+  name: 平沢唯
+  kana: ひらさわゆい
+  work: 'けいおん!'
+  year: 2007
+  summary: 楽器未経験での勘違いをきっかけに部活へ入部し、自身の楽器に愛情を注ぎながらバンドのメインパートを務める人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b19565-7gMiEAm7NGNK.png'
+    page: 'https://anilist.co/character/19565'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 79%', src: danbooru}
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 88%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 73%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 55%', src: danbooru}
+    - {id: tennen, weight: sub, note: '資料: 「軽音」を口笛のような「簡単な音楽」と誤解したまま部活に入部したというエピソードに現れている。', src: gemini}
   patterns: []
 
 - id: holo
@@ -310,6 +735,31 @@
     - {id: reijou, weight: sub, note: '資料: 日向一族宗家の長女である。', src: gemini}
   patterns: []
 
+- id: ikari-shinji
+  name: 碇シンジ
+  kana: いかりしんじ
+  work: 新世紀エヴァンゲリオン
+  year: 1995
+  summary: 幼少期の不遇や失った親の影を抱えながら、パイロットとしての過酷な戦いと励ましの中で自信の獲得と失意を繰り返す構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b89-ZtZhXkh1rITn.png'
+    page: 'https://anilist.co/character/89'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: fuguu, weight: core, note: '資料: 幼児期に父親のゲンドウに置き去りにされ、母親も亡くなっている不遇な生い立ちを持つ。', src: gemini}
+    - {id: aome, weight: sub, note: 'danbooru blue_eyes 44%', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 45%', src: danbooru}
+    - {id: jikokoutei, weight: sub, note: '資料: パニックを起こしたり臆病で逃げ出したりする状態から、励ましを受けて自信を深めていく経過が記されている。', src: gemini}
+    - {id: misuterare, weight: sub, note: '資料: 幼児期に父親によって置き去りにされた原体験が存在するため。', src: gemini}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 36%', src: danbooru}
+    - {id: soushitsu, weight: sub, note: '資料: 亡くなった碇ユイの息子であることが明記されている。', src: gemini}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 56%', src: danbooru}
+  patterns: []
+
 - id: index
   name: インデックス
   kana: いんでっくす
@@ -332,6 +782,48 @@
     - {id: joushi, weight: sub, note: '資料: 東京卍會の一番隊隊長を務めている。', src: gemini}
     - {id: karetsu, weight: sub, note: '資料: マイキーから、気分次第で特に理由もなく路上で人を殴るような奴だと評されている。', src: gemini}
     - {id: roobu, weight: sub, note: 'danbooru robe 42%', src: danbooru}
+  patterns: []
+
+- id: inuyasha
+  name: 犬夜叉
+  kana: いぬやしゃ
+  work: 犬夜叉
+  year: 1996
+  summary: 人間と妖怪の狭間に位置する半妖として、過去への愛着と新たな好意を抱えながら戦う構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1353-xsZhvfi7IFzT.png'
+    page: 'https://anilist.co/character/1353'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 95%', src: danbooru}
+    - {id: hanyou, weight: core, note: '資料: 犬妖怪と人間のハーフ（半妖）である。', src: gemini}
+    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 77%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru white_hair 62%', src: danbooru}
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 74%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 37%', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 54%', src: danbooru}
+  patterns: []
+
+- id: itadori-yuuji
+  name: 虎杖悠仁
+  kana: いたどりゆうじ
+  work: 呪術廻戦
+  year: 2018
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b127212-FVm2tD0erQ5B.png'
+    page: 'https://anilist.co/character/127212'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-26'
+  elements:
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 61%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 87%', src: danbooru}
   patterns: []
 
 - id: kagari-atsuko
@@ -473,6 +965,25 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 55%', src: danbooru}
   patterns: []
 
+- id: kiki
+  name: キキ
+  kana: きき
+  work: 魔女の宅急便
+  year: 1985
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b6866-Fe38ZMNvevnF.png'
+    page: 'https://anilist.co/character/6866'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-26'
+  elements:
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 36%', src: danbooru}
+    - {id: kurokami, weight: sub, note: 'danbooru black_hair 36%', src: danbooru}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 55%', src: danbooru}
+  patterns: []
+
 - id: kikyou
   name: 桔梗
   kana: ききょう
@@ -501,6 +1012,76 @@
     - {id: uragiri, weight: sub, note: '資料: 50年前に奈落が犬夜叉に化けたことで、犬夜叉に裏切られたと思い込んでいた。', src: gemini}
   patterns: []
 
+- id: kirisame-marisa
+  name: 霧雨魔理沙
+  kana: きりさめまりさ
+  work: 東方Project
+  year: 1997
+  summary: 高レベルな破壊魔法を扱う魔女としての力量と、片付けられない居室で他人の品を集めてしまう大雑把な私生活が同居する人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b5458-ERiRSncVQOY1.jpg'
+    page: 'https://anilist.co/character/5458'
+    credit: AniList
+  analysis:
+    method: both+danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 68%', src: danbooru}
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 88%', src: danbooru}
+    - {id: majo, weight: core, note: 'danbooru witch_hat 73% / 資料: 魔法の森にある散らかった家に住む人間の魔女である。', src: both}
+    - {id: mitsuami, weight: core, note: 'danbooru braid 64%', src: danbooru}
+    - {id: aibou, weight: sub, note: '資料: 博麗霊夢（Reimu）と友人であり、頻繁に彼女のもとを訪ねている。', src: gemini}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 55%', src: danbooru}
+    - {id: zubora, weight: sub, note: '資料: 魔法の森にある散らかった家に住む', src: gemini}
+  patterns: []
+
+- id: kugisaki-nobara
+  name: 釘崎野薔薇
+  kana: くぎさきのばら
+  work: 呪術廻戦
+  year: 2018
+  summary: 五条悟のもとで学びながら仲間と共に戦闘任務をこなしつつ、初対面の相手にも不遜でトゲのある言動を見せる呪術師。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b133700-f6sOO3TcgLV6.png'
+    page: 'https://anilist.co/character/133700'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 63%', src: danbooru}
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 76%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 79%', src: danbooru}
+    - {id: dokuzetsu, weight: sub, note: '資料: 虎杖悠仁と伏黒恵への最初の自己紹介で二人が自分より劣っていると表現し、最初の共同任務の大半で虎杖と口論した', src: gemini}
+    - {id: shitei, weight: sub, note: '資料: 五条悟のもとで学んでいる', src: gemini}
+  patterns: []
+
+- id: kusanagi-motoko
+  name: 草薙素子
+  kana: くさなぎもとこ
+  work: 攻殻機動隊
+  year: 1989
+  summary: 全身義体化された人工の身体と不詳の過去を持ちながら、特殊部隊を率いた経験と高度な電子戦能力で組織を維持する構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1795-vKakY5aXVyCl.jpg'
+    page: 'https://anilist.co/character/1795'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: jinzou, weight: core, note: '資料: 非常に若い頃に全身義体化され、成長に合わせて一連の人工ボディを乗り換えてきた。', src: gemini}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 62%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 41%', src: danbooru}
+    - {id: joushi, weight: sub, note: '資料: 長年にわたり特殊部隊（SpecOps）を率いていた。', src: gemini}
+    - {id: kako, weight: sub, note: '資料: 説明文中では生年月日や出自はほぼ何も分かっていないと記載されている。', src: gemini}
+    - {id: murasaki-gami, weight: sub, note: 'danbooru purple_hair 54%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 42%', src: danbooru}
+  patterns: []
+
 - id: l-lawliet
   name: L
   kana: える
@@ -526,6 +1107,31 @@
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 59%', src: danbooru}
   patterns: []
 
+- id: lelouch-lamperouge
+  name: ルルーシュ・ランペルージ
+  kana: るるーしゅらんぺるーじ
+  work: コードギアス
+  year: 2006
+  summary: ブリタニア皇族の身分を隠して学生生活を送りつつ、反逆の指導者「ゼロ」として組織を率いる二重生活とリーダーシップを併せ持つ人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b417-gVLmIJu9phcK.png'
+    page: 'https://anilist.co/character/417'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: joushi, weight: core, note: '資料: 反ブリタニア組織である「黒の騎士団」のリーダーを務めている。', src: gemini}
+    - {id: nimensei, weight: core, note: '資料: アッシュフォード学園の生徒会メンバーとしての日常と、黒の騎士団リーダー「ゼロ」としての顔を使い分けている。', src: gemini}
+    - {id: shoutai, weight: core, note: '資料: 高校生としての身分を保ちながら、「ゼロ」という正体を名乗ってブリタニア帝国に対する反逆を行っている。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 公式プロフィールにおいて身長が178 - 183 cmと設定されている。', src: gemini}
+    - {id: kurokami, weight: sub, note: 'danbooru black_hair 57%', src: danbooru}
+    - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 59%', src: danbooru}
+    - {id: reijou, weight: sub, note: '資料: ブリタニア皇帝チャールズ・ジ・ブリタニアの息子であり、ブリタニア皇室の第11皇子という王族の出自を持つ。', src: gemini}
+    - {id: kabau, weight: spice, note: '資料: C.C.が軍から身を挺してルルーシュを守る場面がある。', src: gemini}
+  patterns: []
+
 - id: levi
   name: リヴァイ
   kana: りゔぁい
@@ -547,6 +1153,75 @@
     - {id: buki, weight: sub, note: 'danbooru weapon 45%', src: danbooru}
     - {id: muhoumono, weight: sub, note: '資料: 兵士になる前は地下街の犯罪に関わっていたという噂がある。', src: gemini}
     - {id: teishinchou, weight: sub, note: '資料: 身長が160cmであることが明記されている。', src: gemini}
+  patterns: []
+
+- id: loid-forger
+  name: ロイド・フォージャー
+  kana: ろいどふぉーじゃー
+  work: SPY×FAMILY
+  year: 2019
+  summary: 任務遂行のために偽装家族を構築するスパイであり、精神科医という表の顔と「黄昏」という裏の顔を合わせ持っている。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b138101-7NCB0Md8zA6G.png'
+    page: 'https://anilist.co/character/138101'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 64%', src: danbooru}
+    - {id: nimensei, weight: core, note: '資料: 表向きの職業は精神科医、裏の職業はスパイという二重生活を送っている。', src: gemini}
+    - {id: shoutai, weight: core, note: '資料: 西国情報局のトップエージェント「黄昏」であることを隠して活動している。', src: gemini}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 61%', src: danbooru}
+    - {id: aome, weight: sub, note: 'danbooru blue_eyes 39%', src: danbooru}
+    - {id: hogosha, weight: sub, note: '資料: 任務の一環として孤児のアーニャを養女に引き取り、父として育てている。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 身長187cmと明確に設定されている。', src: gemini}
+    - {id: neko-o-kaburu, weight: sub, note: '資料: ターゲットに近づくため、精神科医や普通の家庭人のキャラクターを演じている。', src: gemini}
+  patterns: []
+
+- id: lum
+  name: ラム
+  kana: らむ
+  work: うる星やつら
+  year: 1978
+  summary: 特徴的な語尾で話す話し方と、飛行能力や電撃を扱う鬼の宇宙人としての種族特性が同居している構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b4835-Blt6iPoFEQnr.jpg'
+    page: 'https://anilist.co/character/4835'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 84%', src: danbooru}
+    - {id: gobi, weight: core, note: '資料: 語尾に「〜だっちゃ（~datcha）」をつけて話すことで有名である。', src: gemini}
+    - {id: jingai, weight: core, note: 'danbooru horns 88%', src: danbooru}
+    - {id: oni, weight: core, note: '資料: 飛行能力と電撃を生成する能力を持つ鬼の宇宙人（インベーダー）である。', src: gemini}
+    - {id: erufu, weight: sub, note: 'danbooru pointy_ears 44%', src: danbooru}
+    - {id: midorigami, weight: sub, note: 'danbooru green_hair 50%', src: danbooru}
+  patterns: []
+
+- id: lupin-iii
+  name: ルパン三世
+  kana: るぱんさんせい
+  work: ルパン三世
+  year: 1967
+  summary: 世界を股にかける大泥棒という無法者でありながら、意図的に無能を演じる自己演出と特定女性への無防備な執着を併せ持つ人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/1044-UriNGSc2CKPO.jpg'
+    page: 'https://anilist.co/character/1044'
+    credit: AniList
+  analysis:
+    method: gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: muhoumono, weight: core, note: '資料: 世界で最も手配されている大泥棒であると記述されているため。', src: gemini}
+    - {id: aibou, weight: sub, note: '資料: 自身や仲間とともに冒険し、他の犯罪者の企みを阻止すると記述されているため。', src: gemini}
+    - {id: kataomoi, weight: sub, note: '資料: 峰不二子に熱中しており、それが最大の弱点となって望ましくない状況に陥ることがあると記述されているため。', src: gemini}
+    - {id: neko-o-kaburu, weight: sub, note: '資料: 相手の油断を誘うために無能な振りをすることがあると記述されているため。', src: gemini}
   patterns: []
 
 - id: makima
@@ -571,6 +1246,50 @@
     - {id: mitsuami, weight: core, note: 'danbooru braid 66%', src: danbooru}
     - {id: petto-atsukai, weight: core, note: '資料: デンジを自分の人間のペットとして引き取った。', src: gemini}
     - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 52%', src: danbooru}
+  patterns: []
+
+- id: makise-kurisu
+  name: 牧瀬紅莉栖
+  kana: まきせくりす
+  work: STEINS;GATE
+  year: 2009
+  summary: 18歳で飛び級し大学脳科学研究所の研究員として有名論文を執筆する天才的な専門家であり、岡部倫太郎からマッドサイエンティストのセンスを評される人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b34470-Jw2LXZBL5R8i.png'
+    page: 'https://anilist.co/character/34470'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 68%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 95%', src: danbooru}
+    - {id: aome, weight: sub, note: 'danbooru blue_eyes 48%', src: danbooru}
+    - {id: shokunin, weight: sub, note: '資料: 18歳でヴィクトル・コンドリア大学脳科学研究所の研究員を務め、アメリカのニュースで報じられるほどの論文を執筆している専門家であるため。', src: gemini}
+  patterns: []
+
+- id: midoriya-izuku
+  name: 緑谷出久
+  kana: みどりやいずく
+  work: 僕のヒーローアカデミア
+  year: 2014
+  summary: 無個性の存在から憧れのヒーローより力を継承し、師弟関係のもとで観察・分析を重ねながら成長していく構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b89028-8w1I9o1ISHMg.png'
+    page: 'https://anilist.co/character/89028'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: keishou, weight: core, note: '資料: 生まれつき無個性であったが、オールマイトから個性「ワン・フォー・オール」を譲渡された。', src: gemini}
+    - {id: midorigami, weight: core, note: 'danbooru green_hair 72%', src: danbooru}
+    - {id: shitei, weight: core, note: '資料: オールマイトの最も親しい弟子である。', src: gemini}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 70%', src: danbooru}
+    - {id: kansatsu, weight: sub, note: '資料: ヒーローの個性や戦闘能力について学んだことをノートに書き留めている。', src: gemini}
+    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 56%', src: danbooru}
   patterns: []
 
 - id: mikasa-ackerman
@@ -598,6 +1317,32 @@
     - {id: soushitsu, weight: sub, note: '資料: 実の両親を強盗に殺害され、さらに引き取られた養母カルラも巨人の侵攻により失っている。', src: gemini}
   patterns: []
 
+- id: mine-fujiko
+  name: 峰不二子
+  kana: みねふじこ
+  work: ルパン三世
+  year: 1967
+  summary: 高い盗みと銃器の技術を持ち、自身の悪賢さや魅力を駆使して裏切りや取引を繰り返しながら戦利品と自由を追求する無法者。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1047-3VgNXvRjylHV.png'
+    page: 'https://anilist.co/character/1047'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 65%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 74%', src: danbooru}
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 60%', src: danbooru}
+    - {id: uragiri, weight: core, note: '資料: 自身の自由や戦利品を得るために銭形や敵と取引を行い、時折ルパンの戦利品を持ち去るため。', src: gemini}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 54%', src: danbooru}
+    - {id: haraguro, weight: sub, note: '資料: 極めて聡明で悪賢い性格であり、目的のために女性的魅力を利用するため。', src: gemini}
+    - {id: keiyaku, weight: sub, note: '資料: 自身の自由や戦利品の一部を得るために銭形や敵と定期的に取引を行うため。', src: gemini}
+    - {id: muhoumono, weight: sub, note: '資料: ルパンと同等の盗みスキルを持ち、戦利品を持ち去る盗賊として活動しているため。', src: gemini}
+    - {id: shokunin, weight: sub, note: '資料: 銃器の扱いの専門家であり、高い盗みのスキルを持っているため。', src: gemini}
+  patterns: []
+
 - id: misaka-mikoto
   name: 御坂美琴
   kana: みさかみこと
@@ -617,6 +1362,27 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 50%', src: danbooru}
     - {id: semi-long, weight: sub, note: 'danbooru medium_hair 40%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 40%', src: danbooru}
+  patterns: []
+
+- id: miyamizu-mitsuha
+  name: 宮水三葉
+  kana: みやみずみつは
+  work: 君の名は。
+  year: 2016
+  summary: 実家の神社で巫女として伝統的な役割を担いながら、時間を経て大人へと成長する女性。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b121514-MGI7JRluscpz.png'
+    page: 'https://anilist.co/character/121514'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 68%', src: danbooru}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 74%', src: danbooru}
+    - {id: miko, weight: sub, note: '資料: 実家の神社の一員であり、妹と共に巫女として代々伝わる古い伝統に参加している。', src: gemini}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 49%', src: danbooru}
   patterns: []
 
 - id: miyazono-kaori
@@ -705,6 +1471,52 @@
     - {id: kokuin, weight: sub, note: 'danbooru tattoo 57%', src: danbooru}
   patterns: []
 
+- id: ogino-chihiro
+  name: 荻野千尋
+  kana: おぎのちひろ
+  work: 千と千尋の神隠し
+  year: 2001
+  summary: 10歳の子供でありながら、豚に変えられた両親を元に戻すため異界の油屋で働くことを余儀なくされた少女。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b384-AoWCsQyG0WI7.png'
+    page: 'https://anilist.co/character/384'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 76%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 73%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 39%', src: danbooru}
+    - {id: kodomo, weight: sub, note: '資料: 10歳の女性であることが示されている。', src: gemini}
+  patterns: []
+
+- id: okabe-rintarou
+  name: 岡部倫太郎
+  kana: おかべりんたろう
+  work: STEINS;GATE
+  year: 2009
+  summary: 自らを「狂気のマッドサイエンティスト」と称して特徴的な決め台詞や謎の独り言を繰り返す中二病的な振る舞いと、高い身長を併せ持つ人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b35252-DY9TW6pusqeh.png'
+    page: 'https://anilist.co/character/35252'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chuuni, weight: core, note: '資料: 自らを「狂気のマッドサイエンティスト」と称し、携帯電話で意味の通じない独り言を頻繁に話す描写があるため。', src: gemini}
+    - {id: hakui, weight: core, note: 'danbooru lab_coat 63%', src: danbooru}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 83%', src: danbooru}
+    - {id: gaitou, weight: sub, note: 'danbooru coat 39%', src: danbooru}
+    - {id: koushinchou, weight: sub, note: '資料: 身長177cmであることがプロフィールに明記されているため。', src: gemini}
+    - {id: kuchiguse, weight: sub, note: '資料: 会話や独り言を締めくくるフレーズとして「El Psy Kongroo」を使用しているため。', src: gemini}
+    - {id: kusekke, weight: sub, note: 'danbooru messy_hair 60%', src: danbooru}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 47%', src: danbooru}
+  patterns: []
+
 - id: oshino-shinobu
   name: 忍野忍
   kana: おしのしのぶ
@@ -759,6 +1571,30 @@
     - {id: shujuu, weight: sub, note: '資料: マキマの下で本人の意に反して働き、早川アキの監督下にあると記載されているため。', src: gemini}
   patterns: []
 
+- id: ram-re-zero
+  name: ラム
+  kana: らむ
+  work: 'Re:ゼロから始める異世界生活'
+  year: 2014
+  summary: 主人への忠誠のもとで仕えるメイドであり、双子の姉として妹をリードする立場を併せ持つ人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b88576-NWkotUiJ3mK3.png'
+    page: 'https://anilist.co/character/88576'
+    credit: AniList
+  analysis:
+    method: both+danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: mekakure, weight: core, note: 'danbooru hair_over_one_eye 67%', src: danbooru}
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 92%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 88%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 50%', src: danbooru}
+    - {id: futago, weight: sub, note: '資料: 双子の妹であるレムがおり、双子のメイドであると記述されている。', src: gemini}
+    - {id: meido, weight: sub, note: 'danbooru maid 48% / 資料: ロズワール・L・メイザースに仕える双子のメイドのひとりであると記述されている。', src: both}
+    - {id: shujuu, weight: sub, note: '資料: ロズワール・L・メイザースを主人とし、彼に仕えていると記述されている。', src: gemini}
+  patterns: []
+
 - id: rem
   name: レム
   kana: れむ
@@ -804,6 +1640,94 @@
     - {id: gaitou, weight: sub, note: 'danbooru cape 43%', src: danbooru}
   patterns: []
 
+- id: roronoa-zoro
+  name: ロロノア・ゾロ
+  kana: ろろのあぞろ
+  work: ONE PIECE
+  year: 1997
+  summary: ルフィに最初にスカウトされた船員であり、自分以外を信じず独自の流派を貫く強固な姿勢と賞金首としての立場を併せ持つ剣士。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b62-S7oAeA9WInjV.png'
+    page: 'https://anilist.co/character/62'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: kizuato, weight: core, note: 'danbooru scar 61%', src: danbooru}
+    - {id: midorigami, weight: core, note: 'danbooru green_hair 79%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 83%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 48%', src: danbooru}
+    - {id: ganko, weight: sub, note: '資料: 無神論者であり、自分以外を信じたことがないと発言している。', src: gemini}
+    - {id: muhoumono, weight: sub, note: '資料: 現在の懸賞金は1,111,000,000（以前の懸賞金は60,000,000、120,000,000、320,000,000）。', src: gemini}
+  patterns: []
+
+- id: saitama
+  name: サイタマ
+  kana: さいたま
+  work: ワンパンマン
+  year: 2009
+  summary: 圧倒的な強さを得たことで戦いのスリルや手応えを失い、存在の危機を抱えているヒーロー。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b73935-ON5d0mAcrItd.jpg'
+    page: 'https://anilist.co/character/73935'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: saikyou, weight: core, note: '資料: 存命のヒーローの中で最も強力であり、いかなる対戦相手もワンパンチで撃破する。', src: gemini}
+    - {id: gaitou, weight: sub, note: 'danbooru cape 52%', src: danbooru}
+    - {id: kinniku, weight: sub, note: '資料: 自らを超人的なコンディションに鍛え上げた。', src: gemini}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 46%', src: danbooru}
+    - {id: teikan, weight: sub, note: '資料: 強力になりすぎたことでヒーロー活動からスリルを得られなくなり、存在の危機に直面している。', src: gemini}
+  patterns: []
+
+- id: sakurajima-mai
+  name: 桜島麻衣
+  kana: さくらじままい
+  work: 青春ブタ野郎
+  year: 2014
+  summary: 峰ヶ原高校の3年生という普通の学生としての側面と、休業中である著名な女優としての立場が同居する人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b127222-Jh5hhP7vZ7s1.png'
+    page: 'https://anilist.co/character/127222'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 91%', src: danbooru}
+    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 65%', src: danbooru}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 86%', src: danbooru}
+    - {id: aome, weight: sub, note: 'danbooru blue_eyes 45%', src: danbooru}
+    - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 37%', src: danbooru}
+  patterns: []
+
+- id: san
+  name: サン
+  kana: さん
+  work: もののけ姫
+  year: 1997
+  summary: かつての戦争で多くの仲間を失った過去を持ちつつ、侍が不要となった現代で万事屋を営みながら暮らす人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b672-cP5VPriN67xJ.png'
+    page: 'https://anilist.co/character/672'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 66%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 70%', src: danbooru}
+    - {id: kataomoi, weight: sub, note: '資料: お天気お姉さんの結野アナに熱烈な片思いをしている。', src: gemini}
+    - {id: soushitsu, weight: sub, note: '資料: 攘夷戦争中に多くの友人や味方を失った。', src: gemini}
+  patterns: []
+
 - id: sebastian-michaelis
   name: セバスチャン・ミカエリス
   kana: せばすちゃんみかえりす
@@ -829,6 +1753,125 @@
     - {id: koushinchou, weight: sub, note: '資料: 身長が185cm（6''1"）であると明記されている。', src: gemini}
     - {id: shujuu, weight: sub, note: '資料: シエルの執事兼ボディガードであり、契約によりシエルの意志に従う間柄であると明記されている。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 55%', src: danbooru}
+  patterns: []
+
+- id: senjougahara-hitagi
+  name: 戦場ヶ原ひたぎ
+  kana: せんじょうがはらひたぎ
+  work: 化物語
+  year: 2006
+  summary: 過剰な毒舌や刺々しい言動を見せつつ自身をツンデレと称し、秘密とトラウマを乗り越えて変化していく構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b22037-sY7GWSKYr2Nl.jpg'
+    page: 'https://anilist.co/character/22037'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: aome, weight: core, note: 'danbooru blue_eyes 68%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 85%', src: danbooru}
+    - {id: dokuzetsu, weight: core, note: '資料: 自身をツンデレと呼び常に暴言・罵倒する口調で話し、トラウマ克服後も毒舌が残っていると明記されているため。', src: gemini}
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 87%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 50%', src: danbooru}
+    - {id: tsundere, weight: sub, note: '資料: 自身をツンデレと呼んでいるという記述があるため。', src: gemini}
+  patterns: []
+
+- id: shinomiya-kaguya
+  name: 四宮かぐや
+  kana: しのみやかぐや
+  work: かぐや様は告らせたい
+  year: 2015
+  summary: 名門資産家の箱入り娘であり、相手に告白させようと頭脳戦を展開し最終的に結婚に至る多才な天才。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b120649-NPaWaIpWy60E.png'
+    page: 'https://anilist.co/character/120649'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: akame, weight: core, note: 'danbooru red_eyes 90%', src: danbooru}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 84%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru folded_ponytail 62%', src: danbooru}
+    - {id: reijou, weight: core, note: '資料: 資産家である四宮家の一員であり、非常に箱入り娘であると記述されているため。', src: gemini}
+    - {id: ryou-kataomoi, weight: sub, note: '資料: 白銀御行を自分に惚れさせ告白させようと関係を模索し、最終的に互いに告白して交際・結婚に至っているため。', src: gemini}
+    - {id: sakotsu, weight: sub, note: 'danbooru collarbone 36%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 55%', src: danbooru}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 35%', src: danbooru}
+  patterns: []
+
+- id: son-goku
+  name: 孫悟空
+  kana: そんごくう
+  work: ドラゴンボール
+  year: 1984
+  summary: 人外（サイヤ人）としての出自を持ちながら、仲間との出会いを通じてドラゴンボールを巡る旅を続ける構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/246-wsRRr6z1kii8.png'
+    page: 'https://anilist.co/character/246'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: kinniku, weight: core, note: 'danbooru muscular 66%', src: danbooru}
+    - {id: jingai, weight: sub, note: '資料: 種族が人間の枠外である「サイヤ人」と明記されている。', src: gemini}
+    - {id: kurokami, weight: sub, note: 'danbooru black_hair 38%', src: danbooru}
+    - {id: nagaremono, weight: sub, note: '資料: 人里離れた森での生活から、ブルマと共に7つのドラゴンボールを探す旅に出ている。', src: gemini}
+  patterns: []
+
+- id: souryuu-asuka-langley
+  name: 惣流・アスカ・ラングレー
+  kana: そうりゅうあすからんぐれー
+  work: 新世紀エヴァンゲリオン
+  year: 1995
+  summary: 母の精神崩壊と自殺という不遇な生い立ちの中で二度と泣かない誓いを立て、歳の離れた相手への報われない片思いを抱える14歳の少女。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b94-d631a3Z2KPvd.png'
+    page: 'https://anilist.co/character/94'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: aome, weight: core, note: 'danbooru blue_eyes 79%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 88%', src: danbooru}
+    - {id: fuguu, weight: core, note: '資料: 母親が精神異常をきたして自分を認識しなくなり自殺したことや、父親の再婚相手に愛情を感じられない生い立ち。', src: gemini}
+    - {id: akagami, weight: sub, note: 'danbooru orange_hair 48%', src: danbooru}
+    - {id: kataomoi, weight: sub, note: '資料: 加持に対して報われない好意を抱いていること。', src: gemini}
+    - {id: kodomo, weight: sub, note: '資料: 14歳の女性であること。', src: gemini}
+    - {id: soushitsu, weight: sub, note: '資料: 母親の精神異常と自殺により、母の愛情と存在を失っていること。', src: gemini}
+    - {id: yakusoku, weight: sub, note: '資料: 母が自殺した日に、二度と泣かないと自分自身に誓ったこと。', src: gemini}
+    - {id: toshi-no-sa, weight: spice, note: '資料: 好意を寄せる加持が自身の2倍以上の年齢であること。', src: gemini}
+  patterns: []
+
+- id: suzumiya-haruhi
+  name: 涼宮ハルヒ
+  kana: すずみやはるひ
+  work: 涼宮ハルヒの憂鬱
+  year: 2003
+  summary: 突拍子もない目的のために周囲を巻き込んで組織を率いるリーダーシップと、本人の自覚なく世界を揺るがす神的な全能性が同居する人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b251-8DTaCNkSvBQ8.png'
+    page: 'https://anilist.co/character/251'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 81%', src: danbooru}
+    - {id: kami, weight: core, note: '資料: 資料内に直接の明記はないが、作品上は無意識に世界を作り替える神格と同等の存在である。', src: gemini}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 56%', src: danbooru}
+    - {id: chuuni, weight: sub, note: '資料: 宇宙人や未来人、超能力者の発見を真面目な目的として掲げ、SOS団を設立・活動している。', src: gemini}
+    - {id: joushi, weight: sub, note: '資料: SOS団の創設者にして団長、超監督といった組織の長たる肩書きを持つ。', src: gemini}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 48%', src: danbooru}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 40%', src: danbooru}
   patterns: []
 
 - id: takanashi-rikka
@@ -944,6 +1987,30 @@
     - {id: kabau, weight: spice, note: '資料: 妹である間桐桜を殺すことができず、代わりに自ら攻撃を受けた。', src: gemini}
   patterns: []
 
+- id: tomioka-giyuu
+  name: 冨岡義勇
+  kana: とみおかぎゆう
+  work: 鬼滅の刃
+  year: 2016
+  summary: 鬼殺隊の最高幹部である「水柱」としての凄腕を持ちながら、周囲から「嫌われている」と評されるような不器用な孤立を抱えた剣士。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b130050-qsLThJs5VIbz.png'
+    page: 'https://anilist.co/character/130050'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: aome, weight: core, note: 'danbooru blue_eyes 67%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 63%', src: danbooru}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 78%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 81%', src: danbooru}
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 82%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 47%', src: danbooru}
+    - {id: joushi, weight: sub, note: '資料: 鬼殺隊の最高位である「水柱」の立場にある。', src: gemini}
+  patterns: []
+
 - id: tsukino-usagi
   name: 月野うさぎ
   kana: つきのうさぎ
@@ -968,6 +2035,75 @@
     - {id: twintail, weight: core, note: 'danbooru twintails 90%', src: danbooru}
     - {id: choker, weight: sub, note: 'danbooru choker 58%', src: danbooru}
     - {id: reijou, weight: sub, note: '資料: 「月のプリンセス・セレニティの現代における転生体である」との記述から、王族（プリンセス）の立場を持つ。', src: gemini}
+  patterns: []
+
+- id: uchiha-sasuke
+  name: うちはサスケ
+  kana: うちはさすけ
+  work: NARUTO
+  year: 1999
+  summary: 一族全滅という過酷な喪失と復讐の使命を背負い、仲間との繋がりと復讐心の間で絆に揺れる忍者。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b13-SISLEw1oAD7a.png'
+    page: 'https://anilist.co/character/13'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: fukushuu, weight: core, note: '資料: 両親と一族を殺害した兄イタチを殺し、一族の復讐を果たすことを行動の最大の目的としている。', src: gemini}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 78%', src: danbooru}
+    - {id: ninja, weight: core, note: '資料: 忍者アカデミーに通い、火遁の術や千鳥、血継限界である写輪眼を使用する忍者として活動している。', src: gemini}
+    - {id: soushitsu, weight: core, note: '資料: 幼少期に兄イタチの手によって両親およびうちは一族全員を殺害されるという取り返しのつかない欠損を抱えている。', src: gemini}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 40%', src: danbooru}
+    - {id: fuguu, weight: sub, note: '資料: 幼少期に肉親と一族をすべて失い、兄から自分を憎むよう告げられて生き残らされた不遇な生い立ちを持つ。', src: gemini}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 45%', src: danbooru}
+  patterns: []
+
+- id: uzumaki-naruto
+  name: うずまきナルト
+  kana: うずまきなると
+  work: NARUTO
+  year: 1999
+  summary: 体内に九尾を宿した不遇な境遇を抱えながら、里を救い信頼を得ていく忍者。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b17-phjcWCkRuIhu.png'
+    page: 'https://anilist.co/character/17'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: fuuin, weight: core, note: '資料: 生まれた際、里を襲撃した九尾の妖狐が四代目火影によって体内に封印された。', src: gemini}
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 80%', src: danbooru}
+    - {id: ninja, weight: core, note: '資料: 木ノ葉隠れの里の忍者（忍の階級は下忍）。', src: gemini}
+    - {id: aome, weight: sub, note: 'danbooru blue_eyes 51%', src: danbooru}
+    - {id: fuguu, weight: sub, note: '資料: 九尾の器として村人たちから忌み嫌われ疎外された。', src: gemini}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 51%', src: danbooru}
+  patterns: []
+
+- id: vegeta
+  name: ベジータ
+  kana: べじーた
+  work: ドラゴンボール
+  year: 1988
+  summary: サイヤ人という人外の種族と王族の血筋（御曹司）を持ち、小柄な体躯で特訓に励む人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b913-NIFkKazWM8VO.png'
+    page: 'https://anilist.co/character/913'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: jingai, weight: core, note: '資料: 種族が人間ではなくサイヤ人であると明記されている。', src: gemini}
+    - {id: tebukuro, weight: core, note: 'danbooru gloves 63%', src: danbooru}
+    - {id: kinniku, weight: sub, note: 'danbooru muscular 51%', src: danbooru}
+    - {id: reijou, weight: sub, note: '資料: 父親がベジータ王三世であり、王族・名家の生まれ（御曹司）にあたること。', src: gemini}
+    - {id: teishinchou, weight: sub, note: '資料: 身長が164cmと設定されていること。', src: gemini}
   patterns: []
 
 - id: violet-evergarden
@@ -1042,6 +2178,28 @@
     - {id: keiyaku, weight: sub, note: '資料: 互いの目的と利害が一致したことから、ロイド・フォージャーと偽装結婚（Marriage of Convenience）を行った。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: プロフィールにおいて女性で身長170cmと明記されている。', src: gemini}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 56%', src: danbooru}
+  patterns: []
+
+- id: yukinoshita-yukino
+  name: 雪ノ下雪乃
+  kana: ゆきのしたゆきの
+  work: やはり俺の青春ラブコメはまちがっている。
+  year: 2011
+  summary: 国会議員の娘という背景を持ちながら部活のリーダーを務め、過去の交通事故に因縁を持つ相手との告白を経て恋人関係へ至る構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b67067-gqhgjlni0Bcf.png'
+    page: 'https://anilist.co/character/67067'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-26'
+  elements:
+    - {id: aome, weight: core, note: 'danbooru blue_eyes 74%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 95%', src: danbooru}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 90%', src: danbooru}
+    - {id: reijou, weight: sub, note: '資料: 父親が国会議員であることが設定として明記されている。', src: gemini}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 45%', src: danbooru}
   patterns: []
 
 - id: yunohana-yuuna
