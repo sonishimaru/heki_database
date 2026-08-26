@@ -8,6 +8,29 @@ const GROUP_COLORS = {
 };
 
 const WEIGHT_LABEL = { core: '骨格', sub: '補強', spice: '一点' };
+
+// 画像が無い／読めないキャラは、分析結果の髪色・目の色から色見本を組み立てて出す。
+const HAIR_COLOR = {
+  kinpatsu: '#e3bf62', kurokami: '#2f2d35', chapatsu: '#8a5a3b', akagami: '#c2452d',
+  aogami: '#4a7fc1', midorigami: '#4e9c6b', 'pinku-gami': '#e18daa', 'murasaki-gami': '#8b6bb5',
+  shirogami: '#d3d2da', messhu: '#9b7f68', kasshoku: '#7a5238', irojiro: '#e6ddd4',
+};
+const EYE_COLOR = {
+  akame: '#cc3a4e', aome: '#3f79c9', 'kin-no-me': '#dfa62c', 'midori-no-me': '#3f9b6a',
+  'murasaki-no-me': '#8760b8', 'momoiro-no-me': '#e08aa8', 'chairo-no-me': '#8a5f3d',
+  heterochromia: '#c9832e',
+};
+
+function portrait(c, cls) {
+  const hair = c.elements.find((it) => HAIR_COLOR[it.id]);
+  const eye = c.elements.find((it) => EYE_COLOR[it.id]);
+  const url = (c.image || {}).url;
+  const style = `--hair:${HAIR_COLOR[(hair || {}).id] || '#b9b2a4'};--eye:${EYE_COLOR[(eye || {}).id] || '#ffffff'}`;
+  return `<span class="portrait ${cls}" style="${style}">
+      <span class="portrait-mark">${esc((c.name || '').trim().charAt(0))}</span>
+      ${url ? `<img src="${esc(url)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ''}
+    </span>`;
+}
 const FORMULA_LABEL = {
   subject: '主体',
   delta: '変化',
@@ -220,9 +243,14 @@ function characterCard(c) {
   const rest = c.elements.length - Math.min(4, c.elements.filter((it) => it.weight === 'core').length);
   if (rest > 0) chips.push(chip('他 ' + rest, null, 'more'));
   return `<a class="card" href="#/c/${c.id}">
-      <div class="card-kicker">${esc(c.work)}${c.year ? ' ・ ' + c.year : ''}</div>
-      <div class="card-title">${esc(c.name)}</div>
-      <div class="card-kana">${esc(c.kana)}</div>
+      <div class="card-head">
+        ${portrait(c, 'sm')}
+        <div class="card-headtext">
+          <div class="card-kicker">${esc(c.work)}${c.year ? ' ・ ' + c.year : ''}</div>
+          <div class="card-title">${esc(c.name)}</div>
+          <div class="card-kana">${esc(c.kana)}</div>
+        </div>
+      </div>
       <p class="card-summary">${esc(c.summary)}</p>
       ${compositionBar(c.composition)}
       <div class="chips">${chips.join('')}</div>
@@ -473,9 +501,24 @@ function renderCharacterDetail(id) {
     .sort((a, b) => b.shared.length - a.shared.length)
     .slice(0, 6);
 
+  const image = c.image || {};
+  const credit = image.url
+    ? `<p class="portrait-credit">画像: ${
+        image.page
+          ? `<a href="${esc(image.page)}" target="_blank" rel="noopener noreferrer">${esc(image.credit || '出典')}</a>`
+          : esc(image.credit || '出典')
+      }（参照。当サイトは画像を保持していません）</p>`
+    : '<p class="portrait-credit">画像なし。髪色・目の色は分析結果から。</p>';
+
   app.innerHTML = `<section class="detail">
     ${detailHead(c.name, c.kana, '#/', 'キャラ名鑑へ戻る')}
-    <p class="lede">${esc(c.summary)}</p>
+    <div class="lede-row">
+      <div class="portrait-box">
+        ${portrait(c, 'lg')}
+        ${credit}
+      </div>
+      <p class="lede">${esc(c.summary)}</p>
+    </div>
     <div class="cols">
       <div>
         <div class="block">

@@ -109,6 +109,13 @@ def emit_character_yaml(entry: dict) -> str:
         out.append(f"  author: {yaml_quote(entry['author'])}")
     out.append(f"  summary: {yaml_quote(entry['summary'])}")
 
+    image = entry.get("image") or {}
+    if image.get("url"):
+        out.append("  image:")
+        for key in ("url", "page", "credit"):
+            if image.get(key):
+                out.append(f"    {key}: {yaml_quote(image[key])}")
+
     analysis = entry.get("analysis") or {}
     if analysis:
         out.append("  analysis:")

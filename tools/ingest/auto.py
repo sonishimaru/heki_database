@@ -42,7 +42,10 @@ def load_auto_meta() -> dict[str, dict]:
     if not AUTO_CHARACTERS.exists():
         return {}
     entries = yaml.safe_load(AUTO_CHARACTERS.read_text(encoding="utf-8")) or []
-    return {e["id"]: (e.get("analysis") or {}) for e in entries}
+    return {
+        e["id"]: {**(e.get("analysis") or {}), "_has_image": bool((e.get("image") or {}).get("url"))}
+        for e in entries
+    }
 
 
 def select_targets(queue: list[dict], auto_meta: dict[str, dict], max_age_days: int, only: str | None, backfill_gemini: bool) -> list[dict]:
@@ -65,10 +68,13 @@ def select_targets(queue: list[dict], auto_meta: dict[str, dict], max_age_days: 
             entry["_reason"] = f"期限切れ（前回 {last or '不明'}）"
             stale.append(entry)
             continue
-        # クォータ切れ等で資料レーンだけ落ちた件は、期限を待たずに埋め直す
+        # クォータ切れ等で資料レーンだけ落ちた件、画像リンクが未取得の件は期限を待たずに埋め直す
         wants_gemini = bool(entry.get("anilist") or entry.get("pages"))
         if backfill_gemini and wants_gemini and "gemini" not in (meta.get("method") or ""):
             entry["_reason"] = f"資料レーン未取得（前回 {last}）"
+            lane_gap.append(entry)
+        elif entry.get("anilist") and not meta.get("_has_image"):
+            entry["_reason"] = f"画像リンク未取得（前回 {last}）"
             lane_gap.append(entry)
     return fresh + stale + lane_gap
 
@@ -96,10 +102,12 @@ def process(entry: dict, api_key: str | None, sleep: float) -> None:
             danbooru_file = path
 
     pages: list[Path] = []
+    anilist_file = None
     if entry.get("anilist"):
         path = workdir / "anilist.json"
         if try_fetch([python, INGEST / "fetch.py", "--sleep", sleep, "anilist", entry["anilist"], "--out", path], path, f"anilist {entry['anilist']}"):
             pages.append(path)
+            anilist_file = path
     for index, url in enumerate(entry.get("pages") or []):
         path = workdir / f"page_{index}.txt"
         if try_fetch([python, INGEST / "fetch.py", "--sleep", sleep, "page", url, "--out", path], path, url):
@@ -139,6 +147,8 @@ def process(entry: dict, api_key: str | None, sleep: float) -> None:
         merge_cmd += ["--danbooru", danbooru_file]
     if classify_file:
         merge_cmd += ["--vision", classify_file]
+    if anilist_file:
+        merge_cmd += ["--anilist", anilist_file]
     run(merge_cmd)
 
 

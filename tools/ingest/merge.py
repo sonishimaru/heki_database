@@ -142,6 +142,19 @@ def from_danbooru(path: Path) -> list[dict]:
     return results, unmapped
 
 
+def image_from_anilist(path: Path) -> dict:
+    """AniList の取得結果から参照用の画像リンクを取り出す。
+
+    画像そのものはリポジトリに置かない。保持するのは URL と出典ページだけで、
+    サイト側はクレジットと出典リンクを添えて参照表示する。
+    """
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    url = payload.get("image")
+    if not url:
+        return {}
+    return {"url": url, "page": payload.get("url") or "", "credit": "AniList"}
+
+
 def from_vision(vision_path: Path) -> tuple[list[dict], dict]:
     payload = json.loads(vision_path.read_text(encoding="utf-8"))
     items = [
@@ -178,6 +191,7 @@ def main() -> int:
     parser.add_argument("--tags", type=Path, help="tagger.py の出力")
     parser.add_argument("--danbooru", type=Path, help="fetch.py danbooru の出力（外見の群衆合意）")
     parser.add_argument("--vision", type=Path, help="classify.py の出力")
+    parser.add_argument("--anilist", type=Path, help="fetch.py anilist の出力（参照用の画像リンク）")
     parser.add_argument("--name", required=True)
     parser.add_argument("--work", required=True)
     parser.add_argument("--kana", default="")
@@ -244,6 +258,10 @@ def main() -> int:
         ],
         "patterns": [],
     }
+    if args.anilist and args.anilist.exists():
+        image = image_from_anilist(args.anilist)
+        if image:
+            entry["image"] = image
 
     if args.write_auto:
         # 今回動いたレーンの要素だけを置き換え、動かなかったレーンの前回結果は引き継ぐ。
@@ -262,6 +280,8 @@ def main() -> int:
                     entry["elements"].append(old)
             if entry["summary"] in ("", "（要記入）"):
                 entry["summary"] = previous.get("summary", entry["summary"])
+            if not entry.get("image") and previous.get("image"):
+                entry["image"] = previous["image"]
             entry["patterns"] = previous.get("patterns") or []
             lanes = sorted({element.get("src", "?") for element in entry["elements"]})
             entry["analysis"]["method"] = "+".join(lanes)

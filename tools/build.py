@@ -278,6 +278,7 @@ def build(elements: dict, patterns: dict, characters: dict, groups: list, axis_i
                 "year": entry.get("year"),
                 "author": entry.get("author", ""),
                 "summary": entry["summary"],
+                "image": entry.get("image") or {},
                 "analysis": entry.get("analysis") or {},
                 "curated": not entry.get("_auto", False),
                 "elements": [
