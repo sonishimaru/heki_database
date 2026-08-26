@@ -42,6 +42,28 @@ def load_yaml(path: Path):
         return yaml.safe_load(fh)
 
 
+CONFLICT_RE = re.compile(r"^(<{7}|={7}|>{7})(\s|$)", re.MULTILINE)
+
+
+def check_data_files(problems: Problems) -> None:
+    """data/ 配下の YAML が壊れていないか先に見る。
+
+    マージのコンフリクトマーカーが残ったまま入ると、後段のツールが
+    読めずに落ちる（実際に suggestions.yaml で取り込みが半分失敗した）。
+    検証対象に入っていないファイルも含めて、ここで全部見る。
+    """
+    for path in sorted(DATA.rglob("*.yaml")):
+        text = path.read_text(encoding="utf-8")
+        where = str(path.relative_to(ROOT))
+        if CONFLICT_RE.search(text):
+            problems.add(where, "マージのコンフリクトマーカーが残っています")
+            continue
+        try:
+            yaml.safe_load(text)
+        except yaml.YAMLError as err:
+            problems.add(where, f"YAML として読めません: {err.__class__.__name__}")
+
+
 def require(problems: Problems, where: str, obj: dict, keys: tuple[str, ...]) -> None:
     for key in keys:
         value = obj.get(key)
@@ -359,6 +381,7 @@ def main() -> int:
     args = parser.parse_args()
 
     problems = Problems()
+    check_data_files(problems)
     groups, axis_index = load_axes(problems)
     elements = load_elements(problems, axis_index)
     check_cross_refs(problems, elements)

@@ -305,7 +305,12 @@ def main() -> int:
         if unmapped or new_tags:
             existing_s = []
             if SUGGESTIONS.exists():
-                existing_s = yaml.safe_load(SUGGESTIONS.read_text(encoding="utf-8")) or []
+                # 語彙の穴の蓄積は付帯的な出力なので、壊れていても本体は止めない
+                try:
+                    existing_s = yaml.safe_load(SUGGESTIONS.read_text(encoding="utf-8")) or []
+                except yaml.YAMLError as err:
+                    print(f"警告: {SUGGESTIONS} を読めないので作り直します（{err.__class__.__name__}）")
+                    existing_s = []
             existing_s = [s for s in existing_s if s.get("id") != entry["id"]]
             existing_s.append(
                 {
