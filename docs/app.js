@@ -796,6 +796,7 @@ function characterGaps(c) {
   if (!hasVisual) gaps.push('外見なし');
   if (!hasNonVisual) gaps.push('非外見なし');
   if (!c.patterns.length) gaps.push('性癖未設定');
+  if (!(c.image || {}).url) gaps.push('画像なし');
   return gaps;
 }
 
