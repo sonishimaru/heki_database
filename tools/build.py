@@ -375,6 +375,25 @@ def build(elements: dict, patterns: dict, characters: dict, groups: list, axis_i
     }
 
 
+README = ROOT / "README.md"
+COUNT_RE = re.compile(r"^現在の収録数: \*\*.*\*\*$", re.MULTILINE)
+
+
+def update_readme_counts(stats: dict) -> None:
+    """README の収録数を実データに合わせる。手で直すと必ず古くなるため。"""
+    if not README.exists():
+        return
+    text = README.read_text(encoding="utf-8")
+    line = (
+        f"現在の収録数: **{stats['characters']} 名 / {stats['elements']} 要素 / "
+        f"{stats['patterns']} 性癖 / {stats['axes']} 軸**"
+    )
+    updated = COUNT_RE.sub(lambda _: line, text, count=1)
+    if updated != text:
+        README.write_text(updated, encoding="utf-8")
+        print(f"README の収録数を更新: {line}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true", help="検証のみ行い書き出さない")
@@ -408,6 +427,7 @@ def main() -> int:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(db, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"書き出し: {OUT.relative_to(ROOT)} ({OUT.stat().st_size:,} bytes)")
+    update_readme_counts(stats)
     return 0
 
 

@@ -348,3 +348,362 @@ characters:
     danbooru: nami_(one_piece)
     anilist: Nami
 
+
+  # ---- 2 期目の貯蓄（65名 → 110名を目指す） ----
+  # 手薄な軸を狙う:
+  #   物語役割/役割・結末・秘密・ギャップ（現状4語ずつ）… 仮面・自己犠牲・正体隠しの原型
+  #   性格/信条（5語）… 不殺・復讐・矜持を掲げるキャラ
+  #   外見/痕（傷痕・烙印・義肢）… 戦うキャラの履歴
+  #   半妖・鬼・魔女など、6巡目で足した語の実例
+  # 年代と性別の偏りを均すため、80〜90年代作品と男性キャラを厚めにした。
+
+  - id: inuyasha
+    name: 犬夜叉
+    kana: いぬやしゃ
+    work: 犬夜叉
+    year: 1996
+    danbooru: inuyasha_(character)
+    anilist: Inuyasha
+  - id: himura-kenshin
+    name: 緋村剣心
+    kana: ひむらけんしん
+    work: るろうに剣心
+    year: 1994
+    danbooru: himura_kenshin
+    anilist: Kenshin Himura
+  - id: guts
+    name: ガッツ
+    kana: がっつ
+    work: ベルセルク
+    year: 1989
+    danbooru: guts_(berserk)
+    anilist: Guts
+  - id: lelouch-lamperouge
+    name: ルルーシュ・ランペルージ
+    kana: るるーしゅらんぺるーじ
+    work: コードギアス
+    year: 2006
+    danbooru: lelouch_vi_britannia
+    anilist: Lelouch Lamperouge
+  - id: cc
+    name: C.C.
+    kana: しーつー
+    work: コードギアス
+    year: 2006
+    danbooru: c.c.
+    anilist: C.C.
+  - id: saitama
+    name: サイタマ
+    kana: さいたま
+    work: ワンパンマン
+    year: 2009
+    danbooru: saitama_(one-punch_man)
+    anilist: Saitama
+  - id: okabe-rintarou
+    name: 岡部倫太郎
+    kana: おかべりんたろう
+    work: STEINS;GATE
+    year: 2009
+    danbooru: okabe_rintarou
+    anilist: Rintarou Okabe
+  - id: makise-kurisu
+    name: 牧瀬紅莉栖
+    kana: まきせくりす
+    work: STEINS;GATE
+    year: 2009
+    danbooru: makise_kurisu
+    anilist: Kurisu Makise
+  - id: hakurei-reimu
+    name: 博麗霊夢
+    kana: はくれいれいむ
+    work: 東方Project
+    year: 1996
+    danbooru: hakurei_reimu
+    anilist: Reimu Hakurei
+  - id: kirisame-marisa
+    name: 霧雨魔理沙
+    kana: きりさめまりさ
+    work: 東方Project
+    year: 1997
+    danbooru: kirisame_marisa
+    anilist: Marisa Kirisame
+  - id: edogawa-conan
+    name: 江戸川コナン
+    kana: えどがわこなん
+    work: 名探偵コナン
+    year: 1994
+    danbooru: edogawa_conan
+    anilist: Conan Edogawa
+  - id: araragi-koyomi
+    name: 阿良々木暦
+    kana: あららぎこよみ
+    work: 化物語
+    year: 2006
+    danbooru: araragi_koyomi
+    anilist: Koyomi Araragi
+  - id: senjougahara-hitagi
+    name: 戦場ヶ原ひたぎ
+    kana: せんじょうがはらひたぎ
+    work: 化物語
+    year: 2006
+    danbooru: senjougahara_hitagi
+    anilist: Hitagi Senjougahara
+  - id: hatake-kakashi
+    name: はたけカカシ
+    kana: はたけかかし
+    work: NARUTO
+    year: 1999
+    danbooru: hatake_kakashi
+    anilist: Kakashi Hatake
+  - id: uzumaki-naruto
+    name: うずまきナルト
+    kana: うずまきなると
+    work: NARUTO
+    year: 1999
+    danbooru: uzumaki_naruto
+    anilist: Naruto Uzumaki
+  - id: uchiha-sasuke
+    name: うちはサスケ
+    kana: うちはさすけ
+    work: NARUTO
+    year: 1999
+    danbooru: uchiha_sasuke
+    anilist: Sasuke Uchiha
+  - id: son-goku
+    name: 孫悟空
+    kana: そんごくう
+    work: ドラゴンボール
+    year: 1984
+    danbooru: son_goku
+    anilist: Goku
+  - id: vegeta
+    name: ベジータ
+    kana: べじーた
+    work: ドラゴンボール
+    year: 1988
+    danbooru: vegeta
+    anilist: Vegeta
+  - id: midoriya-izuku
+    name: 緑谷出久
+    kana: みどりやいずく
+    work: 僕のヒーローアカデミア
+    year: 2014
+    danbooru: midoriya_izuku
+    anilist: Izuku Midoriya
+  - id: bakugou-katsuki
+    name: 爆豪勝己
+    kana: ばくごうかつき
+    work: 僕のヒーローアカデミア
+    year: 2014
+    danbooru: bakugou_katsuki
+    anilist: Katsuki Bakugou
+  - id: tomioka-giyuu
+    name: 冨岡義勇
+    kana: とみおかぎゆう
+    work: 鬼滅の刃
+    year: 2016
+    danbooru: tomioka_giyuu
+    anilist: Giyuu Tomioka
+  - id: agatsuma-zenitsu
+    name: 我妻善逸
+    kana: あがつまぜんいつ
+    work: 鬼滅の刃
+    year: 2016
+    danbooru: agatsuma_zenitsu
+    anilist: Zenitsu Agatsuma
+  - id: fushiguro-megumi
+    name: 伏黒恵
+    kana: ふしぐろめぐみ
+    work: 呪術廻戦
+    year: 2018
+    danbooru: fushiguro_megumi
+    anilist: Megumi Fushiguro
+  - id: itadori-yuuji
+    name: 虎杖悠仁
+    kana: いたどりゆうじ
+    work: 呪術廻戦
+    year: 2018
+    danbooru: itadori_yuuji
+    anilist: Yuuji Itadori
+  - id: kugisaki-nobara
+    name: 釘崎野薔薇
+    kana: くぎさきのばら
+    work: 呪術廻戦
+    year: 2018
+    danbooru: kugisaki_nobara
+    anilist: Nobara Kugisaki
+  - id: loid-forger
+    name: ロイド・フォージャー
+    kana: ろいどふぉーじゃー
+    work: SPY×FAMILY
+    year: 2019
+    danbooru: loid_forger
+    anilist: Loid Forger
+  - id: hayakawa-aki
+    name: 早川アキ
+    kana: はやかわあき
+    work: チェンソーマン
+    year: 2018
+    danbooru: hayakawa_aki
+    anilist: Aki Hayakawa
+  - id: denji
+    name: デンジ
+    kana: でんじ
+    work: チェンソーマン
+    year: 2018
+    danbooru: denji_(chainsaw_man)
+    anilist: Denji
+  - id: lupin-iii
+    name: ルパン三世
+    kana: るぱんさんせい
+    work: ルパン三世
+    year: 1967
+    danbooru: lupin_iii
+    anilist: Lupin III
+  - id: mine-fujiko
+    name: 峰不二子
+    kana: みねふじこ
+    work: ルパン三世
+    year: 1967
+    danbooru: mine_fujiko
+    anilist: Fujiko Mine
+  - id: char-aznable
+    name: シャア・アズナブル
+    kana: しゃああずなぶる
+    work: 機動戦士ガンダム
+    year: 1979
+    danbooru: char_aznable
+    anilist: Char Aznable
+  - id: amuro-ray
+    name: アムロ・レイ
+    kana: あむろれい
+    work: 機動戦士ガンダム
+    year: 1979
+    danbooru: amuro_ray
+    anilist: Amuro Ray
+  - id: souryuu-asuka-langley
+    name: 惣流・アスカ・ラングレー
+    kana: そうりゅうあすからんぐれー
+    work: 新世紀エヴァンゲリオン
+    year: 1995
+    danbooru: souryuu_asuka_langley
+    anilist: Asuka Langley Souryuu
+  - id: ikari-shinji
+    name: 碇シンジ
+    kana: いかりしんじ
+    work: 新世紀エヴァンゲリオン
+    year: 1995
+    danbooru: ikari_shinji
+    anilist: Shinji Ikari
+  - id: kusanagi-motoko
+    name: 草薙素子
+    kana: くさなぎもとこ
+    work: 攻殻機動隊
+    year: 1989
+    danbooru: kusanagi_motoko
+    anilist: Motoko Kusanagi
+  - id: suzumiya-haruhi
+    name: 涼宮ハルヒ
+    kana: すずみやはるひ
+    work: 涼宮ハルヒの憂鬱
+    year: 2003
+    danbooru: suzumiya_haruhi
+    anilist: Haruhi Suzumiya
+  - id: hirasawa-yui
+    name: 平沢唯
+    kana: ひらさわゆい
+    work: けいおん!
+    year: 2007
+    danbooru: hirasawa_yui
+    anilist: Yui Hirasawa
+  - id: shinomiya-kaguya
+    name: 四宮かぐや
+    kana: しのみやかぐや
+    work: かぐや様は告らせたい
+    year: 2015
+    danbooru: shinomiya_kaguya
+    anilist: Kaguya Shinomiya
+  - id: fujiwara-chika
+    name: 藤原千花
+    kana: ふじわらちか
+    work: かぐや様は告らせたい
+    year: 2015
+    danbooru: fujiwara_chika
+    anilist: Chika Fujiwara
+  - id: miyamizu-mitsuha
+    name: 宮水三葉
+    kana: みやみずみつは
+    work: 君の名は。
+    year: 2016
+    danbooru: miyamizu_mitsuha
+    anilist: Mitsuha Miyamizu
+  - id: kiki
+    name: キキ
+    kana: きき
+    work: 魔女の宅急便
+    year: 1985
+    danbooru: kiki_(majo_no_takkyuubin)
+    anilist: Kiki
+  - id: ogino-chihiro
+    name: 荻野千尋
+    kana: おぎのちひろ
+    work: 千と千尋の神隠し
+    year: 2001
+    danbooru: ogino_chihiro
+    anilist: Chihiro Ogino
+  - id: san
+    name: サン
+    kana: さん
+    work: もののけ姫
+    year: 1997
+    danbooru: san_(mononoke_hime)
+    anilist: San
+  - id: lum
+    name: ラム
+    kana: らむ
+    work: うる星やつら
+    year: 1978
+    danbooru: lum
+    anilist: Lum
+  - id: eren-yeager
+    name: エレン・イェーガー
+    kana: えれんいぇーがー
+    work: 進撃の巨人
+    year: 2009
+    danbooru: eren_yeager
+    anilist: Eren Yeager
+  - id: sakurajima-mai
+    name: 桜島麻衣
+    kana: さくらじままい
+    work: 青春ブタ野郎
+    year: 2014
+    danbooru: sakurajima_mai
+    anilist: Mai Sakurajima
+  - id: yukinoshita-yukino
+    name: 雪ノ下雪乃
+    kana: ゆきのしたゆきの
+    work: やはり俺の青春ラブコメはまちがっている。
+    year: 2011
+    danbooru: yukinoshita_yukino
+    anilist: Yukino Yukinoshita
+  - id: chitanda-eru
+    name: 千反田える
+    kana: ちたんだえる
+    work: 氷菓
+    year: 2001
+    danbooru: chitanda_eru
+    anilist: Eru Chitanda
+  - id: ram-re-zero
+    name: ラム
+    kana: らむ
+    work: Re:ゼロから始める異世界生活
+    year: 2014
+    danbooru: ram_(re:zero)
+    anilist: Ram
+  - id: roronoa-zoro
+    name: ロロノア・ゾロ
+    kana: ろろのあぞろ
+    work: ONE PIECE
+    year: 1997
+    danbooru: roronoa_zoro
+    anilist: Zoro Roronoa

@@ -11,7 +11,7 @@ on:
       limit:
         description: "処理する最大件数"
         required: false
-        default: "5"
+        default: "12"
       refresh_all:
         description: "期限に関係なく全件を取り直す（見出し語を足した後に使う）"
         required: false
@@ -42,7 +42,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          ARGS="--limit ${{ github.event.inputs.limit || 5 }}"
+          ARGS="--limit ${{ github.event.inputs.limit || 12 }}"
           if [ -n "${{ github.event.inputs.only }}" ]; then
             ARGS="$ARGS --only ${{ github.event.inputs.only }}"
           fi
