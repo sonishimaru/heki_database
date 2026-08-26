@@ -48,7 +48,14 @@ def load_auto_meta() -> dict[str, dict]:
     }
 
 
-def select_targets(queue: list[dict], auto_meta: dict[str, dict], max_age_days: int, only: str | None, backfill_gemini: bool) -> list[dict]:
+def select_targets(
+    queue: list[dict],
+    auto_meta: dict[str, dict],
+    max_age_days: int,
+    only: str | None,
+    backfill_gemini: bool,
+    refresh_all: bool = False,
+) -> list[dict]:
     cutoff = time.strftime("%Y-%m-%d", time.localtime(time.time() - max_age_days * 86400))
     fresh, stale, lane_gap = [], [], []
     for entry in queue:
@@ -63,18 +70,22 @@ def select_targets(queue: list[dict], auto_meta: dict[str, dict], max_age_days: 
             entry["_reason"] = "新規"
             fresh.append(entry)
             continue
+        if refresh_all:
+            # 見出し語を足した後など、期限に関係なく全件へ新しい語彙を当て直す
+            entry["_reason"] = "全件再取得"
+            stale.append(entry)
+            continue
         last = meta.get("date", "")
         if not last or last < cutoff:
             entry["_reason"] = f"期限切れ（前回 {last or '不明'}）"
             stale.append(entry)
             continue
-        # クォータ切れ等で資料レーンだけ落ちた件、画像リンクが未取得の件は期限を待たずに埋め直す
+        # クォータ切れ等で資料レーンだけ落ちた件は、期限を待たずに埋め直す。
+        # （取得できない件を毎日引き当て続けないよう、条件はレーンの欠落だけにしている。
+        #   見出し語を足した後の当て直しは --refresh-all を使う）
         wants_gemini = bool(entry.get("anilist") or entry.get("pages"))
         if backfill_gemini and wants_gemini and "gemini" not in (meta.get("method") or ""):
             entry["_reason"] = f"資料レーン未取得（前回 {last}）"
-            lane_gap.append(entry)
-        elif entry.get("anilist") and not meta.get("_has_image"):
-            entry["_reason"] = f"画像リンク未取得（前回 {last}）"
             lane_gap.append(entry)
     return fresh + stale + lane_gap
 
@@ -157,6 +168,7 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=5, help="1 回の実行で処理する最大件数")
     parser.add_argument("--max-age-days", type=int, default=30, help="この日数より古いエントリを再取得する")
     parser.add_argument("--only", help="このキャラ id だけ強制実行する")
+    parser.add_argument("--refresh-all", action="store_true", help="期限に関係なく全件を取り直す（見出し語を足した後に使う）")
     parser.add_argument("--sleep", type=float, default=2.0, help="リクエスト間隔（秒）")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
@@ -170,7 +182,10 @@ def main() -> int:
         return 0
 
     api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
-    targets = select_targets(queue, load_auto_meta(), args.max_age_days, args.only, backfill_gemini=bool(api_key))
+    targets = select_targets(
+        queue, load_auto_meta(), args.max_age_days, args.only,
+        backfill_gemini=bool(api_key), refresh_all=args.refresh_all,
+    )
     if not targets:
         print("処理対象がありません（全件が期限内）。")
         return 0

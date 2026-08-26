@@ -12,6 +12,11 @@ on:
         description: "処理する最大件数"
         required: false
         default: "5"
+      refresh_all:
+        description: "期限に関係なく全件を取り直す（見出し語を足した後に使う）"
+        required: false
+        type: boolean
+        default: false
   push:
     paths:
       - data/queue.yaml
@@ -40,6 +45,9 @@ jobs:
           ARGS="--limit ${{ github.event.inputs.limit || 5 }}"
           if [ -n "${{ github.event.inputs.only }}" ]; then
             ARGS="$ARGS --only ${{ github.event.inputs.only }}"
+          fi
+          if [ "${{ github.event.inputs.refresh_all }}" = "true" ]; then
+            ARGS="$ARGS --refresh-all"
           fi
           python3 tools/ingest/auto.py $ARGS
 
