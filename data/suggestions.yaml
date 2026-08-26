@@ -14,7 +14,19 @@
   new_tag_proposals:
   - name: タイムループ
     axis: 物語役割/限定・反復
-    reason: 失敗するたびに月の始めへと戻り、何度も同じタイムラインを繰り返しているため。
+    reason: まどかを救うために失敗するたび月の始めへタイムラインをリセットして繰り返す構造が語彙リストに存在しないため。
+- id: anya-forger
+  name: アーニャ・フォージャー
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: hairpods
+    frequency: 0.7634
+  - tag: child
+    frequency: 0.5459
+  new_tag_proposals:
+  - name: 超能力者
+    axis: 能力・体質
+    reason: 他人の心を読むエスパーであることが明記されているが、適切な既存タグがないため。
 - id: ayanami-rei
   name: 綾波レイ
   date: '2026-08-26'
@@ -34,11 +46,8 @@
   unmapped_danbooru: []
   new_tag_proposals:
   - name: 錬金術師
-    axis: 関係性 / 立場
-    reason: 国家錬金術師という独自の専門職・立場を表す語彙が既存リストにないため。
-  - name: 義肢
-    axis: 外見 / 部位
-    reason: 失った右腕と左脚に装着している機械鎧（オートメイル）という設定を表すため。
+    axis: 外見 / 記号職
+    reason: 12歳で史上最年少の国家錬金術師の資格を取得した特別な職業・能力者であるため。
 - id: emilia
   name: エミリア
   date: '2026-08-26'
@@ -61,6 +70,14 @@
   - tag: blood
     frequency: 0.3507
   new_tag_proposals: []
+- id: gojo-satoru
+  name: 五条悟
+  date: '2026-08-26'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: kyoushi
+    axis: 関係性 / 立場
+    reason: 教師という立場・職業が指定語彙に含まれていないため。
 - id: hestia
   name: ヘスティア
   date: '2026-08-26'
@@ -75,10 +92,15 @@
     frequency: 0.3765
   - tag: cleavage_cutout
     frequency: 0.3761
+  new_tag_proposals: []
+- id: holo
+  name: ホロ
+  date: '2026-08-26'
+  unmapped_danbooru: []
   new_tag_proposals:
-  - name: 主神
-    axis: 関係性 / 立場
-    reason: ファミリアを率いて眷属に力を授ける「神」という独自の立場を表す語彙が不足しているため。
+  - name: 花魁口調
+    axis: 性格 / 話し方
+    reason: 花魁を模した独特の発話スタイルを持っているが、既存の「語尾」「方言」などでは十分に表現しきれないため。
 - id: hyuuga-hinata
   name: 日向ヒナタ
   date: '2026-08-26'
@@ -93,10 +115,7 @@
   unmapped_danbooru:
   - tag: hat
     frequency: 0.3663
-  new_tag_proposals:
-  - name: 憧れ
-    axis: 性格 / 動機
-    reason: シャイニィシャリオへの強い強い憧れが魔法学校への入学や行動の原動力となっているため。
+  new_tag_proposals: []
 - id: kagura
   name: 神楽
   date: '2026-08-26'
@@ -125,12 +144,17 @@
   - tag: checkered_haori
     frequency: 0.3776
   new_tag_proposals:
-  - name: 妹の治療
-    axis: 目的
-    reason: 資料に『禰豆子の治療法を見つけることを目標に活動する』と記述されているため。
-  - name: 呼吸の使い手
-    axis: 能力
-    reason: 資料に『戦闘スタイルは水の呼吸と日の呼吸』『自身が伝説の日の呼吸の使い手であることを知る』と記述されているため。
+  - name: 特殊な呼吸法の使い手
+    axis: 能力・技
+    reason: 戦闘スタイルが水の呼吸および日の呼吸であり、伝説の日の呼吸の使い手であることが資料に明記されているため。
+- id: kaneki-ken
+  name: 金木研
+  date: '2026-08-26'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 半喰種（混種）
+    axis: 外見 / 種族
+    reason: 人間と喰種の両方の要素を持ち、どちらの世界の食べ物や帰属意識にも葛藤が生じる状態を表すため。
 - id: kasuga-ayumu
   name: 春日歩
   date: '2026-08-26'
@@ -139,8 +163,8 @@
     frequency: 0.5241
   new_tag_proposals:
   - name: あだ名の定着
-    axis: 関係性 / 立場
-    reason: 智に付けられた「大阪」というあだ名が教員やクラス名簿にまで使われ、本名を誰にも覚えてもらえない状態になっているため。
+    axis: 関係性 / 定着
+    reason: 転校時に付けられたあだ名「大阪」が定着し、教師やクラス名簿にまで使用され本名を覚えてもらえなくなった状態。
 - id: kikyou
   name: 桔梗
   date: '2026-08-26'
@@ -160,7 +184,7 @@
   new_tag_proposals:
   - name: 探偵
     axis: 関係性 / 立場
-    reason: 「世界的に有名な探偵」という明確な役割・立場が示されているが、既存の語彙リストに存在しないため。
+    reason: 世界的に有名な探偵という肩書き・立場が明記されているが、既存語彙に存在しないため。
 - id: levi
   name: リヴァイ
   date: '2026-08-26'
@@ -174,7 +198,15 @@
   new_tag_proposals:
   - name: 潔癖症
     axis: 性格/癖・仕草
-    reason: 自分自身、装備、周囲の環境に完璧な清潔さを求める性質が資料に明記されているため。
+    reason: 自分自身や装備、周囲の環境に徹底した清潔さを求める性質が資料に明記されているが、既存の語彙にないため。
+- id: makima
+  name: マキマ
+  date: '2026-08-26'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: デビルハンター
+    axis: 関係性 / 立場
+    reason: 悪魔を狩る職業的立場であることが明確に記載されているが、既存の語彙に該当がないため。
 - id: mikasa-ackerman
   name: ミカサ・アッカーマン
   date: '2026-08-26'
@@ -221,13 +253,24 @@
   - tag: bikini
     frequency: 0.4011
   new_tag_proposals: []
+- id: power
+  name: パワー
+  date: '2026-08-26'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 魔人
+    axis: 外見 / 種族
+    reason: 悪魔に支配された死体という、悪魔とも人間とも異なる固有の種族形態であるため。
 - id: sebastian-michaelis
   name: セバスチャン・ミカエリス
   date: '2026-08-26'
   unmapped_danbooru:
   - tag: suit
     frequency: 0.4337
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: アンチヒーロー
+    axis: 物語役割 / 役割
+    reason: 資料のプロフィール項目で『作中のアンチヒーロー』と記載されているため。
 - id: takanashi-rikka
   name: 小鳥遊六花
   date: '2026-08-26'
@@ -244,8 +287,8 @@
     frequency: 0.4006
   new_tag_proposals:
   - name: 中二病
-    axis: 性格 / 気質
-    reason: 架空の能力や設定（邪王真眼など）を本気で演じ、生活の前提としている性質を示すため。
+    axis: 性格/気質
+    reason: 架空の能力設定（邪王真眼など）や世界観を演じる気質・自己演出行為。『現役の中二病患者である』と資料に明記されている。
 - id: todoroki-shouto
   name: 轟焦凍
   date: '2026-08-26'
@@ -253,9 +296,9 @@
   - tag: split-color_hair
     frequency: 0.7411
   new_tag_proposals:
-  - name: 半冷半燃
+  - name: 二重属性能力
     axis: 能力・体質
-    reason: 体の右側から氷、左側から炎という対極の事象を発生させる独自の性質。
+    reason: 右側から氷、左側から炎という相反する二つの属性をひとつの体で扱う特殊な能力（個性）を持っているため。
 - id: tohsaka-rin
   name: 遠坂凛
   date: '2026-08-26'
@@ -284,9 +327,9 @@
   - tag: circlet
     frequency: 0.3702
   new_tag_proposals:
-  - name: tensei
-    axis: 物語役割/秘密
-    reason: 「前世の生まれ変わり（転生）」という重要な属性を表すタグが現在の語彙に含まれていないため。
+  - name: 不殺の救済
+    axis: 性格 / 信条
+    reason: 凶暴なモンスターに変形させられた無辜の人間を殺さず、代わりに治癒する方法を常に模索したという記述に基づく。
 - id: violet-evergarden
   name: ヴァイオレット・エヴァーガーデン
   date: '2026-08-26'
@@ -307,15 +350,18 @@
     frequency: 0.3835
   - tag: white_ascot
     frequency: 0.3694
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 自動手記人形
+    axis: 職業・役割
+    reason: 他者の感情や言葉を汲み取って手紙を代筆する専門職（Doll）。
 - id: yagami-light
   name: 夜神月
   date: '2026-08-26'
   unmapped_danbooru: []
   new_tag_proposals:
-  - name: 新世界の神
-    axis: 物語役割 / 目的
-    reason: デスノートを使い、自らの理想とする正義の世界を創ろうとする独自の目的思想。
+  - name: 天才
+    axis: 能力
+    reason: 資料に「非常に運動能力が高く、天才である」と明記されているが、既存の語彙に該当するタグがないため。
 - id: yunohana-yuuna
   name: 湯ノ花幽奈
   date: '2026-08-26'
@@ -325,3 +371,13 @@
   - tag: albino
     frequency: 0.6481
   new_tag_proposals: []
+- id: zero-two
+  name: ゼロツー
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: white_hairband
+    frequency: 0.389
+  new_tag_proposals:
+  - name: パラサイト
+    axis: 属性・役割
+    reason: 分類として「パラサイト」と指定されているため。
