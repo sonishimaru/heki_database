@@ -5,4 +5,323 @@
 # new_tag_proposals: classify が語彙に無いと判断した概念の提案。
 # 採用・却下は人が決める。処理済みのエントリは消してよい。
 
-[]
+- id: akemi-homura
+  name: 暁美ほむら
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: magical_girl
+    frequency: 0.3842
+  new_tag_proposals:
+  - name: タイムループ
+    axis: 物語役割/限定・反復
+    reason: 失敗するたびに月の始めへと戻り、何度も同じタイムラインを繰り返しているため。
+- id: ayanami-rei
+  name: 綾波レイ
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: mecha_pilot_suit
+    frequency: 0.5112
+  - tag: plugsuit_(evangelion)
+    frequency: 0.5104
+  - tag: bodysuit
+    frequency: 0.4806
+  - tag: white_bodysuit
+    frequency: 0.3986
+  new_tag_proposals: []
+- id: edward-elric
+  name: エドワード・エルリック
+  date: '2026-08-26'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 錬金術師
+    axis: 関係性 / 立場
+    reason: 国家錬金術師という独自の専門職・立場を表す語彙が既存リストにないため。
+  - name: 義肢
+    axis: 外見 / 部位
+    reason: 失った右腕と左脚に装着している機械鎧（オートメイル）という設定を表すため。
+- id: emilia
+  name: エミリア
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: flower
+    frequency: 0.7348
+  - tag: hair_flower
+    frequency: 0.7043
+  - tag: white_flower
+    frequency: 0.5027
+  - tag: crown_braid
+    frequency: 0.438
+  - tag: purple_ribbon
+    frequency: 0.3751
+  new_tag_proposals: []
+- id: gasai-yuno
+  name: 我妻由乃
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: blood
+    frequency: 0.3507
+  new_tag_proposals: []
+- id: hestia
+  name: ヘスティア
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: rei_no_himo
+    frequency: 0.8988
+  - tag: white_dress
+    frequency: 0.5423
+  - tag: clothing_cutout
+    frequency: 0.3793
+  - tag: pencil_dress
+    frequency: 0.3765
+  - tag: cleavage_cutout
+    frequency: 0.3761
+  new_tag_proposals:
+  - name: 主神
+    axis: 関係性 / 立場
+    reason: ファミリアを率いて眷属に力を授ける「神」という独自の立場を表す語彙が不足しているため。
+- id: hyuuga-hinata
+  name: 日向ヒナタ
+  date: '2026-08-26'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 忍者
+    axis: 外見 / 記号職
+    reason: 下忍・中忍といった階級を持つ忍としての職能・立場。
+- id: kagari-atsuko
+  name: 篝敦子
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: hat
+    frequency: 0.3663
+  new_tag_proposals:
+  - name: 憧れ
+    axis: 性格 / 動機
+    reason: シャイニィシャリオへの強い強い憧れが魔法学校への入学や行動の原動力となっているため。
+- id: kagura
+  name: 神楽
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: chinese_clothes
+    frequency: 0.4885
+  - tag: bun_cover
+    frequency: 0.4635
+  - tag: qipao
+    frequency: 0.3507
+  new_tag_proposals: []
+- id: kamado-nezuko
+  name: 竈門禰豆子
+  date: '2026-08-26'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: サイズ変化
+    axis: 能力
+    reason: 自身の身体サイズを自在に変えることができるという明確な能力の記述があるため。
+- id: kamado-tanjirou
+  name: 竈門炭治郎
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: scar_on_forehead
+    frequency: 0.6875
+  - tag: checkered_haori
+    frequency: 0.3776
+  new_tag_proposals:
+  - name: 妹の治療
+    axis: 目的
+    reason: 資料に『禰豆子の治療法を見つけることを目標に活動する』と記述されているため。
+  - name: 呼吸の使い手
+    axis: 能力
+    reason: 資料に『戦闘スタイルは水の呼吸と日の呼吸』『自身が伝説の日の呼吸の使い手であることを知る』と記述されているため。
+- id: kasuga-ayumu
+  name: 春日歩
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: azumanga_daioh's_school_uniform
+    frequency: 0.5241
+  new_tag_proposals:
+  - name: あだ名の定着
+    axis: 関係性 / 立場
+    reason: 智に付けられた「大阪」というあだ名が教員やクラス名簿にまで使われ、本名を誰にも覚えてもらえない状態になっているため。
+- id: kikyou
+  name: 桔梗
+  date: '2026-08-26'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 蘇生
+    axis: 外見 / 種族
+    reason: 一度命を落とした後に鬼女裏陶によって泥と葉の身体で蘇生された存在であるため。
+- id: l-lawliet
+  name: L
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: bags_under_eyes
+    frequency: 0.6056
+  - tag: black_eyes
+    frequency: 0.5472
+  new_tag_proposals:
+  - name: 探偵
+    axis: 関係性 / 立場
+    reason: 「世界的に有名な探偵」という明確な役割・立場が示されているが、既存の語彙リストに存在しないため。
+- id: levi
+  name: リヴァイ
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: paradis_military_uniform
+    frequency: 0.5081
+  - tag: three-dimensional_maneuver_gear
+    frequency: 0.4633
+  - tag: ascot
+    frequency: 0.4134
+  new_tag_proposals:
+  - name: 潔癖症
+    axis: 性格/癖・仕草
+    reason: 自分自身、装備、周囲の環境に完璧な清潔さを求める性質が資料に明記されているため。
+- id: mikasa-ackerman
+  name: ミカサ・アッカーマン
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: scarf
+    frequency: 0.686
+  - tag: paradis_military_uniform
+    frequency: 0.4139
+  - tag: black_eyes
+    frequency: 0.3897
+  new_tag_proposals: []
+- id: miyazono-kaori
+  name: 宮園かをり
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: kurumi-gaoka_high_school_uniform
+    frequency: 0.5435
+  - tag: instrument
+    frequency: 0.4239
+  - tag: violin
+    frequency: 0.3949
+  new_tag_proposals: []
+- id: nagato-yuki
+  name: 長門有希
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: kita_high_school_uniform
+    frequency: 0.6485
+  - tag: winter_uniform
+    frequency: 0.5765
+  - tag: blue_sailor_collar
+    frequency: 0.5687
+  - tag: cardigan
+    frequency: 0.4047
+  - tag: blue_skirt
+    frequency: 0.3748
+  new_tag_proposals: []
+- id: nami
+  name: ナミ
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: swimsuit
+    frequency: 0.4072
+  - tag: bikini
+    frequency: 0.4011
+  new_tag_proposals: []
+- id: sebastian-michaelis
+  name: セバスチャン・ミカエリス
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: suit
+    frequency: 0.4337
+  new_tag_proposals: []
+- id: takanashi-rikka
+  name: 小鳥遊六花
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: one_side_up
+    frequency: 0.7752
+  - tag: icho_private_high_school_uniform
+    frequency: 0.5382
+  - tag: black_thighhighs
+    frequency: 0.4503
+  - tag: plaid_clothes
+    frequency: 0.4019
+  - tag: plaid_skirt
+    frequency: 0.4006
+  new_tag_proposals:
+  - name: 中二病
+    axis: 性格 / 気質
+    reason: 架空の能力や設定（邪王真眼など）を本気で演じ、生活の前提としている性質を示すため。
+- id: todoroki-shouto
+  name: 轟焦凍
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: split-color_hair
+    frequency: 0.7411
+  new_tag_proposals:
+  - name: 半冷半燃
+    axis: 能力・体質
+    reason: 体の右側から氷、左側から炎という対極の事象を発生させる独自の性質。
+- id: tohsaka-rin
+  name: 遠坂凛
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: two_side_up
+    frequency: 0.6284
+  - tag: black_thighhighs
+    frequency: 0.4097
+  new_tag_proposals: []
+- id: tsukino-usagi
+  name: 月野うさぎ
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: magical_girl
+    frequency: 0.6171
+  - tag: sailor_senshi_uniform
+    frequency: 0.6153
+  - tag: blue_sailor_collar
+    frequency: 0.6011
+  - tag: crescent
+    frequency: 0.5875
+  - tag: red_choker
+    frequency: 0.4285
+  - tag: crescent_earrings
+    frequency: 0.394
+  - tag: circlet
+    frequency: 0.3702
+  new_tag_proposals:
+  - name: tensei
+    axis: 物語役割/秘密
+    reason: 「前世の生まれ変わり（転生）」という重要な属性を表すタグが現在の語彙に含まれていないため。
+- id: violet-evergarden
+  name: ヴァイオレット・エヴァーガーデン
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: blue_jacket
+    frequency: 0.5417
+  - tag: gem
+    frequency: 0.5222
+  - tag: brooch
+    frequency: 0.4821
+  - tag: hair_intakes
+    frequency: 0.4659
+  - tag: ascot
+    frequency: 0.4345
+  - tag: puffy_sleeves
+    frequency: 0.416
+  - tag: green_gem
+    frequency: 0.3835
+  - tag: white_ascot
+    frequency: 0.3694
+  new_tag_proposals: []
+- id: yagami-light
+  name: 夜神月
+  date: '2026-08-26'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 新世界の神
+    axis: 物語役割 / 目的
+    reason: デスノートを使い、自らの理想とする正義の世界を創ろうとする独自の目的思想。
+- id: yunohana-yuuna
+  name: 湯ノ花幽奈
+  date: '2026-08-26'
+  unmapped_danbooru:
+  - tag: triangular_headpiece
+    frequency: 0.8519
+  - tag: albino
+    frequency: 0.6481
+  new_tag_proposals: []
