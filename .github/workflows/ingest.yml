@@ -58,7 +58,9 @@ jobs:
         run: |
           git config user.name "heki-database-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -- docs/data/db.json
+          # build.py が書き換えるものを取りこぼすと、未ステージのまま残って
+          # 後段の pull --rebase が "cannot pull with rebase" で落ちる
+          git add -- docs/data/db.json README.md
           if [ -f data/suggestions.yaml ]; then git add -- data/suggestions.yaml; fi
           if [ -f data/characters_auto.yaml ]; then
             git add -- data/characters_auto.yaml
@@ -66,6 +68,12 @@ jobs:
           if git diff --cached --quiet; then
             echo "変更なし"
             exit 0
+          fi
+          # 想定外の未ステージ変更が残っていると rebase できないので、ここで気づけるようにする
+          if ! git diff --quiet; then
+            echo "警告: ステージしていない変更が残っています。rebase 前に退避します。"
+            git status --short
+            git stash push --keep-index --include-untracked
           fi
           COUNT=$(python3 -c "import yaml;print(len(yaml.safe_load(open('data/characters_auto.yaml')) or []))" 2>/dev/null || echo "0")
           git commit -m "自動取り込み: characters_auto を更新（収録 ${COUNT} 名）"
