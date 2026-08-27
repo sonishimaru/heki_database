@@ -5,6 +5,27 @@
 # new_tag_proposals: classify が語彙に無いと判断した概念の提案。
 # 採用・却下は人が決める。処理済みのエントリは消してよい。
 
+- id: emiya-shirou
+  name: 衛宮士郎
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 家事・修理趣味
+    axis: 性格/気質
+    reason: 修理、料理、掃除などの家事や作業を趣味としている描写があるため。
+- id: flandre-scarlet
+  name: フランドール・スカーレット
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: wings
+    frequency: 0.8862
+  - tag: mob_cap
+    frequency: 0.5558
+  - tag: crystal
+    frequency: 0.406
+  - tag: vest
+    frequency: 0.375
+  new_tag_proposals: []
 - id: fujiwara-chika
   name: 藤原千花
   date: '2026-08-26'
@@ -16,6 +37,28 @@
   - name: 生徒会役員
     axis: 立場
     reason: 秀知院学園生徒会の書記を務めているため。
+- id: gotou-hitori
+  name: 後藤ひとり
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: cube_hair_ornament
+    frequency: 0.7956
+  - tag: pink_jacket
+    frequency: 0.4824
+  - tag: track_jacket
+    frequency: 0.3944
+  new_tag_proposals:
+  - name: 動画投稿者
+    axis: 関係性 / 立場
+    reason: ネット上で演奏動画を投稿しフォロワーを獲得する活動形態を表現する既存語彙がないため。
+- id: hatsune-miku
+  name: 初音ミク
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: VOCALOID
+    axis: 外見 / 種族
+    reason: クリプトン・フューチャー・メディアによって開発・販売された音声合成ソフトウェアのキャラクターであることを表すため。
 - id: itadori-yuuji
   name: 虎杖悠仁
   date: '2026-08-26'
@@ -24,3 +67,60 @@
   - name: 容器
     axis: 立場
     reason: 資料に『容器（Vessel）』という立場が明記されているが、既存の語彙に含まれないため。
+- id: izayoi-sakuya
+  name: 十六夜咲夜
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: knife
+    frequency: 0.3824
+  new_tag_proposals: []
+- id: kirigaya-kazuto
+  name: キリト
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: ソロプレイヤー
+    axis: 関係性 / 立場
+    reason: ギルドやパーティに所属せず一人で行動するゲームプレイヤーの属性を表すため。
+- id: kitagawa-marin
+  name: 喜多川海夢
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: piercing
+    frequency: 0.5997
+  - tag: ear_piercing
+    frequency: 0.5509
+  - tag: black_choker
+    frequency: 0.4577
+  - tag: gyaru
+    frequency: 0.3645
+  new_tag_proposals:
+  - name: コスプレイヤー
+    axis: 属性・趣味
+    reason: コスプレイヤーであることが明確に記載されているが、該当する語彙が存在しないため。
+  - name: オタク
+    axis: 属性・趣味
+    reason: 魔法少女アニメやアダルトゲームのファンであるという記述があるが、趣味・嗜好を表す語彙が存在しないため。
+  - name: 手先が不器用
+    axis: 能力・特質
+    reason: 手先があまり器用ではないという記述があるが、対応する語彙が存在しないため。
+- id: konpaku-youmu
+  name: 魂魄妖夢
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: black_hairband
+    frequency: 0.6314
+  - tag: vest
+    frequency: 0.3934
+  new_tag_proposals: []
+- id: remilia-scarlet
+  name: レミリア・スカーレット
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: wings
+    frequency: 0.8474
+  - tag: bat_wings
+    frequency: 0.7518
+  - tag: mob_cap
+    frequency: 0.457
+  new_tag_proposals: []

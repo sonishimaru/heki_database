@@ -356,6 +356,28 @@
     - {id: shirogami, weight: sub, note: 'danbooru white_hair 53%', src: danbooru}
   patterns: []
 
+- id: emiya-shirou
+  name: 衛宮士郎
+  kana: えみやしろう
+  work: Fate/stay night
+  year: 2004
+  summary: 他者を危険から庇おうとする行動原理と、サーヴァントであるセイバーを従える主従関係の立場が同居している構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b496-GI0waavDjyk3.png'
+    page: 'https://anilist.co/character/496'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-27'
+  elements:
+    - {id: jiko-gisei, weight: core, note: '資料: 自身やサーヴァントを危険に晒してでも他者を庇おうとする自己犠牲的な傾向。', src: gemini}
+    - {id: akagami, weight: sub, note: 'danbooru orange_hair 40%', src: danbooru}
+    - {id: kabau, weight: sub, note: '資料: 自身のサーヴァントであるセイバーを含め、他者を危険からかばおうと行動した。', src: gemini}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 44%', src: danbooru}
+    - {id: shujuu, weight: sub, note: '資料: セイバー（Saber）は自身のサーヴァントである。', src: gemini}
+  patterns: []
+
 - id: eren-yeager
   name: エレン・イェーガー
   kana: えれんいぇーがー
@@ -378,6 +400,35 @@
     - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 40%', src: danbooru}
     - {id: soushitsu, weight: sub, note: '資料: シガンシナ区への巨人侵入時に母親を失っている。', src: gemini}
     - {id: kabau, weight: spice, note: '資料: 幼少期に親友のアルミンをいじめっ子から庇っていた。', src: gemini}
+  patterns: []
+
+- id: flandre-scarlet
+  name: フランドール・スカーレット
+  kana: ふらんどーるすかーれっと
+  work: 東方Project
+  year: 2002
+  summary: あらゆるものを破壊する圧倒的な力と長き寿命を持ちながら、制御の利かない不安定さゆえに館に閉じ込められ続けている幼き吸血鬼。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b38276-PQcBqH4Ucj1E.jpg'
+    page: 'https://anilist.co/character/38276'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-27'
+  elements:
+    - {id: akame, weight: core, note: 'danbooru red_eyes 83%', src: danbooru}
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 91%', src: danbooru}
+    - {id: kyuuketsuki, weight: core, note: '資料: 吸血鬼であり、人間を襲うことや血の記述、羽に関する言及が存在する。', src: gemini}
+    - {id: furiru, weight: sub, note: 'danbooru frills 35%', src: danbooru}
+    - {id: furou, weight: sub, note: '資料: 実年齢は約500歳であり長大な時間を生きている。', src: gemini}
+    - {id: fuuin, weight: sub, note: '資料: 不安定な人格と強大な力ゆえに、姉から約500年間にわたり館から外へ出ないよう命じられている。', src: gemini}
+    - {id: kodomo, weight: sub, note: '資料: 外見年齢が10歳程度であり、遊ぶおもちゃを壊してしまうなどの記述がある。', src: gemini}
+    - {id: mitame-sabaku, weight: sub, note: '資料: 実年齢は約500歳だが外見年齢は10歳程度と乖離している。', src: gemini}
+    - {id: nouryokusha, weight: sub, note: '資料: 物の最も緊張が高まる「目」を手元に移動させ握り潰すことで、あらゆるものを破壊できる能力を持つ。', src: gemini}
+    - {id: ponytail, weight: sub, note: 'danbooru side_ponytail 40%', src: danbooru}
+    - {id: toshishita, weight: sub, note: '資料: レミリア・スカーレットの妹である。', src: gemini}
+    - {id: tsuyoi-noni-moroi, weight: spice, note: '資料: 姉のレミリアを上回る圧倒的な破壊力を誇る一方で、感情の制御を失いやすく狂気を孕んだ危うさを持ち合わせている。', src: gemini}
   patterns: []
 
 - id: frieren
@@ -495,6 +546,30 @@
     - {id: shitei, weight: sub, note: '資料: 東京都立呪術高等専門学校で教師として働き、強い若い仲間を保護し育成している。', src: gemini}
   patterns: []
 
+- id: gotou-hitori
+  name: 後藤ひとり
+  kana: ごとうひとり
+  work: 'ぼっち・ざ・ろっく!'
+  year: 2018
+  summary: 友達が一人生きられない孤立した現実の高校生活と、押し入れで投稿するギター動画でフォロワーを集めるネット上の姿が同居する構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b257562-Ru35NYPfsqhY.png'
+    page: 'https://anilist.co/character/257562'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-27'
+  elements:
+    - {id: aome, weight: core, note: 'danbooru blue_eyes 73%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 87%', src: danbooru}
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 93%', src: danbooru}
+    - {id: hitomishiri, weight: sub, note: '資料: 2年間、友達が一人もいない点。', src: gemini}
+    - {id: nimensei, weight: sub, note: '資料: 現実では友達が一人もいない一方で、ネット上では「guitarhero」として人気を集めている二重生活の構造。', src: gemini}
+    - {id: ponytail, weight: sub, note: 'danbooru one_side_up 54%', src: danbooru}
+    - {id: shoutai, weight: sub, note: '資料: 自宅の押し入れで録画したギターのカバー動画をYouTubeチャンネル「guitarhero」に投稿してフォロワーを獲得している点。', src: gemini}
+  patterns: []
+
 - id: guts
   name: ガッツ
   kana: がっつ
@@ -566,6 +641,28 @@
     - {id: shukuteki, weight: sub, note: '資料: マイト・ガイとライバル関係にあると明記されている。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 52%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 48%', src: danbooru}
+  patterns: []
+
+- id: hatsune-miku
+  name: 初音ミク
+  kana: はつねみく
+  work: VOCALOID
+  year: 2007
+  summary: 音声合成ソフトウェアの製品キャラクターであり、アンドロイドとしてのデザインが与えられた存在。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b7156-DUwViOmpWw2B.jpg'
+    page: 'https://anilist.co/character/7156'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-27'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 91%', src: danbooru}
+    - {id: twintail, weight: core, note: 'danbooru twintails 86%', src: danbooru}
+    - {id: aogami, weight: sub, note: 'danbooru aqua_hair 53%', src: danbooru}
+    - {id: aome, weight: sub, note: 'danbooru aqua_eyes 40%', src: danbooru}
+    - {id: jinzou, weight: sub, note: '資料: YAMAHAシンセサイザーの特徴的なブルーグリーンをベースカラーとし、アンドロイドとしてデザインされている。', src: gemini}
   patterns: []
 
 - id: hayakawa-aki
@@ -741,6 +838,30 @@
     - {id: reijou, weight: sub, note: '資料: 日向一族宗家の長女である。', src: gemini}
   patterns: []
 
+- id: ijichi-nijika
+  name: 伊地知虹夏
+  kana: いじちにじか
+  work: 'ぼっち・ざ・ろっく!'
+  year: 2018
+  summary: バンドのドラマーとして周囲の面倒を見るまとめ役であり、ライブハウス店主の姉を持つ妹としての立場をあわせ持つ構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b261674-a8tJYvtzqWgC.png'
+    page: 'https://anilist.co/character/261674'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-27'
+  elements:
+    - {id: ahoge, weight: core, note: 'danbooru ahoge 77%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 86%', src: danbooru}
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 94%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru side_ponytail 81%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 50%', src: danbooru}
+    - {id: sewayaki, weight: sub, note: '資料: ひとりの面倒を見るまとめ役である。', src: gemini}
+    - {id: toshishita, weight: sub, note: '資料: ライブハウス「STARRY」の店長である星歌（Seika）という姉がいる。', src: gemini}
+  patterns: []
+
 - id: ikari-shinji
   name: 碇シンジ
   kana: いかりしんじ
@@ -834,6 +955,32 @@
     - {id: gaitou, weight: sub, note: 'danbooru hood 39%', src: danbooru}
     - {id: kokuin, weight: sub, note: 'danbooru facial_mark 37%', src: danbooru}
     - {id: nouryokusha, weight: sub, note: '資料: プロフィールに職業・立場として『呪術師（Sorcerer）』と指定されている。', src: gemini}
+  patterns: []
+
+- id: izayoi-sakuya
+  name: 十六夜咲夜
+  kana: いざよいさくや
+  work: 東方Project
+  year: 2002
+  summary: 時間操作という圧倒的な異能を持ちながら、吸血鬼である主君に絶対的な忠誠を捧げる人間メイドの従者。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b5570-UmrjrnC8O5LX.png'
+    page: 'https://anilist.co/character/5570'
+    credit: AniList
+  analysis:
+    method: both+danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-27'
+  elements:
+    - {id: juusha, weight: core, note: '資料: 悪魔の「忠実な番犬」として仕えている。', src: gemini}
+    - {id: meido, weight: core, note: 'danbooru maid_headdress 72% / 資料: 紅魔館に住む唯一の人間であり、メイド長を務めている。', src: both}
+    - {id: mitsuami, weight: core, note: 'danbooru braid 84%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru grey_hair 66%', src: danbooru}
+    - {id: shujuu, weight: core, note: '資料: レミリア・スカーレット：咲夜が長年仕えている相手。かつて咲夜を打ち負かし、現在の名前を与えた。', src: gemini}
+    - {id: aome, weight: sub, note: 'danbooru blue_eyes 46%', src: danbooru}
+    - {id: mibunsa, weight: sub, note: '資料: 悪魔であるレミリア・スカーレットに、人間である咲夜がメイド・使用人として仕えている。', src: gemini}
+    - {id: nouryokusha, weight: sub, note: '資料: 時間操作（時間の減速、停止、逆転の可能性）の能力・特技を持つ。', src: gemini}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 50%', src: danbooru}
   patterns: []
 
 - id: kagari-atsuko
@@ -1022,6 +1169,27 @@
     - {id: uragiri, weight: sub, note: '資料: 50年前に奈落が犬夜叉に化けたことで、犬夜叉に裏切られたと思い込んでいた。', src: gemini}
   patterns: []
 
+- id: kirigaya-kazuto
+  name: キリト
+  kana: きりと
+  work: ソードアート・オンライン
+  year: 2009
+  summary: デスゲームと化したVRMMO空間において、他者を護る責任の重圧を避けて単独行動を選択するソロプレイヤーの少年。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b36765-BnLbXg0Tzzh9.png'
+    page: 'https://anilist.co/character/36765'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-27'
+  elements:
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 86%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 38%', src: danbooru}
+    - {id: kurome, weight: sub, note: 'danbooru black_eyes 58%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 40%', src: danbooru}
+  patterns: []
+
 - id: kirisame-marisa
   name: 霧雨魔理沙
   kana: きりさめまりさ
@@ -1044,6 +1212,78 @@
     - {id: aibou, weight: sub, note: '資料: 博麗霊夢（Reimu）と友人であり、頻繁に彼女のもとを訪ねている。', src: gemini}
     - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 55%', src: danbooru}
     - {id: zubora, weight: sub, note: '資料: 魔法の森にある散らかった家に住む', src: gemini}
+  patterns: []
+
+- id: kita-ikuyo
+  name: 喜多郁代
+  kana: きたいくよ
+  work: 'ぼっち・ざ・ろっく!'
+  year: 2018
+  summary: リョウへの行き過ぎるほどの強い憧れを抱き、結束バンドでギターとボーカルを務める少女。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b266041-1HKgjJGP2MmM.png'
+    page: 'https://anilist.co/character/266041'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-27'
+  elements:
+    - {id: akagami, weight: core, note: 'danbooru red_hair 94%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 75%', src: danbooru}
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 65%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru one_side_up 66%', src: danbooru}
+    - {id: kataomoi, weight: sub, note: '資料: リョウ（Ryo）に憧れており、感情が行き過ぎることがある。', src: gemini}
+    - {id: kusekke, weight: sub, note: 'danbooru hair_between_eyes 50%', src: danbooru}
+  patterns: []
+
+- id: kitagawa-marin
+  name: 喜多川海夢
+  kana: きたがわまりん
+  work: その着せ替え人形は恋をする
+  year: 2018
+  summary: サブカルチャーやコスプレへの熱心な愛好心と、特定の相手への素直な恋心が同居している。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b133676-kV2czE3C8Qls.png'
+    page: 'https://anilist.co/character/133676'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-27'
+  elements:
+    - {id: akame, weight: core, note: 'danbooru red_eyes 63%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 84%', src: danbooru}
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 92%', src: danbooru}
+    - {id: choker, weight: sub, note: 'danbooru choker 55%', src: danbooru}
+    - {id: kataomoi, weight: sub, note: '資料: 新菜に恋をしており、その恋心に気づいた後は彼を様々な場所に誘って一緒に時間を過ごそうとしている。', src: gemini}
+    - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 41%', src: danbooru}
+  patterns: []
+
+- id: konpaku-youmu
+  name: 魂魄妖夢
+  kana: こんぱくようむ
+  work: 東方Project
+  year: 2003
+  summary: 人間と幽霊の二つの体を併せ持つ半人半霊であり、主人に仕える従者としての役割と二本の刀を扱う剣士としての側面が同居している。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b6018-z1JEB1zzNWIm.png'
+    page: 'https://anilist.co/character/6018'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-27'
+  elements:
+    - {id: hanyou, weight: core, note: '資料: 人間と幽霊の半分ずつ（半人半霊）で構成された存在であり、2つの半分は物理的に分離した別々の身体として存在する。', src: gemini}
+    - {id: juusha, weight: core, note: '資料: 白玉楼の庭師であり、庭の手入れや命令に従う従者である。', src: gemini}
+    - {id: samurai, weight: core, note: '資料: 二本の刀（長刀「楼観剣」と短刀「白楼剣」）を同時に扱い、剣術の指導を受けていた。', src: gemini}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 74%', src: danbooru}
+    - {id: aome, weight: sub, note: 'danbooru blue_eyes 46%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 50%', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru grey_hair 47%', src: danbooru}
+    - {id: shitei, weight: sub, note: '資料: 父親である魂魄妖忌から幼少期に剣術の指導を受けていた。', src: gemini}
+    - {id: shujuu, weight: sub, note: '資料: 西行寺幽々子を主人とし、気まぐれな彼女にできる限り仕えている。', src: gemini}
   patterns: []
 
 - id: kugisaki-nobara
@@ -1630,6 +1870,33 @@
     - {id: futago, weight: sub, note: '資料: 双子のメイドの一人であり、双子の姉であるラムが存在する。', src: gemini}
     - {id: jikokoutei, weight: sub, note: '資料: 過去の出来事と姉への罪悪感から自分を劣っていると考えていた。', src: gemini}
     - {id: keigo, weight: sub, note: '資料: 表面上は丁寧な話し方をする傾向がある。', src: gemini}
+  patterns: []
+
+- id: remilia-scarlet
+  name: レミリア・スカーレット
+  kana: れみりあすかーれっと
+  work: 東方Project
+  year: 2002
+  summary: 500歳の吸血鬼という不老の人外でありながら、紅魔館の主として従者を従え妹を保護する立場にある能力者。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b5571-pQH3iHbnA6CF.png'
+    page: 'https://anilist.co/character/5571'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-27'
+  elements:
+    - {id: akame, weight: core, note: 'danbooru red_eyes 79%', src: danbooru}
+    - {id: jingai, weight: core, note: '資料: 吸血鬼であり、羽が見えるため人間の振りを完全にすることは不可能とされる。', src: gemini}
+    - {id: joushi, weight: core, note: '資料: 紅魔館の主（頭領）であり、咲夜や美鈴の主人である。', src: gemini}
+    - {id: kyuuketsuki, weight: core, note: '資料: 種族が吸血鬼（Vampire）であると明記されている。', src: gemini}
+    - {id: nouryokusha, weight: core, note: '資料: 運命を操る能力やコウモリに変身する能力を持つ。', src: gemini}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 62%', src: danbooru}
+    - {id: aogami, weight: sub, note: 'danbooru blue_hair 58%', src: danbooru}
+    - {id: furou, weight: sub, note: '資料: 年齢が500歳であると明記されている。', src: gemini}
+    - {id: hogosha, weight: sub, note: '資料: フランドールの姉であり保護者であると明記されている。', src: gemini}
+    - {id: shujuu, weight: sub, note: '資料: 咲夜および美鈴の主人であるという記述が存在する。', src: gemini}
   patterns: []
 
 - id: rengoku-kyojuro
@@ -2234,6 +2501,26 @@
     - {id: yuurei, weight: core, note: 'danbooru ghost 63% / 資料: ゆらぎ荘に縛られている幽霊（地縛霊）である。', src: both}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 59%', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 35%', src: danbooru}
+  patterns: []
+
+- id: yuuki-asuna
+  name: アスナ
+  kana: あすな
+  work: ソードアート・オンライン
+  year: 2009
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b36828-j5ib0adAzGMx.png'
+    page: 'https://anilist.co/character/36828'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-27'
+  elements:
+    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 69%', src: danbooru}
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 72%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 96%', src: danbooru}
+    - {id: mitsuami, weight: sub, note: 'danbooru braid 35%', src: danbooru}
   patterns: []
 
 - id: zero-two
