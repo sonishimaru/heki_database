@@ -4,7 +4,45 @@
 #   data/elements/ に追加し、wd_map.yaml に対応を書く。
 # new_tag_proposals: classify が語彙に無いと判断した概念の提案。
 # 採用・却下は人が決める。処理済みのエントリは消してよい。
-
+- id: accelerator
+  name: アクセラレータ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: サディスティック
+    axis: 性格 / 気質
+    reason: 資料内に『サディスティックな性格である』と明確に記されているが、既存の性格/気質の語彙に当てはまるものがないため。
+- id: agatsuma-zenitsu
+  name: 我妻善逸
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 鬼殺隊士
+    axis: 関係性 / 立場
+    reason: 鬼殺隊に所属し戦闘を行う立場であるが、既存の職業・立場タグ（侍や騎士など）とは厳密に一致しないため。
+- id: alphonse-elric
+  name: アルフォンス・エルリック
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 魂の定着
+    axis: 外見 / 種族
+    reason: 肉体を失い、巨大な鎧の中に魂だけを錬成されて存在している状態。
+- id: bruno-bucciarati
+  name: ブローノ・ブチャラティ
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: zipper
+    frequency: 0.5639
+  new_tag_proposals: []
+- id: edward-elric
+  name: エドワード・エルリック
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 機械鎧
+    axis: 外見/身体
+    reason: 人体錬成で失った身体部位を補うための機械製義肢（オートメイル）を装着しているため。
 - id: emiya-shirou
   name: 衛宮士郎
   date: '2026-08-27'
@@ -13,6 +51,23 @@
   - name: 家事・修理趣味
     axis: 性格/気質
     reason: 修理、料理、掃除などの家事や作業を趣味としている描写があるため。
+- id: faye-valentine
+  name: フェイ・ヴァレンタイン
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: yellow_hairband
+    frequency: 0.4154
+  - tag: makeup
+    frequency: 0.368
+  - tag: lipstick
+    frequency: 0.3531
+  new_tag_proposals:
+  - name: shoukin-kasegi
+    axis: 関係性 / 立場
+    reason: 賞金首を追って報酬を得る職種・立場。既存の「無法者」や「暗殺者」とは区別される。
+  - name: cold-sleep
+    axis: 外見 / 種族
+    reason: 人工的な冷凍睡眠技術によって加齢が停止し、時代を隔てて存在する状態。
 - id: flandre-scarlet
   name: フランドール・スカーレット
   date: '2026-08-27'
@@ -37,6 +92,22 @@
   - name: 生徒会役員
     axis: 立場
     reason: 秀知院学園生徒会の書記を務めているため。
+- id: gilgamesh-fate
+  name: ギルガメッシュ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 傲慢
+    axis: 性格 / 気質
+    reason: 資料に「自分勝手で傲慢な暴君として成長した」と明記されているため。
+- id: giorno-giovanna
+  name: ジョルノ・ジョバァーナ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 義賊
+    axis: 性格 / 信条
+    reason: 富を貧しい者に分け与えるマフィアのボス（Gang Star）になるという目的を抱いているため。
 - id: gotou-hitori
   name: 後藤ひとり
   date: '2026-08-27'
@@ -47,10 +118,23 @@
     frequency: 0.4824
   - tag: track_jacket
     frequency: 0.3944
+  new_tag_proposals: []
+- id: hakurei-reimu
+  name: 博麗霊夢
+  date: '2026-08-27'
+  unmapped_danbooru: []
   new_tag_proposals:
-  - name: 動画投稿者
-    axis: 関係性 / 立場
-    reason: ネット上で演奏動画を投稿しフォロワーを獲得する活動形態を表現する既存語彙がないため。
+  - name: 誰とでも打ち解ける
+    axis: 性格 / 気質
+    reason: 資料にある『かつて敵であった者を含め、誰とでも打ち解けることができる』という特質に対応する既存語彙がないため。
+- id: hatake-kakashi
+  name: はたけカカシ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 成人向け小説の愛読
+    axis: 性格 / 癖・仕草
+    reason: チームとの対話中や修業中に成人向け小説『イチャイチャパラダイス』などを開いて読んでいるため。
 - id: hatsune-miku
   name: 初音ミク
   date: '2026-08-27'
@@ -59,14 +143,68 @@
   - name: VOCALOID
     axis: 外見 / 種族
     reason: クリプトン・フューチャー・メディアによって開発・販売された音声合成ソフトウェアのキャラクターであることを表すため。
-- id: itadori-yuuji
-  name: 虎杖悠仁
-  date: '2026-08-26'
+- id: hayakawa-aki
+  name: 早川アキ
+  date: '2026-08-27'
   unmapped_danbooru: []
   new_tag_proposals:
-  - name: 容器
-    axis: 立場
-    reason: 資料に『容器（Vessel）』という立場が明記されているが、既存の語彙に含まれないため。
+  - name: デビルハンター
+    axis: 関係性 / 立場
+    reason: 公安で悪魔を狩る職業として明記されているが既存語彙の記号職・立場に含まれないため。
+- id: hinata-shouyou
+  name: 日向翔陽
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: sportswear
+    frequency: 0.3574
+  new_tag_proposals: []
+- id: hirasawa-yui
+  name: 平沢唯
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 愛称付け
+    axis: 性格 / 癖・仕草
+    reason: 自身の持ち物であるギターに「Giita」と名前を付けて愛着を示す動作が見られるため。
+- id: hitsugaya-toushirou
+  name: 日番谷冬獅郎
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: ice
+    frequency: 0.4233
+  new_tag_proposals: []
+- id: holo
+  name: ホロ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 花魁言葉
+    axis: 性格 / 話し方
+    reason: 花魁を手本にした独特な話し方をする記述があるため。
+- id: hoshino-ai
+  name: 星野アイ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: haha
+    axis: 関係性 / 立場
+    reason: 双子の母親として妊娠・出産・育児を行っているが、既存の「保護者」タグは血縁のない養育関係を指すため該当しない。
+- id: ikari-shinji
+  name: 碇シンジ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: パイロット
+    axis: 関係性 / 立場
+    reason: エヴァンゲリオン初号機に搭乗して戦うサードチルドレンという職務・立場。
+- id: itadori-yuuji
+  name: 虎杖悠仁
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 器
+    axis: 関係性 / 立場
+    reason: 職業・立場として「器（Vessel）」が指定されているため。
 - id: izayoi-sakuya
   name: 十六夜咲夜
   date: '2026-08-27'
@@ -74,14 +212,100 @@
   - tag: knife
     frequency: 0.3824
   new_tag_proposals: []
+- id: kagamine-rin
+  name: 鏡音リン
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 2つの体に1つの魂
+    axis: 関係性 / 関係の型
+    reason: 資料において、カウンターパートである鏡音レンとの関係性表現として『2つの体に1つの魂』と明記されているため。
+- id: kagari-atsuko
+  name: 篝敦子
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 憧れ
+    axis: 性格 / 気質
+    reason: 特定の人物に強い感銘を受けて目標とし、自らの行動や進路を動かす原動力になっているため。
+- id: kageyama-tobio
+  name: 影山飛雄
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: sportswear
+    frequency: 0.5547
+  - tag: volleyball_uniform
+    frequency: 0.5109
+  new_tag_proposals:
+  - name: 異名・二つ名
+    axis: 物語役割 / 属性
+    reason: 「コート上の王様」という過去の振る舞いに由来する特定の通称・皮肉な二つ名を持っているため。
+- id: kamado-nezuko
+  name: 竈門禰豆子
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 身体伸縮
+    axis: 能力
+    reason: 体を自由に大きさを変えることができるため。
+  - name: 睡眠回復
+    axis: 体質
+    reason: 人間から栄養を得る代わりに長時間の睡眠をとることでエネルギーを回復するため。
+- id: kamado-tanjirou
+  name: 竈門炭治郎
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 妹想い
+    axis: 性格 / 気質
+    reason: 資料に『妹である禰豆子を治す方法を探す目標を持っている』と明確に記されており、行動動機の中心となっているため。
+- id: kaneki-ken
+  name: 金木研
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 半喰種
+    axis: 種族
+    reason: 人間と喰種の間に位置し、喰種の臓器移植によって人外の身体能力や食性を獲得した存在を表すため。
+- id: kanroji-mitsuri
+  name: 甘露寺蜜璃
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: mole
+    frequency: 0.8233
+  - tag: multiple_braids
+    frequency: 0.3587
+  new_tag_proposals:
+  - name: 独自流派の開発
+    axis: 能力・技術
+    reason: 教えられた炎の呼吸では全力を出せず、自身に合わせた「恋の呼吸」を自ら編み出したため。
 - id: kirigaya-kazuto
   name: キリト
   date: '2026-08-27'
   unmapped_danbooru: []
   new_tag_proposals:
   - name: ソロプレイヤー
+    axis: 関係性/立場
+    reason: ギルドに所属せず一人で行動するプレイ方針を徹底しているため。
+  - name: ベータテスター
+    axis: 関係性/立場
+    reason: 正式サービス前のベータテストに参加しており、ゲームの知識や経験をあらかじめ持っているため。
+- id: kirisame-marisa
+  name: 霧雨魔理沙
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 努力家
+    axis: 性格/気質
+    reason: 才能型の霊夢に対して努力により同等の力を高めたという記載があるため。
+- id: kita-ikuyo
+  name: 喜多郁代
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: ギターボーカル
     axis: 関係性 / 立場
-    reason: ギルドやパーティに所属せず一人で行動するゲームプレイヤーの属性を表すため。
+    reason: 結束バンドでギター・ボーカルを担当しているという記述があるため。
 - id: kitagawa-marin
   name: 喜多川海夢
   date: '2026-08-27'
@@ -96,14 +320,25 @@
     frequency: 0.3645
   new_tag_proposals:
   - name: コスプレイヤー
-    axis: 属性・趣味
-    reason: コスプレイヤーであることが明確に記載されているが、該当する語彙が存在しないため。
+    axis: 趣味・属性
+    reason: コスプレイヤーであることが明記されているが既存の語彙にないため。
   - name: オタク
-    axis: 属性・趣味
-    reason: 魔法少女アニメやアダルトゲームのファンであるという記述があるが、趣味・嗜好を表す語彙が存在しないため。
-  - name: 手先が不器用
-    axis: 能力・特質
-    reason: 手先があまり器用ではないという記述があるが、対応する語彙が存在しないため。
+    axis: 趣味・気質
+    reason: アニメやアダルトゲームのファンであることが明記されているが既存の語彙にないため。
+- id: kochou-shinobu
+  name: 胡蝶しのぶ
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: butterfly_hair_ornament
+    frequency: 0.8748
+  - tag: bug
+    frequency: 0.5131
+  - tag: butterfly
+    frequency: 0.5067
+  new_tag_proposals:
+  - name: 毒使い
+    axis: 戦闘スタイル
+    reason: 毒や薬の調合知識に長け、自らの体内に毒を仕込んで戦術として使用しているため。
 - id: konpaku-youmu
   name: 魂魄妖夢
   date: '2026-08-27'
@@ -112,7 +347,162 @@
     frequency: 0.6314
   - tag: vest
     frequency: 0.3934
+  new_tag_proposals:
+  - name: 二刀流
+    axis: 戦闘スタイル
+    reason: 長刀である楼観剣と短刀である白楼剣の二刀を同時に所持・使用しているため。
+  - name: 庭師
+    axis: 職業・役割
+    reason: 白玉楼の庭師として庭の手入れを担当しているため。
+- id: kuchiki-rukia
+  name: 朽木ルキア
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 死神
+    axis: 外見 / 種族
+    reason: 作中における特定の種族・概念であるため。
+- id: kuroko-tetsuya
+  name: 黒子テツヤ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 影が薄い
+    axis: 体質・気配
+    reason: 非常に影が薄く、相手に見つからずにパスを回すなどの特化能力を表す既存語彙がないため。
+- id: kurosaki-ichigo
+  name: 黒崎一護
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 死神代行
+    axis: 関係性 / 立場
+    reason: 死神から力を譲り受け、一時的にその役割を代行している立場。
+- id: kusanagi-motoko
+  name: 草薙素子
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: サイボーグ
+    axis: 外見 / 種族
+    reason: 全身義体化され人工義体を乗り換えているため。
+  - name: ハッカー
+    axis: 関係性 / 立場
+    reason: スーパーウィザード級ハッカーとして公式に登録されているため。
+- id: kuujou-joutarou
+  name: 空条承太郎
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: chain
+    frequency: 0.5553
   new_tag_proposals: []
+- id: l-lawliet
+  name: L
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 探偵
+    axis: 関係性 / 立場
+    reason: 世界的に有名な探偵という肩書きを持ち、事件捜査を引き受けて活動しているため。
+- id: loid-forger
+  name: ロイド・フォージャー
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: supai
+    axis: 関係性 / 立場
+    reason: 身分を偽り潜入・情報収集を行うスパイという立場を示す見出し語が既存の語彙にないため。
+- id: lupin-iii
+  name: ルパン三世
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 怪盗
+    axis: 関係性 / 立場
+    reason: アルセーヌ・ルパンの孫であり、世界的な指名手配盗賊であるという背景のため。
+  - name: 義賊
+    axis: 性格 / 信条
+    reason: 自身や一味で、より重大な犯罪に関わる他の犯罪者の企みを阻止することがあるため。
+- id: makise-kurisu
+  name: 牧瀬紅莉栖
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 飛び級・天才
+    axis: 属性 / 才能
+    reason: 高校生の年齢でありながらアメリカの教育制度で飛び級し、大学で認知されるほどの論文を執筆しているため。
+- id: midoriya-izuku
+  name: 緑谷出久
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 英雄的気質
+    axis: 性格/信条
+    reason: 資料に『英雄的気質と強い正義感』と記されており、オールマイトに認められる決定打となった要素であるため。
+- id: miki-sayaka
+  name: 美樹さやか
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: white_cape
+    frequency: 0.3909
+  new_tag_proposals: []
+- id: mine-fujiko
+  name: 峰不二子
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: kaitou
+    axis: 関係性 / 立場
+    reason: 盗みの技術がルパンに匹敵し、戦利品を持ち去る怪盗・大泥棒としての立場が明記されているため。
+- id: miyamizu-mitsuha
+  name: 宮水三葉
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: タイムスリップ
+    axis: 物語役割/時間
+    reason: 資料に『タイムスリップ後は25〜26歳』と明記されているため。
+- id: nagisa-kaworu
+  name: 渚カヲル
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: tokyo-3_middle_school_uniform
+    frequency: 0.4638
+  new_tag_proposals: []
+- id: nakano-miku
+  name: 中野三玖
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: headphones_around_neck
+    frequency: 0.5677
+  new_tag_proposals:
+  - name: 五つ子
+    axis: 関係性 / 属性
+    reason: 資料に「中野家五つ子の三女」とあり、多胎姉妹という特徴的な属性を表すため。
+  - name: 歴女
+    axis: 性格 / 趣味
+    reason: 資料に「日本史（特に戦国武将）が好きで、その哲学から強い影響を受けている」とあるため。
+- id: okabe-rintarou
+  name: 岡部倫太郎
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: tachi-e
+    frequency: 0.456
+  - tag: sprite
+    frequency: 0.456
+  - tag: lapels
+    frequency: 0.3994
+  - tag: notched_lapels
+    frequency: 0.3994
+  new_tag_proposals: []
+- id: power
+  name: パワー
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 魔人
+    axis: 外見 / 種族
+    reason: 悪魔に乗っ取られた死体という特有の種族区分を表すため。
 - id: remilia-scarlet
   name: レミリア・スカーレット
   date: '2026-08-27'
@@ -123,4 +513,236 @@
     frequency: 0.7518
   - tag: mob_cap
     frequency: 0.457
+  new_tag_proposals:
+  - name: 運命操作
+    axis: 能力
+    reason: 「運命を操る能力」という抽象的な世界観干渉能力を表す語彙がないため。
+  - name: 血統騙称
+    axis: 性格・行動
+    reason: ドラキュラ伯爵の末裔という嘘を主張するハッタリや自己演出の要素を表す語彙がないため。
+- id: rias-gremory
+  name: リアス・グレモリー
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: character_name
+    frequency: 0.3982
+  - tag: chess_piece
+    frequency: 0.3972
+  - tag: card_(medium)
+    frequency: 0.3931
+  - tag: king_(chess)
+    frequency: 0.3821
   new_tag_proposals: []
+- id: riza-hawkeye
+  name: リザ・ホークアイ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 狙撃手
+    axis: 関係性 / 立場
+    reason: 銃器（特にスナイパーライフル）の専門家であり、致死的な精度で標的を撃ち抜く技能と役割を持つため。
+- id: roy-mustang
+  name: ロイ・マスタング
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: amestris_military_uniform
+    frequency: 0.8319
+  new_tag_proposals:
+  - name: yashinka
+    axis: 性格 / 信条
+    reason: アメストリスの次期大総統になる計画を立てているという大きな野心・目標を持つ性質を表す語彙がないため。
+- id: saitama
+  name: サイタマ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: ヒーロー
+    axis: 関係性 / 立場
+    reason: ヒーロー協会にB級ヒーローとして登録され、怪人から街を防衛する任務を負っているため。
+  - name: 鍛錬
+    axis: 性格 / 信条
+    reason: 自らをトレーニングすることで超人的なコンディションに至ったという経緯を持つため。
+- id: sakura-kyouko
+  name: 佐倉杏子
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: food
+    frequency: 0.3625
+  new_tag_proposals: []
+- id: sakurajima-mai
+  name: 桜島麻衣
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: rabbit_hair_ornament
+    frequency: 0.3583
+  new_tag_proposals:
+  - name: koritsu
+    axis: 関係性 / 立場
+    reason: 芸能活動中心の生活のために学校で孤立しているという事実があるが、該当する既存タグがないため。
+- id: san
+  name: サン
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: amatou
+    axis: 嗜好
+    reason: パフェやイチゴ牛乳などの甘いものが好きという明確な嗜好の記載があるため。
+- id: senjougahara-hitagi
+  name: 戦場ヶ原ひたぎ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 体重喪失
+    axis: 体質
+    reason: 高校1年生の時に不思議なカニに遭遇し、体重を失ったという特異な設定が存在するため。
+- id: son-goku
+  name: 孫悟空
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: サイヤ人
+    axis: 外見 / 種族
+    reason: 人間の枠組みとは異なる独自の戦闘種族として指定されているため。
+- id: spike-spiegel
+  name: スパイク・スピーゲル
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: cigarette
+    frequency: 0.6241
+  - tag: smoking
+    frequency: 0.4184
+  new_tag_proposals:
+  - name: 賞金稼ぎ
+    axis: 関係性 / 立場
+    reason: 資料に「賞金稼ぎ（bounty hunter）である」と記載されているが、既存語彙に該当がないため。
+- id: suzumiya-haruhi
+  name: 涼宮ハルヒ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 非日常の探求
+    axis: 性格 / 信条
+    reason: 資料に『宇宙人、時間旅行者、超能力者を見つけることを目的としてSOS団を創設した』とあるため。
+  - name: 団長・創設者
+    axis: 関係性 / 立場
+    reason: 資料に『SOS団の団長兼創設者』と明記されているため。
+- id: todoroki-shouto
+  name: 轟焦凍
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 氷炎能力
+    axis: 能力 / 戦術
+    reason: 右側から氷、左側から炎を生成するという相反する二つの属性を扱う「半冷半燃」の特異な性質を持つため。
+  - name: 親への反発
+    axis: 関係性 / 関係の状態
+    reason: 父親を拒絶し続けたことで、炎が適している場面でも氷を優先して使い制御にも難を抱えていたため。
+- id: tomioka-giyuu
+  name: 冨岡義勇
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 柱
+    axis: 関係性/立場
+    reason: 鬼殺隊の最高位の役職・称号として資料に明記されているため。
+  - name: 呼吸の使い手
+    axis: 関係性/立場
+    reason: 「水の呼吸」を用い独自の型を編み出している戦闘スタイルを表現するため。
+- id: tomoe-mami
+  name: 巴マミ
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: drill_hair
+    frequency: 0.8806
+  - tag: twin_drills
+    frequency: 0.607
+  - tag: beret
+    frequency: 0.4128
+  - tag: striped_clothes
+    frequency: 0.3944
+  - tag: striped_thighhighs
+    frequency: 0.3832
+  - tag: vertical-striped_clothes
+    frequency: 0.377
+  - tag: vertical-striped_thighhighs
+    frequency: 0.3722
+  new_tag_proposals: []
+- id: tsukino-usagi
+  name: 月野うさぎ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: jouka_jihi
+    axis: 性格/信条
+    reason: モンスターに変えられた無辜の人間を殺さずに治療・回復させる方法を模索する態度。
+- id: uzumaki-naruto
+  name: うずまきナルト
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 人柱力
+    axis: 外見 / 種族
+    reason: 体内に強大な魔物や妖狐を封印された存在・宿主を示す明確な設定であるため。
+- id: vash-the-stampede
+  name: ヴァッシュ・ザ・スタンピード
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: mole
+    frequency: 0.5324
+  - tag: red_coat
+    frequency: 0.4592
+  - tag: tinted_eyewear
+    frequency: 0.416
+  new_tag_proposals:
+  - name: 平和主義
+    axis: 性格 / 信条
+    reason: 暴力を嫌い、「LOVE AND PEACE!」というメッセージを広めようとしているため。
+- id: vegeta
+  name: ベジータ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 船長
+    axis: 関係性 / 立場
+    reason: 『Cross Epoch』において飛空船の船長という明確な役職・立場が記載されているため。
+- id: yagami-light
+  name: 夜神月
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 頭脳明晰
+    axis: 能力
+    reason: 高校や大学入試でトップクラス・最高クラスの成績を修める極めて優秀な知性を描写されているが、既存語彙に対応するものがないため。
+- id: yato-noragami
+  name: 夜ト
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: track_suit
+    frequency: 0.3889
+  new_tag_proposals:
+  - name: 忘却による存在消滅
+    axis: 設定 / 存在条件
+    reason: 人々に忘れられると存在が消滅してしまうという独自の生存条件を持ち、忘却恐怖症を発症しているため。
+- id: yunohana-yuuna
+  name: 湯ノ花幽奈
+  date: '2026-08-27'
+  unmapped_danbooru:
+  - tag: albino
+    frequency: 0.6481
+  new_tag_proposals: []
+- id: yuuki-asuna
+  name: アスナ
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: ゲーマー
+    axis: 関係性 / 立場
+    reason: SAOというゲーム内のプレイヤーであり、ゲーム内エイリアスや武器の鍛造・使用といったゲーム特有の属性を持っているため。
+- id: zero-two
+  name: ゼロツー
+  date: '2026-08-27'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: パイロット
+    axis: 関係性 / 立場
+    reason: FRANXXのピスティル（操縦者）としての役割を持つが、既存の記号職や立場に該当する語彙がないため。
