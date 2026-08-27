@@ -58,25 +58,33 @@ jobs:
         run: |
           git config user.name "heki-database-bot"
           git config user.email "actions@users.noreply.github.com"
-          # build.py が書き換えるものを取りこぼすと、未ステージのまま残って
-          # 後段の pull --rebase が "cannot pull with rebase" で落ちる
-          git add -- docs/data/db.json README.md
-          if [ -f data/suggestions.yaml ]; then git add -- data/suggestions.yaml; fi
-          if [ -f data/characters_auto.yaml ]; then
-            git add -- data/characters_auto.yaml
-          fi
-          if git diff --cached --quiet; then
-            echo "変更なし"
-            exit 0
-          fi
-          # 想定外の未ステージ変更が残っていると rebase できないので、ここで気づけるようにする
-          if ! git diff --quiet; then
-            echo "警告: ステージしていない変更が残っています。rebase 前に退避します。"
-            git status --short
-            git stash push --keep-index --include-untracked
-          fi
-          COUNT=$(python3 -c "import yaml;print(len(yaml.safe_load(open('data/characters_auto.yaml')) or []))" 2>/dev/null || echo "0")
-          git commit -m "自動取り込み: characters_auto を更新（収録 ${COUNT} 名）"
-          # 並行実行や直前のボットコミットと競合しないよう、取り込んでから押す
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push
+
+          # 取り込みは 1 時間かかることがあり、その間に別の実行が先にコミットしうる。
+          # 生成物は行マージできないので rebase に任せず、id 単位で突き合わせて統合する。
+          SAVED=$(mktemp -d)
+          cp data/characters_auto.yaml "$SAVED/" 2>/dev/null || true
+          cp data/suggestions.yaml "$SAVED/" 2>/dev/null || true
+
+          for attempt in 1 2 3; do
+            git fetch origin "${GITHUB_REF_NAME}"
+            git reset --hard "origin/${GITHUB_REF_NAME}"
+            python3 tools/ingest/reconcile.py "$SAVED"
+            python3 tools/build.py
+
+            git add -- docs/data/db.json README.md
+            if [ -f data/characters_auto.yaml ]; then git add -- data/characters_auto.yaml; fi
+            if [ -f data/suggestions.yaml ]; then git add -- data/suggestions.yaml; fi
+            if git diff --cached --quiet; then
+              echo "変更なし"
+              exit 0
+            fi
+
+            COUNT=$(python3 -c "import yaml;print(len(yaml.safe_load(open('data/characters_auto.yaml')) or []))" 2>/dev/null || echo "0")
+            git commit -m "自動取り込み: characters_auto を更新（収録 ${COUNT} 名）"
+            if git push; then
+              exit 0
+            fi
+            echo "プッシュが弾かれました（${attempt} 回目）。取り込み直して再試行します。"
+          done
+          echo "3 回試してもプッシュできませんでした。"
+          exit 1
