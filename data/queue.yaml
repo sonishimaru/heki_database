@@ -707,3 +707,329 @@ characters:
     year: 1997
     danbooru: roronoa_zoro
     anilist: Zoro Roronoa
+
+  # ---- 3 期目の貯蓄（115名 → 160名を目指す） ----
+  # 実例0の見出し語を埋める狙い:
+  #   小物: ヘッドホン(ミク)・楽器(ぼっち・虹夏・郁代)・仮面(ブローノ)・形見
+  #   顔: 八重歯(レミリア・フラン)・泣きぼくろ・作り笑い(しのぶ)
+  #   目の形: 死んだ目(アクセラレータ・ぼっち)・ジト目・糸目
+  #   痕: 包帯・目隠し / 髪型: 姫カット・ボブ
+  #   関係の状態: 三角関係・秘密の共有・立場の逆転（資料レーンから）
+  # 90年代の名作（ビバップ・トライガン・BLEACH・JOJO）と、
+  # 音楽・スポーツ・バンドものを足してジャンルの偏りも均す。
+
+  - id: hatsune-miku
+    name: 初音ミク
+    kana: はつねみく
+    work: VOCALOID
+    year: 2007
+    danbooru: hatsune_miku
+    anilist: Hatsune Miku
+  - id: gotou-hitori
+    name: 後藤ひとり
+    kana: ごとうひとり
+    work: ぼっち・ざ・ろっく!
+    year: 2018
+    danbooru: gotou_hitori
+    anilist: Hitori Gotou
+  - id: ijichi-nijika
+    name: 伊地知虹夏
+    kana: いじちにじか
+    work: ぼっち・ざ・ろっく!
+    year: 2018
+    danbooru: ijichi_nijika
+    anilist: Nijika Ijichi
+  - id: kita-ikuyo
+    name: 喜多郁代
+    kana: きたいくよ
+    work: ぼっち・ざ・ろっく!
+    year: 2018
+    danbooru: kita_ikuyo
+    anilist: Ikuyo Kita
+  - id: kitagawa-marin
+    name: 喜多川海夢
+    kana: きたがわまりん
+    work: その着せ替え人形は恋をする
+    year: 2018
+    danbooru: kitagawa_marin
+    anilist: Marin Kitagawa
+  - id: remilia-scarlet
+    name: レミリア・スカーレット
+    kana: れみりあすかーれっと
+    work: 東方Project
+    year: 2002
+    danbooru: remilia_scarlet
+    anilist: Remilia Scarlet
+  - id: flandre-scarlet
+    name: フランドール・スカーレット
+    kana: ふらんどーるすかーれっと
+    work: 東方Project
+    year: 2002
+    danbooru: flandre_scarlet
+    anilist: Flandre Scarlet
+  - id: izayoi-sakuya
+    name: 十六夜咲夜
+    kana: いざよいさくや
+    work: 東方Project
+    year: 2002
+    danbooru: izayoi_sakuya
+    anilist: Sakuya Izayoi
+  - id: konpaku-youmu
+    name: 魂魄妖夢
+    kana: こんぱくようむ
+    work: 東方Project
+    year: 2003
+    danbooru: konpaku_youmu
+    anilist: Youmu Konpaku
+  - id: yuuki-asuna
+    name: アスナ
+    kana: あすな
+    work: ソードアート・オンライン
+    year: 2009
+    danbooru: yuuki_asuna
+    anilist: Asuna Yuuki
+  - id: kirigaya-kazuto
+    name: キリト
+    kana: きりと
+    work: ソードアート・オンライン
+    year: 2009
+    danbooru: kirigaya_kazuto
+    anilist: Kazuto Kirigaya
+  - id: emiya-shirou
+    name: 衛宮士郎
+    kana: えみやしろう
+    work: Fate/stay night
+    year: 2004
+    danbooru: emiya_shirou
+    anilist: Shirou Emiya
+  - id: gilgamesh-fate
+    name: ギルガメッシュ
+    kana: ぎるがめっしゅ
+    work: Fate/stay night
+    year: 2004
+    danbooru: gilgamesh_(fate)
+    anilist: Gilgamesh
+  - id: rias-gremory
+    name: リアス・グレモリー
+    kana: りあすぐれもりー
+    work: ハイスクールD×D
+    year: 2008
+    danbooru: rias_gremory
+    anilist: Rias Gremory
+  - id: kuroko-tetsuya
+    name: 黒子テツヤ
+    kana: くろこてつや
+    work: 黒子のバスケ
+    year: 2008
+    danbooru: kuroko_tetsuya
+    anilist: Tetsuya Kuroko
+  - id: hinata-shouyou
+    name: 日向翔陽
+    kana: ひなたしょうよう
+    work: ハイキュー!!
+    year: 2012
+    danbooru: hinata_shouyou
+    anilist: Shouyou Hinata
+  - id: kageyama-tobio
+    name: 影山飛雄
+    kana: かげやまとびお
+    work: ハイキュー!!
+    year: 2012
+    danbooru: kageyama_tobio
+    anilist: Tobio Kageyama
+  - id: kurosaki-ichigo
+    name: 黒崎一護
+    kana: くろさきいちご
+    work: BLEACH
+    year: 2001
+    danbooru: kurosaki_ichigo
+    anilist: Ichigo Kurosaki
+  - id: kuchiki-rukia
+    name: 朽木ルキア
+    kana: くちきるきあ
+    work: BLEACH
+    year: 2001
+    danbooru: kuchiki_rukia
+    anilist: Rukia Kuchiki
+  - id: hitsugaya-toushirou
+    name: 日番谷冬獅郎
+    kana: ひつがやとうしろう
+    work: BLEACH
+    year: 2001
+    danbooru: hitsugaya_toushirou
+    anilist: Toushirou Hitsugaya
+  - id: roy-mustang
+    name: ロイ・マスタング
+    kana: ろいますたんぐ
+    work: 鋼の錬金術師
+    year: 2001
+    danbooru: roy_mustang
+    anilist: Roy Mustang
+  - id: riza-hawkeye
+    name: リザ・ホークアイ
+    kana: りざほーくあい
+    work: 鋼の錬金術師
+    year: 2001
+    danbooru: riza_hawkeye
+    anilist: Riza Hawkeye
+  - id: alphonse-elric
+    name: アルフォンス・エルリック
+    kana: あるふぉんすえるりっく
+    work: 鋼の錬金術師
+    year: 2001
+    danbooru: alphonse_elric
+    anilist: Alphonse Elric
+  - id: spike-spiegel
+    name: スパイク・スピーゲル
+    kana: すぱいくすぴーげる
+    work: カウボーイビバップ
+    year: 1998
+    danbooru: spike_spiegel
+    anilist: Spike Spiegel
+  - id: faye-valentine
+    name: フェイ・ヴァレンタイン
+    kana: ふぇいゔぁれんたいん
+    work: カウボーイビバップ
+    year: 1998
+    danbooru: faye_valentine
+    anilist: Faye Valentine
+  - id: vash-the-stampede
+    name: ヴァッシュ・ザ・スタンピード
+    kana: ゔぁっしゅざすたんぴーど
+    work: トライガン
+    year: 1995
+    danbooru: vash_the_stampede
+    anilist: Vash the Stampede
+  - id: kaname-madoka
+    name: 鹿目まどか
+    kana: かなめまどか
+    work: 魔法少女まどか☆マギカ
+    year: 2011
+    danbooru: kaname_madoka
+    anilist: Madoka Kaname
+  - id: miki-sayaka
+    name: 美樹さやか
+    kana: みきさやか
+    work: 魔法少女まどか☆マギカ
+    year: 2011
+    danbooru: miki_sayaka
+    anilist: Sayaka Miki
+  - id: tomoe-mami
+    name: 巴マミ
+    kana: ともえまみ
+    work: 魔法少女まどか☆マギカ
+    year: 2011
+    danbooru: tomoe_mami
+    anilist: Mami Tomoe
+  - id: sakura-kyouko
+    name: 佐倉杏子
+    kana: さくらきょうこ
+    work: 魔法少女まどか☆マギカ
+    year: 2011
+    danbooru: sakura_kyouko
+    anilist: Kyouko Sakura
+  - id: shirai-kuroko
+    name: 白井黒子
+    kana: しらいくろこ
+    work: とある科学の超電磁砲
+    year: 2007
+    danbooru: shirai_kuroko
+    anilist: Kuroko Shirai
+  - id: accelerator
+    name: アクセラレータ
+    kana: あくせられーた
+    work: とある魔術の禁書目録
+    year: 2004
+    danbooru: accelerator
+    anilist: Accelerator
+  - id: kochou-shinobu
+    name: 胡蝶しのぶ
+    kana: こちょうしのぶ
+    work: 鬼滅の刃
+    year: 2016
+    danbooru: kochou_shinobu
+    anilist: Shinobu Kochou
+  - id: kanroji-mitsuri
+    name: 甘露寺蜜璃
+    kana: かんろじみつり
+    work: 鬼滅の刃
+    year: 2016
+    danbooru: kanroji_mitsuri
+    anilist: Mitsuri Kanroji
+  - id: dio-brando
+    name: ディオ・ブランドー
+    kana: でぃおぶらんどー
+    work: ジョジョの奇妙な冒険
+    year: 1987
+    danbooru: dio_brando
+    anilist: Dio Brando
+  - id: kuujou-joutarou
+    name: 空条承太郎
+    kana: くうじょうじょうたろう
+    work: ジョジョの奇妙な冒険
+    year: 1989
+    danbooru: kuujou_joutarou
+    anilist: Jotaro Kujo
+  - id: joseph-joestar
+    name: ジョセフ・ジョースター
+    kana: じょせふじょーすたー
+    work: ジョジョの奇妙な冒険
+    year: 1987
+    danbooru: joseph_joestar
+    anilist: Joseph Joestar
+  - id: giorno-giovanna
+    name: ジョルノ・ジョバァーナ
+    kana: じょるのじょばぁーな
+    work: ジョジョの奇妙な冒険
+    year: 1995
+    danbooru: giorno_giovanna
+    anilist: Giorno Giovanna
+  - id: bruno-bucciarati
+    name: ブローノ・ブチャラティ
+    kana: ぶろーのぶちゃらてぃ
+    work: ジョジョの奇妙な冒険
+    year: 1995
+    danbooru: bruno_bucciarati
+    anilist: Bruno Bucciarati
+  - id: katsuragi-misato
+    name: 葛城ミサト
+    kana: かつらぎみさと
+    work: 新世紀エヴァンゲリオン
+    year: 1995
+    danbooru: katsuragi_misato
+    anilist: Misato Katsuragi
+  - id: nagisa-kaworu
+    name: 渚カヲル
+    kana: なぎさかをる
+    work: 新世紀エヴァンゲリオン
+    year: 1995
+    danbooru: nagisa_kaworu
+    anilist: Kaworu Nagisa
+  - id: ryuuguu-rena
+    name: 竜宮レナ
+    kana: りゅうぐうれな
+    work: ひぐらしのなく頃に
+    year: 2002
+    danbooru: ryuuguu_rena
+    anilist: Rena Ryuugu
+  - id: nakano-miku
+    name: 中野三玖
+    kana: なかのみく
+    work: 五等分の花嫁
+    year: 2017
+    danbooru: nakano_miku
+    anilist: Miku Nakano
+  - id: yato-noragami
+    name: 夜ト
+    kana: やと
+    work: ノラガミ
+    year: 2010
+    danbooru: yato_(noragami)
+    anilist: Yato
+  - id: kagamine-rin
+    name: 鏡音リン
+    kana: かがみねりん
+    work: VOCALOID
+    year: 2007
+    danbooru: kagamine_rin
+    anilist: Rin Kagamine
