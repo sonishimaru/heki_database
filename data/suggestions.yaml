@@ -4,4 +4,54 @@
 #   data/elements/ に追加し、wd_map.yaml に対応を書く。
 # new_tag_proposals: classify が語彙に無いと判断した概念の提案。
 # 採用・却下は人が決める。処理済みのエントリは消してよい。
-[]
+- id: aisaka-taiga
+  name: 逢坂大河
+  date: '2026-08-28'
+  unmapped_danbooru:
+  - tag: oohashi_high_school_uniform
+    frequency: 0.4072
+  new_tag_proposals: []
+- id: katsura-kotonoha
+  name: 桂言葉
+  date: '2026-08-28'
+  unmapped_danbooru:
+  - tag: sakakino_academy_school_uniform
+    frequency: 0.439
+  new_tag_proposals: []
+- id: kirisaki-chitoge
+  name: 桐崎千棘
+  date: '2026-08-28'
+  unmapped_danbooru:
+  - tag: bonyari_high_school_uniform
+    frequency: 0.4775
+  new_tag_proposals: []
+- id: kushieda-minori
+  name: 櫛枝実乃梨
+  date: '2026-08-28'
+  unmapped_danbooru:
+  - tag: oohashi_high_school_uniform
+    frequency: 0.5685
+  new_tag_proposals: []
+- id: nishikino-maki
+  name: 西木野真姫
+  date: '2026-08-28'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 家業継承
+    axis: 関係性 / 立場
+    reason: 実家の病院を継ぐことがあらかじめ決まっており、自身の進路や選択を縛る背景となっているため。
+- id: onodera-kosaki
+  name: 小野寺小咲
+  date: '2026-08-28'
+  unmapped_danbooru:
+  - tag: bonyari_high_school_uniform
+    frequency: 0.4105
+  new_tag_proposals: []
+- id: sonozaki-mion
+  name: 園崎魅音
+  date: '2026-08-28'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: リーダー・委員長
+    axis: 関係性 / 立場
+    reason: 学級委員長およびゲーム部活のリーダーとして集団をまとめる立場にある。

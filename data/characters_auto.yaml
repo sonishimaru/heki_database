@@ -45,6 +45,34 @@
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 52%', src: danbooru}
   patterns: []
 
+- id: aisaka-taiga
+  name: 逢坂大河
+  kana: あいさかたいが
+  work: 'とらドラ!'
+  year: 2006
+  summary: 裕福な育ちと私生活の不全さ、攻撃的な姿勢と家庭の不遇さという脆さが同居し、互いの恋愛を応援する協力関係を通して他者と深く結びついていく人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b12064-7PDN3ylIeAZn.png'
+    page: 'https://anilist.co/character/12064'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-28'
+  elements:
+    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 72%', src: danbooru}
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 87%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 95%', src: danbooru}
+    - {id: teishinchou, weight: core, note: '資料: 身長145cmであり、小柄な体格から「手乗りタイガー」と称されている。', src: gemini}
+    - {id: fuguu, weight: sub, note: '資料: 実父の破産・逃亡や、実母の再婚相手・異父兄弟とうまく折り合えず一人暮らしを始めている。', src: gemini}
+    - {id: karetsu, weight: sub, note: '資料: 小柄な体格に反して攻撃的な態度をとることから「手乗りタイガー」と呼ばれている。', src: gemini}
+    - {id: kataomoi, weight: sub, note: '資料: 北村祐作に対して好意を寄せており、彼の前では緊張してしまう。', src: gemini}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 52%', src: danbooru}
+    - {id: tsundere, weight: sub, note: '資料: 攻撃的な態度をとりつつも、好意を寄せる相手の前では緊張したり竜児との時間経過で感情が変化していく性質。', src: gemini}
+    - {id: zubora, weight: sub, note: '資料: 家事全般が全くできず、寝ることと通学以外は竜児の家で過ごし家事を頼り切っている。', src: gemini}
+    - {id: reijou, weight: spice, note: '資料: 裕福な家庭の出身である。', src: gemini}
+  patterns: []
+
 - id: akemi-homura
   name: 暁美ほむら
   kana: あけみほむら
@@ -1478,6 +1506,25 @@
     - {id: yosomono, weight: sub, note: '資料: 和歌山生まれ神戸育ちで、大阪からの転校生としてクラスに加わった。', src: gemini}
   patterns: []
 
+- id: katsura-kotonoha
+  name: 桂言葉
+  kana: かつらことのは
+  work: School Days
+  year: 2005
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/3359.jpg'
+    page: 'https://anilist.co/character/3359'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-28'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 70%', src: danbooru}
+    - {id: kurokami, weight: sub, note: 'danbooru black_hair 47%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 47%', src: danbooru}
+  patterns: []
+
 - id: katsuragi-misato
   name: 葛城ミサト
   kana: かつらぎみさと
@@ -1565,6 +1612,32 @@
     - {id: buki, weight: sub, note: 'danbooru weapon 38%', src: danbooru}
     - {id: kurome, weight: sub, note: 'danbooru black_eyes 58%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 40%', src: danbooru}
+  patterns: []
+
+- id: kirisaki-chitoge
+  name: 桐崎千棘
+  kana: きりさきちとげ
+  work: ニセコイ
+  year: 2011
+  summary: 抗争防止のための期間限定の偽の恋人という秘密の関係性を持ちつつ、幼少期からの縁と名家の令嬢という立場を抱える人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b48391-SuJot8cVKjHj.png'
+    page: 'https://anilist.co/character/48391'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-28'
+  elements:
+    - {id: aome, weight: core, note: 'danbooru blue_eyes 79%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 92%', src: danbooru}
+    - {id: himitsu-kyouyuu, weight: sub, note: '資料: 一条楽との間で抗争を防ぐための偽の恋人という役割や秘密を共有しているため。', src: gemini}
+    - {id: kikan-gentei, weight: sub, note: '資料: 家族間の抗争を防ぐため、高校生活の3年間という期限付きで一条楽と偽の恋人を務めたため。', src: gemini}
+    - {id: osananajimi, weight: sub, note: '資料: 幼少期に一条楽からリボンが似合うと言われたエピソードがあり、昔からの繋がりが存在するため。', src: gemini}
+    - {id: reijou, weight: sub, note: '資料: アデルト・ヴォグナー・キリサキと桐崎華の娘であり、ビーハイブの組員を秘密裏に動員できる立場にあるため。', src: gemini}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 52%', src: danbooru}
+    - {id: kansatsu, weight: spice, note: '資料: 幼少期に友達作りに苦労していたため、クラスメイトの情報を記したノートを作成していたため。', src: gemini}
   patterns: []
 
 - id: kirisame-marisa
@@ -1693,6 +1766,26 @@
     - {id: shitei, weight: sub, note: '資料: 父親であり元従者の魂魄妖忌から剣術の指導を受けていた。', src: gemini}
   patterns: []
 
+- id: kousaka-honoka
+  name: 高坂穂乃果
+  kana: こうさかほのか
+  work: 'ラブライブ!'
+  year: 2010
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b46171-29iObmCZzIkp.png'
+    page: 'https://anilist.co/character/46171'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-28'
+  elements:
+    - {id: akagami, weight: core, note: 'danbooru orange_hair 61%', src: danbooru}
+    - {id: aome, weight: core, note: 'danbooru blue_eyes 85%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru one_side_up 74%', src: danbooru}
+    - {id: semi-long, weight: core, note: 'danbooru medium_hair 93%', src: danbooru}
+  patterns: []
+
 - id: kuchiki-rukia
   name: 朽木ルキア
   kana: くちきるきあ
@@ -1811,6 +1904,30 @@
     - {id: joushi, weight: sub, note: '資料: かつて長年特殊部隊（SpecOps）を率いていた。', src: gemini}
     - {id: murasaki-gami, weight: sub, note: 'danbooru purple_hair 54%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 42%', src: danbooru}
+  patterns: []
+
+- id: kushieda-minori
+  name: 櫛枝実乃梨
+  kana: くしえだみのり
+  work: 'とらドラ!'
+  year: 2006
+  summary: 親友への友情と意中の相手への好意の狭間で、自らの恋心を退けて二人の幸せを優先する自己犠牲的な少女。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b12305-AdKOcp0az9mq.jpg'
+    page: 'https://anilist.co/character/12305'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-28'
+  elements:
+    - {id: akagami, weight: core, note: 'danbooru red_hair 80%', src: danbooru}
+    - {id: seifuku, weight: core, note: 'danbooru school_uniform 62%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 79%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 37%', src: danbooru}
+    - {id: jiko-gisei, weight: sub, note: '資料: アニメの終盤で、自分も竜児のことが好きであるが、竜児と大河が結ばれるために自身の気持ちを諦めた。', src: gemini}
+    - {id: kataomoi, weight: sub, note: '資料: アニメ終盤にて、自分も高須竜児のことが好きであったことを明かしている。', src: gemini}
+    - {id: sankaku-kankei, weight: sub, note: '資料: 親友である逢坂大河、自身が好意を寄せる高須竜児、そして自身の三人の間で好意と譲歩の葛藤が生じている。', src: gemini}
   patterns: []
 
 - id: kuujou-joutarou
@@ -2103,6 +2220,31 @@
     - {id: fushi, weight: spice, note: '資料: 願望の性質により、他の誰よりも強い再生能力を持っている。', src: gemini}
   patterns: []
 
+- id: minami-kotori
+  name: 南ことり
+  kana: みなみことり
+  work: 'ラブライブ!'
+  year: 2010
+  summary: 衣装デザイナーとして作品制作を支えながら、仲間同士の衝突の間でフォローとサポートに回る柔軟な調整役。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b46013-HjSSOn4C0wMt.png'
+    page: 'https://anilist.co/character/46013'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-28'
+  elements:
+    - {id: aidoru, weight: core, note: '資料: μ''sの衣装デザイナーを務めている記述より、スクールアイドルグループμ''sのメンバーであること。', src: gemini}
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 81%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 98%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 41%', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 44%', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru one_side_up 56%', src: danbooru}
+    - {id: sewayaki, weight: sub, note: '資料: 高坂穂乃果が園田海未に叱られているときに穂乃果をフォロー・サポートする。', src: gemini}
+    - {id: shokunin, weight: sub, note: '資料: μ''sの衣装デザイナーを務めている。', src: gemini}
+  patterns: []
+
 - id: mine-fujiko
   name: 峰不二子
   kana: みねふじこ
@@ -2301,6 +2443,28 @@
     - {id: kokuin, weight: sub, note: 'danbooru tattoo 57%', src: danbooru}
   patterns: []
 
+- id: nishikino-maki
+  name: 西木野真姫
+  kana: にしきのまき
+  work: 'ラブライブ!'
+  year: 2010
+  summary: 実家の病院を継ぐ将来の進路と音楽への愛の間で揺れながら、仲間とともにグループへと加入した少女。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b46165-0SB7Je2kSwnb.png'
+    page: 'https://anilist.co/character/46165'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-28'
+  elements:
+    - {id: akagami, weight: core, note: 'danbooru red_hair 92%', src: danbooru}
+    - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 88%', src: danbooru}
+    - {id: semi-long, weight: core, note: 'danbooru medium_hair 93%', src: danbooru}
+    - {id: aidoru, weight: sub, note: '資料: 同期の1年生2人（凛、花陽）とともにµ''sに加入した。', src: gemini}
+    - {id: reijou, weight: sub, note: '資料: 実家の病院を継ぎ、大学で医学を学ぶことを決めていた。', src: gemini}
+  patterns: []
+
 - id: ogino-chihiro
   name: 荻野千尋
   kana: おぎのちひろ
@@ -2347,6 +2511,29 @@
     - {id: kusekke, weight: sub, note: 'danbooru messy_hair 60%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 47%', src: danbooru}
     - {id: taijou, weight: spice, note: '資料: 2025年にSERNのラウンダー部隊に捕らえられ拷問死する。', src: gemini}
+  patterns: []
+
+- id: onodera-kosaki
+  name: 小野寺小咲
+  kana: おのでらこさき
+  work: ニセコイ
+  year: 2011
+  summary: 互いに想いを寄せ合いながらも思いを伝えられずにおり、幼少期に交わした将来の約束を背景に持つ少女。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b52723-YbLFn4JmoAVQ.png'
+    page: 'https://anilist.co/character/52723'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-28'
+  elements:
+    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 75%', src: danbooru}
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 88%', src: danbooru}
+    - {id: ryou-kataomoi, weight: core, note: '資料: 一条楽に想いを寄せており楽もまた明確に好意を寄せているが、桐崎千千花への想いの可能性を考慮して告白を保留するなど、互いに好意を持ちながらも関係が進展していないため。', src: gemini}
+    - {id: yakusoku, weight: core, note: '資料: 幼少期に一条楽と将来結婚する約束を交わした「約束の女の子」であるとされているため。', src: gemini}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 44%', src: danbooru}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 49%', src: danbooru}
   patterns: []
 
 - id: oshino-shinobu
@@ -2838,6 +3025,48 @@
     - {id: uchuujin, weight: sub, note: '資料: プロフィールに種族はサイヤ人と記載されている。', src: gemini}
   patterns: []
 
+- id: sonoda-umi
+  name: 園田海未
+  kana: そのだうみ
+  work: 'ラブライブ!'
+  year: 2010
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b46167-IJSUnNKViPoJ.png'
+    page: 'https://anilist.co/character/46167'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-28'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 86%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 96%', src: danbooru}
+    - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 72%', src: danbooru}
+  patterns: []
+
+- id: sonozaki-mion
+  name: 園崎魅音
+  kana: そのざきみおん
+  work: ひぐらしのなく頃に
+  year: 2002
+  summary: 絶大な影響力を持つ名家の次期当主という立場と、自らを「おじさん」と呼び学級や部活のリーダーとして振る舞う親しみやすさが同居している。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1611-z9SVkC9loi4y.png'
+    page: 'https://anilist.co/character/1611'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-28'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 76%', src: danbooru}
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 67%', src: danbooru}
+    - {id: midorigami, weight: core, note: 'danbooru green_hair 90%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 75%', src: danbooru}
+    - {id: reijou, weight: core, note: '資料: 雛見沢で絶大な影響力を持つ御三家の一つである園崎家の次期当主。', src: gemini}
+    - {id: ichininshou, weight: sub, note: '資料: 自分のことを「おじさん（old man）」と呼ぶ。', src: gemini}
+  patterns: []
+
 - id: souryuu-asuka-langley
   name: 惣流・アスカ・ラングレー
   kana: そうりゅうあすからんぐれー
@@ -2932,6 +3161,26 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 58%', src: danbooru}
     - {id: soushitsu, weight: sub, note: '資料: 過去に父親が他界している。', src: gemini}
     - {id: teishinchou, weight: sub, note: '資料: 15〜18歳の年齢に対して身長150cmと小柄である。', src: gemini}
+  patterns: []
+
+- id: takasu-ryuuji
+  name: 高須竜児
+  kana: たかすりゅうじ
+  work: 'とらドラ!'
+  year: 2006
+  summary: 意中の相手へ想いを寄せながらも、生活能力を欠く周囲の面倒を手厚く引き受ける高校生。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b12295-d45uTNeJHuus.png'
+    page: 'https://anilist.co/character/12295'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-28'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 65%', src: danbooru}
+    - {id: kataomoi, weight: sub, note: '資料: 同じクラスの櫛枝実乃梨に好意を寄せている。', src: gemini}
+    - {id: sewayaki, weight: sub, note: '資料: 家事ができない逢坂大河のために家事を手伝っている。', src: gemini}
   patterns: []
 
 - id: todoroki-shouto
@@ -3266,6 +3515,25 @@
     - {id: kurokami, weight: sub, note: 'danbooru black_hair 50%', src: danbooru}
     - {id: mafuraa, weight: sub, note: 'danbooru scarf 36%', src: danbooru}
     - {id: shoutai, weight: sub, note: '資料: 桜が「卜」を「ト」と誤読したことで通称「夜ト」が定着したが、本名は「夜卜（ヤボク）」であることが明かされた。', src: gemini}
+  patterns: []
+
+- id: yazawa-nico
+  name: 矢澤にこ
+  kana: やざわにこ
+  work: 'ラブライブ!'
+  year: 2010
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b46163-FNug6cIPWxYk.png'
+    page: 'https://anilist.co/character/46163'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-28'
+  elements:
+    - {id: akame, weight: core, note: 'danbooru red_eyes 80%', src: danbooru}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 87%', src: danbooru}
+    - {id: twintail, weight: core, note: 'danbooru twintails 86%', src: danbooru}
   patterns: []
 
 - id: yor-forger
