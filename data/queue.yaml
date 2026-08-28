@@ -1033,3 +1033,329 @@ characters:
     year: 2007
     danbooru: kagamine_rin
     anilist: Rin Kagamine
+
+  # ---- 4 期目の貯蓄（160名 → 205名を目指す） ----
+  # 実例0の見出し語を狙う:
+  #   顔/目: 無表情(モブ・斉木)・死んだ目(銀時・スバル)・八重歯
+  #   髪型: 姫カット(古見・言葉)・縦ロール / 痕: 目隠し(めぐみん)
+  #   傷: ヤンデレ(桂言葉) / 記号職: メイド(ベルファスト)・魔女(めぐみん)
+  #   種族: 天使(ガヴリール)・死神(花子くん)・吸血鬼(シャルティア)
+  #   関係の状態: 三角関係(ニセコイ)・秘密の共有 は資料レーンから
+  # ラブライブ・アイマス・原神・アズレン・艦これでゲーム系を、
+  # ブラックジャック・銀魂で別系統の絵柄を入れて偏りを均す。
+
+  - id: aisaka-taiga
+    name: 逢坂大河
+    kana: あいさかたいが
+    work: とらドラ!
+    year: 2006
+    danbooru: aisaka_taiga
+    anilist: Taiga Aisaka
+  - id: kushieda-minori
+    name: 櫛枝実乃梨
+    kana: くしえだみのり
+    work: とらドラ!
+    year: 2006
+    danbooru: kushieda_minori
+    anilist: Minori Kushieda
+  - id: takasu-ryuuji
+    name: 高須竜児
+    kana: たかすりゅうじ
+    work: とらドラ!
+    year: 2006
+    danbooru: takasu_ryuuji
+    anilist: Ryuuji Takasu
+  - id: katsura-kotonoha
+    name: 桂言葉
+    kana: かつらことのは
+    work: School Days
+    year: 2005
+    danbooru: katsura_kotonoha
+    anilist: Kotonoha Katsura
+  - id: sonozaki-mion
+    name: 園崎魅音
+    kana: そのざきみおん
+    work: ひぐらしのなく頃に
+    year: 2002
+    danbooru: sonozaki_mion
+    anilist: Mion Sonozaki
+  - id: onodera-kosaki
+    name: 小野寺小咲
+    kana: おのでらこさき
+    work: ニセコイ
+    year: 2011
+    danbooru: onodera_kosaki
+    anilist: Kosaki Onodera
+  - id: kirisaki-chitoge
+    name: 桐崎千棘
+    kana: きりさきちとげ
+    work: ニセコイ
+    year: 2011
+    danbooru: kirisaki_chitoge
+    anilist: Chitoge Kirisaki
+  - id: nishikino-maki
+    name: 西木野真姫
+    kana: にしきのまき
+    work: ラブライブ!
+    year: 2010
+    danbooru: nishikino_maki
+    anilist: Maki Nishikino
+  - id: kousaka-honoka
+    name: 高坂穂乃果
+    kana: こうさかほのか
+    work: ラブライブ!
+    year: 2010
+    danbooru: kousaka_honoka
+    anilist: Honoka Kousaka
+  - id: yazawa-nico
+    name: 矢澤にこ
+    kana: やざわにこ
+    work: ラブライブ!
+    year: 2010
+    danbooru: yazawa_nico
+    anilist: Nico Yazawa
+  - id: sonoda-umi
+    name: 園田海未
+    kana: そのだうみ
+    work: ラブライブ!
+    year: 2010
+    danbooru: sonoda_umi
+    anilist: Umi Sonoda
+  - id: minami-kotori
+    name: 南ことり
+    kana: みなみことり
+    work: ラブライブ!
+    year: 2010
+    danbooru: minami_kotori
+    anilist: Kotori Minami
+  - id: amami-haruka
+    name: 天海春香
+    kana: あまみはるか
+    work: アイドルマスター
+    year: 2005
+    danbooru: amami_haruka
+    anilist: Haruka Amami
+  - id: shibuya-rin
+    name: 渋谷凛
+    kana: しぶやりん
+    work: アイドルマスター シンデレラガールズ
+    year: 2011
+    danbooru: shibuya_rin
+    anilist: Rin Shibuya
+  - id: kaga-kancolle
+    name: 加賀
+    kana: かが
+    work: 艦隊これくしょん
+    year: 2013
+    danbooru: kaga_(kancolle)
+    anilist: Kaga
+  - id: shimakaze-kancolle
+    name: 島風
+    kana: しまかぜ
+    work: 艦隊これくしょん
+    year: 2013
+    danbooru: shimakaze_(kancolle)
+    anilist: Shimakaze
+  - id: belfast-azur-lane
+    name: ベルファスト
+    kana: べるふぁすと
+    work: アズールレーン
+    year: 2017
+    danbooru: belfast_(azur_lane)
+    anilist: Belfast
+  - id: atago-azur-lane
+    name: 愛宕
+    kana: あたご
+    work: アズールレーン
+    year: 2017
+    danbooru: atago_(azur_lane)
+    anilist: Atago
+  - id: ganyu
+    name: 甘雨
+    kana: かんう
+    work: 原神
+    year: 2020
+    danbooru: ganyu_(genshin_impact)
+    anilist: Ganyu
+  - id: raiden-shogun
+    name: 雷電将軍
+    kana: らいでんしょうぐん
+    work: 原神
+    year: 2021
+    danbooru: raiden_shogun
+    anilist: Raiden Shogun
+  - id: hu-tao
+    name: 胡桃
+    kana: フータオ
+    work: 原神
+    year: 2021
+    danbooru: hu_tao_(genshin_impact)
+    anilist: Hu Tao
+  - id: klee
+    name: クレー
+    kana: くれー
+    work: 原神
+    year: 2020
+    danbooru: klee_(genshin_impact)
+    anilist: Klee
+  - id: zhongli
+    name: 鍾離
+    kana: しょうり
+    work: 原神
+    year: 2020
+    danbooru: zhongli_(genshin_impact)
+    anilist: Zhongli
+  - id: matoi-ryuuko
+    name: 纏流子
+    kana: まといりゅうこ
+    work: キルラキル
+    year: 2013
+    danbooru: matoi_ryuuko
+    anilist: Ryuuko Matoi
+  - id: kiryuuin-satsuki
+    name: 鬼龍院皐月
+    kana: きりゅういんさつき
+    work: キルラキル
+    year: 2013
+    danbooru: kiryuuin_satsuki
+    anilist: Satsuki Kiryuuin
+  - id: jabami-yumeko
+    name: 蛇喰夢子
+    kana: じゃばみゆめこ
+    work: 賭ケグルイ
+    year: 2014
+    danbooru: jabami_yumeko
+    anilist: Yumeko Jabami
+  - id: komi-shouko
+    name: 古見硝子
+    kana: こみしょうこ
+    work: 古見さんは、コミュ症です。
+    year: 2016
+    danbooru: komi_shouko
+    anilist: Shouko Komi
+  - id: kageyama-shigeo
+    name: 影山茂夫
+    kana: かげやましげお
+    work: モブサイコ100
+    year: 2012
+    danbooru: kageyama_shigeo
+    anilist: Shigeo Kageyama
+  - id: saiki-kusuo
+    name: 斉木楠雄
+    kana: さいきくすお
+    work: 斉木楠雄のΨ難
+    year: 2012
+    danbooru: saiki_kusuo
+    anilist: Kusuo Saiki
+  - id: sakata-gintoki
+    name: 坂田銀時
+    kana: さかたぎんとき
+    work: 銀魂
+    year: 2003
+    danbooru: sakata_gintoki
+    anilist: Gintoki Sakata
+  - id: black-jack
+    name: ブラック・ジャック
+    kana: ぶらっくじゃっく
+    work: ブラック・ジャック
+    year: 1973
+    danbooru: black_jack_(character)
+    anilist: Black Jack
+  - id: pinoko
+    name: ピノコ
+    kana: ぴのこ
+    work: ブラック・ジャック
+    year: 1973
+    danbooru: pinoko
+    anilist: Pinoko
+  - id: gabriel-tenma-white
+    name: ガヴリール
+    kana: がゔりーる
+    work: ガヴリールドロップアウト
+    year: 2013
+    danbooru: gabriel_tenma_white
+    anilist: Gabriel White Tenma
+  - id: yugi-amane
+    name: 花子くん
+    kana: はなこくん
+    work: 地縛少年花子くん
+    year: 2014
+    danbooru: yugi_amane
+    anilist: Hanako
+  - id: yashiro-nene
+    name: 八尋寧々
+    kana: やしろねね
+    work: 地縛少年花子くん
+    year: 2014
+    danbooru: yashiro_nene
+    anilist: Nene Yashiro
+  - id: ishigami-senku
+    name: 石神千空
+    kana: いしがみせんくう
+    work: Dr.STONE
+    year: 2017
+    danbooru: ishigami_senku
+    anilist: Senku Ishigami
+  - id: asta-black-clover
+    name: アスタ
+    kana: あすた
+    work: ブラッククローバー
+    year: 2015
+    danbooru: asta_(black_clover)
+    anilist: Asta
+  - id: tanya-degurechaff
+    name: ターニャ・デグレチャフ
+    kana: たーにゃでぐれちゃふ
+    work: 幼女戦記
+    year: 2013
+    danbooru: tanya_degurechaff
+    anilist: Tanya Degurechaff
+  - id: natsuki-subaru
+    name: ナツキ・スバル
+    kana: なつきすばる
+    work: Re:ゼロから始める異世界生活
+    year: 2014
+    danbooru: natsuki_subaru
+    anilist: Subaru Natsuki
+  - id: ainz-ooal-gown
+    name: アインズ・ウール・ゴウン
+    kana: あいんずうーるごうん
+    work: オーバーロード
+    year: 2012
+    danbooru: ainz_ooal_gown
+    anilist: Ainz Ooal Gown
+  - id: albedo-overlord
+    name: アルベド
+    kana: あるべど
+    work: オーバーロード
+    year: 2012
+    danbooru: albedo_(overlord)
+    anilist: Albedo
+  - id: shalltear-bloodfallen
+    name: シャルティア・ブラッドフォールン
+    kana: しゃるてぃあぶらっどふぉーるん
+    work: オーバーロード
+    year: 2012
+    danbooru: shalltear_bloodfallen
+    anilist: Shalltear Bloodfallen
+  - id: megumin
+    name: めぐみん
+    kana: めぐみん
+    work: この素晴らしい世界に祝福を!
+    year: 2013
+    danbooru: megumin
+    anilist: Megumin
+  - id: aqua-konosuba
+    name: アクア
+    kana: あくあ
+    work: この素晴らしい世界に祝福を!
+    year: 2013
+    danbooru: aqua_(konosuba)
+    anilist: Aqua
+  - id: darkness-konosuba
+    name: ダクネス
+    kana: だくねす
+    work: この素晴らしい世界に祝福を!
+    year: 2013
+    danbooru: darkness_(konosuba)
+    anilist: Darkness
