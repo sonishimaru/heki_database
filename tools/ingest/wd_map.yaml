@@ -107,16 +107,16 @@ elements:
 
   # --- 小物 ---
   megane:
-    tags: [glasses, semi-rimless_eyewear, round_eyewear, rimless_eyewear, sunglasses, tinted_eyewear]
+    tags: [glasses, semi-rimless_eyewear, round_eyewear, rimless_eyewear, sunglasses, tinted_eyewear, green-tinted_eyewear]
   tebukuro:
-    tags: [gloves, fingerless_gloves, elbow_gloves, black_gloves, white_gloves, under-elbow_gloves]
+    tags: [gloves, fingerless_gloves, elbow_gloves, black_gloves, white_gloves, under-elbow_gloves, brown_gloves]
   choker:
     tags: [choker, collar, neck_belt]
   yubiwa:
     tags: [ring, wedding_band, wedding_ring]
     threshold: 0.5
   houtai:
-    tags: [bandages, bandaged_arm, bandaged_head, bandaid, bandaged_hand]
+    tags: [bandages, bandaged_arm, bandaged_head, bandaid, bandaged_hand, bandaged_leg]
   heddohon:
     tags: [headphones, headset, earphones, headphones_around_neck]
   buki:
@@ -124,9 +124,9 @@ elements:
 
   # --- 種族（外見から確実に読める範囲だけ） ---
   kemomimi:
-    tags: [animal_ears, cat_ears, fox_ears, wolf_ears, animal_ear_fluff, wolf_girl, cat_girl, fox_girl, dog_ears, rabbit_ears]
+    tags: [animal_ears, cat_ears, fox_ears, wolf_ears, animal_ear_fluff, wolf_girl, cat_girl, fox_girl, dog_ears, rabbit_ears, extra_ears]
   jingai:
-    tags: [horns, monster_girl, slime_girl, lamia, mermaid, red_horns, cone_horns]
+    tags: [horns, monster_girl, slime_girl, lamia, mermaid, red_horns, cone_horns, goat_horns]
   jinzou:
     tags: [android, robot, robot_joints, mechanical_parts, doll_joints, joints]
 
@@ -162,7 +162,7 @@ elements:
 
   # --- 髪型（追加） ---
   mitsuami:
-    tags: [braid, single_braid, twin_braids, french_braid, braided_ponytail, crown_braid, multiple_braids]
+    tags: [braid, single_braid, twin_braids, french_braid, braided_ponytail, crown_braid, multiple_braids, half_up_braid]
   odango:
     tags: [hair_bun, double_bun, single_hair_bun, bun_cover]
 
@@ -222,7 +222,7 @@ elements:
 
   # --- 3 巡目 ---
   messhu:
-    tags: [multicolored_hair, two-tone_hair, streaked_hair, gradient_hair, colored_inner_hair, split-color_hair]
+    tags: [multicolored_hair, two-tone_hair, streaked_hair, gradient_hair, colored_inner_hair, split-color_hair, red_streaks]
 
   # --- 4 巡目 ---
   shippo:
@@ -285,9 +285,9 @@ elements:
   tate-rooru:
     tags: [drill_hair, twin_drills, quad_drills]
   tsubasa:
-    tags: [wings, bat_wings, angel_wings, feathered_wings, demon_wings]
+    tags: [wings, bat_wings, angel_wings, feathered_wings, demon_wings, black_wings, low_wings]
   piasu:
-    tags: [piercing, ear_piercing, earrings]
+    tags: [piercing, ear_piercing, earrings, single_earring]
     threshold: 0.5
     note: earrings は該当率が高いので閾値を上げている
   tabako:
@@ -296,6 +296,10 @@ elements:
     tags: [lipstick, makeup, red_lips]
   gyaru:
     tags: [gyaru, kogal]
+
+  # --- 9 巡目 ---
+  futomayu:
+    tags: [thick_eyebrows]
 
 # 画像タグでは判定しない見出し語（vision.py または手作業の担当）
 #   unaji         … Danbooru に対応タグがない

@@ -140,6 +140,23 @@ GENERIC_TAGS = {
     "food", "card_(medium)", "chess_piece", "king_(chess)", "sprite", "tachi-e",
     "character_name", "amestris_military_uniform", "tokyo-3_middle_school_uniform",
     "albino",
+    # 9 巡目: 作品固有の制服、装飾、露出、ファンアート由来のタグ
+    "oohashi_high_school_uniform", "bonyari_high_school_uniform",
+    "hyakkaou_academy_school_uniform", "pk_academy_school_uniform",
+    "sakakino_academy_school_uniform", "black_bulls_(emblem)", "clover_print",
+    "magatama", "magatama_hair_ornament", "bell", "neck_bell", "hair_rings",
+    "sphere_hair_ornament", "tassel", "tassel_earrings", "bead_necklace",
+    "feathers", "hat_feather", "hat_flower", "headband", "black_headband",
+    "white_ribbon", "neckerchief", "newsboy_cap", "black_hat", "red_hat",
+    "black_capelet", "red_jacket", "red_dress", "bridal_gauntlets",
+    "single_thighhigh", "bag", "backpack", "black_nails",
+    "panties", "underwear", "black_panties", "highleg", "highleg_panties",
+    "microskirt", "crop_top", "bodystocking",
+    "swept_bangs", "short_bangs", "long_sideburns", "sideburns",
+    ":d", "flower-shaped_pupils", "science_fiction",
+    "skeleton", "patchwork_skin", "stitches",
+    # 二次創作の改変を表すタグ。キャラクター自身の特徴ではない
+    "genderswap", "genderswap_(mtf)",
 }
 
 

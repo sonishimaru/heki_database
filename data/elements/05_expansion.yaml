@@ -967,3 +967,70 @@
   pairs_with: [furou, kyuuketsuki, erufu]
   contrasts_with: [hougen]
   tags: [定番]
+
+# --- 9巡目: 204名で Danbooru 側はほぼ飽和。資料レーンの提案が中心 ---
+- id: pairotto
+  name: パイロット
+  kana: ぱいろっと
+  aliases: [搭乗者, 操縦者]
+  axis: relation.position
+  summary: 機体に乗って戦う立場。自分より大きな力を預けられている。
+  effect: 乗る／降りるの選択そのものを問いにし、機体を降りた姿と対比させる。
+  pairs_with: [nouryokusha, kodomo]
+  contrasts_with: []
+  tags: [定番]
+
+- id: dojikko
+  name: ドジっ子
+  kana: どじっこ
+  aliases: [ドジ, そそっかしい]
+  axis: mind.temperament
+  summary: 何気ない場面で失敗する性分。放っておけなさの源。
+  effect: 失敗を笑いとして重ねたうえで、肝心な一度だけ成功させる。
+  pairs_with: [tennen, sewayaki]
+  contrasts_with: [gouri]
+  tags: [定番]
+
+- id: do-m
+  name: ドM
+  kana: どえむ
+  aliases: [マゾヒスト, 被虐嗜好]
+  axis: mind.temperament
+  summary: 痛みや辱めを喜んで受け取る性分。
+  effect: 攻撃が効かない相手として置き、周囲の困惑で笑いにする。
+  pairs_with: [muri, kishi]
+  contrasts_with: [do-s]
+  tags: [定番]
+
+- id: tenkousei
+  name: 転校生
+  kana: てんこうせい
+  aliases: [新入り, よそから来た者]
+  axis: narrative.role
+  summary: 出来上がった場に後から入る者。既存の関係を動かす装置。
+  effect: 何も知らない立場を使って、読者に世界を説明させる。
+  pairs_with: [yosomono, shoutai]
+  contrasts_with: []
+  tags: [定番]
+
+- id: yuuhei
+  name: 幽閉
+  kana: ゆうへい
+  aliases: [座敷牢, 隔離]
+  axis: relation.state
+  summary: 閉じ込められている状態。外との接触が誰かに管理されている。
+  effect: 外へ出た一度を事件にし、閉じ込めた側の理由を後から出す。
+  pairs_with: [fuuin, kyouizon]
+  contrasts_with: [nagaremono]
+  tags: [定番]
+
+- id: futomayu
+  name: 太眉
+  kana: ふとまゆ
+  aliases: [濃い眉]
+  axis: appearance.face
+  summary: 太くはっきりした眉。素朴さと意志の強さの記号。
+  effect: 洗練から外すことで、まっすぐさを顔だけで示す。
+  pairs_with: [doryokuka, tenshin]
+  contrasts_with: []
+  tags: [定番]
