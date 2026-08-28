@@ -203,7 +203,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-27'
+    date: '2026-08-28'
   elements:
     - {id: akame, weight: core, note: 'danbooru red_eyes 80%', src: danbooru}
     - {id: aogami, weight: core, note: 'danbooru blue_hair 84%', src: danbooru}
@@ -452,7 +452,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-27'
+    date: '2026-08-28'
   elements:
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 92%', src: danbooru}
     - {id: erufu, weight: core, note: 'danbooru pointy_ears 70%', src: danbooru}
@@ -639,7 +639,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-27'
+    date: '2026-08-28'
   elements:
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 80%', src: danbooru}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 90%', src: danbooru}
@@ -1320,7 +1320,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-27'
+    date: '2026-08-28'
   elements:
     - {id: aome, weight: core, note: 'danbooru blue_eyes 72%', src: danbooru}
     - {id: akagami, weight: sub, note: 'danbooru orange_hair 46%', src: danbooru}
@@ -1395,7 +1395,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-27'
+    date: '2026-08-28'
   elements:
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 86%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 66%', src: danbooru}
@@ -1509,7 +1509,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-27'
+    date: '2026-08-28'
   elements:
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 36%', src: danbooru}
     - {id: kurokami, weight: sub, note: 'danbooru black_hair 36%', src: danbooru}
@@ -2079,21 +2079,28 @@
   kana: みきさやか
   work: 魔法少女まどか☆マギカ
   year: 2011
-  summary: （要記入）
+  summary: 想い人のために自己犠牲の契約で魔法少女となるが、魔法少女の真実を知って絶望し魔女へと転落・退場していく人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b38395-d24OayatTB5h.jpg'
     page: 'https://anilist.co/character/38395'
     credit: AniList
   analysis:
-    method: danbooru+auto
-    date: '2026-08-27'
+    method: both+danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-28'
   elements:
     - {id: aogami, weight: core, note: 'danbooru blue_hair 87%', src: danbooru}
     - {id: aome, weight: core, note: 'danbooru blue_eyes 75%', src: danbooru}
+    - {id: mahou-shoujo, weight: core, note: 'danbooru magical_girl 56% / 資料: キュゥべえの勧誘を受け、上条恭介の手を治す願いを使って魔法少女となった。', src: both}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 81%', src: danbooru}
     - {id: gaitou, weight: sub, note: 'danbooru cape 57%', src: danbooru}
-    - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 56%', src: danbooru}
+    - {id: jiko-gisei, weight: sub, note: '資料: 事故でバイオリンが弾けなくなった上条恭介の手を治すための願いを使い、魔法少女になった。', src: gemini}
+    - {id: kataomoi, weight: sub, note: '資料: 上条恭介に恋心を抱いていたが、魔法少女の真実を知ったことで恋心を認められなくなった。', src: gemini}
+    - {id: keiyaku, weight: sub, note: '資料: 願いを叶える引き換えに魔法少女になる契約を結んだ。', src: gemini}
+    - {id: taijou, weight: sub, note: '資料: 魔女化した後、佐倉杏子との戦いの中で共に死亡した。', src: gemini}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 51%', src: danbooru}
+    - {id: tenraku, weight: sub, note: '資料: 絶望しソウルジェムの浄化を拒否した結果、魔女「Oktavia von Seckendorff」へと変化した。', src: gemini}
+    - {id: fushi, weight: spice, note: '資料: 願望の性質により、他の誰よりも強い再生能力を持っている。', src: gemini}
   patterns: []
 
 - id: mine-fujiko
@@ -2132,7 +2139,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-27'
+    date: '2026-08-28'
   elements:
     - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 84%', src: danbooru}
     - {id: chapatsu, weight: core, note: 'danbooru brown_hair 90%', src: danbooru}
@@ -2196,7 +2203,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-27'
+    date: '2026-08-28'
   elements:
     - {id: seifuku, weight: core, note: 'danbooru school_uniform 66%', src: danbooru}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 90%', src: danbooru}
@@ -2216,7 +2223,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-27'
+    date: '2026-08-28'
   elements:
     - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 70%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 85%', src: danbooru}
@@ -2488,7 +2495,7 @@
   summary: （要記入）
   analysis:
     method: danbooru+auto
-    date: '2026-08-27'
+    date: '2026-08-28'
   elements:
     - {id: akagami, weight: core, note: 'danbooru red_hair 64%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 62%', src: danbooru}
@@ -2503,20 +2510,27 @@
   kana: りあすぐれもりー
   work: ハイスクールD×D
   year: 2008
-  summary: （要記入）
+  summary: 名門悪魔としての圧倒的な主君の立場と、しもべであるイッセイとの主従・恋愛関係が同居している。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b50389-gIhJkyk8xj1P.png'
     page: 'https://anilist.co/character/50389'
     credit: AniList
   analysis:
-    method: danbooru+auto
-    date: '2026-08-27'
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-28'
   elements:
     - {id: ahoge, weight: core, note: 'danbooru ahoge 85%', src: danbooru}
     - {id: akagami, weight: core, note: 'danbooru red_hair 98%', src: danbooru}
+    - {id: akuma, weight: core, note: '資料: 純血の悪魔の旧名門グレモリー家出身の最上級悪魔であると記述されている。', src: gemini}
     - {id: aome, weight: core, note: 'danbooru blue_eyes 81%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
     - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 83%', src: danbooru}
+    - {id: shujuu, weight: core, note: '資料: イッセイの主人であり、彼を自身のしもべとして復活させたと記述されている。', src: gemini}
+    - {id: joushi, weight: sub, note: '資料: 役割/階級は「King」であり、イッセイの主人であると記述されている。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 女性で身長172cmと記述されている。', src: gemini}
+    - {id: nouryokusha, weight: sub, note: '資料: 「滅びの力」を持つ天才であると記述されている。', src: gemini}
+    - {id: reijou, weight: sub, note: '資料: 旧名門グレモリー家出身の最上級悪魔であると記述されている。', src: gemini}
   patterns: []
 
 - id: riza-hawkeye
