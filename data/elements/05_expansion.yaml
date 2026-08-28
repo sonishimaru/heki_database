@@ -801,3 +801,169 @@
   pairs_with: [wasou, buki, giri]
   contrasts_with: []
   tags: [定番]
+
+# --- 8巡目: 160名まで広げて残った穴（記号としての小物・態度の語が中心） ---
+- id: tate-rooru
+  name: 縦ロール
+  kana: たてろーる
+  aliases: [ドリル, ロールヘア]
+  axis: appearance.hairstyle
+  summary: 螺旋に巻いた髪。手間と気位の高さの記号。
+  effect: 整えるのに人手が要る髪型として、育ちと矜持を無言で示す。
+  pairs_with: [reijou, kinpatsu]
+  contrasts_with: [kusekke]
+  tags: [定番]
+
+- id: tsubasa
+  name: 翼
+  kana: つばさ
+  aliases: [羽]
+  axis: appearance.parts
+  summary: 背に生えた翼。人ならざる出自をひと目で示す。
+  effect: 飛べる前提を置き、飛ばない／飛べない場面を意味づける。
+  pairs_with: [tenshi, akuma, kyuuketsuki]
+  contrasts_with: []
+  tags: [定番]
+
+- id: piasu
+  name: ピアス
+  kana: ぴあす
+  aliases: [イヤリング]
+  axis: appearance.item
+  summary: 耳に通した装飾。身体に穴を空けた事実が態度を語る。
+  effect: 校則や規範から外れている位置づけを、装飾ひとつで示す。
+  pairs_with: [gyaru, muhoumono]
+  contrasts_with: []
+  tags: []
+
+- id: tabako
+  name: 煙草
+  kana: たばこ
+  aliases: [喫煙, 紫煙]
+  axis: appearance.item
+  summary: くわえた煙草。間を作る小道具であり、退廃の記号。
+  effect: 火をつける・消す動作で沈黙の長さを操り、大人の側だと示す。
+  pairs_with: [nagaremono, kuma, bushouhige]
+  contrasts_with: [kodomo]
+  tags: [定番]
+
+- id: keshou
+  name: 化粧
+  kana: けしょう
+  aliases: [口紅, メイク]
+  axis: appearance.face
+  summary: 施された化粧。作り込んだ顔を見せているという意思。
+  effect: 落ちた化粧や落とした素顔を、内側を見せる場面に取っておく。
+  pairs_with: [joyuu, tsukuri-warai]
+  contrasts_with: []
+  tags: []
+
+- id: gyaru
+  name: ギャル
+  kana: ぎゃる
+  aliases: [ギャル系]
+  axis: appearance.costume
+  summary: 派手な装いと崩した着方の様式。距離の詰め方まで含めた記号。
+  effect: 軽薄に見える外側を先に見せ、面倒見のよさを後から出す。
+  pairs_with: [kasshoku, piasu, tenshin]
+  contrasts_with: [reijou]
+  tags: [定番]
+
+- id: do-s
+  name: ドS
+  kana: どえす
+  aliases: [サディスト, 嗜虐的]
+  axis: mind.temperament
+  summary: 相手が困る反応を面白がる性分。
+  effect: いたぶる対象を限定し、その相手にだけ執着していると示す。
+  pairs_with: [yoyuu, dokuzetsu]
+  contrasts_with: [sewayaki]
+  tags: [定番]
+
+- id: gouman
+  name: 傲慢
+  kana: ごうまん
+  aliases: [尊大, 高慢]
+  axis: mind.temperament
+  summary: 自分が上だと疑わない構え。
+  effect: 見下していた相手に一度だけ認める台詞を言わせ、そこを山にする。
+  pairs_with: [saikyou, reijou]
+  contrasts_with: [hitomishiri]
+  tags: [定番]
+
+- id: doryokuka
+  name: 努力家
+  kana: どりょくか
+  aliases: [努力, 積み重ね]
+  axis: mind.temperament
+  summary: 才能ではなく時間で埋める性分。
+  effect: 見えない練習量を積み上げておき、天才との対比で効かせる。
+  pairs_with: [shokunin, muri]
+  contrasts_with: [saikyou]
+  tags: [定番]
+
+- id: kage-ga-usui
+  name: 影が薄い
+  kana: かげがうすい
+  aliases: [存在感がない, 気配が薄い]
+  axis: mind.temperament
+  summary: いても気づかれない性質。本人の意思とは関係なく消える。
+  effect: 気づかれないことを能力として使わせ、気づいてくれる一人を作る。
+  pairs_with: [hitomishiri, kogoe]
+  contrasts_with: [aidoru]
+  tags: [定番]
+
+- id: otaku
+  name: オタク
+  kana: おたく
+  aliases: [趣味人, 早口オタク]
+  axis: mind.temperament
+  summary: 一つの対象に深く沈む性分。語り出すと止まらない。
+  effect: 好きなものの話だけ饒舌にして、普段の口数の少なさと落差を作る。
+  pairs_with: [hayakuchi, shuushuuheki, hitomishiri]
+  contrasts_with: []
+  tags: [定番]
+
+- id: akogare
+  name: 憧れ
+  kana: あこがれ
+  aliases: [目標にする, 追いかける]
+  axis: mind.creed
+  summary: 誰かのようになりたいという動力。判断の基準が自分の外にある。
+  effect: 憧れた相手の実像を後から見せ、それでも進むかを問う。
+  pairs_with: [doryokuka, shitei]
+  contrasts_with: [teikan]
+  tags: [定番]
+
+- id: gizoku
+  name: 義賊
+  kana: ぎぞく
+  aliases: [義のある盗み]
+  axis: mind.creed
+  summary: 法を破る手段と、譲らない筋を両立させる立ち方。
+  effect: 犯す罪の範囲を自分で線引きさせ、その線を試す事件を置く。
+  pairs_with: [muhoumono, giri]
+  contrasts_with: []
+  tags: [定番]
+
+- id: shinigami
+  name: 死神
+  kana: しにがみ
+  aliases: [死を司る者]
+  axis: appearance.species
+  summary: 死を扱う存在。人の生き死にの側に立っている。
+  effect: 死を日常として扱わせ、一人の死だけ例外にする。
+  pairs_with: [fushi, jingai]
+  contrasts_with: []
+  tags: [定番]
+
+- id: kofuu
+  name: 古風
+  kana: こふう
+  aliases: [古い言葉遣い, 時代がかった口調]
+  axis: mind.speech
+  summary: 現代とずれた言葉遣い。生きてきた時間の長さが口に出る。
+  effect: 言葉のずれで年齢や出自を示し、素の言葉が出る瞬間を用意する。
+  pairs_with: [furou, kyuuketsuki, erufu]
+  contrasts_with: [hougen]
+  tags: [定番]

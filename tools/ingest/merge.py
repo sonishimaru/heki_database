@@ -130,6 +130,16 @@ GENERIC_TAGS = {
     "leotard", "black_leotard", "strapless_leotard", "strapless", "red_bodysuit",
     "playboy_bunny", "animal_print", "tiger_print", "fake_animal_ears",
     "transparent_background", "cat",
+    # 8 巡目: 汎用の服飾・装飾・小道具・背景要素
+    "mob_cap", "vest", "sportswear", "mole", "beret", "black_hairband",
+    "yellow_hairband", "black_choker", "butterfly_hair_ornament",
+    "cube_hair_ornament", "rabbit_hair_ornament", "pink_jacket", "track_jacket",
+    "track_suit", "volleyball_uniform", "striped_clothes", "striped_thighhighs",
+    "vertical-striped_clothes", "vertical-striped_thighhighs", "lapels",
+    "notched_lapels", "zipper", "chain", "crystal", "ice", "bug", "butterfly",
+    "food", "card_(medium)", "chess_piece", "king_(chess)", "sprite", "tachi-e",
+    "character_name", "amestris_military_uniform", "tokyo-3_middle_school_uniform",
+    "albino",
 }
 
 

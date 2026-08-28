@@ -82,7 +82,7 @@ elements:
   kizuato:
     tags: [scar, scar_on_face, scar_across_eye, scar_on_cheek, burn_scar, scar_on_forehead]
   gishi:
-    tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb]
+    tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb, automail, robot_arm]
   kokuin:
     tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo, facial_mark, whisker_markings, facepaint]
 
@@ -103,11 +103,11 @@ elements:
   furiru:
     tags: [frills, frilled_dress, lolita_fashion, gothic_lolita, layered_dress]
   gaitou:
-    tags: [cape, cloak, coat, long_coat, hooded_cloak, trench_coat, hood]
+    tags: [cape, cloak, coat, long_coat, hooded_cloak, trench_coat, hood, white_cape, red_coat]
 
   # --- 小物 ---
   megane:
-    tags: [glasses, semi-rimless_eyewear, round_eyewear, rimless_eyewear, sunglasses]
+    tags: [glasses, semi-rimless_eyewear, round_eyewear, rimless_eyewear, sunglasses, tinted_eyewear]
   tebukuro:
     tags: [gloves, fingerless_gloves, elbow_gloves, black_gloves, white_gloves, under-elbow_gloves]
   choker:
@@ -118,9 +118,9 @@ elements:
   houtai:
     tags: [bandages, bandaged_arm, bandaged_head, bandaid, bandaged_hand]
   heddohon:
-    tags: [headphones, headset, earphones]
+    tags: [headphones, headset, earphones, headphones_around_neck]
   buki:
-    tags: [holding_weapon, weapon, sword, katana, gun, spear, scythe, holding_sword, sheath]
+    tags: [holding_weapon, weapon, sword, katana, gun, spear, scythe, holding_sword, sheath, knife]
 
   # --- 種族（外見から確実に読める範囲だけ） ---
   kemomimi:
@@ -162,7 +162,7 @@ elements:
 
   # --- 髪型（追加） ---
   mitsuami:
-    tags: [braid, single_braid, twin_braids, french_braid, braided_ponytail, crown_braid]
+    tags: [braid, single_braid, twin_braids, french_braid, braided_ponytail, crown_braid, multiple_braids]
   odango:
     tags: [hair_bun, double_bun, single_hair_bun, bun_cover]
 
@@ -280,6 +280,22 @@ elements:
     threshold: 0.4
   samurai:
     tags: [samurai]
+
+  # --- 8 巡目 ---
+  tate-rooru:
+    tags: [drill_hair, twin_drills, quad_drills]
+  tsubasa:
+    tags: [wings, bat_wings, angel_wings, feathered_wings, demon_wings]
+  piasu:
+    tags: [piercing, ear_piercing, earrings]
+    threshold: 0.5
+    note: earrings は該当率が高いので閾値を上げている
+  tabako:
+    tags: [cigarette, smoking, holding_cigarette]
+  keshou:
+    tags: [lipstick, makeup, red_lips]
+  gyaru:
+    tags: [gyaru, kogal]
 
 # 画像タグでは判定しない見出し語（vision.py または手作業の担当）
 #   unaji         … Danbooru に対応タグがない
