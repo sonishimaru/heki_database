@@ -1509,6 +1509,24 @@
     - {id: sankaku-kankei, weight: sub, note: '資料: 桔梗を愛している一方で、かごめに対しても愛の感情を抱き始めている。', src: gemini}
   patterns: []
 
+- id: ishigami-senku
+  name: 石神千空
+  kana: いしがみせんくう
+  work: Dr.STONE
+  year: 2017
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-28'
+  elements:
+    - {id: akame, weight: core, note: 'danbooru red_eyes 67%', src: danbooru}
+    - {id: kokuin, weight: sub, note: 'danbooru facial_mark 40%', src: danbooru}
+    - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 60%', src: danbooru}
+    - {id: midorigami, weight: sub, note: 'danbooru green_hair 56%', src: danbooru}
+    - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 57%', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru white_hair 38%', src: danbooru}
+  patterns: []
+
 - id: itadori-yuuji
   name: 虎杖悠仁
   kana: いたどりゆうじ
