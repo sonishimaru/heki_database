@@ -4,5 +4,71 @@
 #   data/elements/ に追加し、wd_map.yaml に対応を書く。
 # new_tag_proposals: classify が語彙に無いと判断した概念の提案。
 # 採用・却下は人が決める。処理済みのエントリは消してよい。
-
-[]
+- id: ayase-eli
+  name: 絢瀬絵里
+  date: '2026-08-29'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 生徒会長
+    axis: 関係性 / 立場
+    reason: 音ノ木坂学院の生徒会長を務めている記載があるが、既存の立場・役割タグに該当がないため。
+  - name: クォーター
+    axis: 外見 / 体格
+    reason: 祖母がロシア人でありロシアの血を引いている記述があるが、該当するルーツ・血統のタグが存在しないため。
+- id: hikigaya-hachiman
+  name: 比企谷八幡
+  date: '2026-08-29'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 孤立・無友
+    axis: 関係性 / 立場
+    reason: 資料に「孤立しており、友達がいない」と明記されているため。
+  - name: 強制入部
+    axis: 物語役割 / 役割
+    reason: 資料に「進路指導担当によって奉仕部（Service Club）に強制作入部させられた」と記載されているため。
+- id: kotobuki-tsumugi
+  name: 琴吹紬
+  date: '2026-08-29'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 作曲者・演奏者
+    axis: 関係性 / 立場
+    reason: バンドにおいてキーボードを担当し、メインの作曲者として機能しているため。
+- id: nakano-azusa
+  name: 中野梓
+  date: '2026-08-29'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: guitarisuto
+    axis: 関係性 / 立場
+    reason: バンドでセカンドギタリストを務めて演奏を担当している立場を示す概念が既存語彙にないため。
+- id: tachibana-kanade
+  name: 立華かなで
+  date: '2026-08-29'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 心残り
+    axis: 性格 / 傷
+    reason: 心臓をくれた人物に感謝を伝えられなかったことが生前の未練・心残りとして存在するため。
+- id: tainaka-ritsu
+  name: 田井中律
+  date: '2026-08-29'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 部長
+    axis: 関係性 / 立場
+    reason: 軽音部の自称部長であり、部内のナチュラルリーダーとして廃部寸前の部を再始動させたため。
+  - name: ドラマー
+    axis: 関係性 / 立場
+    reason: バンド「放課後ティータイム」でドラムセットの演奏を担当しているため。
+- id: toujou-nozomi
+  name: 東條希
+  date: '2026-08-29'
+  unmapped_danbooru: []
+  new_tag_proposals:
+  - name: 生徒会副会長
+    axis: 関係性 / 立場
+    reason: 学校の生徒会で副会長という役職を務めている記述があるため。
+  - name: 親友
+    axis: 関係性 / 関係の型
+    reason: 絵里との関係として「親友である」と明確に記述されているため。

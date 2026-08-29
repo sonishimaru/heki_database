@@ -123,6 +123,25 @@
     - {id: nouryokusha, weight: sub, note: '資料: 時間を操作する能力を持つ魔法少女。', src: gemini}
   patterns: []
 
+- id: akiyama-mio
+  name: 秋山澪
+  kana: あきやまみお
+  work: 'けいおん!'
+  year: 2007
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b19566-XKsMgf370b4m.png'
+    page: 'https://anilist.co/character/19566'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-29'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 95%', src: danbooru}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 88%', src: danbooru}
+    - {id: kurome, weight: sub, note: 'danbooru black_eyes 46%', src: danbooru}
+  patterns: []
+
 - id: albedo-overlord
   name: アルベド
   kana: あるべど
@@ -394,6 +413,29 @@
     - {id: akame, weight: core, note: 'danbooru red_eyes 80%', src: danbooru}
     - {id: aogami, weight: core, note: 'danbooru blue_hair 84%', src: danbooru}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 79%', src: danbooru}
+  patterns: []
+
+- id: ayase-eli
+  name: 絢瀬絵里
+  kana: あやせえり
+  work: 'ラブライブ!'
+  year: 2010
+  summary: 学院の生徒会長という責任ある立場を持ちながら、廃校を阻止するために親友とともにスクールアイドル活動へ踏み出す構造を持つ。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b46173-QzCSLzDNFpVj.png'
+    page: 'https://anilist.co/character/46173'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-29'
+  elements:
+    - {id: aome, weight: core, note: 'danbooru blue_eyes 87%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 60%', src: danbooru}
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 93%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 75%', src: danbooru}
+    - {id: aibou, weight: sub, note: '資料: 希と親友同士であり、廃校を防ぐ計画やスクールアイドルへの加入をともに行っている。', src: gemini}
+    - {id: aidoru, weight: sub, note: '資料: 廃校を防ぐ目的のために、希とともにスクールアイドルグループに加入する。', src: gemini}
   patterns: []
 
 - id: bakugou-katsuki
@@ -823,6 +865,28 @@
     - {id: tsuyoi-noni-moroi, weight: sub, note: '資料: 望むものを何でも破壊する絶大な力と圧倒的腕力を持つ一方で、性格が不安定で狂気を抱え、遊ぶおもちゃや襲った人間を全壊させてしまう危うさを持つ。', src: gemini}
   patterns: []
 
+- id: florence-nightingale
+  name: ナイチンゲール
+  kana: ないちんげーる
+  work: Fate/Grand Order
+  year: 2015
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b143921-f1ji6l5ANf1E.png'
+    page: 'https://anilist.co/character/143921'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-29'
+  elements:
+    - {id: akame, weight: core, note: 'danbooru red_eyes 62%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 74%', src: danbooru}
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 64%', src: danbooru}
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 66%', src: danbooru}
+    - {id: tebukuro, weight: core, note: 'danbooru gloves 68%', src: danbooru}
+    - {id: mitsuami, weight: sub, note: 'danbooru braid 56%', src: danbooru}
+  patterns: []
+
 - id: frieren
   name: フリーレン
   kana: ふりーれん
@@ -1213,6 +1277,27 @@
     - {id: teishinchou, weight: sub, note: '資料: 身長が140cmと明記されていること。', src: gemini}
   patterns: []
 
+- id: hikigaya-hachiman
+  name: 比企谷八幡
+  kana: ひきがやはちまん
+  work: やはり俺の青春ラブコメはまちがっている。
+  year: 2011
+  summary: 周囲から孤立し友達がいない状態にありながら、教員からの指導として奉仕部への強制的な所属を義務付けられている構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b67065-Dhec6tE2yWA9.png'
+    page: 'https://anilist.co/character/67065'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-29'
+  elements:
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 70%', src: danbooru}
+    - {id: ahoge, weight: sub, note: 'danbooru ahoge 59%', src: danbooru}
+    - {id: kurome, weight: sub, note: 'danbooru black_eyes 36%', src: danbooru}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 55%', src: danbooru}
+  patterns: []
+
 - id: himura-kenshin
   name: 緋村剣心
   kana: ひむらけんしん
@@ -1367,6 +1452,28 @@
     - {id: teishinchou, weight: sub, note: '資料: 身長は151cmである。', src: gemini}
   patterns: []
 
+- id: hoshizora-rin
+  name: 星空凛
+  kana: ほしぞらりん
+  work: 'ラブライブ!'
+  year: 2010
+  summary: スクールアイドルとして活動する高い運動能力と努力家でアクティブな性質、他者の感情を優先する配慮が同居した人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b46011-UNG2CkZtHKLU.png'
+    page: 'https://anilist.co/character/46011'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-29'
+  elements:
+    - {id: akagami, weight: core, note: 'danbooru orange_hair 83%', src: danbooru}
+    - {id: doryokuka, weight: core, note: '資料: プロフィールおよび関係性の記述において、非常にエネルギッシュで努力家であると繰り返し言及されている。', src: gemini}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 89%', src: danbooru}
+    - {id: aidoru, weight: sub, note: '資料: スクールアイドルグループ「μ''s」のメンバーである。', src: gemini}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 55%', src: danbooru}
+  patterns: []
+
 - id: hu-tao
   name: 胡桃
   kana: フータオ
@@ -1411,6 +1518,31 @@
     - {id: kataomoi, weight: sub, note: '資料: うずまきナルトに対し、アカデミー時代から好意を抱いている。', src: gemini}
     - {id: kurokami, weight: sub, note: 'danbooru black_hair 57%', src: danbooru}
     - {id: reijou, weight: sub, note: '資料: 日向一族本家の長女である。', src: gemini}
+  patterns: []
+
+- id: ichimaru-gin
+  name: 市丸ギン
+  kana: いちまるぎん
+  work: BLEACH
+  year: 2001
+  summary: 隊長や副隊長として組織の立場を担う一方で、過去に命を救った人物を密かに気にかけ続ける人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1087-wMTny26FezYB.png'
+    page: 'https://anilist.co/character/1087'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-29'
+  elements:
+    - {id: shinigami, weight: core, note: '資料: 隊長・副隊長の役職や斬魄刀「神鎗」を所持していることから死神であることが作品上ほぼ確実である。', src: gemini}
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 63%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 37%', src: danbooru}
+    - {id: joushi, weight: sub, note: '資料: 三番隊隊長を務めた。', src: gemini}
+    - {id: juusha, weight: sub, note: '資料: 五番隊隊長である藍染惣右介の下で副隊長を務めた。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 身長が185cmである。', src: gemini}
+    - {id: shirogami, weight: sub, note: 'danbooru grey_hair 35%', src: danbooru}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 57%', src: danbooru}
   patterns: []
 
 - id: ijichi-nijika
@@ -2197,6 +2329,25 @@
     - {id: teishinchou, weight: sub, note: '資料: 身長は151cmである。', src: gemini}
   patterns: []
 
+- id: koizumi-hanayo
+  name: 小泉花陽
+  kana: こいずみはなよ
+  work: 'ラブライブ!'
+  year: 2010
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b46017-h47KJajnEtkv.png'
+    page: 'https://anilist.co/character/46017'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-08-29'
+  elements:
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 86%', src: danbooru}
+    - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 80%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 84%', src: danbooru}
+  patterns: []
+
 - id: komi-shouko
   name: 古見硝子
   kana: こみしょうこ
@@ -2244,6 +2395,29 @@
     - {id: buki, weight: sub, note: 'danbooru weapon 50%', src: danbooru}
     - {id: shirogami, weight: sub, note: 'danbooru grey_hair 47%', src: danbooru}
     - {id: shitei, weight: sub, note: '資料: 父親であり同じく白玉楼の従者であった妖忌から剣術を教わっていた。', src: gemini}
+  patterns: []
+
+- id: kotobuki-tsumugi
+  name: 琴吹紬
+  kana: ことぶきつむぎ
+  work: 'けいおん!'
+  year: 2007
+  summary: 学園バンド「放課後ティータイム」のキーボードおよびメインの作曲を担当する少女。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b19568-pF5UBfB6U8G2.png'
+    page: 'https://anilist.co/character/19568'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-29'
+  elements:
+    - {id: aome, weight: core, note: 'danbooru blue_eyes 76%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 91%', src: danbooru}
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 88%', src: danbooru}
+    - {id: reijou, weight: core, note: '資料: 資料に直接の記載はないが、作品上で大手企業の令嬢（お嬢様）であることはほぼ確実であるため。', src: gemini}
+    - {id: futomayu, weight: sub, note: 'danbooru thick_eyebrows 43%', src: danbooru}
+    - {id: tennen, weight: sub, note: '資料: 資料に直接の記載はないが、作品上で浮世離れした天然な性格を持つことはほぼ確実であるため。', src: gemini}
   patterns: []
 
 - id: kousaka-honoka
@@ -2933,6 +3107,29 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 47%', src: danbooru}
     - {id: shirogami, weight: sub, note: 'danbooru grey_hair 51%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 54%', src: danbooru}
+  patterns: []
+
+- id: nakano-azusa
+  name: 中野梓
+  kana: なかのあずさ
+  work: 'けいおん!'
+  year: 2007
+  summary: 文化祭でのバンド演奏をきっかけに軽音部へ入部した、小柄なセカンドギタリスト。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b21173-0RB5dOJdGt9y.png'
+    page: 'https://anilist.co/character/21173'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-29'
+  elements:
+    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 67%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 87%', src: danbooru}
+    - {id: twintail, weight: core, note: 'danbooru twintails 86%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 42%', src: danbooru}
+    - {id: teishinchou, weight: sub, note: '資料: 身長150cmであることが明記されているため。', src: gemini}
   patterns: []
 
 - id: nakano-miku
@@ -3852,6 +4049,52 @@
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 40%', src: danbooru}
   patterns: []
 
+- id: tachibana-kanade
+  name: 立華かなで
+  kana: たちばなかなで
+  work: 'Angel Beats!'
+  year: 2010
+  summary: 死後の世界で「天使」と呼ばれ対立しながらも、臓器提供者への感謝という心残りを抱え、再会へと繋がる存在。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b22369-zC7OgGbfO7b6.jpg'
+    page: 'https://anilist.co/character/22369'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-29'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 89%', src: danbooru}
+    - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 82%', src: danbooru}
+    - {id: seifuku, weight: core, note: 'danbooru school_uniform 63%', src: danbooru}
+    - {id: tenshi, weight: core, note: '資料: ゆりやSSSのメンバーから「天使」と呼ばれ続けている。', src: gemini}
+    - {id: shirogami, weight: sub, note: 'danbooru grey_hair 35%', src: danbooru}
+    - {id: shukuteki, weight: sub, note: '資料: 任務のためゆりやSSSのメンバーと対立している。', src: gemini}
+    - {id: teishinchou, weight: sub, note: '資料: 16歳の女性で身長150cmと記載されている。', src: gemini}
+    - {id: saikai, weight: spice, note: '資料: エンドロール後に現実世界で音無と再会したと思われる短いシーンが描かれている。', src: gemini}
+  patterns: []
+
+- id: tainaka-ritsu
+  name: 田井中律
+  kana: たいなかりつ
+  work: 'けいおん!'
+  year: 2007
+  summary: 部を立ち上げて率いるリーダーシップと、バンドの演奏を支えるドラマーとしての役割を兼ね備えた存在。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b19567-ztMNJBxTNqmZ.png'
+    page: 'https://anilist.co/character/19567'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-29'
+  elements:
+    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 71%', src: danbooru}
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 84%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 76%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 43%', src: danbooru}
+  patterns: []
+
 - id: takanashi-rikka
   name: 小鳥遊六花
   kana: たかなしりっか
@@ -4054,6 +4297,30 @@
     - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 52%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 43%', src: danbooru}
     - {id: twintail, weight: sub, note: 'danbooru twintails 47%', src: danbooru}
+  patterns: []
+
+- id: toujou-nozomi
+  name: 東條希
+  kana: とうじょうのぞみ
+  work: 'ラブライブ!'
+  year: 2010
+  summary: 神社の巫女や生徒会副会長を務めながら、親友と共にスクールアイドルとして活動し成功を収める人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b46169-yYnDgZprEtAU.png'
+    page: 'https://anilist.co/character/46169'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-29'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 64%', src: danbooru}
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 83%', src: danbooru}
+    - {id: twintail, weight: core, note: 'danbooru twintails 69%', src: danbooru}
+    - {id: aidoru, weight: sub, note: '資料: 絵里とともにスクールアイドル部に入部し、最も成功したスクールアイドルの一人となる。', src: gemini}
+    - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 56%', src: danbooru}
+    - {id: miko, weight: sub, note: '資料: 神社は人々の信仰の源であると信じているため、神社で巫女をしている。', src: gemini}
   patterns: []
 
 - id: tsukino-usagi
