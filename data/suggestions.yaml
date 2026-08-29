@@ -69,13 +69,10 @@
   new_tag_proposals:
   - name: 生徒会長
     axis: 関係性 / 立場
-    reason: 音ノ木坂学院の生徒会長を務めているため。
-  - name: 親友
-    axis: 関係性 / 関係の型
-    reason: 希（Nozomi）と親友同士であることが明記されているため。
+    reason: 音ノ木坂学院の生徒会長を務めている記載があるが、既存の立場・役割タグに該当がないため。
   - name: クォーター
-    axis: 外見 / 種族
-    reason: 祖母がロシア人であり、ロシアの血を引いているため。
+    axis: 外見 / 体格
+    reason: 祖母がロシア人でありロシアの血を引いている記述があるが、該当するルーツ・血統のタグが存在しないため。
 - id: belfast-azur-lane
   name: ベルファスト
   date: '2026-08-29'
@@ -235,9 +232,9 @@
   - tag: star-shaped_pupils
     frequency: 0.7115
   new_tag_proposals:
-  - name: isha
+  - name: 医師
     axis: 関係性 / 立場
-    reason: かつてゴローという名の医師であったことが資料に明記されているが、既存の語彙に該当する職業・立場が存在しないため。
+    reason: 前世においてゴローという名の医師であったことが明記されているため。
 - id: hoshino-ruby
   name: 星野ルビー
   date: '2026-08-29'
@@ -280,15 +277,18 @@
   unmapped_danbooru:
   - tag: lycoris_uniform
     frequency: 0.3794
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: リコリス
+    axis: 関係性 / 立場
+    reason: 資料上で「優秀なリコリスであった」と説明されているが、既存の職業・立場語彙に直接該当するものがないため。
 - id: ishigami-yuu
   name: 石上優
   date: '2026-08-29'
   unmapped_danbooru: []
   new_tag_proposals:
-  - name: 生徒会会計
+  - name: kaikei
     axis: 関係性 / 立場
-    reason: 秀知院学園生徒会の会計を務め、学校の全資金を単独で管理しているため。
+    reason: 秀知院学園生徒会の会計を務め、全資金を単独で管理しているという明確な立場があるため。
 - id: itadori-yuuji
   name: 虎杖悠仁
   date: '2026-08-29'
@@ -404,9 +404,9 @@
   date: '2026-08-29'
   unmapped_danbooru: []
   new_tag_proposals:
-  - name: キーボード・作曲担当
+  - name: 作曲者・演奏者
     axis: 関係性 / 立場
-    reason: 資料においてバンド「放課後ティータイム」のキーボード担当であり、主要な作曲者であることが明確に記述されているため。
+    reason: バンドにおいてキーボードを担当し、メインの作曲者として機能しているため。
 - id: kousaka-honoka
   name: 高坂穂乃果
   date: '2026-08-29'
@@ -516,7 +516,7 @@
   new_tag_proposals:
   - name: レンタル彼女
     axis: 関係性 / 立場
-    reason: 「レンタル彼女」のペルソナとして活動していることが資料に明確に提示されているため。
+    reason: 恋人役を演じるサービスを提供する活動を行っているため。
 - id: nagisa-kaworu
   name: 渚カヲル
   date: '2026-08-29'
@@ -607,11 +607,8 @@
     frequency: 0.3523
   new_tag_proposals:
   - name: 人工心臓
-    axis: 外見 / 体質
-    reason: アラン機関が開発した人工心臓を保有しているという設定が存在するため。
-  - name: 看板娘
-    axis: 関係性 / 立場
-    reason: 喫茶リコリコの自称看板娘として働いているため。
+    axis: 外見 / 種族
+    reason: アラン機関によって開発された人工器官（心臓）を持ち、高電圧の印加で破損するリスクを抱えているため。
 - id: onodera-kosaki
   name: 小野寺小咲
   date: '2026-08-29'
@@ -793,18 +790,21 @@
   new_tag_proposals:
   - name: 部長
     axis: 関係性 / 立場
-    reason: 自称・軽音部部長であり、部の再始動後もリーダーを務めているため。
+    reason: 軽音部の自称部長であり、部内のナチュラルリーダーとして廃部寸前の部を再始動させたため。
   - name: ドラマー
     axis: 関係性 / 立場
-    reason: バンド「放課後ティータイム」のドラムを担当しているため。
+    reason: バンド「放課後ティータイム」でドラムセットの演奏を担当しているため。
 - id: toujou-nozomi
   name: 東條希
   date: '2026-08-29'
   unmapped_danbooru: []
   new_tag_proposals:
-  - name: 副会長
+  - name: 生徒会副会長
     axis: 関係性 / 立場
-    reason: 音ノ木坂学院の副会長（vice-president）を務めているという立場が明記されているため。
+    reason: 学校の生徒会で副会長という役職を務めている記述があるため。
+  - name: 親友
+    axis: 関係性 / 関係の型
+    reason: 絵里との関係として「親友である」と明確に記述されているため。
 - id: trunks
   name: トランクス
   date: '2026-08-29'

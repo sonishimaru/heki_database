@@ -348,7 +348,7 @@
   kana: ありまかな
   work: 【推しの子】
   year: 2020
-  summary: かつて天才子役と呼ばれた女優としての矜持を持ちつつ、アイドル活動を開始し、密かな好意を原動力として抱く少女。
+  summary: かつて天才子役と呼ばれた女優であり、アイドル活動を行いながら特定の相手に密かな片思いを抱いている人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b188783-77orwP7vNuNg.png'
     page: 'https://anilist.co/character/188783'
@@ -361,11 +361,11 @@
     - {id: akagami, weight: core, note: 'danbooru red_hair 95%', src: danbooru}
     - {id: akame, weight: core, note: 'danbooru red_eyes 92%', src: danbooru}
     - {id: bob-cut, weight: core, note: 'danbooru bob_cut 70%', src: danbooru}
-    - {id: joyuu, weight: core, note: '資料: かつて「天才子役」と呼ばれた女優であると明記されている。', src: gemini}
-    - {id: kataomoi, weight: core, note: '資料: Aquamarineに対して密かに好意を抱き、彼を自分に惚れさせようと決意している記述がある。', src: gemini}
-    - {id: aidoru, weight: sub, note: '資料: 新生B小町の初コンサートで活動していることが記載されている。', src: gemini}
+    - {id: joyuu, weight: core, note: '資料: かつて天才子役と呼ばれた女優であることが明記されている。', src: gemini}
+    - {id: kataomoi, weight: core, note: '資料: アクアマリンに対して密かに恋心を抱いており、彼を自分に惚れさせようと決意している。', src: gemini}
+    - {id: aidoru, weight: sub, note: '資料: 新生B小町のファーストコンサートや自身の推しカラーのペンライトに関する記述がある。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 59%', src: danbooru}
-    - {id: teishinchou, weight: sub, note: '資料: 17〜19歳という年齢に対して身長150cmと小柄である。', src: gemini}
+    - {id: teishinchou, weight: sub, note: '資料: 17〜19歳で身長150cmであることが記載されている。', src: gemini}
   patterns: []
 
 - id: artoria-pendragon
@@ -457,7 +457,7 @@
   elements:
     - {id: akame, weight: core, note: 'danbooru red_eyes 80%', src: danbooru}
     - {id: aogami, weight: core, note: 'danbooru blue_hair 84%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 78%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 79%', src: danbooru}
   patterns: []
 
 - id: ayase-eli
@@ -989,14 +989,13 @@
   kana: ないちんげーる
   work: Fate/Grand Order
   year: 2015
-  summary: 提示された資料に詳細な情報が記載されていないため、構成要素を特定できません。
+  summary: （要記入）
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b143921-f1ji6l5ANf1E.png'
     page: 'https://anilist.co/character/143921'
     credit: AniList
   analysis:
     method: danbooru+auto
-    model: 'gemini-3.6-flash'
     date: '2026-08-29'
   elements:
     - {id: akame, weight: core, note: 'danbooru red_eyes 62%', src: danbooru}
@@ -1400,7 +1399,7 @@
   kana: はやさかあい
   work: かぐや様は告らせたい
   year: 2015
-  summary: 代々仕える従者・メイドとして主人を長年身近で支え、役目を終えた後も対等な友人関係を続ける存在。
+  summary: 四宮家に仕える従者・メイドとして主の四宮かぐやを10年にわたり支え続ける存在。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b121104-7TYRl3EEsDYU.png'
     page: 'https://anilist.co/character/121104'
@@ -1411,14 +1410,14 @@
     date: '2026-08-29'
   elements:
     - {id: aome, weight: core, note: 'danbooru blue_eyes 90%', src: danbooru}
-    - {id: juusha, weight: core, note: '資料: 代々四宮家に仕える早坂家の身内であり、四宮家の従者であると記述されている。', src: gemini}
+    - {id: juusha, weight: core, note: '資料: 四宮家の従者（valet）であり、四宮かぐやの従者として10年間にわたり彼女の人生や高校生活をサポートしている。', src: gemini}
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 94%', src: danbooru}
     - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 72%', src: danbooru}
-    - {id: meido, weight: core, note: '資料: 四宮家の従者であり、かぐやのメイドとしての仕事を行っていたと明記されている。', src: gemini}
     - {id: ponytail, weight: core, note: 'danbooru side_ponytail 78%', src: danbooru}
+    - {id: shujuu, weight: core, note: '資料: 四宮かぐやの従者およびメイドとして彼女に仕えている。', src: gemini}
     - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 50%', src: danbooru}
+    - {id: meido, weight: sub, note: '資料: かぐやのメイドとしての仕事を辞めるが友人関係は継続すると記載されている。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 38%', src: danbooru}
-    - {id: shujuu, weight: sub, note: '資料: 四宮家に仕える従者・メイドとして四宮かぐやの生活を10年にわたりサポートする関係にあったことが示されている。', src: gemini}
   patterns: []
 
 - id: hestia
@@ -1453,9 +1452,14 @@
   kana: ひきがやはちまん
   work: やはり俺の青春ラブコメはまちがっている。
   year: 2011
-  summary: （要記入）
+  summary: 周囲から孤立し友達がいない状態にありながら、教員からの指導として奉仕部への強制的な所属を義務付けられている構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b67065-Dhec6tE2yWA9.png'
+    page: 'https://anilist.co/character/67065'
+    credit: AniList
   analysis:
     method: danbooru+auto
+    model: 'gemini-3.6-flash'
     date: '2026-08-29'
   elements:
     - {id: kurokami, weight: core, note: 'danbooru black_hair 70%', src: danbooru}
@@ -1647,7 +1651,7 @@
   kana: ほしのるびー
   work: 【推しの子】
   year: 2020
-  summary: 前世で病気のため果たせなかったアイドルへの憧れを胸に、転生を経て双子の妹として生まれ変わりアイドル活動を行う人物。
+  summary: 前世で病のために途絶えた夢を胸に、母であり「推し」であったアイと同じアイドルを目指す双子の少女。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b183884-iyo3BmTuhJ0l.jpg'
     page: 'https://anilist.co/character/183884'
@@ -1657,13 +1661,13 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-29'
   elements:
-    - {id: aidoru, weight: core, note: '資料: アイのようなアイドルを目指し、B小町を復活させてアイドルとして活動している。', src: gemini}
+    - {id: aidoru, weight: core, note: '資料: アイのようなアイドルを目指し、B小町を再始動させて活動している。', src: gemini}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 83%', src: danbooru}
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 90%', src: danbooru}
     - {id: momoiro-no-me, weight: core, note: 'danbooru pink_eyes 65%', src: danbooru}
-    - {id: zense, weight: core, note: '資料: 前世ではサリーナという名の患者であり、ルビーとして転生した。', src: gemini}
-    - {id: akogare, weight: sub, note: '資料: B小町を知ってアイドルに憧れ、アイのようなアイドルになる夢に向かって活動している。', src: gemini}
-    - {id: byoujaku, weight: sub, note: '資料: 前世では病気のため車椅子生活を送っていた。', src: gemini}
+    - {id: zense, weight: core, note: '資料: 前世ではサリナという名の患者であり、ルビーとして転生した。', src: gemini}
+    - {id: akogare, weight: sub, note: '資料: アイのようなアイドルになる夢に向かって活動している。', src: gemini}
+    - {id: byoujaku, weight: sub, note: '資料: 前世ではサリナという名の患者であり、病気のため車椅子生活を送っていた。', src: gemini}
     - {id: futago, weight: sub, note: '資料: 星野アクアマリンの双子の妹である。', src: gemini}
     - {id: ponytail, weight: sub, note: 'danbooru one_side_up 52%', src: danbooru}
   patterns: []
@@ -1741,7 +1745,7 @@
   kana: いちまるぎん
   work: BLEACH
   year: 2001
-  summary: 隊長や副隊長という組織上の権威と補助的立場を合わせ持ち、長身の体格を備えた人物。
+  summary: 隊長や副隊長として組織の立場を担う一方で、過去に命を救った人物を密かに気にかけ続ける人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1087-wMTny26FezYB.png'
     page: 'https://anilist.co/character/1087'
@@ -1751,12 +1755,12 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-29'
   elements:
+    - {id: shinigami, weight: core, note: '資料: 隊長・副隊長の役職や斬魄刀「神鎗」を所持していることから死神であることが作品上ほぼ確実である。', src: gemini}
     - {id: wasou, weight: core, note: 'danbooru japanese_clothes 63%', src: danbooru}
     - {id: buki, weight: sub, note: 'danbooru weapon 37%', src: danbooru}
     - {id: joushi, weight: sub, note: '資料: 三番隊隊長を務めた。', src: gemini}
-    - {id: juusha, weight: sub, note: '資料: 五番隊隊長である藍染惣右介のもとで副隊長を務めていた。', src: gemini}
-    - {id: koushinchou, weight: sub, note: '資料: 身長は185 cm。', src: gemini}
-    - {id: shinigami, weight: sub, note: '資料: 資料内に「死神」の文字はないが、斬魄刀の所持や隊長・副隊長といった記述から作品上ほぼ確実である。', src: gemini}
+    - {id: juusha, weight: sub, note: '資料: 五番隊隊長である藍染惣右介の下で副隊長を務めた。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 身長が185cmである。', src: gemini}
     - {id: shirogami, weight: sub, note: 'danbooru grey_hair 35%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 57%', src: danbooru}
   patterns: []
@@ -1903,7 +1907,7 @@
   kana: いしがみゆう
   work: かぐや様は告らせたい
   year: 2015
-  summary: 生徒会の全資金を管理する責任感を持ちつつ、好意を寄せる相手へ素直に思いを届けながらも失恋の痛みを笑顔で隠しきれず涙する繊細さを同居させた人物。
+  summary: 生徒会会計としての高い実務・管理能力と、先輩への一途で切ない片思いとその失恋が同居する人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b121102-tiQFxnSEIAwm.png'
     page: 'https://anilist.co/character/121102'
@@ -1913,15 +1917,15 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-29'
   elements:
+    - {id: kataomoi, weight: core, note: '資料: つばめに対して恋心を抱き、文化祭での意図せぬ告白を経て、卒業式で振られるまで一貫して思いを寄せていたため。', src: gemini}
     - {id: kurokami, weight: core, note: 'danbooru black_hair 63%', src: danbooru}
     - {id: mekakure, weight: core, note: 'danbooru hair_over_one_eye 67%', src: danbooru}
     - {id: seifuku, weight: core, note: 'danbooru school_uniform 60%', src: danbooru}
     - {id: aome, weight: sub, note: 'danbooru blue_eyes 47%', src: danbooru}
     - {id: heddohon, weight: sub, note: 'danbooru headphones 57%', src: danbooru}
-    - {id: kataomoi, weight: sub, note: '資料: つばめに好意を寄せ、文化祭で意図せず告白となるハート形のものを贈ったが、卒業式で振られた。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 53%', src: danbooru}
-    - {id: yakusoku, weight: sub, note: '資料: つばめに振られた際に、友達でいることを約束した。', src: gemini}
-    - {id: kuzureru-egao, weight: spice, note: '資料: つばめに振られた卒業式の日、友達でいる約束をして笑顔と花束で見送った直後に泣き崩れた。', src: gemini}
+    - {id: yakusoku, weight: sub, note: '資料: 卒業式で振られた後も、つばめと友達でいることを約束しているため。', src: gemini}
+    - {id: kuzureru-egao, weight: spice, note: '資料: 卒業式の日、振られた後に笑顔と花のプレゼントで見送った直後に涙を流しているため。', src: gemini}
   patterns: []
 
 - id: isshiki-iroha
@@ -1929,7 +1933,7 @@
   kana: いっしきいろは
   work: やはり俺の青春ラブコメはまちがっている。
   year: 2011
-  summary: 周囲に対して本性を隠して取り繕う一方で、特定の相手の前では本性を露出させる二面性を持つ生徒。
+  summary: 周囲に対して自己演出した表層を見せる一方で、特定の人物にのみ本性を明かす猫被りと本音の二層構造。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b88727-K9H1teOxoSLP.png'
     page: 'https://anilist.co/character/88727'
@@ -1941,11 +1945,12 @@
   elements:
     - {id: chapatsu, weight: core, note: 'danbooru brown_hair 68%', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 50%', src: danbooru}
+    - {id: haraguro, weight: sub, note: '資料: 相手に悟らせずに本性を隠し分け、八幡を苛立たせるような食えない裏の顔を持っている。', src: gemini}
     - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 41%', src: danbooru}
-    - {id: neko-o-kaburu, weight: sub, note: '資料: 戸部が気づかない一方で八幡に対して本性を見せていることから、普段は本来の性格を隠してキャラを作っていることが示されている。', src: gemini}
-    - {id: nimensei, weight: sub, note: '資料: 他人に気づかれない表向きの顔と、特定の人物の前で見せる本性という二つの顔を使い分けている。', src: gemini}
+    - {id: neko-o-kaburu, weight: sub, note: '資料: 戸部翔に本性を現しているものの相手には気づかれておらず、自らの見られ方を計算して取り繕っている。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 39%', src: danbooru}
     - {id: semi-long, weight: sub, note: 'danbooru medium_hair 42%', src: danbooru}
+    - {id: tatemae-honne, weight: sub, note: '資料: 戸部翔や比企谷八幡に対して表向きの振る舞いとは異なる本性を覗かせている。', src: gemini}
   patterns: []
 
 - id: itadori-yuuji
@@ -2398,7 +2403,7 @@
   kana: きき
   work: 魔女の宅急便
   year: 1985
-  summary: 一人立ちの修行として故郷を離れ、限られた魔法能力とともに過ごす見習い魔女。
+  summary: 13歳という幼い身体でありながら、伝統に従い故郷を離れて一人立ちの修行へと踏み出す見習い魔女。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b6866-Fe38ZMNvevnF.png'
     page: 'https://anilist.co/character/6866'
@@ -2408,7 +2413,7 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-29'
   elements:
-    - {id: majo, weight: core, note: 'danbooru broom 55% / 資料: 13歳の見習い魔女であり、猫との会話やほうきでの飛行といった魔法能力を持つことが記載されているため。', src: both}
+    - {id: majo, weight: core, note: 'danbooru broom 55% / 資料: 13歳の見習い魔女であり、猫との会話と箒での飛行という魔法能力を持つ。', src: both}
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 36%', src: danbooru}
     - {id: kodomo, weight: sub, note: '資料: 13歳の見習い魔女である。', src: gemini}
     - {id: kurokami, weight: sub, note: 'danbooru black_hair 36%', src: danbooru}
@@ -3435,7 +3440,7 @@
   kana: みずはらちづる
   work: 彼女、お借りします
   year: 2017
-  summary: レンタル彼女としてのペルソナ「水原千鶴」と本名「一ノ瀬ちづる」の二面性を持ち、大学生活と隣人関係を営む女子大学生。
+  summary: 本名「一ノ瀬ちづる」と「レンタル彼女」活動用の名義「水原千鶴」を使い分けながら暮らす大学生。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b128106-zSTsuULvz6PX.png'
     page: 'https://anilist.co/character/128106'
@@ -3448,7 +3453,7 @@
     - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 71%', src: danbooru}
     - {id: chapatsu, weight: core, note: 'danbooru brown_hair 88%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 89%', src: danbooru}
-    - {id: nimensei, weight: sub, note: '資料: 「レンタル彼女」のペルソナとしての名義（水原千鶴）と本名（一ノ瀬ちづる）という二つの顔を使い分けているため。', src: gemini}
+    - {id: nimensei, weight: sub, note: '資料: 本名は一ノ瀬ちづるであり、「レンタル彼女」として活動する際の名義として水原千鶴を使用しているため。', src: gemini}
     - {id: sakotsu, weight: sub, note: 'danbooru collarbone 35%', src: danbooru}
   patterns: []
 
@@ -3710,7 +3715,7 @@
   kana: にしきぎちさと
   work: リコリス・リコイル
   year: 2022
-  summary: 史上最強と称される能力を持ちながら、喫茶店の看板娘として民間の課題解決を楽しむ一面と、人工心臓という危うさを抱える構造。
+  summary: 史上最強と称される戦闘力と、喫茶店で明るく楽しく働く天真爛漫な性質が同居し、高電圧で破損しうる人工心臓を抱える構造を持った人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b260329-1Z5n1QgViEBI.png'
     page: 'https://anilist.co/character/260329'
@@ -3724,6 +3729,7 @@
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 92%', src: danbooru}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 83%', src: danbooru}
     - {id: saikyou, weight: sub, note: '資料: 史上最強のリコリスと称されている。', src: gemini}
+    - {id: tenshin, weight: sub, note: '資料: 喫茶リコリコで自称看板娘として明るく楽しそうに働き、問題解決を楽しんでいる。', src: gemini}
   patterns: []
 
 - id: nishikino-maki
@@ -4532,7 +4538,7 @@
   kana: しろがねみゆき
   work: かぐや様は告らせたい
   year: 2015
-  summary: 不遇な家庭環境を背景に持ちながらも努力を重ね、想いを寄せる相手の前で自信家な天才のキャラクターを作り上げて振る舞う人物。
+  summary: 貧しい境遇から圧倒的な努力で学園トップへ上り詰め、憧れのかぐやの目を惹くために自信家で天才的な人物像を演じ続ける生徒会長。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b121101-Q8HzKP15At2d.png'
     page: 'https://anilist.co/character/121101'
@@ -4543,14 +4549,15 @@
     date: '2026-08-29'
   elements:
     - {id: aome, weight: core, note: 'danbooru blue_eyes 72%', src: danbooru}
+    - {id: doryokuka, weight: core, note: '資料: 漢検2級や英検準1級の取得、全国模試2位、奨学金を得て学園に編入するなど努力を重ねている。', src: gemini}
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 72%', src: danbooru}
     - {id: seifuku, weight: core, note: 'danbooru school_uniform 61%', src: danbooru}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 69%', src: danbooru}
-    - {id: doryokuka, weight: sub, note: '資料: 特待生としての編入や検定合格、全国模試2位といった実績を出していること', src: gemini}
-    - {id: fuguu, weight: sub, note: '資料: 幼少期に母親が家族のもとを去り、父親の工場が閉鎖された生い立ち', src: gemini}
-    - {id: kataomoi, weight: sub, note: '資料: 四宮かぐやに恋をしていること', src: gemini}
-    - {id: neko-o-kaburu, weight: sub, note: '資料: かぐやを惹きつけるために自信家な天才の人物像をつくったこと', src: gemini}
-    - {id: tenkousei, weight: spice, note: '資料: 高校1年生の時に特待生として秀知院学園へ編入したこと', src: gemini}
+    - {id: akogare, weight: sub, note: '資料: 溺れた少女を助ける四宮かぐやの姿を見て魅了された。', src: gemini}
+    - {id: fuguu, weight: sub, note: '資料: 幼少期に母親が去り、父親の工場閉鎖により月額5万円のアパートで暮らしている。', src: gemini}
+    - {id: kataomoi, weight: sub, note: '資料: 四宮かぐやに恋をしているが、彼女の財産や才能への恐怖から告白できずにいる。', src: gemini}
+    - {id: neko-o-kaburu, weight: sub, note: '資料: かぐやを惹きつけるために自信家で天才的な人物像を意図的に演じている。', src: gemini}
+    - {id: mibunsa, weight: spice, note: '資料: 月額5万円のアパート暮らしでありながら、莫大な財産や才能を持つかぐやに恐怖と恋心を抱いている。', src: gemini}
   patterns: []
 
 - id: shishio-makoto
@@ -5017,7 +5024,7 @@
   kana: とうじょうのぞみ
   work: 'ラブライブ!'
   year: 2010
-  summary: 神社で巫女を務める神聖さと、生徒会副会長としての立場を持ちながら、スクールアイドルとして大成していく二面性を併せ持つ。
+  summary: 神社の巫女や生徒会副会長を務めながら、親友と共にスクールアイドルとして活動し成功を収める人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b46169-yYnDgZprEtAU.png'
     page: 'https://anilist.co/character/46169'
@@ -5027,13 +5034,13 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-29'
   elements:
-    - {id: aidoru, weight: core, note: '資料: 絵里とともにスクールアイドル部に加入し、最も成功したスクールアイドルの一人となる。', src: gemini}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 64%', src: danbooru}
     - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 83%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 69%', src: danbooru}
+    - {id: aidoru, weight: sub, note: '資料: 絵里とともにスクールアイドル部に入部し、最も成功したスクールアイドルの一人となる。', src: gemini}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 56%', src: danbooru}
-    - {id: miko, weight: sub, note: '資料: 神社が人々の信仰の源であると信じているため、神社で巫女をしている。', src: gemini}
+    - {id: miko, weight: sub, note: '資料: 神社は人々の信仰の源であると信じているため、神社で巫女をしている。', src: gemini}
   patterns: []
 
 - id: trunks
@@ -5357,7 +5364,7 @@
   kana: ゆいがはまゆい
   work: やはり俺の青春ラブコメはまちがっている。
   year: 2011
-  summary: 部活動への依頼をきっかけに関わりを深め、自身を変化させながら特定の相手への想いを抱き続ける少女。
+  summary: 奉仕部での活動や他者との関わりを通じて思考を変化させつつ、特定の相手に強い好意（片思い）を向け続ける人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b67069-6B3xnHfJUO0F.png'
     page: 'https://anilist.co/character/67069'
@@ -5367,8 +5374,9 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-29'
   elements:
-    - {id: kataomoi, weight: core, note: '資料: 八幡に対して好意を寄せており、物語の最終話で奉仕部のメンバーにその気持ちを明かしている。', src: gemini}
+    - {id: kataomoi, weight: core, note: '資料: 八幡に対して好意を寄せており、シリーズ最終話でその好意を奉仕部のメンバーに明かしている。', src: gemini}
     - {id: odango, weight: core, note: 'danbooru hair_bun 81%', src: danbooru}
+    - {id: itsumo-no-basho, weight: sub, note: '資料: 最初の依頼人として訪れて以降、放課後に奉仕部の活動場所へ継続して通うようになった。', src: gemini}
     - {id: pinku-gami, weight: sub, note: 'danbooru pink_hair 44%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 39%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 56%', src: danbooru}
