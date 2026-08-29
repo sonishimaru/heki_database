@@ -1359,3 +1359,328 @@ characters:
     year: 2013
     danbooru: darkness_(konosuba)
     anilist: Darkness
+
+  # ---- 5 期目の貯蓄（205名 → 250名を目指す） ----
+  # 長く実例0のままの語を名指しで狙う:
+  #   ナース(ナイチンゲール)・糸目(市丸ギン)・無表情(立華かなで・フェルン)
+  #   死んだ目(比企谷八幡)・方言(東條希の関西弁)・たれ目と太眉(琴吹紬)
+  #   つり目(絢瀬絵里)・坊主頭(クリリン)・人形機械(人造人間18号)
+  #   双子/多胎は五等分の五つ子、身分差・年上は資料レーンから
+  # るろ剣・ドラゴンボールで90年代を厚くし、けいおん・ラブライブ・かぐや様・
+  # 推しの子・リコリコで学園と音楽の層を足す。
+
+  - id: florence-nightingale
+    name: ナイチンゲール
+    kana: ないちんげーる
+    work: Fate/Grand Order
+    year: 2015
+    danbooru: florence_nightingale_(fate)
+    anilist: Florence Nightingale
+  - id: ichimaru-gin
+    name: 市丸ギン
+    kana: いちまるぎん
+    work: BLEACH
+    year: 2001
+    danbooru: ichimaru_gin
+    anilist: Gin Ichimaru
+  - id: kotobuki-tsumugi
+    name: 琴吹紬
+    kana: ことぶきつむぎ
+    work: けいおん!
+    year: 2007
+    danbooru: kotobuki_tsumugi
+    anilist: Tsumugi Kotobuki
+  - id: akiyama-mio
+    name: 秋山澪
+    kana: あきやまみお
+    work: けいおん!
+    year: 2007
+    danbooru: akiyama_mio
+    anilist: Mio Akiyama
+  - id: tainaka-ritsu
+    name: 田井中律
+    kana: たいなかりつ
+    work: けいおん!
+    year: 2007
+    danbooru: tainaka_ritsu
+    anilist: Ritsu Tainaka
+  - id: nakano-azusa
+    name: 中野梓
+    kana: なかのあずさ
+    work: けいおん!
+    year: 2007
+    danbooru: nakano_azusa
+    anilist: Azusa Nakano
+  - id: toujou-nozomi
+    name: 東條希
+    kana: とうじょうのぞみ
+    work: ラブライブ!
+    year: 2010
+    danbooru: toujou_nozomi
+    anilist: Nozomi Toujou
+  - id: ayase-eli
+    name: 絢瀬絵里
+    kana: あやせえり
+    work: ラブライブ!
+    year: 2010
+    danbooru: ayase_eli
+    anilist: Eli Ayase
+  - id: koizumi-hanayo
+    name: 小泉花陽
+    kana: こいずみはなよ
+    work: ラブライブ!
+    year: 2010
+    danbooru: koizumi_hanayo
+    anilist: Hanayo Koizumi
+  - id: hoshizora-rin
+    name: 星空凛
+    kana: ほしぞらりん
+    work: ラブライブ!
+    year: 2010
+    danbooru: hoshizora_rin
+    anilist: Rin Hoshizora
+  - id: tachibana-kanade
+    name: 立華かなで
+    kana: たちばなかなで
+    work: Angel Beats!
+    year: 2010
+    danbooru: tachibana_kanade
+    anilist: Kanade Tachibana
+  - id: hikigaya-hachiman
+    name: 比企谷八幡
+    kana: ひきがやはちまん
+    work: やはり俺の青春ラブコメはまちがっている。
+    year: 2011
+    danbooru: hikigaya_hachiman
+    anilist: Hachiman Hikigaya
+  - id: yuigahama-yui
+    name: 由比ヶ浜結衣
+    kana: ゆいがはまゆい
+    work: やはり俺の青春ラブコメはまちがっている。
+    year: 2011
+    danbooru: yuigahama_yui
+    anilist: Yui Yuigahama
+  - id: isshiki-iroha
+    name: 一色いろは
+    kana: いっしきいろは
+    work: やはり俺の青春ラブコメはまちがっている。
+    year: 2011
+    danbooru: isshiki_iroha
+    anilist: Iroha Isshiki
+  - id: shirogane-miyuki
+    name: 白銀御行
+    kana: しろがねみゆき
+    work: かぐや様は告らせたい
+    year: 2015
+    danbooru: shirogane_miyuki
+    anilist: Miyuki Shirogane
+  - id: hayasaka-ai
+    name: 早坂愛
+    kana: はやさかあい
+    work: かぐや様は告らせたい
+    year: 2015
+    danbooru: hayasaka_ai
+    anilist: Ai Hayasaka
+  - id: ishigami-yuu
+    name: 石上優
+    kana: いしがみゆう
+    work: かぐや様は告らせたい
+    year: 2015
+    danbooru: ishigami_yuu
+    anilist: Yuu Ishigami
+  - id: arima-kana
+    name: 有馬かな
+    kana: ありまかな
+    work: 【推しの子】
+    year: 2020
+    danbooru: arima_kana
+    anilist: Kana Arima
+  - id: hoshino-ruby
+    name: 星野ルビー
+    kana: ほしのるびー
+    work: 【推しの子】
+    year: 2020
+    danbooru: hoshino_ruby
+    anilist: Ruby Hoshino
+  - id: hoshino-aquamarine
+    name: 星野アクアマリン
+    kana: ほしのあくあまりん
+    work: 【推しの子】
+    year: 2020
+    danbooru: hoshino_aquamarine
+    anilist: Aquamarine Hoshino
+  - id: kurokawa-akane
+    name: 黒川あかね
+    kana: くろかわあかね
+    work: 【推しの子】
+    year: 2020
+    danbooru: kurokawa_akane
+    anilist: Akane Kurokawa
+  - id: nishikigi-chisato
+    name: 錦木千束
+    kana: にしきぎちさと
+    work: リコリス・リコイル
+    year: 2022
+    danbooru: nishikigi_chisato
+    anilist: Chisato Nishikigi
+  - id: inoue-takina
+    name: 井ノ上たきな
+    kana: いのうえたきな
+    work: リコリス・リコイル
+    year: 2022
+    danbooru: inoue_takina
+    anilist: Takina Inoue
+  - id: mizuhara-chizuru
+    name: 水原千鶴
+    kana: みずはらちづる
+    work: 彼女、お借りします
+    year: 2017
+    danbooru: mizuhara_chizuru
+    anilist: Chizuru Mizuhara
+  - id: fern
+    name: フェルン
+    kana: ふぇるん
+    work: 葬送のフリーレン
+    year: 2020
+    danbooru: fern_(sousou_no_frieren)
+    anilist: Fern
+  - id: stark
+    name: シュタルク
+    kana: しゅたるく
+    work: 葬送のフリーレン
+    year: 2020
+    danbooru: stark_(sousou_no_frieren)
+    anilist: Stark
+  - id: nakano-ichika
+    name: 中野一花
+    kana: なかのいちか
+    work: 五等分の花嫁
+    year: 2017
+    danbooru: nakano_ichika
+    anilist: Ichika Nakano
+  - id: nakano-nino
+    name: 中野二乃
+    kana: なかのにの
+    work: 五等分の花嫁
+    year: 2017
+    danbooru: nakano_nino
+    anilist: Nino Nakano
+  - id: nakano-yotsuba
+    name: 中野四葉
+    kana: なかのよつば
+    work: 五等分の花嫁
+    year: 2017
+    danbooru: nakano_yotsuba
+    anilist: Yotsuba Nakano
+  - id: nakano-itsuki
+    name: 中野五月
+    kana: なかのいつき
+    work: 五等分の花嫁
+    year: 2017
+    danbooru: nakano_itsuki
+    anilist: Itsuki Nakano
+  - id: shishio-makoto
+    name: 志々雄真実
+    kana: ししおまこと
+    work: るろうに剣心
+    year: 1994
+    danbooru: shishio_makoto
+    anilist: Makoto Shishio
+  - id: saitou-hajime
+    name: 斎藤一
+    kana: さいとうはじめ
+    work: るろうに剣心
+    year: 1994
+    danbooru: saitou_hajime_(rurouni_kenshin)
+    anilist: Hajime Saitou
+  - id: sagara-sanosuke
+    name: 相楽左之助
+    kana: さがらさのすけ
+    work: るろうに剣心
+    year: 1994
+    danbooru: sagara_sanosuke
+    anilist: Sanosuke Sagara
+  - id: kamiya-kaoru
+    name: 神谷薫
+    kana: かみやかおる
+    work: るろうに剣心
+    year: 1994
+    danbooru: kamiya_kaoru
+    anilist: Kaoru Kamiya
+  - id: yukishiro-tomoe
+    name: 雪代巴
+    kana: ゆきしろともえ
+    work: るろうに剣心
+    year: 1994
+    danbooru: yukishiro_tomoe
+    anilist: Tomoe Yukishiro
+  - id: bulma
+    name: ブルマ
+    kana: ぶるま
+    work: ドラゴンボール
+    year: 1984
+    danbooru: bulma
+    anilist: Bulma
+  - id: android-18
+    name: 人造人間18号
+    kana: じんぞうにんげんじゅうはちごう
+    work: ドラゴンボール
+    year: 1991
+    danbooru: android_18
+    anilist: Android 18
+  - id: piccolo
+    name: ピッコロ
+    kana: ぴっころ
+    work: ドラゴンボール
+    year: 1987
+    danbooru: piccolo
+    anilist: Piccolo
+  - id: frieza
+    name: フリーザ
+    kana: ふりーざ
+    work: ドラゴンボール
+    year: 1989
+    danbooru: frieza
+    anilist: Frieza
+  - id: trunks
+    name: トランクス
+    kana: とらんくす
+    work: ドラゴンボール
+    year: 1991
+    danbooru: trunks_(dragon_ball)
+    anilist: Trunks
+  - id: son-gohan
+    name: 孫悟飯
+    kana: そんごはん
+    work: ドラゴンボール
+    year: 1988
+    danbooru: son_gohan
+    anilist: Gohan
+  - id: kuririn
+    name: クリリン
+    kana: くりりん
+    work: ドラゴンボール
+    year: 1985
+    danbooru: kuririn
+    anilist: Krillin
+  - id: matou-sakura
+    name: 間桐桜
+    kana: まとうさくら
+    work: Fate/stay night
+    year: 2004
+    danbooru: matou_sakura
+    anilist: Sakura Matou
+  - id: emiya-kiritsugu
+    name: 衛宮切嗣
+    kana: えみやきりつぐ
+    work: Fate/Zero
+    year: 2006
+    danbooru: emiya_kiritsugu
+    anilist: Kiritsugu Emiya
+  - id: shiina-mahiru
+    name: 椎名真昼
+    kana: しいなまひる
+    work: お隣の天使様にいつの間にか駄目人間にされていた件
+    year: 2018
+    danbooru: shiina_mahiru
+    anilist: Mahiru Shiina
