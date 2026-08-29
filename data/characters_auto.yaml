@@ -389,7 +389,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-28'
+    date: '2026-08-29'
   elements:
     - {id: akame, weight: core, note: 'danbooru red_eyes 80%', src: danbooru}
     - {id: aogami, weight: core, note: 'danbooru blue_hair 84%', src: danbooru}
@@ -715,7 +715,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-28'
+    date: '2026-08-29'
   elements:
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 92%', src: danbooru}
     - {id: erufu, weight: core, note: 'danbooru pointy_ears 70%', src: danbooru}
@@ -956,7 +956,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-28'
+    date: '2026-08-29'
   elements:
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 80%', src: danbooru}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 90%', src: danbooru}
@@ -1744,7 +1744,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-28'
+    date: '2026-08-29'
   elements:
     - {id: aome, weight: core, note: 'danbooru blue_eyes 72%', src: danbooru}
     - {id: akagami, weight: sub, note: 'danbooru orange_hair 46%', src: danbooru}
@@ -1817,7 +1817,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-28'
+    date: '2026-08-29'
   elements:
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 86%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 66%', src: danbooru}
@@ -1949,18 +1949,20 @@
   kana: きき
   work: 魔女の宅急便
   year: 1985
-  summary: （要記入）
+  summary: 13歳という幼い身体でありながら、伝統に従い故郷を離れて一人立ちの修行へと踏み出す見習い魔女。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b6866-Fe38ZMNvevnF.png'
     page: 'https://anilist.co/character/6866'
     credit: AniList
   analysis:
-    method: danbooru+auto
-    date: '2026-08-28'
+    method: both+danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-29'
   elements:
+    - {id: majo, weight: core, note: 'danbooru broom 55% / 資料: 13歳の見習い魔女であり、猫との会話と箒での飛行という魔法能力を持つ。', src: both}
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 36%', src: danbooru}
+    - {id: kodomo, weight: sub, note: '資料: 13歳の見習い魔女である。', src: gemini}
     - {id: kurokami, weight: sub, note: 'danbooru black_hair 36%', src: danbooru}
-    - {id: majo, weight: sub, note: 'danbooru broom 55%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 55%', src: danbooru}
   patterns: []
 
@@ -2817,7 +2819,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-28'
+    date: '2026-08-29'
   elements:
     - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 84%', src: danbooru}
     - {id: chapatsu, weight: core, note: 'danbooru brown_hair 90%', src: danbooru}
@@ -2883,7 +2885,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-28'
+    date: '2026-08-29'
   elements:
     - {id: seifuku, weight: core, note: 'danbooru school_uniform 66%', src: danbooru}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 90%', src: danbooru}
@@ -2903,7 +2905,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-28'
+    date: '2026-08-29'
   elements:
     - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 70%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 85%', src: danbooru}
@@ -3277,7 +3279,7 @@
   summary: （要記入）
   analysis:
     method: danbooru+auto
-    date: '2026-08-28'
+    date: '2026-08-29'
   elements:
     - {id: akagami, weight: core, note: 'danbooru red_hair 64%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 62%', src: danbooru}
@@ -3491,7 +3493,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-28'
+    date: '2026-08-29'
   elements:
     - {id: akagami, weight: core, note: 'danbooru red_hair 83%', src: danbooru}
     - {id: akame, weight: core, note: 'danbooru red_eyes 71%', src: danbooru}
@@ -4044,7 +4046,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-28'
+    date: '2026-08-29'
   elements:
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 71%', src: danbooru}
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 87%', src: danbooru}
