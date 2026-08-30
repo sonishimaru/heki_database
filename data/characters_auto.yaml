@@ -683,6 +683,31 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 56%', src: danbooru}
   patterns: []
 
+- id: daidouji-tomoyo
+  name: 大道寺知世
+  kana: だいどうじともよ
+  work: カードキャプターさくら
+  year: 1996
+  summary: 丁寧な言葉遣いを徹底しながら親友の秘密の魔法活動を共有し、撮影やフォローを通じてサポートする少女。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b3120-oZ4uB6NX5ReK.png'
+    page: 'https://anilist.co/character/3120'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-30'
+  elements:
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 83%', src: danbooru}
+    - {id: himitsu-kyouyuu, weight: sub, note: '資料: 木之本桜がカードキャプターになったことを知り、その正体を秘密にして必要な時にフォローしていること。', src: gemini}
+    - {id: keigo, weight: sub, note: '資料: 常にフォーマルな動詞の活用や丁寧な言葉遣いを用いて話すこと。', src: gemini}
+    - {id: kodomo, weight: sub, note: '資料: 年齢が11歳〜12歳で、小学4年生〜6年生（身長136cm）であること。', src: gemini}
+    - {id: kurokami, weight: sub, note: 'danbooru black_hair 57%', src: danbooru}
+    - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 51%', src: danbooru}
+    - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 49%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 52%', src: danbooru}
+  patterns: []
+
 - id: darkness-konosuba
   name: ダクネス
   kana: だくねす
@@ -756,6 +781,28 @@
     - {id: fushi, weight: sub, note: '資料: 不死の吸血鬼となったことが明記されている。', src: gemini}
     - {id: gikyoudai, weight: sub, note: '資料: 養父ジョージに引き取られ、その実子であるジョナサンと同居した。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: 身長195cmと明記されている。', src: gemini}
+  patterns: []
+
+- id: echizen-ryoma
+  name: 越前リョーマ
+  kana: えちぜんりょーま
+  work: テニスの王子様
+  year: 1999
+  summary: アメリカからの帰国直後に青春学園中等部へ入学した、151cmと小柄ながら優れた才能と圧倒的な実績を持つ1年生テニス選手。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b324-PEf2pMfTqx96.png'
+    page: 'https://anilist.co/character/324'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-30'
+  elements:
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 62%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 38%', src: danbooru}
+    - {id: teishinchou, weight: sub, note: '資料: 12歳時点で身長151cmであること。', src: gemini}
+    - {id: tenkousei, weight: sub, note: '資料: アメリカに居住していたが、日本に到着してすぐに青春学園に入学したこと。', src: gemini}
+    - {id: toshishita, weight: sub, note: '資料: 青春学園中等部の1年生であること。', src: gemini}
   patterns: []
 
 - id: edogawa-conan
@@ -1250,6 +1297,29 @@
     - {id: nouryokusha, weight: sub, note: '資料: 特級呪術師であり、六眼および無下限呪術という術式を持つ。', src: gemini}
   patterns: []
 
+- id: gon-freecss
+  name: ゴン＝フリークス
+  kana: ごんふりーくす
+  work: HUNTER×HUNTER
+  year: 1998
+  summary: 伝説のハンターである姿なき父親への強い衝動を動力に旅立つ少年であり、未知の念能力と出会い成長していく能力者。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b30-lyFExKyDhefc.jpg'
+    page: 'https://anilist.co/character/30'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-30'
+  elements:
+    - {id: akogare, weight: core, note: '資料: 父親が生きていることとハンターであることを知り、父親を探すためにハンター試験を受けることを決意した点。', src: gemini}
+    - {id: kodomo, weight: sub, note: '資料: 年齢が11歳以上と提示されている点。', src: gemini}
+    - {id: kurokami, weight: sub, note: 'danbooru black_hair 37%', src: danbooru}
+    - {id: nouryokusha, weight: sub, note: '資料: 念の系統が強化系（enhancement nen group）であること。', src: gemini}
+    - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 50%', src: danbooru}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 48%', src: danbooru}
+  patterns: []
+
 - id: gotou-hitori
   name: 後藤ひとり
   kana: ごとうひとり
@@ -1447,6 +1517,27 @@
     - {id: teishinchou, weight: sub, note: '資料: 身長が140cmと明記されている。', src: gemini}
   patterns: []
 
+- id: hiei
+  name: 飛影
+  kana: ひえい
+  work: 幽☆遊☆白書
+  year: 1990
+  summary: 小柄で鍛え抜かれた体格と、人間を超えた妖怪（人外）としての種族性が同居している。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b732-rg4H7yyv3LRo.png'
+    page: 'https://anilist.co/character/732'
+    credit: AniList
+  analysis:
+    method: gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-30'
+  elements:
+    - {id: akuma, weight: sub, note: '資料: 妖怪（demon）であると記載されている。', src: gemini}
+    - {id: jingai, weight: sub, note: '資料: 妖怪（demon）であると記載されている。', src: gemini}
+    - {id: kinniku, weight: sub, note: '資料: 引き締まった筋肉質の体格をしていると記載されている。', src: gemini}
+    - {id: teishinchou, weight: sub, note: '資料: 暗黒武術会時の身長が147cmで小柄であると記載されている。', src: gemini}
+  patterns: []
+
 - id: hikigaya-hachiman
   name: 比企谷八幡
   kana: ひきがやはちまん
@@ -1545,6 +1636,29 @@
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 73%', src: danbooru}
     - {id: tennen, weight: core, note: '資料: 「軽音楽」を「簡単な音楽」と誤解して楽器未経験のまま入部した点や、愛用のギターに「ギー太」と命名する行動から。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 55%', src: danbooru}
+  patterns: []
+
+- id: hisoka-morow
+  name: ヒソカ
+  kana: ひそか
+  work: HUNTER×HUNTER
+  year: 1998
+  summary: 187cmの長身を誇り、将来自分に立ちはだかる強敵へと成長し得る存在を温存・育成しながら見極める構造を持つ。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b31-FZckOuu7L1un.png'
+    page: 'https://anilist.co/character/31'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-30'
+  elements:
+    - {id: akagami, weight: core, note: 'danbooru red_hair 68%', src: danbooru}
+    - {id: kokuin, weight: core, note: 'danbooru facial_mark 68%', src: danbooru}
+    - {id: kabe, weight: sub, note: '資料: ゴンの潜在能力と成長可能性に興味を示し、将来の対戦相手として時期尚早に倒さず援助を行っていること。', src: gemini}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 50%', src: danbooru}
+    - {id: koushinchou, weight: sub, note: '資料: 身長は187cmであること。', src: gemini}
+    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 49%', src: danbooru}
   patterns: []
 
 - id: hitsugaya-toushirou
@@ -2446,6 +2560,58 @@
     - {id: saikai, weight: spice, note: '資料: 犬夜叉に裏切られたと思い込んでいたため、再会時に彼を殺して地獄へ連れて行こうとした。', src: gemini}
   patterns: []
 
+- id: killua-zoldyck
+  name: キルア＝ゾルディック
+  kana: きるあぞるでぃっく
+  work: HUNTER×HUNTER
+  year: 1998
+  summary: 暗殺者一家の御曹司として厳しい訓練を受けて育ちながら、家を逃げ出して出会った友人とともに自身の能力を磨いていく少年。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b27-Z5O02kQUydpT.jpg'
+    page: 'https://anilist.co/character/27'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-30'
+  elements:
+    - {id: ansatsusha, weight: core, note: '資料: 伝説的な暗殺者一家であるゾルディック家のメンバーであり、生まれながらに絶え間なく暗殺術の訓練を受けた。', src: gemini}
+    - {id: aome, weight: core, note: 'danbooru blue_eyes 64%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru white_hair 75%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 66%', src: danbooru}
+    - {id: aibou, weight: sub, note: '資料: ハンター試験で出会ってすぐに友人となり、それ以来つき従っているゴンとの関係。', src: gemini}
+    - {id: doryokuka, weight: sub, note: '資料: 念能力をたゆまず向上させ、多くの技を開発したこと。', src: gemini}
+    - {id: fuguu, weight: sub, note: '資料: 生まれながらに絶え間なく暗殺術の訓練を受けさせられ、家族と暗殺業から逃亡したこと。', src: gemini}
+    - {id: kodomo, weight: sub, note: '資料: 年齢が11歳〜であること。', src: gemini}
+    - {id: nouryokusha, weight: sub, note: '資料: 変化系の念能力者であり、多くの技を開発している。', src: gemini}
+    - {id: reijou, weight: sub, note: '資料: 伝説的な暗殺者一家であるゾルディック家のメンバーであること。', src: gemini}
+  patterns: []
+
+- id: kinomoto-sakura
+  name: 木之本桜
+  kana: きのもとさくら
+  work: カードキャプターさくら
+  year: 1996
+  summary: 小学生という日常を過ごす子供でありながら、全てのクロウカードを回収する責任を負って試練に挑む魔法少女。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/2671-DflaemZz0xJo.png'
+    page: 'https://anilist.co/character/2671'
+    credit: AniList
+  analysis:
+    method: both+danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-30'
+  elements:
+    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 78%', src: danbooru}
+    - {id: kodomo, weight: core, note: '資料: 年齢は10歳から12歳で、小学4年生から6年生の児童である。', src: gemini}
+    - {id: mahou-shoujo, weight: core, note: 'danbooru magical_girl 37% / 資料: 全てのクロウカードを回収する責任を持つカードキャプターとして魔法スキルを習得・使用する。', src: both}
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 72%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 68%', src: danbooru}
+    - {id: ahoge, weight: sub, note: 'danbooru antenna_hair 37%', src: danbooru}
+    - {id: kuchiguse, weight: sub, note: '資料: 「絶対だいじょうぶだよ（Everything will surely be all right）」という無敵の呪文を繰り返し使用する。', src: gemini}
+    - {id: sekininkan, weight: sub, note: '資料: 全てのクロウカードを回収する責任を引き受け、障害や試練を乗り越える。', src: gemini}
+  patterns: []
+
 - id: kirigaya-kazuto
   name: キリト
   kana: きりと
@@ -2806,6 +2972,54 @@
     - {id: nouryokusha, weight: sub, note: '資料: 3級呪術師であり、呪術を扱う立場・職能として活動している。', src: gemini}
     - {id: shitei, weight: sub, note: '資料: 五条悟の指導のもとで学んでいる。', src: gemini}
     - {id: gouman, weight: spice, note: '資料: 初めて自己紹介した際、虎杖悠仁と伏黒恵が自分より劣っていると発言した。', src: gemini}
+  patterns: []
+
+- id: kurama-yyh
+  name: 蔵馬
+  kana: くらま
+  work: 幽☆遊☆白書
+  year: 1990
+  summary: 1000年以上を生きる魔界の大盗賊・妖怪でありながら、人間の母親の愛に触れて人間界でその息子として暮らす二面性を持つ存在。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b731-cv0jfjVrD09V.jpg'
+    page: 'https://anilist.co/character/731'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-30'
+  elements:
+    - {id: akagami, weight: core, note: 'danbooru red_hair 80%', src: danbooru}
+    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 85%', src: danbooru}
+    - {id: jingai, weight: core, note: '資料: かつて魔界で最も恐れられた1000年以上生きているA級妖怪（妖狐蔵馬）であること。', src: gemini}
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 73%', src: danbooru}
+    - {id: furou, weight: sub, note: '資料: 1000年以上生きているという記述があること。', src: gemini}
+    - {id: nimensei, weight: sub, note: '資料: 魔界で恐れられた盗賊妖怪の顔と、人間界で母親を思いやり息子として生きる顔を併せ持っていること。', src: gemini}
+    - {id: nouryokusha, weight: sub, note: '資料: 植物に妖気を流し込んで武器に変える能力を持ち、薔薇のツルから作られた鞭などを扱う。', src: gemini}
+    - {id: shoutai, weight: sub, note: '資料: 正体は魔界の妖怪・盗賊でありながら、人間界では南野志保利の息子として生活していること。', src: gemini}
+  patterns: []
+
+- id: kurapika
+  name: クラピカ
+  kana: くらぴか
+  work: HUNTER×HUNTER
+  year: 1998
+  summary: 滅ぼされた一族の唯一の生存者として強い復讐心と奪還の執念を燃やす一方で、友人には親切で誠実に接する人物。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b28-ivA7UGnfE40a.png'
+    page: 'https://anilist.co/character/28'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-30'
+  elements:
+    - {id: fukushuu, weight: core, note: '資料: 4年前にクルタ族を虐殺した幻影旅団への復讐を目的として抱いている。', src: gemini}
+    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 87%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 68%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 59%', src: danbooru}
+    - {id: fuguu, weight: sub, note: '資料: ハンター試験の4年前、所属していたクルタ族が幻影旅団によって虐殺された。', src: gemini}
+    - {id: soushitsu, weight: sub, note: '資料: クルタ族唯一の生存者であり、奪われた同胞の緋色の目を取り戻そうとしている。', src: gemini}
   patterns: []
 
 - id: kuririn
@@ -4138,6 +4352,28 @@
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 38%', src: danbooru}
   patterns: []
 
+- id: rukawa-kaede
+  name: 流川楓
+  kana: るかわかえで
+  work: SLAM DUNK
+  year: 1990
+  summary: 187cmの高身長を持ち、桜木花道や仙道彰といったライバルたちとしのぎを削る湘北高校バスケットボール部のエース。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b311-uxwHnw9lXk4e.png'
+    page: 'https://anilist.co/character/311'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-30'
+  elements:
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 78%', src: danbooru}
+    - {id: shukuteki, weight: core, note: '資料: 桜木花道とライバル関係にあり、さらに仙道彰を最大のライバルとみなしている。', src: gemini}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 82%', src: danbooru}
+    - {id: koushinchou, weight: sub, note: '資料: 高校1年生で身長187cmであることが明記されている。', src: gemini}
+    - {id: kurome, weight: sub, note: 'danbooru black_eyes 39%', src: danbooru}
+  patterns: []
+
 - id: ryuuguu-rena
   name: 竜宮レナ
   kana: りゅうぐうれな
@@ -4298,6 +4534,31 @@
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 94%', src: danbooru}
     - {id: ponytail, weight: core, note: 'danbooru ponytail 69%', src: danbooru}
     - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 38%', src: danbooru}
+  patterns: []
+
+- id: sakuragi-hanamichi
+  name: 桜木花道
+  kana: さくらぎはなみち
+  work: SLAM DUNK
+  year: 1990
+  summary: 一目惚れをきっかけにバスケットボールを始め、圧倒的な努力と負傷を押してプレイする情熱でライバルや指導者と共に成長していく高身長の選手。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b310-3GLKM2I3EiRf.png'
+    page: 'https://anilist.co/character/310'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-30'
+  elements:
+    - {id: akagami, weight: core, note: 'danbooru red_hair 86%', src: danbooru}
+    - {id: doryokuka, weight: core, note: '資料: 初心者から基本技能を身につけ、安西監督のもと1週間で20,000本のジャンプシュート練習をこなした。', src: gemini}
+    - {id: koushinchou, weight: core, note: '資料: 身長が189.2cmあり、バスケットボール部のパワーフォワードを務めている。', src: gemini}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 75%', src: danbooru}
+    - {id: kataomoi, weight: sub, note: '資料: 赤木晴子に一目惚れし、彼女への想いがバスケットボール部入部のきっかけとなった。', src: gemini}
+    - {id: muri, weight: sub, note: '資料: 山王戦で背中を負傷しながらも試合終了間際まで出場して勝利を決めるシュートを打ち、試合後にリハビリを行った。', src: gemini}
+    - {id: shitei, weight: sub, note: '資料: 赤木から指導を受けて強力なリバウンダーとなり、安西監督からシュート練習の指導を受けた。', src: gemini}
+    - {id: shukuteki, weight: sub, note: '資料: 流川とバスケットボールでのライバル関係にある。', src: gemini}
   patterns: []
 
 - id: sakurajima-mai
@@ -5115,6 +5376,27 @@
     - {id: nouryokusha, weight: sub, note: '資料: 血継限界である写輪眼を所有し、千鳥や火遁の術などの特殊能力を扱う。', src: gemini}
     - {id: soushitsu, weight: sub, note: '資料: 幼少期に兄イタチの手によって一族を全て殺害され失っている。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 45%', src: danbooru}
+  patterns: []
+
+- id: urameshi-yuusuke
+  name: 浦飯幽助
+  kana: うらめしゆうすけ
+  work: 幽☆遊☆白書
+  year: 1990
+  summary: 不良少年・ストリートファイターとしての出自と、人間界を超自然的な脅威から守る霊界探偵・武道家としての役割が同居する構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b729-V6GlADOEZv3x.png'
+    page: 'https://anilist.co/character/729'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-30'
+  elements:
+    - {id: kurokami, weight: core, note: 'danbooru black_hair 69%', src: danbooru}
+    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 73%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 43%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 41%', src: danbooru}
   patterns: []
 
 - id: uzumaki-naruto

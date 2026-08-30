@@ -4,6 +4,207 @@
 #   data/elements/ に追加し、wd_map.yaml に対応を書く。
 # new_tag_proposals: classify が語彙に無いと判断した概念の提案。
 # 採用・却下は人が決める。処理済みのエントリは消してよい。
-# near_miss: 対応はあるが閾値に届かなかったもの（実測値）。閾値調整の judgment 材料。
-
-[]
+- id: daidouji-tomoyo
+  name: 大道寺知世
+  date: '2026-08-30'
+  unmapped_danbooru:
+  - tag: tomoeda_elementary_school_uniform
+    frequency: 0.4319
+  near_miss:
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.2205
+    threshold: 0.35
+  new_tag_proposals:
+  - name: 撮影・記録
+    axis: 行動 / 趣味
+    reason: 木之本桜の魔法活動やバトルコスチュームの撮影を行っているため。
+  - name: 衣装制作
+    axis: 技能 / 役割
+    reason: バトルコスチュームのデザインを行っているため。
+- id: echizen-ryoma
+  name: 越前リョーマ
+  date: '2026-08-30'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.3462
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1538
+    threshold: 0.5
+  - id: megane
+    tag: glasses
+    frequency: 0.1538
+    threshold: 0.35
+  new_tag_proposals:
+  - name: 神童
+    axis: 才能・評価
+    reason: 12歳時点で神童（prodigy）と呼ばれ、アメリカジュニアテニス大会で4連続タイトルを獲得しているため。
+- id: gon-freecss
+  name: ゴン＝フリークス
+  date: '2026-08-30'
+  unmapped_danbooru: []
+  near_miss:
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.332
+    threshold: 0.35
+  - id: midorigami
+    tag: green_hair
+    frequency: 0.25
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1844
+    threshold: 0.35
+  new_tag_proposals: []
+- id: hiei
+  name: 飛影
+  date: '2026-08-30'
+  unmapped_danbooru: []
+  near_miss: []
+  new_tag_proposals:
+  - name: 邪眼
+    axis: 外見 / 痕
+    reason: 額にある第三の目（邪眼）についての記述があり、既存語彙に当てはまるものがないため。
+- id: hisoka-morow
+  name: ヒソカ
+  date: '2026-08-30'
+  unmapped_danbooru:
+  - tag: teardrop_facial_mark
+    frequency: 0.4068
+  - tag: card
+    frequency: 0.3686
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.3008
+    threshold: 0.5
+  new_tag_proposals:
+  - name: 強敵の青田買い
+    axis: 性格 / 気質
+    reason: 将来の対戦相手となり得る才能ある者をあらかじめ見定める、または時期尚早に壊さず育ててから戦おうとする性質。
+- id: killua-zoldyck
+  name: キルア＝ゾルディック
+  date: '2026-08-30'
+  unmapped_danbooru: []
+  near_miss:
+  - id: sakadachi-gami
+    tag: spiked_hair
+    frequency: 0.3174
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1855
+    threshold: 0.5
+  new_tag_proposals: []
+- id: kinomoto-sakura
+  name: 木之本桜
+  date: '2026-08-30'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2929
+    threshold: 0.35
+  - id: tsubasa
+    tag: wings
+    frequency: 0.2487
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2248
+    threshold: 0.35
+  new_tag_proposals: []
+- id: kurama-yyh
+  name: 蔵馬
+  date: '2026-08-30'
+  unmapped_danbooru:
+  - tag: rose
+    frequency: 0.3663
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2277
+    threshold: 0.5
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.198
+    threshold: 0.35
+  new_tag_proposals:
+  - name: 盗賊
+    axis: 関係性 / 立場
+    reason: かつて魔界で最も恐れられた盗賊であったという記述があるが、既存の職業語彙に含まれないため。
+- id: kurapika
+  name: クラピカ
+  date: '2026-08-30'
+  unmapped_danbooru: []
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.4006
+    threshold: 0.5
+  - id: yubiwa
+    tag: ring
+    frequency: 0.2415
+    threshold: 0.5
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2115
+    threshold: 0.5
+  new_tag_proposals:
+  - name: 遺品奪還
+    axis: 物語役割 / 目的
+    reason: 虐殺された同胞の奪われた目を取り戻すことを復讐と並ぶ行動目的としているため。
+- id: rukawa-kaede
+  name: 流川楓
+  date: '2026-08-30'
+  unmapped_danbooru:
+  - tag: basketball_uniform
+    frequency: 0.415
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2109
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2109
+    threshold: 0.35
+  - id: kinniku
+    tag: toned
+    frequency: 0.1837
+    threshold: 0.35
+  new_tag_proposals: []
+- id: sakuragi-hanamichi
+  name: 桜木花道
+  date: '2026-08-30'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.2384
+    threshold: 0.35
+  - id: bouzu
+    tag: buzz_cut
+    frequency: 0.1628
+    threshold: 0.35
+  new_tag_proposals: []
+- id: urameshi-yuusuke
+  name: 浦飯幽助
+  date: '2026-08-30'
+  unmapped_danbooru: []
+  near_miss: []
+  new_tag_proposals:
+  - name: 不良少年
+    axis: 性格 / 気質
+    reason: 資料において『物語の開始時点では、手に負えない不良少年およびストリートファイターであった』と明記されているため。
+  - name: 霊界探偵
+    axis: 関係性 / 立場
+    reason: 資料において『人間界を超自然的な脅威から守る使命を帯びた「霊界探偵（Spirit Detective）」』と明記されているため。
+  - name: 武道家
+    axis: 関係性 / 立場
+    reason: 資料において『物語の経過に伴い、人間界を守る強力な武道家へと成長していく』と明記されているため。
