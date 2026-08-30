@@ -1684,3 +1684,326 @@ characters:
     year: 2018
     danbooru: shiina_mahiru
     anilist: Mahiru Shiina
+
+  # ---- 6 期目の貯蓄（250名 → 295名を目指す） ----
+  # 語彙は飽和したので、以降は実例の幅を広げる段階。
+  # 未収録だった系統をまとめて入れる: 少年漫画の王道（ハンター・幽白・スラダン・
+  # テニプリ・遊戯王）、少女漫画（CCさくら・フルバ・NANA）、スポーツと芸術
+  # （ちはやふる・弱ペダ・ユーリ・のだめ・3月のライオン）、
+  # 近年のなろう系（転スラ・盾の勇者・無職転生）と話題作（東リベ・ダンダダン・薬屋）。
+
+  - id: gon-freecss
+    name: ゴン＝フリークス
+    kana: ごんふりーくす
+    work: HUNTER×HUNTER
+    year: 1998
+    danbooru: gon_freecss
+    anilist: Gon Freecss
+  - id: killua-zoldyck
+    name: キルア＝ゾルディック
+    kana: きるあぞるでぃっく
+    work: HUNTER×HUNTER
+    year: 1998
+    danbooru: killua_zoldyck
+    anilist: Killua Zoldyck
+  - id: kurapika
+    name: クラピカ
+    kana: くらぴか
+    work: HUNTER×HUNTER
+    year: 1998
+    danbooru: kurapika
+    anilist: Kurapika
+  - id: hisoka-morow
+    name: ヒソカ
+    kana: ひそか
+    work: HUNTER×HUNTER
+    year: 1998
+    danbooru: hisoka_morow
+    anilist: Hisoka
+  - id: urameshi-yuusuke
+    name: 浦飯幽助
+    kana: うらめしゆうすけ
+    work: 幽☆遊☆白書
+    year: 1990
+    danbooru: urameshi_yuusuke
+    anilist: Yusuke Urameshi
+  - id: kurama-yyh
+    name: 蔵馬
+    kana: くらま
+    work: 幽☆遊☆白書
+    year: 1990
+    danbooru: kurama_(yu_yu_hakusho)
+    anilist: Kurama
+  - id: hiei
+    name: 飛影
+    kana: ひえい
+    work: 幽☆遊☆白書
+    year: 1990
+    danbooru: hiei
+    anilist: Hiei
+  - id: sakuragi-hanamichi
+    name: 桜木花道
+    kana: さくらぎはなみち
+    work: SLAM DUNK
+    year: 1990
+    danbooru: sakuragi_hanamichi
+    anilist: Hanamichi Sakuragi
+  - id: rukawa-kaede
+    name: 流川楓
+    kana: るかわかえで
+    work: SLAM DUNK
+    year: 1990
+    danbooru: rukawa_kaede
+    anilist: Kaede Rukawa
+  - id: echizen-ryoma
+    name: 越前リョーマ
+    kana: えちぜんりょーま
+    work: テニスの王子様
+    year: 1999
+    danbooru: echizen_ryoma
+    anilist: Ryoma Echizen
+  - id: kinomoto-sakura
+    name: 木之本桜
+    kana: きのもとさくら
+    work: カードキャプターさくら
+    year: 1996
+    danbooru: kinomoto_sakura
+    anilist: Sakura Kinomoto
+  - id: daidouji-tomoyo
+    name: 大道寺知世
+    kana: だいどうじともよ
+    work: カードキャプターさくら
+    year: 1996
+    danbooru: daidouji_tomoyo
+    anilist: Tomoyo Daidouji
+  - id: li-syaoran
+    name: 李小狼
+    kana: りしゃおらん
+    work: カードキャプターさくら
+    year: 1996
+    danbooru: li_syaoran
+    anilist: Syaoran Li
+  - id: mutou-yuugi
+    name: 武藤遊戯
+    kana: むとうゆうぎ
+    work: 遊☆戯☆王
+    year: 1996
+    danbooru: mutou_yuugi
+    anilist: Yugi Mutou
+  - id: kaiba-seto
+    name: 海馬瀬人
+    kana: かいばせと
+    work: 遊☆戯☆王
+    year: 1996
+    danbooru: kaiba_seto
+    anilist: Seto Kaiba
+  - id: souma-kyou
+    name: 草摩夾
+    kana: そうまきょう
+    work: フルーツバスケット
+    year: 1998
+    danbooru: souma_kyou
+    anilist: Kyo Souma
+  - id: honda-tooru
+    name: 本田透
+    kana: ほんだとおる
+    work: フルーツバスケット
+    year: 1998
+    danbooru: honda_tooru
+    anilist: Tohru Honda
+  - id: noda-megumi
+    name: 野田恵
+    kana: のだめぐみ
+    work: のだめカンタービレ
+    year: 2001
+    danbooru: noda_megumi
+    anilist: Megumi Noda
+  - id: chiaki-shinichi
+    name: 千秋真一
+    kana: ちあきしんいち
+    work: のだめカンタービレ
+    year: 2001
+    danbooru: chiaki_shinichi
+    anilist: Shinichi Chiaki
+  - id: komatsu-nana
+    name: 小松奈々
+    kana: こまつなな
+    work: NANA
+    year: 2000
+    danbooru: komatsu_nana
+    anilist: Nana Komatsu
+  - id: oosaki-nana
+    name: 大崎ナナ
+    kana: おおさきなな
+    work: NANA
+    year: 2000
+    danbooru: oosaki_nana
+    anilist: Nana Osaki
+  - id: kiriyama-rei
+    name: 桐山零
+    kana: きりやまれい
+    work: 3月のライオン
+    year: 2007
+    danbooru: kiriyama_rei
+    anilist: Rei Kiriyama
+  - id: ayase-chihaya
+    name: 綾瀬千早
+    kana: あやせちはや
+    work: ちはやふる
+    year: 2007
+    danbooru: ayase_chihaya
+    anilist: Chihaya Ayase
+  - id: onoda-sakamichi
+    name: 小野田坂道
+    kana: おのださかみち
+    work: 弱虫ペダル
+    year: 2008
+    danbooru: onoda_sakamichi
+    anilist: Sakamichi Onoda
+  - id: katsuki-yuuri
+    name: 勝生勇利
+    kana: かつきゆうり
+    work: ユーリ!!! on ICE
+    year: 2016
+    danbooru: katsuki_yuuri
+    anilist: Yuuri Katsuki
+  - id: victor-nikiforov
+    name: ヴィクトル・ニキフォロフ
+    kana: ゔぃくとるにきふぉろふ
+    work: ユーリ!!! on ICE
+    year: 2016
+    danbooru: victor_nikiforov
+    anilist: Victor Nikiforov
+  - id: hanagaki-takemichi
+    name: 花垣武道
+    kana: はながきたけみち
+    work: 東京卍リベンジャーズ
+    year: 2017
+    danbooru: hanagaki_takemichi
+    anilist: Takemichi Hanagaki
+  - id: sano-manjirou
+    name: 佐野万次郎
+    kana: さのまんじろう
+    work: 東京卍リベンジャーズ
+    year: 2017
+    danbooru: sano_manjirou
+    anilist: Manjiro Sano
+  - id: ryuuguuji-ken
+    name: 龍宮寺堅
+    kana: りゅうぐうじけん
+    work: 東京卍リベンジャーズ
+    year: 2017
+    danbooru: ryuuguuji_ken
+    anilist: Ken Ryuguji
+  - id: ayase-momo
+    name: 綾瀬桃
+    kana: あやせもも
+    work: ダンダダン
+    year: 2021
+    danbooru: ayase_momo
+    anilist: Momo Ayase
+  - id: okarun
+    name: オカルン
+    kana: おかるん
+    work: ダンダダン
+    year: 2021
+    danbooru: okarun
+    anilist: Ken Takakura
+  - id: maomao
+    name: 猫猫
+    kana: まおまお
+    work: 薬屋のひとりごと
+    year: 2011
+    danbooru: maomao_(kusuriya_no_hitorigoto)
+    anilist: Maomao
+  - id: jinshi
+    name: 壬氏
+    kana: じんし
+    work: 薬屋のひとりごと
+    year: 2011
+    danbooru: jinshi_(kusuriya_no_hitorigoto)
+    anilist: Jinshi
+  - id: rimuru-tempest
+    name: リムル＝テンペスト
+    kana: りむるてんぺすと
+    work: 転生したらスライムだった件
+    year: 2013
+    danbooru: rimuru_tempest
+    anilist: Rimuru Tempest
+  - id: shion-tensura
+    name: シオン
+    kana: しおん
+    work: 転生したらスライムだった件
+    year: 2013
+    danbooru: shion_(tensei_shitara_slime_datta_ken)
+    anilist: Shion
+  - id: milim-nava
+    name: ミリム・ナーヴァ
+    kana: みりむなーゔぁ
+    work: 転生したらスライムだった件
+    year: 2013
+    danbooru: milim_nava
+    anilist: Milim Nava
+  - id: iwatani-naofumi
+    name: 岩谷尚文
+    kana: いわたになおふみ
+    work: 盾の勇者の成り上がり
+    year: 2012
+    danbooru: iwatani_naofumi
+    anilist: Naofumi Iwatani
+  - id: raphtalia
+    name: ラフタリア
+    kana: らふたりあ
+    work: 盾の勇者の成り上がり
+    year: 2012
+    danbooru: raphtalia
+    anilist: Raphtalia
+  - id: rudeus-greyrat
+    name: ルーデウス・グレイラット
+    kana: るーでうすぐれいらっと
+    work: 無職転生
+    year: 2012
+    danbooru: rudeus_greyrat
+    anilist: Rudeus Greyrat
+  - id: roxy-migurdia
+    name: ロキシー・ミグルディア
+    kana: ろきしーみぐるでぃあ
+    work: 無職転生
+    year: 2012
+    danbooru: roxy_migurdia
+    anilist: Roxy Migurdia
+  - id: eris-boreas-greyrat
+    name: エリス・ボレアス・グレイラット
+    kana: えりすぼれあすぐれいらっと
+    work: 無職転生
+    year: 2012
+    danbooru: eris_boreas_greyrat
+    anilist: Eris Boreas Greyrat
+  - id: okkotsu-yuuta
+    name: 乙骨憂太
+    kana: おっこつゆうた
+    work: 呪術廻戦
+    year: 2017
+    danbooru: okkotsu_yuuta
+    anilist: Yuuta Okkotsu
+  - id: zenin-maki
+    name: 禪院真希
+    kana: ぜんいんまき
+    work: 呪術廻戦
+    year: 2018
+    danbooru: zenin_maki
+    anilist: Maki Zenin
+  - id: inumaki-toge
+    name: 狗巻棘
+    kana: いぬまきとげ
+    work: 呪術廻戦
+    year: 2018
+    danbooru: inumaki_toge
+    anilist: Toge Inumaki
+  - id: satoshi-pokemon
+    name: サトシ
+    kana: さとし
+    work: ポケットモンスター
+    year: 1996
+    danbooru: satoshi_(pokemon)
+    anilist: Ash Ketchum
