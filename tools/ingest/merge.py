@@ -157,6 +157,8 @@ GENERIC_TAGS = {
     "skeleton", "patchwork_skin", "stitches",
     # 二次創作の改変を表すタグ。キャラクター自身の特徴ではない
     "genderswap", "genderswap_(mtf)",
+    # 10 巡目
+    "star_(symbol)", "star-shaped_pupils", "colored_skin", "lycoris_uniform",
 }
 
 
@@ -172,7 +174,8 @@ def from_danbooru(path: Path) -> list[dict]:
     default_threshold = mapping.get("defaults", {}).get("threshold", 0.35)
 
     mapped_tags = {tag for spec in mapping["elements"].values() for tag in spec["tags"]}
-    results = []
+    results: list[dict] = []
+    near_miss: list[dict] = []
     for element_id, spec in mapping["elements"].items():
         threshold = spec.get("threshold", default_threshold)
         best_tag, best_freq = None, 0.0
@@ -181,6 +184,13 @@ def from_danbooru(path: Path) -> list[dict]:
             if value > best_freq:
                 best_tag, best_freq = tag, value
         if best_freq < threshold:
+            # 閾値に届かなかったが無視できない頻度のものを記録する。
+            # 閾値を勘で下げないための実測値（つり目・ナースが 0 のままの理由を見る）
+            if best_freq >= 0.15:
+                near_miss.append(
+                    {"id": element_id, "tag": best_tag, "frequency": round(best_freq, 4),
+                     "threshold": threshold}
+                )
             continue
         results.append(
             {
@@ -198,7 +208,8 @@ def from_danbooru(path: Path) -> list[dict]:
         for name, value in sorted(freq.items(), key=lambda kv: -kv[1])
         if value >= 0.35 and name not in mapped_tags and name not in GENERIC_TAGS
     ][:10]
-    return results, unmapped
+    near_miss.sort(key=lambda x: -x["frequency"])
+    return results, unmapped, near_miss[:10]
 
 
 def image_from_anilist(path: Path) -> dict:
@@ -275,11 +286,12 @@ def main() -> int:
     frames = 0
     vision_payload: dict = {}
     unmapped: list[dict] = []
+    near_miss: list[dict] = []
     if args.tags:
         tag_items, frames = from_tags(args.tags)
         items += tag_items
     if args.danbooru:
-        danbooru_items, unmapped = from_danbooru(args.danbooru)
+        danbooru_items, unmapped, near_miss = from_danbooru(args.danbooru)
         items += danbooru_items
     if args.vision:
         vision_items, vision_payload = from_vision(args.vision)
@@ -356,7 +368,7 @@ def main() -> int:
 
         # 語彙の穴を suggestions に蓄積（人がレビューして見出し語に昇格させる）
         new_tags = vision_payload.get("new_tags") or []
-        if unmapped or new_tags:
+        if unmapped or new_tags or near_miss:
             existing_s = []
             if SUGGESTIONS.exists():
                 # 語彙の穴の蓄積は付帯的な出力なので、壊れていても本体は止めない
@@ -372,6 +384,7 @@ def main() -> int:
                     "name": entry["name"],
                     "date": (entry.get("analysis") or {}).get("date", ""),
                     "unmapped_danbooru": unmapped,
+                    "near_miss": near_miss,
                     "new_tag_proposals": new_tags,
                 }
             )

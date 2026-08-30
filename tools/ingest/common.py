@@ -16,8 +16,10 @@ DB = ROOT / "docs" / "data" / "db.json"
 WD_MAP = Path(__file__).resolve().parent / "wd_map.yaml"
 
 # 画像・タグ集計だけで判定する軸（classify はここへ踏み込めない）。
-# 体格・種族・記号職は appearance 配下だが、公式プロフィールにも書かれるため
-# 資料レーン（classify）からも判定を許す。
+# 体格・種族・記号職・痕は appearance 配下だが、公式プロフィールや百科にも
+# 明記されるため資料レーン（classify）からも判定を許す。
+# 痕を開けたのは、義肢・包帯・目隠しが Danbooru のタグ付与率で閾値に届かず、
+# かつ資料レーンからも触れないため、どちらのレーンからも埋まらなかったから。
 VISUAL_AXES = {
     "appearance.hairstyle",
     "appearance.haircolor",
@@ -25,7 +27,6 @@ VISUAL_AXES = {
     "appearance.eyecolor",
     "appearance.face",
     "appearance.parts",
-    "appearance.marks",
     "appearance.costume",
     "appearance.item",
 }

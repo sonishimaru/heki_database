@@ -1034,3 +1034,15 @@
   pairs_with: [doryokuka, tenshin]
   contrasts_with: []
   tags: [定番]
+
+# --- 10巡目: 250名。Danbooru は完全に飽和し、資料レーンの提案だけが残った ---
+- id: seitokaichou
+  name: 生徒会長
+  kana: せいとかいちょう
+  aliases: [生徒会, 会長]
+  axis: relation.position
+  summary: 学園の頂点に立つ立場。年齢に不釣り合いな権限を持つ。
+  effect: 学内では絶対の権力として置き、外に出た瞬間の無力さと対比させる。
+  pairs_with: [joushi, reijou, kyoushi]
+  contrasts_with: []
+  tags: [定番]
