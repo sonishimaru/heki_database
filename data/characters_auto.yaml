@@ -719,7 +719,7 @@
   kana: ちあきしんいち
   work: のだめカンタービレ
   year: 2001
-  summary: 著名で裕福な家系に生まれながら過去のトラウマを抱え、憧れの師を目標に指揮者を目指して進む音楽家。
+  summary: 名門の出自と優れた音楽の才能を持ち、師への憧れを胸に指揮者を志す一方で、トラウマの克服や隣人との共依存的な関係を通じて夢を実現させる人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1184-9NagJX2u9LPN.png'
     page: 'https://anilist.co/character/1184'
@@ -729,10 +729,13 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-30'
   elements:
-    - {id: akogare, weight: sub, note: '資料: メンターである有名指揮者のヴィエラを目指すべき目標としている。', src: gemini}
-    - {id: koushinchou, weight: sub, note: '資料: 身長が181cmであると指定されている。', src: gemini}
-    - {id: reijou, weight: sub, note: '資料: 著名で裕福な家庭の出身であると設定されている。', src: gemini}
-    - {id: shitei, weight: sub, note: '資料: 有名指揮者セバスチアーノ・ヴィエラをメンター（師）としている。', src: gemini}
+    - {id: akogare, weight: core, note: '資料: メンターであるセバスチャーノ・ヴィエラのような有名な指揮者になることを夢見ていること。', src: gemini}
+    - {id: shokunin, weight: core, note: '資料: 優れたピアニストでありヴァイオリニストとして技術を修め、最終的に指揮者としての仕事を得て野望を実現させていること。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 身長181cmであること。', src: gemini}
+    - {id: kyouizon, weight: sub, note: '資料: のだめの隠された才能に共感し、後に彼女のサポートなしでは前に進めないと実感していること。', src: gemini}
+    - {id: kyuusai, weight: sub, note: '資料: のだめの催眠術によって飛行機と海に対する恐怖症を克服したこと。', src: gemini}
+    - {id: reijou, weight: sub, note: '資料: 裕福で名のある家庭の出身であること。', src: gemini}
+    - {id: shitei, weight: sub, note: '資料: セバスチャーノ・ヴィエラをメンター（師）としていること。', src: gemini}
   patterns: []
 
 - id: chitanda-eru
@@ -1404,7 +1407,7 @@
   kana: ごんふりーくす
   work: HUNTER×HUNTER
   year: 1998
-  summary: 行方不明の父親を探し出すという目的と憧れを原動力にハンターを目指し、仲間や念能力と出会い成長していく少年。
+  summary: 伝説のハンターである姿なき父親への強い衝動を動力に旅立つ少年であり、未知の念能力と出会い成長していく能力者。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b30-lyFExKyDhefc.jpg'
     page: 'https://anilist.co/character/30'
@@ -1414,10 +1417,10 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-30'
   elements:
-    - {id: akogare, weight: core, note: '資料: 行方が分からない伝説のハンターである父親のジンを見つける決意をし、そのためにハンター試験を受ける。', src: gemini}
-    - {id: kodomo, weight: sub, note: '資料: 11歳以上という幼い年齢である。', src: gemini}
+    - {id: akogare, weight: core, note: '資料: 父親が生きていることとハンターであることを知り、父親を探すためにハンター試験を受けることを決意した点。', src: gemini}
+    - {id: kodomo, weight: sub, note: '資料: 年齢が11歳以上と提示されている点。', src: gemini}
     - {id: kurokami, weight: sub, note: 'danbooru black_hair 37%', src: danbooru}
-    - {id: nouryokusha, weight: sub, note: '資料: 強化系の念グループに属している。', src: gemini}
+    - {id: nouryokusha, weight: sub, note: '資料: 念の系統が強化系（enhancement nen group）であること。', src: gemini}
     - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 50%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 48%', src: danbooru}
   patterns: []
@@ -1775,7 +1778,7 @@
   kana: ひそか
   work: HUNTER×HUNTER
   year: 1998
-  summary: 圧倒的な戦闘力を有しながら、将来の好敵手となり得る者の成長を見守り時に手助けをする気まぐれな試練として立つ存在。
+  summary: 187cmの長身を誇り、将来自分に立ちはだかる強敵へと成長し得る存在を温存・育成しながら見極める構造を持つ。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b31-FZckOuu7L1un.png'
     page: 'https://anilist.co/character/31'
@@ -1786,10 +1789,10 @@
     date: '2026-08-30'
   elements:
     - {id: akagami, weight: core, note: 'danbooru red_hair 68%', src: danbooru}
-    - {id: kabe, weight: core, note: '資料: ゴンの潜在能力に期待し、将来の対戦相手へと成長する可能性がある者を助けて時期尚早に倒さないようにするなど、成長を促す壁として機能していること。', src: gemini}
     - {id: kokuin, weight: core, note: 'danbooru facial_mark 68%', src: danbooru}
+    - {id: kabe, weight: sub, note: '資料: ゴンの潜在能力と成長可能性に興味を示し、将来の対戦相手として時期尚早に倒さず援助を行っていること。', src: gemini}
     - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 50%', src: danbooru}
-    - {id: koushinchou, weight: sub, note: '資料: 身長が187cmと高身長であること。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 身長は187cmであること。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 49%', src: danbooru}
   patterns: []
 
@@ -1852,7 +1855,7 @@
   kana: ほんだとおる
   work: フルーツバスケット
   year: 1998
-  summary: 両親の死による酷い喪失と罪悪感を抱えながらも、他者の負担を背負い込み丁寧語を崩さずに健気に振る舞う構造。
+  summary: 両親の死という深い喪失を抱えながら、丁寧な敬語と自己犠牲的な過度の世話焼きによって他者と繋がり絆を深めていく少女。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b207-RQ4EUdTD0K62.png'
     page: 'https://anilist.co/character/207'
@@ -1864,12 +1867,13 @@
   elements:
     - {id: chapatsu, weight: core, note: 'danbooru brown_hair 94%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 84%', src: danbooru}
-    - {id: keigo, weight: core, note: '資料: 亡き父の代わりとして母の目の中で生きるため、習慣的に丁寧語で話す。', src: gemini}
-    - {id: soushitsu, weight: core, note: '資料: 3歳の時に父が死亡し、高校入学直後に母が交通事故で死亡した孤児である。', src: gemini}
+    - {id: keigo, weight: core, note: '資料: 幼少期に父を亡くした後、母のために習慣的に丁寧な言葉遣い（かしこまった口調）で話すようになった。', src: gemini}
+    - {id: soushitsu, weight: core, note: '資料: 3歳で父を、高校入学直前に最愛の母を交通事故で亡くした孤児である。', src: gemini}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 55%', src: danbooru}
-    - {id: muri, weight: sub, note: '資料: 祖父に負担をかけないよう学費を自力で稼ぎ、周囲から他人の負担を背負い込まないよう諭される。', src: gemini}
+    - {id: jiko-gisei, weight: sub, note: '資料: 学費を清掃員のアルバイトで自ら支払いテント暮らしをするなど他人の負担を抱え込みやすく、周囲から自身の利益を考えるよう諭されている。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 51%', src: danbooru}
-    - {id: zaiakukan, weight: sub, note: '資料: 夾に恋をしたことで、亡くなった母親の記憶に不誠実であると感じ罪悪感を抱く。', src: gemini}
+    - {id: sewayaki, weight: sub, note: '資料: 家事を引き受ける条件で同居生活を送り、自身を素晴らしい家政婦と称して周囲の面倒を見る。', src: gemini}
+    - {id: zaiakukan, weight: sub, note: '資料: 夾に惹かれて恋に落ちた際、亡き母の記憶に対して不誠実（裏切り）であると感じて罪悪感を抱く。', src: gemini}
   patterns: []
 
 - id: hoshino-ai
@@ -2531,7 +2535,7 @@
   kana: かいばせと
   work: 遊☆戯☆王
   year: 1996
-  summary: 大企業のトップという絶対的な支配者の立場でありながら、特定のライバルを倒し世界最高のプレイヤーを目指す闘争心を併せ持つ構造。
+  summary: 多国籍企業の社長という組織の頂点に立つ立場と、宿敵を打ち倒そうとする執念が同居する人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1378-PVWGuLucDP44.jpg'
     page: 'https://anilist.co/character/1378'
@@ -2545,8 +2549,8 @@
     - {id: chapatsu, weight: core, note: 'danbooru brown_hair 73%', src: danbooru}
     - {id: gaitou, weight: sub, note: 'danbooru coat 48%', src: danbooru}
     - {id: hakui, weight: sub, note: 'danbooru white_coat 40%', src: danbooru}
-    - {id: joushi, weight: sub, note: '資料: 海馬コーポレーションの筆頭株主であり、社長を務めている。', src: gemini}
-    - {id: koushinchou, weight: sub, note: '資料: 身長が186cmであると明記されている。', src: gemini}
+    - {id: joushi, weight: sub, note: '資料: 多国籍企業「海馬コーポレーション」の筆頭株主であり社長である。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 身長186cmと記載されている。', src: gemini}
     - {id: shukuteki, weight: sub, note: '資料: 武藤遊戯を宿敵（arch-rival）としている。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 37%', src: danbooru}
   patterns: []
@@ -3153,7 +3157,7 @@
   kana: こまつなな
   work: NANA
   year: 2000
-  summary: 自分の夢を探すために上京し、人気バンドのファンや友人たちの縁を通じて生活と関係性を広げていく人物。
+  summary: 温かな家庭から夢を探して上京し、大崎との出会いをきっかけに音楽バンドに関わる人々との友情や交流を深めていく女性。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b701-gNKbnxT6dbrf.png'
     page: 'https://anilist.co/character/701'
@@ -3318,7 +3322,7 @@
   kana: くらま
   work: 幽☆遊☆白書
   year: 1990
-  summary: 人間の息子として生活しながらも、その正体は千歳を超える妖怪の大盗賊という過去と異能を持つ二重構造のキャラクター。
+  summary: 1000年以上を生きる魔界の大盗賊・妖怪でありながら、人間の母親の愛に触れて人間界でその息子として暮らす二面性を持つ存在。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b731-cv0jfjVrD09V.jpg'
     page: 'https://anilist.co/character/731'
@@ -3330,12 +3334,12 @@
   elements:
     - {id: akagami, weight: core, note: 'danbooru red_hair 80%', src: danbooru}
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 85%', src: danbooru}
-    - {id: jingai, weight: core, note: '資料: 1000歳以上であり、かつて魔界で最も恐れられたA級妖怪「妖狐蔵馬」である。', src: gemini}
+    - {id: jingai, weight: core, note: '資料: かつて魔界で最も恐れられた1000年以上生きているA級妖怪（妖狐蔵馬）であること。', src: gemini}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 73%', src: danbooru}
-    - {id: shoutai, weight: core, note: '資料: 人間界で南野志保利の息子として生活しているが、その正体は妖怪の「妖狐蔵馬」である。', src: gemini}
-    - {id: nimensei, weight: sub, note: '資料: 南野志保利の息子として人間生活を送る一方、かつては魔界で恐れられた盗賊の顔を持っている。', src: gemini}
-    - {id: nouryokusha, weight: sub, note: '資料: 植物を操作して武器にする能力を持ち、人間界や魔界の植物を制御できる。', src: gemini}
-    - {id: zense, weight: sub, note: '資料: 霊狐の姿のときに傷つき、人間界のまだ魂のない胎児に宿ることで人間の身体へと移行した。', src: gemini}
+    - {id: furou, weight: sub, note: '資料: 1000年以上生きているという記述があること。', src: gemini}
+    - {id: nimensei, weight: sub, note: '資料: 魔界で恐れられた盗賊妖怪の顔と、人間界で母親を思いやり息子として生きる顔を併せ持っていること。', src: gemini}
+    - {id: nouryokusha, weight: sub, note: '資料: 植物に妖気を流し込んで武器に変える能力を持ち、薔薇のツルから作られた鞭などを扱う。', src: gemini}
+    - {id: shoutai, weight: sub, note: '資料: 正体は魔界の妖怪・盗賊でありながら、人間界では南野志保利の息子として生活していること。', src: gemini}
   patterns: []
 
 - id: kurapika
@@ -3343,7 +3347,7 @@
   kana: くらぴか
   work: HUNTER×HUNTER
   year: 1998
-  summary: 同胞を滅ぼされた過去の喪失と宿敵への激しい復讐心を動機としながら、友人に対しては親切で忠実な義理堅さを併せ持つ人物。
+  summary: 滅ぼされた一族の唯一の生存者として強い復讐心と奪還の執念を燃やす一方で、友人には親切で誠実に接する人物。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b28-ivA7UGnfE40a.png'
     page: 'https://anilist.co/character/28'
@@ -3353,12 +3357,12 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-30'
   elements:
-    - {id: fukushuu, weight: core, note: '資料: クルタ族を虐殺した幻影旅団（クモ）に復讐を誓っている。', src: gemini}
+    - {id: fukushuu, weight: core, note: '資料: 4年前にクルタ族を虐殺した幻影旅団への復讐を目的として抱いている。', src: gemini}
     - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 87%', src: danbooru}
-    - {id: soushitsu, weight: core, note: '資料: ハンター試験の4年前にクルタ族が虐殺され、同胞の眼を奪われた絶滅の生き残りである。', src: gemini}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 68%', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 59%', src: danbooru}
-    - {id: giri, weight: sub, note: '資料: 友人に対して親切で忠実である。', src: gemini}
+    - {id: fuguu, weight: sub, note: '資料: ハンター試験の4年前、所属していたクルタ族が幻影旅団によって虐殺された。', src: gemini}
+    - {id: soushitsu, weight: sub, note: '資料: クルタ族唯一の生存者であり、奪われた同胞の緋色の目を取り戻そうとしている。', src: gemini}
   patterns: []
 
 - id: kuririn
@@ -4402,7 +4406,7 @@
   kana: のだめぐみ
   work: のだめカンタービレ
   year: 2001
-  summary: 千秋への積極的な好意と奇抜な言動を前面に出しつつ、指導者に傷つけられた過去を乗り越えて自発的に音楽を追求していくピアニスト。
+  summary: 千秋への一方的な情熱や独特な言動を見せつつ、過去の抑圧を乗り越えて自らの音楽を見出していく音楽大学の学生。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1185-1iic41JKkDab.png'
     page: 'https://anilist.co/character/1185'
@@ -4413,12 +4417,12 @@
     date: '2026-08-30'
   elements:
     - {id: chapatsu, weight: core, note: 'danbooru brown_hair 83%', src: danbooru}
-    - {id: kataomoi, weight: core, note: '資料: 千秋に恋をしており、彼の「妻」であると主張して追い回している。', src: gemini}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 67%', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 50%', src: danbooru}
-    - {id: doryokuka, weight: sub, note: '資料: 音楽に対する自分の姿勢が千秋と自分を引き離すことに気づき、自分のために音楽を追求する意欲を深めていった。', src: gemini}
-    - {id: gobi, weight: sub, note: '資料: 「むきゃ」や「ぎゃぼ」といった無意味な言葉を使い、時に解読不能な話し方をする。', src: gemini}
-    - {id: ichininshou, weight: sub, note: '資料: 自分自身を三人称で呼ぶことがある。', src: gemini}
+    - {id: gobi, weight: sub, note: '資料: 「むきゃ」や「ぎゃぼ」といった意味のない言葉を使用する。', src: gemini}
+    - {id: ichininshou, weight: sub, note: '資料: 自分のことを三人称で呼ぶことが多い。', src: gemini}
+    - {id: kataomoi, weight: sub, note: '資料: 千秋に恋をしており、常に彼について回り、彼の「妻」であると主張している。', src: gemini}
+    - {id: surechigai, weight: sub, note: '資料: 音楽に対する姿勢が千秋とすれ違う原因になると気づき、自身のために音楽を追求する意欲を身につけた。', src: gemini}
   patterns: []
 
 - id: ogino-chihiro
@@ -4515,7 +4519,7 @@
   kana: おのださかみち
   work: 弱虫ペダル
   year: 2008
-  summary: アニメオタクとしての情熱と行動が、自転車競技での優れた登坂能力へと結びついている人物。
+  summary: アニメへの熱情によって培われた脚力で自転車競技に挑み、登坂中にアニソンを口ずさむアニメオタク。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b82871-g7T3de3fL1Yj.jpg'
     page: 'https://anilist.co/character/82871'
@@ -4525,7 +4529,8 @@
     model: 'gemini-3.6-flash'
     date: '2026-08-30'
   elements:
-    - {id: otaku, weight: core, note: '資料: 一番好きなアニメ『Love Hime』のために秋葉原に通う中で自転車の力を身につけ、クライミング中にもテーマソングを歌うアニメオタクである。', src: gemini}
+    - {id: otaku, weight: core, note: '資料: アニメオタクであり、一番好きなアニメ『ラブ★ヒメ』のグッズを得るための熱意によって競技自転車選手に必要な能力を身につけた。', src: gemini}
+    - {id: gishiki, weight: sub, note: '資料: クライミング（登坂）中に『ラブ★ヒメ』のテーマソングを歌う。', src: gemini}
   patterns: []
 
 - id: onodera-kosaki
@@ -4979,7 +4984,7 @@
   kana: るかわかえで
   work: SLAM DUNK
   year: 1990
-  summary: 日本一の高校生プレイヤーを目指してライバルたちと切磋琢磨する高身長のエースであり、コート上での圧倒的なプレイとコート外での極端な睡眠行動が同居している。
+  summary: 187cmの高身長を持ち、桜木花道や仙道彰といったライバルたちとしのぎを削る湘北高校バスケットボール部のエース。
   image:
     url: 'https://s4.anilist.co/file/anilistcdn/character/large/b311-uxwHnw9lXk4e.png'
     page: 'https://anilist.co/character/311'
@@ -4990,9 +4995,9 @@
     date: '2026-08-30'
   elements:
     - {id: kurokami, weight: core, note: 'danbooru black_hair 78%', src: danbooru}
-    - {id: shukuteki, weight: core, note: '資料: 桜木花道とライバル関係にあって日常的に喧嘩をしているほか、陵南の仙道彰を最大のライバルとみなしているため。', src: gemini}
+    - {id: shukuteki, weight: core, note: '資料: 桜木花道とライバル関係にあり、さらに仙道彰を最大のライバルとみなしている。', src: gemini}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 82%', src: danbooru}
-    - {id: koushinchou, weight: sub, note: '資料: 187cm（6''2"）の長身であると明記されているため。', src: gemini}
+    - {id: koushinchou, weight: sub, note: '資料: 高校1年生で身長187cmであることが明記されている。', src: gemini}
     - {id: kurome, weight: sub, note: 'danbooru black_eyes 39%', src: danbooru}
   patterns: []
 

@@ -584,6 +584,15 @@
     frequency: 0.213
     threshold: 0.35
   new_tag_proposals: []
+- id: chiaki-shinichi
+  name: 千秋真一
+  date: '2026-08-30'
+  unmapped_danbooru: []
+  near_miss: []
+  new_tag_proposals:
+  - name: トラウマ
+    axis: 性格 / 傷
+    reason: 飛行機や海に対する恐怖症を抱えており、克服するまでの制約となっているため。
 - id: daidouji-tomoyo
   name: 大道寺知世
   date: '2026-08-30'
@@ -596,9 +605,12 @@
     frequency: 0.2205
     threshold: 0.35
   new_tag_proposals:
-  - name: 衣装制作・撮影
-    axis: 特技/行動
-    reason: バトルコスチュームのデザインや活動の撮影を行うという重要な特徴があるが、既存の語彙に該当がないため。
+  - name: 撮影・記録
+    axis: 行動 / 趣味
+    reason: 木之本桜の魔法活動やバトルコスチュームの撮影を行っているため。
+  - name: 衣装制作
+    axis: 技能 / 役割
+    reason: バトルコスチュームのデザインを行っているため。
 - id: darkness-konosuba
   name: ダクネス
   date: '2026-08-30'
@@ -670,12 +682,9 @@
     frequency: 0.1538
     threshold: 0.35
   new_tag_proposals:
-  - name: 帰国子女
-    axis: 背景
-    reason: アメリカに居住した後に来日し、青春学園に入学した経歴を持つため。
-  - name: ジュニアチャンピオン
-    axis: 実績・立場
-    reason: アメリカン・ジュニア・テニス・トーナメントで4連続優勝を果たしているため。
+  - name: 神童
+    axis: 才能・評価
+    reason: 12歳時点で神童（prodigy）と呼ばれ、アメリカジュニアテニス大会で4連続タイトルを獲得しているため。
 - id: edogawa-conan
   name: 江戸川コナン
   date: '2026-08-30'
@@ -1327,9 +1336,9 @@
     frequency: 0.3008
     threshold: 0.5
   new_tag_proposals:
-  - name: 戦闘狂
-    axis: 性格 / 信条
-    reason: 強い相手と戦うことを追求し、将来強力な対戦相手になり得る者をあえて生かして成長を待つ姿勢があるため。
+  - name: 強敵の青田買い
+    axis: 性格 / 気質
+    reason: 将来の対戦相手となり得る才能ある者をあらかじめ見定める、または時期尚早に壊さず育ててから戦おうとする性質。
 - id: hitsugaya-toushirou
   name: 日番谷冬獅郎
   date: '2026-08-30'
@@ -1381,10 +1390,7 @@
     tag: blue_eyes
     frequency: 0.1633
     threshold: 0.35
-  new_tag_proposals:
-  - name: テント生活
-    axis: 生活環境
-    reason: 物語開始時点で住居を失い野外でテント生活を送っていた事実が存在するため。
+  new_tag_proposals: []
 - id: hoshino-aquamarine
   name: 星野アクアマリン
   date: '2026-08-30'
@@ -2199,9 +2205,12 @@
     frequency: 0.2143
     threshold: 0.35
   new_tag_proposals:
-  - name: プロ棋士
-    axis: 立場・職業
-    reason: 中学生の時に史上5人目でプロとなり、将棋の対局で給与を得て一人暮らしをしている独自の専門職であるため。
+  - name: 将棋棋士
+    axis: 関係性 / 立場
+    reason: 中学生で史上5人目のプロとなり、将棋による対価で自活している独自の職業的立場。
+  - name: 自立した生活
+    axis: 性格 / 気質
+    reason: 高校に通いつつ自身の給料と貯金でアパートに一人暮らしをしている状態。
 - id: kiryuuin-satsuki
   name: 鬼龍院皐月
   date: '2026-08-30'
@@ -2343,15 +2352,12 @@
     frequency: 0.1765
     threshold: 0.35
   new_tag_proposals:
-  - name: 主婦
-    axis: 関係性 / 立場
-    reason: 資料に職業として主婦（housewife）と記述されているが、語彙に該当がないため。
-  - name: バンドのファン
+  - name: jibun-sagashi
+    axis: 性格 / 信条
+    reason: 自分の夢を探すために東京へ来たという、自己追及の動機を持っているため。
+  - name: fan
     axis: 性格 / 気質
-    reason: 人気ロックバンド「Trapnest」の大ファンであることが資料に明記されているが、語彙に該当がないため。
-  - name: 上京
-    axis: 物語役割 / 動機
-    reason: 自分の夢を探すために上京したという動機が資料にあるが、語彙に該当がないため。
+    reason: 特定ロックバンド（Trapnest）の非常に大きなファンであるという熱意を持っているため。
 - id: komi-shouko
   name: 古見硝子
   date: '2026-08-30'
@@ -2479,7 +2485,7 @@
   new_tag_proposals:
   - name: 盗賊
     axis: 関係性 / 立場
-    reason: 資料に「かつて魔界で最も恐れられた盗賊」とあるが、語彙一覧に該当する見出し語が存在しないため。
+    reason: かつて魔界で最も恐れられた盗賊であったという記述があるが、既存の職業語彙に含まれないため。
 - id: kurapika
   name: クラピカ
   date: '2026-08-30'
@@ -2497,7 +2503,10 @@
     tag: hair_between_eyes
     frequency: 0.2115
     threshold: 0.5
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 遺品奪還
+    axis: 物語役割 / 目的
+    reason: 虐殺された同胞の奪われた目を取り戻すことを復讐と並ぶ行動目的としているため。
 - id: kuririn
   name: クリリン
   date: '2026-08-30'
@@ -2723,9 +2732,9 @@
     frequency: 0.224
     threshold: 0.5
   new_tag_proposals:
-  - name: オリジナルとクローン
-    axis: 関係性 / 関係の型
-    reason: 作られた複製（クローン）と本体（オリジナル）という二重化された存在関係を示すため。
+  - name: クローン・本体
+    axis: 物語役割 / 役割
+    reason: サクラの側にいるクローンに対して、オリジナルの本体であるという設定・立場が存在するため。
 - id: loid-forger
   name: ロイド・フォージャー
   date: '2026-08-30'
@@ -3448,10 +3457,7 @@
     tag: medium_hair
     frequency: 0.1667
     threshold: 0.35
-  new_tag_proposals:
-  - name: 過去のトラウマ
-    axis: 性格/傷
-    reason: 過去に「楽譜通りに弾く」ことを強要する指導者によって傷つけられたという記述があるため。
+  new_tag_proposals: []
 - id: ogino-chihiro
   name: 荻野千尋
   date: '2026-08-30'
@@ -3570,8 +3576,8 @@
     threshold: 0.35
   new_tag_proposals:
   - name: クライマー
-    axis: 能力・役割
-    reason: 自転車競技部で登坂（クライミング）を専門としているため。
+    axis: 関係性 / 立場
+    reason: 自転車競技部において登坂（クライミング）を専門とする役割・立場。
 - id: onodera-kosaki
   name: 小野寺小咲
   date: '2026-08-30'
@@ -3964,10 +3970,7 @@
     tag: toned
     frequency: 0.1837
     threshold: 0.35
-  new_tag_proposals:
-  - name: nemuri-kuse
-    axis: 性格 / 癖・仕草
-    reason: コート外では常に睡眠中でおり、睡眠を邪魔されると相手を叩きのめすほどの極端な睡眠癖を持つため。
+  new_tag_proposals: []
 - id: ryuuguu-rena
   name: 竜宮レナ
   date: '2026-08-30'
@@ -4926,9 +4929,15 @@
   unmapped_danbooru: []
   near_miss: []
   new_tag_proposals:
+  - name: 不良少年
+    axis: 性格 / 気質
+    reason: 資料において『物語の開始時点では、手に負えない不良少年およびストリートファイターであった』と明記されているため。
   - name: 霊界探偵
     axis: 関係性 / 立場
-    reason: 霊的・超自然的な脅威から人間界を守る特有の役職・立場であるため。
+    reason: 資料において『人間界を超自然的な脅威から守る使命を帯びた「霊界探偵（Spirit Detective）」』と明記されているため。
+  - name: 武道家
+    axis: 関係性 / 立場
+    reason: 資料において『物語の経過に伴い、人間界を守る強力な武道家へと成長していく』と明記されているため。
 - id: uzumaki-naruto
   name: うずまきナルト
   date: '2026-08-30'
