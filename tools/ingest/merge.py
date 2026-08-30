@@ -395,6 +395,8 @@ def main() -> int:
                 "# unmapped_danbooru: 対応表に無かった高頻度タグ。見出し語に昇格させるなら\n"
                 "#   data/elements/ に追加し、wd_map.yaml に対応を書く。\n"
                 "# new_tag_proposals: classify が語彙に無いと判断した概念の提案。\n"
+                "# near_miss: 対応はあるが閾値に届かなかったもの（実測値）。閾値を勘で\n"
+                "#   動かさないための材料。tools/report.py が集計する。\n"
                 "# 採用・却下は人が決める。処理済みのエントリは消してよい。\n\n"
             )
             SUGGESTIONS.write_text(header + yaml.safe_dump(existing_s, allow_unicode=True, sort_keys=False), encoding="utf-8")
