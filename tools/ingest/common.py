@@ -150,8 +150,11 @@ GEMINI_LIST_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models"
 #
 #   PRO   … 判断させるもの（分類・識別）
 #   FLASH … 抜き出させるもの（事実の下書き・映像の観察）
-PRO_MODELS = ["gemini-3.1-pro-preview", "gemini-3.6-flash"]
-FLASH_MODELS = ["gemini-3.6-flash", "gemini-3.1-flash-preview"]
+# 先頭は世代が変わっても生き残る別名にする。版を打った名前を先頭にしていたら
+# 12 巡目に 3.6 系が丸ごと 404 になって両レーンが止まった。
+# 後ろの二つは、別名が使えないキーのための保険（ListModels で存在を確認済み）。
+PRO_MODELS = ["gemini-pro-latest", "gemini-3.1-pro-preview", "gemini-2.5-pro"]
+FLASH_MODELS = ["gemini-flash-latest", "gemini-3-flash-preview", "gemini-2.5-flash"]
 
 
 def models_for(default: list[str], env_var: str) -> list[str]:
@@ -250,6 +253,13 @@ def call_gemini_fallback(models: list[str], parts, schema, api_key: str, tempera
             raise SystemExit(str(err))
         except GeminiHTTPError as err:
             last = err
+            # 残高切れはモデルを変えても直らない。全候補を回しても同じ 429 が返るだけで、
+            # 「利用できるモデルがありません」という的外れな結論になるので即座に諦める。
+            if err.code == 429 and ("credits" in str(err) or "billing" in str(err)):
+                raise SystemExit(
+                    "Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で"
+                    "課金を確認してください。\n" + str(err)[:300]
+                )
             if err.code in (404, 429):
                 reason = "利用不可" if err.code == 404 else "クォータ超過"
                 print(f"  モデル {model} は{reason}（{err.code}）。次の候補を試します。")
