@@ -1046,3 +1046,16 @@
   pairs_with: [joushi, reijou, kyoushi]
   contrasts_with: []
   tags: [定番]
+
+# --- 11巡目: 294名。Danbooru 側は 2 件以上出るタグが尽き、資料レーンの提案も
+#     ほぼ作品固有になった。複数作品から独立に出たものだけを採る ---
+- id: shoukin-kasegi
+  name: 賞金稼ぎ
+  kana: しょうきんかせぎ
+  aliases: [バウンティハンター]
+  axis: relation.position
+  summary: 賞金首を追って生きる立場。組織に属さず、金で動く建前を持つ。
+  effect: 金で動くと言い張らせておいて、割に合わない依頼を引き受けさせる。
+  pairs_with: [nagaremono, muhoumono, buki]
+  contrasts_with: [juusha]
+  tags: [定番]

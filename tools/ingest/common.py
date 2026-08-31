@@ -16,14 +16,17 @@ DB = ROOT / "docs" / "data" / "db.json"
 WD_MAP = Path(__file__).resolve().parent / "wd_map.yaml"
 
 # 画像・タグ集計だけで判定する軸（classify はここへ踏み込めない）。
-# 体格・種族・記号職・痕は appearance 配下だが、公式プロフィールや百科にも
+# 体格・種族・記号職・痕・目の形は appearance 配下だが、公式プロフィールや百科にも
 # 明記されるため資料レーン（classify）からも判定を許す。
 # 痕を開けたのは、義肢・包帯・目隠しが Danbooru のタグ付与率で閾値に届かず、
 # かつ資料レーンからも触れないため、どちらのレーンからも埋まらなかったから。
+# 目の形も同じ理由。294 名分の実測（near_miss）で、tsurime は最高 0.20 が 1 件、
+# tareme と jitome は 0.15 にすら一度も届かなかった。髪色が 240 件当たるのに
+# 目つきが延べ 2 件しか当たらないのは、Danbooru が目つきをそもそも付けないから。
+# 閾値を下げても届かないので、レーンを開けるほうを選んだ。
 VISUAL_AXES = {
     "appearance.hairstyle",
     "appearance.haircolor",
-    "appearance.eyeshape",
     "appearance.eyecolor",
     "appearance.face",
     "appearance.parts",

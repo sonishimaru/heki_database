@@ -7,6 +7,13 @@
 #   threshold … 既定 0.35 を上書きする（誤検出しやすいタグは高めにする）
 #   note      … 判定時の注意。merge.py が出力するメモの下敷きにもなる
 
+# 既定の閾値 0.35 を動かさない理由（294 名分の実測、11 巡目）:
+# 採用された判定 1157 件の中央値は 66% で、40〜90% に広く散っている。一方
+# 閾値に届かなかった側は 0.30〜0.35 に密集していて、境界に谷が無い。
+# その帯の中身は玉石混交で、school_uniform（阿良々木暦 0.35）は正しく、
+# collarbone（46 件が 0.33 前後）は絵の描き方であってキャラの特徴ではない。
+# 全体を下げると鎖骨のような描画上の慣習が大量に混ざるので、下げるなら
+# seifuku のように「着ているかいないかしかない」語を個別に下げる。
 defaults:
   threshold: 0.35
 
@@ -84,11 +91,13 @@ elements:
   gishi:
     tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb, automail, robot_arm]
   kokuin:
-    tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo, facial_mark, whisker_markings, facepaint]
+    tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo, facial_mark, whisker_markings, facepaint, facial_tattoo, teardrop_facial_mark]
 
   # --- 服装 ---
   seifuku:
     tags: [school_uniform, serafuku, gakuran, blazer, sailor_collar]
+    threshold: 0.3
+    note: 着ているかいないかしかない語なので、既定より低くてよい（41件が 0.30〜0.35 で落ちていた）
   hakui:
     tags: [labcoat, lab_coat, white_coat]
   wasou:
@@ -107,7 +116,7 @@ elements:
 
   # --- 小物 ---
   megane:
-    tags: [glasses, semi-rimless_eyewear, round_eyewear, rimless_eyewear, sunglasses, tinted_eyewear, green-tinted_eyewear]
+    tags: [glasses, semi-rimless_eyewear, round_eyewear, rimless_eyewear, sunglasses, tinted_eyewear, green-tinted_eyewear, black-framed_eyewear]
   tebukuro:
     tags: [gloves, fingerless_gloves, elbow_gloves, black_gloves, white_gloves, under-elbow_gloves, brown_gloves]
   choker:
@@ -124,9 +133,9 @@ elements:
 
   # --- 種族（外見から確実に読める範囲だけ） ---
   kemomimi:
-    tags: [animal_ears, cat_ears, fox_ears, wolf_ears, animal_ear_fluff, wolf_girl, cat_girl, fox_girl, dog_ears, rabbit_ears, extra_ears]
+    tags: [animal_ears, cat_ears, fox_ears, wolf_ears, animal_ear_fluff, wolf_girl, cat_girl, fox_girl, dog_ears, rabbit_ears, extra_ears, raccoon_girl, raccoon_ears]
   jingai:
-    tags: [horns, monster_girl, slime_girl, lamia, mermaid, red_horns, cone_horns, goat_horns]
+    tags: [horns, monster_girl, slime_girl, lamia, mermaid, red_horns, cone_horns, goat_horns, green_skin, antennae]
   jinzou:
     tags: [android, robot, robot_joints, mechanical_parts, doll_joints, joints]
 
@@ -210,7 +219,7 @@ elements:
 
   # --- 2 巡目 ---
   bob-cut:
-    tags: [bob_cut, short_hair_with_long_locks]
+    tags: [bob_cut, short_hair_with_long_locks, inverted_bob]
   kyonyuu:
     tags: [large_breasts, huge_breasts]
     threshold: 0.5
@@ -222,11 +231,11 @@ elements:
 
   # --- 3 巡目 ---
   messhu:
-    tags: [multicolored_hair, two-tone_hair, streaked_hair, gradient_hair, colored_inner_hair, split-color_hair, red_streaks]
+    tags: [multicolored_hair, two-tone_hair, streaked_hair, gradient_hair, colored_inner_hair, split-color_hair, red_streaks, colored_bangs]
 
   # --- 4 巡目 ---
   shippo:
-    tags: [tail, wolf_tail, cat_tail, fox_tail, dog_tail, dragon_tail, demon_tail, brown_tail]
+    tags: [tail, wolf_tail, cat_tail, fox_tail, dog_tail, dragon_tail, demon_tail, brown_tail, raccoon_tail]
   sarugutsuwa:
     tags: [gag, gagged, bit_gag, ball_gag]
     threshold: 0.5
@@ -253,7 +262,7 @@ elements:
   ninja:
     tags: [ninja, kunoichi, forehead_protector]
   chuukafuku:
-    tags: [chinese_clothes, china_dress, tangzhuang, qipao]
+    tags: [chinese_clothes, china_dress, tangzhuang, qipao, hanfu]
   kurome:
     tags: [black_eyes]
 
@@ -302,6 +311,9 @@ elements:
     tags: [thick_eyebrows]
 
 # 画像タグでは判定しない見出し語（vision.py または手作業の担当）
+#   目の形の軸    … つり目・たれ目・ジト目は Danbooru がほぼ付けない（tsurime は
+#                   294 名で最高 0.20 が 1 件、tareme と jitome は 0.15 未満）。
+#                   11 巡目で VISUAL_AXES から外し、資料レーンの担当にした
 #   unaji         … Danbooru に対応タグがない
 #   teishinchou   … 身長は単体の絵から判定できない（並んだ絵でのみ分かる）
 #   koushinchou   … 同上
