@@ -2278,7 +2278,6 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
     date: '2026-08-31'
   elements:
     - {id: shinigami, weight: core, note: '資料: 隊長・副隊長を務め、斬魄刀を所持することから死神であると窺える。', src: gemini}
@@ -2288,7 +2287,7 @@
     - {id: juusha, weight: sub, note: '資料: 五番隊隊長であった藍染惣右介の副隊長を務めていた。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: 身長が185cmと明記されている。', src: gemini}
     - {id: shirogami, weight: sub, note: 'danbooru grey_hair 35%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 57%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 57%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ijichi-nijika
