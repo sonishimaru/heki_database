@@ -15,9 +15,26 @@
   - name: 本名不明
     axis: 物語役割 / 秘密
     reason: 本名が不明で、姓2文字・名3文字という記憶のみが残っているため。
+- id: aerith-gainsborough
+  name: エアリス・ゲインズブール
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: pink_dress
+    frequency: 0.4728
+  - tag: bracelet
+    frequency: 0.3562
+  near_miss:
+  - id: choker
+    tag: choker
+    frequency: 0.3132
+    threshold: 0.35
+  new_tag_proposals:
+  - name: 花売り
+    axis: 記号職
+    reason: 初登場時に街頭で花を売り歩く職業として提示されているため。
 - id: agatsuma-zenitsu
   name: 我妻善逸
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: itome
@@ -32,10 +49,13 @@
     tag: hair_between_eyes
     frequency: 0.1554
     threshold: 0.5
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 鬼殺隊士
+    axis: 関係性 / 立場
+    reason: 鬼殺隊に所属して戦う職能・立場だが、既存の語彙（侍等）に明記がなく直接合致しないため。
 - id: ainz-ooal-gown
   name: アインズ・ウール・ゴウン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: jingai
@@ -81,14 +101,17 @@
   new_tag_proposals: []
 - id: aisaka-taiga
   name: 逢坂大河
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
     frequency: 0.2254
     threshold: 0.5
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 恋愛同盟
+    axis: 関係性 / 関係の状態
+    reason: お互いの親友との恋愛を協力し合う協力関係を指すが、語彙に該当するものがないため。
 - id: akashi-seijuurou
   name: 赤司征十郎
   date: '2026-08-31'
@@ -114,20 +137,20 @@
     reason: 資料に「一本調子（モノトーン）の声をしている」とあるが、語彙に発声のトーンに関する項目がないため。
 - id: akiyama-mio
   name: 秋山澪
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: seifuku
     tag: school_uniform
-    frequency: 0.2861
-    threshold: 0.35
+    frequency: 0.2863
+    threshold: 0.3
   - id: hime-cut
     tag: hime_cut
     frequency: 0.2363
     threshold: 0.35
   - id: aome
     tag: blue_eyes
-    frequency: 0.2124
+    frequency: 0.2126
     threshold: 0.35
   - id: gakki
     tag: instrument
@@ -138,12 +161,15 @@
     frequency: 0.1662
     threshold: 0.4
   new_tag_proposals:
+  - name: ベーシスト
+    axis: 役割
+    reason: バンド「Ho-kago Tea Time」でベースを担当していることが明記されているため。
+  - name: 作詞担当
+    axis: 役割
+    reason: メイン作詞者として執筆を行い、仲間から感性を頼りにされているため。
   - name: 左利き
-    axis: 身体
-    reason: 左利きのミュージシャンであり左利き用のベースを使用している旨が資料に記載されているが、該当する語彙がないため。
-  - name: ベーシスト・作詞
-    axis: 立場・技能
-    reason: バンドでベースとメイン作詞を担当している旨が資料に記載されているが、該当する語彙がないため。
+    axis: 身体性
+    reason: 左利きのミュージシャンであり、左利き用のベースを使用していると明記されているため。
 - id: albedo-overlord
   name: アルベド
   date: '2026-08-30'
@@ -155,7 +181,7 @@
     reason: 堕天使の翼と角を持つ姿として記載されており、既存の天使・悪魔の記号とは区別されるため。
 - id: alphonse-elric
   name: アルフォンス・エルリック
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kishi
@@ -175,9 +201,18 @@
     frequency: 0.1788
     threshold: 0.35
   new_tag_proposals: []
+- id: amami-haruka
+  name: 天海春香
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss: []
+  new_tag_proposals:
+  - name: 料理苦手
+    axis: 能力・技能
+    reason: お菓子作りは好きだが料理全般は苦手というギャップのある属性を持っているため。
 - id: amuro-ray
   name: アムロ・レイ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: aome
@@ -195,7 +230,7 @@
   new_tag_proposals: []
 - id: android-18
   name: 人造人間18号
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -209,13 +244,32 @@
   new_tag_proposals: []
 - id: anya-forger
   name: アーニャ・フォージャー
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
     frequency: 0.2051
     threshold: 0.35
+  new_tag_proposals:
+  - name: 被験者
+    axis: 物語役割 / 秘密
+    reason: 実験室で能力を得て脱走した背景を表す語彙が既存枠に存在しないため。
+- id: anzu-hinazuki
+  name: 雛月加代
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: yellow_scarf
+    frequency: 0.5847
+  - tag: randoseru
+    frequency: 0.4492
+  - tag: snowing
+    frequency: 0.3814
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3983
+    threshold: 0.5
   new_tag_proposals: []
 - id: aomine-daiki
   name: 青峰大輝
@@ -235,7 +289,7 @@
   new_tag_proposals: []
 - id: aqua-konosuba
   name: アクア
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -248,17 +302,13 @@
     threshold: 0.5
   new_tag_proposals:
   - name: 宴会芸
-    axis: 特技・技能
-    reason: アークプリーストであり強力な回復魔法を使える一方で、スキルポイントのほとんどを宴会芸スキルに費やしているため。
+    axis: 性格 / 癖・仕草
+    reason: スキルポイントのほとんどを宴会芸スキルに費やしているという特徴的な記述があるため。
 - id: araragi-koyomi
   name: 阿良々木暦
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
-  - id: seifuku
-    tag: school_uniform
-    frequency: 0.3493
-    threshold: 0.35
   - id: ahoge
     tag: ahoge
     frequency: 0.3014
@@ -290,30 +340,21 @@
   new_tag_proposals: []
 - id: arima-kana
   name: 有馬かな
-  date: '2026-08-30'
-  unmapped_danbooru:
-  - tag: inverted_bob
-    frequency: 0.5172
+  date: '2026-08-31'
+  unmapped_danbooru: []
   near_miss:
   - id: semi-long
     tag: medium_hair
     frequency: 0.3393
     threshold: 0.35
-  - id: seifuku
-    tag: school_uniform
-    frequency: 0.3358
-    threshold: 0.35
   - id: pattsun
     tag: blunt_bangs
     frequency: 0.1933
     threshold: 0.4
-  new_tag_proposals:
-  - name: 元天才子役
-    axis: 経歴
-    reason: かつて「神童」と呼ばれていたという過去の評価・肩書が存在するため。
+  new_tag_proposals: []
 - id: artoria-pendragon
   name: アルトリア・ペンドラゴン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
@@ -359,7 +400,7 @@
   new_tag_proposals: []
 - id: asta-black-clover
   name: アスタ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: akame
@@ -402,13 +443,10 @@
     tag: hair_between_eyes
     frequency: 0.1518
     threshold: 0.5
-  new_tag_proposals:
-  - name: 無魔力
-    axis: 能力
-    reason: 魔法世界において魔法を全く使うことができない体質であるため。
+  new_tag_proposals: []
 - id: atago-azur-lane
   name: 愛宕
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
@@ -430,7 +468,7 @@
   new_tag_proposals: []
 - id: ayanami-rei
   name: 綾波レイ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -440,11 +478,11 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.2034
-    threshold: 0.35
+    threshold: 0.3
   new_tag_proposals: []
 - id: ayase-chihaya
   name: 綾瀬千早
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: hakama
@@ -454,11 +492,11 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.25
-    threshold: 0.35
+    threshold: 0.3
   new_tag_proposals: []
 - id: ayase-eli
   name: 絢瀬絵里
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -472,14 +510,14 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.1576
-    threshold: 0.35
+    threshold: 0.3
   new_tag_proposals:
-  - name: ハーフ・クォーター
-    axis: 外見 / 種族
-    reason: 祖母がロシア人であり、一部ロシアの血を引いている記述があるため。
+  - name: kuootaa
+    axis: 外見 / 出自
+    reason: 祖母がロシア人であり、ロシアの血を引いているため。
 - id: ayase-momo
   name: 綾瀬桃
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: sweater
     frequency: 0.3803
@@ -491,7 +529,7 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.2702
-    threshold: 0.35
+    threshold: 0.3
   - id: kyonyuu
     tag: large_breasts
     frequency: 0.1954
@@ -507,7 +545,7 @@
   new_tag_proposals: []
 - id: bakugou-katsuki
   name: 爆豪勝己
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
@@ -521,7 +559,7 @@
   new_tag_proposals: []
 - id: belfast-azur-lane
   name: ベルファスト
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
@@ -535,7 +573,7 @@
   new_tag_proposals: []
 - id: black-jack
   name: ブラック・ジャック
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: akame
@@ -548,24 +586,21 @@
     threshold: 0.35
   new_tag_proposals:
   - name: 闇医者
-    axis: 立場
-    reason: 制度や組織に縛られず高い医療技術を高額で請求し提供する立場を表すため
+    axis: 関係性 / 立場
+    reason: 正規の免許や制度に縛られず医療活動を行う立場を表す語彙が既存にないため
 - id: bruno-bucciarati
   name: ブローノ・ブチャラティ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
     frequency: 0.2773
     threshold: 0.35
-  new_tag_proposals:
-  - name: ギャング
-    axis: 関係性 / 立場
-    reason: 裏社会の暴力組織に所属し活動する立場を表す既存語彙がないため。
+  new_tag_proposals: []
 - id: bulma
   name: ブルマ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -588,13 +623,10 @@
     tag: earrings
     frequency: 0.1617
     threshold: 0.5
-  new_tag_proposals:
-  - name: 発明家
-    axis: 能力
-    reason: ドラゴンレーダーをはじめとする高度な機械・ガジェットを独自に開発・制作する技術力を表すため。
+  new_tag_proposals: []
 - id: cc
   name: C.C.
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -604,7 +636,7 @@
   new_tag_proposals: []
 - id: char-aznable
   name: シャア・アズナブル
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kamen
@@ -627,7 +659,7 @@
     reason: 飛行機や海に対する恐怖症を抱えており、克服するまでの制約となっているため。
 - id: daidouji-tomoyo
   name: 大道寺知世
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: tomoeda_elementary_school_uniform
     frequency: 0.4319
@@ -636,16 +668,10 @@
     tag: purple_hair
     frequency: 0.2205
     threshold: 0.35
-  new_tag_proposals:
-  - name: 撮影・記録
-    axis: 行動 / 趣味
-    reason: 木之本桜の魔法活動やバトルコスチュームの撮影を行っているため。
-  - name: 衣装制作
-    axis: 技能 / 役割
-    reason: バトルコスチュームのデザインを行っているため。
+  new_tag_proposals: []
 - id: darkness-konosuba
   name: ダクネス
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -665,12 +691,12 @@
     frequency: 0.1761
     threshold: 0.35
   new_tag_proposals:
-  - name: 攻撃不命中・防御特化
-    axis: 能力・戦闘スタイル
-    reason: 攻撃が全く命中しない一方で高い耐久力とスタミナを持つという偏った戦闘特性を表す既存のタグがないため。
+  - name: 攻撃不命中
+    axis: 能力/戦闘
+    reason: 非常に不器用で攻撃が一切命中しないという極端な特徴が資料に記載されているため。
 - id: denji
   name: デンジ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
@@ -680,7 +706,7 @@
   new_tag_proposals: []
 - id: dio-brando
   name: ディオ・ブランドー
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
@@ -698,7 +724,7 @@
   new_tag_proposals: []
 - id: echizen-ryoma
   name: 越前リョーマ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
@@ -713,13 +739,10 @@
     tag: glasses
     frequency: 0.1538
     threshold: 0.35
-  new_tag_proposals:
-  - name: 神童
-    axis: 才能・評価
-    reason: 12歳時点で神童（prodigy）と呼ばれ、アメリカジュニアテニス大会で4連続タイトルを獲得しているため。
+  new_tag_proposals: []
 - id: edogawa-conan
   name: 江戸川コナン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -733,7 +756,7 @@
   new_tag_proposals: []
 - id: edward-elric
   name: エドワード・エルリック
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
@@ -751,7 +774,7 @@
   new_tag_proposals: []
 - id: emilia
   name: エミリア
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -765,7 +788,7 @@
   new_tag_proposals: []
 - id: emiya-kiritsugu
   name: 衛宮切嗣
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: buki
@@ -779,32 +802,50 @@
   new_tag_proposals: []
 - id: emiya-shirou
   name: 衛宮士郎
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
-    frequency: 0.3123
+    frequency: 0.312
     threshold: 0.35
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.2797
+    frequency: 0.2805
     threshold: 0.35
   - id: kinniku
     tag: abs
-    frequency: 0.163
+    frequency: 0.1628
     threshold: 0.35
   - id: wasou
     tag: japanese_clothes
-    frequency: 0.1609
+    frequency: 0.1607
+    threshold: 0.35
+  new_tag_proposals: []
+- id: emma-neverland
+  name: エマ
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: neck_tattoo
+    frequency: 0.6296
+  - tag: number_tattoo
+    frequency: 0.6204
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.25
+    threshold: 0.5
+  - id: kinpatsu
+    tag: blonde_hair
+    frequency: 0.1759
     threshold: 0.35
   new_tag_proposals:
-  - name: 家事・修理好き
-    axis: 性格 / 趣味
-    reason: 壊れたものの修理や料理・掃除を趣味とする手先の器用さと生活感を持っているため
+  - name: 高い身体能力と学習能力
+    axis: 性格 / 気質
+    reason: 並外れた反射神経と驚異的な学習能力を持つと評されているため。
 - id: eren-yeager
   name: エレン・イェーガー
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
@@ -834,7 +875,7 @@
     reason: 剣神流の素質を持ち木剣が聖遺物とされる記述があるが、和装・刀を前提としない剣士の語彙がないため。
 - id: faye-valentine
   name: フェイ・ヴァレンタイン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -850,12 +891,12 @@
     frequency: 0.2047
     threshold: 0.35
   new_tag_proposals:
-  - name: 賞金稼ぎ
-    axis: 関係性 / 立場
-    reason: 賞金首を狩る職業・立ち位置であり、既存の「無法者（賞金首）」とは逆の立場を表現するため。
+  - name: 冷凍睡眠
+    axis: 物語役割 / 秘密
+    reason: 宇宙船事故の後にコールドスリープ処置を受け、長期間を経て活動している背景を示すため。
 - id: fern
   name: フェルン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: gaitou
@@ -865,7 +906,7 @@
   new_tag_proposals: []
 - id: flandre-scarlet
   name: フランドール・スカーレット
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
@@ -884,13 +925,10 @@
     tag: fang
     frequency: 0.223
     threshold: 0.35
-  new_tag_proposals:
-  - name: 破壊能力
-    axis: 能力
-    reason: 対象の最も緊張が高まっている「目」を手元に移動させ握り潰すことであらゆるものを破壊できるため。
+  new_tag_proposals: []
 - id: florence-nightingale
   name: ナイチンゲール
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: naasu
@@ -908,7 +946,7 @@
   new_tag_proposals: []
 - id: frieren
   name: フリーレン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: futomayu
@@ -918,7 +956,7 @@
   new_tag_proposals: []
 - id: frieza
   name: フリーザ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kinniku
@@ -932,7 +970,7 @@
   new_tag_proposals: []
 - id: fujiwara-chika
   name: 藤原千花
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
@@ -940,15 +978,37 @@
     frequency: 0.281
     threshold: 0.35
   new_tag_proposals:
-  - name: 生徒会役員
+  - name: 生徒会書記
     axis: 関係性 / 立場
-    reason: 秀知院学園生徒会の書記を務めているが、既存の語彙には生徒会長（seitokaichou）しか存在しないため。
-  - name: 元神童
-    axis: 物語役割 / 秘密
-    reason: かつて完璧を目指してピアノを始めて神童となったが、後に辞めたという過去の経歴を持つため。
+    reason: 秀知院学園生徒会の書記を務めている旨が明確に記載されているため。
+  - name: ピアノの神童
+    axis: 性格 / 経歴
+    reason: 完璧でありたいという理由でピアノを始めて神童となった経歴が記載されているため。
+  - name: 最初の友達
+    axis: 関係性 / 関係の型
+    reason: ゲーム対決を経て四宮かぐやの最初の友達になったと示されているため。
+- id: furukawa-nagisa
+  name: 古河渚
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: hikarizaka_private_high_school_uniform
+    frequency: 0.5932
+  near_miss:
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.1983
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1763
+    threshold: 0.5
+  new_tag_proposals:
+  - name: 自分を鼓舞する習慣
+    axis: 性格 / 癖・仕草
+    reason: 自分を鼓舞するために食べたい食べ物の名前を口にする習慣がある記述が存在するため。
 - id: fushiguro-megumi
   name: 伏黒恵
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -966,11 +1026,11 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.2311
-    threshold: 0.35
+    threshold: 0.3
   new_tag_proposals: []
 - id: gabriel-tenma-white
   name: ガヴリール
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -992,18 +1052,15 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.1743
-    threshold: 0.35
+    threshold: 0.3
   - id: tenshi
     tag: halo
     frequency: 0.1621
     threshold: 0.35
-  new_tag_proposals:
-  - name: 駄天使
-    axis: 性格 / 気質
-    reason: 天使でありながらゲーム依存などにより自堕落・堕落した生活を送る状態を示す概念。
+  new_tag_proposals: []
 - id: ganyu
   name: 甘雨
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -1021,7 +1078,7 @@
   new_tag_proposals: []
 - id: gasai-yuno
   name: 我妻由乃
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: twintail
@@ -1039,7 +1096,7 @@
   new_tag_proposals: []
 - id: gilgamesh-fate
   name: ギルガメッシュ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kishi
@@ -1050,10 +1107,7 @@
     tag: hair_between_eyes
     frequency: 0.152
     threshold: 0.5
-  new_tag_proposals:
-  - name: 受肉
-    axis: 物語役割/状態
-    reason: 聖杯の汚染を浴びて肉体を与えられ世界に受肉した記述があるため。
+  new_tag_proposals: []
 - id: ginko
   name: ギンコ
   date: '2026-08-31'
@@ -1070,10 +1124,10 @@
   new_tag_proposals:
   - name: 万事屋
     axis: 関係性 / 立場
-    reason: 何でも屋としての事業・店を営み依頼を引き受けているため。
+    reason: 依頼を受けて何でも引き受ける職業・店舗を経営している記述があるが、既存の職業語彙に含まれないため。
 - id: giorno-giovanna
   name: ジョルノ・ジョバァーナ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: aome
@@ -1094,11 +1148,11 @@
     threshold: 0.35
   new_tag_proposals:
   - name: ギャングスター
-    axis: 信条
-    reason: マフィア/ギャングの世界で頂点を目指すという特定の野望・志を表す単語が語彙にないため。
+    axis: 関係性 / 立場
+    reason: 「Gang Star」を目指してギャング組織に加入し、その頂点に立つという独自の理念・立場を持つため。
 - id: gojo-satoru
   name: 五条悟
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -1116,7 +1170,7 @@
   new_tag_proposals: []
 - id: gon-freecss
   name: ゴン＝フリークス
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chairo-no-me
@@ -1134,7 +1188,7 @@
   new_tag_proposals: []
 - id: gotou-hitori
   name: 後藤ひとり
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -1149,13 +1203,10 @@
     tag: instrument
     frequency: 0.2046
     threshold: 0.35
-  new_tag_proposals:
-  - name: 動画投稿者
-    axis: 関係性 / 立場
-    reason: YouTubeチャンネル「guitarhero」を開設し演奏動画を投稿してフォロワーを得ているため。
+  new_tag_proposals: []
 - id: guts
   name: ガッツ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: houtai
@@ -1166,10 +1217,51 @@
     tag: muscular
     frequency: 0.1867
     threshold: 0.35
+  new_tag_proposals:
+  - name: youhei
+    axis: 関係性 / 立場
+    reason: 資料に「元傭兵」と明記されているが、既存語彙に「傭兵」が存在しないため。
+- id: hachiken-yuugo
+  name: 八軒勇吾
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.3333
+    threshold: 0.35
+  - id: ahoge
+    tag: ahoge
+    frequency: 0.3333
+    threshold: 0.35
+  - id: muhyoujou
+    tag: expressionless
+    frequency: 0.3333
+    threshold: 0.35
+  - id: gaitou
+    tag: hood
+    frequency: 0.3333
+    threshold: 0.35
+  - id: kemomimi
+    tag: animal_ears
+    frequency: 0.3333
+    threshold: 0.35
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.3333
+    threshold: 0.35
+  - id: meido
+    tag: maid
+    frequency: 0.3333
+    threshold: 0.35
+  - id: shippo
+    tag: tail
+    frequency: 0.3333
+    threshold: 0.35
   new_tag_proposals: []
 - id: hakurei-reimu
   name: 博麗霊夢
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chairo-no-me
@@ -1187,7 +1279,7 @@
   new_tag_proposals: []
 - id: hanagaki-takemichi
   name: 花垣武道
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: houtai
@@ -1198,13 +1290,10 @@
     tag: black_hair
     frequency: 0.2143
     threshold: 0.35
-  new_tag_proposals:
-  - name: 不良
-    axis: 立場
-    reason: 関東最凶の不良チームや東京卍會、黒龍などのチームに関わっているため。
+  new_tag_proposals: []
 - id: hatake-kakashi
   name: はたけカカシ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: sakadachi-gami
@@ -1230,20 +1319,20 @@
   new_tag_proposals: []
 - id: hatsune-miku
   name: 初音ミク
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2556
+    frequency: 0.2558
     threshold: 0.5
   new_tag_proposals:
   - name: バーチャルシンガー
     axis: 関係性 / 立場
-    reason: 音声合成ソフトウェアとして歌唱を行うバーチャルな歌手という独自の立場を表現するため。
+    reason: 音声ライブラリ・歌唱用ソフトウェアという製品由来のキャラクター表現を分類する語彙がないため。
 - id: hayakawa-aki
   name: 早川アキ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
@@ -1267,12 +1356,12 @@
     frequency: 0.2628
     threshold: 0.5
   new_tag_proposals:
-  - name: 悪魔ハンター
-    axis: 関係性/立場
-    reason: 公安対魔特異4課の公安対魔悪魔ハンターという職業・立場が提示されているが、既存の語彙に該当がないため。
+  - name: 監督役
+    axis: 立場
+    reason: パワーとデンジの両方を監督する役割を課されている。
 - id: hayasaka-ai
   name: 早坂愛
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: scrunchie
     frequency: 0.6674
@@ -1315,27 +1404,24 @@
     reason: 額にある第三の目（邪眼）についての記述があり、既存語彙に当てはまるものがないため。
 - id: hikigaya-hachiman
   name: 比企谷八幡
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: seifuku
     tag: school_uniform
     frequency: 0.2955
-    threshold: 0.35
+    threshold: 0.3
   - id: kusekke
     tag: hair_between_eyes
     frequency: 0.1591
     threshold: 0.5
   new_tag_proposals:
-  - name: 孤立・ぼっち
-    axis: 性格/気質
-    reason: 資料に「孤立しており友達がいない」と明記されているが、既存の語彙（人見知り等）とは一致しないため。
-  - name: 強制入部
-    axis: 関係性/立場
-    reason: 進路指導担当によって性格を変える目的で奉仕部へ強制的に入部させられている状態。
+  - name: 孤立
+    axis: 性格 / 気質
+    reason: 「孤立しており友達がいない」という状態を直接表す語彙が既存タグに存在しないため。
 - id: himura-kenshin
   name: 緋村剣心
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: murasaki-no-me
@@ -1358,26 +1444,20 @@
     tag: collarbone
     frequency: 0.1852
     threshold: 0.35
-  new_tag_proposals:
-  - name: 不殺
-    axis: 性格 / 信条
-    reason: 人を殺めないという固い誓いを立て、刃と柄が逆になった逆刃刀を使用する独自の信条。
+  new_tag_proposals: []
 - id: hinata-shouyou
   name: 日向翔陽
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chairo-no-me
     tag: brown_eyes
     frequency: 0.1617
     threshold: 0.35
-  new_tag_proposals:
-  - name: 異名・通称
-    axis: 人物像/社会的位置
-    reason: ブラジルでビーチバレーをしていた際に「Ninja Shoyo」という通称・名を得た記述があるため。
+  new_tag_proposals: []
 - id: hirasawa-yui
   name: 平沢唯
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: gakki
@@ -1387,10 +1467,8 @@
   new_tag_proposals: []
 - id: hisoka-morow
   name: ヒソカ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
-  - tag: teardrop_facial_mark
-    frequency: 0.4068
   - tag: card
     frequency: 0.3686
   near_miss:
@@ -1398,13 +1476,10 @@
     tag: earrings
     frequency: 0.3008
     threshold: 0.5
-  new_tag_proposals:
-  - name: 強敵の青田買い
-    axis: 性格 / 気質
-    reason: 将来の対戦相手となり得る才能ある者をあらかじめ見定める、または時期尚早に壊さず育ててから戦おうとする性質。
+  new_tag_proposals: []
 - id: hitsugaya-toushirou
   name: 日番谷冬獅郎
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: sakadachi-gami
@@ -1419,34 +1494,37 @@
     tag: blue_eyes
     frequency: 0.1958
     threshold: 0.35
+  new_tag_proposals: []
+- id: hodaka-morishima
+  name: 森嶋帆高
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss: []
   new_tag_proposals:
-  - name: tensai
-    axis: 資質
-    reason: 天性の才能により幼い年齢で霊術院に入学し最年少隊長に就任しているため。
+  - name: 家出
+    axis: 境遇
+    reason: 息苦しい生活から抜け出すために両親と家を捨てて単身で上京したため。
 - id: holo
   name: ホロ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: yaeba
     tag: fang
-    frequency: 0.2303
+    frequency: 0.2301
     threshold: 0.35
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.2222
+    frequency: 0.222
     threshold: 0.5
   - id: pattsun
     tag: blunt_bangs
-    frequency: 0.1638
+    frequency: 0.1637
     threshold: 0.4
-  new_tag_proposals:
-  - name: 豊穣神
-    axis: 外見 / 種族
-    reason: 土地の小麦の収穫を約束・保証する役割を担っていたため。
+  new_tag_proposals: []
 - id: honda-tooru
   name: 本田透
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: aome
@@ -1456,7 +1534,7 @@
   new_tag_proposals: []
 - id: hoshino-aquamarine
   name: 星野アクアマリン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: gaitou
@@ -1466,14 +1544,11 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.1603
-    threshold: 0.35
-  new_tag_proposals:
-  - name: 医師
-    axis: 関係性 / 立場
-    reason: 前世（ゴロー）において医師であったという設定が明記されているため。
+    threshold: 0.3
+  new_tag_proposals: []
 - id: hoshino-ruby
   name: 星野ルビー
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -1483,7 +1558,7 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.2196
-    threshold: 0.35
+    threshold: 0.3
   - id: akame
     tag: red_eyes
     frequency: 0.1804
@@ -1495,7 +1570,7 @@
   new_tag_proposals: []
 - id: hoshizora-rin
   name: 星空凛
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: midori-no-me
@@ -1510,13 +1585,42 @@
     tag: animal_ears
     frequency: 0.1535
     threshold: 0.35
+  new_tag_proposals: []
+- id: howl
+  name: ハウル
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4758
+    threshold: 0.5
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.3427
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.254
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2379
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1855
+    threshold: 0.35
   new_tag_proposals:
-  - name: スポーツ好き
-    axis: 性格 / 嗜好
-    reason: 資料にてスポーツが好きであり運動神経が非常に良いことが明記されているため
+  - name: 魔法使い
+    axis: 外見 / 記号職
+    reason: 魔法を扱う職業・存在。「魔女」の既存タグがあるが男性または汎用的な魔法使いの表記として必要。
+  - name: 見栄っ張り
+    axis: 性格 / 気質
+    reason: 他人に対して自分をよく見せようとする性分。カルシファーから「非常に見栄っ張りだ」と評されている。
 - id: hu-tao
   name: 胡桃
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -1542,10 +1646,10 @@
   new_tag_proposals:
   - name: 詩人
     axis: 関係性 / 立場
-    reason: 才能のある詩人であり、作品の多くが民衆の間で口伝されているという記述が存在するため。
+    reason: 才能ある詩人であり作品が民衆の口コミで広まっていると記述されているが、該当する語彙がないため。
 - id: hyuuga-hinata
   name: 日向ヒナタ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -1567,7 +1671,7 @@
   new_tag_proposals: []
 - id: ichimaru-gin
   name: 市丸ギン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: itome
@@ -1585,37 +1689,34 @@
   new_tag_proposals: []
 - id: ijichi-nijika
   name: 伊地知虹夏
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: seifuku
     tag: school_uniform
     frequency: 0.2365
-    threshold: 0.35
+    threshold: 0.3
   - id: mitsuami
     tag: braid
     frequency: 0.1881
     threshold: 0.35
   new_tag_proposals:
   - name: ドラマー
-    axis: 役割・技能
-    reason: 結束バンドのドラム担当として音楽活動をしている立場。
+    axis: 役割/職能
+    reason: 結束バンドのドラムを担当しているため。
 - id: ikari-shinji
   name: 碇シンジ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kurokami
     tag: black_hair
     frequency: 0.2776
     threshold: 0.35
-  new_tag_proposals:
-  - name: 臆病
-    axis: 性格 / 気質
-    reason: 予期せぬ出来事に対してパニックに陥り、困難から頻繁に逃げ出してしまう弱さが描写されているため。
+  new_tag_proposals: []
 - id: index
   name: インデックス
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: shirogami
@@ -1635,28 +1736,23 @@
   new_tag_proposals: []
 - id: inoue-takina
   name: 井ノ上たきな
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
     frequency: 0.1862
     threshold: 0.35
-  new_tag_proposals:
-  - name: リコリス
-    axis: 関係性 / 立場
-    reason: 資料で「かつては優秀なリコリスであった」と説明される固有の立場・職種が存在するが、既存語彙にないため。
+  new_tag_proposals: []
 - id: inumaki-toge
   name: 狗巻棘
-  date: '2026-08-30'
-  unmapped_danbooru:
-  - tag: facial_tattoo
-    frequency: 0.5811
+  date: '2026-08-31'
+  unmapped_danbooru: []
   near_miss:
   - id: seifuku
     tag: school_uniform
     frequency: 0.2905
-    threshold: 0.35
+    threshold: 0.3
   - id: kusekke
     tag: hair_between_eyes
     frequency: 0.25
@@ -1665,13 +1761,10 @@
     tag: blonde_hair
     frequency: 0.1959
     threshold: 0.35
-  new_tag_proposals:
-  - name: おにぎりの具のみで会話
-    axis: 性格 / 話し方
-    reason: 呪術能力（呪言）のため、会話をおにぎりの具材名でのみ行っている。
+  new_tag_proposals: []
 - id: inuyasha
   name: 犬夜叉
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -1686,10 +1779,13 @@
     tag: hakama
     frequency: 0.1652
     threshold: 0.35
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 新月の人間化
+    axis: 体質
+    reason: 毎月新月の夜に妖怪の力を失い人間に変化するという重要な体質的制限があるが、語彙に該当がないため。
 - id: ishigami-senku
   name: 石神千空
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -1703,7 +1799,7 @@
   new_tag_proposals: []
 - id: ishigami-yuu
   name: 石上優
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
@@ -1718,10 +1814,13 @@
     tag: black_eyes
     frequency: 0.1667
     threshold: 0.35
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 生徒会会計
+    axis: 立場
+    reason: 生徒会長（seitokaichou）の語彙はあるが、学園の資金を一人で管理する生徒会会計という役職を表す語彙がないため。
 - id: isshiki-iroha
   name: 一色いろは
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
@@ -1739,7 +1838,7 @@
   new_tag_proposals: []
 - id: itadori-yuuji
   name: 虎杖悠仁
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kizuato
@@ -1767,15 +1866,12 @@
     frequency: 0.1565
     threshold: 0.35
   new_tag_proposals:
-  - name: 超人的身体能力
-    axis: 外見 / 体格
-    reason: 生来の呪術を使用する才能はないが、砲丸投げでコーチに簡単に勝利するほどの驚異的な身体能力を持つと記載されているため。
-  - name: 容器（宿主）
+  - name: 器（宿体）
     axis: 関係性 / 立場
-    reason: 公式の職業・立場として「容器（Vessel）」であることが明確に指定されているため。
+    reason: 肩書きに「器（Vessel）」と記されており、他者の存在や力をその身に宿す特有の立場・役割を示しているため。
 - id: iwatani-naofumi
   name: 岩谷尚文
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: fur_trim
     frequency: 0.5522
@@ -1793,15 +1889,15 @@
     frequency: 0.1716
     threshold: 0.35
   new_tag_proposals:
-  - name: 勇者
-    axis: 立場
-    reason: 異世界救済のために召喚された「盾の勇者」であること。
   - name: 冤罪
-    axis: 状況
-    reason: 身に覚えのない理由でマルティに見捨てられ、世界から犯罪者として扱われたため。
+    axis: 物語役割 / 状況
+    reason: マルティに見捨てられ、世界の人々から犯罪者として扱われたため。
+  - name: カースパワー
+    axis: 能力 / 属性
+    reason: 世界の人々に対する「憤怒」の罪としてカースシリーズを解放したため。
 - id: izayoi-sakuya
   name: 十六夜咲夜
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: akame
@@ -1815,7 +1911,7 @@
   new_tag_proposals: []
 - id: jabami-yumeko
   name: 蛇喰夢子
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: yubiwa
@@ -1825,22 +1921,17 @@
   new_tag_proposals: []
 - id: jinshi
   name: 壬氏
-  date: '2026-08-30'
-  unmapped_danbooru:
-  - tag: hanfu
-    frequency: 0.4096
+  date: '2026-08-31'
+  unmapped_danbooru: []
   near_miss:
   - id: roobu
     tag: robe
     frequency: 0.2651
     threshold: 0.35
-  new_tag_proposals:
-  - name: 宦官
-    axis: 関係性 / 立場
-    reason: 後宮の仕事を取り仕切る立場として明記されているが、語彙集に含まれていないため。
+  new_tag_proposals: []
 - id: joseph-joestar
   name: ジョセフ・ジョースター
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chapatsu
@@ -1866,7 +1957,7 @@
   new_tag_proposals: []
 - id: kaga-kancolle
   name: 加賀
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -1890,25 +1981,44 @@
     frequency: 0.2048
     threshold: 0.5
   new_tag_proposals: []
+- id: kagamihara-nadeshiko
+  name: 各務原なでしこ
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: twintail
+    tag: twintails
+    frequency: 0.2479
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2292
+    threshold: 0.35
+  - id: ahoge
+    tag: ahoge
+    frequency: 0.1958
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1958
+    threshold: 0.3
+  new_tag_proposals:
+  - name: キャンパー
+    axis: 属性/趣味
+    reason: 野外活動サークルに所属しキャンプに傾倒しているため。
 - id: kagamine-rin
   name: 鏡音リン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: heddohon
     tag: headphones
     frequency: 0.2318
     threshold: 0.35
-  new_tag_proposals:
-  - name: VOCALOID
-    axis: 存在形態
-    reason: クリプトン・フューチャー・メディアが開発・配信する歌唱音声合成ソフトウェアおよびそのキャラクターであるため。
-  - name: ボーカル
-    axis: 役割
-    reason: 対となるボーカルとして歌唱を担当する位置づけが定義されているため。
+  new_tag_proposals: []
 - id: kagari-atsuko
   name: 篝敦子
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: majo
@@ -1923,10 +2033,13 @@
     tag: brown_eyes
     frequency: 0.1631
     threshold: 0.35
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 非魔法出身
+    axis: 出自
+    reason: 魔法と関係のない背景の出身でありながら魔法学校に入学した構造を記述するため。
 - id: kageyama-shigeo
   name: 影山茂夫
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kurome
@@ -1940,20 +2053,17 @@
   new_tag_proposals: []
 - id: kageyama-tobio
   name: 影山飛雄
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
     frequency: 0.2774
     threshold: 0.5
-  new_tag_proposals:
-  - name: コート上の王様
-    axis: 異名・評価
-    reason: 中学時代における横暴な態度やチームメイトへの命じ方によって付けられた通称。
+  new_tag_proposals: []
 - id: kagura
   name: 神楽
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
@@ -1963,7 +2073,7 @@
   new_tag_proposals: []
 - id: kaiba-seto
   name: 海馬瀬人
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: card
     frequency: 0.3876
@@ -1973,19 +2083,56 @@
     frequency: 0.2823
     threshold: 0.5
   new_tag_proposals: []
+- id: kaine
+  name: カイネ
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: negligee
+    frequency: 0.56
+  - tag: lingerie
+    frequency: 0.4752
+  - tag: bandaged_neck
+    frequency: 0.3718
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.33
+    threshold: 0.5
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.2871
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2607
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2233
+    threshold: 0.35
+  new_tag_proposals:
+  - name: 商人
+    axis: 関係性 / 立場
+    reason: アリア商会という商業組織の頭領（chief）を務めているため。
 - id: kamado-nezuko
   name: 竈門禰豆子
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: akagami
     tag: orange_hair
     frequency: 0.1545
     threshold: 0.35
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 身体伸縮
+    axis: 能力
+    reason: 自身の大きさを自在に変えることができる記述があるため。
+  - name: 睡眠代替
+    axis: 体質
+    reason: 人間を捕食する代わりに長時間の睡眠でエネルギーを回復する性質を持つため。
 - id: kamado-tanjirou
   name: 竈門炭治郎
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: akagami
@@ -1996,26 +2143,20 @@
     tag: black_hair
     frequency: 0.1562
     threshold: 0.35
-  new_tag_proposals:
-  - name: 妹思い
-    axis: 性格/信条
-    reason: 妹の禰豆子を守る意識が非常に強く、治す方法を探す目標を立てているため。
+  new_tag_proposals: []
 - id: kamiya-kaoru
   name: 神谷薫
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: aogami
     tag: blue_hair
     frequency: 0.1667
     threshold: 0.35
-  new_tag_proposals:
-  - name: 料理下手
-    axis: 性格 / 癖・仕草
-    reason: 友人や家族から料理が嫌がられているとの記述が存在するため。
+  new_tag_proposals: []
 - id: kaname-madoka
   name: 鹿目まどか
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
@@ -2027,9 +2168,44 @@
     frequency: 0.2678
     threshold: 0.35
   new_tag_proposals: []
+- id: kanbaru-suruga
+  name: 神原駿河
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: aogami
+    tag: blue_hair
+    frequency: 0.2713
+    threshold: 0.35
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.1894
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.183
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1621
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1589
+    threshold: 0.35
+  new_tag_proposals:
+  - name: レズビアン
+    axis: 性嗜好
+    reason: 自認のレズビアンであることが明記されているが既存語彙にないため。
+  - name: ロリコン
+    axis: 性嗜好
+    reason: 自認のロリコンであることが明記されているが既存語彙にないため。
+  - name: ストーキング
+    axis: 行動傾向
+    reason: 阿良々木暦をストーキングしたという事実が明記されているが既存語彙にないため。
 - id: kaneki-ken
   name: 金木研
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kamen
@@ -2055,7 +2231,7 @@
   new_tag_proposals: []
 - id: kanroji-mitsuri
   name: 甘露寺蜜璃
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: buki
@@ -2069,7 +2245,7 @@
   new_tag_proposals: []
 - id: kasuga-ayumu
   name: 春日歩
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
@@ -2084,13 +2260,10 @@
     tag: black_hair
     frequency: 0.1655
     threshold: 0.35
-  new_tag_proposals:
-  - name: あだ名の定着
-    axis: 関係性 / 立場
-    reason: 「大阪」というあだ名が教師やクラス名簿にまで使用され、定着しているため。
+  new_tag_proposals: []
 - id: katsura-kotonoha
   name: 桂言葉
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -2108,7 +2281,7 @@
   new_tag_proposals: []
 - id: katsuragi-misato
   name: 葛城ミサト
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -2122,7 +2295,7 @@
   new_tag_proposals: []
 - id: kiki
   name: キキ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chairo-no-me
@@ -2140,7 +2313,7 @@
   new_tag_proposals: []
 - id: kikyou
   name: 桔梗
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: buki
@@ -2159,13 +2332,10 @@
     tag: purple_eyes
     frequency: 0.2044
     threshold: 0.35
-  new_tag_proposals:
-  - name: 復活した死者
-    axis: 存在状態
-    reason: 一度死亡した後に泥と葉で作られた身体で復活し、死魂を補給して動いているため。
+  new_tag_proposals: []
 - id: killua-zoldyck
   name: キルア＝ゾルディック
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: sakadachi-gami
@@ -2179,7 +2349,7 @@
   new_tag_proposals: []
 - id: kinomoto-sakura
   name: 木之本桜
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
@@ -2193,11 +2363,11 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.2248
-    threshold: 0.35
+    threshold: 0.3
   new_tag_proposals: []
 - id: kirigaya-kazuto
   name: キリト
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -2219,13 +2389,42 @@
   new_tag_proposals:
   - name: ソロプレイヤー
     axis: 関係性 / 立場
-    reason: ギルドに所属せず通常一人で行動するプレイヤーであるため。
+    reason: ギルドに所属せず通常一人で行動するゲームプレイ形式を取っているため。
   - name: ベータテスター
     axis: 関係性 / 立場
-    reason: 「ソードアート・オンライン」のベータテストに参加した数少ないプレイヤーの一人であるため。
+    reason: Sword Art Onlineのベータテスト期間をプレイした数少ない人物であるため。
+- id: kirigiri-kyouko
+  name: 霧切響子
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: black_ribbon
+    frequency: 0.5
+  - tag: side_braid
+    frequency: 0.4062
+  - tag: open_clothes
+    frequency: 0.3877
+  - tag: open_jacket
+    frequency: 0.3543
+  near_miss:
+  - id: momoiro-no-me
+    tag: pink_eyes
+    frequency: 0.2106
+    threshold: 0.35
+  - id: pattsun
+    tag: blunt_bangs
+    frequency: 0.2056
+    threshold: 0.4
+  - id: shirogami
+    tag: grey_hair
+    frequency: 0.1831
+    threshold: 0.35
+  new_tag_proposals:
+  - name: 探偵
+    axis: 関係性 / 立場
+    reason: 資料に「超高校級の探偵」とあるが、語彙に該当する見出し語が存在しないため。
 - id: kirisaki-chitoge
   name: 桐崎千棘
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -2240,13 +2439,10 @@
     tag: ponytail
     frequency: 0.1522
     threshold: 0.35
-  new_tag_proposals:
-  - name: 偽の恋人
-    axis: 関係性 / 関係の状態
-    reason: 抗争回避のために演じられた狂言の恋愛関係を表す既存語彙がないため。
+  new_tag_proposals: []
 - id: kirisame-marisa
   name: 霧雨魔理沙
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
@@ -2279,19 +2475,11 @@
     tag: purple_hair
     frequency: 0.2187
     threshold: 0.35
-  new_tag_proposals:
-  - name: 喰種
-    axis: 外見 / 種族
-    reason: 人間に擬態し、独自の社会や食料供給を必要とする人外種族であるため。
-  - name: ウェイトレス
-    axis: 外見 / 記号職
-    reason: 喰種の集まりの場兼食料供給源となっているカフェで働いているため。
+  new_tag_proposals: []
 - id: kiriyama-rei
   name: 桐山零
-  date: '2026-08-30'
-  unmapped_danbooru:
-  - tag: black-framed_eyewear
-    frequency: 0.7143
+  date: '2026-08-31'
+  unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
@@ -2309,16 +2497,10 @@
     tag: black_eyes
     frequency: 0.2143
     threshold: 0.35
-  new_tag_proposals:
-  - name: 将棋棋士
-    axis: 関係性 / 立場
-    reason: 中学生で史上5人目のプロとなり、将棋による対価で自活している独自の職業的立場。
-  - name: 自立した生活
-    axis: 性格 / 気質
-    reason: 高校に通いつつ自身の給料と貯金でアパートに一人暮らしをしている状態。
+  new_tag_proposals: []
 - id: kiryuuin-satsuki
   name: 鬼龍院皐月
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -2336,13 +2518,9 @@
   new_tag_proposals: []
 - id: kita-ikuyo
   name: 喜多郁代
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
-  - id: seifuku
-    tag: school_uniform
-    frequency: 0.3113
-    threshold: 0.35
   - id: kin-no-me
     tag: yellow_eyes
     frequency: 0.1822
@@ -2352,12 +2530,12 @@
     frequency: 0.173
     threshold: 0.35
   new_tag_proposals:
-  - name: SNS投稿・映え志向
+  - name: SNS頻繁投稿
     axis: 性格 / 癖・仕草
-    reason: 写真をよく撮影しIsostaにアップロードしているという記述があるため。
+    reason: 頻繁に写真を撮影し、Isostaにアップロードしているという記述があるため。
 - id: kitagawa-marin
   name: 喜多川海夢
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -2371,7 +2549,7 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.2061
-    threshold: 0.35
+    threshold: 0.3
   - id: pinku-gami
     tag: pink_hair
     frequency: 0.1967
@@ -2386,11 +2564,14 @@
     threshold: 0.5
   new_tag_proposals:
   - name: コスプレイヤー
-    axis: 関係性 / 立場
-    reason: 資料にコスプレイヤーであることが明記されているが、既存語彙の記号職や立場に当てはまる項目がないため。
+    axis: 属性 / 趣味
+    reason: コスプレイヤーであることが資料に明記されているが、既存の語彙（記号職等）に含まれないため。
+  - name: 手先が不器用
+    axis: 性格 / 技能
+    reason: 手先の作業が得意ではない（不器用）と記述されているが、既存の癖や気質に該当がないため。
 - id: klee
   name: クレー
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: gaitou
@@ -2406,9 +2587,22 @@
     frequency: 0.2667
     threshold: 0.35
   new_tag_proposals: []
+- id: kobuchizawa-shirase
+  name: 小淵沢報瀬
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.1628
+    threshold: 0.6
+  new_tag_proposals:
+  - name: 変人扱い
+    axis: 社会・周囲からの評価
+    reason: 友達が少なく学校で変人扱いされており陰で「南極」と呼ばれているため。
 - id: kochou-shinobu
   name: 胡蝶しのぶ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -2417,25 +2611,39 @@
     threshold: 0.5
   new_tag_proposals:
   - name: 毒使い
-    axis: 能力
-    reason: 毒と薬の調合に精通し、自ら毒を服用して体に溜め込む特殊な戦術を用いるため
+    axis: 戦闘/技能
+    reason: 医学知識を活かして毒や薬を調合し、自らの身体に毒を仕込んで戦闘に利用しているため。
 - id: koizumi-hanayo
   name: 小泉花陽
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: seifuku
     tag: school_uniform
     frequency: 0.2082
-    threshold: 0.35
+    threshold: 0.3
   - id: kyonyuu
     tag: large_breasts
     frequency: 0.1758
     threshold: 0.5
   new_tag_proposals: []
+- id: komaeda-nagito
+  name: 狛枝凪斗
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: open_clothes
+    frequency: 0.3977
+  - tag: green_jacket
+    frequency: 0.3619
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.231
+    threshold: 0.35
+  new_tag_proposals: []
 - id: komatsu-nana
   name: 小松奈々
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: nail_polish
     frequency: 0.3529
@@ -2456,22 +2664,12 @@
     tag: long_hair
     frequency: 0.1765
     threshold: 0.35
-  new_tag_proposals:
-  - name: jibun-sagashi
-    axis: 性格 / 信条
-    reason: 自分の夢を探すために東京へ来たという、自己追及の動機を持っているため。
-  - name: fan
-    axis: 性格 / 気質
-    reason: 特定ロックバンド（Trapnest）の非常に大きなファンであるという熱意を持っているため。
+  new_tag_proposals: []
 - id: komi-shouko
   name: 古見硝子
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
-  - id: seifuku
-    tag: school_uniform
-    frequency: 0.3416
-    threshold: 0.35
   - id: kyonyuu
     tag: large_breasts
     frequency: 0.2998
@@ -2484,16 +2682,10 @@
     tag: purple_hair
     frequency: 0.1805
     threshold: 0.35
-  new_tag_proposals:
-  - name: コミュ症
-    axis: 性格/気質
-    reason: 極度の対人不安により言葉を発することができなくなる症状・性質を表すため。
-  - name: 筆談
-    axis: 性格/話し方
-    reason: 発話しづらい代わりにノートや黒板に文字を書いてコミュニケーションを取る独特の対話スタイルを示すため。
+  new_tag_proposals: []
 - id: konpaku-youmu
   name: 魂魄妖夢
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: midori-no-me
@@ -2505,22 +2697,46 @@
     frequency: 0.164
     threshold: 0.35
   new_tag_proposals:
-  - name: 庭師
-    axis: 役割・職業
-    reason: 白玉楼の庭の手入れをする職能が明記されているが、語彙に存在しないため。
+  - name: 真面目
+    axis: 性格 / 気質
+    reason: 資料に『直情的で真面目な妖夢の性格』との記述があるが、既存の語彙に該当がないため。
 - id: kotobuki-tsumugi
   name: 琴吹紬
-  date: '2026-08-30'
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss: []
+  new_tag_proposals:
+  - name: キーボード担当
+    axis: 役割
+    reason: バンド「Ho-kago Tea Time」でキーボードを担当しているため。
+  - name: 作曲者
+    axis: 役割
+    reason: バンドでメインの作曲者を務めているため。
+- id: kougami-shinya
+  name: 狡噛慎也
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
-  - id: seifuku
-    tag: school_uniform
-    frequency: 0.3168
+  - id: tabako
+    tag: cigarette
+    frequency: 0.275
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.25
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.15
+    threshold: 0.35
+  - id: sakadachi-gami
+    tag: spiked_hair
+    frequency: 0.15
     threshold: 0.35
   new_tag_proposals: []
 - id: kousaka-honoka
   name: 高坂穂乃果
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chapatsu
@@ -2530,7 +2746,7 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.2095
-    threshold: 0.35
+    threshold: 0.3
   - id: tebukuro
     tag: gloves
     frequency: 0.1616
@@ -2542,7 +2758,7 @@
   new_tag_proposals: []
 - id: kuchiki-rukia
   name: 朽木ルキア
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: wasou
@@ -2560,13 +2776,9 @@
   new_tag_proposals: []
 - id: kugisaki-nobara
   name: 釘崎野薔薇
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
-  - id: seifuku
-    tag: school_uniform
-    frequency: 0.3263
-    threshold: 0.35
   - id: kyonyuu
     tag: large_breasts
     frequency: 0.3107
@@ -2574,7 +2786,7 @@
   new_tag_proposals: []
 - id: kurama-yyh
   name: 蔵馬
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: rose
     frequency: 0.3663
@@ -2586,14 +2798,11 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.198
-    threshold: 0.35
-  new_tag_proposals:
-  - name: 盗賊
-    axis: 関係性 / 立場
-    reason: かつて魔界で最も恐れられた盗賊であったという記述があるが、既存の職業語彙に含まれないため。
+    threshold: 0.3
+  new_tag_proposals: []
 - id: kurapika
   name: クラピカ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
@@ -2608,13 +2817,10 @@
     tag: hair_between_eyes
     frequency: 0.2115
     threshold: 0.5
-  new_tag_proposals:
-  - name: 遺品奪還
-    axis: 物語役割 / 目的
-    reason: 虐殺された同胞の奪われた目を取り戻すことを復讐と並ぶ行動目的としているため。
+  new_tag_proposals: []
 - id: kuririn
   name: クリリン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
@@ -2632,7 +2838,7 @@
   new_tag_proposals: []
 - id: kurokawa-akane
   name: 黒川あかね
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
@@ -2658,14 +2864,11 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.193
-    threshold: 0.35
-  new_tag_proposals:
-  - name: 恋愛リアリティショー出演者
-    axis: 役割
-    reason: 恋愛リアリティショー『The Beginning of My Love With An Idol』のキャストとしてアクアと共演しているため
+    threshold: 0.3
+  new_tag_proposals: []
 - id: kuroko-tetsuya
   name: 黒子テツヤ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -2675,7 +2878,7 @@
   new_tag_proposals: []
 - id: kurosaki-ichigo
   name: 黒崎一護
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -2695,15 +2898,15 @@
     frequency: 0.1513
     threshold: 0.35
   new_tag_proposals:
+  - name: 高校生
+    axis: 関係性 / 立場
+    reason: 空座町に住む高校生であることが明記されているが、語彙に存在しないため。
   - name: 死神代行
     axis: 関係性 / 立場
-    reason: 本来の死神ではなく、死神の力を譲り受けてその役割を代わりに果たす立場。
-  - name: 霊感
-    axis: 性格 / 気質
-    reason: 生者と死者の区別がつかないほど霊を見ることができる体質。
+    reason: 死神そのものではなく代理の立場を務める記述があるが、専用の語彙が存在しないため。
 - id: kusanagi-motoko
   name: 草薙素子
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -2724,11 +2927,11 @@
     threshold: 0.35
   new_tag_proposals:
   - name: ハッカー
-    axis: 能力
-    reason: 公式に超ウィザード級ハッカーとして登録されている記述があるが、該当する語彙がないため。
+    axis: 関係性 / 立場
+    reason: スーパーウィザード級ハッカーとして公式に登録されているため。
 - id: kushieda-minori
   name: 櫛枝実乃梨
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: murasaki-no-me
@@ -2738,7 +2941,7 @@
   new_tag_proposals: []
 - id: kuujou-joutarou
   name: 空条承太郎
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: gaitou
@@ -2760,7 +2963,7 @@
   new_tag_proposals: []
 - id: l-lawliet
   name: L
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
@@ -2770,13 +2973,10 @@
   new_tag_proposals:
   - name: 探偵
     axis: 関係性 / 立場
-    reason: 世界的に有名な探偵という役割・立場が明記されているが、既存の語彙に該当するものが存在しないため。
-  - name: 代理人経由
-    axis: 物語役割 / 秘密
-    reason: 世界とのやり取りを助手のワタリを通じてのみ行うという特異な交流・活動形式が提示されているため。
+    reason: 「世界的に有名な探偵」という明確な職業・立場が示されているが、既存の語彙リストに存在しないため。
 - id: lelouch-lamperouge
   name: ルルーシュ・ランペルージ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
@@ -2796,12 +2996,12 @@
     frequency: 0.2172
     threshold: 0.5
   new_tag_proposals:
-  - name: 反逆者
-    axis: 物語役割/立場
-    reason: 帝国への反逆を開始し、レジスタンス・黒の騎士団を率いているため。
+  - name: 革命家
+    axis: 物語役割/役割
+    reason: 黒の騎士団を結成して民衆の支持を得て帝国に反逆する役割として資料に明記されているため。
 - id: levi
   name: リヴァイ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: gaitou
@@ -2819,7 +3019,7 @@
   new_tag_proposals: []
 - id: li-syaoran
   name: 李小狼
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: green_hat
     frequency: 0.352
@@ -2831,18 +3031,48 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.264
-    threshold: 0.35
+    threshold: 0.3
   - id: kodomo
     tag: child
     frequency: 0.224
     threshold: 0.5
+  new_tag_proposals: []
+- id: link
+  name: リンク
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.387
+    threshold: 0.5
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.3047
+    threshold: 0.35
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.1842
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.1777
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1624
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.1581
+    threshold: 0.35
   new_tag_proposals:
-  - name: クローン・本体
-    axis: 物語役割 / 役割
-    reason: サクラの側にいるクローンに対して、オリジナルの本体であるという設定・立場が存在するため。
+  - name: サイレントプロタゴニスト
+    axis: 性格 / 話し方
+    reason: ゲーム内では一切言葉を発しない主人公としての役割を持っているため。
 - id: loid-forger
   name: ロイド・フォージャー
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
@@ -2860,10 +3090,10 @@
   new_tag_proposals:
   - name: スパイ
     axis: 関係性 / 立場
-    reason: 裏の職業として諜報活動を行う立場であり、既存の語彙に存在しないため。
+    reason: 身分を偽装して潜入・諜報活動を行う記号的職業を表す語彙が既存リストにないため。
 - id: lum
   name: ラム
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: oni
@@ -2893,7 +3123,7 @@
   new_tag_proposals: []
 - id: lupin-iii
   name: ルパン三世
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kurokami
@@ -2932,15 +3162,18 @@
     tag: cigarette
     frequency: 0.1568
     threshold: 0.35
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: datsugoku
+    axis: 技能・行動
+    reason: 何度捕まっても常に脱獄に成功しているという特筆すべき実績があるため。
 - id: makima
   name: マキマ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.2052
+    frequency: 0.2054
     threshold: 0.5
   - id: semi-long
     tag: medium_hair
@@ -2949,7 +3182,7 @@
   new_tag_proposals: []
 - id: makise-kurisu
   name: 牧瀬紅莉栖
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -2969,15 +3202,13 @@
     frequency: 0.1966
     threshold: 0.5
   new_tag_proposals:
-  - name: 飛び級
-    axis: 経歴
-    reason: 18歳で研究員を務めており、アメリカの教育システムで飛び級をしたという事実が明記されているため。
+  - name: kagakusha
+    axis: 関係性 / 立場
+    reason: 大学研究所に所属し論文を執筆する科学者・研究者という属性を正確に表現するため。
 - id: maomao
   name: 猫猫
-  date: '2026-08-30'
-  unmapped_danbooru:
-  - tag: hanfu
-    frequency: 0.6082
+  date: '2026-08-31'
+  unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
@@ -2999,13 +3230,10 @@
     tag: small_breasts
     frequency: 0.1528
     threshold: 0.5
-  new_tag_proposals:
-  - name: 薬師
-    axis: 関係性 / 立場
-    reason: 薬の知識を持ち調合や治療を手伝う職業的専門性を示すため。
+  new_tag_proposals: []
 - id: matoi-ryuuko
   name: 纏流子
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
@@ -3015,7 +3243,7 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.2636
-    threshold: 0.35
+    threshold: 0.3
   - id: buki
     tag: weapon
     frequency: 0.2573
@@ -3032,13 +3260,10 @@
     tag: hair_between_eyes
     frequency: 0.1722
     threshold: 0.5
-  new_tag_proposals:
-  - name: 実姉妹
-    axis: 関係性 / 関係の型
-    reason: 鬼龍院皐月が姉であることが明記されているが、語彙には義兄妹や双子しか存在しないため。
+  new_tag_proposals: []
 - id: matou-sakura
   name: 間桐桜
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -3048,7 +3273,7 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.1573
-    threshold: 0.35
+    threshold: 0.3
   - id: kusekke
     tag: hair_between_eyes
     frequency: 0.1555
@@ -3056,7 +3281,7 @@
   new_tag_proposals: []
 - id: megumin
   name: めぐみん
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
@@ -3071,13 +3296,10 @@
     tag: choker
     frequency: 0.2446
     threshold: 0.35
-  new_tag_proposals:
-  - name: 爆裂魔法限定
-    axis: 能力・制約
-    reason: 最強の上級スキル「爆裂魔法」しか使えず、莫大な魔力を消費するため1日に1回しか発動できないという極端な性能・制約を持っているため。
+  new_tag_proposals: []
 - id: midoriya-izuku
   name: 緑谷出久
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
@@ -3089,12 +3311,12 @@
     frequency: 0.1616
     threshold: 0.35
   new_tag_proposals:
-  - name: 無個性
-    axis: 能力・体質
-    reason: 能力社会において生まれつき特別な力を持たない状態を表す属性。
+  - name: 正義感
+    axis: 性格 / 信条
+    reason: 資料に「生まれ持ったヒーロー気質と強い正義感」と記載されているが、既存の語彙に当てはまるものがないため。
 - id: mikasa-ackerman
   name: ミカサ・アッカーマン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: buki
@@ -3108,7 +3330,7 @@
   new_tag_proposals: []
 - id: miki-sayaka
   name: 美樹さやか
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: buki
@@ -3118,7 +3340,7 @@
   new_tag_proposals: []
 - id: milim-nava
   name: ミリム・ナーヴァ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -3132,10 +3354,10 @@
   new_tag_proposals:
   - name: 魔王
     axis: 関係性 / 立場
-    reason: 「最古にして最強の魔王」という独自の地位・立場が明示されているため。
+    reason: 「最古にして最強の魔王」として言及されているが、語彙の立場一覧に該当する見出し語が存在しないため。
 - id: minami-kotori
   name: 南ことり
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
@@ -3143,12 +3365,12 @@
     frequency: 0.1548
     threshold: 0.35
   new_tag_proposals:
-  - name: フォロー役
-    axis: 役割/人間関係
-    reason: 高坂穂乃果が園田海未に叱られているときに穂乃果のフォローに回ることが多いため。
+  - name: 衣装デザイナー
+    axis: 関係性 / 立場
+    reason: μ'sの衣装デザインを担当していることが資料に記載されているため。
 - id: mine-fujiko
   name: 峰不二子
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: keshou
@@ -3164,12 +3386,12 @@
     frequency: 0.1704
     threshold: 0.5
   new_tag_proposals:
-  - name: 怪盗・泥棒
+  - name: 泥棒・怪盗
     axis: 関係性 / 立場
-    reason: ルパンに匹敵する盗みの技術を持ち戦利品を持ち去る立場だが、該当する語彙が存在しないため。
+    reason: 資料に「泥棒としての技術はルパンに匹敵する」と明記されているが、語彙内に該当する分類がないため。
 - id: misaka-mikoto
   name: 御坂美琴
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
@@ -3177,9 +3399,34 @@
     frequency: 0.2637
     threshold: 0.5
   new_tag_proposals: []
+- id: mitsuha-miyamizu
+  name: 宮水三葉
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.3357
+    threshold: 0.35
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.2246
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1773
+    threshold: 0.35
+  - id: mitsuami
+    tag: braid
+    frequency: 0.1537
+    threshold: 0.35
+  new_tag_proposals:
+  - name: タイムスリップ
+    axis: 物語役割 / 限定・反復
+    reason: 資料に『タイムスリップ後は25-26歳』という記述があり、時間を超える現象が存在するため。
 - id: miyamizu-mitsuha
   name: 宮水三葉
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
@@ -3201,7 +3448,7 @@
   new_tag_proposals: []
 - id: miyazono-kaori
   name: 宮園かをり
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: itome
@@ -3214,11 +3461,14 @@
     threshold: 0.5
   new_tag_proposals:
   - name: ヴァイオリニスト
-    axis: 立場
-    reason: プロフィールに記載されている職業・技能だが、対応する語彙が存在しないため
+    axis: 関係性 / 立場
+    reason: 音楽家・演奏者としての専門的な立場を示す概念が語彙に含まれていないため。
+  - name: 自由奔放
+    axis: 性格 / 気質
+    reason: 型や規範にとらわれない性質として資料に明記されているが、既存の語彙タグでは正確に表現しきれないため。
 - id: mizuhara-chizuru
   name: 水原千鶴
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -3229,16 +3479,11 @@
     tag: braid
     frequency: 0.2917
     threshold: 0.35
-  new_tag_proposals:
-  - name: レンタル彼女
-    axis: 関係性 / 立場
-    reason: 擬似的な恋人関係を提供する職業的立場であり、既存の語彙（女優やメイド等）に当てはまらないため。
+  new_tag_proposals: []
 - id: mutou-yuugi
   name: 武藤遊戯
-  date: '2026-08-30'
-  unmapped_danbooru:
-  - tag: colored_bangs
-    frequency: 0.5205
+  date: '2026-08-31'
+  unmapped_danbooru: []
   near_miss:
   - id: murasaki-gami
     tag: purple_hair
@@ -3259,11 +3504,11 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.1712
-    threshold: 0.35
+    threshold: 0.3
   new_tag_proposals: []
 - id: nagato-yuki
   name: 長門有希
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: megane
@@ -3273,7 +3518,7 @@
   new_tag_proposals: []
 - id: nagatoro-hayase
   name: 長瀞早瀬
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: yaeba
@@ -3291,24 +3536,21 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.1707
-    threshold: 0.35
+    threshold: 0.3
   new_tag_proposals: []
 - id: nagisa-kaworu
   name: 渚カヲル
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
     frequency: 0.301
     threshold: 0.5
-  new_tag_proposals:
-  - name: 独自の人間呼称
-    axis: 性格 / 話し方
-    reason: 人間を「リリン」と呼ぶ独自の表現・言葉遣いをするため。
+  new_tag_proposals: []
 - id: nakano-azusa
   name: 中野梓
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kemomimi
@@ -3318,7 +3560,7 @@
   new_tag_proposals: []
 - id: nakano-ichika
   name: 中野一花
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -3332,11 +3574,11 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.1704
-    threshold: 0.35
+    threshold: 0.3
   new_tag_proposals: []
 - id: nakano-itsuki
   name: 中野五月
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: star_hair_ornament
     frequency: 0.8817
@@ -3356,14 +3598,11 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.2138
-    threshold: 0.35
-  new_tag_proposals:
-  - name: 五つ子
-    axis: 関係性 / 関係の型
-    reason: 語彙『双子』は二人を前提としているが、資料には『五つ子の五女』とあり概念が拡張されているため。
+    threshold: 0.3
+  new_tag_proposals: []
 - id: nakano-miku
   name: 中野三玖
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
@@ -3373,11 +3612,14 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.2065
-    threshold: 0.35
-  new_tag_proposals: []
+    threshold: 0.3
+  new_tag_proposals:
+  - name: itsutsugo
+    axis: 関係性の型
+    reason: 五つ子の三女という出生属性があるが、既存語彙の『双子』は二人に限定されているため
 - id: nakano-nino
   name: 中野二乃
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: black_ribbon
     frequency: 0.6572
@@ -3398,13 +3640,10 @@
     tag: red_hair
     frequency: 0.2264
     threshold: 0.35
-  new_tag_proposals:
-  - name: 五つ子
-    axis: 関係性 / 関係の型
-    reason: 双子を超えて同一の容姿と生年月日を共有する5人の多胎児姉妹という特殊な関係性。
+  new_tag_proposals: []
 - id: nakano-yotsuba
   name: 中野四葉
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: green_ribbon
     frequency: 0.7525
@@ -3430,7 +3669,7 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.1622
-    threshold: 0.35
+    threshold: 0.3
   - id: gaitou
     tag: hood
     frequency: 0.1537
@@ -3438,29 +3677,29 @@
   new_tag_proposals: []
 - id: nami
   name: ナミ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
-    frequency: 0.3925
+    frequency: 0.3926
     threshold: 0.5
   - id: sakotsu
     tag: collarbone
-    frequency: 0.2906
+    frequency: 0.2905
     threshold: 0.35
   - id: kin-no-me
     tag: orange_eyes
-    frequency: 0.2712
+    frequency: 0.2711
     threshold: 0.35
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.1979
+    frequency: 0.1981
     threshold: 0.35
   new_tag_proposals:
-  - name: 航海士
-    axis: 立場・職能
-    reason: 気象や海象の分析と操船の判断を行い、船の針路を担う専門的な役職・技能を示すため。
+  - name: koukaishi
+    axis: 関係性 / 立場
+    reason: 船の航行や天候予測を専門的に担う役職「航海士（Navigator）」であるため。
 - id: nanase-haruka
   name: 七瀬遙
   date: '2026-08-31'
@@ -3470,10 +3709,13 @@
     tag: hair_between_eyes
     frequency: 0.3077
     threshold: 0.5
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 競泳選手
+    axis: 関係性 / 立場
+    reason: 岩鳶高校水泳部に所属するフリースタイル（クロール）の選手であるため。
 - id: natsuki-subaru
   name: ナツキ・スバル
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: aome
@@ -3502,8 +3744,11 @@
     threshold: 0.35
   new_tag_proposals:
   - name: 引きこもり
-    axis: 生活習慣/状態
-    reason: 「元の世界では引きこもりであり」とあるが、該当する語彙が存在しないため。
+    axis: 性格 / 気質
+    reason: 自宅に閉じこもる生活スタイルを表す概念。
+  - name: 異世界召喚
+    axis: 物語役割 / 導入
+    reason: 現実世界から異世界へと強制的・突発的に移転させられる構造。
 - id: natsume-takashi
   name: 夏目貴志
   date: '2026-08-31'
@@ -3534,9 +3779,57 @@
     frequency: 0.1791
     threshold: 0.3
   new_tag_proposals: []
+- id: nishikata
+  name: 西片
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: grass
+    frequency: 0.5
+  - tag: hand_to_own_mouth
+    frequency: 0.5
+  near_miss:
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.25
+    threshold: 0.35
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.25
+    threshold: 0.6
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.25
+    threshold: 0.3
+  - id: gaitou
+    tag: coat
+    frequency: 0.25
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.25
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.25
+    threshold: 0.5
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.25
+    threshold: 0.35
+  - id: mafuraa
+    tag: scarf
+    frequency: 0.25
+    threshold: 0.35
+  new_tag_proposals:
+  - name: kowagari
+    axis: 性格/気質
+    reason: 資料に「非常に怖がりやすい」との明確な記述があるため。
+  - name: kodomo-jita
+    axis: 性格/嗜好
+    reason: 資料に「ブラックコーヒーのような苦いものが苦手」との記述があるため。
 - id: nishikigi-chisato
   name: 錦木千束
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -3557,21 +3850,24 @@
     threshold: 0.35
   new_tag_proposals:
   - name: 人工心臓
-    axis: 身体
-    reason: アラン機関によって開発・移植された人工心臓を持ち、高電圧によって破壊される弱点が存在するため。
+    axis: 外見 / 痕
+    reason: アラン機関によって開発された人工心臓を持っており、高電圧で壊れるリスクがあるため。
 - id: nishikino-maki
   name: 西木野真姫
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
     tag: gloves
     frequency: 0.1838
     threshold: 0.35
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 家業の継承者
+    axis: 立場
+    reason: 実家の病院を継ぐために将来医学を学ぶ予定であったという背景を持つため。
 - id: noda-megumi
   name: 野田恵
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: gakki
@@ -3605,7 +3901,7 @@
   new_tag_proposals: []
 - id: ogino-chihiro
   name: 荻野千尋
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
@@ -3631,7 +3927,7 @@
   new_tag_proposals: []
 - id: okabe-rintarou
   name: 岡部倫太郎
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
@@ -3658,7 +3954,7 @@
     reason: ターボババアという妖怪に呪われており、元の姿に戻ろうとしているため。
 - id: okkotsu-yuuta
   name: 乙骨憂太
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: white_jacket
     frequency: 0.4706
@@ -3670,7 +3966,7 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.232
-    threshold: 0.35
+    threshold: 0.3
   - id: aome
     tag: blue_eyes
     frequency: 0.2157
@@ -3679,10 +3975,13 @@
     tag: ring
     frequency: 0.1569
     threshold: 0.5
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 特級被呪者
+    axis: 関係性 / 立場
+    reason: 呪いに取り憑かれている特殊な被害者としての立場を表す言葉が既存語彙にないため。
 - id: onoda-sakamichi
   name: 小野田坂道
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: cycling_uniform
     frequency: 0.6667
@@ -3695,10 +3994,6 @@
     tag: closed_eyes
     frequency: 0.3333
     threshold: 0.6
-  - id: seifuku
-    tag: school_uniform
-    frequency: 0.3333
-    threshold: 0.35
   - id: megane
     tag: glasses
     frequency: 0.3333
@@ -3719,13 +4014,10 @@
     tag: brown_eyes
     frequency: 0.3333
     threshold: 0.35
-  new_tag_proposals:
-  - name: クライマー
-    axis: 関係性 / 立場
-    reason: 自転車競技部において登坂（クライミング）を専門とする役割・立場。
+  new_tag_proposals: []
 - id: onodera-kosaki
   name: 小野寺小咲
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
@@ -3743,7 +4035,7 @@
   new_tag_proposals: []
 - id: oshino-shinobu
   name: 忍野忍
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: yaeba
@@ -3761,14 +4053,10 @@
   new_tag_proposals: []
 - id: piccolo
   name: ピッコロ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: namekian
     frequency: 0.8316
-  - tag: green_skin
-    frequency: 0.5526
-  - tag: antennae
-    frequency: 0.4579
   near_miss:
   - id: gaitou
     tag: cape
@@ -3789,7 +4077,7 @@
   new_tag_proposals: []
 - id: pinoko
   name: ピノコ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: bob-cut
@@ -3811,7 +4099,7 @@
   new_tag_proposals: []
 - id: power
   name: パワー
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
@@ -3826,16 +4114,10 @@
     tag: pink_hair
     frequency: 0.1922
     threshold: 0.35
-  new_tag_proposals:
-  - name: 魔人
-    axis: 外見 / 種族
-    reason: 悪魔が人間の死体を乗っ取った状態を指す固有の種族区分のため。
-  - name: 対魔ハンター
-    axis: 関係性 / 立場
-    reason: 悪魔の討伐や管理を職業とする立場を示すため。
+  new_tag_proposals: []
 - id: raiden-shogun
   name: 雷電将軍
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: pattsun
@@ -3853,7 +4135,7 @@
   new_tag_proposals: []
 - id: ram-re-zero
   name: ラム
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: momoiro-no-me
@@ -3871,14 +4153,8 @@
   new_tag_proposals: []
 - id: raphtalia
   name: ラフタリア
-  date: '2026-08-30'
-  unmapped_danbooru:
-  - tag: raccoon_girl
-    frequency: 0.9637
-  - tag: raccoon_ears
-    frequency: 0.9578
-  - tag: raccoon_tail
-    frequency: 0.623
+  date: '2026-08-31'
+  unmapped_danbooru: []
   near_miss:
   - id: pattsun
     tag: blunt_bangs
@@ -3912,13 +4188,10 @@
     tag: collarbone
     frequency: 0.1926
     threshold: 0.35
-  new_tag_proposals:
-  - name: 奴隷
-    axis: 立場
-    reason: 所有物として買われる立場・身分であり、物語の初期動機に深く関わるため。
+  new_tag_proposals: []
 - id: rem
   name: レム
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -3928,7 +4201,7 @@
   new_tag_proposals: []
 - id: remilia-scarlet
   name: レミリア・スカーレット
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
@@ -3954,7 +4227,7 @@
   new_tag_proposals: []
 - id: rengoku-kyojuro
   name: 煉獄杏寿郎
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
@@ -3976,7 +4249,7 @@
   new_tag_proposals: []
 - id: rias-gremory
   name: リアス・グレモリー
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -3990,7 +4263,7 @@
   new_tag_proposals: []
 - id: rimuru-tempest
   name: リムル＝テンペスト
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: 1other
     frequency: 0.6966
@@ -4006,7 +4279,7 @@
   new_tag_proposals: []
 - id: riza-hawkeye
   name: リザ・ホークアイ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
@@ -4029,32 +4302,35 @@
     tag: large_breasts
     frequency: 0.2194
     threshold: 0.5
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 狙撃手
+    axis: 関係性 / 立場
+    reason: スナイパーライフルなどの銃器に特化し、極めて高い精度で標的を撃ち抜く職能を持つため。
 - id: roronoa-zoro
   name: ロロノア・ゾロ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kinniku
     tag: muscular
-    frequency: 0.2783
+    frequency: 0.2781
     threshold: 0.35
   - id: wasou
     tag: japanese_clothes
-    frequency: 0.2188
+    frequency: 0.2193
     threshold: 0.35
   new_tag_proposals:
-  - name: 三刀流
-    axis: 戦闘スタイル
-    reason: 両手と口に計3本の刀を構えて戦う独自の剣術。
+  - name: 海賊
+    axis: 関係性 / 立場
+    reason: 「麦わらの一味」の船員であり懸賞金をかけられている立場を表すタグ。
 - id: roxy-migurdia
   name: ロキシー・ミグルディア
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.2858
+    frequency: 0.2856
     threshold: 0.5
   new_tag_proposals: []
 - id: roy-mustang
@@ -4068,7 +4344,7 @@
     reason: アメストリスの次期大総統を目指しているという明確な目的・野望が記述されているため。
 - id: rudeus-greyrat
   name: ルーデウス・グレイラット
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: ponytail
@@ -4095,10 +4371,13 @@
     tag: robe
     frequency: 0.1522
     threshold: 0.35
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 引きこもり
+    axis: 性格 / 傷
+    reason: 前世において迫害後に引きこもりとなった経歴が明確に記されているため。
 - id: rukawa-kaede
   name: 流川楓
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: basketball_uniform
     frequency: 0.415
@@ -4126,7 +4405,7 @@
   new_tag_proposals: []
 - id: ryuuguu-rena
   name: 竜宮レナ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chapatsu
@@ -4144,7 +4423,7 @@
   new_tag_proposals: []
 - id: ryuuguuji-ken
   name: 龍宮寺堅
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: head_tattoo
     frequency: 0.36
@@ -4160,7 +4439,7 @@
   new_tag_proposals: []
 - id: sagara-sanosuke
   name: 相楽左之助
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: open_clothes
     frequency: 0.5714
@@ -4189,18 +4468,19 @@
     tag: bandages
     frequency: 0.1905
     threshold: 0.35
-  new_tag_proposals:
-  - name: 元赤報隊隊員
-    axis: 関係性 / 立場
-    reason: 赤報隊の元隊員という特定の立場・経歴が存在するが、定義済みの語彙に当てはまるものがないため。
+  new_tag_proposals: []
 - id: saiki-kusuo
   name: 斉木楠雄
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: murasaki-no-me
     tag: purple_eyes
     frequency: 0.2667
+    threshold: 0.35
+  - id: jingai
+    tag: antennae
+    frequency: 0.2
     threshold: 0.35
   - id: midori-no-me
     tag: green_eyes
@@ -4213,7 +4493,7 @@
   new_tag_proposals: []
 - id: saitama
   name: サイタマ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
@@ -4235,7 +4515,7 @@
   new_tag_proposals: []
 - id: saitou-hajime
   name: 斎藤一
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
@@ -4246,16 +4526,10 @@
     tag: long_hair
     frequency: 0.2667
     threshold: 0.35
-  new_tag_proposals:
-  - name: 警察官
-    axis: 関係性 / 立場
-    reason: 明治時代に藤田五郎の名で警察官として生きている記述があるため。
-  - name: 悪即斬
-    axis: 性格 / 信条
-    reason: 敵に対して情けや慈悲を持たず従う独自の信念・掟として記述されているため。
+  new_tag_proposals: []
 - id: sakata-gintoki
   name: 坂田銀時
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: buki
@@ -4271,12 +4545,12 @@
     frequency: 0.1672
     threshold: 0.35
   new_tag_proposals:
-  - name: 万事屋
-    axis: 関係性 / 立場
-    reason: 何でも屋を営む独自の職業・立場を表す語彙が既存リストにないため。
+  - name: 甘党
+    axis: 性格 / 嗜好
+    reason: パフェやアイスクリーム、イチゴミルクなどの甘いものが好きという記述があるが、既存の語彙に含まれないため。
 - id: sakura-kyouko
   name: 佐倉杏子
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: buki
@@ -4288,9 +4562,34 @@
     frequency: 0.1936
     threshold: 0.35
   new_tag_proposals: []
+- id: sakura-miko
+  name: さくらみこ
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4228
+    threshold: 0.5
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3113
+    threshold: 0.5
+  - id: ponytail
+    tag: one_side_up
+    frequency: 0.241
+    threshold: 0.35
+  - id: furiru
+    tag: frills
+    frequency: 0.2284
+    threshold: 0.35
+  new_tag_proposals:
+  - name: バーチャルYouTuber
+    axis: 関係性 / 立場
+    reason: hololive所属の女性バーチャルYouTuberとして活動していると明記されているため。
 - id: sakuragi-hanamichi
   name: 桜木花道
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kurome
@@ -4304,7 +4603,7 @@
   new_tag_proposals: []
 - id: sakurajima-mai
   name: 桜島麻衣
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -4319,13 +4618,10 @@
     tag: collarbone
     frequency: 0.1633
     threshold: 0.35
-  new_tag_proposals:
-  - name: 孤立
-    axis: 関係性/立場
-    reason: 芸能活動が原因で学校で孤立している状態を表す語彙が提示されたリスト内に存在しないため
+  new_tag_proposals: []
 - id: san
   name: サン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kamen
@@ -4348,10 +4644,13 @@
     tag: collarbone
     frequency: 0.1512
     threshold: 0.35
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: amatou
+    axis: 嗜好
+    reason: パフェ、アイスクリーム、ケーキなどの甘いものやイチゴミルクを好む性格的特徴を示す語彙がないため。
 - id: sano-manjirou
   name: 佐野万次郎
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
@@ -4369,7 +4668,7 @@
   new_tag_proposals: []
 - id: satoshi-pokemon
   name: サトシ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: baseball_cap
     frequency: 0.4259
@@ -4386,10 +4685,7 @@
     tag: long_hair
     frequency: 0.1559
     threshold: 0.35
-  new_tag_proposals:
-  - name: ポケモントレーナー
-    axis: 立場
-    reason: ポケモンを受け取り、バトルや育成を行っていく中心的な役割・肩書であるが、選択肢の語彙に含まれていないため。
+  new_tag_proposals: []
 - id: sawada-tsunayoshi
   name: 沢田綱吉
   date: '2026-08-31'
@@ -4409,10 +4705,13 @@
     tag: brown_eyes
     frequency: 0.2466
     threshold: 0.35
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 仲間思い
+    axis: 性格/信条
+    reason: 出会って以降にできた友人（ファミリー）を大切に思っており、彼らを危険から守ろうとするため。
 - id: sebastian-michaelis
   name: セバスチャン・ミカエリス
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -4423,13 +4722,10 @@
     tag: butler
     frequency: 0.241
     threshold: 0.35
-  new_tag_proposals:
-  - name: アンチヒーロー
-    axis: 物語役割 / 役割
-    reason: 作品のアンチヒーローと記載があるが既存の語彙に該当がないため
+  new_tag_proposals: []
 - id: senjougahara-hitagi
   name: 戦場ヶ原ひたぎ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
@@ -4437,12 +4733,12 @@
     frequency: 0.2173
     threshold: 0.35
   new_tag_proposals:
-  - name: 体重喪失
-    axis: 体質・状態
-    reason: 謎の蟹と出会ったことで身体の体重を失って無重量状態になったという特徴的な設定。
+  - name: 体重消失
+    axis: 設定 / 体質
+    reason: 怪異である不思議なカニとの遭遇により、物理的な体重が消失しているため。
 - id: shalltear-bloodfallen
   name: シャルティア・ブラッドフォールン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: shirogami
@@ -4456,10 +4752,10 @@
   new_tag_proposals:
   - name: 精神支配
     axis: 関係性 / 関係の状態
-    reason: 漆黒聖典のメンバーにより精神支配を受け、意図せず反乱を起こさせられたため。
+    reason: 敵対組織のアイテムや能力により精神を操作され、意図せず敵対・反逆させられた状態。
 - id: shibuya-rin
   name: 渋谷凛
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
@@ -4470,33 +4766,37 @@
     tag: black_hair
     frequency: 0.2103
     threshold: 0.35
-  new_tag_proposals:
-  - name: 不愛想な見た目の悩み
-    axis: 性格 / 気質
-    reason: デフォルトの表情が不愛想に見えることを気にしている記述が存在するが、適切な語彙がないため。
+  new_tag_proposals: []
 - id: shiina-mahiru
   name: 椎名真昼
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
-  - id: seifuku
-    tag: school_uniform
-    frequency: 0.3009
-    threshold: 0.35
   - id: chapatsu
     tag: brown_hair
     frequency: 0.2607
     threshold: 0.35
+  new_tag_proposals: []
+- id: shima-rin
+  name: 志摩リン
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.3155
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2091
+    threshold: 0.3
   new_tag_proposals:
-  - name: otonari
-    axis: 関係性 / 立場
-    reason: 同級生の隣の部屋に住んでいるという特定の生活上の物理的位置関係。
-  - name: tenshi-sama
-    axis: 性格 / 評価
-    reason: 容姿端麗・成績優秀・品行方正で常に笑顔を浮かべていることから、学校内で「天使」と称称・格付けされている状態。
+  - name: solo_camper
+    axis: 性格 / 気質
+    reason: 他者と群れず一人で野外活動を行うソロキャンパーという明確な行動・嗜好様式が示されているため。
 - id: shimakaze-kancolle
   name: 島風
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -4515,19 +4815,10 @@
     tag: blue_eyes
     frequency: 0.1616
     threshold: 0.35
-  new_tag_proposals:
-  - name: 足が速い
-    axis: 能力・体質
-    reason: 足が非常に速く、自分の速さを自慢できないとすぐに退屈するという記述があるため。
-  - name: 唯一の存在への葛藤
-    axis: 立場・境遇
-    reason: 自身の艦型で唯一の艦であることに落ち込み、同型艦が多数存在する朝潮に対立するという記述があるため。
-  - name: マスコットの帯同
-    axis: 所持物・伴侶
-    reason: 12.7cm連装砲をモチーフにしたロボットのマスコット「連装砲ちゃん」を1〜3体連れているか抱えているという記述があるため。
+  new_tag_proposals: []
 - id: shinomiya-kaguya
   name: 四宮かぐや
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
@@ -4543,12 +4834,15 @@
     frequency: 0.1656
     threshold: 0.35
   new_tag_proposals:
-  - name: 箱入り
-    axis: 性格 / 気質
-    reason: 一般常識とされる知識がいくつか欠けている非常に箱入りな少女であると明記されているため。
+  - name: 天才
+    axis: 能力
+    reason: やろうと決めたことは何でもこなせる多才な天才という記述があるため。
+  - name: 世間知らず
+    axis: 性格
+    reason: 非常に箱入り娘であり、一般常識とされる知識に欠ける部分があるという記述があるため。
 - id: shion-tensura
   name: シオン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: single_horn
     frequency: 0.9485
@@ -4562,12 +4856,12 @@
     frequency: 0.2279
     threshold: 0.35
   new_tag_proposals:
-  - name: 秘書
+  - name: 個人秘書
     axis: 関係性 / 立場
-    reason: リムルの身の回りの世話を担当する個人秘書という役職が明確に与えられているため。
+    reason: 身の回りの世話を担当する役職として明記されているが既存の語彙に含まれないため
 - id: shirai-kuroko
   name: 白井黒子
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
@@ -4577,7 +4871,7 @@
   new_tag_proposals: []
 - id: shirogane-miyuki
   name: 白銀御行
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
@@ -4597,20 +4891,64 @@
     frequency: 0.1667
     threshold: 0.35
   new_tag_proposals: []
+- id: shirogane-noel
+  name: 白銀ノエル
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: wavy_hair
+    frequency: 0.4352
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2269
+    threshold: 0.5
+  - id: choker
+    tag: choker
+    frequency: 0.1956
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1911
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.1768
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1604
+    threshold: 0.35
+  new_tag_proposals: []
 - id: shishio-makoto
   name: 志々雄真実
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: fire
     frequency: 0.4444
   near_miss: []
+  new_tag_proposals: []
+- id: shizuku-tsukishima
+  name: 月島雫
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: spread_legs
+    frequency: 0.4091
+  - tag: feet
+    frequency: 0.4091
+  - tag: mukaihara_junior_high_school_uniform
+    frequency: 0.4091
+  near_miss:
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.3182
+    threshold: 0.35
   new_tag_proposals:
-  - name: 弱肉強食
-    axis: 性格/信条
-    reason: 掲げている理念として資料に明確に記述されているため。
+  - name: 読書好き
+    axis: 性格/嗜好
+    reason: 新学期までに20冊の本を読む目標を立て、図書館や学校の図書カードに何冊も名前が残るほど本を読んでいるため。
 - id: son-gohan
   name: 孫悟飯
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kinpatsu
@@ -4641,16 +4979,10 @@
     tag: grey_hair
     frequency: 0.1661
     threshold: 0.35
-  new_tag_proposals:
-  - name: 学者
-    axis: 関係性 / 立場
-    reason: 優秀な学者となったことが資料に明記されているが、既存の語彙に適合するものが無いため。
-  - name: ヒーロー
-    axis: 関係性 / 立場
-    reason: スーパーヒーローとしての役割を果たしていた時期があることが資料に記載されているため。
+  new_tag_proposals: []
 - id: son-goku
   name: 孫悟空
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kinpatsu
@@ -4669,13 +5001,10 @@
     tag: green_eyes
     frequency: 0.1542
     threshold: 0.35
-  new_tag_proposals:
-  - name: saiyajin
-    axis: 外見 / 種族
-    reason: 独自の異星種族「サイヤ人」を表す既存語彙がないため。
+  new_tag_proposals: []
 - id: sonoda-umi
   name: 園田海未
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -4689,7 +5018,7 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.1695
-    threshold: 0.35
+    threshold: 0.3
   - id: piasu
     tag: earrings
     frequency: 0.1577
@@ -4697,7 +5026,7 @@
   new_tag_proposals: []
 - id: sonozaki-mion
   name: 園崎魅音
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -4707,11 +5036,26 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.176
-    threshold: 0.35
-  new_tag_proposals: []
+    threshold: 0.3
+  new_tag_proposals:
+  - name: 学級委員長
+    axis: 関係性 / 立場
+    reason: クラスの学級委員長を務めているが、語彙にある「生徒会長」とは規模や役割が異なるため。
+  - name: 部活のリーダー
+    axis: 性格 / 気質
+    reason: 部活（gaming club）のリーダーを務め、仲間たちから慕われているため。
+- id: sophie-hatter
+  name: ソフィー・ハッター
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss: []
+  new_tag_proposals:
+  - name: 呪い
+    axis: 状態
+    reason: 荒地の魔女によって90歳の老婆の姿に変えられているため。
 - id: souma-kyou
   name: 草摩夾
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
@@ -4737,7 +5081,7 @@
   new_tag_proposals: []
 - id: souryuu-asuka-langley
   name: 惣流・アスカ・ラングレー
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chapatsu
@@ -4767,7 +5111,7 @@
   new_tag_proposals: []
 - id: spike-spiegel
   name: スパイク・スピーゲル
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kurokami
@@ -4790,13 +5134,10 @@
     tag: green_hair
     frequency: 0.1631
     threshold: 0.35
-  new_tag_proposals:
-  - name: 賞金稼ぎ
-    axis: 関係性 / 立場
-    reason: 資料にある「賞金稼ぎ（bounty hunter）」という職業・立場を示す項目が既存の語彙に含まれていないため。
+  new_tag_proposals: []
 - id: stark
   name: シュタルク
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: axe
     frequency: 0.4044
@@ -4809,26 +5150,36 @@
     tag: hair_between_eyes
     frequency: 0.2206
     threshold: 0.5
-  new_tag_proposals:
-  - name: senshi
-    axis: 関係性 / 立場
-    reason: 戦士としてパーティの前衛を務める明確な役割が記述されているが、既存の語彙に存在しないため。
+  new_tag_proposals: []
+- id: suzume-iwato
+  name: 岩戸鈴芽
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: chair
+    frequency: 0.5
+  - tag: green_skirt
+    frequency: 0.5
+  - tag: suzume's_chair
+    frequency: 0.4615
+  near_miss:
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.3333
+    threshold: 0.35
+  new_tag_proposals: []
 - id: suzumiya-haruhi
   name: 涼宮ハルヒ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: semi-long
     tag: medium_hair
     frequency: 0.3148
     threshold: 0.35
-  new_tag_proposals:
-  - name: 団長
-    axis: 関係性 / 立場
-    reason: SOS団という団体の創設者かつ代表者（団長）という特定の役職・立場を表すため。
+  new_tag_proposals: []
 - id: tachibana-kanade
   name: 立華かなで
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tsubasa
@@ -4880,22 +5231,52 @@
   new_tag_proposals: []
 - id: tainaka-ritsu
   name: 田井中律
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss: []
   new_tag_proposals:
-  - name: リーダー
-    axis: 関係性 / 立場
-    reason: 資料に「軽音部のナチュラルリーダー」と明記されているため。
-  - name: 部長
-    axis: 関係性 / 立場
-    reason: 資料に「軽音部の自称部長である」と明記されているため。
   - name: ドラマー
     axis: 関係性 / 立場
-    reason: 資料に「放課後ティータイムのドラマーである」と明記されているため。
+    reason: バンド「放課後ティータイム」のドラマーとして演奏を行っているため。
+  - name: 部長
+    axis: 関係性 / 立場
+    reason: 軽音部の自称部長であり、ナチュラルリーダーとして部を再始動させたため。
+- id: takagi-san
+  name: 高木さん
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1793
+    threshold: 0.35
+  new_tag_proposals:
+  - name: からかい好き
+    axis: 性格 / 気質
+    reason: 相手をからかうこと自体を楽しんで繰り返す性質を表すため。
+- id: takakura-himari
+  name: 高倉陽毬
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: animal_hat
+    frequency: 0.548
+  near_miss:
+  - id: momoiro-no-me
+    tag: pink_eyes
+    frequency: 0.3418
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.3305
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.3277
+    threshold: 0.35
+  new_tag_proposals: []
 - id: takanashi-rikka
   name: 小鳥遊六花
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
@@ -4917,13 +5298,13 @@
   new_tag_proposals: []
 - id: takasu-ryuuji
   name: 高須竜児
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: seifuku
     tag: school_uniform
     frequency: 0.2941
-    threshold: 0.35
+    threshold: 0.3
   - id: chouhatsu
     tag: long_hair
     frequency: 0.2353
@@ -4941,9 +5322,37 @@
     frequency: 0.1765
     threshold: 0.35
   new_tag_proposals: []
+- id: tanaka-gundam
+  name: 田中眼蛇夢
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: purple_scarf
+    frequency: 0.375
+  - tag: open_clothes
+    frequency: 0.3523
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.4318
+    threshold: 0.5
+  - id: gaitou
+    tag: coat
+    frequency: 0.2045
+    threshold: 0.35
+  - id: yubiwa
+    tag: ring
+    frequency: 0.1932
+    threshold: 0.5
+  new_tag_proposals:
+  - name: ブリーダー
+    axis: 役割
+    reason: 「超高校級の飼育委員」という才能を持ち、動物のブリーディングに関する情報サイトを自ら管理・更新している。
+  - name: 接触拒否
+    axis: 性格
+    reason: 幼少期から他人に触れる・触れられることを拒んでおり、自分と同等のアストラルレベルを持つ人物のみ接触を許すと語っている。
 - id: tanya-degurechaff
   name: ターニャ・デグレチャフ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -4967,22 +5376,70 @@
     frequency: 0.2522
     threshold: 0.35
   new_tag_proposals: []
+- id: thorfinn
+  name: トルフィン
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: dagger
+    frequency: 0.493
+  near_miss:
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.3239
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1831
+    threshold: 0.5
+  - id: bushouhige
+    tag: facial_hair
+    frequency: 0.169
+    threshold: 0.35
+  - id: gaitou
+    tag: hood
+    frequency: 0.1549
+    threshold: 0.35
+  new_tag_proposals: []
+- id: tifa-lockhart
+  name: ティファ・ロックハート
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: suspenders
+    frequency: 0.5014
+  - tag: tank_top
+    frequency: 0.421
+  - tag: low-tied_long_hair
+    frequency: 0.4144
+  near_miss:
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.2516
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2348
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2014
+    threshold: 0.35
+  new_tag_proposals:
+  - name: 格闘家
+    axis: 関係性 / 立場
+    reason: 10代の頃に師匠ザンガンから学んだ素早く強力な格闘術を用いて戦うため。
 - id: todoroki-shouto
   name: 轟焦凍
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
     frequency: 0.344
     threshold: 0.5
-  new_tag_proposals:
-  - name: 半冷半燃
-    axis: 能力
-    reason: 右側で氷、左側で炎という相反する二つの属性をひとつの身体で同時に扱う特殊な能力構造を持つため。
+  new_tag_proposals: []
 - id: tohru
   name: トール
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -5012,7 +5469,7 @@
   new_tag_proposals: []
 - id: tohsaka-rin
   name: 遠坂凛
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chapatsu
@@ -5026,7 +5483,7 @@
   new_tag_proposals: []
 - id: tomioka-giyuu
   name: 冨岡義勇
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -5038,12 +5495,15 @@
     frequency: 0.2412
     threshold: 0.35
   new_tag_proposals:
-  - name: 柱
-    axis: 関係性 / 立場
-    reason: 鬼殺隊の最高位剣士という特別な立場・役職。
+  - name: 孤立
+    axis: 関係性 / 評価
+    reason: 胡蝶しのぶから頻繁にからかわれ、友達がおらず周りから嫌われていると言われているため。
+  - name: 決戦の生き残り
+    axis: 物語役割 / 結末
+    reason: 鬼舞辻無惨との最終決戦において生き残った数少ない柱の一人となったため。
 - id: tomoe-mami
   name: 巴マミ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -5061,7 +5521,7 @@
   new_tag_proposals: []
 - id: toujou-nozomi
   name: 東條希
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: aome
@@ -5072,10 +5532,13 @@
     tag: collarbone
     frequency: 0.1509
     threshold: 0.35
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: 生徒会副会長
+    axis: 関係性 / 立場
+    reason: 語彙には『生徒会長』が存在するが、実際の役職は生徒会副会長であるため。
 - id: trunks
   name: トランクス
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kinniku
@@ -5090,13 +5553,10 @@
     tag: spiked_hair
     frequency: 0.1612
     threshold: 0.35
-  new_tag_proposals:
-  - name: タイムトラベラー
-    axis: 物語役割 / 属性
-    reason: 未来からやって来て、これから訪れる暗い未来について告げるため。
+  new_tag_proposals: []
 - id: tsukino-usagi
   name: 月野うさぎ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
@@ -5111,7 +5571,10 @@
     tag: facial_mark
     frequency: 0.1861
     threshold: 0.35
-  new_tag_proposals: []
+  new_tag_proposals:
+  - name: プリンセス
+    axis: 関係性 / 立場
+    reason: 前世が「月のプリンセス・セレニティ」であるため。
 - id: tsukishima-kei
   name: 月島蛍
   date: '2026-08-31'
@@ -5125,13 +5588,28 @@
     tag: headphones
     frequency: 0.2
     threshold: 0.35
+  new_tag_proposals: []
+- id: tsunemori-akane
+  name: 常守朱
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: dominator_(gun)
+    frequency: 0.3704
+  near_miss:
+  - id: pattsun
+    tag: blunt_bangs
+    frequency: 0.2469
+    threshold: 0.4
   new_tag_proposals:
-  - name: バレーボール部員
+  - name: 優秀
+    axis: 能力
+    reason: 複数の公共機関や民間企業の採用試験で最高得点を獲得しているため。
+  - name: 警察官
     axis: 関係性 / 立場
-    reason: 烏野高校バレーボール部でミドルブロッカーを務めている記載があるが、既存の語彙に当てはまるものがないため。
+    reason: 公安局刑事課一係に配属された新任監視官として勤務しているため。
 - id: uchiha-sasuke
   name: うちはサスケ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: buki
@@ -5164,16 +5642,16 @@
     reason: 資料において『物語の経過に伴い、人間界を守る強力な武道家へと成長していく』と明記されているため。
 - id: uzumaki-naruto
   name: うずまきナルト
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss: []
   new_tag_proposals:
   - name: 人柱力
-    axis: 設定 / 宿命
-    reason: 体内に強力な妖狐などの存在を封印され、その力を宿す特別な生贄・器としての設定。
+    axis: 関係性 / 立場
+    reason: 体内に九尾の妖狐という強大な存在を封印されている宿主としての特殊な立場。
 - id: vash-the-stampede
   name: ヴァッシュ・ザ・スタンピード
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: gishi
@@ -5194,11 +5672,11 @@
     threshold: 0.35
   new_tag_proposals:
   - name: 平和主義
-    axis: 性格/信条
-    reason: 暴力を嫌い、「LOVE AND PEACE!」のメッセージを広めることを望む信条。
+    axis: 性格 / 信条
+    reason: 資料において暴力を嫌い「LOVE AND PEACE!」というメッセージを広めようとしていると記述されているため。
 - id: vegeta
   name: ベジータ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kishi
@@ -5237,7 +5715,7 @@
     reason: 資料に「老若男女を問わず人気があり、ロックスタースタイルのカリスマ性を持つ」と明記されているため。
 - id: violet-evergarden
   name: ヴァイオレット・エヴァーガーデン
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: gishi
@@ -5257,12 +5735,15 @@
     frequency: 0.1991
     threshold: 0.35
   new_tag_proposals:
-  - name: 幼少兵
-    axis: 関係性 / 立場
-    reason: 幼少期から軍で道具のように扱われ戦闘に従事していた立場。
+  - name: 元少年兵
+    axis: 立場/経歴
+    reason: 孤児として軍隊に属し戦わされていた過去を表すため。
+  - name: 代筆屋（自動手記人形）
+    axis: 職業
+    reason: 手紙の代筆業務を行い人間の感情を学んでいく職能を表すため。
 - id: yagami-light
   name: 夜神月
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -5277,16 +5758,10 @@
     tag: red_eyes
     frequency: 0.2008
     threshold: 0.35
-  new_tag_proposals:
-  - name: 優等生
-    axis: 性格 / 気質
-    reason: 東応大学の入学試験でトップクラスの成績を獲得するほどの学業成績を修めている。
-  - name: 自称神
-    axis: 性格 / 信条
-    reason: 自らを「新世界の神」と位置づけて理想の世界を創ろうとしている。
+  new_tag_proposals: []
 - id: yashiro-nene
   name: 八尋寧々
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: shirogami
@@ -5304,7 +5779,7 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.1864
-    threshold: 0.35
+    threshold: 0.3
   - id: chapatsu
     tag: brown_hair
     frequency: 0.1864
@@ -5317,13 +5792,10 @@
     tag: blonde_hair
     frequency: 0.1695
     threshold: 0.35
-  new_tag_proposals:
-  - name: 園芸部
-    axis: 属性
-    reason: 所属している部活動として資料に明記されているが、既存の語彙に存在しないため。
+  new_tag_proposals: []
 - id: yato-noragami
   name: 夜ト
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -5351,12 +5823,12 @@
     frequency: 0.1667
     threshold: 0.35
   new_tag_proposals:
-  - name: 被忘却恐怖症
-    axis: 性格 / 傷
-    reason: 人々に忘れられると存在が消滅するため、忘れられることを極度に恐れている状態。
+  - name: デリバリーゴッド
+    axis: 関係性 / 立場
+    reason: 何でも屋のように依頼を請け負って行動する独自の神の肩書き・職業。
 - id: yazawa-nico
   name: 矢澤にこ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
@@ -5366,7 +5838,7 @@
   - id: seifuku
     tag: school_uniform
     frequency: 0.2497
-    threshold: 0.35
+    threshold: 0.3
   - id: tanpatsu
     tag: short_hair
     frequency: 0.2148
@@ -5386,7 +5858,7 @@
   new_tag_proposals: []
 - id: yor-forger
   name: ヨル・フォージャー
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
@@ -5402,6 +5874,26 @@
     frequency: 0.1639
     threshold: 0.35
   new_tag_proposals: []
+- id: yorha-2b
+  name: 2B
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: juliet_sleeves
+    frequency: 0.3696
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2666
+    threshold: 0.5
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.176
+    threshold: 0.35
+  - id: senaka
+    tag: from_behind
+    frequency: 0.1552
+    threshold: 0.35
+  new_tag_proposals: []
 - id: yugi-amane
   name: 花子くん
   date: '2026-08-30'
@@ -5413,7 +5905,7 @@
     reason: 学校の怪異たちを統括・管理する役職・立場の記述が存在するため。
 - id: yuigahama-yui
   name: 由比ヶ浜結衣
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: single_side_bun
     frequency: 0.481
@@ -5453,7 +5945,7 @@
   new_tag_proposals: []
 - id: yukinoshita-yukino
   name: 雪ノ下雪乃
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
@@ -5475,7 +5967,7 @@
   new_tag_proposals: []
 - id: yukishiro-tomoe
   name: 雪代巴
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru:
   - tag: umbrella
     frequency: 0.4
@@ -5495,7 +5987,7 @@
   new_tag_proposals: []
 - id: yuuki-asuna
   name: アスナ
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: kishi
@@ -5519,9 +6011,31 @@
     frequency: 0.1519
     threshold: 0.35
   new_tag_proposals:
-  - name: 剣士
-    axis: 関係性 / 立場
-    reason: 圧倒的な剣技の速さから「閃光」の称号を持ち、レイピア等の剣を武器として戦うため。
+  - name: 称号・異名
+    axis: 物語役割 / 役割
+    reason: 「閃光」という称号を得ているが、該当する語彙が存在しないため。
+- id: zelda
+  name: ゼルダ
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2936
+    threshold: 0.35
+  - id: piasu
+    tag: earrings
+    frequency: 0.2454
+    threshold: 0.5
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2432
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.1526
+    threshold: 0.5
+  new_tag_proposals: []
 - id: zenin-maki
   name: 禪院真希
   date: '2026-08-30'
@@ -5533,7 +6047,7 @@
     reason: 生まれつき呪力を持たない代償として圧倒的な身体能力を得る特殊な体質。
 - id: zero-two
   name: ゼロツー
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: keshou
@@ -5556,13 +6070,10 @@
     tag: military_uniform
     frequency: 0.154
     threshold: 0.35
-  new_tag_proposals:
-  - name: ピスティル
-    axis: 関係性 / 立場
-    reason: FRANXXに乗る女性操縦者を指す作中の特殊な役割・記号職であるため。
+  new_tag_proposals: []
 - id: zhongli
   name: 鍾離
-  date: '2026-08-30'
+  date: '2026-08-31'
   unmapped_danbooru: []
   near_miss:
   - id: akagami
