@@ -28,33 +28,6 @@
   contrasts_with: [tsukkomi]
   tags: [定番]
 
-- id: ichininshou
-  name: 一人称
-  kana: いちにんしょう
-  aliases: [僕っ娘, わたくし, 俺]
-  axis: mind.speech
-  summary: 自分を何と呼ぶか。自己認識の宣言。
-  description: >-
-    見た目や立場から予測される呼び方とずれていると、本人の自己像と周囲の期待の不一致が出る。
-    切り替える場面が本音の露出になる。
-  effect: 自己認識を一語で提示し、切り替えを内面の切り替えとして読ませる。
-  pairs_with: [neko-o-kaburu, nimensei, reijou]
-  contrasts_with: []
-  tags: [定番]
-
-- id: gobi
-  name: 語尾
-  kana: ごび
-  aliases: [口癖, 特徴的な語尾]
-  axis: mind.speech
-  summary: 発話の末尾に固定される型。声の指紋。
-  description: >-
-    反復で記憶に定着し、消えたときに異常が伝わる。本気の場面でだけ外れる運用が定石。
-  effect: 平常運転の印を作り、外れた瞬間を非常事態にする。
-  pairs_with: [kuchiguse, tenshin, jingai]
-  contrasts_with: []
-  tags: [反復]
-
 - id: chinmoku
   name: 沈黙
   kana: ちんもく

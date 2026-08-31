@@ -67,7 +67,10 @@ groups:
         summary: 埋まっていない穴と、その出どころ。
       - id: speech
         name: 話し方
-        summary: 口調・語彙・声。
+        summary: 発話の量・速度・待遇。どう話すか。
+      - id: tone
+        name: 口調
+        summary: 一人称・語尾・訛り。声の指紋になる言葉づかい。
       - id: habit
         name: 癖・仕草
         summary: 無意識に出る動き。

@@ -142,7 +142,7 @@
   description: >-
     どちらが本物かという問いは成立せず、両方が本物であることが本人の苦痛になる。両者が接触する場面が最大の危機。
   effect: 人格の同一性そのものを問題にする。
-  pairs_with: [neko-o-kaburu, heterochromia, ichininshou, haraguro]
+  pairs_with: [neko-o-kaburu, heterochromia, desuwa, haraguro]
   contrasts_with: [tenshin]
   tags: [定番]
 
@@ -274,7 +274,7 @@
   description: >-
     最初は何気なかった言葉が経過とともに重みを持つ。最終場面で別の人物が口にすると継承になる。
   effect: 同一の台詞に履歴を溜め、最後に別の意味で撃たせる。
-  pairs_with: [gobi, keishou, taijou]
+  pairs_with: [nya-gobi, keishou, taijou]
   contrasts_with: [ichido-dake]
   tags: [反復]
 

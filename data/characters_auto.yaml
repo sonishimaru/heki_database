@@ -4135,7 +4135,6 @@
     date: '2026-08-31'
   elements:
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 84%', src: danbooru}
-    - {id: gobi, weight: core, note: '資料: 文末に「〜だっちゃ（~datcha）」をつけて話すことで有名である。', src: gemini}
     - {id: jingai, weight: core, note: 'danbooru horns 88%', src: danbooru}
     - {id: oni, weight: core, note: '資料: 飛行能力と放電能力を持つ鬼の宇宙人である。', src: gemini}
     - {id: uchuujin, weight: core, note: '資料: 飛行能力と放電能力を持つ鬼の宇宙人である。', src: gemini}
@@ -4971,8 +4970,6 @@
     - {id: chapatsu, weight: core, note: 'danbooru brown_hair 83%', src: danbooru}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 67%', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 50%', src: danbooru}
-    - {id: gobi, weight: sub, note: '資料: 「むきゃ」や「ぎゃぼ」といった意味のない言葉を使用する。', src: gemini}
-    - {id: ichininshou, weight: sub, note: '資料: 自分のことを三人称で呼ぶことが多い。', src: gemini}
     - {id: kataomoi, weight: sub, note: '資料: 千秋に恋をしており、常に彼について回り、彼の「妻」であると主張している。', src: gemini}
     - {id: surechigai, weight: sub, note: '資料: 音楽に対する姿勢が千秋とすれ違う原因になると気づき、自身のために音楽を追求する意欲を身につけた。', src: gemini}
   patterns: []
@@ -5590,7 +5587,6 @@
   elements:
     - {id: aome, weight: core, note: 'danbooru blue_eyes 71%', src: danbooru}
     - {id: akagami, weight: sub, note: 'danbooru orange_hair 58%', src: danbooru}
-    - {id: gobi, weight: sub, note: '資料: 「かわいい（kawaii）」がなまった「かぁいい（kāii）」という言葉を使う。', src: gemini}
     - {id: kikan, weight: sub, note: '資料: 1年前に茨城から雛見沢に戻ってきた。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 38%', src: danbooru}
     - {id: sewayaki, weight: sub, note: '資料: 彼や友人たちの世話をしている', src: gemini}
@@ -6336,7 +6332,6 @@
     - {id: midorigami, weight: core, note: 'danbooru green_hair 90%', src: danbooru}
     - {id: ponytail, weight: core, note: 'danbooru ponytail 75%', src: danbooru}
     - {id: reijou, weight: core, note: '資料: 雛見沢で絶大な影響力を持つ御三家の一つ、園崎家の次期当主であると示されている。', src: gemini}
-    - {id: ichininshou, weight: sub, note: '資料: 一人称（または自身の呼び方）として「おじさん」と自称する。', src: gemini}
     - {id: toshiue, weight: sub, note: '資料: 前原圭一のクラスの中で最年長である。', src: gemini}
   patterns: []
 

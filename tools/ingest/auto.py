@@ -138,8 +138,21 @@ def process(entry: dict, api_key: str | None, sleep: float) -> None:
     elif pages and not api_key:
         print("  GEMINI_API_KEY が無いため資料の抽出と分類を飛ばします（外見のみ更新）")
 
-    if not danbooru_file and not classify_file:
-        raise RuntimeError("この件で使える証拠がありません（danbooru も分類結果も無い）")
+    # 識別レーン。資料も画像も要らない（モデルの作品知識だけで走る）ので、
+    # 資料が取れなかったキャラでも効く。糸目・関西弁のような、
+    # どの証拠レーンにも出てこない識別子はここからしか入らない。
+    trait_file = None
+    if api_key:
+        try:
+            path = workdir / "trait.json"
+            run([python, INGEST / "trait.py", "--character", entry["name"],
+                 "--work", entry.get("work", ""), "--out", path])
+            trait_file = path
+        except subprocess.CalledProcessError:
+            print("  識別レーン失敗（続行）")
+
+    if not danbooru_file and not classify_file and not trait_file:
+        raise RuntimeError("この件で使える証拠がありません（danbooru も分類結果も識別結果も無い）")
 
     merge_cmd = [
         python, INGEST / "merge.py",
@@ -158,6 +171,8 @@ def process(entry: dict, api_key: str | None, sleep: float) -> None:
         merge_cmd += ["--danbooru", danbooru_file]
     if classify_file:
         merge_cmd += ["--vision", classify_file]
+    if trait_file:
+        merge_cmd += ["--traits", trait_file]
     if anilist_file:
         merge_cmd += ["--anilist", anilist_file]
     run(merge_cmd)

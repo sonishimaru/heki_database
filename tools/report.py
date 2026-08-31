@@ -7,6 +7,7 @@
   python3 tools/report.py            … 全部
   python3 tools/report.py gaps       … 実例0の見出し語だけ
   python3 tools/report.py near       … 閾値に届かなかったタグの実測値だけ
+  python3 tools/report.py identity   … 共有率の高い語ばかりの人物を洗い出す
 """
 
 from __future__ import annotations
@@ -140,6 +141,38 @@ def report_unmapped(suggestions: list[dict]) -> None:
         print("  なし")
 
 
+def report_identity(db: dict) -> None:
+    """識別力の点検。共有率の高い語ばかりで構成された人物を洗い出す。
+
+    「短髪・黒髪・青い目」だけで出来ている項目は、誰のことも指していない。
+    """
+    total = len(db["characters"]) or 1
+    share = {e["id"]: len(e.get("characters") or []) / total for e in db["elements"]}
+    names = {e["id"]: e["name"] for e in db["elements"]}
+
+    print("\n■ 識別力（要素の共有率の低さ。低い語ほどその人を指す）")
+    scored = []
+    for c in db["characters"]:
+        items = c.get("elements") or []
+        if not items:
+            continue
+        # その人物のいちばん珍しい語の共有率。これが高いほど「誰でもない」
+        best = min(share.get(i["id"], 0.0) for i in items)
+        scored.append((best, c, items))
+    scored.sort(key=lambda row: row[0], reverse=True)
+    print("  もっとも珍しい語でも共有率が高い＝誰のことも指していない人物:")
+    for best, c, items in scored[:10]:
+        worst = sorted(items, key=lambda i: share.get(i["id"], 0.0))[:4]
+        print(f"    {best:>5.1%}  {c['name']}（{c['work']}）"
+              f" … {'・'.join(names.get(i['id'], i['id']) for i in worst)}")
+
+    lanes = Counter()
+    for c in db["characters"]:
+        for i in c.get("elements") or []:
+            lanes[i.get("src") or "（手作業）"] += 1
+    print("\n  レーン別の採用数: " + " / ".join(f"{k} {v}" for k, v in lanes.most_common()))
+
+
 def report_characters(db: dict) -> None:
     """キャラ側の穴。画像・レーン・要素数。"""
     characters = db["characters"]
@@ -170,6 +203,8 @@ def main() -> None:
         report_near_miss(suggestions)
     if which in ("all", "unmapped"):
         report_unmapped(suggestions)
+    if which in ("all", "identity"):
+        report_identity(db)
     if which in ("all", "chars"):
         report_characters(db)
 

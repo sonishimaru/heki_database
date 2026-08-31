@@ -346,7 +346,7 @@
     condition: 漏れる相手が一人に限定されている
     observer: 完成された姿しか知らなかった者
   requires: [neko-o-kaburu, futari-dake]
-  intensifiers: [mitame-sabaku, reijou, joushi, ichininshou, kogoe]
+  intensifiers: [mitame-sabaku, reijou, joushi, desuwa, kogoe]
   breaks_when: 普段から未熟さを見せていると、下の層が存在しないことになる。
   related: [gentei-no-sugao, yoyuu-kuzure]
   tags: [層構造, 限定, 退行]

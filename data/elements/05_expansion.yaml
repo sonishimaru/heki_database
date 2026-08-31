@@ -238,17 +238,6 @@
   tags: [定番]
 
 # --- 話し方 ---
-- id: hougen
-  name: 方言
-  kana: ほうげん
-  aliases: [訛り, 関西弁]
-  axis: mind.speech
-  summary: 土地の言葉で話すこと。出自が発話のたびに露出する。
-  effect: 標準語の場での異物感と、素に戻る瞬間の検出器を兼ねる。
-  pairs_with: [yosomono, tenshin]
-  contrasts_with: [keigo]
-  tags: [定番]
-
 # --- 関係の型 ---
 - id: futago
   name: 双子
@@ -961,11 +950,11 @@
   name: 古風
   kana: こふう
   aliases: [古い言葉遣い, 時代がかった口調]
-  axis: mind.speech
+  axis: mind.tone
   summary: 現代とずれた言葉遣い。生きてきた時間の長さが口に出る。
   effect: 言葉のずれで年齢や出自を示し、素の言葉が出る瞬間を用意する。
   pairs_with: [furou, kyuuketsuki, erufu]
-  contrasts_with: [hougen]
+  contrasts_with: [kansaiben]
   tags: [定番]
 
 # --- 9巡目: 204名で Danbooru 側はほぼ飽和。資料レーンの提案が中心 ---
@@ -1058,4 +1047,118 @@
   effect: 金で動くと言い張らせておいて、割に合わない依頼を引き受けさせる。
   pairs_with: [nagaremono, muhoumono, buki]
   contrasts_with: [juusha]
+  tags: [定番]
+
+# --- 12巡目: 口調の軸を新設し、一人称・語尾・方言を通り語の解像度へ割る。
+#     「一人称」「語尾」「方言」は見出し語ではなく軸の名前になっていた。
+#     オタクは「一人称のキャラ」とは言わず「ボクっ娘」「関西弁」と言う ---
+
+- id: kansaiben
+  name: 関西弁
+  kana: かんさいべん
+  aliases: [大阪弁, えせ関西弁]
+  axis: mind.tone
+  summary: 関西の言葉で話すこと。軽さと本音の見えなさが同時に立つ。
+  effect: 何を言っても冗談に聞こえる声にしておいて、一度だけ標準語で喋らせる。
+  pairs_with: [tsukkomi, haraguro, yoyuu]
+  contrasts_with: [keigo]
+  tags: [定番]
+
+- id: touhokuben
+  name: 東北弁
+  kana: とうほくべん
+  aliases: [ずーずー弁]
+  axis: mind.tone
+  summary: 東北の言葉で話すこと。素朴さと、都会での浮きを同時に負う。
+  effect: 訛りを恥じて隠させ、感情が振り切れた瞬間だけ出させる。
+  pairs_with: [yosomono, hitomishiri]
+  contrasts_with: []
+  tags: [応用]
+
+- id: boku-kko
+  name: ボクっ娘
+  kana: ぼくっこ
+  aliases: [ボク少女]
+  axis: mind.tone
+  summary: 女性が一人称にボクを使うこと。性別役割からの微妙なずれ。
+  effect: 一人称だけで性別の記号から半歩外させ、恋愛の場面で急に不安定にする。
+  pairs_with: [doryokuka, karetsu, tsundere]
+  contrasts_with: [desuwa]
+  tags: [定番]
+
+- id: warawa
+  name: わらわ
+  kana: わらわ
+  aliases: [妾]
+  axis: mind.tone
+  summary: 古風で尊大な女性の一人称。見た目の幼さと釣り合わない。
+  effect: 幼い外見に何百年分の一人称を載せ、口を開いた瞬間に年齢を裏切らせる。
+  pairs_with: [kyuuketsuki, oni, kodomo]
+  contrasts_with: [boku-kko]
+  tags: [定番]
+
+- id: sessha
+  name: 拙者
+  kana: せっしゃ
+  aliases: [ござる]
+  axis: mind.tone
+  summary: 武家めいた一人称と語尾。時代がひとつずれている。
+  effect: 現代の日常に置いて、言葉づかいだけで異物にする。
+  pairs_with: [samurai, ninja, kofuu]
+  contrasts_with: []
+  tags: [応用]
+
+- id: washi
+  name: ワシ
+  kana: わし
+  aliases: [儂]
+  axis: mind.tone
+  summary: 老人めいた一人称。実年齢か、長く生きた事実を露出させる。
+  effect: 見た目と一人称の落差そのものを設定の告知にする。
+  pairs_with: [kodomo, majo, jingai]
+  contrasts_with: [boku-kko]
+  tags: [応用]
+
+- id: desuwa
+  name: ですわ
+  kana: ですわ
+  aliases: [お嬢様言葉]
+  axis: mind.tone
+  summary: お嬢様言葉の語尾。育ちが発話のたびに出る。
+  effect: 崩れない言葉づかいのまま、内容だけを下品にしていく。
+  pairs_with: [reijou, tate-rooru, gouman]
+  contrasts_with: [boku-kko]
+  tags: [定番]
+
+- id: nojya
+  name: のじゃ
+  kana: のじゃ
+  aliases: [のじゃロリ, じゃ]
+  axis: mind.tone
+  summary: 古語めいた語尾。幼い見た目に長い時間を重ねる型。
+  effect: わらわと同じ落差を語尾側から作る。甘えるときだけ崩させる。
+  pairs_with: [warawa, kodomo, kyuuketsuki]
+  contrasts_with: []
+  tags: [応用]
+
+- id: nya-gobi
+  name: にゃ語尾
+  kana: にゃごび
+  aliases: [にゃ, 猫語]
+  axis: mind.tone
+  summary: 動物の鳴き声を語尾に混ぜること。人間の枠から少し外す。
+  effect: ふざけた語尾のまま、切実なことを言わせる。
+  pairs_with: [kemomimi, shippo, tennen]
+  contrasts_with: [keigo]
+  tags: [応用]
+
+- id: namae-yobi
+  name: 名前呼び
+  kana: なまえよび
+  aliases: [自分の名前を一人称にする]
+  axis: mind.tone
+  summary: 自分を名前で呼ぶこと。幼さか、自己の対象化。
+  effect: 幼さの記号として置いておき、一度だけ「私」と言わせる。
+  pairs_with: [kodomo, tennen, tenshin]
+  contrasts_with: []
   tags: [定番]

@@ -240,6 +240,56 @@ def from_vision(vision_path: Path) -> tuple[list[dict], dict]:
     return items, payload
 
 
+def from_traits(path: Path) -> list[dict]:
+    """識別レーン（trait.py）の出力。src を knowledge にして他レーンと区別する。
+
+    根拠が外部資料ではなくモデルの作品知識なので、後から一括で外せるように分けている。
+    """
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    return [
+        {
+            "id": item["id"],
+            "weight": item["weight"],
+            "confidence": item.get("confidence", "mid"),
+            "source": "knowledge",
+            "note": item.get("evidence", ""),
+        }
+        for item in payload.get("elements", [])
+    ]
+
+
+def rarity_demote(items: list[dict], db: dict) -> list[dict]:
+    """多くの人物が共有する語は、どれだけ強く出ていても比重を下げる。
+
+    比重はもともと「その絵にどれだけ現れたか」で決めていた。だが市丸ギンの
+    短髪は 338 名中 129 名が持っていて、どれだけ確実でもその人を指さない。
+    識別に効くのは、確実さと珍しさの両方が揃っているものだけ。
+
+    共有率は前回のビルド時点の db.json から採る（取り込みは一人ずつ走るので、
+    その時点の全体像はここにしか無い）。上げはせず、下げるだけにしている。
+    珍しいものを機械的に持ち上げると、誤判定がそのまま核になってしまうため。
+
+    境目は 338 名時点の実測から引いた。共有率の中央値は 1.5%、上位 1 割の
+    境目が 7.4% で、そこから上は急に伸びる:
+      短髪 38% / 長髪 36% / 黒髪 25% / 青い目 22% / 制服 18% / 能力者 12%
+    5 人に 1 人が持つ語はもう個体差ではなく背景なので、核にも副にもしない。
+    """
+    total = len(db.get("characters") or []) or 1
+    share = {e["id"]: len(e.get("characters") or []) / total for e in db["elements"]}
+    for item in items:
+        value = share.get(item["id"], 0.0)
+        if value >= 0.20:
+            cap = "spice"   # 5 人に 1 人以上が持つ。誰のことも指さない
+        elif value >= 0.08:
+            cap = "sub"     # 上位 1 割の常連。核にはしない
+        else:
+            continue
+        if common.WEIGHT_ORDER[item["weight"]] < common.WEIGHT_ORDER[cap]:
+            item["weight"] = cap
+            item["note"] = f"{item.get('note', '')}（共有 {value:.0%} のため比重を下げた）".strip()
+    return items
+
+
 def merge(items: list[dict]) -> list[dict]:
     """同じ見出し語が両方から出たら、強いほうの比重を採用してメモを併記する。"""
     merged: dict[str, dict] = {}
@@ -261,6 +311,7 @@ def main() -> int:
     parser.add_argument("--tags", type=Path, help="tagger.py の出力")
     parser.add_argument("--danbooru", type=Path, help="fetch.py danbooru の出力（外見の群衆合意）")
     parser.add_argument("--vision", type=Path, help="classify.py の出力")
+    parser.add_argument("--traits", type=Path, help="trait.py の出力（識別レーン）")
     parser.add_argument("--anilist", type=Path, help="fetch.py anilist の出力（参照用の画像リンク）")
     parser.add_argument("--name", required=True)
     parser.add_argument("--work", required=True)
@@ -276,8 +327,8 @@ def main() -> int:
     parser.add_argument("--write-auto", action="store_true", help="data/characters_auto.yaml へ upsert する（自動実行用）")
     args = parser.parse_args()
 
-    if not args.tags and not args.vision and not args.danbooru:
-        raise SystemExit("--tags / --danbooru / --vision のいずれかは必要です。")
+    if not args.tags and not args.vision and not args.danbooru and not args.traits:
+        raise SystemExit("--tags / --danbooru / --vision / --traits のいずれかは必要です。")
 
     db = common.load_db()
     known = {e["id"] for e in db["elements"]}
@@ -296,6 +347,8 @@ def main() -> int:
     if args.vision:
         vision_items, vision_payload = from_vision(args.vision)
         items += vision_items
+    if args.traits:
+        items += from_traits(args.traits)
 
     unknown = sorted({i["id"] for i in items if i["id"] not in known})
     items = [i for i in items if i["id"] in known]
@@ -304,7 +357,7 @@ def main() -> int:
     dropped_low = [i for i in items if order[i["confidence"]] < order[args.min_confidence]]
     items = [i for i in items if order[i["confidence"]] >= order[args.min_confidence]]
 
-    merged = merge(items)
+    merged = rarity_demote(merge(items), db)
     if not merged:
         raise SystemExit("採用できる要素がありませんでした。閾値を下げるか、フレームを見直してください。")
 
