@@ -3,6 +3,8 @@
 # unmapped_danbooru: 対応表に無かった高頻度タグ。見出し語に昇格させるなら
 #   data/elements/ に追加し、wd_map.yaml に対応を書く。
 # new_tag_proposals: classify が語彙に無いと判断した概念の提案。
+# near_miss: 対応はあるが閾値に届かなかったもの（実測値）。閾値を勘で
+#   動かさないための材料。tools/report.py が集計する。
 # 採用・却下は人が決める。処理済みのエントリは消してよい。
 - id: accelerator
   name: アクセラレータ
@@ -86,6 +88,20 @@
     tag: hair_between_eyes
     frequency: 0.2254
     threshold: 0.5
+  new_tag_proposals: []
+- id: akashi-seijuurou
+  name: 赤司征十郎
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.3187
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1868
+    threshold: 0.35
   new_tag_proposals: []
 - id: akemi-homura
   name: 暁美ほむら
@@ -199,6 +215,22 @@
   - id: tanpatsu
     tag: short_hair
     frequency: 0.2051
+    threshold: 0.35
+  new_tag_proposals: []
+- id: aomine-daiki
+  name: 青峰大輝
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: dark-skinned_male
+    frequency: 0.6692
+  near_miss:
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2308
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1769
     threshold: 0.35
   new_tag_proposals: []
 - id: aqua-konosuba
@@ -1022,6 +1054,23 @@
   - name: 受肉
     axis: 物語役割/状態
     reason: 聖杯の汚染を浴びて肉体を与えられ世界に受肉した記述があるため。
+- id: ginko
+  name: ギンコ
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.2277
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.2129
+    threshold: 0.35
+  new_tag_proposals:
+  - name: 万事屋
+    axis: 関係性 / 立場
+    reason: 何でも屋としての事業・店を営み依頼を引き受けているため。
 - id: giorno-giovanna
   name: ジョルノ・ジョバァーナ
   date: '2026-08-30'
@@ -1239,6 +1288,20 @@
   - id: kyonyuu
     tag: large_breasts
     frequency: 0.1981
+    threshold: 0.5
+  new_tag_proposals: []
+- id: hibari-kyoya
+  name: 雲雀恭弥
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.3333
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2281
     threshold: 0.5
   new_tag_proposals: []
 - id: hiei
@@ -1558,6 +1621,16 @@
   - id: shirogami
     tag: grey_hair
     frequency: 0.3266
+    threshold: 0.35
+  new_tag_proposals: []
+- id: inoue-orihime
+  name: 井上織姫
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.2066
     threshold: 0.35
   new_tag_proposals: []
 - id: inoue-takina
@@ -2181,6 +2254,38 @@
     frequency: 0.239
     threshold: 0.35
   new_tag_proposals: []
+- id: kirishima-touka
+  name: 霧嶋董香
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: aogami
+    tag: blue_hair
+    frequency: 0.317
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2924
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.258
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.2457
+    threshold: 0.35
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.2187
+    threshold: 0.35
+  new_tag_proposals:
+  - name: 喰種
+    axis: 外見 / 種族
+    reason: 人間に擬態し、独自の社会や食料供給を必要とする人外種族であるため。
+  - name: ウェイトレス
+    axis: 外見 / 記号職
+    reason: 喰種の集まりの場兼食料供給源となっているカフェで働いているため。
 - id: kiriyama-rei
   name: 桐山零
   date: '2026-08-30'
@@ -3356,6 +3461,16 @@
   - name: 航海士
     axis: 立場・職能
     reason: 気象や海象の分析と操船の判断を行い、船の針路を担う専門的な役職・技能を示すため。
+- id: nanase-haruka
+  name: 七瀬遙
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3077
+    threshold: 0.5
+  new_tag_proposals: []
 - id: natsuki-subaru
   name: ナツキ・スバル
   date: '2026-08-30'
@@ -3389,6 +3504,36 @@
   - name: 引きこもり
     axis: 生活習慣/状態
     reason: 「元の世界では引きこもりであり」とあるが、該当する語彙が存在しないため。
+- id: natsume-takashi
+  name: 夏目貴志
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: wasou
+    tag: japanese_clothes
+    frequency: 0.3284
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.3284
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2687
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2687
+    threshold: 0.35
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.2388
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1791
+    threshold: 0.3
+  new_tag_proposals: []
 - id: nishikigi-chisato
   name: 錦木千束
   date: '2026-08-30'
@@ -3971,6 +4116,14 @@
     frequency: 0.1837
     threshold: 0.35
   new_tag_proposals: []
+- id: ryuugazaki-rei
+  name: 竜ヶ崎怜
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: red-framed_eyewear
+    frequency: 0.4231
+  near_miss: []
+  new_tag_proposals: []
 - id: ryuuguu-rena
   name: 竜宮レナ
   date: '2026-08-30'
@@ -4237,6 +4390,26 @@
   - name: ポケモントレーナー
     axis: 立場
     reason: ポケモンを受け取り、バトルや育成を行っていく中心的な役割・肩書であるが、選択肢の語彙に含まれていないため。
+- id: sawada-tsunayoshi
+  name: 沢田綱吉
+  date: '2026-08-31'
+  unmapped_danbooru:
+  - tag: fire
+    frequency: 0.4932
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3562
+    threshold: 0.5
+  - id: kin-no-me
+    tag: orange_eyes
+    frequency: 0.3151
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2466
+    threshold: 0.35
+  new_tag_proposals: []
 - id: sebastian-michaelis
   name: セバスチャン・ミカエリス
   date: '2026-08-30'
@@ -4671,6 +4844,40 @@
     frequency: 0.1502
     threshold: 0.35
   new_tag_proposals: []
+- id: tachibana-mei
+  name: 橘めい
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.3143
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2571
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2571
+    threshold: 0.35
+  - id: kemomimi
+    tag: animal_ears
+    frequency: 0.2286
+    threshold: 0.35
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.2
+    threshold: 0.35
+  - id: choker
+    tag: choker
+    frequency: 0.1714
+    threshold: 0.35
+  - id: shippo
+    tag: tail
+    frequency: 0.1714
+    threshold: 0.35
+  new_tag_proposals: []
 - id: tainaka-ritsu
   name: 田井中律
   date: '2026-08-30'
@@ -4905,6 +5112,23 @@
     frequency: 0.1861
     threshold: 0.35
   new_tag_proposals: []
+- id: tsukishima-kei
+  name: 月島蛍
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.2828
+    threshold: 0.35
+  - id: heddohon
+    tag: headphones
+    frequency: 0.2
+    threshold: 0.35
+  new_tag_proposals:
+  - name: バレーボール部員
+    axis: 関係性 / 立場
+    reason: 烏野高校バレーボール部でミドルブロッカーを務めている記載があるが、既存の語彙に当てはまるものがないため。
 - id: uchiha-sasuke
   name: うちはサスケ
   date: '2026-08-30'
