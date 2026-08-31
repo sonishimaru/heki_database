@@ -1832,13 +1832,9 @@ characters:
     year: 2000
     danbooru: komatsu_nana
     anilist: Nana Komatsu
-  - id: oosaki-nana
-    name: 大崎ナナ
-    kana: おおさきなな
-    work: NANA
-    year: 2000
-    danbooru: oosaki_nana
-    anilist: Nana Osaki
+  # 大崎ナナは外した。Danbooru に oosaki_nana というタグが無く、
+  # AniList も Nana Osaki で 404 を返す（同じ作品の komatsu_nana は通る）。
+  # 綴りを当て推量で試すより、NANA は小松奈々の1名で足りるとみなす。
   - id: kiriyama-rei
     name: 桐山零
     kana: きりやまれい
@@ -2007,3 +2003,326 @@ characters:
     year: 1996
     danbooru: satoshi_(pokemon)
     anilist: Ash Ketchum
+
+# --- 7期目: 294名。実例0の27語のうち、資料レーンから拾える見込みのものを狙う。
+#     目の形（つり目・たれ目・ジト目・糸目）は11巡目でレーンを開けたので、
+#     新規ではなく既存294名の取り直しで埋まるはず。ここでは残りを埋める:
+#     指輪・形見（結婚と遺品）、腐れ縁（幼馴染の相棒）、うなじ・背中・喉仏、
+#     部屋着・ぶかぶかの服（日常もの）、小声・耳が赤くなる・目を逸らす（内向）、
+#     ドS、立場の逆転、二人きり。作品の系統も未収録のものを選んだ ---
+
+  - id: tachibana-mei
+    name: 橘めい
+    kana: たちばなめい
+    work: 会長はメイド様!
+    year: 2010
+    danbooru: ayuzawa_misaki
+    anilist: Misaki Ayuzawa
+  - id: sawada-tsunayoshi
+    name: 沢田綱吉
+    kana: さわだつなよし
+    work: 家庭教師ヒットマンREBORN!
+    year: 2006
+    danbooru: sawada_tsunayoshi
+    anilist: Tsunayoshi Sawada
+  - id: hibari-kyoya
+    name: 雲雀恭弥
+    kana: ひばりきょうや
+    work: 家庭教師ヒットマンREBORN!
+    year: 2006
+    danbooru: hibari_kyouya
+    anilist: Kyoya Hibari
+  - id: natsume-takashi
+    name: 夏目貴志
+    kana: なつめたかし
+    work: 夏目友人帳
+    year: 2008
+    danbooru: natsume_takashi
+    anilist: Takashi Natsume
+  - id: ginko
+    name: ギンコ
+    kana: ぎんこ
+    work: 蟲師
+    year: 2005
+    danbooru: ginko_(mushishi)
+    anilist: Ginko
+  - id: ryuugazaki-rei
+    name: 竜ヶ崎怜
+    kana: りゅうがざきれい
+    work: Free!
+    year: 2013
+    danbooru: ryuugazaki_rei
+    anilist: Rei Ryugazaki
+  - id: nanase-haruka
+    name: 七瀬遙
+    kana: ななせはるか
+    work: Free!
+    year: 2013
+    danbooru: nanase_haruka_(free!)
+    anilist: Haruka Nanase
+  - id: kirishima-touka
+    name: 霧嶋董香
+    kana: きりしまとうか
+    work: 東京喰種トーキョーグール
+    year: 2011
+    danbooru: kirishima_touka
+    anilist: Touka Kirishima
+  - id: inoue-orihime
+    name: 井上織姫
+    kana: いのうえおりひめ
+    work: BLEACH
+    year: 2001
+    danbooru: inoue_orihime
+    anilist: Orihime Inoue
+  - id: tsukishima-kei
+    name: 月島蛍
+    kana: つきしまけい
+    work: ハイキュー!!
+    year: 2012
+    danbooru: tsukishima_kei
+    anilist: Kei Tsukishima
+  - id: aomine-daiki
+    name: 青峰大輝
+    kana: あおみねだいき
+    work: 黒子のバスケ
+    year: 2008
+    danbooru: aomine_daiki
+    anilist: Daiki Aomine
+  - id: akashi-seijuurou
+    name: 赤司征十郎
+    kana: あかしせいじゅうろう
+    work: 黒子のバスケ
+    year: 2008
+    danbooru: akashi_seijuurou
+    anilist: Seijuro Akashi
+  - id: hachiken-yuugo
+    name: 八軒勇吾
+    kana: はちけんゆうご
+    work: 銀の匙
+    year: 2011
+    danbooru: hachiken_yuugo
+    anilist: Yuugo Hachiken
+  - id: takakura-himari
+    name: 高倉陽毬
+    kana: たかくらひまり
+    work: 輪るピングドラム
+    year: 2011
+    danbooru: takakura_himari
+    anilist: Himari Takakura
+  - id: kanbaru-suruga
+    name: 神原駿河
+    kana: かんばるするが
+    work: 化物語
+    year: 2009
+    danbooru: kanbaru_suruga
+    anilist: Suruga Kanbaru
+  - id: shirogane-noel
+    name: 白銀ノエル
+    kana: しろがねのえる
+    work: ホロライブ
+    year: 2019
+    danbooru: shirogane_noel
+    anilist: Noel Shirogane
+  - id: sakura-miko
+    name: さくらみこ
+    kana: さくらみこ
+    work: ホロライブ
+    year: 2018
+    danbooru: sakura_miko
+    anilist: Miko Sakura
+  - id: kaine
+    name: カイネ
+    kana: かいね
+    work: NieR
+    year: 2010
+    danbooru: kaine_(nier)
+    anilist: Kaine
+  - id: yorha-2b
+    name: 2B
+    kana: つーびー
+    work: NieR:Automata
+    year: 2017
+    danbooru: yorha_no._2_type_b
+    anilist: 2B
+  - id: aerith-gainsborough
+    name: エアリス・ゲインズブール
+    kana: えありすげいんずぶーる
+    work: ファイナルファンタジーVII
+    year: 1997
+    danbooru: aerith_gainsborough
+    anilist: Aerith Gainsborough
+  - id: tifa-lockhart
+    name: ティファ・ロックハート
+    kana: てぃふぁろっくはーと
+    work: ファイナルファンタジーVII
+    year: 1997
+    danbooru: tifa_lockhart
+    anilist: Tifa Lockhart
+  - id: link
+    name: リンク
+    kana: りんく
+    work: ゼルダの伝説
+    year: 1986
+    danbooru: link
+    anilist: Link
+  - id: zelda
+    name: ゼルダ
+    kana: ぜるだ
+    work: ゼルダの伝説
+    year: 1986
+    danbooru: princess_zelda
+    anilist: Zelda
+  - id: mitsuha-miyamizu
+    name: 宮水三葉
+    kana: みやみずみつは
+    work: 君の名は。
+    year: 2016
+    danbooru: miyamizu_mitsuha
+    anilist: Mitsuha Miyamizu
+  - id: suzume-iwato
+    name: 岩戸鈴芽
+    kana: いわとすずめ
+    work: すずめの戸締まり
+    year: 2022
+    danbooru: iwato_suzume
+    anilist: Suzume Iwato
+  - id: hodaka-morishima
+    name: 森嶋帆高
+    kana: もりしまほだか
+    work: 天気の子
+    year: 2019
+    danbooru: morishima_hodaka
+    anilist: Hodaka Morishima
+  - id: sophie-hatter
+    name: ソフィー・ハッター
+    kana: そふぃーはったー
+    work: ハウルの動く城
+    year: 2004
+    danbooru: sophie_hatter
+    anilist: Sophie Hatter
+  - id: howl
+    name: ハウル
+    kana: はうる
+    work: ハウルの動く城
+    year: 2004
+    danbooru: howl_(howl_no_ugoku_shiro)
+    anilist: Howl
+  - id: nausicaa
+    name: ナウシカ
+    kana: なうしか
+    work: 風の谷のナウシカ
+    year: 1984
+    danbooru: nausicaa_(nausicaa)
+    anilist: Nausicaa
+  - id: shizuku-tsukishima
+    name: 月島雫
+    kana: つきしましずく
+    work: 耳をすませば
+    year: 1995
+    danbooru: tsukishima_shizuku
+    anilist: Shizuku Tsukishima
+  - id: anzu-hinazuki
+    name: 雛月加代
+    kana: ひなづきかよ
+    work: 僕だけがいない街
+    year: 2012
+    danbooru: hinazuki_kayo
+    anilist: Kayo Hinazuki
+  - id: takagi-san
+    name: 高木さん
+    kana: たかぎさん
+    work: からかい上手の高木さん
+    year: 2013
+    danbooru: takagi-san
+    anilist: Takagi
+  - id: nishikata
+    name: 西片
+    kana: にしかた
+    work: からかい上手の高木さん
+    year: 2013
+    danbooru: nishikata
+    anilist: Nishikata
+  - id: tanaka-gundam
+    name: 田中眼蛇夢
+    kana: たなかがんだむ
+    work: スーパーダンガンロンパ2
+    year: 2012
+    danbooru: tanaka_gundham
+    anilist: Gundham Tanaka
+  - id: kirigiri-kyouko
+    name: 霧切響子
+    kana: きりぎりきょうこ
+    work: ダンガンロンパ
+    year: 2010
+    danbooru: kirigiri_kyoko
+    anilist: Kyoko Kirigiri
+  - id: komaeda-nagito
+    name: 狛枝凪斗
+    kana: こまえだなぎと
+    work: スーパーダンガンロンパ2
+    year: 2012
+    danbooru: komaeda_nagito
+    anilist: Nagito Komaeda
+  - id: shima-rin
+    name: 志摩リン
+    kana: しまりん
+    work: ゆるキャン△
+    year: 2015
+    danbooru: shima_rin
+    anilist: Rin Shima
+  - id: kagamihara-nadeshiko
+    name: 各務原なでしこ
+    kana: かがみはらなでしこ
+    work: ゆるキャン△
+    year: 2015
+    danbooru: kagamihara_nadeshiko
+    anilist: Nadeshiko Kagamihara
+  - id: kougami-shinya
+    name: 狡噛慎也
+    kana: こうがみしんや
+    work: PSYCHO-PASS
+    year: 2012
+    danbooru: kougami_shinya
+    anilist: Shinya Kogami
+  - id: tsunemori-akane
+    name: 常守朱
+    kana: つねもりあかね
+    work: PSYCHO-PASS
+    year: 2012
+    danbooru: tsunemori_akane
+    anilist: Akane Tsunemori
+  - id: honma-meiko
+    name: 本間芽衣子
+    kana: ほんまめいこ
+    work: あの日見た花の名前を僕達はまだ知らない。
+    year: 2011
+    danbooru: honma_meiko
+    anilist: Meiko Honma
+  - id: furukawa-nagisa
+    name: 古河渚
+    kana: ふるかわなぎさ
+    work: CLANNAD
+    year: 2004
+    danbooru: furukawa_nagisa
+    anilist: Nagisa Furukawa
+  - id: thorfinn
+    name: トルフィン
+    kana: とるふぃん
+    work: ヴィンランド・サガ
+    year: 2005
+    danbooru: thorfinn
+    anilist: Thorfinn
+  - id: emma-neverland
+    name: エマ
+    kana: えま
+    work: 約束のネバーランド
+    year: 2016
+    danbooru: emma_(yakusoku_no_neverland)
+    anilist: Emma
+  - id: kobuchizawa-shirase
+    name: 小淵沢報瀬
+    kana: こぶちざわしらせ
+    work: 宇宙よりも遠い場所
+    year: 2018
+    danbooru: kobuchizawa_shirase
+    anilist: Shirase Kobuchizawa
