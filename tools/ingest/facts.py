@@ -27,8 +27,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common  # noqa: E402
 
-_ENV = os.environ.get("GEMINI_FACTS_MODEL")
-MODEL_CANDIDATES = [_ENV] if _ENV else ["gemini-3.6-flash", "gemini-2.5-flash"]
+MODEL_CANDIDATES = common.models_for(common.FLASH_MODELS, "GEMINI_FACTS_MODEL")
 DEFAULT_MODEL = MODEL_CANDIDATES[0]
 
 SCHEMA = {

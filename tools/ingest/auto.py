@@ -90,7 +90,7 @@ def select_targets(
     return fresh + stale + lane_gap
 
 
-def process(entry: dict, api_key: str | None, sleep: float) -> None:
+def process(entry: dict, api_key: str | None, sleep: float, tally: dict) -> None:
     cid = entry["id"]
     workdir = ROOT / "work" / "auto" / cid
     workdir.mkdir(parents=True, exist_ok=True)
@@ -126,11 +126,13 @@ def process(entry: dict, api_key: str | None, sleep: float) -> None:
 
     classify_file = None
     if api_key and pages:
+        tally["資料_試行"] += 1
         try:
             facts_file = workdir / "facts.yaml"
             run([python, INGEST / "facts.py", "--character", entry["name"], "--pages", *pages, "--out", facts_file])
             classify_file = workdir / "classify.json"
             run([python, INGEST / "classify.py", "--character", entry["name"], "--facts", facts_file, "--out", classify_file])
+            tally["資料"] += 1
         except subprocess.CalledProcessError:
             # クォータ切れ等。前回の分類結果はレーン引き継ぎで残るので、外見だけ更新して続行する
             print("  資料レーン失敗（続行）: 今回は外見のみ更新")
@@ -143,11 +145,13 @@ def process(entry: dict, api_key: str | None, sleep: float) -> None:
     # どの証拠レーンにも出てこない識別子はここからしか入らない。
     trait_file = None
     if api_key:
+        tally["識別_試行"] += 1
         try:
             path = workdir / "trait.json"
             run([python, INGEST / "trait.py", "--character", entry["name"],
                  "--work", entry.get("work", ""), "--out", path])
             trait_file = path
+            tally["識別"] += 1
         except subprocess.CalledProcessError:
             print("  識別レーン失敗（続行）")
 
@@ -212,16 +216,33 @@ def main() -> int:
     if args.dry_run:
         return 0
     failed = []
+    tally = {"資料": 0, "資料_試行": 0, "識別": 0, "識別_試行": 0}
     for entry in targets:
         print(f"\n=== {entry['id']} ===")
         try:
-            process(entry, api_key, args.sleep)
+            process(entry, api_key, args.sleep, tally)
         except (subprocess.CalledProcessError, RuntimeError, SystemExit) as err:
             print(f"  失敗: {err}")
             failed.append(entry["id"])
 
     print(f"\n完了 {len(targets) - len(failed)} / {len(targets)} 件" + (f"（失敗: {', '.join(failed)}）" if failed else ""))
+    for lane in ("資料", "識別"):
+        tried = tally[f"{lane}_試行"]
+        if tried:
+            print(f"  {lane}レーン: {tally[lane]} / {tried} 件")
     if len(failed) == len(targets):
+        return 1
+
+    # レーンが一件も通らないのは、そのキャラの事情ではなく設定の問題
+    # （モデル名が古い等）。12 巡目にこれで両レーンが黙って落ちたまま
+    # ワークフローが success を返し続けていたので、失敗として扱う。
+    dead = [
+        lane for lane in ("資料", "識別")
+        if tally[f"{lane}_試行"] >= 3 and tally[lane] == 0
+    ]
+    if dead:
+        print(f"\n{'・'.join(dead)}レーンが全件で失敗しました。"
+              "個別の事情ではなく設定の問題です（モデル名が古い等）。")
         return 1
     return 0
 

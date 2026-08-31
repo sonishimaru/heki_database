@@ -141,6 +141,42 @@ def emit_character_yaml(entry: dict) -> str:
 # --- Gemini API ---
 
 GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+GEMINI_LIST_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models"
+
+# 使えるモデル名はキーの世代で変わり、古い名前は予告なく 404 になる。
+# 12 巡目に gemini-3.6-pro と gemini-2.5-pro が同時に 404 を返し、資料レーンと
+# 識別レーンが両方黙って落ちていた（ワークフローは success を返していた）。
+# 4 つのファイルが別々に候補を持っていて食い違っていたので、ここへ集約した。
+#
+#   PRO   … 判断させるもの（分類・識別）
+#   FLASH … 抜き出させるもの（事実の下書き・映像の観察）
+PRO_MODELS = ["gemini-3.1-pro-preview", "gemini-3.6-flash"]
+FLASH_MODELS = ["gemini-3.6-flash", "gemini-3.1-flash-preview"]
+
+
+def models_for(default: list[str], env_var: str) -> list[str]:
+    """環境変数で名指しされていればそれだけ、無ければ既定の候補。"""
+    import os
+
+    named = os.environ.get(env_var)
+    return [named] if named else list(default)
+
+
+def list_models(api_key: str) -> list[str]:
+    """いま使えるモデル名を引く。候補が全滅したときの診断用。"""
+    import urllib.error
+    import urllib.request
+
+    try:
+        with urllib.request.urlopen(f"{GEMINI_LIST_ENDPOINT}?key={api_key}", timeout=30) as response:
+            payload = json.loads(response.read())
+    except (urllib.error.URLError, OSError, ValueError):
+        return []
+    return [
+        m["name"].removeprefix("models/")
+        for m in payload.get("models", [])
+        if "generateContent" in (m.get("supportedGenerationMethods") or [])
+    ]
 
 
 def gemini_api_key() -> str:
@@ -219,7 +255,13 @@ def call_gemini_fallback(models: list[str], parts, schema, api_key: str, tempera
                 print(f"  モデル {model} は{reason}（{err.code}）。次の候補を試します。")
                 continue
             raise
-    raise SystemExit(f"利用できるモデルがありません: {', '.join(models)}\n{last}")
+    # 候補が全滅するのは設定の問題（モデル名が古い）なので、実際に使える名前を出す。
+    # 名前が変わったことに気づけず、レーンが黙って落ち続けるのを防ぐため。
+    available = list_models(api_key)
+    hint = ""
+    if available:
+        hint = "\nいま使えるモデル: " + ", ".join(available[:20])
+    raise SystemExit(f"利用できるモデルがありません: {', '.join(models)}\n{last}{hint}")
 
 
 def image_part(path) -> dict:
