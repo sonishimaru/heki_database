@@ -2212,8 +2212,11 @@ characters:
     kana: なうしか
     work: 風の谷のナウシカ
     year: 1984
-    danbooru: nausicaa_(nausicaa)
-    anilist: Nausicaa
+    # 括弧内は作品名（Danbooru はジブリ作品を日本語ローマ字で括る）。
+    # AniList 側は綴りに分音記号が入る。nausicaa_(nausicaa) / Nausicaa では
+    # どちらも 404 だった
+    danbooru: nausicaa_(kaze_no_tani_no_nausicaa)
+    anilist: Nausicaä
   - id: shizuku-tsukishima
     name: 月島雫
     kana: つきしましずく
