@@ -2278,7 +2278,7 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-09-15'
   elements:
     - {id: shinigami, weight: core, note: '資料: 隊長・副隊長を務め、斬魄刀を所持することから死神であると窺える。', src: gemini}
     - {id: wasou, weight: core, note: 'danbooru japanese_clothes 63%', src: danbooru}
