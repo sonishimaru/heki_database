@@ -398,6 +398,16 @@
     frequency: 0.17
     threshold: 0.5
   new_tag_proposals: []
+- id: asakura-yoh
+  name: 麻倉葉
+  date: '2026-09-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.2791
+    threshold: 0.35
+  new_tag_proposals: []
 - id: asta-black-clover
   name: アスタ
   date: '2026-08-31'
@@ -873,6 +883,20 @@
   - name: 剣士
     axis: 関係性 / 立場
     reason: 剣神流の素質を持ち木剣が聖遺物とされる記述があるが、和装・刀を前提としない剣士の語彙がないため。
+- id: eureka
+  name: エウレカ
+  date: '2026-09-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: choker
+    tag: collar
+    frequency: 0.205
+    threshold: 0.35
+  - id: midorigami
+    tag: green_hair
+    frequency: 0.1967
+    threshold: 0.35
+  new_tag_proposals: []
 - id: faye-valentine
   name: フェイ・ヴァレンタイン
   date: '2026-08-31'
@@ -1259,6 +1283,20 @@
     frequency: 0.3333
     threshold: 0.35
   new_tag_proposals: []
+- id: haibara-ai
+  name: 灰原哀
+  date: '2026-09-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3695
+    threshold: 0.5
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.1615
+    threshold: 0.35
+  new_tag_proposals: []
 - id: hakurei-reimu
   name: 博麗霊夢
   date: '2026-08-31'
@@ -1453,6 +1491,18 @@
   - id: chairo-no-me
     tag: brown_eyes
     frequency: 0.1617
+    threshold: 0.35
+  new_tag_proposals: []
+- id: hino-rei
+  name: 火野レイ
+  date: '2026-09-29'
+  unmapped_danbooru:
+  - tag: red_sailor_collar
+    frequency: 0.5357
+  near_miss:
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.1675
     threshold: 0.35
   new_tag_proposals: []
 - id: hirasawa-yui
@@ -1869,6 +1919,20 @@
   - name: 器（宿体）
     axis: 関係性 / 立場
     reason: 肩書きに「器（Vessel）」と記されており、他者の存在や力をその身に宿す特有の立場・役割を示しているため。
+- id: iwakura-lain
+  name: 岩倉玲音
+  date: '2026-09-29'
+  unmapped_danbooru:
+  - tag: asymmetrical_hair
+    frequency: 0.5517
+  - tag: single_sidelock
+    frequency: 0.3678
+  near_miss:
+  - id: muhyoujou
+    tag: expressionless
+    frequency: 0.2068
+    threshold: 0.35
+  new_tag_proposals: []
 - id: iwatani-naofumi
   name: 岩谷尚文
   date: '2026-08-31'
@@ -3166,6 +3230,28 @@
   - name: datsugoku
     axis: 技能・行動
     reason: 何度捕まっても常に脱獄に成功しているという特筆すべき実績があるため。
+- id: maka-albarn
+  name: マカ・アルバーン
+  date: '2026-09-29'
+  unmapped_danbooru:
+  - tag: miniskirt
+    frequency: 0.3715
+  - tag: holding_scythe
+    frequency: 0.3609
+  near_miss:
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.3329
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.3196
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1798
+    threshold: 0.3
+  new_tag_proposals: []
 - id: makima
   name: マキマ
   date: '2026-08-31'
@@ -3454,6 +3540,28 @@
     tag: braid
     frequency: 0.2917
     threshold: 0.35
+  new_tag_proposals: []
+- id: mouri-ran
+  name: 毛利蘭
+  date: '2026-09-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.2374
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2146
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2055
+    threshold: 0.5
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1735
+    threshold: 0.3
   new_tag_proposals: []
 - id: mutou-yuugi
   name: 武藤遊戯
@@ -4126,6 +4234,16 @@
     frequency: 0.2992
     threshold: 0.35
   new_tag_proposals: []
+- id: ranka-lee
+  name: ランカ・リー
+  date: '2026-09-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: ahoge
+    tag: ahoge
+    frequency: 0.3105
+    threshold: 0.35
+  new_tag_proposals: []
 - id: raphtalia
   name: ラフタリア
   date: '2026-08-31'
@@ -4728,6 +4846,24 @@
   - name: 精神支配
     axis: 関係性 / 関係の状態
     reason: 敵対組織のアイテムや能力により精神を操作され、意図せず敵対・反逆させられた状態。
+- id: sheryl-nome
+  name: シェリル・ノーム
+  date: '2026-09-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.297
+    threshold: 0.5
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2536
+    threshold: 0.5
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2069
+    threshold: 0.35
+  new_tag_proposals: []
 - id: shibuya-rin
   name: 渋谷凛
   date: '2026-08-31'
@@ -5529,6 +5665,28 @@
     frequency: 0.1612
     threshold: 0.35
   new_tag_proposals: []
+- id: tsukimiya-ayu
+  name: 月宮あゆ
+  date: '2026-09-29'
+  unmapped_danbooru:
+  - tag: mittens
+    frequency: 0.5485
+  - tag: brown_mittens
+    frequency: 0.4009
+  near_miss:
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.2225
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1784
+    threshold: 0.5
+  - id: tenshi
+    tag: angel_wings
+    frequency: 0.1542
+    threshold: 0.35
+  new_tag_proposals: []
 - id: tsukino-usagi
   name: 月野うさぎ
   date: '2026-08-31'
@@ -5829,6 +5987,22 @@
   - id: furiru
     tag: frills
     frequency: 0.1535
+    threshold: 0.35
+  new_tag_proposals: []
+- id: yoko-littner
+  name: ヨーコ・リットナー
+  date: '2026-09-29'
+  unmapped_danbooru:
+  - tag: bikini_top_only
+    frequency: 0.5851
+  - tag: short_shorts
+    frequency: 0.3903
+  - tag: skull_hair_ornament
+    frequency: 0.3548
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.322
     threshold: 0.35
   new_tag_proposals: []
 - id: yor-forger
