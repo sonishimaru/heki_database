@@ -38,7 +38,13 @@ jobs:
           python-version: "3.11"
       - run: pip install pyyaml
 
+      # 取り込みが落ちても、そこまでに取れた分は捨てずにコミットする。
+      # レーン全滅を失敗として扱うようにしたら、Danbooru だけは取れていた回まで
+      # まるごと捨てられるようになり、9/15 以降 DB が一歩も進まなくなった。
+      # 失敗は最後のステップで赤くする。
       - name: キューを処理する
+        id: ingest
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
@@ -87,4 +93,10 @@ jobs:
             echo "プッシュが弾かれました（${attempt} 回目）。取り込み直して再試行します。"
           done
           echo "3 回試してもプッシュできませんでした。"
+          exit 1
+
+      - name: 取り込みが失敗していたら赤くする
+        if: steps.ingest.outcome == 'failure'
+        run: |
+          echo "::error::取り込みの処理が失敗しました。取れた分はコミット済みです。理由は「キューを処理する」のログの末尾に出ています。"
           exit 1

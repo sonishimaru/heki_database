@@ -3399,31 +3399,6 @@
     frequency: 0.2637
     threshold: 0.5
   new_tag_proposals: []
-- id: mitsuha-miyamizu
-  name: 宮水三葉
-  date: '2026-08-31'
-  unmapped_danbooru: []
-  near_miss:
-  - id: tanpatsu
-    tag: short_hair
-    frequency: 0.3357
-    threshold: 0.35
-  - id: ponytail
-    tag: ponytail
-    frequency: 0.2246
-    threshold: 0.35
-  - id: chouhatsu
-    tag: long_hair
-    frequency: 0.1773
-    threshold: 0.35
-  - id: mitsuami
-    tag: braid
-    frequency: 0.1537
-    threshold: 0.35
-  new_tag_proposals:
-  - name: タイムスリップ
-    axis: 物語役割 / 限定・反復
-    reason: 資料に『タイムスリップ後は25-26歳』という記述があり、時間を超える現象が存在するため。
 - id: miyamizu-mitsuha
   name: 宮水三葉
   date: '2026-08-31'

@@ -2172,13 +2172,6 @@ characters:
     year: 1986
     danbooru: princess_zelda
     anilist: Zelda
-  - id: mitsuha-miyamizu
-    name: 宮水三葉
-    kana: みやみずみつは
-    work: 君の名は。
-    year: 2016
-    danbooru: miyamizu_mitsuha
-    anilist: Mitsuha Miyamizu
   - id: suzume-iwato
     name: 岩戸鈴芽
     kana: いわとすずめ
@@ -2322,3 +2315,320 @@ characters:
     year: 2018
     danbooru: kobuchizawa_shirase
     anilist: Shirase Kobuchizawa
+  # 8 期目。作品は 147 → 178 に増える。年代を 1980〜2021 に散らし、
+  # 種族・痕・部位のような実例の薄い軸に当たる原型を混ぜた。
+  - id: hino-rei
+    name: 火野レイ
+    kana: ひのれい
+    work: 美少女戦士セーラームーン
+    year: 1992
+    danbooru: hino_rei
+    anilist: Rei Hino
+  - id: mouri-ran
+    name: 毛利蘭
+    kana: もうりらん
+    work: 名探偵コナン
+    year: 1994
+    danbooru: mouri_ran
+    anilist: Ran Mouri
+  - id: haibara-ai
+    name: 灰原哀
+    kana: はいばらあい
+    work: 名探偵コナン
+    year: 1994
+    danbooru: haibara_ai
+    anilist: Ai Haibara
+  - id: maka-albarn
+    name: マカ・アルバーン
+    kana: まかあるばーん
+    work: ソウルイーター
+    year: 2004
+    danbooru: maka_albarn
+    anilist: Maka Albarn
+  - id: kamio-misuzu
+    name: 神尾観鈴
+    kana: かみおみすず
+    work: AIR
+    year: 2000
+    danbooru: kamio_misuzu
+    anilist: Misuzu Kamio
+  - id: asakura-yoh
+    name: 麻倉葉
+    kana: あさくらよう
+    work: シャーマンキング
+    year: 1998
+    danbooru: asakura_yoh
+    anilist: Yoh Asakura
+  - id: tsukimiya-ayu
+    name: 月宮あゆ
+    kana: つきみやあゆ
+    work: Kanon
+    year: 1999
+    danbooru: tsukimiya_ayu
+    anilist: Ayu Tsukimiya
+  - id: ranka-lee
+    name: ランカ・リー
+    kana: らんかりー
+    work: マクロスF
+    year: 2008
+    danbooru: ranka_lee
+    anilist: Ranka Lee
+  - id: sheryl-nome
+    name: シェリル・ノーム
+    kana: しぇりるのーむ
+    work: マクロスF
+    year: 2008
+    danbooru: sheryl_nome
+    anilist: Sheryl Nome
+  - id: eureka
+    name: エウレカ
+    kana: えうれか
+    work: 交響詩篇エウレカセブン
+    year: 2005
+    danbooru: eureka_(eureka_seven)
+    anilist: Eureka
+  - id: yoko-littner
+    name: ヨーコ・リットナー
+    kana: ようこりっとなー
+    work: 天元突破グレンラガン
+    year: 2007
+    danbooru: yoko_littner
+    anilist: Yoko Littner
+  - id: iwakura-lain
+    name: 岩倉玲音
+    kana: いわくられいん
+    work: serial experiments lain
+    year: 1998
+    danbooru: iwakura_lain
+    anilist: Lain Iwakura
+  - id: takamachi-nanoha
+    name: 高町なのは
+    kana: たかまちなのは
+    work: 魔法少女リリカルなのは
+    year: 2004
+    danbooru: takamachi_nanoha
+    anilist: Nanoha Takamachi
+  - id: fate-testarossa
+    name: フェイト・テスタロッサ
+    kana: ふぇいとてすたろっさ
+    work: 魔法少女リリカルなのは
+    year: 2004
+    danbooru: fate_testarossa
+    anilist: Fate Testarossa
+  - id: belldandy
+    name: ベルダンディー
+    kana: べるだんでぃー
+    work: ああっ女神さまっ
+    year: 1988
+    danbooru: belldandy
+    anilist: Belldandy
+  - id: saotome-ranma
+    name: 早乙女乱馬
+    kana: さおとめらんま
+    work: らんま1/2
+    year: 1987
+    danbooru: saotome_ranma
+    anilist: Ranma Saotome
+  - id: tendou-akane
+    name: 天道あかね
+    kana: てんどうあかね
+    work: らんま1/2
+    year: 1987
+    danbooru: tendou_akane
+    anilist: Akane Tendo
+  - id: kenshirou
+    name: ケンシロウ
+    kana: けんしろう
+    work: 北斗の拳
+    year: 1983
+    danbooru: kenshirou_(hokuto_no_ken)
+    anilist: Kenshiro
+  - id: riko
+    name: リコ
+    kana: りこ
+    work: メイドインアビス
+    year: 2012
+    danbooru: riko_(made_in_abyss)
+    anilist: Riko
+  - id: reg
+    name: レグ
+    kana: れぐ
+    work: メイドインアビス
+    year: 2012
+    danbooru: reg_(made_in_abyss)
+    anilist: Reg
+  - id: dazai-osamu
+    name: 太宰治
+    kana: だざいおさむ
+    work: 文豪ストレイドッグス
+    year: 2012
+    danbooru: dazai_osamu_(bungou_stray_dogs)
+    anilist: Osamu Dazai
+  - id: nakahara-chuuya
+    name: 中原中也
+    kana: なかはらちゅうや
+    work: 文豪ストレイドッグス
+    year: 2012
+    danbooru: nakahara_chuuya
+    anilist: Chuuya Nakahara
+  - id: mikazuki-munechika
+    name: 三日月宗近
+    kana: みかづきむねちか
+    work: 刀剣乱舞
+    year: 2015
+    danbooru: mikazuki_munechika
+    anilist: Mikazuki Munechika
+  - id: special-week
+    name: スペシャルウィーク
+    kana: すぺしゃるうぃーく
+    work: ウマ娘 プリティーダービー
+    year: 2018
+    danbooru: special_week_(umamusume)
+    anilist: Special Week
+  - id: tokai-teio
+    name: トウカイテイオー
+    kana: とうかいていおー
+    work: ウマ娘 プリティーダービー
+    year: 2018
+    danbooru: tokai_teio_(umamusume)
+    anilist: Tokai Teio
+  - id: shiroko
+    name: シロコ
+    kana: しろこ
+    work: ブルーアーカイブ
+    year: 2021
+    danbooru: shiroko_(blue_archive)
+    anilist: Shiroko
+  - id: amiya
+    name: アーミヤ
+    kana: あーみや
+    work: アークナイツ
+    year: 2019
+    danbooru: amiya_(arknights)
+    anilist: Amiya
+  - id: amamiya-ren
+    name: 雨宮蓮
+    kana: あまみやれん
+    work: ペルソナ5
+    year: 2016
+    danbooru: amamiya_ren
+    anilist: Ren Amamiya
+  - id: narukami-yuu
+    name: 鳴上悠
+    kana: なるかみゆう
+    work: ペルソナ4
+    year: 2008
+    danbooru: narukami_yuu
+    anilist: Yu Narukami
+  - id: serval
+    name: サーバル
+    kana: さーばる
+    work: けものフレンズ
+    year: 2017
+    danbooru: serval_(kemono_friends)
+    anilist: Serval
+  - id: toyama-kasumi
+    name: 戸山香澄
+    kana: とやまかすみ
+    work: BanG Dream!
+    year: 2015
+    danbooru: toyama_kasumi
+    anilist: Kasumi Toyama
+  - id: phosphophyllite
+    name: フォスフォフィライト
+    kana: ふぉすふぉふぃらいと
+    work: 宝石の国
+    year: 2012
+    danbooru: phosphophyllite
+    anilist: Phosphophyllite
+  - id: legoshi
+    name: レゴシ
+    kana: れごし
+    work: BEASTARS
+    year: 2016
+    danbooru: legoshi_(beastars)
+    anilist: Legoshi
+  - id: sugimoto-saichi
+    name: 杉元佐一
+    kana: すぎもとさいち
+    work: ゴールデンカムイ
+    year: 2014
+    danbooru: sugimoto_saichi
+    anilist: Saichi Sugimoto
+  - id: asirpa
+    name: アシリパ
+    kana: あしりぱ
+    work: ゴールデンカムイ
+    year: 2014
+    danbooru: asirpa
+    anilist: Asirpa
+  - id: revy
+    name: レヴィ
+    kana: れゔぃ
+    work: BLACK LAGOON
+    year: 2002
+    danbooru: revy
+    anilist: Revy
+  - id: oumae-kumiko
+    name: 黄前久美子
+    kana: おうまえくみこ
+    work: 響け!ユーフォニアム
+    year: 2013
+    danbooru: oumae_kumiko
+    anilist: Kumiko Oumae
+  - id: kousaka-reina
+    name: 高坂麗奈
+    kana: こうさかれいな
+    work: 響け!ユーフォニアム
+    year: 2013
+    danbooru: kousaka_reina
+    anilist: Reina Kousaka
+  - id: izumi-konata
+    name: 泉こなた
+    kana: いずみこなた
+    work: らき☆すた
+    year: 2004
+    danbooru: izumi_konata
+    anilist: Konata Izumi
+  - id: yukihira-souma
+    name: 幸平創真
+    kana: ゆきひらそうま
+    work: 食戟のソーマ
+    year: 2012
+    danbooru: yukihira_souma
+    anilist: Souma Yukihira
+  - id: meliodas
+    name: メリオダス
+    kana: めりおだす
+    work: 七つの大罪
+    year: 2012
+    danbooru: meliodas
+    anilist: Meliodas
+  - id: natsu-dragneel
+    name: ナツ・ドラグニル
+    kana: なつどらぐにる
+    work: FAIRY TAIL
+    year: 2006
+    danbooru: natsu_dragneel
+    anilist: Natsu Dragneel
+  - id: lucy-heartfilia
+    name: ルーシィ・ハートフィリア
+    kana: るーしぃはーとふぃりあ
+    work: FAIRY TAIL
+    year: 2006
+    danbooru: lucy_heartfilia
+    anilist: Lucy Heartfilia
+  - id: gojou-wakana
+    name: 五条新菜
+    kana: ごじょうわかな
+    work: その着せ替え人形は恋をする
+    year: 2018
+    danbooru: gojou_wakana
+    anilist: Wakana Gojou
+  - id: otonashi-kyouko
+    name: 音無響子
+    kana: おとなしきょうこ
+    work: めぞん一刻
+    year: 1980
+    danbooru: otonashi_kyouko
+    anilist: Kyoko Otonashi

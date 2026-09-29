@@ -3,6 +3,7 @@
 # このファイルは tools/ingest/auto.py が全体を書き直す。手で編集しないこと。
 # レビューして採用するときは、そのエントリを data/characters.yaml へ移して磨く。
 # 同じ id が characters.yaml にある場合、そちらが優先され、このファイル側は無視される。
+
 - id: accelerator
   name: アクセラレータ
   kana: あくせられーた
@@ -4484,27 +4485,6 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 50%', src: danbooru}
     - {id: semi-long, weight: sub, note: 'danbooru medium_hair 40%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 40%', src: danbooru}
-  patterns: []
-
-- id: mitsuha-miyamizu
-  name: 宮水三葉
-  kana: みやみずみつは
-  work: 君の名は。
-  year: 2016
-  summary: 実家の神社で巫女として伝統的な役割を担いつつ、時間の隔たりを超えて成長する構造を持つ人物。
-  image:
-    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b121514-MGI7JRluscpz.png'
-    page: 'https://anilist.co/character/121514'
-    credit: AniList
-  analysis:
-    method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
-  elements:
-    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 68%', src: danbooru}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 74%', src: danbooru}
-    - {id: miko, weight: core, note: '資料: 実家の神社の一員であり巫女を務め、妹とともに古い伝統に参加している。', src: gemini}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 49%', src: danbooru}
   patterns: []
 
 - id: miyamizu-mitsuha

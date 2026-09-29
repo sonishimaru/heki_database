@@ -204,7 +204,47 @@ def load_characters(problems: Problems, elements: dict, patterns: dict) -> dict[
                     problems.add(where, f"未知のパターン: {ref}")
             if cid:
                 characters[cid] = entry
+
+    # 同じ人物が別の id で二重に入っていないか。宮水三葉が
+    # miyamizu-mitsuha と mitsuha-miyamizu の両方で収録されていて、
+    # id が違うので既存の重複検査をすり抜けていた。
+    # 名前だけでは弾けない（ラムはうる星やつらと Re:ゼロに別人がいる）ので
+    # 作品名と組で見る。
+    by_person: dict[tuple[str, str], list[str]] = {}
+    for cid, entry in characters.items():
+        by_person.setdefault((entry.get("name", ""), entry.get("work", "")), []).append(cid)
+    for (name, work), cids in sorted(by_person.items()):
+        if len(cids) > 1:
+            problems.add("characters", f"同じ人物が重複しています: {name}（{work}）→ {', '.join(sorted(cids))}")
     return characters
+
+
+def check_queue(problems: Problems) -> None:
+    """キューの重複を取り込む前に弾く。
+
+    重複は取り込んで初めて分かるのでは遅い。id・人物・Danbooru タグの
+    どれが被っても、同じ人物を二度取りに行くことになる。
+    """
+    path = DATA / "queue.yaml"
+    if not path.exists():
+        return
+    payload = load_yaml(path) or {}
+    entries = payload.get("characters") if isinstance(payload, dict) else payload
+    seen: dict[str, dict[object, str]] = {"id": {}, "人物": {}, "danbooru": {}}
+    for entry in entries or []:
+        cid = entry.get("id")
+        keys = {
+            "id": cid,
+            "人物": (entry.get("name"), entry.get("work")),
+            "danbooru": entry.get("danbooru"),
+        }
+        for label, key in keys.items():
+            if key is None or (isinstance(key, tuple) and None in key):
+                continue
+            if key in seen[label]:
+                problems.add("queue.yaml", f"{label} の重複: {key} が {seen[label][key]} と {cid} に")
+            else:
+                seen[label][key] = str(cid)
 
 
 def check_cross_refs(problems: Problems, elements: dict) -> None:
@@ -401,6 +441,7 @@ def main() -> int:
 
     problems = Problems()
     check_data_files(problems)
+    check_queue(problems)
     groups, axis_index = load_axes(problems)
     elements = load_elements(problems, axis_index)
     check_cross_refs(problems, elements)
