@@ -581,6 +581,34 @@
     frequency: 0.1957
     threshold: 0.5
   new_tag_proposals: []
+- id: belldandy
+  name: ベルダンディー
+  date: '2026-09-29'
+  unmapped_danbooru:
+  - tag: forehead_mark
+    frequency: 0.8194
+  - tag: bracelet
+    frequency: 0.4058
+  - tag: nipples
+    frequency: 0.3508
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4162
+    threshold: 0.5
+  - id: ahoge
+    tag: antenna_hair
+    frequency: 0.3429
+    threshold: 0.35
+  - id: piasu
+    tag: earrings
+    frequency: 0.288
+    threshold: 0.5
+  - id: yubiwa
+    tag: ring
+    frequency: 0.2042
+    threshold: 0.5
+  new_tag_proposals: []
 - id: black-jack
   name: ブラック・ジャック
   date: '2026-08-31'
@@ -704,6 +732,20 @@
   - name: 攻撃不命中
     axis: 能力/戦闘
     reason: 非常に不器用で攻撃が一切命中しないという極端な特徴が資料に記載されているため。
+- id: dazai-osamu
+  name: 太宰治
+  date: '2026-09-29'
+  unmapped_danbooru:
+  - tag: bandaged_neck
+    frequency: 0.5847
+  - tag: bandage_over_one_eye
+    frequency: 0.3842
+  near_miss:
+  - id: gaitou
+    tag: coat
+    frequency: 0.3107
+    threshold: 0.35
+  new_tag_proposals: []
 - id: denji
   name: デンジ
   date: '2026-08-31'
@@ -895,6 +937,32 @@
   - id: midorigami
     tag: green_hair
     frequency: 0.1967
+    threshold: 0.35
+  new_tag_proposals: []
+- id: fate-testarossa
+  name: フェイト・テスタロッサ
+  date: '2026-09-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2443
+    threshold: 0.5
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2432
+    threshold: 0.35
+  - id: mahou-shoujo
+    tag: magical_girl
+    frequency: 0.1978
+    threshold: 0.35
+  - id: gaitou
+    tag: cape
+    frequency: 0.1889
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.1519
     threshold: 0.35
   new_tag_proposals: []
 - id: faye-valentine
@@ -3414,6 +3482,24 @@
     frequency: 0.2838
     threshold: 0.5
   new_tag_proposals: []
+- id: mikazuki-munechika
+  name: 三日月宗近
+  date: '2026-09-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.3243
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2908
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1736
+    threshold: 0.5
+  new_tag_proposals: []
 - id: miki-sayaka
   name: 美樹さやか
   date: '2026-08-31'
@@ -4282,6 +4368,54 @@
     frequency: 0.1926
     threshold: 0.35
   new_tag_proposals: []
+- id: reg
+  name: レグ
+  date: '2026-09-29'
+  unmapped_danbooru:
+  - tag: helmet
+    frequency: 0.5672
+  - tag: fake_horns
+    frequency: 0.4412
+  - tag: topless_male
+    frequency: 0.4328
+  - tag: horned_helmet
+    frequency: 0.4202
+  - tag: red_cape
+    frequency: 0.3782
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4748
+    threshold: 0.5
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.3445
+    threshold: 0.35
+  - id: kasshoku
+    tag: dark_skin
+    frequency: 0.3277
+    threshold: 0.35
+  - id: jinzou
+    tag: robot
+    frequency: 0.3235
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2941
+    threshold: 0.35
+  - id: choker
+    tag: collar
+    frequency: 0.2017
+    threshold: 0.35
+  - id: kodomo
+    tag: child
+    frequency: 0.2017
+    threshold: 0.5
+  - id: futomayu
+    tag: thick_eyebrows
+    frequency: 0.1513
+    threshold: 0.35
+  new_tag_proposals: []
 - id: rem
   name: レム
   date: '2026-08-31'
@@ -4352,6 +4486,24 @@
   - id: tebukuro
     tag: gloves
     frequency: 0.1638
+    threshold: 0.35
+  new_tag_proposals: []
+- id: riko
+  name: リコ
+  date: '2026-09-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.3315
+    threshold: 0.35
+  - id: hinnyuu
+    tag: flat_chest
+    frequency: 0.1854
+    threshold: 0.5
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.1517
     threshold: 0.35
   new_tag_proposals: []
 - id: rimuru-tempest
@@ -4758,6 +4910,20 @@
     tag: tattoo
     frequency: 0.1859
     threshold: 0.35
+  new_tag_proposals: []
+- id: saotome-ranma
+  name: 早乙女乱馬
+  date: '2026-09-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.3139
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2562
+    threshold: 0.5
   new_tag_proposals: []
 - id: satoshi-pokemon
   name: サトシ
@@ -5220,6 +5386,30 @@
     frequency: 0.1596
     threshold: 0.35
   new_tag_proposals: []
+- id: special-week
+  name: スペシャルウィーク
+  date: '2026-09-29'
+  unmapped_danbooru:
+  - tag: horse_ears
+    frequency: 0.9696
+  - tag: horse_girl
+    frequency: 0.9626
+  - tag: horse_tail
+    frequency: 0.6435
+  - tag: purple_bow
+    frequency: 0.3775
+  - tag: ear_bow
+    frequency: 0.3658
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2551
+    threshold: 0.5
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1661
+    threshold: 0.3
+  new_tag_proposals: []
 - id: spike-spiegel
   name: スパイク・スピーゲル
   date: '2026-08-31'
@@ -5385,6 +5575,24 @@
     frequency: 0.3277
     threshold: 0.35
   new_tag_proposals: []
+- id: takamachi-nanoha
+  name: 高町なのは
+  date: '2026-09-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.302
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.2587
+    threshold: 0.35
+  - id: ponytail
+    tag: side_ponytail
+    frequency: 0.2344
+    threshold: 0.35
+  new_tag_proposals: []
 - id: takanashi-rikka
   name: 小鳥遊六花
   date: '2026-08-31'
@@ -5485,6 +5693,24 @@
   - id: tebukuro
     tag: gloves
     frequency: 0.2522
+    threshold: 0.35
+  new_tag_proposals: []
+- id: tendou-akane
+  name: 天道あかね
+  date: '2026-09-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2731
+    threshold: 0.3
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.1738
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1614
     threshold: 0.35
   new_tag_proposals: []
 - id: thorfinn
