@@ -2207,16 +2207,9 @@ characters:
     year: 2004
     danbooru: howl_(howl_no_ugoku_shiro)
     anilist: Howl
-  - id: nausicaa
-    name: ナウシカ
-    kana: なうしか
-    work: 風の谷のナウシカ
-    year: 1984
-    # 括弧内は作品名（Danbooru はジブリ作品を日本語ローマ字で括る）。
-    # AniList 側は綴りに分音記号が入る。nausicaa_(nausicaa) / Nausicaa では
-    # どちらも 404 だった
-    danbooru: nausicaa_(kaze_no_tani_no_nausicaa)
-    anilist: Nausicaä
+  # ナウシカは外した。nausicaa_(nausicaa) / Nausicaa が 404 だったので
+  # nausicaa_(kaze_no_tani_no_nausicaa) / Nausicaä に直したが、これも両方 404。
+  # 綴りを当て推量で重ねるより、ジブリは他の収録キャラで足りるとみなす。
   - id: shizuku-tsukishima
     name: 月島雫
     kana: つきしましずく

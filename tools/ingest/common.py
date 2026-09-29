@@ -253,9 +253,12 @@ def call_gemini_fallback(models: list[str], parts, schema, api_key: str, tempera
             raise SystemExit(str(err))
         except GeminiHTTPError as err:
             last = err
-            # 残高切れはモデルを変えても直らない。全候補を回しても同じ 429 が返るだけで、
+            # 残高切れはモデルを変えても直らない。全候補を回しても同じ答えが返るだけで、
             # 「利用できるモデルがありません」という的外れな結論になるので即座に諦める。
-            if err.code == 429 and ("credits" in str(err) or "billing" in str(err)):
+            # 実際に返るのは 402（Payment Required）。429 だろうと決めつけて書いたせいで
+            # この分岐は一度も通らず、生の traceback が出たうえに毎回 3 モデル分を
+            # 無駄打ちしていた。コードで判定せず、本文の文言も見る。
+            if err.code == 402 or ("credits" in str(err) or "billing" in str(err)):
                 raise SystemExit(
                     "Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で"
                     "課金を確認してください。\n" + str(err)[:300]

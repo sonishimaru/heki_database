@@ -17,6 +17,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import subprocess
 import sys
 import time
@@ -36,6 +37,49 @@ INGEST = Path(__file__).resolve().parent
 def run(cmd: list[str], **kwargs) -> subprocess.CompletedProcess:
     print("  $", " ".join(str(c) for c in cmd))
     return subprocess.run([str(c) for c in cmd], check=True, cwd=ROOT, **kwargs)
+
+
+# 「common.GeminiHTTPError: 残高が…」のような、traceback の締めくくりの行
+EXCEPTION_LINE = re.compile(r"^(?:\w+\.)*\w*(?:Error|Exception|Exit|Warning)\s*:\s*(.+)$")
+
+
+def stderr_of(err: subprocess.CalledProcessError) -> str:
+    raw = err.stderr or ""
+    return raw.decode("utf-8", "replace") if isinstance(raw, bytes) else raw
+
+
+def reason_of(err: subprocess.CalledProcessError) -> str:
+    """子プロセスの stderr から、人が読む一行を取り出す。
+
+    レーンが落ちたとき「各件のログを見てください」とだけ出していたが、
+    肝心の理由は 40 行の traceback に埋もれていて、実際には誰も辿れなかった。
+    要約に載せられる長さまで削って返す。
+    """
+    text = stderr_of(err)
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    if not lines:
+        return "理由不明"
+    if "Traceback (most recent call last):" not in text:
+        # SystemExit の文言はそのまま出るので、一行目が理由そのもの
+        return lines[0][:160]
+    # traceback なら末尾の例外行。ここは要約であって、全文は note_lane_failure が出す
+    for line in reversed(lines):
+        matched = EXCEPTION_LINE.match(line)
+        if matched:
+            return matched.group(1)[:160]
+    return lines[-1][:160]
+
+
+def note_lane_failure(lane: str, err: subprocess.CalledProcessError, tally: dict) -> str:
+    """落ちた理由を一行で出し、最初の一件だけ要約用に控える。"""
+    why = reason_of(err)
+    tally.setdefault(f"{lane}_理由", why)
+    if "Traceback" in stderr_of(err):
+        # 想定外の落ち方。一行では足りないので末尾も出す
+        for line in stderr_of(err).splitlines()[-8:]:
+            if line.strip():
+                print(f"    | {line.rstrip()[:200]}")
+    return why
 
 
 def load_auto_meta() -> dict[str, dict]:
@@ -129,13 +173,14 @@ def process(entry: dict, api_key: str | None, sleep: float, tally: dict) -> None
         tally["資料_試行"] += 1
         try:
             facts_file = workdir / "facts.yaml"
-            run([python, INGEST / "facts.py", "--character", entry["name"], "--pages", *pages, "--out", facts_file])
+            run([python, INGEST / "facts.py", "--character", entry["name"], "--pages", *pages, "--out", facts_file], stderr=subprocess.PIPE, text=True)
             classify_file = workdir / "classify.json"
-            run([python, INGEST / "classify.py", "--character", entry["name"], "--facts", facts_file, "--out", classify_file])
+            run([python, INGEST / "classify.py", "--character", entry["name"], "--facts", facts_file, "--out", classify_file], stderr=subprocess.PIPE, text=True)
             tally["資料"] += 1
-        except subprocess.CalledProcessError:
+        except subprocess.CalledProcessError as err:
             # クォータ切れ等。前回の分類結果はレーン引き継ぎで残るので、外見だけ更新して続行する
-            print("  資料レーン失敗（続行）: 今回は外見のみ更新")
+            why = note_lane_failure("資料", err, tally)
+            print(f"  資料レーン失敗（続行）: {why} / 今回は外見のみ更新")
             classify_file = None
     elif pages and not api_key:
         print("  GEMINI_API_KEY が無いため資料の抽出と分類を飛ばします（外見のみ更新）")
@@ -149,11 +194,13 @@ def process(entry: dict, api_key: str | None, sleep: float, tally: dict) -> None
         try:
             path = workdir / "trait.json"
             run([python, INGEST / "trait.py", "--character", entry["name"],
-                 "--work", entry.get("work", ""), "--out", path])
+                 "--work", entry.get("work", ""), "--out", path],
+                stderr=subprocess.PIPE, text=True)
             trait_file = path
             tally["識別"] += 1
-        except subprocess.CalledProcessError:
-            print("  識別レーン失敗（続行）")
+        except subprocess.CalledProcessError as err:
+            why = note_lane_failure("識別", err, tally)
+            print(f"  識別レーン失敗（続行）: {why}")
 
     if not danbooru_file and not classify_file and not trait_file:
         raise RuntimeError("この件で使える証拠がありません（danbooru も分類結果も識別結果も無い）")
@@ -242,9 +289,10 @@ def main() -> int:
     ]
     if dead:
         print(f"\n{'・'.join(dead)}レーンが全件で失敗しました。"
-              "個別の事情ではなく設定の問題です。"
-              "各件のログに出ている Gemini の応答を見てください"
-              "（多いのは残高切れとモデル名の世代交代）。")
+              "個別の事情ではなく設定の問題です（多いのは残高切れとモデル名の世代交代）。")
+        for lane in dead:
+            if tally.get(f"{lane}_理由"):
+                print(f"  {lane}レーンの理由: {tally[f'{lane}_理由']}")
         return 1
     return 0
 
