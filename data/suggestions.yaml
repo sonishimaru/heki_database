@@ -210,6 +210,56 @@
   - name: 料理苦手
     axis: 能力・技能
     reason: お菓子作りは好きだが料理全般は苦手というギャップのある属性を持っているため。
+- id: amamiya-ren
+  name: 雨宮蓮
+  date: '2026-09-30'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4279
+    threshold: 0.5
+  - id: kamen
+    tag: mask
+    frequency: 0.3084
+    threshold: 0.4
+  - id: akame
+    tag: red_eyes
+    frequency: 0.2768
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2627
+    threshold: 0.3
+  - id: gaitou
+    tag: coat
+    frequency: 0.2144
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1766
+    threshold: 0.35
+  new_tag_proposals: []
+- id: amiya
+  name: アーミヤ
+  date: '2026-09-30'
+  unmapped_danbooru:
+  - tag: rabbit_girl
+    frequency: 0.5468
+  near_miss:
+  - id: yubiwa
+    tag: ring
+    frequency: 0.3974
+    threshold: 0.5
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.3428
+    threshold: 0.35
+  - id: gaitou
+    tag: hood
+    frequency: 0.2088
+    threshold: 0.35
+  new_tag_proposals: []
 - id: amuro-ray
   name: アムロ・レイ
   date: '2026-08-31'
@@ -2425,6 +2475,34 @@
     frequency: 0.328
     threshold: 0.5
   new_tag_proposals: []
+- id: kenshirou
+  name: ケンシロウ
+  date: '2026-09-30'
+  unmapped_danbooru:
+  - tag: manly
+    frequency: 0.3614
+  near_miss:
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.3012
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.253
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.2048
+    threshold: 0.35
+  - id: kishi
+    tag: armor
+    frequency: 0.2048
+    threshold: 0.4
+  - id: futomayu
+    tag: thick_eyebrows
+    frequency: 0.1928
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kiki
   name: キキ
   date: '2026-08-31'
@@ -3717,6 +3795,28 @@
     frequency: 0.301
     threshold: 0.5
   new_tag_proposals: []
+- id: nakahara-chuuya
+  name: 中原中也
+  date: '2026-09-30'
+  unmapped_danbooru: []
+  near_miss:
+  - id: choker
+    tag: choker
+    frequency: 0.2919
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2541
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.173
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.173
+    threshold: 0.35
+  new_tag_proposals: []
 - id: nakano-azusa
   name: 中野梓
   date: '2026-08-31'
@@ -3882,6 +3982,24 @@
   - name: 競泳選手
     axis: 関係性 / 立場
     reason: 岩鳶高校水泳部に所属するフリースタイル（クロール）の選手であるため。
+- id: narukami-yuu
+  name: 鳴上悠
+  date: '2026-09-30'
+  unmapped_danbooru:
+  - tag: grey_eyes
+    frequency: 0.538
+  - tag: yasogami_school_uniform
+    frequency: 0.3732
+  near_miss:
+  - id: megane
+    tag: glasses
+    frequency: 0.3465
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.262
+    threshold: 0.35
+  new_tag_proposals: []
 - id: natsuki-subaru
   name: ナツキ・スバル
   date: '2026-08-31'
@@ -4219,6 +4337,34 @@
     tag: flat_chest
     frequency: 0.1595
     threshold: 0.5
+  new_tag_proposals: []
+- id: phosphophyllite
+  name: フォスフォフィライト
+  date: '2026-09-30'
+  unmapped_danbooru:
+  - tag: 1other
+    frequency: 0.9857
+  - tag: other_focus
+    frequency: 0.9608
+  - tag: androgynous
+    frequency: 0.7883
+  - tag: gem_uniform_(houseki_no_kuni)
+    frequency: 0.6087
+  - tag: crystal_hair
+    frequency: 0.4341
+  near_miss:
+  - id: midorigami
+    tag: green_hair
+    frequency: 0.3314
+    threshold: 0.35
+  - id: aome
+    tag: aqua_eyes
+    frequency: 0.3065
+    threshold: 0.35
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.2858
+    threshold: 0.35
   new_tag_proposals: []
 - id: piccolo
   name: ピッコロ
@@ -4995,6 +5141,34 @@
   - name: 体重消失
     axis: 設定 / 体質
     reason: 怪異である不思議なカニとの遭遇により、物理的な体重が消失しているため。
+- id: serval
+  name: サーバル
+  date: '2026-09-30'
+  unmapped_danbooru:
+  - tag: print_bow
+    frequency: 0.5372
+  - tag: print_bowtie
+    frequency: 0.5287
+  - tag: sleeveless_shirt
+    frequency: 0.3841
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.262
+    threshold: 0.5
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.1643
+    threshold: 0.5
+  - id: akagami
+    tag: orange_hair
+    frequency: 0.1567
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.1559
+    threshold: 0.35
+  new_tag_proposals: []
 - id: shalltear-bloodfallen
   name: シャルティア・ブラッドフォールン
   date: '2026-08-31'
@@ -5194,6 +5368,48 @@
   - id: chouhatsu
     tag: long_hair
     frequency: 0.1604
+    threshold: 0.35
+  new_tag_proposals: []
+- id: shiroko
+  name: シロコ
+  date: '2026-09-30'
+  unmapped_danbooru:
+  - tag: cross_hair_ornament
+    frequency: 0.8734
+  - tag: mismatched_pupils
+    frequency: 0.581
+  - tag: one-piece_swimsuit
+    frequency: 0.403
+  - tag: competition_swimsuit
+    frequency: 0.354
+  near_miss:
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.303
+    threshold: 0.35
+  - id: mafuraa
+    tag: scarf
+    frequency: 0.271
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2034
+    threshold: 0.5
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1994
+    threshold: 0.3
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.183
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.175
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1502
     threshold: 0.35
   new_tag_proposals: []
 - id: shishio-makoto
@@ -5451,6 +5667,44 @@
     tag: hair_between_eyes
     frequency: 0.2206
     threshold: 0.5
+  new_tag_proposals: []
+- id: sugimoto-saichi
+  name: 杉元佐一
+  date: '2026-09-30'
+  unmapped_danbooru:
+  - tag: scar_on_nose
+    frequency: 0.5652
+  - tag: military_hat
+    frequency: 0.555
+  - tag: scar_on_mouth
+    frequency: 0.4348
+  - tag: kepi
+    frequency: 0.4169
+  near_miss:
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2174
+    threshold: 0.35
+  - id: kinniku
+    tag: muscular
+    frequency: 0.1969
+    threshold: 0.35
+  - id: sakadachi-gami
+    tag: spiked_hair
+    frequency: 0.1969
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.1765
+    threshold: 0.35
+  - id: gunpuku
+    tag: military_uniform
+    frequency: 0.1739
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.1714
+    threshold: 0.35
   new_tag_proposals: []
 - id: suzume-iwato
   name: 岩戸鈴芽
@@ -5818,6 +6072,34 @@
     frequency: 0.1505
     threshold: 0.35
   new_tag_proposals: []
+- id: tokai-teio
+  name: トウカイテイオー
+  date: '2026-09-30'
+  unmapped_danbooru:
+  - tag: horse_girl
+    frequency: 0.9776
+  - tag: horse_ears
+    frequency: 0.9751
+  - tag: horse_tail
+    frequency: 0.7192
+  - tag: white_streaks
+    frequency: 0.7109
+  - tag: single_hair_streak
+    frequency: 0.6842
+  near_miss:
+  - id: gaitou
+    tag: cape
+    frequency: 0.2022
+    threshold: 0.35
+  - id: shirogami
+    tag: white_hair
+    frequency: 0.1846
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.1712
+    threshold: 0.5
+  new_tag_proposals: []
 - id: tomioka-giyuu
   name: 冨岡義勇
   date: '2026-08-31'
@@ -5873,6 +6155,36 @@
   - name: 生徒会副会長
     axis: 関係性 / 立場
     reason: 語彙には『生徒会長』が存在するが、実際の役職は生徒会副会長であるため。
+- id: toyama-kasumi
+  name: 戸山香澄
+  date: '2026-09-30'
+  unmapped_danbooru:
+  - tag: cone_hair_bun
+    frequency: 0.5943
+  - tag: star_hair_ornament
+    frequency: 0.4804
+  near_miss:
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2384
+    threshold: 0.35
+  - id: gakki
+    tag: instrument
+    frequency: 0.2171
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2135
+    threshold: 0.3
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1779
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.1744
+    threshold: 0.35
+  new_tag_proposals: []
 - id: trunks
   name: トランクス
   date: '2026-08-31'
