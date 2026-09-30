@@ -2441,7 +2441,9 @@ characters:
     kana: けんしろう
     work: 北斗の拳
     year: 1983
-    danbooru: kenshirou_(hokuto_no_ken)
+    # 括弧は同名衝突のための仕組みで、ケンシロウは衝突しない。
+    # Danbooru は長音の u を落とす綴り。kenshirou_(hokuto_no_ken) は 404 だった
+    danbooru: kenshiro
     anilist: Kenshiro
   - id: riko
     name: リコ
@@ -2469,7 +2471,9 @@ characters:
     kana: なかはらちゅうや
     work: 文豪ストレイドッグス
     year: 2012
-    danbooru: nakahara_chuuya
+    # 実在の詩人と同名なので Danbooru は作品名で括る（同作の太宰治も
+    # dazai_osamu_(bungou_stray_dogs) で通っている）。nakahara_chuuya は 404 だった
+    danbooru: nakahara_chuuya_(bungou_stray_dogs)
     anilist: Chuuya Nakahara
   - id: mikazuki-munechika
     name: 三日月宗近
