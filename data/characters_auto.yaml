@@ -551,6 +551,26 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 51%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: asirpa
+  name: アシリパ
+  kana: あしりぱ
+  work: ゴールデンカムイ
+  year: 2014
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b124701-PecnElfoJlP1.png'
+    page: 'https://anilist.co/character/124701'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-09-30'
+  elements:
+    - {id: piasu, weight: core, note: 'danbooru earrings 75%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 69%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 36% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 58%（共有 24% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: asta-black-clover
   name: アスタ
   kana: あすた
@@ -1700,6 +1720,27 @@
     - {id: koushinchou, weight: sub, note: '資料: 身長は190cmである。', src: gemini}
   patterns: []
 
+- id: gojou-wakana
+  name: 五条新菜
+  kana: ごじょうわかな
+  work: その着せ替え人形は恋をする
+  year: 2018
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b133678-IitCgjDxQGgu.png'
+    page: 'https://anilist.co/character/133678'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-09-30'
+  elements:
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 49%', src: danbooru}
+    - {id: namida-bokuro, weight: sub, note: 'danbooru mole_under_eye 51%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 43%（共有 36% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 41%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 43%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: gon-freecss
   name: ゴン＝フリークス
   kana: ごんふりーくす
@@ -2801,6 +2842,28 @@
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 50%', src: danbooru}
     - {id: kako, weight: spice, note: '資料: 紅魔館で働く前は吸血鬼ハンターであった可能性など、秘められた過去が存在する。', src: gemini}
     - {id: mitame-sabaku, weight: spice, note: '資料: 外見は16歳程度に見えるが、実際には見た目よりかなり年上である可能性が示唆されている。', src: gemini}
+  patterns: []
+
+- id: izumi-konata
+  name: 泉こなた
+  kana: いずみこなた
+  work: らき☆すた
+  year: 2004
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/2169-5xDzQnt3MtQk.png'
+    page: 'https://anilist.co/character/2169'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-09-30'
+  elements:
+    - {id: ahoge, weight: core, note: 'danbooru ahoge 82%', src: danbooru}
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 77%', src: danbooru}
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 68%', src: danbooru}
+    - {id: namida-bokuro, weight: core, note: 'danbooru mole_under_eye 79%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 48%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 91%（共有 36% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: jabami-yumeko
@@ -3953,6 +4016,26 @@
     - {id: seitokaichou, weight: sub, note: '資料: アニメ2期において、周囲の推薦により新しい生徒会長になった。', src: gemini}
   patterns: []
 
+- id: kousaka-reina
+  name: 高坂麗奈
+  kana: こうさかれいな
+  work: '響け!ユーフォニアム'
+  year: 2013
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b88710-cFbSW1ga7Uax.png'
+    page: 'https://anilist.co/character/88710'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-09-30'
+  elements:
+    - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 78%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 42%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 87%（共有 36% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 87%（共有 24% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kuchiki-rukia
   name: 朽木ルキア
   kana: くちきるきあ
@@ -4362,6 +4445,26 @@
     - {id: koushinchou, weight: sub, note: '資料: 公式プロフィールにおいて身長187cmと記載されている。', src: gemini}
   patterns: []
 
+- id: lucy-heartfilia
+  name: ルーシィ・ハートフィリア
+  kana: るーしぃはーとふぃりあ
+  work: FAIRY TAIL
+  year: 2006
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b5186-izgXf2S86K9u.png'
+    page: 'https://anilist.co/character/5186'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-09-30'
+  elements:
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 69%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 65%（共有 14% のため比重を下げた）', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 90%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 60%（共有 36% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: lum
   name: ラム
   kana: らむ
@@ -4573,6 +4676,24 @@
     - {id: majo, weight: sub, note: 'danbooru witch_hat 54% / 資料: 肩書・職業がアークメイジであり、高い知性と魔力を持つ魔法使いの一族「紅魔族」の出身である。', src: both}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 45%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 50%', src: danbooru}
+  patterns: []
+
+- id: meliodas
+  name: メリオダス
+  kana: めりおだす
+  work: 七つの大罪
+  year: 2012
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b72921-XDHNd1wflN6P.png'
+    page: 'https://anilist.co/character/72921'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-09-30'
+  elements:
+    - {id: ahoge, weight: sub, note: 'danbooru antenna_hair 35%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 42%', src: danbooru}
   patterns: []
 
 - id: midoriya-izuku
@@ -5158,6 +5279,28 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 37%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: natsu-dragneel
+  name: ナツ・ドラグニル
+  kana: なつどらぐにる
+  work: FAIRY TAIL
+  year: 2006
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b5187-y1OEdRu9sPN2.png'
+    page: 'https://anilist.co/character/5187'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-09-30'
+  elements:
+    - {id: mafuraa, weight: core, note: 'danbooru scarf 83%', src: danbooru}
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 62%', src: danbooru}
+    - {id: kinniku, weight: sub, note: 'danbooru abs 43%', src: danbooru}
+    - {id: kokuin, weight: sub, note: 'danbooru tattoo 40%', src: danbooru}
+    - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 50%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 43%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: natsuki-subaru
   name: ナツキ・スバル
   kana: なつきすばる
@@ -5456,6 +5599,41 @@
     - {id: kodomo, weight: sub, note: '資料: 現在は弱体化し、8歳の少女のような姿で存在していること。', src: gemini}
     - {id: reijou, weight: sub, note: '資料: かつては絶世の美女の姫であり、「プリンセス・ビューティー」と呼ばれていたこと。', src: gemini}
     - {id: tenraku, weight: sub, note: '資料: 「こよみヴァンプ」の出来事の後に能力と元の性格の痕跡を失って弱体化し、かつての吸血鬼の名を捨てたこと。', src: gemini}
+  patterns: []
+
+- id: otonashi-kyouko
+  name: 音無響子
+  kana: おとなしきょうこ
+  work: めぞん一刻
+  year: 1980
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-09-30'
+  elements:
+    - {id: aogami, weight: sub, note: 'danbooru blue_hair 39%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 58%（共有 36% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 44%（共有 24% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: oumae-kumiko
+  name: 黄前久美子
+  kana: おうまえくみこ
+  work: '響け!ユーフォニアム'
+  year: 2013
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b88708-ZiVPl8LjIjaK.jpg'
+    page: 'https://anilist.co/character/88708'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-09-30'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 69%（共有 14% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 94%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 56%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 56%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: phosphophyllite
@@ -8011,6 +8189,26 @@
     - {id: pinku-gami, weight: sub, note: 'danbooru pink_hair 44%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 39%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 56%', src: danbooru}
+  patterns: []
+
+- id: yukihira-souma
+  name: 幸平創真
+  kana: ゆきひらそうま
+  work: 食戟のソーマ
+  year: 2012
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b75216-KDU8333eIcqf.jpg'
+    page: 'https://anilist.co/character/75216'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-09-30'
+  elements:
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 41%', src: danbooru}
+    - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 35%', src: danbooru}
+    - {id: sakotsu, weight: sub, note: 'danbooru collarbone 46%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 51%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yukinoshita-yukino
