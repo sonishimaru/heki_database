@@ -2545,15 +2545,9 @@ characters:
     year: 2012
     danbooru: phosphophyllite
     anilist: Phosphophyllite
-  - id: legoshi
-    name: レゴシ
-    kana: れごし
-    work: BEASTARS
-    year: 2016
-    # 括弧は同名衝突のためのもので、レゴシは衝突しない。
-    # legoshi_(beastars) は 404 だった
-    danbooru: legoshi
-    anilist: Legoshi
+  # レゴシは外した。legoshi_(beastars) も legoshi も 404。
+  # 自分で決めた「直しは一度きり」に従う。綴りを三度目に当てにいくより、
+  # BEASTARS は代表者なしのままにしておく。
   - id: sugimoto-saichi
     name: 杉元佐一
     kana: すぎもとさいち
