@@ -2550,7 +2550,9 @@ characters:
     kana: れごし
     work: BEASTARS
     year: 2016
-    danbooru: legoshi_(beastars)
+    # 括弧は同名衝突のためのもので、レゴシは衝突しない。
+    # legoshi_(beastars) は 404 だった
+    danbooru: legoshi
     anilist: Legoshi
   - id: sugimoto-saichi
     name: 杉元佐一
@@ -2571,7 +2573,8 @@ characters:
     kana: れゔぃ
     work: BLACK LAGOON
     year: 2002
-    danbooru: revy
+    # 短い名前で他とぶつかるため Danbooru は作品名で括る。revy は 404 だった
+    danbooru: revy_(black_lagoon)
     anilist: Revy
   - id: oumae-kumiko
     name: 黄前久美子
@@ -2635,4 +2638,322 @@ characters:
     work: めぞん一刻
     year: 1980
     danbooru: otonashi_kyouko
-    anilist: Kyoko Otonashi
+    # Kyoko Otonashi は 404 だった。Danbooru 側は otonashi_kyouko で通っている
+    anilist: Kyouko Otonashi
+  # 9 期目。1969〜2018 に散らす。まだ無い作品を開くほうに寄せた
+  # （既に1名入っている作品は、その1名がすでに代表格だったため）。
+  - id: fujiwara-takumi
+    name: 藤原拓海
+    kana: ふじわらたくみ
+    work: 頭文字D
+    year: 1995
+    danbooru: fujiwara_takumi
+    anilist: Takumi Fujiwara
+  - id: yagami-taichi
+    name: 八神太一
+    kana: やがみたいち
+    work: デジモンアドベンチャー
+    year: 1999
+    danbooru: yagami_taichi
+    anilist: Taichi Yagami
+  - id: fujioka-haruhi
+    name: 藤岡ハルヒ
+    kana: ふじおかはるひ
+    work: 桜蘭高校ホスト部
+    year: 2002
+    danbooru: fujioka_haruhi
+    anilist: Haruhi Fujioka
+  - id: enma-ai
+    name: 閻魔あい
+    kana: えんまあい
+    work: 地獄少女
+    year: 2005
+    danbooru: enma_ai
+    anilist: Ai Enma
+  - id: ryougi-shiki
+    name: 両儀式
+    kana: りょうぎしき
+    work: 空の境界
+    year: 1998
+    danbooru: ryougi_shiki
+    anilist: Shiki Ryougi
+  - id: arcueid-brunestud
+    name: アルクェイド
+    kana: あるくぇいど
+    work: 月姫
+    year: 2000
+    danbooru: arcueid_brunestud
+    anilist: Arcueid Brunestud
+  - id: okumura-rin
+    name: 奥村燐
+    kana: おくむらりん
+    work: 青の祓魔師
+    year: 2009
+    danbooru: okumura_rin
+    anilist: Rin Okumura
+  - id: nobi-nobita
+    name: 野比のび太
+    kana: のびのびた
+    work: ドラえもん
+    year: 1969
+    danbooru: nobi_nobita
+    anilist: Nobita Nobi
+  - id: nohara-shinnosuke
+    name: 野原しんのすけ
+    kana: のはらしんのすけ
+    work: クレヨンしんちゃん
+    year: 1990
+    danbooru: nohara_shinnosuke
+    anilist: Shinnosuke Nohara
+  - id: kuronuma-sawako
+    name: 黒沼爽子
+    kana: くろぬまさわこ
+    work: 君に届け
+    year: 2005
+    danbooru: kuronuma_sawako
+    anilist: Sawako Kuronuma
+  - id: sakura-chiyo
+    name: 佐倉千代
+    kana: さくらちよ
+    work: 月刊少女野崎くん
+    year: 2011
+    danbooru: sakura_chiyo
+    anilist: Chiyo Sakura
+  - id: monkey-d-luffy
+    name: モンキー・D・ルフィ
+    kana: もんきーでぃーるふぃ
+    work: ONE PIECE
+    year: 1997
+    danbooru: monkey_d._luffy
+    anilist: Monkey D. Luffy
+  - id: casca
+    name: キャスカ
+    kana: きゃすか
+    work: ベルセルク
+    year: 1989
+    danbooru: casca
+    anilist: Casca
+  - id: mizuno-ami
+    name: 水野亜美
+    kana: みずのあみ
+    work: 美少女戦士セーラームーン
+    year: 1992
+    danbooru: mizuno_ami
+    anilist: Ami Mizuno
+  - id: sesshoumaru
+    name: 殺生丸
+    kana: せっしょうまる
+    work: 犬夜叉
+    year: 1996
+    danbooru: sesshoumaru
+    anilist: Sesshoumaru
+  - id: reigen-arataka
+    name: 霊幻新隆
+    kana: れいげんあらたか
+    work: モブサイコ100
+    year: 2012
+    danbooru: reigen_arataka
+    anilist: Arataka Reigen
+  - id: fujibayashi-kyou
+    name: 藤林杏
+    kana: ふじばやしきょう
+    work: CLANNAD
+    year: 2004
+    danbooru: fujibayashi_kyou
+    anilist: Kyou Fujibayashi
+  - id: naegi-makoto
+    name: 苗木誠
+    kana: なえぎまこと
+    work: ダンガンロンパ
+    year: 2010
+    danbooru: naegi_makoto
+    anilist: Makoto Naegi
+  - id: shinonome-nano
+    name: 東雲なの
+    kana: しののめなの
+    work: 日常
+    year: 2006
+    danbooru: shinonome_nano
+    anilist: Nano Shinonome
+  - id: taneshima-popura
+    name: 種島ぽぷら
+    kana: たねしまぽぷら
+    work: WORKING!!
+    year: 2005
+    danbooru: taneshima_popura
+    anilist: Popura Taneshima
+  - id: tenjou-utena
+    name: 天上ウテナ
+    kana: てんじょううてな
+    work: 少女革命ウテナ
+    year: 1997
+    danbooru: tenjou_utena
+    anilist: Utena Tenjou
+  - id: lina-inverse
+    name: リナ・インバース
+    kana: りないんばーす
+    work: スレイヤーズ
+    year: 1989
+    danbooru: lina_inverse
+    anilist: Lina Inverse
+  - id: johan-liebert
+    name: ヨハン・リーベルト
+    kana: よはんりーべると
+    work: MONSTER
+    year: 1994
+    danbooru: johan_liebert
+    anilist: Johan Liebert
+  - id: hanamoto-hagumi
+    name: 花本はぐみ
+    kana: はなもとはぐみ
+    work: ハチミツとクローバー
+    year: 2000
+    danbooru: hanamoto_hagumi
+    anilist: Hagumi Hanamoto
+  - id: ichihara-yuuko
+    name: 壱原侑子
+    kana: いちはらゆうこ
+    work: xxxHOLiC
+    year: 2003
+    danbooru: ichihara_yuuko
+    anilist: Yuuko Ichihara
+  - id: tachibana-hibiki
+    name: 立花響
+    kana: たちばなひびき
+    work: 戦姫絶唱シンフォギア
+    year: 2012
+    danbooru: tachibana_hibiki_(symphogear)
+    anilist: Hibiki Tachibana
+  - id: nishizumi-miho
+    name: 西住みほ
+    kana: にしずみみほ
+    work: ガールズ&パンツァー
+    year: 2012
+    danbooru: nishizumi_miho
+    anilist: Miho Nishizumi
+  - id: minamoto-sakura
+    name: 源さくら
+    kana: みなもとさくら
+    work: ゾンビランドサガ
+    year: 2018
+    danbooru: minamoto_sakura
+    anilist: Sakura Minamoto
+  - id: miyauchi-renge
+    name: 宮内れんげ
+    kana: みやうちれんげ
+    work: のんのんびより
+    year: 2009
+    danbooru: miyauchi_renge
+    anilist: Renge Miyauchi
+  - id: natsume-rin
+    name: 棗鈴
+    kana: なつめりん
+    work: リトルバスターズ!
+    year: 2007
+    danbooru: natsume_rin
+    anilist: Rin Natsume
+  - id: konjiki-no-yami
+    name: 金色の闇
+    kana: こんじきのやみ
+    work: To LOVEる
+    year: 2006
+    danbooru: konjiki_no_yami
+    anilist: Golden Darkness
+  - id: louise
+    name: ルイズ
+    kana: るいず
+    work: ゼロの使い魔
+    year: 2004
+    danbooru: louise_francoise_le_blanc_de_la_valliere
+    anilist: Louise
+  - id: shana
+    name: シャナ
+    kana: しゃな
+    work: 灼眼のシャナ
+    year: 2002
+    danbooru: shana
+    anilist: Shana
+  - id: kousaka-kirino
+    name: 高坂桐乃
+    kana: こうさかきりの
+    work: 俺の妹がこんなに可愛いわけがない
+    year: 2008
+    danbooru: kousaka_kirino
+    anilist: Kirino Kousaka
+  - id: shiro-ngnl
+    name: 白
+    kana: しろ
+    work: ノーゲーム・ノーライフ
+    year: 2012
+    danbooru: shiro_(no_game_no_life)
+    anilist: Shiro
+  - id: red-blood-cell
+    name: 赤血球
+    kana: せっけっきゅう
+    work: はたらく細胞
+    year: 2015
+    danbooru: red_blood_cell_(hataraku_saibou)
+    anilist: Red Blood Cell
+  - id: uzaki-hana
+    name: 宇崎花
+    kana: うざきはな
+    work: 宇崎ちゃんは遊びたい!
+    year: 2017
+    danbooru: uzaki_hana
+    anilist: Hana Uzaki
+  - id: shiba-miyuki
+    name: 司波深雪
+    kana: しばみゆき
+    work: 魔法科高校の劣等生
+    year: 2011
+    danbooru: shiba_miyuki
+    anilist: Miyuki Shiba
+  - id: alucard
+    name: アーカード
+    kana: あーかーど
+    work: HELLSING
+    year: 1997
+    danbooru: alucard_(hellsing)
+    anilist: Alucard
+  - id: allen-walker
+    name: アレン・ウォーカー
+    kana: あれんうぉーかー
+    work: D.Gray-man
+    year: 2004
+    danbooru: allen_walker
+    anilist: Allen Walker
+  - id: matsumae-ohana
+    name: 松前緒花
+    kana: まつまえおはな
+    work: 花咲くいろは
+    year: 2011
+    danbooru: matsumae_ohana
+    anilist: Ohana Matsumae
+  - id: lucy-elfen
+    name: ルーシー
+    kana: るーしー
+    work: エルフェンリート
+    year: 2002
+    danbooru: lucy_(elfen_lied)
+    anilist: Lucy
+  - id: iwakura-mitsumi
+    name: 岩倉美津未
+    kana: いわくらみつみ
+    work: スキップとローファー
+    year: 2018
+    danbooru: iwakura_mitsumi
+    anilist: Mitsumi Iwakura
+  - id: koiwai-yotsuba
+    name: 小岩井よつば
+    kana: こいわいよつば
+    work: よつばと!
+    year: 2003
+    danbooru: koiwai_yotsuba
+    anilist: Yotsuba Koiwai
+  - id: mizunashi-akari
+    name: 水無灯里
+    kana: みずなしあかり
+    work: ARIA
+    year: 2001
+    danbooru: mizunashi_akari
+    anilist: Akari Mizunashi
