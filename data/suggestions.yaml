@@ -1162,6 +1162,18 @@
     frequency: 0.1844
     threshold: 0.35
   new_tag_proposals: []
+- id: fujibayashi-kyou
+  name: 藤林杏
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: hikarizaka_private_high_school_uniform
+    frequency: 0.3993
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1956
+    threshold: 0.5
+  new_tag_proposals: []
 - id: fujioka-haruhi
   name: 藤岡ハルヒ
   date: '2026-10-01'
@@ -3433,6 +3445,32 @@
     frequency: 0.224
     threshold: 0.5
   new_tag_proposals: []
+- id: lina-inverse
+  name: リナ・インバース
+  date: '2026-10-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kishi
+    tag: armor
+    frequency: 0.3376
+    threshold: 0.4
+  - id: yaeba
+    tag: fang
+    frequency: 0.32
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1952
+    threshold: 0.5
+  - id: kin-no-me
+    tag: orange_eyes
+    frequency: 0.1952
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.1568
+    threshold: 0.5
+  new_tag_proposals: []
 - id: link
   name: リンク
   date: '2026-08-31'
@@ -3935,6 +3973,44 @@
     frequency: 0.2917
     threshold: 0.35
   new_tag_proposals: []
+- id: mizuno-ami
+  name: 水野亜美
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: blue_choker
+    frequency: 0.4682
+  - tag: blue_theme
+    frequency: 0.398
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.4849
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1639
+    threshold: 0.35
+  new_tag_proposals: []
+- id: monkey-d-luffy
+  name: モンキー・D・ルフィ
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: straw_hat
+    frequency: 0.6342
+  near_miss:
+  - id: shirogami
+    tag: white_hair
+    frequency: 0.1832
+    threshold: 0.35
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.171
+    threshold: 0.6
+  - id: kinniku
+    tag: abs
+    frequency: 0.1639
+    threshold: 0.35
+  new_tag_proposals: []
 - id: mouri-ran
   name: 毛利蘭
   date: '2026-09-29'
@@ -3982,6 +4058,28 @@
     tag: school_uniform
     frequency: 0.1712
     threshold: 0.3
+  new_tag_proposals: []
+- id: naegi-makoto
+  name: 苗木誠
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: hoodie
+    frequency: 0.4416
+  - tag: hood_down
+    frequency: 0.3994
+  near_miss:
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.289
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2825
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2175
+    threshold: 0.5
   new_tag_proposals: []
 - id: nagato-yuki
   name: 長門有希
@@ -4952,6 +5050,20 @@
     frequency: 0.1513
     threshold: 0.35
   new_tag_proposals: []
+- id: reigen-arataka
+  name: 霊幻新隆
+  date: '2026-10-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.2711
+    threshold: 0.35
+  - id: tabako
+    tag: cigarette
+    frequency: 0.16
+    threshold: 0.35
+  new_tag_proposals: []
 - id: rem
   name: レム
   date: '2026-08-31'
@@ -5375,6 +5487,18 @@
   - name: 甘党
     axis: 性格 / 嗜好
     reason: パフェやアイスクリーム、イチゴミルクなどの甘いものが好きという記述があるが、既存の語彙に含まれないため。
+- id: sakura-chiyo
+  name: 佐倉千代
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: polka_dot
+    frequency: 0.8907
+  - tag: polka_dot_bow
+    frequency: 0.8552
+  - tag: rouman_academy_school_uniform
+    frequency: 0.4399
+  near_miss: []
+  new_tag_proposals: []
 - id: sakura-kyouko
   name: 佐倉杏子
   date: '2026-08-31'
@@ -5605,6 +5729,18 @@
     frequency: 0.1559
     threshold: 0.35
   new_tag_proposals: []
+- id: sesshoumaru
+  name: 殺生丸
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: forehead_mark
+    frequency: 0.6415
+  near_miss:
+  - id: kishi
+    tag: armor
+    frequency: 0.3774
+    threshold: 0.4
+  new_tag_proposals: []
 - id: shalltear-bloodfallen
   name: シャルティア・ブラッドフォールン
   date: '2026-08-31'
@@ -5727,6 +5863,20 @@
   - name: 世間知らず
     axis: 性格
     reason: 非常に箱入り娘であり、一般常識とされる知識に欠ける部分があるという記述があるため。
+- id: shinonome-nano
+  name: 東雲なの
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: winding_key
+    frequency: 0.7872
+  - tag: tokisadame_school_uniform
+    frequency: 0.4007
+  near_miss:
+  - id: jinzou
+    tag: android
+    frequency: 0.195
+    threshold: 0.35
+  new_tag_proposals: []
 - id: shion-tensura
   name: シオン
   date: '2026-08-31'
@@ -6359,6 +6509,20 @@
   - name: 接触拒否
     axis: 性格
     reason: 幼少期から他人に触れる・触れられることを拒んでおり、自分と同等のアストラルレベルを持つ人物のみ接触を許すと語っている。
+- id: taneshima-popura
+  name: 種島ぽぷら
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: wagnaria_uniform
+    frequency: 0.5904
+  - tag: waitress
+    frequency: 0.3989
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3493
+    threshold: 0.5
+  new_tag_proposals: []
 - id: tanya-degurechaff
   name: ターニャ・デグレチャフ
   date: '2026-08-31'
@@ -6402,6 +6566,20 @@
     tag: long_hair
     frequency: 0.1614
     threshold: 0.35
+  new_tag_proposals: []
+- id: tenjou-utena
+  name: 天上ウテナ
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: sword_of_dios
+    frequency: 0.4367
+  - tag: rose
+    frequency: 0.3643
+  near_miss:
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2145
+    threshold: 0.3
   new_tag_proposals: []
 - id: thorfinn
   name: トルフィン
