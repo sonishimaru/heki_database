@@ -1994,6 +1994,24 @@
     - {id: joushi, weight: sub, note: '資料: 東京卍會の一番隊隊長、黒龍の十一代目総長、サウザンドウィンターズ（後に東京卍會に改名）の創設者兼社長を務める。', src: gemini}
   patterns: []
 
+- id: hanamoto-hagumi
+  name: 花本はぐみ
+  kana: はなもとはぐみ
+  work: ハチミツとクローバー
+  year: 2000
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b353-zSqw7Z59uJrw.png'
+    page: 'https://anilist.co/character/353'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 93%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 63%（共有 37% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: hatake-kakashi
   name: はたけカカシ
   kana: はたけかかし
@@ -2593,6 +2611,28 @@
     - {id: reijou, weight: sub, note: '資料: 日向一族の宗家の長女である', src: gemini}
   patterns: []
 
+- id: ichihara-yuuko
+  name: 壱原侑子
+  kana: いちはらゆうこ
+  work: xxxHOLiC
+  year: 2003
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b236-xWbhQJYxYn2P.png'
+    page: 'https://anilist.co/character/236'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: hime-cut, weight: core, note: 'danbooru hime_cut 61%', src: danbooru}
+    - {id: pattsun, weight: core, note: 'danbooru blunt_bangs 65%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 62%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 41%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 91%（共有 37% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 86%（共有 24% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: ichimaru-gin
   name: 市丸ギン
   kana: いちまるぎん
@@ -3011,6 +3051,25 @@
     - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 59%', src: danbooru}
     - {id: odango, weight: sub, note: 'danbooru hair_bun 41%', src: danbooru}
     - {id: shujuu, weight: sub, note: '資料: 侍従である高順を常に伴っていることから、主従関係の主人側にある。', src: gemini}
+  patterns: []
+
+- id: johan-liebert
+  name: ヨハン・リーベルト
+  kana: よはんりーべると
+  work: MONSTER
+  year: 1994
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b719-y984mDWyGf5n.jpg'
+    page: 'https://anilist.co/character/719'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 76%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 50%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 67%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: joseph-joestar
@@ -4029,6 +4088,26 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 34%', src: danbooru}
   patterns: []
 
+- id: konjiki-no-yami
+  name: 金色の闇
+  kana: こんじきのやみ
+  work: To LOVEる
+  year: 2006
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b5513-n2VPdIYXaqbh.png'
+    page: 'https://anilist.co/character/5513'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 76%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 89%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: twintail, weight: sub, note: 'danbooru two_side_up 40%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 96%（共有 37% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: konpaku-youmu
   name: 魂魄妖夢
   kana: こんぱくようむ
@@ -4586,6 +4665,26 @@
     - {id: koushinchou, weight: sub, note: '資料: 公式プロフィールにおいて身長187cmと記載されている。', src: gemini}
   patterns: []
 
+- id: louise
+  name: ルイズ
+  kana: るいず
+  work: ゼロの使い魔
+  year: 2004
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b136-UQtsjr2SZdIO.png'
+    page: 'https://anilist.co/character/136'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 74%', src: danbooru}
+    - {id: gaitou, weight: sub, note: 'danbooru cape 36%', src: danbooru}
+    - {id: momoiro-no-me, weight: sub, note: 'danbooru pink_eyes 53%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 95%（共有 37% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: lucy-heartfilia
   name: ルーシィ・ハートフィリア
   kana: るーしぃはーとふぃりあ
@@ -4987,6 +5086,26 @@
     - {id: sewayaki, weight: sub, note: '資料: 高坂穂乃果が園田海未に叱られている際に、穂乃果をフォローする立ち回りを見せているため。', src: gemini}
   patterns: []
 
+- id: minamoto-sakura
+  name: 源さくら
+  kana: みなもとさくら
+  work: ゾンビランドサガ
+  year: 2018
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b127540-H1wiC6lu34WT.jpg'
+    page: 'https://anilist.co/character/127540'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: ahoge, weight: sub, note: 'danbooru ahoge 49%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 76%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 66%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 87%（共有 37% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: mine-fujiko
   name: 峰不二子
   kana: みねふじこ
@@ -5052,6 +5171,27 @@
     - {id: kurokami, weight: core, note: 'danbooru black_hair 74%', src: danbooru}
     - {id: miko, weight: sub, note: '資料: 実家の神社の一員であり巫女を務めており、妹の四葉とともに古い伝統行事に参加する。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 49%', src: danbooru}
+  patterns: []
+
+- id: miyauchi-renge
+  name: 宮内れんげ
+  kana: みやうちれんげ
+  work: のんのんびより
+  year: 2009
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b54151-V8Qh2l2gTxvH.jpg'
+    page: 'https://anilist.co/character/54151'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: ahoge, weight: core, note: 'danbooru antenna_hair 75%', src: danbooru}
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 83%', src: danbooru}
+    - {id: twintail, weight: core, note: 'danbooru twintails 88%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 68%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 37% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: miyazono-kaori
@@ -5528,6 +5668,27 @@
     - {id: otaku, weight: sub, note: '資料: 現実世界では引きこもりでゲーマーであった。', src: gemini}
   patterns: []
 
+- id: natsume-rin
+  name: 棗鈴
+  kana: なつめりん
+  work: 'リトルバスターズ!'
+  year: 2007
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b13039-551KfJagkcH6.png'
+    page: 'https://anilist.co/character/13039'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 79%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 72%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 87%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 61%（共有 18% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 37% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: natsume-takashi
   name: 夏目貴志
   kana: なつめたかし
@@ -5616,6 +5777,26 @@
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 88%', src: danbooru}
     - {id: semi-long, weight: core, note: 'danbooru medium_hair 93%', src: danbooru}
     - {id: reijou, weight: sub, note: '資料: 実家の病院を継ぐことが決まっていたという記述がある。', src: gemini}
+  patterns: []
+
+- id: nishizumi-miho
+  name: 西住みほ
+  kana: にしずみみほ
+  work: 'ガールズ&パンツァー'
+  year: 2012
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b62939-WXOAXdfAhHrF.png'
+    page: 'https://anilist.co/character/62939'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 81%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 86%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 39%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 87%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nobi-nobita
@@ -6970,6 +7151,26 @@
     - {id: yaeba, weight: sub, note: 'danbooru fang 39%', src: danbooru}
   patterns: []
 
+- id: shana
+  name: シャナ
+  kana: しゃな
+  work: 灼眼のシャナ
+  year: 2002
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1426-wFIKqXY9WxOD.png'
+    page: 'https://anilist.co/character/1426'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 61%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 48%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 52%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 96%（共有 37% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: sheryl-nome
   name: シェリル・ノーム
   kana: しぇりるのーむ
@@ -7577,6 +7778,25 @@
     - {id: koukishin, weight: sub, note: '資料: 宇宙人、時間旅行者、超能力者を見つける目的でSOS団を創設した点に現れている。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 48%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 40%', src: danbooru}
+  patterns: []
+
+- id: tachibana-hibiki
+  name: 立花響
+  kana: たちばなひびき
+  work: 戦姫絶唱シンフォギア
+  year: 2012
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b51737-E8Oap74tdtMQ.jpg'
+    page: 'https://anilist.co/character/51737'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 70%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 48%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 73%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: tachibana-kanade

@@ -1593,6 +1593,28 @@
     frequency: 0.2143
     threshold: 0.35
   new_tag_proposals: []
+- id: hanamoto-hagumi
+  name: 花本はぐみ
+  date: '2026-10-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.2667
+    threshold: 0.35
+  - id: odango
+    tag: hair_bun
+    frequency: 0.2333
+    threshold: 0.35
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.1667
+    threshold: 0.6
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.1667
+    threshold: 0.35
+  new_tag_proposals: []
 - id: hatake-kakashi
   name: はたけカカシ
   date: '2026-08-31'
@@ -1983,6 +2005,24 @@
     frequency: 0.1871
     threshold: 0.35
   new_tag_proposals: []
+- id: ichihara-yuuko
+  name: 壱原侑子
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: smoke
+    frequency: 0.443
+  - tag: smoking_pipe
+    frequency: 0.3544
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2278
+    threshold: 0.5
+  - id: keshou
+    tag: red_lips
+    frequency: 0.1899
+    threshold: 0.35
+  new_tag_proposals: []
 - id: ichimaru-gin
   name: 市丸ギン
   date: '2026-09-15'
@@ -2270,6 +2310,14 @@
     tag: robe
     frequency: 0.2651
     threshold: 0.35
+  new_tag_proposals: []
+- id: johan-liebert
+  name: ヨハン・リーベルト
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: turtleneck
+    frequency: 0.4762
+  near_miss: []
   new_tag_proposals: []
 - id: joseph-joestar
   name: ジョセフ・ジョースター
@@ -3053,6 +3101,22 @@
     frequency: 0.1805
     threshold: 0.35
   new_tag_proposals: []
+- id: konjiki-no-yami
+  name: 金色の闇
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: thigh_strap
+    frequency: 0.3832
+  near_miss:
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.2921
+    threshold: 0.5
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2848
+    threshold: 0.5
+  new_tag_proposals: []
 - id: konpaku-youmu
   name: 魂魄妖夢
   date: '2026-08-31'
@@ -3525,6 +3589,16 @@
   - name: スパイ
     axis: 関係性 / 立場
     reason: 身分を偽装して潜入・諜報活動を行う記号的職業を表す語彙が既存リストにないため。
+- id: louise
+  name: ルイズ
+  date: '2026-10-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: hinnyuu
+    tag: flat_chest
+    frequency: 0.2205
+    threshold: 0.5
+  new_tag_proposals: []
 - id: lucy-heartfilia
   name: ルーシィ・ハートフィリア
   date: '2026-09-30'
@@ -3886,6 +3960,32 @@
   - name: 衣装デザイナー
     axis: 関係性 / 立場
     reason: μ'sの衣装デザインを担当していることが資料に記載されているため。
+- id: minamoto-sakura
+  name: 源さくら
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: polka_dot
+    frequency: 0.6751
+  - tag: polka_dot_bow
+    frequency: 0.4493
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.394
+    threshold: 0.5
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2719
+    threshold: 0.3
+  - id: akame
+    tag: red_eyes
+    frequency: 0.2396
+    threshold: 0.35
+  - id: kizuato
+    tag: scar
+    frequency: 0.2373
+    threshold: 0.35
+  new_tag_proposals: []
 - id: mine-fujiko
   name: 峰不二子
   date: '2026-08-31'
@@ -3937,6 +4037,20 @@
   - id: mitsuami
     tag: braid
     frequency: 0.1537
+    threshold: 0.35
+  new_tag_proposals: []
+- id: miyauchi-renge
+  name: 宮内れんげ
+  date: '2026-10-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2179
+    threshold: 0.5
+  - id: gakki
+    tag: instrument
+    frequency: 0.2115
     threshold: 0.35
   new_tag_proposals: []
 - id: miyazono-kaori
@@ -4386,6 +4500,24 @@
   - name: 異世界召喚
     axis: 物語役割 / 導入
     reason: 現実世界から異世界へと強制的・突発的に移転させられる構造。
+- id: natsume-rin
+  name: 棗鈴
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: little_busters!_school_uniform
+    frequency: 0.4547
+  - tag: pink_bow
+    frequency: 0.4489
+  near_miss:
+  - id: ahoge
+    tag: ahoge
+    frequency: 0.3295
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2659
+    threshold: 0.5
+  new_tag_proposals: []
 - id: natsume-takashi
   name: 夏目貴志
   date: '2026-08-31'
@@ -4502,6 +4634,16 @@
   - name: 家業の継承者
     axis: 立場
     reason: 実家の病院を継ぐために将来医学を学ぶ予定であったという背景を持つため。
+- id: nishizumi-miho
+  name: 西住みほ
+  date: '2026-10-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: gunpuku
+    tag: military
+    frequency: 0.1673
+    threshold: 0.35
+  new_tag_proposals: []
 - id: nobi-nobita
   name: 野比のび太
   date: '2026-10-01'
@@ -5758,6 +5900,38 @@
   - name: 精神支配
     axis: 関係性 / 関係の状態
     reason: 敵対組織のアイテムや能力により精神を操作され、意図せず敵対・反逆させられた状態。
+- id: shana
+  name: シャナ
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: misaki_high_school_uniform
+    frequency: 0.3725
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.3241
+    threshold: 0.35
+  - id: ahoge
+    tag: ahoge
+    frequency: 0.2893
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.281
+    threshold: 0.5
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2645
+    threshold: 0.35
+  - id: hinnyuu
+    tag: flat_chest
+    frequency: 0.1771
+    threshold: 0.5
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.1724
+    threshold: 0.35
+  new_tag_proposals: []
 - id: sheryl-nome
   name: シェリル・ノーム
   date: '2026-09-29'
@@ -6316,6 +6490,42 @@
   - id: semi-long
     tag: medium_hair
     frequency: 0.3148
+    threshold: 0.35
+  new_tag_proposals: []
+- id: tachibana-hibiki
+  name: 立花響
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: mechanical_magical_girl
+    frequency: 0.4812
+  near_miss:
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.34
+    threshold: 0.35
+  - id: kin-no-me
+    tag: orange_eyes
+    frequency: 0.3379
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2521
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2333
+    threshold: 0.5
+  - id: mafuraa
+    tag: scarf
+    frequency: 0.1841
+    threshold: 0.35
+  - id: heddohon
+    tag: headphones
+    frequency: 0.1768
+    threshold: 0.35
+  - id: kinpatsu
+    tag: blonde_hair
+    frequency: 0.1695
     threshold: 0.35
   new_tag_proposals: []
 - id: tachibana-kanade
