@@ -479,6 +479,26 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 35%', src: danbooru}
   patterns: []
 
+- id: arcueid-brunestud
+  name: アルクェイド
+  kana: あるくぇいど
+  work: 月姫
+  year: 2000
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2213-xqqwnMLn1Nqc.png'
+    page: 'https://anilist.co/character/2213'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: ahoge, weight: sub, note: 'danbooru antenna_hair 41%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 83%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 90%（共有 17% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 70%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: arima-kana
   name: 有馬かな
   kana: ありまかな
@@ -1244,6 +1264,29 @@
     - {id: kodomo, weight: sub, note: '資料: 年齢が11〜15歳、身長が145cmと記録されている。', src: gemini}
   patterns: []
 
+- id: enma-ai
+  name: 閻魔あい
+  kana: えんまあい
+  work: 地獄少女
+  year: 2005
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1789-8RLKp57peoIK.jpg'
+    page: 'https://anilist.co/character/1789'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: hime-cut, weight: core, note: 'danbooru hime_cut 76%', src: danbooru}
+    - {id: pattsun, weight: core, note: 'danbooru blunt_bangs 73%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 79%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 47%', src: danbooru}
+    - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 40%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 95%（共有 37% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 85%（共有 24% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: eren-yeager
   name: エレン・イェーガー
   kana: えれんいぇーがー
@@ -1480,6 +1523,26 @@
     - {id: taijou, weight: sub, note: '資料: 復讐のため向かった地球にて、トランクスに容易に倒された。', src: gemini}
   patterns: []
 
+- id: fujioka-haruhi
+  name: 藤岡ハルヒ
+  kana: ふじおかはるひ
+  work: 桜蘭高校ホスト部
+  year: 2002
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b18-4mPQwygwffNJ.jpg'
+    page: 'https://anilist.co/character/18'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 58%', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 66%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 55%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 66%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: fujiwara-chika
   name: 藤原千花
   kana: ふじわらちか
@@ -1502,6 +1565,23 @@
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 93%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 49%', src: danbooru}
     - {id: yakusoku, weight: spice, note: '資料: 勝ったら友達になる約束でかぐやにゲーム勝負を挑んで勝利し、かぐやの最初の友達となった。', src: gemini}
+  patterns: []
+
+- id: fujiwara-takumi
+  name: 藤原拓海
+  kana: ふじわらたくみ
+  work: 頭文字D
+  year: 1995
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2819-FaPLslMytO9p.png'
+    page: 'https://anilist.co/character/2819'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 59%', src: danbooru}
   patterns: []
 
 - id: furukawa-nagisa
@@ -4199,6 +4279,25 @@
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 79%', src: danbooru}
   patterns: []
 
+- id: kuronuma-sawako
+  name: 黒沼爽子
+  kana: くろぬまさわこ
+  work: 君に届け
+  year: 2005
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b6977-rCtlFRoYgE07.png'
+    page: 'https://anilist.co/character/6977'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 47%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 94%（共有 37% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 74%（共有 24% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kurosaki-ichigo
   name: 黒崎一護
   kana: くろさきいちご
@@ -5415,6 +5514,24 @@
     - {id: reijou, weight: sub, note: '資料: 実家の病院を継ぐことが決まっていたという記述がある。', src: gemini}
   patterns: []
 
+- id: nobi-nobita
+  name: 野比のび太
+  kana: のびのびた
+  work: ドラえもん
+  year: 1969
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/4303.jpg'
+    page: 'https://anilist.co/character/4303'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: megane, weight: core, note: 'danbooru glasses 63%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 53%（共有 24% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: noda-megumi
   name: 野田恵
   kana: のだめぐみ
@@ -5434,6 +5551,23 @@
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 50%', src: danbooru}
     - {id: kataomoi, weight: sub, note: '資料: 千秋に恋をしており、常に彼について回り、彼の「妻」であると主張している。', src: gemini}
     - {id: surechigai, weight: sub, note: '資料: 音楽に対する姿勢が千秋とすれ違う原因になると気づき、自身のために音楽を追求する意欲を身につけた。', src: gemini}
+  patterns: []
+
+- id: nohara-shinnosuke
+  name: 野原しんのすけ
+  kana: のはらしんのすけ
+  work: クレヨンしんちゃん
+  year: 1990
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2951-Bs571jmT5Xym.png'
+    page: 'https://anilist.co/character/2951'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 43%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ogino-chihiro
@@ -5527,6 +5661,28 @@
     - {id: osananajimi, weight: sub, note: '資料: 祈本里香が亡くなった幼馴染として記述されている。', src: gemini}
     - {id: shitei, weight: sub, note: '資料: 五条悟をメンター（指導者）とし、指導を受けて入学している。', src: gemini}
     - {id: soushitsu, weight: sub, note: '資料: 幼馴染である祈本里香を亡くしている。', src: gemini}
+  patterns: []
+
+- id: okumura-rin
+  name: 奥村燐
+  kana: おくむらりん
+  work: 青の祓魔師
+  year: 2009
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b24482-E6087V4uAVqL.jpg'
+    page: 'https://anilist.co/character/24482'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 87%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 46%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 41%', src: danbooru}
+    - {id: shippo, weight: sub, note: 'danbooru tail 45%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 81%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 62%（共有 24% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: onoda-sakamichi
@@ -5911,6 +6067,30 @@
     - {id: gaitou, weight: sub, note: 'danbooru cape 43%', src: danbooru}
   patterns: []
 
+- id: revy
+  name: レヴィ
+  kana: れゔぃ
+  work: BLACK LAGOON
+  year: 2002
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b458-tlKqPcuR287U.png'
+    page: 'https://anilist.co/character/458'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: kokuin, weight: core, note: 'danbooru tattoo 75%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 65%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 48%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 53%', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 62%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: tabako, weight: sub, note: 'danbooru cigarette 38%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 56%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 60%（共有 37% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: rias-gremory
   name: リアス・グレモリー
   kana: りあすぐれもりー
@@ -6130,6 +6310,26 @@
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 82%', src: danbooru}
     - {id: koushinchou, weight: sub, note: '資料: 高校1年生で身長187cmであることが明記されている。', src: gemini}
     - {id: kurome, weight: sub, note: 'danbooru black_eyes 39%', src: danbooru}
+  patterns: []
+
+- id: ryougi-shiki
+  name: 両儀式
+  kana: りょうぎしき
+  work: 空の境界
+  year: 1998
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b3105-lI0m8vJ3JQK1.png'
+    page: 'https://anilist.co/character/3105'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 74%', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 40%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 51%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 73%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ryuugazaki-rei
@@ -8002,6 +8202,25 @@
     - {id: shoutai, weight: core, note: '資料: 高校生や大学生として過ごしながら、「キラ」という通称でデスノートを使用している。', src: gemini}
     - {id: reijou, weight: sub, note: '資料: 父親が警察トップである夜神総一郎である。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 51%', src: danbooru}
+  patterns: []
+
+- id: yagami-taichi
+  name: 八神太一
+  kana: やがみたいち
+  work: デジモンアドベンチャー
+  year: 1999
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1907-ZWmX1dVGPfqn.png'
+    page: 'https://anilist.co/character/1907'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-01'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 55%', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 94%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 48%', src: danbooru}
   patterns: []
 
 - id: yashiro-nene

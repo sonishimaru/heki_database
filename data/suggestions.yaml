@@ -388,6 +388,32 @@
     frequency: 0.1675
     threshold: 0.35
   new_tag_proposals: []
+- id: arcueid-brunestud
+  name: アルクェイド
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: sweater
+    frequency: 0.4704
+  - tag: turtleneck
+    frequency: 0.3916
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3642
+    threshold: 0.5
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.227
+    threshold: 0.5
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1786
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.1514
+    threshold: 0.35
+  new_tag_proposals: []
 - id: arima-kana
   name: 有馬かな
   date: '2026-08-31'
@@ -1136,6 +1162,16 @@
     frequency: 0.1844
     threshold: 0.35
   new_tag_proposals: []
+- id: fujioka-haruhi
+  name: 藤岡ハルヒ
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: ouran_high_school_uniform
+    frequency: 0.4516
+  - tag: reverse_trap
+    frequency: 0.371
+  near_miss: []
+  new_tag_proposals: []
 - id: fujiwara-chika
   name: 藤原千花
   date: '2026-08-31'
@@ -1155,6 +1191,30 @@
   - name: 最初の友達
     axis: 関係性 / 関係の型
     reason: ゲーム対決を経て四宮かぐやの最初の友達になったと示されているため。
+- id: fujiwara-takumi
+  name: 藤原拓海
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: toyota
+    frequency: 0.4444
+  - tag: denim
+    frequency: 0.3704
+  - tag: jeans
+    frequency: 0.3704
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.3333
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.3333
+    threshold: 0.35
+  - id: muhyoujou
+    tag: expressionless
+    frequency: 0.2222
+    threshold: 0.35
+  new_tag_proposals: []
 - id: furukawa-nagisa
   name: 古河渚
   date: '2026-08-31'
@@ -3194,6 +3254,24 @@
     frequency: 0.2466
     threshold: 0.5
   new_tag_proposals: []
+- id: kuronuma-sawako
+  name: 黒沼爽子
+  date: '2026-10-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2987
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.2857
+    threshold: 0.35
+  - id: pattsun
+    tag: blunt_bangs
+    frequency: 0.2468
+    threshold: 0.4
+  new_tag_proposals: []
 - id: kurosaki-ichigo
   name: 黒崎一護
   date: '2026-08-31'
@@ -4326,6 +4404,26 @@
   - name: 家業の継承者
     axis: 立場
     reason: 実家の病院を継ぐために将来医学を学ぶ予定であったという背景を持つため。
+- id: nobi-nobita
+  name: 野比のび太
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: yellow_shirt
+    frequency: 0.4737
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2632
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2105
+    threshold: 0.35
+  - id: pattsun
+    tag: blunt_bangs
+    frequency: 0.2105
+    threshold: 0.4
+  new_tag_proposals: []
 - id: noda-megumi
   name: 野田恵
   date: '2026-08-31'
@@ -4358,6 +4456,62 @@
   - id: semi-long
     tag: medium_hair
     frequency: 0.1667
+    threshold: 0.35
+  new_tag_proposals: []
+- id: nohara-shinnosuke
+  name: 野原しんのすけ
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: phone
+    frequency: 0.4286
+  - tag: cellphone
+    frequency: 0.4286
+  - tag: smartphone
+    frequency: 0.381
+  - tag: charm_(object)
+    frequency: 0.381
+  - tag: cellphone_charm
+    frequency: 0.381
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.381
+    threshold: 0.5
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.3333
+    threshold: 0.35
+  - id: odango
+    tag: hair_bun
+    frequency: 0.3333
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3333
+    threshold: 0.5
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.3333
+    threshold: 0.35
+  - id: keshou
+    tag: makeup
+    frequency: 0.3333
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2857
+    threshold: 0.35
+  - id: kinniku
+    tag: abs
+    frequency: 0.2857
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2381
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1905
     threshold: 0.35
   new_tag_proposals: []
 - id: ogino-chihiro
@@ -4440,6 +4594,30 @@
   - name: 特級被呪者
     axis: 関係性 / 立場
     reason: 呪いに取り憑かれている特殊な被害者としての立場を表す言葉が既存語彙にないため。
+- id: okumura-rin
+  name: 奥村燐
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: fire
+    frequency: 0.5263
+  - tag: blue_fire
+    frequency: 0.5175
+  - tag: striped_necktie
+    frequency: 0.4386
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2193
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2018
+    threshold: 0.5
+  - id: aogami
+    tag: blue_hair
+    frequency: 0.1754
+    threshold: 0.35
+  new_tag_proposals: []
 - id: onoda-sakamichi
   name: 小野田坂道
   date: '2026-08-31'
@@ -4832,6 +5010,30 @@
     frequency: 0.249
     threshold: 0.35
   new_tag_proposals: []
+- id: revy
+  name: レヴィ
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: tank_top
+    frequency: 0.5572
+  - tag: shoulder_tattoo
+    frequency: 0.5052
+  - tag: black_tank_top
+    frequency: 0.4978
+  - tag: denim
+    frequency: 0.474
+  - tag: denim_shorts
+    frequency: 0.4577
+  - tag: handgun
+    frequency: 0.4146
+  - tag: short_shorts
+    frequency: 0.367
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4101
+    threshold: 0.5
+  new_tag_proposals: []
 - id: rias-gremory
   name: リアス・グレモリー
   date: '2026-08-31'
@@ -4996,6 +5198,28 @@
   - id: kinniku
     tag: toned
     frequency: 0.1837
+    threshold: 0.35
+  new_tag_proposals: []
+- id: ryougi-shiki
+  name: 両儀式
+  date: '2026-10-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.2634
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.2604
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2249
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1705
     threshold: 0.35
   new_tag_proposals: []
 - id: ryuugazaki-rei
@@ -6640,6 +6864,34 @@
   - id: akame
     tag: red_eyes
     frequency: 0.2008
+    threshold: 0.35
+  new_tag_proposals: []
+- id: yagami-taichi
+  name: 八神太一
+  date: '2026-10-01'
+  unmapped_danbooru:
+  - tag: goggles
+    frequency: 0.7812
+  - tag: goggles_on_head
+    frequency: 0.625
+  - tag: blue_shirt
+    frequency: 0.5156
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.25
+    threshold: 0.5
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.1875
+    threshold: 0.35
+  - id: sakadachi-gami
+    tag: spiked_hair
+    frequency: 0.1875
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.1562
     threshold: 0.35
   new_tag_proposals: []
 - id: yashiro-nene
