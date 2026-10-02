@@ -2952,3 +2952,320 @@ characters:
     year: 2001
     danbooru: mizunashi_akari
     anilist: Akari Mizunashi
+  # 10 期目。1968〜2015。ゲーム・少女漫画・スポーツ・古い作品を混ぜ、
+  # アニメの深夜枠に寄りすぎた偏りを戻す。
+  - id: tsukamoto-tenma
+    name: 塚本天満
+    kana: つかもとてんま
+    work: スクールランブル
+    year: 2002
+    danbooru: tsukamoto_tenma
+    anilist: Tenma Tsukamoto
+  - id: kagurazaka-asuna
+    name: 神楽坂明日菜
+    kana: かぐらざかあすな
+    work: 魔法先生ネギま!
+    year: 2003
+    danbooru: kagurazaka_asuna
+    anilist: Asuna Kagurazaka
+  - id: konno-makoto
+    name: 紺野真琴
+    kana: こんのまこと
+    work: 時をかける少女
+    year: 2006
+    danbooru: konno_makoto
+    anilist: Makoto Konno
+  - id: shinohara-natsuki
+    name: 篠原夏希
+    kana: しのはらなつき
+    work: サマーウォーズ
+    year: 2009
+    danbooru: shinohara_natsuki
+    anilist: Natsuki Shinohara
+  - id: nishimiya-shouko
+    name: 西宮硝子
+    kana: にしみやしょうこ
+    work: 聲の形
+    year: 2013
+    danbooru: nishimiya_shouko
+    anilist: Shouko Nishimiya
+  - id: lacus-clyne
+    name: ラクス・クライン
+    kana: らくすくらいん
+    work: 機動戦士ガンダムSEED
+    year: 2002
+    danbooru: lacus_clyne
+    anilist: Lacus Clyne
+  - id: setsuna-f-seiei
+    name: 刹那・F・セイエイ
+    kana: せつなえふせいえい
+    work: 機動戦士ガンダム00
+    year: 2007
+    danbooru: setsuna_f_seiei
+    anilist: Setsuna F. Seiei
+  - id: yuzuriha-inori
+    name: 楪いのり
+    kana: ゆずりはいのり
+    work: ギルティクラウン
+    year: 2011
+    danbooru: yuzuriha_inori
+    anilist: Inori Yuzuriha
+  - id: miyafuji-yoshika
+    name: 宮藤芳佳
+    kana: みやふじよしか
+    work: ストライクウィッチーズ
+    year: 2007
+    danbooru: miyafuji_yoshika
+    anilist: Yoshika Miyafuji
+  - id: shizue
+    name: しずえ
+    kana: しずえ
+    work: どうぶつの森
+    year: 2012
+    danbooru: shizue_(animal_crossing)
+    anilist: Isabelle
+  - id: princess-peach
+    name: ピーチ姫
+    kana: ぴーちひめ
+    work: スーパーマリオ
+    year: 1985
+    danbooru: princess_peach
+    anilist: Princess Peach
+  - id: samus-aran
+    name: サムス・アラン
+    kana: さむすあらん
+    work: メトロイド
+    year: 1986
+    danbooru: samus_aran
+    anilist: Samus Aran
+  - id: lucina
+    name: ルキナ
+    kana: るきな
+    work: ファイアーエムブレム
+    year: 2012
+    danbooru: lucina_(fire_emblem)
+    anilist: Lucina
+  - id: kiryu-kazuma
+    name: 桐生一馬
+    kana: きりゅうかずま
+    work: 龍が如く
+    year: 2005
+    danbooru: kiryu_kazuma
+    anilist: Kazuma Kiryu
+  - id: leon-s-kennedy
+    name: レオン・S・ケネディ
+    kana: れおんえすけねでぃ
+    work: バイオハザード
+    year: 1998
+    danbooru: leon_s._kennedy
+    anilist: Leon S. Kennedy
+  - id: chun-li
+    name: 春麗
+    kana: しゅんりー
+    work: ストリートファイター
+    year: 1991
+    danbooru: chun-li
+    anilist: Chun-Li
+  - id: oscar-de-jarjayes
+    name: オスカル
+    kana: おすかる
+    work: ベルサイユのばら
+    year: 1972
+    danbooru: oscar_francois_de_jarjayes
+    anilist: Oscar Francois de Jarjayes
+  - id: yabuki-joe
+    name: 矢吹丈
+    kana: やぶきじょー
+    work: あしたのジョー
+    year: 1968
+    danbooru: yabuki_joe
+    anilist: Joe Yabuki
+  - id: oozora-tsubasa
+    name: 大空翼
+    kana: おおぞらつばさ
+    work: キャプテン翼
+    year: 1981
+    danbooru: oozora_tsubasa
+    anilist: Tsubasa Ozora
+  - id: makunouchi-ippo
+    name: 幕之内一歩
+    kana: まくのうちいっぽ
+    work: はじめの一歩
+    year: 1989
+    danbooru: makunouchi_ippo
+    anilist: Ippo Makunouchi
+  - id: kobayakawa-sena
+    name: 小早川瀬那
+    kana: こばやかわせな
+    work: アイシールド21
+    year: 2002
+    danbooru: kobayakawa_sena
+    anilist: Sena Kobayakawa
+  - id: takami-chika
+    name: 高海千歌
+    kana: たかみちか
+    work: ラブライブ!サンシャイン!!
+    year: 2015
+    danbooru: takami_chika
+    anilist: Chika Takami
+  - id: chito
+    name: チト
+    kana: ちと
+    work: 少女終末旅行
+    year: 2014
+    danbooru: chito_(shoujo_shuumatsu_ryokou)
+    anilist: Chito
+  - id: laios-touden
+    name: ライオス
+    kana: らいおす
+    work: ダンジョン飯
+    year: 2014
+    danbooru: laios_touden
+    anilist: Laios Touden
+  - id: marcille-donato
+    name: マルシル
+    kana: まるしる
+    work: ダンジョン飯
+    year: 2014
+    danbooru: marcille_donato
+    anilist: Marcille Donato
+  - id: hatori-chise
+    name: 羽鳥チセ
+    kana: はとりちせ
+    work: 魔法使いの嫁
+    year: 2013
+    danbooru: hatori_chise
+    anilist: Chise Hatori
+  - id: itou-kaiji
+    name: 伊藤開司
+    kana: いとうかいじ
+    work: 賭博黙示録カイジ
+    year: 1996
+    danbooru: itou_kaiji
+    anilist: Kaiji Itou
+  - id: miyanaga-saki
+    name: 宮永咲
+    kana: みやながさき
+    work: 咲-Saki-
+    year: 2006
+    danbooru: miyanaga_saki
+    anilist: Saki Miyanaga
+  - id: onizuka-eikichi
+    name: 鬼塚英吉
+    kana: おにづかえいきち
+    work: GTO
+    year: 1997
+    danbooru: onizuka_eikichi
+    anilist: Eikichi Onizuka
+  - id: mizutani-shizuku
+    name: 水谷雫
+    kana: みずたにしずく
+    work: となりの怪物くん
+    year: 2008
+    danbooru: mizutani_shizuku
+    anilist: Shizuku Mizutani
+  - id: hori-kyouko
+    name: 堀京子
+    kana: ほりきょうこ
+    work: ホリミヤ
+    year: 2011
+    danbooru: hori_kyouko
+    anilist: Kyouko Hori
+  - id: orihara-izaya
+    name: 折原臨也
+    kana: おりはらいざや
+    work: デュラララ!!
+    year: 2004
+    danbooru: orihara_izaya
+    anilist: Izaya Orihara
+  - id: aladdin
+    name: アラジン
+    kana: あらじん
+    work: マギ
+    year: 2009
+    danbooru: aladdin_(magi)
+    anilist: Aladdin
+  - id: miyamori-aoi
+    name: 宮森あおい
+    kana: みやもりあおい
+    work: SHIROBAKO
+    year: 2014
+    danbooru: miyamori_aoi
+    anilist: Aoi Miyamori
+  - id: shirayuki
+    name: 白雪
+    kana: しらゆき
+    work: 赤髪の白雪姫
+    year: 2006
+    danbooru: shirayuki_(akagami_no_shirayukihime)
+    anilist: Shirayuki
+  - id: yona
+    name: ヨナ
+    kana: よな
+    work: 暁のヨナ
+    year: 2009
+    danbooru: yona_(akatsuki_no_yona)
+    anilist: Yona
+  - id: chii
+    name: ちぃ
+    kana: ちい
+    work: ちょびっツ
+    year: 2000
+    danbooru: chii_(chobits)
+    anilist: Chii
+  - id: shidou-hikaru
+    name: 獅堂光
+    kana: しどうひかる
+    work: 魔法騎士レイアース
+    year: 1993
+    danbooru: shidou_hikaru
+    anilist: Hikaru Shidou
+  - id: mugen
+    name: ムゲン
+    kana: むげん
+    work: サムライチャンプルー
+    year: 2004
+    danbooru: mugen_(samurai_champloo)
+    anilist: Mugen
+  - id: saeba-ryou
+    name: 冴羽獠
+    kana: さえばりょう
+    work: シティーハンター
+    year: 1985
+    danbooru: saeba_ryou
+    anilist: Ryo Saeba
+  - id: kindaichi-hajime
+    name: 金田一一
+    kana: きんだいちはじめ
+    work: 金田一少年の事件簿
+    year: 1992
+    danbooru: kindaichi_hajime
+    anilist: Hajime Kindaichi
+  - id: nico-robin
+    name: ニコ・ロビン
+    kana: にころびん
+    work: ONE PIECE
+    year: 1997
+    danbooru: nico_robin
+    anilist: Nico Robin
+  - id: haruno-sakura
+    name: 春野サクラ
+    kana: はるのさくら
+    work: NARUTO
+    year: 1999
+    danbooru: haruno_sakura
+    anilist: Sakura Haruno
+  - id: kinomoto-touya
+    name: 木之本桃矢
+    kana: きのもととうや
+    work: カードキャプターさくら
+    year: 1996
+    danbooru: kinomoto_touya
+    anilist: Touya Kinomoto
+  - id: urameshi-keiko
+    name: 雪村螢子
+    kana: ゆきむらけいこ
+    work: 幽☆遊☆白書
+    year: 1990
+    danbooru: yukimura_keiko
+    anilist: Keiko Yukimura
