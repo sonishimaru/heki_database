@@ -1038,6 +1038,26 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 56%', src: danbooru}
   patterns: []
 
+- id: chun-li
+  name: 春麗
+  kana: しゅんりー
+  work: ストリートファイター
+  year: 1991
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b5165-g0Vo7XosHh4I.png'
+    page: 'https://anilist.co/character/5165'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: odango, weight: core, note: 'danbooru hair_bun 82%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 49%', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 58%', src: danbooru}
+    - {id: chuukafuku, weight: sub, note: 'danbooru chinese_clothes 56%', src: danbooru}
+  patterns: []
+
 - id: daidouji-tomoyo
   name: 大道寺知世
   kana: だいどうじともよ
@@ -3946,6 +3966,21 @@
     - {id: shokunin, weight: sub, note: '資料: 中学生でプロとなった将棋棋士であり、専門的な対局の給与と貯金で自立して生活している。', src: gemini}
   patterns: []
 
+- id: kiryu-kazuma
+  name: 桐生一馬
+  kana: きりゅうかずま
+  work: 龍が如く
+  year: 2005
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: bushouhige, weight: sub, note: 'danbooru facial_hair 47%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 46%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 56%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kiryuuin-satsuki
   name: 鬼龍院皐月
   kana: きりゅういんさつき
@@ -4048,6 +4083,26 @@
     - {id: akame, weight: sub, note: 'danbooru red_eyes 51%', src: danbooru}
     - {id: hogosha, weight: sub, note: '資料: 母親のアリスからクレーの保護者役を任されたアルベドや、監督役を分担する西風騎士団のメンバーたちに囲まれている。', src: gemini}
     - {id: kishi, weight: sub, note: '資料: 西風騎士団内で「The Spark Knight（火花騎士）」として知られている。', src: gemini}
+  patterns: []
+
+- id: kobayakawa-sena
+  name: 小早川瀬那
+  kana: こばやかわせな
+  work: アイシールド21
+  year: 2002
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/n944-deXgyvNgXp50.png'
+    page: 'https://anilist.co/character/944'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 40%', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 44%', src: danbooru}
+    - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 44%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 64%（共有 12% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kobuchizawa-shirase
@@ -4725,6 +4780,23 @@
     - {id: pairotto, weight: sub, note: '資料: 無頼、ガウェイン、蜃気楼、サザーランドなどのナイトメアフレームに搭乗する。', src: gemini}
   patterns: []
 
+- id: leon-s-kennedy
+  name: レオン・S・ケネディ
+  kana: れおんえすけねでぃ
+  work: バイオハザード
+  year: 1998
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 37%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 40%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 37%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 46%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 80%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: levi
   name: リヴァイ
   kana: りゔぁい
@@ -4862,6 +4934,27 @@
     - {id: gaitou, weight: sub, note: 'danbooru cape 36%', src: danbooru}
     - {id: momoiro-no-me, weight: sub, note: 'danbooru pink_eyes 53%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 95%（共有 37% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: lucina
+  name: ルキナ
+  kana: るきな
+  work: ファイアーエムブレム
+  year: 2012
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b124486-GUCpNAiQvnws.png'
+    page: 'https://anilist.co/character/124486'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 93%', src: danbooru}
+    - {id: gaitou, weight: sub, note: 'danbooru cape 36%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 42%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 87%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: lucy-elfen
@@ -5015,6 +5108,25 @@
     - {id: otaku, weight: sub, note: '作品知識: @ちゃんねる等のネットスラングを熟知しており、ふとした拍子にオタク用語が漏れ出る。', src: gemini}
     - {id: shokunin, weight: sub, note: '資料: 18歳でヴィクトル・コンドリア大学脳科学研究所の研究員を務め、アメリカで有名論文を執筆した専門家である。', src: gemini}
     - {id: tsukkomi, weight: sub, note: '資料・作品知識: 倫太郎からの『マッドサイエンティストのセンスがある』という指摘に同意せず、彼の厨二病的な言動に冷静に反論・否定する常識人の役割を持つ。', src: gemini}
+  patterns: []
+
+- id: makunouchi-ippo
+  name: 幕之内一歩
+  kana: まくのうちいっぽ
+  work: はじめの一歩
+  year: 1989
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b15-AAj73hDX9bor.jpg'
+    page: 'https://anilist.co/character/15'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: kinniku, weight: core, note: 'danbooru muscular 72%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 67%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 44%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: maomao
@@ -6296,6 +6408,36 @@
     - {id: sewayaki, weight: spice, note: '資料: 一条楽が負傷したり病気の時には介抱を行っている。', src: gemini}
   patterns: []
 
+- id: oozora-tsubasa
+  name: 大空翼
+  kana: おおぞらつばさ
+  work: キャプテン翼
+  year: 1981
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 50%', src: danbooru}
+  patterns: []
+
+- id: oscar-de-jarjayes
+  name: オスカル
+  kana: おすかる
+  work: ベルサイユのばら
+  year: 1972
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: buki, weight: sub, note: 'danbooru weapon 39%', src: danbooru}
+    - {id: gunpuku, weight: sub, note: 'danbooru epaulettes 55%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 86%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 65%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: oshino-shinobu
   name: 忍野忍
   kana: おしのしのぶ
@@ -7242,6 +7384,27 @@
     - {id: kurokami, weight: core, note: 'danbooru black_hair 86%', src: danbooru}
     - {id: aome, weight: sub, note: 'danbooru blue_eyes 45%', src: danbooru}
     - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 37%', src: danbooru}
+  patterns: []
+
+- id: samus-aran
+  name: サムス・アラン
+  kana: さむすあらん
+  work: メトロイド
+  year: 1986
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b11998-akZrClzG6mrR.jpg'
+    page: 'https://anilist.co/character/11998'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 71%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 37%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 80%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 61%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 66%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: san
@@ -8336,6 +8499,27 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 39%（共有 36% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: takami-chika
+  name: 高海千歌
+  kana: たかみちか
+  work: 'ラブライブ!サンシャイン!!'
+  year: 2015
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b89844-ixea0r4VSD7E.png'
+    page: 'https://anilist.co/character/89844'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: ahoge, weight: core, note: 'danbooru ahoge 78%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru orange_hair 83%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 73%（共有 14% のため比重を下げた）', src: danbooru}
+    - {id: mitsuami, weight: sub, note: 'danbooru braid 53%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 56%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: takanashi-rikka
   name: 小鳥遊六花
   kana: たかなしりっか
@@ -9068,6 +9252,23 @@
     - {id: keigo, weight: sub, note: '資料: 軍人生活の習慣から、敬礼をしたり軍人時代の言葉遣いをする癖がある。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 36%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 44%', src: danbooru}
+  patterns: []
+
+- id: yabuki-joe
+  name: 矢吹丈
+  kana: やぶきじょー
+  work: あしたのジョー
+  year: 1968
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b11804-iGb4oJ99VCcz.jpg'
+    page: 'https://anilist.co/character/11804'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 79%（共有 24% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yagami-light

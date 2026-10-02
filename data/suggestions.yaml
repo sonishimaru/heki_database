@@ -851,6 +851,40 @@
   - name: トラウマ
     axis: 性格 / 傷
     reason: 飛行機や海に対する恐怖症を抱えており、克服するまでの制約となっているため。
+- id: chun-li
+  name: 春麗
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: spikes
+    frequency: 0.4576
+  - tag: spiked_bracelet
+    frequency: 0.4483
+  - tag: thighs
+    frequency: 0.3954
+  - tag: pelvic_curtain
+    frequency: 0.3675
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.4046
+    threshold: 0.5
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3781
+    threshold: 0.5
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.3115
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.19
+    threshold: 0.35
+  - id: keshou
+    tag: makeup
+    frequency: 0.1745
+    threshold: 0.35
+  new_tag_proposals: []
 - id: daidouji-tomoyo
   name: 大道寺知世
   date: '2026-08-31'
@@ -2996,6 +3030,20 @@
     frequency: 0.2143
     threshold: 0.35
   new_tag_proposals: []
+- id: kiryu-kazuma
+  name: 桐生一馬
+  date: '2026-10-02'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kinniku
+    tag: muscular
+    frequency: 0.2471
+    threshold: 0.35
+  - id: futomayu
+    tag: thick_eyebrows
+    frequency: 0.1647
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kiryuuin-satsuki
   name: 鬼龍院皐月
   date: '2026-08-31'
@@ -3084,6 +3132,28 @@
     tag: orange_eyes
     frequency: 0.2667
     threshold: 0.35
+  new_tag_proposals: []
+- id: kobayakawa-sena
+  name: 小早川瀬那
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: american_football_uniform
+    frequency: 0.8
+  - tag: helmet
+    frequency: 0.6
+  - tag: american_football_helmet
+    frequency: 0.56
+  - tag: ball
+    frequency: 0.36
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.28
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.16
+    threshold: 0.5
   new_tag_proposals: []
 - id: kobuchizawa-shirase
   name: 小淵沢報瀬
@@ -3601,6 +3671,24 @@
   - name: 革命家
     axis: 物語役割/役割
     reason: 黒の騎士団を結成して民衆の支持を得て帝国に反逆する役割として資料に明記されているため。
+- id: leon-s-kennedy
+  name: レオン・S・ケネディ
+  date: '2026-10-02'
+  unmapped_danbooru: []
+  near_miss:
+  - id: bushouhige
+    tag: facial_hair
+    frequency: 0.2478
+    threshold: 0.35
+  - id: kinniku
+    tag: muscular
+    frequency: 0.2382
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.2058
+    threshold: 0.35
+  new_tag_proposals: []
 - id: levi
   name: リヴァイ
   date: '2026-08-31'
@@ -3727,6 +3815,30 @@
   - id: hinnyuu
     tag: flat_chest
     frequency: 0.2205
+    threshold: 0.5
+  new_tag_proposals: []
+- id: lucina
+  name: ルキナ
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: tiara
+    frequency: 0.6581
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4554
+    threshold: 0.5
+  - id: buki
+    tag: weapon
+    frequency: 0.2683
+    threshold: 0.35
+  - id: kishi
+    tag: armor
+    frequency: 0.211
+    threshold: 0.4
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.1969
     threshold: 0.5
   new_tag_proposals: []
 - id: lucy-elfen
@@ -3913,6 +4025,36 @@
   - name: kagakusha
     axis: 関係性 / 立場
     reason: 大学研究所に所属し論文を執筆する科学者・研究者という属性を正確に表現するため。
+- id: makunouchi-ippo
+  name: 幕之内一歩
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: boxing_gloves
+    frequency: 0.7222
+  - tag: topless_male
+    frequency: 0.6111
+  - tag: boxing
+    frequency: 0.4444
+  - tag: boxing_shorts
+    frequency: 0.3889
+  near_miss:
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2778
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.2222
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1667
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1667
+    threshold: 0.35
+  new_tag_proposals: []
 - id: maomao
   name: 猫猫
   date: '2026-08-31'
@@ -5130,6 +5272,44 @@
     frequency: 0.1684
     threshold: 0.35
   new_tag_proposals: []
+- id: oozora-tsubasa
+  name: 大空翼
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: soccer_uniform
+    frequency: 1.0
+  - tag: soccer
+    frequency: 0.75
+  - tag: jumping
+    frequency: 0.5
+  near_miss:
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.25
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.25
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.25
+    threshold: 0.35
+  new_tag_proposals: []
+- id: oscar-de-jarjayes
+  name: オスカル
+  date: '2026-10-02'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3307
+    threshold: 0.5
+  - id: chuuseiteki
+    tag: androgynous
+    frequency: 0.2677
+    threshold: 0.5
+  new_tag_proposals: []
 - id: oshino-shinobu
   name: 忍野忍
   date: '2026-08-31'
@@ -5939,6 +6119,26 @@
     tag: collarbone
     frequency: 0.1633
     threshold: 0.35
+  new_tag_proposals: []
+- id: samus-aran
+  name: サムス・アラン
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: zero_suit
+    frequency: 0.5364
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4415
+    threshold: 0.5
+  - id: namida-bokuro
+    tag: mole_under_mouth
+    frequency: 0.3033
+    threshold: 0.35
+  - id: kishi
+    tag: armor
+    frequency: 0.1926
+    threshold: 0.4
   new_tag_proposals: []
 - id: san
   name: サン
@@ -6963,6 +7163,26 @@
     frequency: 0.2344
     threshold: 0.35
   new_tag_proposals: []
+- id: takami-chika
+  name: 高海千歌
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: side_braid
+    frequency: 0.4215
+  near_miss:
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2407
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2391
+    threshold: 0.3
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.191
+    threshold: 0.35
+  new_tag_proposals: []
 - id: takanashi-rikka
   name: 小鳥遊六花
   date: '2026-08-31'
@@ -7574,6 +7794,36 @@
   - name: 代筆屋（自動手記人形）
     axis: 職業
     reason: 手紙の代筆業務を行い人間の感情を学んでいく職能を表すため。
+- id: yabuki-joe
+  name: 矢吹丈
+  date: '2026-10-02'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2857
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.2857
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2143
+    threshold: 0.35
+  - id: kinniku
+    tag: muscular
+    frequency: 0.2143
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2143
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.2143
+    threshold: 0.35
+  new_tag_proposals: []
 - id: yagami-light
   name: 夜神月
   date: '2026-08-31'
