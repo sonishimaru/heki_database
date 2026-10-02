@@ -222,6 +222,27 @@
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 49%', src: danbooru}
   patterns: []
 
+- id: allen-walker
+  name: アレン・ウォーカー
+  kana: あれんうぉーかー
+  work: 'D.Gray-man'
+  year: 2004
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b139-QnuZQbLodMF3.png'
+    page: 'https://anilist.co/character/139'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: kokuin, weight: core, note: 'danbooru facial_mark 72%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru white_hair 80%', src: danbooru}
+    - {id: kizuato, weight: sub, note: 'danbooru scar 41%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 43%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 41%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: alphonse-elric
   name: アルフォンス・エルリック
   kana: あるふぉんすえるりっく
@@ -242,6 +263,26 @@
     - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 54%', src: danbooru}
     - {id: kodomo, weight: sub, note: '資料: 年齢が14-15歳であり、「人間の子供」であると資料に明記されている。', src: gemini}
     - {id: soushitsu, weight: sub, note: '資料: 亡くなった母親を蘇らせようとした結果、自らの身体を失ったことが資料に明記されている。', src: gemini}
+  patterns: []
+
+- id: alucard
+  name: アーカード
+  kana: あーかーど
+  work: HELLSING
+  year: 1997
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/n601-CVySkaFQgsPW.jpg'
+    page: 'https://anilist.co/character/601'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 58%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 43%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 54%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 62%（共有 24% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: amami-haruka
@@ -875,6 +916,25 @@
     - {id: shokunin, weight: core, note: '資料: ドラゴンレーダーの発明者であり天才とされ、自作ガジェットを用いて孫悟空やその仲間たちをサポートし続けている。', src: gemini}
     - {id: aogami, weight: sub, note: 'danbooru blue_hair 46%', src: danbooru}
     - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 37%', src: danbooru}
+  patterns: []
+
+- id: casca
+  name: キャスカ
+  kana: きゃすか
+  work: ベルセルク
+  year: 1989
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b423-AmVFCaJJOBsc.png'
+    page: 'https://anilist.co/character/423'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: kasshoku, weight: core, note: 'danbooru dark_skin 77%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 47%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 79%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: cc
@@ -2931,6 +2991,26 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 75%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: iwakura-mitsumi
+  name: 岩倉美津未
+  kana: いわくらみつみ
+  work: スキップとローファー
+  year: 2018
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b138851-KqCx4CjktnPl.png'
+    page: 'https://anilist.co/character/138851'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 38%', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 62%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 38%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 65%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: iwatani-naofumi
   name: 岩谷尚文
   kana: いわたになおふみ
@@ -4002,6 +4082,24 @@
     - {id: teishinchou, weight: sub, note: '資料: 18歳で身長151cmである。', src: gemini}
   patterns: []
 
+- id: koiwai-yotsuba
+  name: 小岩井よつば
+  kana: こいわいよつば
+  work: 'よつばと!'
+  year: 2003
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b3568-5mfNplO06SPY.png'
+    page: 'https://anilist.co/character/3568'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: midorigami, weight: core, note: 'danbooru green_hair 78%', src: danbooru}
+    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 48%', src: danbooru}
+  patterns: []
+
 - id: koizumi-hanayo
   name: 小泉花陽
   kana: こいずみはなよ
@@ -4193,6 +4291,26 @@
     - {id: semi-long, weight: core, note: 'danbooru medium_hair 93%', src: danbooru}
     - {id: aidoru, weight: sub, note: '資料: 学校を救うためにスクールアイドルグループの立ち上げを決意した。', src: gemini}
     - {id: seitokaichou, weight: sub, note: '資料: アニメ2期において、周囲の推薦により新しい生徒会長になった。', src: gemini}
+  patterns: []
+
+- id: kousaka-kirino
+  name: 高坂桐乃
+  kana: こうさかきりの
+  work: 俺の妹がこんなに可愛いわけがない
+  year: 2008
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b24544-Z6aOiDqsBE6t.png'
+    page: 'https://anilist.co/character/24544'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: akagami, weight: sub, note: 'danbooru orange_hair 46%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 38%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 54%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 94%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kousaka-reina
@@ -4685,6 +4803,26 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 95%（共有 37% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: lucy-elfen
+  name: ルーシー
+  kana: るーしー
+  work: エルフェンリート
+  year: 2002
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b40-MNypXsxSRb1R.png'
+    page: 'https://anilist.co/character/40'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: jingai, weight: core, note: 'danbooru horns 76%', src: danbooru}
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 64%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 47%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 74%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: lucy-heartfilia
   name: ルーシィ・ハートフィリア
   kana: るーしぃはーとふぃりあ
@@ -4889,6 +5027,26 @@
     - {id: kataomoi, weight: sub, note: '資料: 衛宮士郎（Shirou Emiya）に対して長年明確な好意を抱いている。', src: gemini}
     - {id: sewayaki, weight: sub, note: '資料: 衛宮士郎の父親である切嗣（Kiritsugu）が亡くなった後、士郎の家を頻繁に訪れて日常の家事を手伝うようになった。', src: gemini}
     - {id: toshishita, weight: sub, note: '資料: 間桐慎二（Shinji Mato）の妹。', src: gemini}
+  patterns: []
+
+- id: matsumae-ohana
+  name: 松前緒花
+  kana: まつまえおはな
+  work: 花咲くいろは
+  year: 2011
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b36184-ylcMtZPMm1cB.png'
+    page: 'https://anilist.co/character/36184'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 81%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 82%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 48%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 82%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: megumin
@@ -6256,6 +6414,27 @@
     - {id: samurai, weight: sub, note: '資料: 異世界の8つの眷属器のうち1つを獲得し、眷属器の所持者および刀の勇者となる。', src: gemini}
   patterns: []
 
+- id: red-blood-cell
+  name: 赤血球
+  kana: せっけっきゅう
+  work: はたらく細胞
+  year: 2015
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b126975-Lqj6mlIEBaSA.png'
+    page: 'https://anilist.co/character/126975'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: ahoge, weight: sub, note: 'danbooru ahoge 37%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 76%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 41%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 59%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 69%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: reg
   name: レグ
   kana: れぐ
@@ -7190,6 +7369,26 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 94%（共有 36% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: shiba-miyuki
+  name: 司波深雪
+  kana: しばみゆき
+  work: 魔法科高校の劣等生
+  year: 2011
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b55741-FX0mwEYDYZmw.png'
+    page: 'https://anilist.co/character/55741'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 50%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 78%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 87%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 71%（共有 24% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: shibuya-rin
   name: 渋谷凛
   kana: しぶやりん
@@ -7371,6 +7570,27 @@
     - {id: chouhatsu, weight: core, note: 'danbooru long_hair 68%', src: danbooru}
     - {id: seifuku, weight: core, note: 'danbooru school_uniform 61%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 86%', src: danbooru}
+  patterns: []
+
+- id: shiro-ngnl
+  name: 白
+  kana: しろ
+  work: ノーゲーム・ノーライフ
+  year: 2012
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b82525-sKk2FGRKN4aK.png'
+    page: 'https://anilist.co/character/82525'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 62%', src: danbooru}
+    - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 62%', src: danbooru}
+    - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 56%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 50%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 90%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shirogane-miyuki
@@ -8504,6 +8724,27 @@
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 43%', src: danbooru}
     - {id: muhoumono, weight: sub, note: '資料: 物語の開始時点では、手に負えない不良少年およびストリートファイターであった。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 41%', src: danbooru}
+  patterns: []
+
+- id: uzaki-hana
+  name: 宇崎花
+  kana: うざきはな
+  work: '宇崎ちゃんは遊びたい!'
+  year: 2017
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b130665-eb65zDu3doTn.jpg'
+    page: 'https://anilist.co/character/130665'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: shirogami, weight: core, note: 'danbooru grey_hair 79%', src: danbooru}
+    - {id: yaeba, weight: core, note: 'danbooru fang 66%', src: danbooru}
+    - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 59%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 81%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 87%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: uzumaki-naruto

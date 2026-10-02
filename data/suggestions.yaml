@@ -175,6 +175,40 @@
   - name: datenshi
     axis: 外見 / 種族
     reason: 堕天使の翼と角を持つ姿として記載されており、既存の天使・悪魔の記号とは区別されるため。
+- id: allen-walker
+  name: アレン・ウォーカー
+  date: '2026-10-02'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4899
+    threshold: 0.5
+  - id: gaitou
+    tag: coat
+    frequency: 0.3311
+    threshold: 0.35
+  - id: akame
+    tag: red_eyes
+    frequency: 0.2905
+    threshold: 0.35
+  - id: heterochromia
+    tag: heterochromia
+    frequency: 0.2534
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.2365
+    threshold: 0.35
+  - id: tsubasa
+    tag: wings
+    frequency: 0.1926
+    threshold: 0.35
+  - id: shippo
+    tag: tail
+    frequency: 0.1622
+    threshold: 0.35
+  new_tag_proposals: []
 - id: alphonse-elric
   name: アルフォンス・エルリック
   date: '2026-08-31'
@@ -195,6 +229,24 @@
   - id: gaitou
     tag: coat
     frequency: 0.1788
+    threshold: 0.35
+  new_tag_proposals: []
+- id: alucard
+  name: アーカード
+  date: '2026-10-02'
+  unmapped_danbooru: []
+  near_miss:
+  - id: gaitou
+    tag: coat
+    frequency: 0.26
+    threshold: 0.35
+  - id: kyuuketsuki
+    tag: vampire
+    frequency: 0.2514
+    threshold: 0.4
+  - id: buki
+    tag: weapon
+    frequency: 0.2486
     threshold: 0.35
   new_tag_proposals: []
 - id: amami-haruka
@@ -735,6 +787,36 @@
     tag: earrings
     frequency: 0.1617
     threshold: 0.5
+  new_tag_proposals: []
+- id: casca
+  name: キャスカ
+  date: '2026-10-02'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kishi
+    tag: armor
+    frequency: 0.374
+    threshold: 0.4
+  - id: buki
+    tag: weapon
+    frequency: 0.3089
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.3008
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2439
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.2358
+    threshold: 0.35
+  - id: gaitou
+    tag: cape
+    frequency: 0.1951
+    threshold: 0.35
   new_tag_proposals: []
 - id: cc
   name: C.C.
@@ -2193,6 +2275,34 @@
     frequency: 0.2068
     threshold: 0.35
   new_tag_proposals: []
+- id: iwakura-mitsumi
+  name: 岩倉美津未
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: tsubame_nishi_high_school_uniform
+    frequency: 0.3846
+  near_miss:
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.3077
+    threshold: 0.6
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2308
+    threshold: 0.35
+  - id: bob-cut
+    tag: bob_cut
+    frequency: 0.1923
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.1923
+    threshold: 0.35
+  - id: knit
+    tag: sweater
+    frequency: 0.1923
+    threshold: 0.35
+  new_tag_proposals: []
 - id: iwatani-naofumi
   name: 岩谷尚文
   date: '2026-08-31'
@@ -2977,6 +3087,26 @@
   - name: 毒使い
     axis: 戦闘/技能
     reason: 医学知識を活かして毒や薬を調合し、自らの身体に毒を仕込んで戦闘に利用しているため。
+- id: koiwai-yotsuba
+  name: 小岩井よつば
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: quad_tails
+    frequency: 0.7532
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.329
+    threshold: 0.35
+  - id: kodomo
+    tag: child
+    frequency: 0.2987
+    threshold: 0.5
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.1905
+    threshold: 0.6
+  new_tag_proposals: []
 - id: koizumi-hanayo
   name: 小泉花陽
   date: '2026-08-31'
@@ -3133,6 +3263,24 @@
     tag: hair_between_eyes
     frequency: 0.1604
     threshold: 0.5
+  new_tag_proposals: []
+- id: kousaka-kirino
+  name: 高坂桐乃
+  date: '2026-10-02'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kinpatsu
+    tag: blonde_hair
+    frequency: 0.2742
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.2039
+    threshold: 0.35
+  - id: yaeba
+    tag: fang
+    frequency: 0.1906
+    threshold: 0.35
   new_tag_proposals: []
 - id: kousaka-reina
   name: 高坂麗奈
@@ -3539,6 +3687,40 @@
     frequency: 0.2205
     threshold: 0.5
   new_tag_proposals: []
+- id: lucy-elfen
+  name: ルーシー
+  date: '2026-10-02'
+  unmapped_danbooru: []
+  near_miss:
+  - id: akagami
+    tag: red_hair
+    frequency: 0.2419
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2
+    threshold: 0.35
+  - id: momoiro-no-me
+    tag: pink_eyes
+    frequency: 0.2
+    threshold: 0.35
+  - id: mekakure
+    tag: hair_over_one_eye
+    frequency: 0.1721
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.1721
+    threshold: 0.5
+  - id: houtai
+    tag: bandages
+    frequency: 0.1628
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1581
+    threshold: 0.5
+  new_tag_proposals: []
 - id: lucy-heartfilia
   name: ルーシィ・ハートフィリア
   date: '2026-09-30'
@@ -3762,6 +3944,20 @@
     tag: hair_between_eyes
     frequency: 0.1555
     threshold: 0.5
+  new_tag_proposals: []
+- id: matsumae-ohana
+  name: 松前緒花
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: kissuisou_uniform
+    frequency: 0.4615
+  - tag: nakai_(waitress)
+    frequency: 0.4344
+  near_miss:
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2081
+    threshold: 0.3
   new_tag_proposals: []
 - id: megumin
   name: めぐみん
@@ -5064,6 +5260,20 @@
     frequency: 0.1926
     threshold: 0.35
   new_tag_proposals: []
+- id: red-blood-cell
+  name: 赤血球
+  date: '2026-10-02'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4259
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.25
+    threshold: 0.35
+  new_tag_proposals: []
 - id: reg
   name: レグ
   date: '2026-09-29'
@@ -5852,6 +6062,22 @@
     frequency: 0.2069
     threshold: 0.35
   new_tag_proposals: []
+- id: shiba-miyuki
+  name: 司波深雪
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: first_high_school_uniform
+    frequency: 0.4909
+  near_miss:
+  - id: pattsun
+    tag: blunt_bangs
+    frequency: 0.2545
+    threshold: 0.4
+  - id: aogami
+    tag: blue_hair
+    frequency: 0.1879
+    threshold: 0.35
+  new_tag_proposals: []
 - id: shibuya-rin
   name: 渋谷凛
   date: '2026-08-31'
@@ -5981,6 +6207,42 @@
     tag: small_breasts
     frequency: 0.2389
     threshold: 0.5
+  new_tag_proposals: []
+- id: shiro-ngnl
+  name: 白
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: crown
+    frequency: 0.4077
+  near_miss:
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.3192
+    threshold: 0.35
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.2692
+    threshold: 0.35
+  - id: akame
+    tag: red_eyes
+    frequency: 0.1885
+    threshold: 0.35
+  - id: hinnyuu
+    tag: flat_chest
+    frequency: 0.1885
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1808
+    threshold: 0.35
+  - id: midorigami
+    tag: green_hair
+    frequency: 0.1538
+    threshold: 0.35
+  - id: pinku-gami
+    tag: pink_hair
+    frequency: 0.15
+    threshold: 0.35
   new_tag_proposals: []
 - id: shirogane-miyuki
   name: 白銀御行
@@ -7017,6 +7279,22 @@
   - name: 武道家
     axis: 関係性 / 立場
     reason: 資料において『物語の経過に伴い、人間界を守る強力な武道家へと成長していく』と明記されているため。
+- id: uzaki-hana
+  name: 宇崎花
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: sugoi_dekai
+    frequency: 0.363
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4955
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2726
+    threshold: 0.35
+  new_tag_proposals: []
 - id: uzumaki-naruto
   name: うずまきナルト
   date: '2026-08-31'
