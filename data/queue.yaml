@@ -2725,7 +2725,8 @@ characters:
     kana: きゃすか
     work: ベルセルク
     year: 1989
-    danbooru: casca
+    # レヴィと同じ事情で、短い名前は Danbooru が作品名で括る。casca は 404 だった
+    danbooru: casca_(berserk)
     anilist: Casca
   - id: mizuno-ami
     name: 水野亜美

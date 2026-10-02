@@ -103,6 +103,13 @@ GENERIC_TAGS = {
     "flower", "hair_flower", "white_flower", "blood", "rei_no_himo",
     "clothing_cutout", "cleavage_cutout", "pencil_dress", "bodysuit",
     "white_bodysuit", "plugsuit_(evangelion)", "mecha_pilot_suit",
+    # 13 巡目。未対応タグの報告に溜まっていたが、見出し語にはしない語。
+    # 背景・効果（fire, snowing）、Danbooru のメタタグ（1other, other_focus）、
+    # 色と衣類の組み合わせだけの語（pink_dress 等）は、誰のことも指さない。
+    "open_clothes", "fire", "snowing", "1other", "other_focus",
+    "card", "rose", "denim", "bracelet", "polka_dot", "polka_dot_bow",
+    "black_ribbon", "pink_dress", "yellow_scarf", "star_hair_ornament",
+    "hoop_earrings", "nipples",
     # 作品固有の制服・装備
     "azumanga_daioh's_school_uniform", "kita_high_school_uniform",
     "icho_private_high_school_uniform", "kurumi-gaoka_high_school_uniform",

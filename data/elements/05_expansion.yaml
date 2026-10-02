@@ -1162,3 +1162,39 @@
   pairs_with: [kodomo, tennen, tenshin]
   contrasts_with: []
   tags: [定番]
+
+# --- 13 巡目。Danbooru レーンの未対応タグから昇格させた3語 ---
+# 残りの未対応タグは既存の見出し語へ対応づけるか、汎用として落とした。
+
+- id: chuuseiteki
+  name: 中性的
+  kana: ちゅうせいてき
+  aliases: [両性的, 性別不明]
+  axis: appearance.build
+  summary: 見ただけでは性別が決まらない体つきと顔立ち。
+  effect: 相手がどちらと見たかを間違わせ、間違いのまま話を進める。
+  pairs_with: [kyasha, teishinchou, hakama]
+  contrasts_with: [kinniku, kyonyuu]
+  tags: [応用]
+
+- id: knit
+  name: ニット
+  kana: にっと
+  aliases: [セーター, タートルネック]
+  axis: appearance.costume
+  summary: 編み物の上着。体の線を隠しながら首だけ出す。
+  effect: 露出のない服で色気を出す方向に使い、季節の変わり目に着替えさせる。
+  pairs_with: [heyagi, kyasha, irojiro]
+  contrasts_with: [gunpuku, hakui]
+  tags: [応用]
+
+- id: randoseru
+  name: ランドセル
+  kana: らんどせる
+  aliases: []
+  axis: appearance.item
+  summary: 小学生の背負いもの。年齢をそれだけで言い切る。
+  effect: 年齢を一目で確定させ、背負っていない日を異常事態にする。
+  pairs_with: [kodomo, teishinchou]
+  contrasts_with: [seifuku, gunpuku]
+  tags: [定番]
