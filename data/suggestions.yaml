@@ -2525,6 +2525,30 @@
     frequency: 0.1858
     threshold: 0.35
   new_tag_proposals: []
+- id: kagurazaka-asuna
+  name: 神楽坂明日菜
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: hair_bell
+    frequency: 0.4478
+  near_miss:
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2488
+    threshold: 0.3
+  - id: buki
+    tag: weapon
+    frequency: 0.2488
+    threshold: 0.35
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.2388
+    threshold: 0.35
+  - id: ahoge
+    tag: ahoge
+    frequency: 0.2139
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kaiba-seto
   name: 海馬瀬人
   date: '2026-08-31'
@@ -3534,6 +3558,24 @@
   - name: 探偵
     axis: 関係性 / 立場
     reason: 「世界的に有名な探偵」という明確な職業・立場が示されているが、既存の語彙リストに存在しないため。
+- id: lacus-clyne
+  name: ラクス・クライン
+  date: '2026-10-02'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2404
+    threshold: 0.5
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.1995
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1585
+    threshold: 0.5
+  new_tag_proposals: []
 - id: lelouch-lamperouge
   name: ルルーシュ・ランペルージ
   date: '2026-08-31'
@@ -4149,6 +4191,22 @@
     frequency: 0.2637
     threshold: 0.5
   new_tag_proposals: []
+- id: miyafuji-yoshika
+  name: 宮藤芳佳
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: dog_girl
+    frequency: 0.6189
+  - tag: school_swimsuit
+    frequency: 0.4348
+  - tag: swimsuit_under_clothes
+    frequency: 0.4118
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.1573
+    threshold: 0.35
+  new_tag_proposals: []
 - id: miyamizu-mitsuha
   name: 宮水三葉
   date: '2026-08-31'
@@ -4217,6 +4275,22 @@
   - id: mitsuami
     tag: braid
     frequency: 0.2917
+    threshold: 0.35
+  new_tag_proposals: []
+- id: mizunashi-akari
+  name: 水無灯里
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: aria_company_uniform
+    frequency: 0.8427
+  - tag: long_dress
+    frequency: 0.485
+  - tag: blouse
+    frequency: 0.3953
+  near_miss:
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.3095
     threshold: 0.35
   new_tag_proposals: []
 - id: mizuno-ami
@@ -4760,6 +4834,26 @@
   - name: 家業の継承者
     axis: 立場
     reason: 実家の病院を継ぐために将来医学を学ぶ予定であったという背景を持つため。
+- id: nishimiya-shouko
+  name: 西宮硝子
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: blue_bow
+    frequency: 0.4027
+  near_miss:
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.2081
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1946
+    threshold: 0.5
+  - id: pinku-gami
+    tag: pink_hair
+    frequency: 0.1812
+    threshold: 0.35
+  new_tag_proposals: []
 - id: nishizumi-miho
   name: 西住みほ
   date: '2026-10-01'
@@ -5174,6 +5268,24 @@
   - id: pinku-gami
     tag: pink_hair
     frequency: 0.1922
+    threshold: 0.35
+  new_tag_proposals: []
+- id: princess-peach
+  name: ピーチ姫
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: crown
+    frequency: 0.6077
+  - tag: sphere_earrings
+    frequency: 0.5189
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3354
+    threshold: 0.5
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.2246
     threshold: 0.35
   new_tag_proposals: []
 - id: raiden-shogun
@@ -5995,6 +6107,32 @@
     frequency: 0.3774
     threshold: 0.4
   new_tag_proposals: []
+- id: setsuna-f-seiei
+  name: 刹那・F・セイエイ
+  date: '2026-10-02'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2835
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2756
+    threshold: 0.35
+  - id: mafuraa
+    tag: scarf
+    frequency: 0.2126
+    threshold: 0.35
+  - id: akame
+    tag: red_eyes
+    frequency: 0.189
+    threshold: 0.35
+  - id: jinzou
+    tag: robot
+    frequency: 0.1811
+    threshold: 0.35
+  new_tag_proposals: []
 - id: shalltear-bloodfallen
   name: シャルティア・ブラッドフォールン
   date: '2026-08-31'
@@ -6139,6 +6277,32 @@
   - id: aome
     tag: blue_eyes
     frequency: 0.1616
+    threshold: 0.35
+  new_tag_proposals: []
+- id: shinohara-natsuki
+  name: 篠原夏希
+  date: '2026-10-02'
+  unmapped_danbooru: []
+  near_miss:
+  - id: wasou
+    tag: japanese_clothes
+    frequency: 0.3462
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2308
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.1923
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1923
+    threshold: 0.35
+  - id: aogami
+    tag: blue_hair
+    frequency: 0.1538
     threshold: 0.35
   new_tag_proposals: []
 - id: shinomiya-kaguya
@@ -7171,6 +7335,20 @@
     frequency: 0.1612
     threshold: 0.35
   new_tag_proposals: []
+- id: tsukamoto-tenma
+  name: 塚本天満
+  date: '2026-10-02'
+  unmapped_danbooru: []
+  near_miss:
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.3182
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.2121
+    threshold: 0.35
+  new_tag_proposals: []
 - id: tsukimiya-ayu
   name: 月宮あゆ
   date: '2026-09-29'
@@ -7731,6 +7909,20 @@
   - name: 称号・異名
     axis: 物語役割 / 役割
     reason: 「閃光」という称号を得ているが、該当する語彙が存在しないため。
+- id: yuzuriha-inori
+  name: 楪いのり
+  date: '2026-10-02'
+  unmapped_danbooru:
+  - tag: red_leotard
+    frequency: 0.5901
+  - tag: center_opening
+    frequency: 0.5724
+  near_miss:
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.1686
+    threshold: 0.5
+  new_tag_proposals: []
 - id: zelda
   name: ゼルダ
   date: '2026-08-31'

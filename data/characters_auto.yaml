@@ -3332,6 +3332,27 @@
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 41%', src: danbooru}
   patterns: []
 
+- id: kagurazaka-asuna
+  name: 神楽坂明日菜
+  kana: かぐらざかあすな
+  work: '魔法先生ネギま!'
+  year: 2003
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b679-yiiTzSmky0iI.jpg'
+    page: 'https://anilist.co/character/679'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: twintail, weight: core, note: 'danbooru twintails 78%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru orange_hair 59%', src: danbooru}
+    - {id: heterochromia, weight: sub, note: 'danbooru heterochromia 51%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 42%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 66%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kaiba-seto
   name: 海馬瀬人
   kana: かいばせと
@@ -4206,6 +4227,27 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 96%（共有 37% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: konno-makoto
+  name: 紺野真琴
+  kana: こんのまこと
+  work: 時をかける少女
+  year: 2006
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2530-cQj2vyKexS4n.png'
+    page: 'https://anilist.co/character/2530'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 49%', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 51%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 56%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 35%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 93%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: konpaku-youmu
   name: 魂魄妖夢
   kana: こんぱくようむ
@@ -4636,6 +4678,25 @@
     - {id: kurome, weight: sub, note: 'danbooru black_eyes 55%', src: danbooru}
     - {id: kusekke, weight: sub, note: 'danbooru hair_between_eyes 50%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 60%', src: danbooru}
+  patterns: []
+
+- id: lacus-clyne
+  name: ラクス・クライン
+  kana: らくすくらいん
+  work: 機動戦士ガンダムSEED
+  year: 2002
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b116-DV0Kf8F2vSsW.png'
+    page: 'https://anilist.co/character/116'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 89%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 67%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: lelouch-lamperouge
@@ -5310,6 +5371,28 @@
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 40%', src: danbooru}
   patterns: []
 
+- id: miyafuji-yoshika
+  name: 宮藤芳佳
+  kana: みやふじよしか
+  work: ストライクウィッチーズ
+  year: 2007
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b7626-mGY941IixGzS.png'
+    page: 'https://anilist.co/character/7626'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 66%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 64%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 78%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 39%', src: danbooru}
+    - {id: shippo, weight: sub, note: 'danbooru tail 53%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 69%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: miyamizu-mitsuha
   name: 宮水三葉
   kana: みやみずみつは
@@ -5398,6 +5481,27 @@
     - {id: nimensei, weight: sub, note: '資料: 大学生としての一ノ瀬ちづると、レンタル彼女としての水原千鶴という二つの身分・名義を使い分けている。', src: gemini}
     - {id: sakotsu, weight: sub, note: 'danbooru collarbone 35%', src: danbooru}
     - {id: shoutai, weight: sub, note: '資料: 本名は一ノ瀬ちづるであり、「レンタル彼女」としての活動時には水原千鶴という別の名前を使用している。', src: gemini}
+  patterns: []
+
+- id: mizunashi-akari
+  name: 水無灯里
+  kana: みずなしあかり
+  work: ARIA
+  year: 2001
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b378-pjsuS5BGmjQw.png'
+    page: 'https://anilist.co/character/378'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: bob-cut, weight: core, note: 'danbooru short_hair_with_long_locks 80%', src: danbooru}
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 76%', src: danbooru}
+    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 55%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru sailor_collar 54%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 39%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: mizuno-ami
@@ -5937,6 +6041,26 @@
     - {id: reijou, weight: sub, note: '資料: 実家の病院を継ぐことが決まっていたという記述がある。', src: gemini}
   patterns: []
 
+- id: nishimiya-shouko
+  name: 西宮硝子
+  kana: にしみやしょうこ
+  work: 聲の形
+  year: 2013
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b80243-RzxE51iUU5eq.png'
+    page: 'https://anilist.co/character/80243'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 79%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 74%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 64%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 76%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: nishizumi-miho
   name: 西住みほ
   kana: にしずみみほ
@@ -6322,6 +6446,27 @@
     - {id: koushinchou, weight: sub, note: '資料: 身長170cmと記述されている。', src: gemini}
     - {id: nouryokusha, weight: sub, note: '資料: 自身の体内の血液を自由に操作する能力を持つと明記されているため。', src: gemini}
     - {id: zubora, weight: sub, note: '資料: 滅多に入浴せず、トイレの水を流さないことを自認しているという記述より。', src: gemini}
+  patterns: []
+
+- id: princess-peach
+  name: ピーチ姫
+  kana: ぴーちひめ
+  work: スーパーマリオ
+  year: 1985
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b9146-h5yQYjS8JiZM.jpg'
+    page: 'https://anilist.co/character/9146'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: piasu, weight: core, note: 'danbooru earrings 80%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 90%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 48%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 78%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 76%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: raiden-shogun
@@ -7304,6 +7449,23 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 91%（共有 36% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: setsuna-f-seiei
+  name: 刹那・F・セイエイ
+  kana: せつなえふせいえい
+  work: 機動戦士ガンダム00
+  year: 2007
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b4234-ZQV17xkGrNrk.png'
+    page: 'https://anilist.co/character/4234'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 61%（共有 24% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: shalltear-bloodfallen
   name: シャルティア・ブラッドフォールン
   kana: しゃるてぃあぶらっどふぉーるん
@@ -7476,6 +7638,25 @@
     - {id: tebukuro, weight: core, note: 'danbooru gloves 83%', src: danbooru}
     - {id: gouman, weight: sub, note: '資料: プロフィールにて「非常に足が速く高慢な艦娘」と記述されている。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru sailor_collar 52%', src: danbooru}
+  patterns: []
+
+- id: shinohara-natsuki
+  name: 篠原夏希
+  kana: しのはらなつき
+  work: サマーウォーズ
+  year: 2009
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b22809-QgxOpNswhCup.png'
+    page: 'https://anilist.co/character/22809'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: kemomimi, weight: sub, note: 'danbooru animal_ears 42%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 46%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 50%（共有 24% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shinomiya-kaguya
@@ -8587,6 +8768,26 @@
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 35%', src: danbooru}
   patterns: []
 
+- id: tsukamoto-tenma
+  name: 塚本天満
+  kana: つかもとてんま
+  work: スクールランブル
+  year: 2002
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b198-mHeusgNMtdrC.png'
+    page: 'https://anilist.co/character/198'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: twintail, weight: core, note: 'danbooru two_side_up 77%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 61%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 70%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 52%（共有 24% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: tsukimiya-ayu
   name: 月宮あゆ
   kana: つきみやあゆ
@@ -9210,6 +9411,27 @@
     - {id: joushi, weight: sub, note: '資料: 血盟騎士団の副リーダーという指導的な立場にある。', src: gemini}
     - {id: kishi, weight: sub, note: '資料: アインクラッド最強のギルド「血盟騎士団」の副リーダーを務めている。', src: gemini}
     - {id: mitsuami, weight: sub, note: 'danbooru braid 35%', src: danbooru}
+  patterns: []
+
+- id: yuzuriha-inori
+  name: 楪いのり
+  kana: ゆずりはいのり
+  work: ギルティクラウン
+  year: 2011
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b43280-dxRTpIioqSg7.png'
+    page: 'https://anilist.co/character/43280'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-02'
+  elements:
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 97%', src: danbooru}
+    - {id: twintail, weight: core, note: 'danbooru twintails 76%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 77%（共有 14% のため比重を下げた）', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 53%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: zelda
