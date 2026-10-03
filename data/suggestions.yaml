@@ -522,10 +522,6 @@
   name: アシリパ
   date: '2026-09-30'
   unmapped_danbooru:
-  - tag: ainu_clothes
-    frequency: 0.7163
-  - tag: ainu
-    frequency: 0.6228
   - tag: bandana
     frequency: 0.4464
   near_miss:
@@ -854,15 +850,7 @@
 - id: chun-li
   name: 春麗
   date: '2026-10-02'
-  unmapped_danbooru:
-  - tag: spikes
-    frequency: 0.4576
-  - tag: spiked_bracelet
-    frequency: 0.4483
-  - tag: thighs
-    frequency: 0.3954
-  - tag: pelvic_curtain
-    frequency: 0.3675
+  unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
@@ -1061,9 +1049,7 @@
 - id: emma-neverland
   name: エマ
   date: '2026-08-31'
-  unmapped_danbooru:
-  - tag: number_tattoo
-    frequency: 0.6204
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -1255,11 +1241,7 @@
 - id: fujioka-haruhi
   name: 藤岡ハルヒ
   date: '2026-10-01'
-  unmapped_danbooru:
-  - tag: ouran_high_school_uniform
-    frequency: 0.4516
-  - tag: reverse_trap
-    frequency: 0.371
+  unmapped_danbooru: []
   near_miss: []
   new_tag_proposals: []
 - id: fujiwara-chika
@@ -1284,11 +1266,7 @@
 - id: fujiwara-takumi
   name: 藤原拓海
   date: '2026-10-01'
-  unmapped_danbooru:
-  - tag: toyota
-    frequency: 0.4444
-  - tag: jeans
-    frequency: 0.3704
+  unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
@@ -1485,9 +1463,7 @@
 - id: gojou-wakana
   name: 五条新菜
   date: '2026-09-30'
-  unmapped_danbooru:
-  - tag: pink_nails
-    frequency: 0.3514
+  unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
@@ -1760,13 +1736,7 @@
 - id: hayasaka-ai
   name: 早坂愛
   date: '2026-08-31'
-  unmapped_danbooru:
-  - tag: scrunchie
-    frequency: 0.6674
-  - tag: hair_scrunchie
-    frequency: 0.6282
-  - tag: blue_scrunchie
-    frequency: 0.6038
+  unmapped_danbooru: []
   near_miss:
   - id: sakotsu
     tag: collarbone
@@ -1856,9 +1826,7 @@
 - id: hino-rei
   name: 火野レイ
   date: '2026-09-29'
-  unmapped_danbooru:
-  - tag: red_sailor_collar
-    frequency: 0.5357
+  unmapped_danbooru: []
   near_miss:
   - id: murasaki-gami
     tag: purple_hair
@@ -2080,11 +2048,7 @@
 - id: ichihara-yuuko
   name: 壱原侑子
   date: '2026-10-01'
-  unmapped_danbooru:
-  - tag: smoke
-    frequency: 0.443
-  - tag: smoking_pipe
-    frequency: 0.3544
+  unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
@@ -2933,8 +2897,6 @@
   name: 霧切響子
   date: '2026-08-31'
   unmapped_danbooru:
-  - tag: side_braid
-    frequency: 0.4062
   - tag: open_jacket
     frequency: 0.3543
   near_miss:
@@ -4031,8 +3993,6 @@
   unmapped_danbooru:
   - tag: boxing_gloves
     frequency: 0.7222
-  - tag: topless_male
-    frequency: 0.6111
   - tag: boxing
     frequency: 0.4444
   - tag: boxing_shorts
@@ -5454,8 +5414,6 @@
   name: ピーチ姫
   date: '2026-10-02'
   unmapped_danbooru:
-  - tag: crown
-    frequency: 0.6077
   - tag: sphere_earrings
     frequency: 0.5189
   near_miss:
@@ -5574,8 +5532,6 @@
     frequency: 0.5672
   - tag: fake_horns
     frequency: 0.4412
-  - tag: topless_male
-    frequency: 0.4328
   - tag: horned_helmet
     frequency: 0.4202
   - tag: red_cape
@@ -6575,9 +6531,7 @@
 - id: shiro-ngnl
   name: 白
   date: '2026-10-02'
-  unmapped_danbooru:
-  - tag: crown
-    frequency: 0.4077
+  unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
     tag: yellow_eyes
@@ -7166,9 +7120,7 @@
 - id: takami-chika
   name: 高海千歌
   date: '2026-10-02'
-  unmapped_danbooru:
-  - tag: side_braid
-    frequency: 0.4215
+  unmapped_danbooru: []
   near_miss:
   - id: sakotsu
     tag: collarbone

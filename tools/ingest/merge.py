@@ -110,6 +110,11 @@ GENERIC_TAGS = {
     "card", "rose", "denim", "bracelet", "polka_dot", "polka_dot_bow",
     "black_ribbon", "pink_dress", "yellow_scarf", "star_hair_ornament",
     "hoop_earrings", "nipples",
+    # 14 巡目。髪留めの種類（scrunchie）、効果と背景（smoke）、車種（toyota）、
+    # 肌や脚そのもの（thighs）、脱いでいる状態（topless_male）は特徴ではない。
+    "scrunchie", "hair_scrunchie", "blue_scrunchie", "smoke", "toyota",
+    "jeans", "pink_nails", "thighs", "pelvic_curtain", "spikes",
+    "spiked_bracelet", "topless_male",
     # 作品固有の制服・装備
     "azumanga_daioh's_school_uniform", "kita_high_school_uniform",
     "icho_private_high_school_uniform", "kurumi-gaoka_high_school_uniform",

@@ -91,11 +91,11 @@ elements:
   gishi:
     tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb, automail, robot_arm]
   kokuin:
-    tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo, facial_mark, whisker_markings, facepaint, facial_tattoo, teardrop_facial_mark, forehead_mark, neck_tattoo]
+    tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo, facial_mark, whisker_markings, facepaint, facial_tattoo, teardrop_facial_mark, forehead_mark, neck_tattoo, number_tattoo]
 
   # --- 服装 ---
   seifuku:
-    tags: [school_uniform, serafuku, gakuran, blazer, sailor_collar, hikarizaka_private_high_school_uniform, kitauji_high_school_uniform, tomoeda_elementary_school_uniform]
+    tags: [school_uniform, serafuku, gakuran, blazer, sailor_collar, hikarizaka_private_high_school_uniform, kitauji_high_school_uniform, tomoeda_elementary_school_uniform, ouran_high_school_uniform, red_sailor_collar]
     threshold: 0.3
     note: 着ているかいないかしかない語なので、既定より低くてよい（41件が 0.30〜0.35 で落ちていた）
   hakui:
@@ -171,7 +171,7 @@ elements:
 
   # --- 髪型（追加） ---
   mitsuami:
-    tags: [braid, single_braid, twin_braids, french_braid, braided_ponytail, crown_braid, multiple_braids, half_up_braid]
+    tags: [braid, single_braid, twin_braids, french_braid, braided_ponytail, crown_braid, multiple_braids, half_up_braid, side_braid]
   odango:
     tags: [hair_bun, double_bun, single_hair_bun, bun_cover]
 
@@ -300,7 +300,7 @@ elements:
     threshold: 0.5
     note: earrings は該当率が高いので閾値を上げている
   tabako:
-    tags: [cigarette, smoking, holding_cigarette]
+    tags: [cigarette, smoking, holding_cigarette, smoking_pipe, kiseru]
   keshou:
     tags: [lipstick, makeup, red_lips]
   gyaru:
@@ -329,3 +329,9 @@ elements:
     tags: [sweater, turtleneck, turtleneck_sweater, ribbed_sweater, sweater_dress]
   randoseru:
     tags: [randoseru]
+
+  # --- 14 巡目に昇格した語 ---
+  oukan:
+    tags: [crown, tiara, mini_crown]
+  minzoku-ishou:
+    tags: [ainu_clothes, ainu, hanbok, dirndl, sari]

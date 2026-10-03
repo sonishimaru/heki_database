@@ -3022,7 +3022,9 @@ characters:
     kana: しずえ
     work: どうぶつの森
     year: 2012
-    danbooru: shizue_(animal_crossing)
+    # Danbooru は括弧の中を日本語のローマ字で書く（ハウルも howl_no_ugoku_shiro）。
+    # 英題で書いた shizue_(animal_crossing) は 404 だった
+    danbooru: shizue_(doubutsu_no_mori)
     anilist: Isabelle
   - id: princess-peach
     name: ピーチ姫
@@ -3113,7 +3115,8 @@ characters:
     kana: ちと
     work: 少女終末旅行
     year: 2014
-    danbooru: chito_(shoujo_shuumatsu_ryokou)
+    # chito_(shoujo_shuumatsu_ryokou) は 404。括弧なしを試す
+    danbooru: chito
     anilist: Chito
   - id: laios-touden
     name: ライオス

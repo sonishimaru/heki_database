@@ -1198,3 +1198,27 @@
   pairs_with: [kodomo, teishinchou]
   contrasts_with: [seifuku, gunpuku]
   tags: [定番]
+
+# --- 14 巡目。Danbooru レーンの未対応タグから2語 ---
+
+- id: oukan
+  name: 王冠
+  kana: おうかん
+  aliases: [ティアラ]
+  axis: appearance.item
+  summary: 頭に載せる位。身分を身につけている。
+  effect: 外せない重さとして扱い、外した場面を事件にする。
+  pairs_with: [furiru, gouman]
+  contrasts_with: [heyagi]
+  tags: [定番]
+
+- id: minzoku-ishou
+  name: 民族衣装
+  kana: みんぞくいしょう
+  aliases: [民族服]
+  axis: appearance.costume
+  summary: その土地の装い。和装・中華服に当てはまらないもの。
+  effect: 出自をひと目で示し、周囲から浮く理由にする。
+  pairs_with: [kokuin, buki]
+  contrasts_with: [seifuku, gunpuku]
+  tags: [応用]
