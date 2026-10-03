@@ -350,17 +350,14 @@
   new_tag_proposals: []
 - id: anya-forger
   name: アーニャ・フォージャー
-  date: '2026-08-31'
+  date: '2026-10-03'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.2051
+    frequency: 0.2036
     threshold: 0.35
-  new_tag_proposals:
-  - name: 被験者
-    axis: 物語役割 / 秘密
-    reason: 実験室で能力を得て脱走した背景を表す語彙が既存枠に存在しないため。
+  new_tag_proposals: []
 - id: anzu-hinazuki
   name: 雛月加代
   date: '2026-08-31'
@@ -1216,12 +1213,12 @@
   new_tag_proposals: []
 - id: frieren
   name: フリーレン
-  date: '2026-08-31'
+  date: '2026-10-03'
   unmapped_danbooru: []
   near_miss:
   - id: futomayu
     tag: thick_eyebrows
-    frequency: 0.2056
+    frequency: 0.2034
     threshold: 0.35
   new_tag_proposals: []
 - id: frieza
@@ -1454,20 +1451,20 @@
     reason: 「Gang Star」を目指してギャング組織に加入し、その頂点に立つという独自の理念・立場を持つため。
 - id: gojo-satoru
   name: 五条悟
-  date: '2026-08-31'
+  date: '2026-10-03'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.257
+    frequency: 0.2508
     threshold: 0.5
   - id: megane
     tag: sunglasses
-    frequency: 0.1867
+    frequency: 0.1818
     threshold: 0.35
   - id: mekakushi
     tag: blindfold
-    frequency: 0.1784
+    frequency: 0.1782
     threshold: 0.35
   new_tag_proposals: []
 - id: gojou-wakana
@@ -2656,20 +2653,14 @@
     reason: アリア商会という商業組織の頭領（chief）を務めているため。
 - id: kamado-nezuko
   name: 竈門禰豆子
-  date: '2026-08-31'
+  date: '2026-10-03'
   unmapped_danbooru: []
   near_miss:
   - id: akagami
     tag: orange_hair
-    frequency: 0.1545
+    frequency: 0.1565
     threshold: 0.35
-  new_tag_proposals:
-  - name: 身体伸縮
-    axis: 能力
-    reason: 自身の大きさを自在に変えることができる記述があるため。
-  - name: 睡眠代替
-    axis: 体質
-    reason: 人間を捕食する代わりに長時間の睡眠でエネルギーを回復する性質を持つため。
+  new_tag_proposals: []
 - id: kamado-tanjirou
   name: 竈門炭治郎
   date: '2026-08-31'
@@ -4100,16 +4091,16 @@
   new_tag_proposals: []
 - id: makima
   name: マキマ
-  date: '2026-08-31'
+  date: '2026-10-03'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.2054
+    frequency: 0.2072
     threshold: 0.5
   - id: semi-long
     tag: medium_hair
-    frequency: 0.1878
+    frequency: 0.1862
     threshold: 0.35
   new_tag_proposals: []
 - id: makise-kurisu
@@ -4449,12 +4440,12 @@
     reason: 資料に「泥棒としての技術はルパンに匹敵する」と明記されているが、語彙内に該当する分類がないため。
 - id: misaka-mikoto
   name: 御坂美琴
-  date: '2026-08-31'
+  date: '2026-10-03'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.2637
+    frequency: 0.266
     threshold: 0.5
   new_tag_proposals: []
 - id: miyafuji-yoshika
@@ -5860,12 +5851,12 @@
   new_tag_proposals: []
 - id: rem
   name: レム
-  date: '2026-08-31'
+  date: '2026-10-03'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.2802
+    frequency: 0.2798
     threshold: 0.5
   new_tag_proposals: []
 - id: remilia-scarlet
@@ -5896,24 +5887,24 @@
   new_tag_proposals: []
 - id: rengoku-kyojuro
   name: 煉獄杏寿郎
-  date: '2026-08-31'
+  date: '2026-10-03'
   unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
     tag: yellow_eyes
-    frequency: 0.3232
+    frequency: 0.3206
     threshold: 0.35
   - id: akame
     tag: red_eyes
-    frequency: 0.298
-    threshold: 0.35
-  - id: futomayu
-    tag: thick_eyebrows
-    frequency: 0.2503
+    frequency: 0.297
     threshold: 0.35
   - id: wasou
     tag: japanese_clothes
-    frequency: 0.249
+    frequency: 0.2497
+    threshold: 0.35
+  - id: futomayu
+    tag: thick_eyebrows
+    frequency: 0.2497
     threshold: 0.35
   new_tag_proposals: []
 - id: revy
@@ -7694,32 +7685,28 @@
   new_tag_proposals: []
 - id: tohru
   name: トール
-  date: '2026-08-31'
+  date: '2026-10-03'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.374
+    frequency: 0.3746
     threshold: 0.5
-  - id: messhu
-    tag: multicolored_hair
-    frequency: 0.349
-    threshold: 0.35
   - id: akame
     tag: red_eyes
-    frequency: 0.3119
+    frequency: 0.3206
     threshold: 0.35
   - id: akagami
     tag: orange_hair
-    frequency: 0.2923
+    frequency: 0.2847
     threshold: 0.35
   - id: furiru
     tag: frills
-    frequency: 0.277
+    frequency: 0.2709
     threshold: 0.35
   - id: yaeba
     tag: fang
-    frequency: 0.2628
+    frequency: 0.2667
     threshold: 0.35
   new_tag_proposals: []
 - id: tohsaka-rin
@@ -8343,21 +8330,29 @@
   new_tag_proposals: []
 - id: yor-forger
   name: ヨル・フォージャー
-  date: '2026-08-31'
+  date: '2026-10-03'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
     tag: gloves
-    frequency: 0.3264
+    frequency: 0.3251
+    threshold: 0.35
+  - id: knit
+    tag: sweater
+    frequency: 0.1892
     threshold: 0.35
   - id: bob-cut
     tag: short_hair_with_long_locks
-    frequency: 0.1852
+    frequency: 0.1849
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1639
+    frequency: 0.1648
     threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1501
+    threshold: 0.5
   new_tag_proposals: []
 - id: yorha-2b
   name: 2B
@@ -8564,28 +8559,28 @@
     reason: 生まれつき呪力を持たない代償として圧倒的な身体能力を得る特殊な体質。
 - id: zero-two
   name: ゼロツー
-  date: '2026-08-31'
+  date: '2026-10-03'
   unmapped_danbooru: []
   near_miss:
   - id: keshou
     tag: makeup
-    frequency: 0.2844
+    frequency: 0.284
     threshold: 0.35
   - id: aome
     tag: aqua_eyes
-    frequency: 0.2402
+    frequency: 0.2388
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1721
+    frequency: 0.1715
     threshold: 0.35
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.1544
+    frequency: 0.1543
     threshold: 0.5
   - id: gunpuku
     tag: military_uniform
-    frequency: 0.154
+    frequency: 0.1539
     threshold: 0.35
   new_tag_proposals: []
 - id: zhongli
