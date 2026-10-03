@@ -166,6 +166,16 @@
   - name: 左利き
     axis: 身体性
     reason: 左利きのミュージシャンであり、左利き用のベースを使用していると明記されているため。
+- id: aladdin
+  name: アラジン
+  date: '2026-10-03'
+  unmapped_danbooru:
+  - tag: flute
+    frequency: 0.4487
+  - tag: turban
+    frequency: 0.4231
+  near_miss: []
+  new_tag_proposals: []
 - id: albedo-overlord
   name: アルベド
   date: '2026-08-30'
@@ -1691,6 +1701,24 @@
     frequency: 0.1748
     threshold: 0.35
   new_tag_proposals: []
+- id: hatori-chise
+  name: 羽鳥チセ
+  date: '2026-10-03'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2692
+    threshold: 0.5
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.2115
+    threshold: 0.35
+  - id: knit
+    tag: sweater
+    frequency: 0.1731
+    threshold: 0.35
+  new_tag_proposals: []
 - id: hatsune-miku
   name: 初音ミク
   date: '2026-08-31'
@@ -1906,6 +1934,16 @@
   - id: aome
     tag: blue_eyes
     frequency: 0.1633
+    threshold: 0.35
+  new_tag_proposals: []
+- id: hori-kyouko
+  name: 堀京子
+  date: '2026-10-03'
+  unmapped_danbooru: []
+  near_miss:
+  - id: knit
+    tag: sweater
+    frequency: 0.1728
     threshold: 0.35
   new_tag_proposals: []
 - id: hoshino-aquamarine
@@ -2259,6 +2297,18 @@
   - name: 器（宿体）
     axis: 関係性 / 立場
     reason: 肩書きに「器（Vessel）」と記されており、他者の存在や力をその身に宿す特有の立場・役割を示しているため。
+- id: itou-kaiji
+  name: 伊藤開司
+  date: '2026-10-03'
+  unmapped_danbooru:
+  - tag: brown_jacket
+    frequency: 0.3591
+  near_miss:
+  - id: tabako
+    tag: cigarette
+    frequency: 0.1889
+    threshold: 0.35
+  new_tag_proposals: []
 - id: iwakura-lain
   name: 岩倉玲音
   date: '2026-09-29'
@@ -3608,6 +3658,28 @@
     frequency: 0.1585
     threshold: 0.5
   new_tag_proposals: []
+- id: laios-touden
+  name: ライオス
+  date: '2026-10-03'
+  unmapped_danbooru:
+  - tag: bara
+    frequency: 0.443
+  - tag: pectorals
+    frequency: 0.3647
+  near_miss:
+  - id: kinniku
+    tag: muscular
+    frequency: 0.3356
+    threshold: 0.35
+  - id: kishi
+    tag: armor
+    frequency: 0.255
+    threshold: 0.4
+  - id: buki
+    tag: weapon
+    frequency: 0.1566
+    threshold: 0.35
+  new_tag_proposals: []
 - id: lelouch-lamperouge
   name: ルルーシュ・ランペルージ
   date: '2026-08-31'
@@ -4041,6 +4113,20 @@
     frequency: 0.1528
     threshold: 0.5
   new_tag_proposals: []
+- id: marcille-donato
+  name: マルシル
+  date: '2026-10-03'
+  unmapped_danbooru: []
+  near_miss:
+  - id: roobu
+    tag: robe
+    frequency: 0.2489
+    threshold: 0.35
+  - id: gaitou
+    tag: hood
+    frequency: 0.2015
+    threshold: 0.35
+  new_tag_proposals: []
 - id: matoi-ryuuko
   name: 纏流子
   date: '2026-08-31'
@@ -4331,6 +4417,20 @@
     frequency: 0.1537
     threshold: 0.35
   new_tag_proposals: []
+- id: miyanaga-saki
+  name: 宮永咲
+  date: '2026-10-03'
+  unmapped_danbooru:
+  - tag: kiyosumi_school_uniform
+    frequency: 0.7024
+  - tag: red_neckerchief
+    frequency: 0.5024
+  near_miss:
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2683
+    threshold: 0.35
+  new_tag_proposals: []
 - id: miyauchi-renge
   name: 宮内れんげ
   date: '2026-10-01'
@@ -4412,6 +4512,16 @@
     tag: collarbone
     frequency: 0.1639
     threshold: 0.35
+  new_tag_proposals: []
+- id: mizutani-shizuku
+  name: 水谷雫
+  date: '2026-10-03'
+  unmapped_danbooru:
+  - tag: book
+    frequency: 0.3846
+  - tag: blue_necktie
+    frequency: 0.3846
+  near_miss: []
   new_tag_proposals: []
 - id: monkey-d-luffy
   name: モンキー・D・ルフィ
@@ -5254,6 +5364,26 @@
   - id: kurome
     tag: black_eyes
     frequency: 0.25
+    threshold: 0.35
+  new_tag_proposals: []
+- id: orihara-izaya
+  name: 折原臨也
+  date: '2026-10-03'
+  unmapped_danbooru:
+  - tag: fur_trim
+    frequency: 0.5425
+  near_miss:
+  - id: gaitou
+    tag: hood
+    frequency: 0.2594
+    threshold: 0.35
+  - id: yubiwa
+    tag: ring
+    frequency: 0.1887
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1509
     threshold: 0.35
   new_tag_proposals: []
 - id: oscar-de-jarjayes
@@ -6659,6 +6789,32 @@
   date: '2026-08-31'
   unmapped_danbooru: []
   near_miss: []
+  new_tag_proposals: []
+- id: shizue
+  name: しずえ
+  date: '2026-10-03'
+  unmapped_danbooru:
+  - tag: furry
+    frequency: 0.8906
+  - tag: furry_female
+    frequency: 0.8875
+  - tag: dog_girl
+    frequency: 0.8415
+  - tag: body_fur
+    frequency: 0.355
+  near_miss:
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.1838
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1632
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.1537
+    threshold: 0.5
   new_tag_proposals: []
 - id: shizuku-tsukishima
   name: 月島雫

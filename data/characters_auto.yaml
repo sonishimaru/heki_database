@@ -188,6 +188,27 @@
     - {id: tsukkomi, weight: sub, note: '資料: 資料に直接の記述はないが、作品上でメンバーの暴走に追及・軌道修正を行う常識人ポジションであることがほぼ確実であるため。', src: gemini}
   patterns: []
 
+- id: aladdin
+  name: アラジン
+  kana: あらじん
+  work: マギ
+  year: 2009
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b41949-LaoaHJ2tJxBw.png'
+    page: 'https://anilist.co/character/41949'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-03'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 82%', src: danbooru}
+    - {id: mitsuami, weight: core, note: 'danbooru braid 83%', src: danbooru}
+    - {id: gakki, weight: sub, note: 'danbooru instrument 46%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 69%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 79%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: albedo-overlord
   name: アルベド
   kana: あるべど
@@ -2117,6 +2138,25 @@
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 47%', src: danbooru}
   patterns: []
 
+- id: hatori-chise
+  name: 羽鳥チセ
+  kana: はとりちせ
+  work: 魔法使いの嫁
+  year: 2013
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b88344-zn7wbe8rKgqT.png'
+    page: 'https://anilist.co/character/88344'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-03'
+  elements:
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 71%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 73%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 52%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: hatsune-miku
   name: 初音ミク
   kana: はつねみく
@@ -2525,6 +2565,27 @@
     - {id: saikai, weight: sub, note: '資料: 死から数年後、願いを叶えるために仁太の前に幽霊として再び現れた。', src: gemini}
     - {id: shirogami, weight: sub, note: 'danbooru grey_hair 57%', src: danbooru}
     - {id: teishinchou, weight: sub, note: '資料: 身長が147cmと明記されている。', src: gemini}
+  patterns: []
+
+- id: hori-kyouko
+  name: 堀京子
+  kana: ほりきょうこ
+  work: ホリミヤ
+  year: 2011
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b66171-o2vk3689wWFK.png'
+    page: 'https://anilist.co/character/66171'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-03'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 37%', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru orange_eyes 44%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 31%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 93%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 77%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hoshino-ai
@@ -2990,6 +3051,26 @@
     - {id: gaitou, weight: sub, note: 'danbooru hood 39%', src: danbooru}
     - {id: kokuin, weight: sub, note: 'danbooru facial_mark 37%', src: danbooru}
     - {id: nouryokusha, weight: sub, note: '資料: 職業・肩書きに「呪術師（Sorcerer）」と明記されている。', src: gemini}
+  patterns: []
+
+- id: itou-kaiji
+  name: 伊藤開司
+  kana: いとうかいじ
+  work: 賭博黙示録カイジ
+  year: 1996
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b5578-FqFWIjqfMbBj.png'
+    page: 'https://anilist.co/character/5578'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-03'
+  elements:
+    - {id: kizuato, weight: sub, note: 'danbooru scar 47%', src: danbooru}
+    - {id: kurome, weight: sub, note: 'danbooru black_eyes 43%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 72%（共有 24% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: iwakura-lain
@@ -4754,6 +4835,25 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: laios-touden
+  name: ライオス
+  kana: らいおす
+  work: ダンジョン飯
+  year: 2014
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b126818-vWeIwxSERSHd.png'
+    page: 'https://anilist.co/character/126818'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-03'
+  elements:
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 37%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 78%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 81%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: lelouch-lamperouge
   name: ルルーシュ・ランペルージ
   kana: るるーしゅらんぺるーじ
@@ -5156,6 +5256,28 @@
     - {id: sobakasu, weight: sub, note: 'danbooru freckles 38%', src: danbooru}
   patterns: []
 
+- id: marcille-donato
+  name: マルシル
+  kana: まるしる
+  work: ダンジョン飯
+  year: 2014
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b127292-MAWgxbS0Cbrs.png'
+    page: 'https://anilist.co/character/127292'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-03'
+  elements:
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 91%', src: danbooru}
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 71%', src: danbooru}
+    - {id: choker, weight: sub, note: 'danbooru choker 40%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 90%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: mitsuami, weight: sub, note: 'danbooru braid 58%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 81%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: matoi-ryuuko
   name: 纏流子
   kana: まといりゅうこ
@@ -5526,6 +5648,26 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 49%', src: danbooru}
   patterns: []
 
+- id: miyanaga-saki
+  name: 宮永咲
+  kana: みやながさき
+  work: '咲-Saki-'
+  year: 2006
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/17274.jpg'
+    page: 'https://anilist.co/character/17274'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-03'
+  elements:
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 46%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 80%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 81%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 83%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: miyauchi-renge
   name: 宮内れんげ
   kana: みやうちれんげ
@@ -5637,6 +5779,27 @@
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 56%', src: danbooru}
     - {id: aome, weight: spice, note: 'danbooru blue_eyes 83%（共有 22% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 88%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: mizutani-shizuku
+  name: 水谷雫
+  kana: みずたにしずく
+  work: となりの怪物くん
+  year: 2008
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b37685-RTNZm8Tb7Sti.jpg'
+    page: 'https://anilist.co/character/37685'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-03'
+  elements:
+    - {id: twintail, weight: core, note: 'danbooru twintails 92%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 62%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 77%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 92%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 69%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: monkey-d-luffy
@@ -6364,6 +6527,27 @@
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 62%（共有 24% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: onizuka-eikichi
+  name: 鬼塚英吉
+  kana: おにづかえいきち
+  work: GTO
+  year: 1997
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b434-Q0K9e4HukawA.png'
+    page: 'https://anilist.co/character/434'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-03'
+  elements:
+    - {id: piasu, weight: core, note: 'danbooru earrings 69%', src: danbooru}
+    - {id: tabako, weight: core, note: 'danbooru cigarette 62%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 77%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: megane, weight: sub, note: 'danbooru sunglasses 38%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 62%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: onoda-sakamichi
   name: 小野田坂道
   kana: おのださかみち
@@ -6419,6 +6603,25 @@
     date: '2026-10-02'
   elements:
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 50%', src: danbooru}
+  patterns: []
+
+- id: orihara-izaya
+  name: 折原臨也
+  kana: おりはらいざや
+  work: 'デュラララ!!'
+  year: 2004
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b24596-IKSguezbPH9D.png'
+    page: 'https://anilist.co/character/24596'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-03'
+  elements:
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 62%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 73%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 49%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: oscar-de-jarjayes
@@ -8033,6 +8236,27 @@
     - {id: kurokami, weight: sub, note: 'danbooru black_hair 36%', src: danbooru}
     - {id: shitei, weight: sub, note: '資料: 右腕である瀬田宗次郎にとっての「思想的弟子」の関係にある。', src: gemini}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 50%', src: danbooru}
+  patterns: []
+
+- id: shizue
+  name: しずえ
+  kana: しずえ
+  work: どうぶつの森
+  year: 2012
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b344110-QaveYo99tdH0.png'
+    page: 'https://anilist.co/character/344110'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-03'
+  elements:
+    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 71%', src: danbooru}
+    - {id: shippo, weight: core, note: 'danbooru tail 67%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 64%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru topknot 58%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 37%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shizuku-tsukishima
