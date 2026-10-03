@@ -3110,14 +3110,9 @@ characters:
     year: 2015
     danbooru: takami_chika
     anilist: Chika Takami
-  - id: chito
-    name: チト
-    kana: ちと
-    work: 少女終末旅行
-    year: 2014
-    # chito_(shoujo_shuumatsu_ryokou) は 404。括弧なしを試す
-    danbooru: chito
-    anilist: Chito
+  # チトは外した。chito_(shoujo_shuumatsu_ryokou) も chito も 404。
+  # しずえのほうは日本語ローマ字に直して通ったので、括弧の読みは合っていたが
+  # この綴りは当たらなかった。少女終末旅行は代表者なしのままにする。
   - id: laios-touden
     name: ライオス
     kana: らいおす
