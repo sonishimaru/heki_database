@@ -169,11 +169,7 @@
 - id: aladdin
   name: アラジン
   date: '2026-10-03'
-  unmapped_danbooru:
-  - tag: flute
-    frequency: 0.4487
-  - tag: turban
-    frequency: 0.4231
+  unmapped_danbooru: []
   near_miss: []
   new_tag_proposals: []
 - id: albedo-overlord
@@ -2315,9 +2311,7 @@
 - id: itou-kaiji
   name: 伊藤開司
   date: '2026-10-03'
-  unmapped_danbooru:
-  - tag: brown_jacket
-    frequency: 0.3591
+  unmapped_danbooru: []
   near_miss:
   - id: tabako
     tag: cigarette
@@ -2330,8 +2324,6 @@
   unmapped_danbooru:
   - tag: asymmetrical_hair
     frequency: 0.5517
-  - tag: single_sidelock
-    frequency: 0.3678
   near_miss:
   - id: muhyoujou
     tag: expressionless
@@ -2341,9 +2333,7 @@
 - id: iwakura-mitsumi
   name: 岩倉美津未
   date: '2026-10-02'
-  unmapped_danbooru:
-  - tag: tsubame_nishi_high_school_uniform
-    frequency: 0.3846
+  unmapped_danbooru: []
   near_miss:
   - id: itome
     tag: closed_eyes
@@ -2369,13 +2359,7 @@
 - id: iwatani-naofumi
   name: 岩谷尚文
   date: '2026-08-31'
-  unmapped_danbooru:
-  - tag: fur_trim
-    frequency: 0.5522
-  - tag: legendary_shield_(tate_no_yuusha_no_nariagari)
-    frequency: 0.4104
-  - tag: green_cloak
-    frequency: 0.3955
+  unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
     tag: long_hair
@@ -2409,11 +2393,7 @@
 - id: izumi-konata
   name: 泉こなた
   date: '2026-09-30'
-  unmapped_danbooru:
-  - tag: ryouou_school_uniform
-    frequency: 0.4259
-  - tag: :3
-    frequency: 0.3984
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -2591,9 +2571,7 @@
 - id: kagurazaka-asuna
   name: 神楽坂明日菜
   date: '2026-10-02'
-  unmapped_danbooru:
-  - tag: hair_bell
-    frequency: 0.4478
+  unmapped_danbooru: []
   near_miss:
   - id: seifuku
     tag: school_uniform
@@ -2625,11 +2603,7 @@
 - id: kaine
   name: カイネ
   date: '2026-08-31'
-  unmapped_danbooru:
-  - tag: negligee
-    frequency: 0.56
-  - tag: lingerie
-    frequency: 0.4752
+  unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
@@ -2827,9 +2801,7 @@
 - id: kenshirou
   name: ケンシロウ
   date: '2026-09-30'
-  unmapped_danbooru:
-  - tag: manly
-    frequency: 0.3614
+  unmapped_danbooru: []
   near_miss:
   - id: kurokami
     tag: black_hair
@@ -3015,9 +2987,7 @@
 - id: kirigiri-kyouko
   name: 霧切響子
   date: '2026-08-31'
-  unmapped_danbooru:
-  - tag: open_jacket
-    frequency: 0.3543
+  unmapped_danbooru: []
   near_miss:
   - id: momoiro-no-me
     tag: pink_eyes
@@ -3218,14 +3188,8 @@
   name: 小早川瀬那
   date: '2026-10-02'
   unmapped_danbooru:
-  - tag: american_football_uniform
-    frequency: 0.8
   - tag: helmet
     frequency: 0.6
-  - tag: american_football_helmet
-    frequency: 0.56
-  - tag: ball
-    frequency: 0.36
   near_miss:
   - id: tanpatsu
     tag: short_hair
@@ -4452,8 +4416,6 @@
   name: 宮藤芳佳
   date: '2026-10-02'
   unmapped_danbooru:
-  - tag: dog_girl
-    frequency: 0.6189
   - tag: school_swimsuit
     frequency: 0.4348
   - tag: swimsuit_under_clothes
@@ -5504,9 +5466,7 @@
 - id: orihara-izaya
   name: 折原臨也
   date: '2026-10-03'
-  unmapped_danbooru:
-  - tag: fur_trim
-    frequency: 0.5425
+  unmapped_danbooru: []
   near_miss:
   - id: gaitou
     tag: hood
@@ -6985,8 +6945,6 @@
     frequency: 0.8906
   - tag: furry_female
     frequency: 0.8875
-  - tag: dog_girl
-    frequency: 0.8415
   - tag: body_fur
     frequency: 0.355
   near_miss:

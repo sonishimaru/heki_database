@@ -3209,7 +3209,9 @@ characters:
     kana: ちい
     work: ちょびっツ
     year: 2000
-    danbooru: chii_(chobits)
+    # chii_(chobits) は 404。Danbooru は長音を落とす綴りのことがある
+    # （ケンシロウも kenshiro で通った）
+    danbooru: chi_(chobits)
     anilist: Chii
   - id: shidou-hikaru
     name: 獅堂光
@@ -3267,3 +3269,285 @@ characters:
     year: 1990
     danbooru: yukimura_keiko
     anilist: Keiko Yukimura
+  # 11 期目。1968〜2022。ゲームの比率を上げ、スポーツものと
+  # 1名しか入っていない作品に二人目を足して、関係性の軸が引けるようにする。
+  - id: momose-narumi
+    name: 桃瀬成海
+    kana: ももせなるみ
+    work: ヲタクに恋は難しい
+    year: 2014
+    danbooru: momose_narumi
+    anilist: Narumi Momose
+  - id: izumo-fuuko
+    name: 出雲風子
+    kana: いずもふうこ
+    work: アンデッドアンラック
+    year: 2020
+    danbooru: izumo_fuuko
+    anilist: Fuuko Izumo
+  - id: yoshioka-futaba
+    name: 吉岡双葉
+    kana: よしおかふたば
+    work: アオハライド
+    year: 2011
+    danbooru: yoshioka_futaba
+    anilist: Futaba Yoshioka
+  - id: horikita-suzune
+    name: 堀北鈴音
+    kana: ほりきたすずね
+    work: ようこそ実力至上主義の教室へ
+    year: 2015
+    danbooru: horikita_suzune
+    anilist: Suzune Horikita
+  - id: sheeta
+    name: シータ
+    kana: しーた
+    work: 天空の城ラピュタ
+    year: 1986
+    danbooru: sheeta
+    anilist: Sheeta
+  - id: kirijo-mitsuru
+    name: 桐条美鶴
+    kana: きりじょうみつる
+    work: ペルソナ3
+    year: 2006
+    danbooru: kirijo_mitsuru
+    anilist: Mitsuru Kirijo
+  - id: yuna-ff10
+    name: ユウナ
+    kana: ゆうな
+    work: ファイナルファンタジーX
+    year: 2001
+    danbooru: yuna_(ff10)
+    anilist: Yuna
+  - id: terra-branford
+    name: ティナ・ブランフォード
+    kana: てぃなぶらんふぉーど
+    work: ファイナルファンタジーVI
+    year: 1994
+    danbooru: terra_branford
+    anilist: Terra Branford
+  - id: sora-kh
+    name: ソラ
+    kana: そら
+    work: キングダムハーツ
+    year: 2002
+    danbooru: sora_(kingdom_hearts)
+    anilist: Sora
+  - id: malenia
+    name: マレニア
+    kana: まれにあ
+    work: ELDEN RING
+    year: 2022
+    danbooru: malenia_blade_of_miquella
+    anilist: Malenia
+  - id: dva
+    name: D.Va
+    kana: でぃーゔぁ
+    work: オーバーウォッチ
+    year: 2016
+    danbooru: d.va_(overwatch)
+    anilist: D.Va
+  - id: ahri
+    name: アーリ
+    kana: あーり
+    work: リーグ・オブ・レジェンド
+    year: 2009
+    danbooru: ahri_(league_of_legends)
+    anilist: Ahri
+  - id: sanji
+    name: サンジ
+    kana: さんじ
+    work: ONE PIECE
+    year: 1997
+    danbooru: sanji
+    anilist: Sanji
+  - id: tezuka-kunimitsu
+    name: 手塚国光
+    kana: てづかくにみつ
+    work: テニスの王子様
+    year: 1999
+    danbooru: tezuka_kunimitsu
+    anilist: Kunimitsu Tezuka
+  - id: makishima-yuusuke
+    name: 巻島裕介
+    kana: まきしまゆうすけ
+    work: 弱虫ペダル
+    year: 2008
+    danbooru: makishima_yuusuke
+    anilist: Yusuke Makishima
+  - id: hiruma-youichi
+    name: 蛭魔妖一
+    kana: ひるまよういち
+    work: アイシールド21
+    year: 2002
+    danbooru: hiruma_youichi
+    anilist: Youichi Hiruma
+  - id: takamura-mamoru
+    name: 鷹村守
+    kana: たかむらまもる
+    work: はじめの一歩
+    year: 1989
+    danbooru: takamura_mamoru
+    anilist: Mamoru Takamura
+  - id: hyuuga-kojirou
+    name: 日向小次郎
+    kana: ひゅうがこじろう
+    work: キャプテン翼
+    year: 1981
+    danbooru: hyuuga_kojirou
+    anilist: Kojiro Hyuga
+  - id: rikiishi-tooru
+    name: 力石徹
+    kana: りきいしとおる
+    work: あしたのジョー
+    year: 1968
+    danbooru: rikiishi_tooru
+    anilist: Toru Rikiishi
+  - id: nakajima-atsushi
+    name: 中島敦
+    kana: なかじまあつし
+    work: 文豪ストレイドッグス
+    year: 2012
+    danbooru: nakajima_atsushi
+    anilist: Atsushi Nakajima
+  - id: alibaba-saluja
+    name: アリババ・サルージャ
+    kana: ありばばさるーじゃ
+    work: マギ
+    year: 2009
+    danbooru: alibaba_saluja
+    anilist: Alibaba Saluja
+  - id: heiwajima-shizuo
+    name: 平和島静雄
+    kana: へいわじましずお
+    work: デュラララ!!
+    year: 2004
+    danbooru: heiwajima_shizuo
+    anilist: Shizuo Heiwajima
+  - id: haramura-nodoka
+    name: 原村和
+    kana: はらむらのどか
+    work: 咲-Saki-
+    year: 2006
+    danbooru: haramura_nodoka
+    anilist: Nodoka Haramura
+  - id: senshi
+    name: センシ
+    kana: せんし
+    work: ダンジョン飯
+    year: 2014
+    danbooru: senshi_(dungeon_meshi)
+    anilist: Senshi
+  - id: elias-ainsworth
+    name: エリアス・エインズワース
+    kana: えりあすえいんずわーす
+    work: 魔法使いの嫁
+    year: 2013
+    danbooru: elias_ainsworth
+    anilist: Elias Ainsworth
+  - id: miyamura-izumi
+    name: 宮村伊澄
+    kana: みやむらいずみ
+    work: ホリミヤ
+    year: 2011
+    danbooru: miyamura_izumi
+    anilist: Izumi Miyamura
+  - id: yoshida-haru
+    name: 吉田春
+    kana: よしだはる
+    work: となりの怪物くん
+    year: 2008
+    danbooru: yoshida_haru
+    anilist: Haru Yoshida
+  - id: ryuuzaki-umi
+    name: 龍咲海
+    kana: りゅうざきうみ
+    work: 魔法騎士レイアース
+    year: 1993
+    danbooru: ryuuzaki_umi
+    anilist: Umi Ryuuzaki
+  - id: jin-champloo
+    name: ジン
+    kana: じん
+    work: サムライチャンプルー
+    year: 2004
+    danbooru: jin_(samurai_champloo)
+    anilist: Jin
+  - id: makimura-kaori
+    name: 槇村香
+    kana: まきむらかおり
+    work: シティーハンター
+    year: 1985
+    danbooru: makimura_kaori
+    anilist: Kaori Makimura
+  - id: kira-yamato
+    name: キラ・ヤマト
+    kana: きらやまと
+    work: 機動戦士ガンダムSEED
+    year: 2002
+    danbooru: kira_yamato
+    anilist: Kira Yamato
+  - id: ichijou-hotaru
+    name: 一条蛍
+    kana: いちじょうほたる
+    work: のんのんびより
+    year: 2009
+    danbooru: ichijou_hotaru
+    anilist: Hotaru Ichijou
+  - id: lala-deviluke
+    name: ララ・サタリン・デビルーク
+    kana: ららさたりんでびるーく
+    work: To LOVEる
+    year: 2006
+    danbooru: lala_satalin_deviluke
+    anilist: Lala Satalin Deviluke
+  - id: white-blood-cell
+    name: 白血球
+    kana: はっけっきゅう
+    work: はたらく細胞
+    year: 2015
+    danbooru: white_blood_cell_(hataraku_saibou)
+    anilist: White Blood Cell
+  - id: aioi-yuuko
+    name: 相生祐子
+    kana: あいおいゆうこ
+    work: 日常
+    year: 2006
+    danbooru: aioi_yuuko
+    anilist: Yuuko Aioi
+  - id: himemiya-anthy
+    name: 姫宮アンシー
+    kana: ひめみやあんしー
+    work: 少女革命ウテナ
+    year: 1997
+    danbooru: himemiya_anthy
+    anilist: Anthy Himemiya
+  - id: tenma-kenzou
+    name: テンマ
+    kana: てんま
+    work: MONSTER
+    year: 1994
+    danbooru: tenma_kenzou
+    anilist: Kenzou Tenma
+  - id: watanuki-kimihiro
+    name: 四月一日君尋
+    kana: わたぬききみひろ
+    work: xxxHOLiC
+    year: 2003
+    danbooru: watanuki_kimihiro
+    anilist: Kimihiro Watanuki
+  - id: seras-victoria
+    name: セラス・ヴィクトリア
+    kana: せらすゔぃくとりあ
+    work: HELLSING
+    year: 1997
+    danbooru: seras_victoria
+    anilist: Seras Victoria
+  - id: ishida-shouya
+    name: 石田将也
+    kana: いしだしょうや
+    work: 聲の形
+    year: 2013
+    danbooru: ishida_shouya
+    anilist: Shouya Ishida

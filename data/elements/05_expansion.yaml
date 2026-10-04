@@ -1222,3 +1222,16 @@
   pairs_with: [kokuin, buki]
   contrasts_with: [seifuku, gunpuku]
   tags: [応用]
+
+# --- 15 巡目。スポーツものが増えてきたので1語 ---
+
+- id: uniform
+  name: ユニフォーム
+  kana: ゆにふぉーむ
+  aliases: [競技着]
+  axis: appearance.costume
+  summary: 競技のための装い。背番号で呼ばれる側の服。
+  effect: 競技中とそれ以外を服で切り分け、脱いだときを素に戻す合図にする。
+  pairs_with: [kinniku, doryokuka]
+  contrasts_with: [seifuku, heyagi]
+  tags: [定番]

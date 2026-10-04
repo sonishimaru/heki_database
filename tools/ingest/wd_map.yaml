@@ -95,7 +95,7 @@ elements:
 
   # --- 服装 ---
   seifuku:
-    tags: [school_uniform, serafuku, gakuran, blazer, sailor_collar, hikarizaka_private_high_school_uniform, kitauji_high_school_uniform, tomoeda_elementary_school_uniform, ouran_high_school_uniform, red_sailor_collar]
+    tags: [school_uniform, serafuku, gakuran, blazer, sailor_collar, hikarizaka_private_high_school_uniform, kitauji_high_school_uniform, tomoeda_elementary_school_uniform, ouran_high_school_uniform, red_sailor_collar, tsubame_nishi_high_school_uniform, ryouou_school_uniform]
     threshold: 0.3
     note: 着ているかいないかしかない語なので、既定より低くてよい（41件が 0.30〜0.35 で落ちていた）
   hakui:
@@ -129,11 +129,11 @@ elements:
   heddohon:
     tags: [headphones, headset, earphones, headphones_around_neck]
   buki:
-    tags: [holding_weapon, weapon, sword, katana, gun, spear, scythe, holding_sword, sheath, knife]
+    tags: [holding_weapon, weapon, sword, katana, gun, spear, scythe, holding_sword, sheath, knife, shield, legendary_shield_(tate_no_yuusha_no_nariagari)]
 
   # --- 種族（外見から確実に読める範囲だけ） ---
   kemomimi:
-    tags: [animal_ears, cat_ears, fox_ears, wolf_ears, animal_ear_fluff, wolf_girl, cat_girl, fox_girl, dog_ears, rabbit_ears, extra_ears, raccoon_girl, raccoon_ears, horse_ears, horse_girl, rabbit_girl]
+    tags: [animal_ears, cat_ears, fox_ears, wolf_ears, animal_ear_fluff, wolf_girl, cat_girl, fox_girl, dog_ears, rabbit_ears, extra_ears, raccoon_girl, raccoon_ears, horse_ears, horse_girl, rabbit_girl, dog_girl]
   jingai:
     tags: [horns, monster_girl, slime_girl, lamia, mermaid, red_horns, cone_horns, goat_horns, green_skin, antennae]
   jinzou:
@@ -270,7 +270,7 @@ elements:
   mafuraa:
     tags: [scarf, red_scarf]
   gakki:
-    tags: [instrument, violin, piano, guitar, holding_instrument]
+    tags: [instrument, violin, piano, guitar, holding_instrument, flute, holding_flute]
   kodomo:
     tags: [child, aged_down]
     threshold: 0.5
@@ -335,3 +335,7 @@ elements:
     tags: [crown, tiara, mini_crown]
   minzoku-ishou:
     tags: [ainu_clothes, ainu, hanbok, dirndl, sari]
+
+  # --- 15 巡目に昇格した語 ---
+  uniform:
+    tags: [american_football_uniform, baseball_uniform, soccer_uniform, basketball_uniform, volleyball_uniform, track_suit, sportswear, gym_uniform]
