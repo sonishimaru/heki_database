@@ -68,6 +68,29 @@
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 53%', src: danbooru}
   patterns: []
 
+- id: ahri
+  name: アーリ
+  kana: あーり
+  work: リーグ・オブ・レジェンド
+  year: 2009
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b200021-z9ZtcHtm3SkD.png'
+    page: 'https://anilist.co/character/200021'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-04'
+  elements:
+    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 95%', src: danbooru}
+    - {id: kokuin, weight: core, note: 'danbooru facial_mark 68%', src: danbooru}
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 60%', src: danbooru}
+    - {id: shippo, weight: core, note: 'danbooru tail 77%', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 49%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 86%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 43%（共有 24% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: ainz-ooal-gown
   name: アインズ・ウール・ゴウン
   kana: あいんずうーるごうん
@@ -241,6 +264,26 @@
     - {id: joushi, weight: sub, note: '資料: ナザリックの階層守護者統括としての上に立つ立場にある。', src: gemini}
     - {id: shujuu, weight: sub, note: '資料: 主君であるアインズに対し熱狂的な恋心と忠誠を持って仕えている。', src: gemini}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 49%', src: danbooru}
+  patterns: []
+
+- id: alibaba-saluja
+  name: アリババ・サルージャ
+  kana: ありばばさるーじゃ
+  work: マギ
+  year: 2009
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b42501-BKURFIipvE1C.png'
+    page: 'https://anilist.co/character/42501'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-04'
+  elements:
+    - {id: buki, weight: sub, note: 'danbooru weapon 51%', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 49%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 81%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: piasu, weight: sub, note: 'danbooru earrings 57%', src: danbooru}
   patterns: []
 
 - id: allen-walker
@@ -2452,6 +2495,29 @@
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 73%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 55%', src: danbooru}
     - {id: tennen, weight: sub, note: '資料: 「軽音」を「簡単な音楽」と勘違いして入部した点や、自身のギターに「Giita」と名付ける独特の感性・無自覚さ。', src: gemini}
+  patterns: []
+
+- id: hiruma-youichi
+  name: 蛭魔妖一
+  kana: ひるまよういち
+  work: アイシールド21
+  year: 2002
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b945-Njwfw2NekBBe.png'
+    page: 'https://anilist.co/character/945'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-04'
+  elements:
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 100%', src: danbooru}
+    - {id: piasu, weight: core, note: 'danbooru earrings 71%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 57%', src: danbooru}
+    - {id: gizaba, weight: sub, note: 'danbooru sharp_teeth 50%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 71%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 36%', src: danbooru}
+    - {id: uniform, weight: sub, note: 'danbooru american_football_uniform 50%', src: danbooru}
   patterns: []
 
 - id: hisoka-morow
@@ -5323,6 +5389,21 @@
     - {id: tsukkomi, weight: sub, note: '資料・作品知識: 倫太郎からの『マッドサイエンティストのセンスがある』という指摘に同意せず、彼の厨二病的な言動に冷静に反論・否定する常識人の役割を持つ。', src: gemini}
   patterns: []
 
+- id: makishima-yuusuke
+  name: 巻島裕介
+  kana: まきしまゆうすけ
+  work: 弱虫ペダル
+  year: 2008
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-04'
+  elements:
+    - {id: midorigami, weight: core, note: 'danbooru green_hair 74%', src: danbooru}
+    - {id: namida-bokuro, weight: sub, note: 'danbooru mole_under_mouth 47%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 74%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: makunouchi-ippo
   name: 幕之内一歩
   kana: まくのうちいっぽ
@@ -7303,6 +7384,23 @@
     - {id: reijou, weight: sub, note: '資料: 純血悪魔の古い貴族であるグレモリー家の出身', src: gemini}
   patterns: []
 
+- id: rikiishi-tooru
+  name: 力石徹
+  kana: りきいしとおる
+  work: あしたのジョー
+  year: 1968
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-04'
+  elements:
+    - {id: gaitou, weight: core, note: 'danbooru cape 100%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 50%', src: danbooru}
+    - {id: kinniku, weight: sub, note: 'danbooru abs 50%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 50%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 50%（共有 24% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: riko
   name: リコ
   kana: りこ
@@ -7859,6 +7957,27 @@
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 70%', src: danbooru}
     - {id: soushitsu, weight: sub, note: '資料: 攘夷戦争で多くの友人や味方を失った経験から、不要な流血を避けるようになった。', src: gemini}
     - {id: mimi-ga-akai, weight: spice, note: '資料: 結野アナの大ファンで、定春や結野アナの犬を利用して話しかけようとした際に赤面した。', src: gemini}
+  patterns: []
+
+- id: sanji
+  name: サンジ
+  kana: さんじ
+  work: ONE PIECE
+  year: 1997
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b305-6lisPmHtCnLT.png'
+    page: 'https://anilist.co/character/305'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-04'
+  elements:
+    - {id: bushouhige, weight: core, note: 'danbooru facial_hair 68%', src: danbooru}
+    - {id: mekakure, weight: core, note: 'danbooru hair_over_one_eye 68%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 80%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: tabako, weight: sub, note: 'danbooru cigarette 59%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 63%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: sano-manjirou
@@ -9051,6 +9170,25 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 56%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: takamura-mamoru
+  name: 鷹村守
+  kana: たかむらまもる
+  work: はじめの一歩
+  year: 1989
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b845-yzHSqt8WpnO5.png'
+    page: 'https://anilist.co/character/845'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-04'
+  elements:
+    - {id: kinniku, weight: core, note: 'danbooru muscular 83%', src: danbooru}
+    - {id: futomayu, weight: sub, note: 'danbooru thick_eyebrows 42%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 42%（共有 24% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: takanashi-rikka
   name: 小鳥遊六花
   kana: たかなしりっか
@@ -9226,6 +9364,28 @@
     - {id: midorigami, weight: sub, note: 'danbooru green_hair 55%', src: danbooru}
     - {id: piasu, weight: sub, note: 'danbooru earrings 53%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 63%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: tezuka-kunimitsu
+  name: 手塚国光
+  kana: てづかくにみつ
+  work: テニスの王子様
+  year: 1999
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b325-vajOILhvy9Vb.png'
+    page: 'https://anilist.co/character/325'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-04'
+  elements:
+    - {id: megane, weight: core, note: 'danbooru glasses 100%', src: danbooru}
+    - {id: ahoge, weight: sub, note: 'danbooru ahoge 40%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 60%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: uniform, weight: sub, note: 'danbooru track_suit 40%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 100%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 80%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: thorfinn

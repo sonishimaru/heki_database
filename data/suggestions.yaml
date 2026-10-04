@@ -49,6 +49,24 @@
   - name: 鬼殺隊士
     axis: 関係性 / 立場
     reason: 鬼殺隊に所属して戦う職能・立場だが、既存の語彙（侍等）に明記がなく直接合致しないため。
+- id: ahri
+  name: アーリ
+  date: '2026-10-04'
+  unmapped_danbooru:
+  - tag: multiple_tails
+    frequency: 0.5407
+  - tag: kitsune
+    frequency: 0.3835
+  near_miss:
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1973
+    threshold: 0.35
+  - id: kinpatsu
+    tag: blonde_hair
+    frequency: 0.1624
+    threshold: 0.35
+  new_tag_proposals: []
 - id: ainz-ooal-gown
   name: アインズ・ウール・ゴウン
   date: '2026-08-31'
@@ -181,6 +199,20 @@
   - name: datenshi
     axis: 外見 / 種族
     reason: 堕天使の翼と角を持つ姿として記載されており、既存の天使・悪魔の記号とは区別されるため。
+- id: alibaba-saluja
+  name: アリババ・サルージャ
+  date: '2026-10-04'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.1892
+    threshold: 0.35
+  - id: choker
+    tag: choker
+    frequency: 0.1892
+    threshold: 0.35
+  new_tag_proposals: []
 - id: allen-walker
   name: アレン・ウォーカー
   date: '2026-10-02'
@@ -1894,6 +1926,22 @@
   - id: gakki
     tag: instrument
     frequency: 0.2534
+    threshold: 0.35
+  new_tag_proposals: []
+- id: hiruma-youichi
+  name: 蛭魔妖一
+  date: '2026-10-04'
+  unmapped_danbooru:
+  - tag: holding_gun
+    frequency: 0.5
+  - tag: rifle
+    frequency: 0.3571
+  - tag: assault_rifle
+    frequency: 0.3571
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2143
     threshold: 0.35
   new_tag_proposals: []
 - id: hisoka-morow
@@ -4152,6 +4200,38 @@
   - name: kagakusha
     axis: 関係性 / 立場
     reason: 大学研究所に所属し論文を執筆する科学者・研究者という属性を正確に表現するため。
+- id: makishima-yuusuke
+  name: 巻島裕介
+  date: '2026-10-04'
+  unmapped_danbooru:
+  - tag: cycling_uniform
+    frequency: 0.3684
+  near_miss:
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.3158
+    threshold: 0.35
+  - id: messhu
+    tag: multicolored_hair
+    frequency: 0.3158
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2632
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.2105
+    threshold: 0.35
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.2105
+    threshold: 0.35
+  - id: akagami
+    tag: orange_hair
+    frequency: 0.1579
+    threshold: 0.35
+  new_tag_proposals: []
 - id: makunouchi-ippo
   name: 幕之内一歩
   date: '2026-10-02'
@@ -6005,6 +6085,32 @@
     frequency: 0.1638
     threshold: 0.35
   new_tag_proposals: []
+- id: rikiishi-tooru
+  name: 力石徹
+  date: '2026-10-04'
+  unmapped_danbooru:
+  - tag: parody
+    frequency: 1.0
+  - tag: riding
+    frequency: 1.0
+  - tag: horse
+    frequency: 1.0
+  - tag: horseback_riding
+    frequency: 1.0
+  - tag: fine_art_parody
+    frequency: 1.0
+  - tag: blue_shirt
+    frequency: 0.5
+  - tag: light_smile
+    frequency: 0.5
+  - tag: cloudy_sky
+    frequency: 0.5
+  - tag: sunlight
+    frequency: 0.5
+  - tag: pointing
+    frequency: 0.5
+  near_miss: []
+  new_tag_proposals: []
 - id: riko
   name: リコ
   date: '2026-09-29'
@@ -6472,6 +6578,18 @@
   - name: amatou
     axis: 嗜好
     reason: パフェ、アイスクリーム、ケーキなどの甘いものやイチゴミルクを好む性格的特徴を示す語彙がないため。
+- id: sanji
+  name: サンジ
+  date: '2026-10-04'
+  unmapped_danbooru:
+  - tag: curly_eyebrows
+    frequency: 0.816
+  near_miss:
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.1924
+    threshold: 0.35
+  new_tag_proposals: []
 - id: sano-manjirou
   name: 佐野万次郎
   date: '2026-08-31'
@@ -7572,6 +7690,32 @@
     frequency: 0.191
     threshold: 0.35
   new_tag_proposals: []
+- id: takamura-mamoru
+  name: 鷹村守
+  date: '2026-10-04'
+  unmapped_danbooru:
+  - tag: boxing_gloves
+    frequency: 0.5833
+  - tag: pompadour
+    frequency: 0.5
+  near_miss:
+  - id: kizuato
+    tag: scar
+    frequency: 0.3333
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.25
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.1667
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1667
+    threshold: 0.35
+  new_tag_proposals: []
 - id: takanashi-rikka
   name: 小鳥遊六花
   date: '2026-08-31'
@@ -7740,6 +7884,40 @@
   - id: murasaki-no-me
     tag: purple_eyes
     frequency: 0.1626
+    threshold: 0.35
+  new_tag_proposals: []
+- id: tezuka-kunimitsu
+  name: 手塚国光
+  date: '2026-10-04'
+  unmapped_danbooru:
+  - tag: fingernails
+    frequency: 0.4
+  - tag: white_socks
+    frequency: 0.4
+  - tag: pillow
+    frequency: 0.4
+  - tag: white_jacket
+    frequency: 0.4
+  - tag: kneeling
+    frequency: 0.4
+  - tag: bed
+    frequency: 0.4
+  - tag: no_shoes
+    frequency: 0.4
+  - tag: mouth_hold
+    frequency: 0.4
+  - tag: straight-on
+    frequency: 0.4
+  - tag: blue_pants
+    frequency: 0.4
+  near_miss:
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.2
+    threshold: 0.6
+  - id: kinniku
+    tag: abs
+    frequency: 0.2
     threshold: 0.35
   new_tag_proposals: []
 - id: thorfinn
