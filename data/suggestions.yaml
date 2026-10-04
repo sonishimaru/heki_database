@@ -949,6 +949,20 @@
     frequency: 0.1562
     threshold: 0.35
   new_tag_proposals: []
+- id: dva
+  name: D.Va
+  date: '2026-10-04'
+  unmapped_danbooru: []
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.2147
+    threshold: 0.35
+  - id: jinzou
+    tag: robot
+    frequency: 0.1756
+    threshold: 0.35
+  new_tag_proposals: []
 - id: echizen-ryoma
   name: 越前リョーマ
   date: '2026-08-31'
@@ -1957,6 +1971,26 @@
     frequency: 0.1728
     threshold: 0.35
   new_tag_proposals: []
+- id: horikita-suzune
+  name: 堀北鈴音
+  date: '2026-10-04'
+  unmapped_danbooru:
+  - tag: advanced_nurturing_high_school_uniform
+    frequency: 0.6106
+  - tag: white_skirt
+    frequency: 0.4336
+  - tag: blue_bow
+    frequency: 0.354
+  near_miss:
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.1947
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1593
+    threshold: 0.35
+  new_tag_proposals: []
 - id: hoshino-aquamarine
   name: 星野アクアマリン
   date: '2026-08-31'
@@ -2399,6 +2433,32 @@
     tag: hair_between_eyes
     frequency: 0.243
     threshold: 0.5
+  new_tag_proposals: []
+- id: izumo-fuuko
+  name: 出雲風子
+  date: '2026-10-04'
+  unmapped_danbooru:
+  - tag: beanie
+    frequency: 0.619
+  - tag: red_gloves
+    frequency: 0.4048
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4048
+    threshold: 0.5
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.3095
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1905
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1905
+    threshold: 0.35
   new_tag_proposals: []
 - id: jabami-yumeko
   name: 蛇喰夢子
@@ -4120,6 +4180,32 @@
     frequency: 0.1667
     threshold: 0.35
   new_tag_proposals: []
+- id: malenia
+  name: マレニア
+  date: '2026-10-04'
+  unmapped_danbooru:
+  - tag: prosthetic_arm
+    frequency: 0.7884
+  - tag: helmet
+    frequency: 0.6182
+  - tag: winged_helmet
+    frequency: 0.5662
+  - tag: single_mechanical_arm
+    frequency: 0.4799
+  - tag: red_cape
+    frequency: 0.3806
+  - tag: prosthetic_leg
+    frequency: 0.3641
+  near_miss:
+  - id: kishi
+    tag: armor
+    frequency: 0.3452
+    threshold: 0.4
+  - id: kizuato
+    tag: scar
+    frequency: 0.2151
+    threshold: 0.35
+  new_tag_proposals: []
 - id: maomao
   name: 猫猫
   date: '2026-08-31'
@@ -4579,6 +4665,22 @@
   - tag: blue_necktie
     frequency: 0.3846
   near_miss: []
+  new_tag_proposals: []
+- id: momose-narumi
+  name: 桃瀬成海
+  date: '2026-10-04'
+  unmapped_danbooru:
+  - tag: office_lady
+    frequency: 0.5
+  near_miss:
+  - id: kin-no-me
+    tag: orange_eyes
+    frequency: 0.25
+    threshold: 0.35
+  - id: momoiro-no-me
+    tag: pink_eyes
+    frequency: 0.25
+    threshold: 0.35
   new_tag_proposals: []
 - id: monkey-d-luffy
   name: モンキー・D・ルフィ
@@ -6583,6 +6685,24 @@
     frequency: 0.1724
     threshold: 0.35
   new_tag_proposals: []
+- id: sheeta
+  name: シータ
+  date: '2026-10-04'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.2
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.15
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.15
+    threshold: 0.35
+  new_tag_proposals: []
 - id: sheryl-nome
   name: シェリル・ノーム
   date: '2026-09-29'
@@ -7087,6 +7207,22 @@
   - name: 呪い
     axis: 状態
     reason: 荒地の魔女によって90歳の老婆の姿に変えられているため。
+- id: sora-kh
+  name: ソラ
+  date: '2026-10-04'
+  unmapped_danbooru:
+  - tag: keyblade
+    frequency: 0.3784
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.2294
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1766
+    threshold: 0.5
+  new_tag_proposals: []
 - id: souma-kyou
   name: 草摩夾
   date: '2026-08-31'
@@ -7579,6 +7715,32 @@
     tag: school_uniform
     frequency: 0.2145
     threshold: 0.3
+  new_tag_proposals: []
+- id: terra-branford
+  name: ティナ・ブランフォード
+  date: '2026-10-04'
+  unmapped_danbooru: []
+  near_miss:
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.327
+    threshold: 0.35
+  - id: kinpatsu
+    tag: blonde_hair
+    frequency: 0.292
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2147
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.1923
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.1626
+    threshold: 0.35
   new_tag_proposals: []
 - id: thorfinn
   name: トルフィン
@@ -8332,6 +8494,32 @@
     frequency: 0.1552
     threshold: 0.35
   new_tag_proposals: []
+- id: yoshioka-futaba
+  name: 吉岡双葉
+  date: '2026-10-04'
+  unmapped_danbooru:
+  - tag: striped_necktie
+    frequency: 1.0
+  - tag: dated
+    frequency: 0.5
+  - tag: border
+    frequency: 0.5
+  - tag: blue_background
+    frequency: 0.5
+  - tag: dress_shirt
+    frequency: 0.5
+  - tag: white_border
+    frequency: 0.5
+  - tag: outside_border
+    frequency: 0.5
+  - tag: grey_skirt
+    frequency: 0.5
+  - tag: letterboxed
+    frequency: 0.5
+  - tag: wind
+    frequency: 0.5
+  near_miss: []
+  new_tag_proposals: []
 - id: yugi-amane
   name: 花子くん
   date: '2026-08-30'
@@ -8439,6 +8627,20 @@
   - id: kurome
     tag: black_eyes
     frequency: 0.15
+    threshold: 0.35
+  new_tag_proposals: []
+- id: yuna-ff10
+  name: ユウナ
+  date: '2026-10-04'
+  unmapped_danbooru: []
+  near_miss:
+  - id: hakama
+    tag: hakama
+    frequency: 0.3311
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.2026
     threshold: 0.35
   new_tag_proposals: []
 - id: yuuki-asuna
