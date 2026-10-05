@@ -120,7 +120,11 @@ GENERIC_TAGS = {
     # 服の縁取り（fur_trim）、持っている球（ball）はキャラを指さない。
     "fur_trim", "brown_jacket", "green_cloak", "open_jacket", "negligee",
     "lingerie", ":3", "manly", "ball", "turban", "hair_bell", "single_sidelock",
-    "american_football_helmet",
+    # 16 巡目。色と衣類の組み合わせの続き、姿勢（pointing）、
+    # 一枚だけ巻くもの（bandana）。american_football_helmet は
+    # ヘルメットの見出し語に移したのでここから外す。
+    "blue_bow", "red_cape", "white_jacket", "blue_shirt", "striped_necktie",
+    "pointing", "bandana",
     # 作品固有の制服・装備
     "azumanga_daioh's_school_uniform", "kita_high_school_uniform",
     "icho_private_high_school_uniform", "kurumi-gaoka_high_school_uniform",

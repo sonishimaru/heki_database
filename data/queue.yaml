@@ -3204,15 +3204,8 @@ characters:
     year: 2009
     danbooru: yona_(akatsuki_no_yona)
     anilist: Yona
-  - id: chii
-    name: ちぃ
-    kana: ちい
-    work: ちょびっツ
-    year: 2000
-    # chii_(chobits) は 404。Danbooru は長音を落とす綴りのことがある
-    # （ケンシロウも kenshiro で通った）
-    danbooru: chi_(chobits)
-    anilist: Chii
+  # ちぃは外した。chii_(chobits) も chi_(chobits) も 404。
+  # 直しは一度きりなので、ちょびッツは代表者なしのままにする。
   - id: shidou-hikaru
     name: 獅堂光
     kana: しどうひかる
@@ -3311,7 +3304,8 @@ characters:
     kana: きりじょうみつる
     work: ペルソナ3
     year: 2006
-    danbooru: kirijo_mitsuru
+    # 桐条は「きりじょう」。Danbooru は長音を ou で書く側（oozora_tsubasa も同じ）
+    danbooru: kirijou_mitsuru
     anilist: Mitsuru Kirijo
   - id: yuna-ff10
     name: ユウナ
@@ -3395,7 +3389,9 @@ characters:
     kana: ひゅうがこじろう
     work: キャプテン翼
     year: 1981
-    danbooru: hyuuga_kojirou
+    # hyuuga_kojirou は 404。キャプテン翼は英語圏の綴り（Hyuga Kojiro）で
+    # 流通しているので、長音を落とす側を試す（ケンシロウも kenshiro で通った）
+    danbooru: hyuga_kojiro
     anilist: Kojiro Hyuga
   - id: rikiishi-tooru
     name: 力石徹
@@ -3409,7 +3405,9 @@ characters:
     kana: なかじまあつし
     work: 文豪ストレイドッグス
     year: 2012
-    danbooru: nakajima_atsushi
+    # 実在の作家と同名なので Danbooru は作品名で括る。同作の太宰治と
+    # 中原中也はどちらも括ったほうで通っている
+    danbooru: nakajima_atsushi_(bungou_stray_dogs)
     anilist: Atsushi Nakajima
   - id: alibaba-saluja
     name: アリババ・サルージャ

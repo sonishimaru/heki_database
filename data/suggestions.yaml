@@ -52,11 +52,7 @@
 - id: ahri
   name: アーリ
   date: '2026-10-04'
-  unmapped_danbooru:
-  - tag: multiple_tails
-    frequency: 0.5407
-  - tag: kitsune
-    frequency: 0.3835
+  unmapped_danbooru: []
   near_miss:
   - id: sakotsu
     tag: collarbone
@@ -556,9 +552,7 @@
 - id: asirpa
   name: アシリパ
   date: '2026-09-30'
-  unmapped_danbooru:
-  - tag: bandana
-    frequency: 0.4464
+  unmapped_danbooru: []
   near_miss:
   - id: gaitou
     tag: cape
@@ -1931,13 +1925,7 @@
 - id: hiruma-youichi
   name: 蛭魔妖一
   date: '2026-10-04'
-  unmapped_danbooru:
-  - tag: holding_gun
-    frequency: 0.5
-  - tag: rifle
-    frequency: 0.3571
-  - tag: assault_rifle
-    frequency: 0.3571
+  unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
@@ -2023,12 +2011,8 @@
   name: 堀北鈴音
   date: '2026-10-04'
   unmapped_danbooru:
-  - tag: advanced_nurturing_high_school_uniform
-    frequency: 0.6106
   - tag: white_skirt
     frequency: 0.4336
-  - tag: blue_bow
-    frequency: 0.354
   near_miss:
   - id: murasaki-no-me
     tag: purple_eyes
@@ -3295,9 +3279,7 @@
 - id: kobayakawa-sena
   name: 小早川瀬那
   date: '2026-10-02'
-  unmapped_danbooru:
-  - tag: helmet
-    frequency: 0.6
+  unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
@@ -4203,9 +4185,7 @@
 - id: makishima-yuusuke
   name: 巻島裕介
   date: '2026-10-04'
-  unmapped_danbooru:
-  - tag: cycling_uniform
-    frequency: 0.3684
+  unmapped_danbooru: []
   near_miss:
   - id: sakotsu
     tag: collarbone
@@ -4236,8 +4216,6 @@
   name: 幕之内一歩
   date: '2026-10-02'
   unmapped_danbooru:
-  - tag: boxing_gloves
-    frequency: 0.7222
   - tag: boxing
     frequency: 0.4444
   - tag: boxing_shorts
@@ -4266,14 +4244,10 @@
   unmapped_danbooru:
   - tag: prosthetic_arm
     frequency: 0.7884
-  - tag: helmet
-    frequency: 0.6182
   - tag: winged_helmet
     frequency: 0.5662
   - tag: single_mechanical_arm
     frequency: 0.4799
-  - tag: red_cape
-    frequency: 0.3806
   - tag: prosthetic_leg
     frequency: 0.3641
   near_miss:
@@ -5328,9 +5302,7 @@
 - id: nishimiya-shouko
   name: 西宮硝子
   date: '2026-10-02'
-  unmapped_danbooru:
-  - tag: blue_bow
-    frequency: 0.4027
+  unmapped_danbooru: []
   near_miss:
   - id: ponytail
     tag: ponytail
@@ -5521,9 +5493,7 @@
 - id: okkotsu-yuuta
   name: 乙骨憂太
   date: '2026-08-31'
-  unmapped_danbooru:
-  - tag: white_jacket
-    frequency: 0.4706
+  unmapped_danbooru: []
   near_miss:
   - id: kurome
     tag: black_eyes
@@ -5551,8 +5521,6 @@
   unmapped_danbooru:
   - tag: blue_fire
     frequency: 0.5175
-  - tag: striped_necktie
-    frequency: 0.4386
   near_miss:
   - id: tanpatsu
     tag: short_hair
@@ -5570,9 +5538,7 @@
 - id: onoda-sakamichi
   name: 小野田坂道
   date: '2026-08-31'
-  unmapped_danbooru:
-  - tag: cycling_uniform
-    frequency: 0.6667
+  unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
     tag: long_hair
@@ -5935,14 +5901,10 @@
   name: レグ
   date: '2026-09-29'
   unmapped_danbooru:
-  - tag: helmet
-    frequency: 0.5672
   - tag: fake_horns
     frequency: 0.4412
   - tag: horned_helmet
     frequency: 0.4202
-  - tag: red_cape
-    frequency: 0.3782
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -6099,15 +6061,11 @@
     frequency: 1.0
   - tag: fine_art_parody
     frequency: 1.0
-  - tag: blue_shirt
-    frequency: 0.5
   - tag: light_smile
     frequency: 0.5
   - tag: cloudy_sky
     frequency: 0.5
   - tag: sunlight
-    frequency: 0.5
-  - tag: pointing
     frequency: 0.5
   near_miss: []
   new_tag_proposals: []
@@ -7694,8 +7652,6 @@
   name: 鷹村守
   date: '2026-10-04'
   unmapped_danbooru:
-  - tag: boxing_gloves
-    frequency: 0.5833
   - tag: pompadour
     frequency: 0.5
   near_miss:
@@ -7895,8 +7851,6 @@
   - tag: white_socks
     frequency: 0.4
   - tag: pillow
-    frequency: 0.4
-  - tag: white_jacket
     frequency: 0.4
   - tag: kneeling
     frequency: 0.4
@@ -8255,8 +8209,6 @@
   name: 雪村螢子
   date: '2026-10-03'
   unmapped_danbooru:
-  - tag: pointing
-    frequency: 0.4
   - tag: highleg_leotard
     frequency: 0.4
   - tag: blue_serafuku
@@ -8475,8 +8427,6 @@
     frequency: 0.7812
   - tag: goggles_on_head
     frequency: 0.625
-  - tag: blue_shirt
-    frequency: 0.5156
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -8676,8 +8626,6 @@
   name: 吉岡双葉
   date: '2026-10-04'
   unmapped_danbooru:
-  - tag: striped_necktie
-    frequency: 1.0
   - tag: dated
     frequency: 0.5
   - tag: border

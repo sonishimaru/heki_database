@@ -1235,3 +1235,16 @@
   pairs_with: [kinniku, doryokuka]
   contrasts_with: [seifuku, heyagi]
   tags: [定番]
+
+# --- 16 巡目。helmet が 3 作品に出てきたので1語 ---
+
+- id: helmet
+  name: ヘルメット
+  kana: へるめっと
+  aliases: [兜]
+  axis: appearance.item
+  summary: 頭を覆うもの。顔を隠す装備。
+  effect: 被っている間は匿名にし、外した顔を見せ場にする。
+  pairs_with: [uniform, buki]
+  contrasts_with: [kamen]
+  tags: [応用]
