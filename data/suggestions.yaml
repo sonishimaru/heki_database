@@ -1039,6 +1039,44 @@
     frequency: 0.1729
     threshold: 0.35
   new_tag_proposals: []
+- id: elias-ainsworth
+  name: エリアス・エインズワース
+  date: '2026-10-05'
+  unmapped_danbooru:
+  - tag: skull_head
+    frequency: 0.5333
+  - tag: animal_skull
+    frequency: 0.4667
+  near_miss:
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2667
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2667
+    threshold: 0.35
+  - id: akagami
+    tag: red_hair
+    frequency: 0.2667
+    threshold: 0.35
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.2667
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2
+    threshold: 0.35
+  - id: shirogami
+    tag: white_hair
+    frequency: 0.2
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.2
+    threshold: 0.35
+  new_tag_proposals: []
 - id: emilia
   name: エミリア
   date: '2026-08-31'
@@ -1708,6 +1746,14 @@
     frequency: 0.1667
     threshold: 0.35
   new_tag_proposals: []
+- id: haramura-nodoka
+  name: 原村和
+  date: '2026-10-05'
+  unmapped_danbooru:
+  - tag: kiyosumi_school_uniform
+    frequency: 0.4486
+  near_miss: []
+  new_tag_proposals: []
 - id: haruno-sakura
   name: 春野サクラ
   date: '2026-10-03'
@@ -1825,6 +1871,20 @@
     tag: large_breasts
     frequency: 0.1981
     threshold: 0.5
+  new_tag_proposals: []
+- id: heiwajima-shizuo
+  name: 平和島静雄
+  date: '2026-10-05'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.1782
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1683
+    threshold: 0.35
   new_tag_proposals: []
 - id: hibari-kyoya
   name: 雲雀恭弥
@@ -3097,6 +3157,24 @@
   - name: 探偵
     axis: 関係性 / 立場
     reason: 資料に「超高校級の探偵」とあるが、語彙に該当する見出し語が存在しないため。
+- id: kirijo-mitsuru
+  name: 桐条美鶴
+  date: '2026-10-05'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3664
+    threshold: 0.5
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2549
+    threshold: 0.3
+  - id: buki
+    tag: weapon
+    frequency: 0.2242
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kirisaki-chitoge
   name: 桐崎千棘
   date: '2026-08-31'
@@ -4157,6 +4235,42 @@
     frequency: 0.1862
     threshold: 0.35
   new_tag_proposals: []
+- id: makimura-kaori
+  name: 槇村香
+  date: '2026-10-05'
+  unmapped_danbooru:
+  - tag: pink_shirt
+    frequency: 0.3636
+  near_miss:
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2727
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.2727
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2727
+    threshold: 0.5
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2727
+    threshold: 0.35
+  - id: akame
+    tag: red_eyes
+    frequency: 0.1818
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.1818
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.1818
+    threshold: 0.35
+  new_tag_proposals: []
 - id: makise-kurisu
   name: 牧瀬紅莉栖
   date: '2026-08-31'
@@ -4614,6 +4728,28 @@
     frequency: 0.1862
     threshold: 0.5
   new_tag_proposals: []
+- id: miyamura-izumi
+  name: 宮村伊澄
+  date: '2026-10-05'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3889
+    threshold: 0.5
+  - id: piasu
+    tag: earrings
+    frequency: 0.2083
+    threshold: 0.5
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.1806
+    threshold: 0.35
+  - id: ahoge
+    tag: ahoge
+    frequency: 0.1528
+    threshold: 0.35
+  new_tag_proposals: []
 - id: miyanaga-saki
   name: 宮永咲
   date: '2026-10-03'
@@ -4910,6 +5046,26 @@
   - id: gaitou
     tag: coat
     frequency: 0.173
+    threshold: 0.35
+  new_tag_proposals: []
+- id: nakajima-atsushi
+  name: 中島敦
+  date: '2026-10-05'
+  unmapped_danbooru:
+  - tag: suspenders
+    frequency: 0.4474
+  near_miss:
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.3026
+    threshold: 0.35
+  - id: messhu
+    tag: multicolored_hair
+    frequency: 0.3026
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2237
     threshold: 0.35
   new_tag_proposals: []
 - id: nakano-azusa
@@ -6279,6 +6435,32 @@
     frequency: 0.2
     threshold: 0.35
   new_tag_proposals: []
+- id: ryuuzaki-umi
+  name: 龍咲海
+  date: '2026-10-05'
+  unmapped_danbooru:
+  - tag: blue_hairband
+    frequency: 0.6667
+  - tag: blue_theme
+    frequency: 0.4717
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.3145
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2453
+    threshold: 0.3
+  - id: pattsun
+    tag: blunt_bangs
+    frequency: 0.2201
+    threshold: 0.4
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2013
+    threshold: 0.35
+  new_tag_proposals: []
 - id: saeba-ryou
   name: 冴羽獠
   date: '2026-10-03'
@@ -6648,6 +6830,32 @@
   - name: 体重消失
     axis: 設定 / 体質
     reason: 怪異である不思議なカニとの遭遇により、物理的な体重が消失しているため。
+- id: senshi
+  name: センシ
+  date: '2026-10-05'
+  unmapped_danbooru:
+  - tag: mustache
+    frequency: 0.924
+  - tag: dwarf
+    frequency: 0.9066
+  - tag: long_beard
+    frequency: 0.8892
+  - tag: thick_mustache
+    frequency: 0.8506
+  - tag: very_long_beard
+    frequency: 0.7671
+  - tag: fake_horns
+    frequency: 0.7061
+  - tag: horned_helmet
+    frequency: 0.7049
+  - tag: bara
+    frequency: 0.4844
+  near_miss:
+  - id: kinniku
+    tag: muscular
+    frequency: 0.2939
+    threshold: 0.35
+  new_tag_proposals: []
 - id: serval
   name: サーバル
   date: '2026-09-30'
@@ -8621,6 +8829,32 @@
     tag: from_behind
     frequency: 0.1552
     threshold: 0.35
+  new_tag_proposals: []
+- id: yoshida-haru
+  name: 吉田春
+  date: '2026-10-05'
+  unmapped_danbooru:
+  - tag: bird
+    frequency: 0.5
+  - tag: crossed_bangs
+    frequency: 0.5
+  - tag: hand_on_own_face
+    frequency: 0.5
+  - tag: tentacles
+    frequency: 0.5
+  - tag: pen
+    frequency: 0.5
+  - tag: holding_pen
+    frequency: 0.5
+  - tag: name_connection
+    frequency: 0.5
+  - tag: suction_cups
+    frequency: 0.5
+  - tag: chicken
+    frequency: 0.5
+  - tag: fourth_east_high_school_uniform
+    frequency: 0.5
+  near_miss: []
   new_tag_proposals: []
 - id: yoshioka-futaba
   name: 吉岡双葉
