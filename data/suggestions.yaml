@@ -186,6 +186,20 @@
   - name: 左利き
     axis: 身体性
     reason: 左利きのミュージシャンであり、左利き用のベースを使用していると明記されているため。
+- id: akutagawa-ryuunosuke
+  name: 芥川龍之介
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: shirogami
+    tag: white_hair
+    frequency: 0.3483
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.3146
+    threshold: 0.35
+  new_tag_proposals: []
 - id: aladdin
   name: アラジン
   date: '2026-10-03'
@@ -1395,6 +1409,24 @@
     frequency: 0.1844
     threshold: 0.35
   new_tag_proposals: []
+- id: fuji-shuusuke
+  name: 不二周助
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: uniform
+    tag: sportswear
+    frequency: 0.3
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2
+    threshold: 0.5
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2
+    threshold: 0.35
+  new_tag_proposals: []
 - id: fujibayashi-kyou
   name: 藤林杏
   date: '2026-10-01'
@@ -1551,6 +1583,26 @@
   - id: buki
     tag: weapon
     frequency: 0.2266
+    threshold: 0.35
+  new_tag_proposals: []
+- id: genos
+  name: ジェノス
+  date: '2026-10-06'
+  unmapped_danbooru:
+  - tag: colored_sclera
+    frequency: 0.8212
+  - tag: black_sclera
+    frequency: 0.8146
+  - tag: cyborg
+    frequency: 0.7748
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.3709
+    threshold: 0.5
+  - id: gishi
+    tag: mechanical_arms
+    frequency: 0.2185
     threshold: 0.35
   new_tag_proposals: []
 - id: gilgamesh-fate
@@ -1837,6 +1889,32 @@
   date: '2026-10-05'
   unmapped_danbooru: []
   near_miss: []
+  new_tag_proposals: []
+- id: haru-beastars
+  name: ハル
+  date: '2026-10-06'
+  unmapped_danbooru:
+  - tag: furry
+    frequency: 0.7222
+  - tag: furry_female
+    frequency: 0.7222
+  near_miss:
+  - id: shippo
+    tag: tail
+    frequency: 0.2778
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2222
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1667
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1667
+    threshold: 0.3
   new_tag_proposals: []
 - id: haruno-sakura
   name: 春野サクラ
@@ -2405,6 +2483,52 @@
     frequency: 0.2776
     threshold: 0.35
   new_tag_proposals: []
+- id: imaizumi-shunsuke
+  name: 今泉俊輔
+  date: '2026-10-06'
+  unmapped_danbooru:
+  - tag: dated
+    frequency: 0.5
+  - tag: copyright_name
+    frequency: 0.5
+  - tag: clothes_writing
+    frequency: 0.5
+  - tag: bike_jersey
+    frequency: 0.5
+  near_miss:
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.25
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.25
+    threshold: 0.5
+  - id: kinniku
+    tag: toned
+    frequency: 0.25
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.25
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.25
+    threshold: 0.35
+  - id: irojiro
+    tag: pale_skin
+    frequency: 0.25
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.25
+    threshold: 0.35
+  - id: helmet
+    tag: helmet
+    frequency: 0.25
+    threshold: 0.35
+  new_tag_proposals: []
 - id: index
   name: インデックス
   date: '2026-08-31'
@@ -2765,6 +2889,28 @@
     tag: hair_between_eyes
     frequency: 0.2048
     threshold: 0.5
+  new_tag_proposals: []
+- id: kagami-taiga
+  name: 火神大我
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1885
+    threshold: 0.35
+  - id: kinniku
+    tag: abs
+    frequency: 0.1803
+    threshold: 0.35
+  - id: yubiwa
+    tag: ring
+    frequency: 0.1803
+    threshold: 0.5
+  - id: uniform
+    tag: basketball_uniform
+    frequency: 0.1803
+    threshold: 0.35
   new_tag_proposals: []
 - id: kagamihara-nadeshiko
   name: 各務原なでしこ
@@ -5424,6 +5570,42 @@
   - name: koukaishi
     axis: 関係性 / 立場
     reason: 船の航行や天候予測を専門的に担う役職「航海士（Navigator）」であるため。
+- id: nanachi
+  name: ナナチ
+  date: '2026-10-06'
+  unmapped_danbooru:
+  - tag: furry
+    frequency: 0.9233
+  - tag: whiskers
+    frequency: 0.6842
+  - tag: horizontal_pupils
+    frequency: 0.388
+  near_miss:
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.3173
+    threshold: 0.35
+  - id: helmet
+    tag: helmet
+    frequency: 0.2887
+    threshold: 0.35
+  - id: jingai
+    tag: horns
+    frequency: 0.2737
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2632
+    threshold: 0.35
+  - id: chuuseiteki
+    tag: androgynous
+    frequency: 0.212
+    threshold: 0.5
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.1744
+    threshold: 0.35
+  new_tag_proposals: []
 - id: nanase-haruka
   name: 七瀬遙
   date: '2026-08-31'
@@ -5868,6 +6050,28 @@
   - name: noroi
     axis: 物語役割 / 状態
     reason: ターボババアという妖怪に呪われており、元の姿に戻ろうとしているため。
+- id: okita-sougo
+  name: 沖田総悟
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2857
+    threshold: 0.5
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2755
+    threshold: 0.35
+  - id: wasou
+    tag: japanese_clothes
+    frequency: 0.1837
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.1531
+    threshold: 0.35
+  new_tag_proposals: []
 - id: okkotsu-yuuta
   name: 乙骨憂太
   date: '2026-08-31'
@@ -5912,6 +6116,28 @@
     tag: blue_hair
     frequency: 0.1754
     threshold: 0.35
+  new_tag_proposals: []
+- id: okumura-yukio
+  name: 奥村雪男
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2917
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.2917
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.2083
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1667
+    threshold: 0.3
   new_tag_proposals: []
 - id: onoda-sakamichi
   name: 小野田坂道
