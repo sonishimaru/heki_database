@@ -730,6 +730,32 @@
     frequency: 0.1737
     threshold: 0.35
   new_tag_proposals: []
+- id: beatrice-umineko
+  name: ベアトリーチェ
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: furiru
+    tag: frills
+    frequency: 0.2829
+    threshold: 0.35
+  - id: tabako
+    tag: smoking_pipe
+    frequency: 0.2244
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2146
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2059
+    threshold: 0.5
+  - id: odango
+    tag: hair_bun
+    frequency: 0.1551
+    threshold: 0.35
+  new_tag_proposals: []
 - id: belfast-azur-lane
   name: ベルファスト
   date: '2026-08-31'
@@ -783,6 +809,60 @@
   - name: 闇医者
     axis: 関係性 / 立場
     reason: 正規の免許や制度に縛られず医療活動を行う立場を表す語彙が既存にないため
+- id: bowser
+  name: クッパ
+  date: '2026-10-06'
+  unmapped_danbooru:
+  - tag: spiked_shell
+    frequency: 0.3958
+  - tag: furry
+    frequency: 0.3792
+  - tag: armlet
+    frequency: 0.3792
+  - tag: spiked_armlet
+    frequency: 0.3708
+  near_miss:
+  - id: shippo
+    tag: tail
+    frequency: 0.3417
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.3
+    threshold: 0.35
+  - id: futomayu
+    tag: thick_eyebrows
+    frequency: 0.2958
+    threshold: 0.35
+  - id: akame
+    tag: red_eyes
+    frequency: 0.2792
+    threshold: 0.35
+  - id: kinniku
+    tag: muscular
+    frequency: 0.275
+    threshold: 0.35
+  - id: gizaba
+    tag: sharp_teeth
+    frequency: 0.2583
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2125
+    threshold: 0.35
+  - id: bushouhige
+    tag: facial_hair
+    frequency: 0.1958
+    threshold: 0.35
+  - id: yaeba
+    tag: fangs
+    frequency: 0.1542
+    threshold: 0.35
+  - id: kinpatsu
+    tag: blonde_hair
+    frequency: 0.15
+    threshold: 0.35
+  new_tag_proposals: []
 - id: bruno-bucciarati
   name: ブローノ・ブチャラティ
   date: '2026-08-31'
@@ -3178,6 +3258,20 @@
     frequency: 0.2375
     threshold: 0.35
   new_tag_proposals: []
+- id: kirby
+  name: カービィ
+  date: '2026-10-06'
+  unmapped_danbooru:
+  - tag: no_humans
+    frequency: 0.601
+  - tag: blush_stickers
+    frequency: 0.4434
+  near_miss:
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1548
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kirigaya-kazuto
   name: キリト
   date: '2026-08-31'
@@ -4490,6 +4584,28 @@
     frequency: 0.2015
     threshold: 0.35
   new_tag_proposals: []
+- id: mash-kyrielight
+  name: マシュ・キリエライト
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: megane
+    tag: glasses
+    frequency: 0.273
+    threshold: 0.35
+  - id: kemomimi
+    tag: animal_ears
+    frequency: 0.2174
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1564
+    threshold: 0.35
+  - id: shippo
+    tag: tail
+    frequency: 0.1562
+    threshold: 0.35
+  new_tag_proposals: []
 - id: matoi-ryuuko
   name: 纏流子
   date: '2026-08-31'
@@ -4551,6 +4667,28 @@
     tag: school_uniform
     frequency: 0.2081
     threshold: 0.3
+  new_tag_proposals: []
+- id: matsuno-osomatsu
+  name: 松野おそ松
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.3457
+    threshold: 0.35
+  - id: gaitou
+    tag: hood
+    frequency: 0.2716
+    threshold: 0.35
+  - id: akame
+    tag: red_eyes
+    frequency: 0.2531
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.179
+    threshold: 0.35
   new_tag_proposals: []
 - id: megumin
   name: めぐみん
@@ -5299,6 +5437,20 @@
   - name: 競泳選手
     axis: 関係性 / 立場
     reason: 岩鳶高校水泳部に所属するフリースタイル（クロール）の選手であるため。
+- id: naruhodou-ryuuichi
+  name: 成歩堂龍一
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.1845
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1699
+    threshold: 0.35
+  new_tag_proposals: []
 - id: narukami-yuu
   name: 鳴上悠
   date: '2026-09-30'
@@ -6573,6 +6725,16 @@
   - id: houtai
     tag: bandages
     frequency: 0.1905
+    threshold: 0.35
+  new_tag_proposals: []
+- id: saihara-shuuichi
+  name: 最原終一
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.2157
     threshold: 0.35
   new_tag_proposals: []
 - id: saiki-kusuo
@@ -8438,6 +8600,20 @@
     frequency: 0.1542
     threshold: 0.35
   new_tag_proposals: []
+- id: tsukino-mito
+  name: 月ノ美兎
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.2036
+    threshold: 0.35
+  - id: kemomimi
+    tag: animal_ears
+    frequency: 0.158
+    threshold: 0.35
+  new_tag_proposals: []
 - id: tsukino-usagi
   name: 月野うさぎ
   date: '2026-08-31'
@@ -8558,6 +8734,34 @@
   - name: 武道家
     axis: 関係性 / 立場
     reason: 資料において『物語の経過に伴い、人間界を守る強力な武道家へと成長していく』と明記されているため。
+- id: usada-pekora
+  name: 兎田ぺこら
+  date: '2026-10-06'
+  unmapped_danbooru:
+  - tag: food-themed_hair_ornament
+    frequency: 0.5468
+  - tag: carrot_hair_ornament
+    frequency: 0.5362
+  - tag: short_eyebrows
+    frequency: 0.466
+  near_miss:
+  - id: kin-no-me
+    tag: orange_eyes
+    frequency: 0.323
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.2892
+    threshold: 0.5
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2068
+    threshold: 0.5
+  - id: shippo
+    tag: tail
+    frequency: 0.1836
+    threshold: 0.35
+  new_tag_proposals: []
 - id: uzaki-hana
   name: 宇崎花
   date: '2026-10-02'

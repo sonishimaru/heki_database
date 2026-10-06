@@ -880,6 +880,25 @@
     - {id: osananajimi, weight: sub, note: '作品本編: 主人公の緑谷出久と幼少期からの付き合いがあるため。', src: gemini}
   patterns: []
 
+- id: beatrice-umineko
+  name: ベアトリーチェ
+  kana: べあとりーちぇ
+  work: うみねこのなく頃に
+  year: 2007
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b90181-wRPm0OEaucmw.png'
+    page: 'https://anilist.co/character/90181'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-06'
+  elements:
+    - {id: choker, weight: sub, note: 'danbooru choker 44%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 82%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 70%（共有 22% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: belfast-azur-lane
   name: ベルファスト
   kana: べるふぁすと
@@ -953,6 +972,25 @@
     - {id: mekakure, weight: sub, note: 'danbooru hair_over_one_eye 41%', src: danbooru}
     - {id: shirogami, weight: sub, note: 'danbooru white_hair 57%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 56%', src: danbooru}
+  patterns: []
+
+- id: bowser
+  name: クッパ
+  kana: くっぱ
+  work: スーパーマリオ
+  year: 1985
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b13883-jtVMD63D64vY.png'
+    page: 'https://anilist.co/character/13883'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-06'
+  elements:
+    - {id: jingai, weight: core, note: 'danbooru horns 67%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 57%', src: danbooru}
+    - {id: choker, weight: sub, note: 'danbooru collar 36%', src: danbooru}
   patterns: []
 
 - id: bruno-bucciarati
@@ -4245,6 +4283,23 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 51%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: kirby
+  name: カービィ
+  kana: かーびぃ
+  work: 星のカービィ
+  year: 1992
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/5471-eeOkCyhMvIHH.png'
+    page: 'https://anilist.co/character/5471'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-06'
+  elements:
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 44%（共有 22% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kirigaya-kazuto
   name: キリト
   kana: きりと
@@ -5713,6 +5768,29 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 81%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: mash-kyrielight
+  name: マシュ・キリエライト
+  kana: ましゅきりえらいと
+  work: Fate/Grand Order
+  year: 2015
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b120735-TjIeTlsKNaMl.jpg'
+    page: 'https://anilist.co/character/120735'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-06'
+  elements:
+    - {id: mekakure, weight: core, note: 'danbooru hair_over_one_eye 70%', src: danbooru}
+    - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 73%', src: danbooru}
+    - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 50%', src: danbooru}
+    - {id: murasaki-gami, weight: sub, note: 'danbooru purple_hair 44%', src: danbooru}
+    - {id: pinku-gami, weight: sub, note: 'danbooru pink_hair 40%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 38%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 76%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: matoi-ryuuko
   name: 纏流子
   kana: まといりゅうこ
@@ -5777,6 +5855,23 @@
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 82%（共有 20% のため比重を下げた）', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 48%', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 82%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: matsuno-osomatsu
+  name: 松野おそ松
+  kana: まつのおそまつ
+  work: おそ松さん
+  year: 2015
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b89284-PS9MiNutefpm.jpg'
+    page: 'https://anilist.co/character/89284'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-06'
+  elements:
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 37%（共有 25% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: megumin
@@ -6675,6 +6770,25 @@
     - {id: osananajimi, weight: core, note: '資料: 橘真琴と葉月渚は小学校時代からの親友であり、友人たちと共に岩鳶高校水泳部を設立した。', src: gemini}
     - {id: shukuteki, weight: core, note: '資料: かつて松岡凛と親友だったが、現在はライバル関係にあり、凛に勝つために友人たちと共に水泳部を設立した。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 50%', src: danbooru}
+  patterns: []
+
+- id: naruhodou-ryuuichi
+  name: 成歩堂龍一
+  kana: なるほどうりゅういち
+  work: 逆転裁判
+  year: 2001
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b9879-u5LeRqqo84lt.png'
+    page: 'https://anilist.co/character/9879'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-06'
+  elements:
+    - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 37%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 72%（共有 25% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 59%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: narukami-yuu
@@ -7985,6 +8099,23 @@
     - {id: sakotsu, weight: sub, note: 'danbooru collarbone 48%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 57%', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 48%', src: danbooru}
+  patterns: []
+
+- id: saihara-shuuichi
+  name: 最原終一
+  kana: さいはらしゅういち
+  work: ニューダンガンロンパV3
+  year: 2017
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-06'
+  elements:
+    - {id: ahoge, weight: core, note: 'danbooru ahoge 62%', src: danbooru}
+    - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 69%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 43%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 68%（共有 25% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 86%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: saiki-kusuo
@@ -10042,6 +10173,27 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 40%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: tsukino-mito
+  name: 月ノ美兎
+  kana: つきのみと
+  work: にじさんじ
+  year: 2018
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/n131743-65et2upSTEbq.png'
+    page: 'https://anilist.co/character/131743'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-06'
+  elements:
+    - {id: mitsuami, weight: sub, note: 'danbooru braid 38%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 39%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 44%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 87%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 84%（共有 25% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: tsukino-usagi
   name: 月野うさぎ
   kana: つきのうさぎ
@@ -10181,6 +10333,32 @@
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 43%', src: danbooru}
     - {id: muhoumono, weight: sub, note: '資料: 物語の開始時点では、手に負えない不良少年およびストリートファイターであった。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 41%', src: danbooru}
+  patterns: []
+
+- id: usada-pekora
+  name: 兎田ぺこら
+  kana: うさだぺこら
+  work: ホロライブ
+  year: 2019
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b169492-td5UVxwzQe5g.png'
+    page: 'https://anilist.co/character/169492'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-06'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 93%', src: danbooru}
+    - {id: futomayu, weight: core, note: 'danbooru thick_eyebrows 66%', src: danbooru}
+    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 94%', src: danbooru}
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 65%', src: danbooru}
+    - {id: mitsuami, weight: core, note: 'danbooru braid 63%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 38%', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru white_hair 58%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 37%', src: danbooru}
+    - {id: twintail, weight: sub, note: 'danbooru twintails 42%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 81%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: uzaki-hana
