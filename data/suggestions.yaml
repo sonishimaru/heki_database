@@ -109,6 +109,14 @@
     frequency: 0.1744
     threshold: 0.5
   new_tag_proposals: []
+- id: aioi-yuuko
+  name: 相生祐子
+  date: '2026-10-06'
+  unmapped_danbooru:
+  - tag: tokisadame_school_uniform
+    frequency: 0.5683
+  near_miss: []
+  new_tag_proposals: []
 - id: aisaka-taiga
   name: 逢坂大河
   date: '2026-08-31'
@@ -1926,6 +1934,32 @@
   - name: 孤立
     axis: 性格 / 気質
     reason: 「孤立しており友達がいない」という状態を直接表す語彙が既存タグに存在しないため。
+- id: himemiya-anthy
+  name: 姫宮アンシー
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.339
+    threshold: 0.35
+  - id: oukan
+    tag: crown
+    frequency: 0.3305
+    threshold: 0.35
+  - id: piasu
+    tag: earrings
+    frequency: 0.2966
+    threshold: 0.5
+  - id: gunpuku
+    tag: aiguillette
+    frequency: 0.2627
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.178
+    threshold: 0.3
+  new_tag_proposals: []
 - id: himura-kenshin
   name: 緋村剣心
   date: '2026-08-31'
@@ -2234,6 +2268,24 @@
     frequency: 0.1899
     threshold: 0.35
   new_tag_proposals: []
+- id: ichijou-hotaru
+  name: 一条蛍
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.3111
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2889
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2444
+    threshold: 0.35
+  new_tag_proposals: []
 - id: ichimaru-gin
   name: 市丸ギン
   date: '2026-09-15'
@@ -2348,6 +2400,20 @@
   - name: 新月の人間化
     axis: 体質
     reason: 毎月新月の夜に妖怪の力を失い人間に変化するという重要な体質的制限があるが、語彙に該当がないため。
+- id: ishida-shouya
+  name: 石田将也
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2857
+    threshold: 0.3
+  - id: knit
+    tag: sweater
+    frequency: 0.2143
+    threshold: 0.35
+  new_tag_proposals: []
 - id: ishigami-senku
   name: 石神千空
   date: '2026-08-31'
@@ -3106,6 +3172,20 @@
   - id: tebukuro
     tag: gloves
     frequency: 0.1538
+    threshold: 0.35
+  new_tag_proposals: []
+- id: kira-yamato
+  name: キラ・ヤマト
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3875
+    threshold: 0.5
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2375
     threshold: 0.35
   new_tag_proposals: []
 - id: kirigaya-kazuto
@@ -3880,6 +3960,20 @@
     tag: weapon
     frequency: 0.1566
     threshold: 0.35
+  new_tag_proposals: []
+- id: lala-deviluke
+  name: ララ・サタリン・デビルーク
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4535
+    threshold: 0.5
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1505
+    threshold: 0.3
   new_tag_proposals: []
 - id: lelouch-lamperouge
   name: ルルーシュ・ランペルージ
@@ -6856,6 +6950,28 @@
     frequency: 0.2939
     threshold: 0.35
   new_tag_proposals: []
+- id: seras-victoria
+  name: セラス・ヴィクトリア
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.3077
+    threshold: 0.35
+  - id: kyuuketsuki
+    tag: vampire
+    frequency: 0.2941
+    threshold: 0.4
+  - id: buki
+    tag: weapon
+    frequency: 0.2534
+    threshold: 0.35
+  - id: mekakure
+    tag: hair_over_one_eye
+    frequency: 0.1855
+    threshold: 0.35
+  new_tag_proposals: []
 - id: serval
   name: サーバル
   date: '2026-09-30'
@@ -8024,6 +8140,28 @@
     frequency: 0.2145
     threshold: 0.3
   new_tag_proposals: []
+- id: tenma-kenzou
+  name: テンマ
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.2632
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2105
+    threshold: 0.35
+  - id: kusekke
+    tag: messy_hair
+    frequency: 0.1579
+    threshold: 0.5
+  - id: gaitou
+    tag: coat
+    frequency: 0.1579
+    threshold: 0.35
+  new_tag_proposals: []
 - id: terra-branford
   name: ティナ・ブランフォード
   date: '2026-10-04'
@@ -8579,6 +8717,54 @@
   - name: 代筆屋（自動手記人形）
     axis: 職業
     reason: 手紙の代筆業務を行い人間の感情を学んでいく職能を表すため。
+- id: watanuki-kimihiro
+  name: 四月一日君尋
+  date: '2026-10-06'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tabako
+    tag: smoking_pipe
+    frequency: 0.3261
+    threshold: 0.35
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.2826
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2174
+    threshold: 0.5
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.1739
+    threshold: 0.35
+  new_tag_proposals: []
+- id: white-blood-cell
+  name: 白血球
+  date: '2026-10-06'
+  unmapped_danbooru:
+  - tag: baseball_cap
+    frequency: 0.4711
+  - tag: white_skin
+    frequency: 0.4356
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4889
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2889
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.2489
+    threshold: 0.35
+  - id: irojiro
+    tag: pale_skin
+    frequency: 0.2044
+    threshold: 0.35
+  new_tag_proposals: []
 - id: yabuki-joe
   name: 矢吹丈
   date: '2026-10-02'
