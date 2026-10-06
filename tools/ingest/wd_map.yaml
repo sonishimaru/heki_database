@@ -95,7 +95,7 @@ elements:
 
   # --- 服装 ---
   seifuku:
-    tags: [school_uniform, serafuku, gakuran, blazer, sailor_collar, hikarizaka_private_high_school_uniform, kitauji_high_school_uniform, tomoeda_elementary_school_uniform, ouran_high_school_uniform, red_sailor_collar, tsubame_nishi_high_school_uniform, ryouou_school_uniform, advanced_nurturing_high_school_uniform]
+    tags: [school_uniform, serafuku, gakuran, blazer, sailor_collar, hikarizaka_private_high_school_uniform, kitauji_high_school_uniform, tomoeda_elementary_school_uniform, ouran_high_school_uniform, red_sailor_collar, tsubame_nishi_high_school_uniform, ryouou_school_uniform, advanced_nurturing_high_school_uniform, tokisadame_school_uniform, kiyosumi_school_uniform]
     threshold: 0.3
     note: 着ているかいないかしかない語なので、既定より低くてよい（41件が 0.30〜0.35 で落ちていた）
   hakui:
@@ -342,4 +342,4 @@ elements:
 
   # --- 16 巡目に昇格した語 ---
   helmet:
-    tags: [helmet, american_football_helmet, bicycle_helmet, motorcycle_helmet, kabuto]
+    tags: [helmet, american_football_helmet, bicycle_helmet, motorcycle_helmet, kabuto, horned_helmet]

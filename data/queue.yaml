@@ -3384,15 +3384,8 @@ characters:
     year: 1989
     danbooru: takamura_mamoru
     anilist: Mamoru Takamura
-  - id: hyuuga-kojirou
-    name: 日向小次郎
-    kana: ひゅうがこじろう
-    work: キャプテン翼
-    year: 1981
-    # hyuuga_kojirou は 404。キャプテン翼は英語圏の綴り（Hyuga Kojiro）で
-    # 流通しているので、長音を落とす側を試す（ケンシロウも kenshiro で通った）
-    danbooru: hyuga_kojiro
-    anilist: Kojiro Hyuga
+  # 日向小次郎は外した。hyuuga_kojirou も hyuga_kojiro も 404。
+  # 大空翼は通っているので、キャプテン翼に彼のタグが無いだけらしい。
   - id: rikiishi-tooru
     name: 力石徹
     kana: りきいしとおる
@@ -3465,13 +3458,8 @@ characters:
     year: 1993
     danbooru: ryuuzaki_umi
     anilist: Umi Ryuuzaki
-  - id: jin-champloo
-    name: ジン
-    kana: じん
-    work: サムライチャンプルー
-    year: 2004
-    danbooru: jin_(samurai_champloo)
-    anilist: Jin
+  # ジンは外した。同作のムゲンが mugen_(samurai_champloo) で通っているので
+  # 括弧の書き方は合っている。綴りの問題ではなくタグが無いとみなす。
   - id: makimura-kaori
     name: 槇村香
     kana: まきむらかおり
@@ -3549,3 +3537,229 @@ characters:
     year: 2013
     danbooru: ishida_shouya
     anilist: Shouya Ishida
+  # 12 期目。1969〜2019。すでに 1〜2 名入っている作品の二人目・三人目を厚く取る。
+  # 同じ作品の中での対比（相棒・好敵手・兄弟）が引けるようにするため。
+  - id: matsuno-osomatsu
+    name: 松野おそ松
+    kana: まつのおそまつ
+    work: おそ松さん
+    year: 2015
+    danbooru: matsuno_osomatsu
+    anilist: Osomatsu Matsuno
+  - id: beatrice-umineko
+    name: ベアトリーチェ
+    kana: べあとりーちぇ
+    work: うみねこのなく頃に
+    year: 2007
+    danbooru: beatrice_(umineko)
+    anilist: Beatrice
+  - id: saihara-shuuichi
+    name: 最原終一
+    kana: さいはらしゅういち
+    work: ニューダンガンロンパV3
+    year: 2017
+    danbooru: saihara_shuuichi
+    anilist: Shuichi Saihara
+  - id: naruhodou-ryuuichi
+    name: 成歩堂龍一
+    kana: なるほどうりゅういち
+    work: 逆転裁判
+    year: 2001
+    danbooru: naruhodou_ryuuichi
+    anilist: Phoenix Wright
+  - id: kirby
+    name: カービィ
+    kana: かーびぃ
+    work: 星のカービィ
+    year: 1992
+    danbooru: kirby
+    anilist: Kirby
+  - id: shulk
+    name: シュルク
+    kana: しゅるく
+    work: ゼノブレイド
+    year: 2010
+    danbooru: shulk
+    anilist: Shulk
+  - id: tsukino-mito
+    name: 月ノ美兎
+    kana: つきのみと
+    work: にじさんじ
+    year: 2018
+    danbooru: tsukino_mito
+    anilist: Mito Tsukino
+  - id: doraemon
+    name: ドラえもん
+    kana: どらえもん
+    work: ドラえもん
+    year: 1969
+    danbooru: doraemon
+    anilist: Doraemon
+  - id: pikachu
+    name: ピカチュウ
+    kana: ぴかちゅう
+    work: ポケットモンスター
+    year: 1996
+    danbooru: pikachu
+    anilist: Pikachu
+  - id: bowser
+    name: クッパ
+    kana: くっぱ
+    work: スーパーマリオ
+    year: 1985
+    danbooru: bowser
+    anilist: Bowser
+  - id: mash-kyrielight
+    name: マシュ・キリエライト
+    kana: ましゅきりえらいと
+    work: Fate/Grand Order
+    year: 2015
+    danbooru: mash_kyrielight
+    anilist: Mash Kyrielight
+  - id: usada-pekora
+    name: 兎田ぺこら
+    kana: うさだぺこら
+    work: ホロライブ
+    year: 2019
+    danbooru: usada_pekora
+    anilist: Usada Pekora
+  - id: genos
+    name: ジェノス
+    kana: じぇのす
+    work: ワンパンマン
+    year: 2009
+    danbooru: genos
+    anilist: Genos
+  - id: haru-beastars
+    name: ハル
+    kana: はる
+    work: BEASTARS
+    year: 2016
+    danbooru: haru_(beastars)
+    anilist: Haru
+  - id: nanachi
+    name: ナナチ
+    kana: ななち
+    work: メイドインアビス
+    year: 2012
+    danbooru: nanachi_(made_in_abyss)
+    anilist: Nanachi
+  - id: akutagawa-ryuunosuke
+    name: 芥川龍之介
+    kana: あくたがわりゅうのすけ
+    work: 文豪ストレイドッグス
+    year: 2012
+    danbooru: akutagawa_ryuunosuke_(bungou_stray_dogs)
+    anilist: Ryunosuke Akutagawa
+  - id: okumura-yukio
+    name: 奥村雪男
+    kana: おくむらゆきお
+    work: 青の祓魔師
+    year: 2009
+    danbooru: okumura_yukio
+    anilist: Yukio Okumura
+  - id: kagami-taiga
+    name: 火神大我
+    kana: かがみたいが
+    work: 黒子のバスケ
+    year: 2008
+    danbooru: kagami_taiga
+    anilist: Taiga Kagami
+  - id: fuji-shuusuke
+    name: 不二周助
+    kana: ふじしゅうすけ
+    work: テニスの王子様
+    year: 1999
+    danbooru: fuji_shuusuke
+    anilist: Shusuke Fuji
+  - id: imaizumi-shunsuke
+    name: 今泉俊輔
+    kana: いまいずみしゅんすけ
+    work: 弱虫ペダル
+    year: 2008
+    danbooru: imaizumi_shunsuke
+    anilist: Shunsuke Imaizumi
+  - id: okita-sougo
+    name: 沖田総悟
+    kana: おきたそうご
+    work: 銀魂
+    year: 2003
+    danbooru: okita_sougo
+    anilist: Sougo Okita
+  - id: trafalgar-law
+    name: トラファルガー・ロー
+    kana: とらふぁるがーろー
+    work: ONE PIECE
+    year: 1997
+    danbooru: trafalgar_law
+    anilist: Trafalgar Law
+  - id: kishibe-rohan
+    name: 岸辺露伴
+    kana: きしべろはん
+    work: ジョジョの奇妙な冒険
+    year: 1992
+    danbooru: kishibe_rohan
+    anilist: Rohan Kishibe
+  - id: kuwabara-kazuma
+    name: 桑原和真
+    kana: くわばらかずま
+    work: 幽☆遊☆白書
+    year: 1990
+    danbooru: kuwabara_kazuma
+    anilist: Kazuma Kuwabara
+  - id: hououji-fuu
+    name: 鳳凰寺風
+    kana: ほうおうじふう
+    work: 魔法騎士レイアース
+    year: 1993
+    danbooru: hououji_fuu
+    anilist: Fuu Hououji
+  - id: andre-grandier
+    name: アンドレ・グランディエ
+    kana: あんどれぐらんでぃえ
+    work: ベルサイユのばら
+    year: 1972
+    danbooru: andre_grandier
+    anilist: Andre Grandier
+  - id: miyata-ichirou
+    name: 宮田一郎
+    kana: みやたいちろう
+    work: はじめの一歩
+    year: 1989
+    danbooru: miyata_ichirou
+    anilist: Ichiro Miyata
+  - id: nina-fortner
+    name: ニナ・フォルトナー
+    kana: になふぉるとなー
+    work: MONSTER
+    year: 1994
+    danbooru: nina_fortner
+    anilist: Nina Fortner
+  - id: integra-hellsing
+    name: インテグラ
+    kana: いんてぐら
+    work: HELLSING
+    year: 1997
+    danbooru: integra_hellsing
+    anilist: Integra Hellsing
+  - id: kanda-yuu
+    name: 神田ユウ
+    kana: かんだゆう
+    work: D.Gray-man
+    year: 2004
+    danbooru: kanda_yuu
+    anilist: Yuu Kanda
+  - id: izumi-sagiri
+    name: 和泉紗霧
+    kana: いずみさぎり
+    work: エロマンガ先生
+    year: 2013
+    danbooru: izumi_sagiri
+    anilist: Sagiri Izumi
+  - id: shana-2
+    name: アラストール
+    kana: あらすとーる
+    work: 灼眼のシャナ
+    year: 2002
+    danbooru: alastor_(shakugan_no_shana)
+    anilist: Alastor
