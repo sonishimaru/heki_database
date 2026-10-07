@@ -129,6 +129,11 @@ GENERIC_TAGS = {
     # （hat をすでに汎用にしているので揃える）、作り物の角、爪と紐。
     "bara", "blue_theme", "suspenders", "fake_horns", "baseball_cap", "beanie",
     "white_skirt", "green_jacket", "red_gloves", "nail_polish", "thigh_strap",
+    # 18 巡目。Danbooru のメタタグ（dated, copyright_name, no_humans,
+    # clothes_writing）、腕の飾り、小道具の骨、描き方の選択（asymmetrical_hair）。
+    "dated", "copyright_name", "clothes_writing", "no_humans",
+    "armlet", "spiked_armlet", "spiked_shell", "skull_head", "animal_skull",
+    "asymmetrical_hair",
     # 作品固有の制服・装備
     "azumanga_daioh's_school_uniform", "kita_high_school_uniform",
     "icho_private_high_school_uniform", "kurumi-gaoka_high_school_uniform",

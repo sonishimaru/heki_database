@@ -137,7 +137,7 @@ elements:
   jingai:
     tags: [horns, monster_girl, slime_girl, lamia, mermaid, red_horns, cone_horns, goat_horns, green_skin, antennae]
   jinzou:
-    tags: [android, robot, robot_joints, mechanical_parts, doll_joints, joints]
+    tags: [android, robot, robot_joints, mechanical_parts, doll_joints, joints, cyborg]
 
   # --- 髪色 ---
   kinpatsu:
@@ -338,8 +338,16 @@ elements:
 
   # --- 15 巡目に昇格した語 ---
   uniform:
-    tags: [american_football_uniform, baseball_uniform, soccer_uniform, basketball_uniform, volleyball_uniform, track_suit, sportswear, gym_uniform, cycling_uniform, boxing_shorts]
+    tags: [american_football_uniform, baseball_uniform, soccer_uniform, basketball_uniform, volleyball_uniform, track_suit, sportswear, gym_uniform, cycling_uniform, boxing_shorts, bike_jersey]
 
   # --- 16 巡目に昇格した語 ---
   helmet:
     tags: [helmet, american_football_helmet, bicycle_helmet, motorcycle_helmet, kabuto, horned_helmet]
+
+  # --- 18 巡目に昇格した語 ---
+  juujin:
+    tags: [furry, furry_female, furry_male, anthro]
+    threshold: 0.5
+    note: 獣耳だけの絵にも付くことがあるので閾値を上げている
+  kuroi-shiberne:
+    tags: [colored_sclera, black_sclera]

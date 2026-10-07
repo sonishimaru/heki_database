@@ -191,10 +191,29 @@ def report_characters(db: dict) -> None:
         print(f"    {len(c.get('elements') or []):>2} 要素  {c['name']}（{c['work']}）")
 
 
+def report_run() -> None:
+    """直近の取り込みの結果。auto.py が data/last_run.yaml に残したもの。"""
+    path = ROOT / "data" / "last_run.yaml"
+    if not path.exists():
+        print("\n■ 直近の取り込み: まだ記録がありません")
+        return
+    run = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    print(f"\n■ 直近の取り込み（{run.get('date', '日付不明')}）")
+    print(f"  完了 {run.get('完了', '?')} / {run.get('対象', '?')} 件")
+    failed = run.get("失敗") or []
+    print(f"  失敗 {len(failed)} 件" + (f": {', '.join(failed)}" if failed else ""))
+    for lane, count in (run.get("レーン") or {}).items():
+        print(f"  {lane}レーン: {count} 件")
+    for lane, why in (run.get("レーンの理由") or {}).items():
+        print(f"    {lane}の理由: {why}")
+
+
 def main() -> None:
     which = sys.argv[1] if len(sys.argv) > 1 else "all"
     db = load_db()
     suggestions = load_suggestions()
+    if which in ("all", "run"):
+        report_run()
     if which in ("all", "gaps"):
         report_gaps(db)
     if which in ("all", "axes"):

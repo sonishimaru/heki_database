@@ -15,6 +15,7 @@ GEMINI_API_KEY が無い場合は資料の抽出と分類を飛ばし、Danbooru
 from __future__ import annotations
 
 import argparse
+import datetime
 import json
 import os
 import re
@@ -80,6 +81,38 @@ def note_lane_failure(lane: str, err: subprocess.CalledProcessError, tally: dict
             if line.strip():
                 print(f"    | {line.rstrip()[:200]}")
     return why
+
+
+RUN_SUMMARY = ROOT / "data" / "last_run.yaml"
+
+
+def write_run_summary(targets: list[dict], failed: list[str], tally: dict) -> None:
+    """この回の結果を1ファイルに残す。
+
+    どの件が落ちたかは要約の一行にしか出ず、Actions のログは 450 行あって
+    その一行を探すだけで毎回 API を叩くことになっていた。リポジトリに
+    置いておけば、日次の確認は git pull だけで済む。
+    """
+    summary = {
+        "date": datetime.date.today().isoformat(),
+        "対象": len(targets),
+        "完了": len(targets) - len(failed),
+        "失敗": failed,
+        "レーン": {
+            lane: f"{tally[lane]} / {tally[f'{lane}_試行']}"
+            for lane in ("資料", "識別") if tally[f"{lane}_試行"]
+        },
+        "レーンの理由": {
+            lane: tally[f"{lane}_理由"]
+            for lane in ("資料", "識別") if tally.get(f"{lane}_理由")
+        },
+    }
+    header = ("# 直近の取り込みの結果（auto.py が毎回書き直す）。\n"
+              "# 日次の確認でここを読めば、どの件が落ちたか Actions のログを\n"
+              "# 掘らずに分かる。tools/report.py run で整形して表示できる。\n\n")
+    RUN_SUMMARY.write_text(
+        header + yaml.safe_dump(summary, allow_unicode=True, sort_keys=False),
+        encoding="utf-8")
 
 
 def load_auto_meta() -> dict[str, dict]:
@@ -277,6 +310,7 @@ def main() -> int:
         tried = tally[f"{lane}_試行"]
         if tried:
             print(f"  {lane}レーン: {tally[lane]} / {tried} 件")
+    write_run_summary(targets, failed, tally)
     if len(failed) == len(targets):
         return 1
 

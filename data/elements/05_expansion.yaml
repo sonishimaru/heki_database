@@ -1248,3 +1248,27 @@
   pairs_with: [uniform, buki]
   contrasts_with: [kamen]
   tags: [応用]
+
+# --- 18 巡目。furry が 4 作品・0.92 で報告の最上位に来たので2語 ---
+
+- id: juujin
+  name: 獣人
+  kana: じゅうじん
+  aliases: [ケモノ]
+  axis: appearance.species
+  summary: 耳や尻尾だけでなく、全身が獣のかたち。
+  effect: 人でないほうを既定にし、人と同じ振る舞いをしたときに効かせる。
+  pairs_with: [kemomimi, shippo, jingai]
+  contrasts_with: [jinzou]
+  tags: [定番]
+
+- id: kuroi-shiberne
+  name: 黒い白目
+  kana: くろいしろめ
+  aliases: [黒目がち, 白目が黒い]
+  axis: appearance.eyeshape
+  summary: 白目まで黒い目。人でないことが目に出る。
+  effect: ふだんは隠しておき、素が出る場面でそこだけ変える。
+  pairs_with: [hikari-nashi, oni, akuma]
+  contrasts_with: []
+  tags: [応用]

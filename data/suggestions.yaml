@@ -826,15 +826,7 @@
 - id: bowser
   name: クッパ
   date: '2026-10-06'
-  unmapped_danbooru:
-  - tag: spiked_shell
-    frequency: 0.3958
-  - tag: furry
-    frequency: 0.3792
-  - tag: armlet
-    frequency: 0.3792
-  - tag: spiked_armlet
-    frequency: 0.3708
+  unmapped_danbooru: []
   near_miss:
   - id: shippo
     tag: tail
@@ -1142,11 +1134,7 @@
 - id: elias-ainsworth
   name: エリアス・エインズワース
   date: '2026-10-05'
-  unmapped_danbooru:
-  - tag: skull_head
-    frequency: 0.5333
-  - tag: animal_skull
-    frequency: 0.4667
+  unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
     tag: long_hair
@@ -1588,13 +1576,7 @@
 - id: genos
   name: ジェノス
   date: '2026-10-06'
-  unmapped_danbooru:
-  - tag: colored_sclera
-    frequency: 0.8212
-  - tag: black_sclera
-    frequency: 0.8146
-  - tag: cyborg
-    frequency: 0.7748
+  unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
@@ -1893,11 +1875,7 @@
 - id: haru-beastars
   name: ハル
   date: '2026-10-06'
-  unmapped_danbooru:
-  - tag: furry
-    frequency: 0.7222
-  - tag: furry_female
-    frequency: 0.7222
+  unmapped_danbooru: []
   near_miss:
   - id: shippo
     tag: tail
@@ -2486,15 +2464,7 @@
 - id: imaizumi-shunsuke
   name: 今泉俊輔
   date: '2026-10-06'
-  unmapped_danbooru:
-  - tag: dated
-    frequency: 0.5
-  - tag: copyright_name
-    frequency: 0.5
-  - tag: clothes_writing
-    frequency: 0.5
-  - tag: bike_jersey
-    frequency: 0.5
+  unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
     tag: long_hair
@@ -2711,9 +2681,7 @@
 - id: iwakura-lain
   name: 岩倉玲音
   date: '2026-09-29'
-  unmapped_danbooru:
-  - tag: asymmetrical_hair
-    frequency: 0.5517
+  unmapped_danbooru: []
   near_miss:
   - id: muhyoujou
     tag: expressionless
@@ -3408,8 +3376,6 @@
   name: カービィ
   date: '2026-10-06'
   unmapped_danbooru:
-  - tag: no_humans
-    frequency: 0.601
   - tag: blush_stickers
     frequency: 0.4434
   near_miss:
@@ -5574,8 +5540,6 @@
   name: ナナチ
   date: '2026-10-06'
   unmapped_danbooru:
-  - tag: furry
-    frequency: 0.9233
   - tag: whiskers
     frequency: 0.6842
   - tag: horizontal_pupils
@@ -7809,10 +7773,6 @@
   name: しずえ
   date: '2026-10-03'
   unmapped_danbooru:
-  - tag: furry
-    frequency: 0.8906
-  - tag: furry_female
-    frequency: 0.8875
   - tag: body_fur
     frequency: 0.355
   near_miss:
@@ -9432,8 +9392,6 @@
   name: 吉岡双葉
   date: '2026-10-04'
   unmapped_danbooru:
-  - tag: dated
-    frequency: 0.5
   - tag: border
     frequency: 0.5
   - tag: blue_background

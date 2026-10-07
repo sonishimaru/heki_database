@@ -80,6 +80,7 @@ jobs:
             git add -- docs/data/db.json README.md
             if [ -f data/characters_auto.yaml ]; then git add -- data/characters_auto.yaml; fi
             if [ -f data/suggestions.yaml ]; then git add -- data/suggestions.yaml; fi
+          if [ -f data/last_run.yaml ]; then git add -- data/last_run.yaml; fi
             if git diff --cached --quiet; then
               echo "変更なし"
               exit 0
