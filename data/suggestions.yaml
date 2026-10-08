@@ -539,6 +539,16 @@
     frequency: 0.1933
     threshold: 0.4
   new_tag_proposals: []
+- id: armin-arlert
+  name: アルミン・アルレルト
+  date: '2026-10-08'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.3333
+    threshold: 0.35
+  new_tag_proposals: []
 - id: artoria-pendragon
   name: アルトリア・ペンドラゴン
   date: '2026-08-31'
@@ -2075,6 +2085,30 @@
   - name: 邪眼
     axis: 外見 / 痕
     reason: 額にある第三の目（邪眼）についての記述があり、既存語彙に当てはまるものがないため。
+- id: higashikata-jousuke
+  name: 東方仗助
+  date: '2026-10-08'
+  unmapped_danbooru:
+  - tag: peace_symbol
+    frequency: 0.3953
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.4052
+    threshold: 0.5
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.3309
+    threshold: 0.35
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.2726
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.1797
+    threshold: 0.35
+  new_tag_proposals: []
 - id: hikigaya-hachiman
   name: 比企谷八幡
   date: '2026-08-31'
@@ -2828,6 +2862,26 @@
     frequency: 0.243
     threshold: 0.5
   new_tag_proposals: []
+- id: izumi-sagiri
+  name: 和泉紗霧
+  date: '2026-10-08'
+  unmapped_danbooru:
+  - tag: pink_bow
+    frequency: 0.6146
+  near_miss:
+  - id: heyagi
+    tag: pajamas
+    frequency: 0.2393
+    threshold: 0.5
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.2349
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1914
+    threshold: 0.35
+  new_tag_proposals: []
 - id: izumo-fuuko
   name: 出雲風子
   date: '2026-10-04'
@@ -2868,6 +2922,16 @@
   - id: roobu
     tag: robe
     frequency: 0.2651
+    threshold: 0.35
+  new_tag_proposals: []
+- id: jiraiya
+  name: 自来也
+  date: '2026-10-08'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.2222
     threshold: 0.35
   new_tag_proposals: []
 - id: johan-liebert
@@ -4070,6 +4134,26 @@
     tag: facial_mark
     frequency: 0.1702
     threshold: 0.35
+  new_tag_proposals: []
+- id: kuroba-kaito
+  name: 黒羽快斗
+  date: '2026-10-08'
+  unmapped_danbooru:
+  - tag: monocle
+    frequency: 0.3774
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2453
+    threshold: 0.5
+  - id: gaitou
+    tag: cape
+    frequency: 0.2453
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1509
+    threshold: 0.3
   new_tag_proposals: []
 - id: kurokawa-akane
   name: 黒川あかね
@@ -5745,6 +5829,20 @@
     frequency: 0.262
     threshold: 0.35
   new_tag_proposals: []
+- id: naruko-shoukichi
+  name: 鳴子章吉
+  date: '2026-10-08'
+  unmapped_danbooru: []
+  near_miss:
+  - id: sakadachi-gami
+    tag: spiked_hair
+    frequency: 0.3158
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2632
+    threshold: 0.5
+  new_tag_proposals: []
 - id: natsu-dragneel
   name: ナツ・ドラグニル
   date: '2026-09-30'
@@ -6115,6 +6213,34 @@
   - id: kurome
     tag: black_eyes
     frequency: 0.1528
+    threshold: 0.35
+  new_tag_proposals: []
+- id: oikawa-tooru
+  name: 及川徹
+  date: '2026-10-08'
+  unmapped_danbooru:
+  - tag: grey_eyes
+    frequency: 0.6
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.3333
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.3333
+    threshold: 0.35
+  - id: kinpatsu
+    tag: blonde_hair
+    frequency: 0.2
+    threshold: 0.35
+  - id: bob-cut
+    tag: bob_cut
+    frequency: 0.2
+    threshold: 0.35
+  - id: gyaru
+    tag: gyaru
+    frequency: 0.2
     threshold: 0.35
   new_tag_proposals: []
 - id: okabe-rintarou
@@ -7529,6 +7655,28 @@
     frequency: 0.1724
     threshold: 0.35
   new_tag_proposals: []
+- id: shana-2
+  name: アラストール
+  date: '2026-10-08'
+  unmapped_danbooru:
+  - tag: pendant
+    frequency: 0.8247
+  - tag: misaki_high_school_uniform
+    frequency: 0.4948
+  near_miss:
+  - id: ahoge
+    tag: ahoge
+    frequency: 0.2629
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2543
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2113
+    threshold: 0.5
+  new_tag_proposals: []
 - id: sheeta
   name: シータ
   date: '2026-10-04'
@@ -7660,6 +7808,20 @@
   - id: aome
     tag: blue_eyes
     frequency: 0.1616
+    threshold: 0.35
+  new_tag_proposals: []
+- id: shimura-shinpachi
+  name: 志村新八
+  date: '2026-10-08'
+  unmapped_danbooru: []
+  near_miss:
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1702
+    threshold: 0.35
+  - id: mitsuami
+    tag: braid
+    frequency: 0.1702
     threshold: 0.35
   new_tag_proposals: []
 - id: shinohara-natsuki
@@ -7938,6 +8100,22 @@
   - name: 読書好き
     axis: 性格/嗜好
     reason: 新学期までに20冊の本を読む目標を立て、図書館や学校の図書カードに何冊も名前が残るほど本を読んでいるため。
+- id: shulk
+  name: シュルク
+  date: '2026-10-08'
+  unmapped_danbooru:
+  - tag: monado
+    frequency: 0.5735
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2721
+    threshold: 0.35
+  - id: ahoge
+    tag: ahoge
+    frequency: 0.1912
+    threshold: 0.35
+  new_tag_proposals: []
 - id: son-gohan
   name: 孫悟飯
   date: '2026-08-31'
