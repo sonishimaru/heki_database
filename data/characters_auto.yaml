@@ -474,6 +474,27 @@
     - {id: yuuhei, weight: sub, note: '資料: 一年戦争後にティターンズ勢力によって軟禁状態に置かれたため。', src: gemini}
   patterns: []
 
+- id: andre-grandier
+  name: アンドレ・グランディエ
+  kana: あんどれぐらんでぃえ
+  work: ベルサイユのばら
+  year: 1972
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1699-JWjRmQ1GFevw.png'
+    page: 'https://anilist.co/character/1699'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-08'
+  elements:
+    - {id: mekakure, weight: core, note: 'danbooru hair_over_one_eye 75%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 38%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 50%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 38%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 62%（共有 25% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: android-18
   name: 人造人間18号
   kana: じんぞうにんげんじゅうはちごう
@@ -3007,6 +3028,26 @@
     - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 55%', src: danbooru}
   patterns: []
 
+- id: hououji-fuu
+  name: 鳳凰寺風
+  kana: ほうおうじふう
+  work: 魔法騎士レイアース
+  year: 1993
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b520-saKwduKX3WEx.png'
+    page: 'https://anilist.co/character/520'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-08'
+  elements:
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 85%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 76%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: megane, weight: sub, note: 'danbooru glasses 43%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 67%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: howl
   name: ハウル
   kana: はうる
@@ -3275,6 +3316,26 @@
     - {id: kurokami, weight: core, note: 'danbooru black_hair 88%', src: danbooru}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 81%', src: danbooru}
     - {id: tenkousei, weight: sub, note: '資料: 以前は別の場所で優秀なリコリスとして活動していたが、何らかの理由で現在の喫茶リコリコへ移って働くようになった経緯を持つ。', src: gemini}
+  patterns: []
+
+- id: integra-hellsing
+  name: インテグラ
+  kana: いんてぐら
+  work: HELLSING
+  year: 1997
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/n603-APJJRPduEnJV.jpg'
+    page: 'https://anilist.co/character/603'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-08'
+  elements:
+    - {id: megane, weight: core, note: 'danbooru glasses 91%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 68%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 45%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 80%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: inumaki-toge
@@ -4071,6 +4132,26 @@
     - {id: keishou, weight: spice, note: '資料: 小学生の時に母親から「レイニー・ディヴィル」を継承した。', src: gemini}
   patterns: []
 
+- id: kanda-yuu
+  name: 神田ユウ
+  kana: かんだゆう
+  work: 'D.Gray-man'
+  year: 2004
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b140-vbv18x2l0tDw.png'
+    page: 'https://anilist.co/character/140'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-08'
+  elements:
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 57%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 46%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 40%（共有 25% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kaneki-ken
   name: 金木研
   kana: かねきけん
@@ -4604,6 +4685,24 @@
     - {id: futomayu, weight: sub, note: 'danbooru thick_eyebrows 39%', src: danbooru}
     - {id: kabe, weight: sub, note: '資料: 纏流子の到着直後、流子の父親の死に関する情報を持っているように見えたため、流子と対立した。', src: gemini}
     - {id: uragiri, weight: sub, note: '資料: 母親（鬼龍院羅暁）を裏切り、纏流子と同じ目的を共有するようになった。', src: gemini}
+  patterns: []
+
+- id: kishibe-rohan
+  name: 岸辺露伴
+  kana: きしべろはん
+  work: ジョジョの奇妙な冒険
+  year: 1992
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b12659-hgT3g7q7oHnU.png'
+    page: 'https://anilist.co/character/12659'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-08'
+  elements:
+    - {id: piasu, weight: core, note: 'danbooru earrings 79%', src: danbooru}
+    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 45%', src: danbooru}
   patterns: []
 
 - id: kita-ikuyo
@@ -5307,6 +5406,26 @@
     - {id: koushinchou, weight: sub, note: '資料: 身長は195cmである。', src: gemini}
     - {id: kuchiguse, weight: sub, note: '資料: キャッチフレーズ（決め台詞）は「Yare yare daze」である。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 49%', src: danbooru}
+  patterns: []
+
+- id: kuwabara-kazuma
+  name: 桑原和真
+  kana: くわばらかずま
+  work: 幽☆遊☆白書
+  year: 1990
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/n730-H6SRWfoiFjBR.jpg'
+    page: 'https://anilist.co/character/730'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-08'
+  elements:
+    - {id: akagami, weight: sub, note: 'danbooru orange_hair 60%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 47%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 33%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 47%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: l-lawliet
@@ -6340,6 +6459,22 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 80%（共有 19% のため比重を下げた）', src: danbooru}
     - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 81%（共有 20% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 83%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: miyata-ichirou
+  name: 宮田一郎
+  kana: みやたいちろう
+  work: はじめの一歩
+  year: 1989
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-08'
+  elements:
+    - {id: kinniku, weight: core, note: 'danbooru muscular 80%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru boxing_gloves 60%（共有 12% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 80%（共有 25% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 40%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: miyauchi-renge
@@ -10273,6 +10408,28 @@
     - {id: odango, weight: core, note: 'danbooru hair_bun 63%', src: danbooru}
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 89%（共有 19% のため比重を下げた）', src: danbooru}
     - {id: semi-long, weight: sub, note: 'danbooru medium_hair 36%', src: danbooru}
+  patterns: []
+
+- id: trafalgar-law
+  name: トラファルガー・ロー
+  kana: とらふぁるがーろー
+  work: ONE PIECE
+  year: 1997
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b13767-U604OJN9dxCn.jpg'
+    page: 'https://anilist.co/character/13767'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-07'
+  elements:
+    - {id: bushouhige, weight: core, note: 'danbooru facial_hair 67%', src: danbooru}
+    - {id: kokuin, weight: core, note: 'danbooru tattoo 78%', src: danbooru}
+    - {id: piasu, weight: core, note: 'danbooru earrings 66%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 46%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 65%（共有 25% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 65%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: trunks

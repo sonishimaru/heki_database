@@ -378,6 +378,32 @@
     frequency: 0.1504
     threshold: 0.35
   new_tag_proposals: []
+- id: andre-grandier
+  name: アンドレ・グランディエ
+  date: '2026-10-08'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.25
+    threshold: 0.35
+  - id: kusekke
+    tag: messy_hair
+    frequency: 0.25
+    threshold: 0.5
+  - id: buki
+    tag: weapon
+    frequency: 0.25
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.25
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.25
+    threshold: 0.35
+  new_tag_proposals: []
 - id: android-18
   name: 人造人間18号
   date: '2026-08-31'
@@ -2301,6 +2327,32 @@
     frequency: 0.1535
     threshold: 0.35
   new_tag_proposals: []
+- id: hououji-fuu
+  name: 鳳凰寺風
+  date: '2026-10-08'
+  unmapped_danbooru: []
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.2929
+    threshold: 0.35
+  - id: kishi
+    tag: armor
+    frequency: 0.2929
+    threshold: 0.4
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2222
+    threshold: 0.3
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.1919
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.1515
+    threshold: 0.35
+  new_tag_proposals: []
 - id: howl
   name: ハウル
   date: '2026-08-31'
@@ -2527,6 +2579,24 @@
   - id: buki
     tag: weapon
     frequency: 0.1862
+    threshold: 0.35
+  new_tag_proposals: []
+- id: integra-hellsing
+  name: インテグラ
+  date: '2026-10-08'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kasshoku
+    tag: dark_skin
+    frequency: 0.3176
+    threshold: 0.35
+  - id: tabako
+    tag: smoking
+    frequency: 0.2297
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2162
     threshold: 0.35
   new_tag_proposals: []
 - id: inumaki-toge
@@ -3110,6 +3180,38 @@
   - name: ストーキング
     axis: 行動傾向
     reason: 阿良々木暦をストーキングしたという事実が明記されているが既存語彙にないため。
+- id: kanda-yuu
+  name: 神田ユウ
+  date: '2026-10-08'
+  unmapped_danbooru:
+  - tag: black_order_uniform
+    frequency: 0.5055
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4505
+    threshold: 0.5
+  - id: buki
+    tag: weapon
+    frequency: 0.3407
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.3077
+    threshold: 0.35
+  - id: aogami
+    tag: blue_hair
+    frequency: 0.3077
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2637
+    threshold: 0.35
+  - id: gunpuku
+    tag: military_uniform
+    frequency: 0.2198
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kaneki-ken
   name: 金木研
   date: '2026-08-31'
@@ -3557,6 +3659,24 @@
   - id: tebukuro
     tag: gloves
     frequency: 0.1794
+    threshold: 0.35
+  new_tag_proposals: []
+- id: kishibe-rohan
+  name: 岸辺露伴
+  date: '2026-10-08'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.341
+    threshold: 0.35
+  - id: midorigami
+    tag: green_hair
+    frequency: 0.3215
+    threshold: 0.35
+  - id: keshou
+    tag: makeup
+    frequency: 0.1918
     threshold: 0.35
   new_tag_proposals: []
 - id: kita-ikuyo
@@ -4096,6 +4216,18 @@
   - id: midori-no-me
     tag: green_eyes
     frequency: 0.2484
+    threshold: 0.35
+  new_tag_proposals: []
+- id: kuwabara-kazuma
+  name: 桑原和真
+  date: '2026-10-08'
+  unmapped_danbooru:
+  - tag: pompadour
+    frequency: 0.6
+  near_miss:
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.2667
     threshold: 0.35
   new_tag_proposals: []
 - id: l-lawliet
@@ -5086,6 +5218,32 @@
   - id: chairo-no-me
     tag: brown_eyes
     frequency: 0.2683
+    threshold: 0.35
+  new_tag_proposals: []
+- id: miyata-ichirou
+  name: 宮田一郎
+  date: '2026-10-08'
+  unmapped_danbooru:
+  - tag: fighting_stance
+    frequency: 0.4
+  - tag: boxing
+    frequency: 0.4
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2
+    threshold: 0.5
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.2
+    threshold: 0.6
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2
     threshold: 0.35
   new_tag_proposals: []
 - id: miyauchi-renge
@@ -8730,6 +8888,24 @@
   - id: tanpatsu
     tag: short_hair
     frequency: 0.1744
+    threshold: 0.35
+  new_tag_proposals: []
+- id: trafalgar-law
+  name: トラファルガー・ロー
+  date: '2026-10-07'
+  unmapped_danbooru:
+  - tag: chest_tattoo
+    frequency: 0.4444
+  - tag: hand_tattoo
+    frequency: 0.4224
+  near_miss:
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.3201
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.2804
     threshold: 0.35
   new_tag_proposals: []
 - id: trunks
