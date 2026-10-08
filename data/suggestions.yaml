@@ -3183,9 +3183,7 @@
 - id: kanda-yuu
   name: 神田ユウ
   date: '2026-10-08'
-  unmapped_danbooru:
-  - tag: black_order_uniform
-    frequency: 0.5055
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -3477,9 +3475,7 @@
 - id: kirby
   name: カービィ
   date: '2026-10-06'
-  unmapped_danbooru:
-  - tag: blush_stickers
-    frequency: 0.4434
+  unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
     tag: long_hair
@@ -4221,9 +4217,7 @@
 - id: kuwabara-kazuma
   name: 桑原和真
   date: '2026-10-08'
-  unmapped_danbooru:
-  - tag: pompadour
-    frequency: 0.6
+  unmapped_danbooru: []
   near_miss:
   - id: chapatsu
     tag: brown_hair
@@ -4264,9 +4258,7 @@
 - id: laios-touden
   name: ライオス
   date: '2026-10-03'
-  unmapped_danbooru:
-  - tag: pectorals
-    frequency: 0.3647
+  unmapped_danbooru: []
   near_miss:
   - id: kinniku
     tag: muscular
@@ -4359,9 +4351,7 @@
 - id: li-syaoran
   name: 李小狼
   date: '2026-08-31'
-  unmapped_danbooru:
-  - tag: green_hat
-    frequency: 0.352
+  unmapped_danbooru: []
   near_miss:
   - id: chuukafuku
     tag: chinese_clothes
@@ -4469,9 +4459,7 @@
 - id: lucina
   name: ルキナ
   date: '2026-10-02'
-  unmapped_danbooru:
-  - tag: tiara
-    frequency: 0.6581
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -4616,11 +4604,7 @@
 - id: maka-albarn
   name: マカ・アルバーン
   date: '2026-09-29'
-  unmapped_danbooru:
-  - tag: miniskirt
-    frequency: 0.3715
-  - tag: holding_scythe
-    frequency: 0.3609
+  unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
     tag: long_hair
@@ -4652,9 +4636,7 @@
 - id: makimura-kaori
   name: 槇村香
   date: '2026-10-05'
-  unmapped_danbooru:
-  - tag: pink_shirt
-    frequency: 0.3636
+  unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
     tag: long_hair
@@ -4743,11 +4725,7 @@
 - id: makunouchi-ippo
   name: 幕之内一歩
   date: '2026-10-02'
-  unmapped_danbooru:
-  - tag: boxing
-    frequency: 0.4444
-  - tag: boxing_shorts
-    frequency: 0.3889
+  unmapped_danbooru: []
   near_miss:
   - id: chairo-no-me
     tag: brown_eyes
@@ -4770,10 +4748,6 @@
   name: マレニア
   date: '2026-10-04'
   unmapped_danbooru:
-  - tag: prosthetic_arm
-    frequency: 0.7884
-  - tag: winged_helmet
-    frequency: 0.5662
   - tag: single_mechanical_arm
     frequency: 0.4799
   - tag: prosthetic_leg
@@ -5225,8 +5199,6 @@
   date: '2026-10-08'
   unmapped_danbooru:
   - tag: fighting_stance
-    frequency: 0.4
-  - tag: boxing
     frequency: 0.4
   near_miss:
   - id: kusekke
@@ -8441,9 +8413,7 @@
 - id: takamura-mamoru
   name: 鷹村守
   date: '2026-10-04'
-  unmapped_danbooru:
-  - tag: pompadour
-    frequency: 0.5
+  unmapped_danbooru: []
   near_miss:
   - id: kizuato
     tag: scar

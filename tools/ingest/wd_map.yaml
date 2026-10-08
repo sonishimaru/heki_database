@@ -89,7 +89,7 @@ elements:
   kizuato:
     tags: [scar, scar_on_face, scar_across_eye, scar_on_cheek, burn_scar, scar_on_forehead]
   gishi:
-    tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb, automail, robot_arm]
+    tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb, automail, robot_arm, prosthetic_arm]
   kokuin:
     tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo, facial_mark, whisker_markings, facepaint, facial_tattoo, teardrop_facial_mark, forehead_mark, neck_tattoo, number_tattoo]
 
@@ -129,7 +129,7 @@ elements:
   heddohon:
     tags: [headphones, headset, earphones, headphones_around_neck]
   buki:
-    tags: [holding_weapon, weapon, sword, katana, gun, spear, scythe, holding_sword, sheath, knife, shield, legendary_shield_(tate_no_yuusha_no_nariagari), holding_gun, rifle, assault_rifle, handgun]
+    tags: [holding_weapon, weapon, sword, katana, gun, spear, scythe, holding_sword, sheath, knife, shield, legendary_shield_(tate_no_yuusha_no_nariagari), holding_gun, rifle, assault_rifle, handgun, holding_scythe]
 
   # --- 種族（外見から確実に読める範囲だけ） ---
   kemomimi:
@@ -342,7 +342,7 @@ elements:
 
   # --- 16 巡目に昇格した語 ---
   helmet:
-    tags: [helmet, american_football_helmet, bicycle_helmet, motorcycle_helmet, kabuto, horned_helmet]
+    tags: [helmet, american_football_helmet, bicycle_helmet, motorcycle_helmet, kabuto, horned_helmet, winged_helmet]
 
   # --- 18 巡目に昇格した語 ---
   juujin:
@@ -351,3 +351,7 @@ elements:
     note: 獣耳だけの絵にも付くことがあるので閾値を上げている
   kuroi-shiberne:
     tags: [colored_sclera, black_sclera]
+
+  # --- 19 巡目に昇格した語 ---
+  regent:
+    tags: [pompadour, quiff, swept_bangs]

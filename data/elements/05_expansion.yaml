@@ -1272,3 +1272,16 @@
   pairs_with: [hikari-nashi, oni, akuma]
   contrasts_with: []
   tags: [応用]
+
+# --- 19 巡目 ---
+
+- id: regent
+  name: リーゼント
+  kana: りーぜんと
+  aliases: [ポンパドール]
+  axis: appearance.hairstyle
+  summary: 前髪を立てて盛った髪。古い不良の記号。
+  effect: 時代遅れの記号として置き、中身が記号と違うほうに転がす。
+  pairs_with: [kinniku, karetsu]
+  contrasts_with: [megane, kyasha]
+  tags: [応用]

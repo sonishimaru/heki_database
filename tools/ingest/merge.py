@@ -134,6 +134,10 @@ GENERIC_TAGS = {
     "dated", "copyright_name", "clothes_writing", "no_humans",
     "armlet", "spiked_armlet", "spiked_shell", "skull_head", "animal_skull",
     "asymmetrical_hair",
+    # 19 巡目。作品固有の組織の制服（black_order_uniform。ロズワール邸の
+    # メイド服と同じ扱い）、競技そのもの（boxing）、描き方の記号（blush_stickers）。
+    "black_order_uniform", "boxing", "blush_stickers", "pectorals",
+    "green_hat", "miniskirt", "pink_shirt",
     # 作品固有の制服・装備
     "azumanga_daioh's_school_uniform", "kita_high_school_uniform",
     "icho_private_high_school_uniform", "kurumi-gaoka_high_school_uniform",

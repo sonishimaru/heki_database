@@ -3579,7 +3579,8 @@ characters:
     kana: しゅるく
     work: ゼノブレイド
     year: 2010
-    danbooru: shulk
+    # 裸の shulk は 404。Danbooru はゼノブレイドのキャラを作品名で括る
+    danbooru: shulk_(xenoblade)
     anilist: Shulk
   - id: tsukino-mito
     name: 月ノ美兎
@@ -3593,15 +3594,13 @@ characters:
     kana: どらえもん
     work: ドラえもん
     year: 1969
-    danbooru: doraemon
+    # doraemon は作品名のタグ。作品と同名のキャラは _(character) で区別される
+    danbooru: doraemon_(character)
     anilist: Doraemon
-  - id: pikachu
-    name: ピカチュウ
-    kana: ぴかちゅう
-    work: ポケットモンスター
-    year: 1996
-    danbooru: pikachu
-    anilist: Pikachu
+  # ピカチュウは外した。タグが引けなかったからだけではなく、入れたのが
+  # 間違いだった。このデータベースは人物の構成要素を4分類で見るもので、
+  # 性格・関係性・物語役割の軸が引けない対象を入れても埋まらない。
+  # 作品の枠を埋めるために足したのがそもそもの誤り。
   - id: bowser
     name: クッパ
     kana: くっぱ
@@ -3733,7 +3732,8 @@ characters:
     kana: になふぉるとなー
     work: MONSTER
     year: 1994
-    danbooru: nina_fortner
+    # nina_fortner は 404。本名のアンナ・リーベルトのほうを試す
+    danbooru: anna_liebert
     anilist: Nina Fortner
   - id: integra-hellsing
     name: インテグラ
@@ -3763,3 +3763,105 @@ characters:
     year: 2002
     danbooru: alastor_(shakugan_no_shana)
     anilist: Alastor
+  # 13 期目。数を減らして 25 件前後にした。収録 533 名に対して
+  # 埋まっているのは外見だけで、refresh_all で直す先がすでに積んでいる。
+  # キューを枯らさない分だけ足す。リーゼント・獣人・王冠といった
+  # 最近立てた語に当たる人物を優先した。
+  - id: higashikata-jousuke
+    name: 東方仗助
+    kana: ひがしかたじょうすけ
+    work: ジョジョの奇妙な冒険
+    year: 1992
+    danbooru: higashikata_jousuke
+    anilist: Josuke Higashikata
+  - id: kuroba-kaito
+    name: 黒羽快斗
+    kana: くろばかいと
+    work: まじっく快斗
+    year: 1987
+    danbooru: kuroba_kaito
+    anilist: Kaito Kuroba
+  - id: armin-arlert
+    name: アルミン・アルレルト
+    kana: あるみんあるれると
+    work: 進撃の巨人
+    year: 2009
+    danbooru: armin_arlert
+    anilist: Armin Arlert
+  - id: oikawa-tooru
+    name: 及川徹
+    kana: おいかわとおる
+    work: ハイキュー!!
+    year: 2012
+    danbooru: oikawa_tooru
+    anilist: Tooru Oikawa
+  - id: naruko-shoukichi
+    name: 鳴子章吉
+    kana: なるこしょうきち
+    work: 弱虫ペダル
+    year: 2008
+    danbooru: naruko_shoukichi
+    anilist: Shoukichi Naruko
+  - id: shimura-shinpachi
+    name: 志村新八
+    kana: しむらしんぱち
+    work: 銀魂
+    year: 2003
+    danbooru: shimura_shinpachi
+    anilist: Shinpachi Shimura
+  - id: jiraiya
+    name: 自来也
+    kana: じらいや
+    work: NARUTO
+    year: 1999
+    danbooru: jiraiya_(naruto)
+    anilist: Jiraiya
+  - id: abarai-renji
+    name: 阿散井恋次
+    kana: あばらいれんじ
+    work: BLEACH
+    year: 2001
+    danbooru: abarai_renji
+    anilist: Renji Abarai
+  - id: usopp
+    name: ウソップ
+    kana: うそっぷ
+    work: ONE PIECE
+    year: 1997
+    danbooru: usopp
+    anilist: Usopp
+  - id: leorio
+    name: レオリオ
+    kana: れおりお
+    work: HUNTER×HUNTER
+    year: 1998
+    danbooru: leorio_paladiknight
+    anilist: Leorio Paladiknight
+  - id: sango
+    name: 珊瑚
+    kana: さんご
+    work: 犬夜叉
+    year: 1996
+    danbooru: sango
+    anilist: Sango
+  - id: kino-makoto
+    name: 木野まこと
+    kana: きのまこと
+    work: 美少女戦士セーラームーン
+    year: 1992
+    danbooru: kino_makoto
+    anilist: Makoto Kino
+  - id: serval-2
+    name: フェネック
+    kana: ふぇねっく
+    work: けものフレンズ
+    year: 2017
+    danbooru: fennec_(kemono_friends)
+    anilist: Fennec
+  - id: sapphire-ribon
+    name: サファイア
+    kana: さふぁいあ
+    work: リボンの騎士
+    year: 1953
+    danbooru: sapphire_(ribon_no_kishi)
+    anilist: Sapphire
