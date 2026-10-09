@@ -3,6 +3,27 @@
 # このファイルは tools/ingest/auto.py が全体を書き直す。手で編集しないこと。
 # レビューして採用するときは、そのエントリを data/characters.yaml へ移して磨く。
 # 同じ id が characters.yaml にある場合、そちらが優先され、このファイル側は無視される。
+- id: abarai-renji
+  name: 阿散井恋次
+  kana: あばらいれんじ
+  work: BLEACH
+  year: 2001
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b906-ImRjx5HFM8X6.png'
+    page: 'https://anilist.co/character/906'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-09'
+  elements:
+    - {id: kokuin, weight: core, note: 'danbooru tattoo 66%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 85%（共有 10% のため比重を下げた）', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 51%', src: danbooru}
+    - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 49%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 63%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: accelerator
   name: アクセラレータ
   kana: あくせられーた
@@ -2860,22 +2881,21 @@
     page: 'https://anilist.co/character/7373'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-09'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 75%', src: danbooru}
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 83%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
     - {id: jingai, weight: core, note: '資料: 正体は巨大な狼であり、人間を超えた神格の存在である。', src: gemini}
     - {id: kami, weight: core, note: '資料: 狼の豊穣の神として人々に祀られ、毎年の小麦の豊作を保障していた。', src: gemini}
-    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 98% / 資料: 少女の姿をとっているが、大きな狼の耳と尻尾を残している。', src: both}
-    - {id: shippo, weight: core, note: 'danbooru tail 81%', src: danbooru}
+    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 98%', src: danbooru}
+    - {id: shippo, weight: core, note: 'danbooru tail 83%', src: danbooru}
     - {id: aibou, weight: sub, note: '資料: ロレンスと同伴者として頼り合いながら共に旅をする。', src: gemini}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 76%（共有 13% のため比重を下げた）', src: danbooru}
     - {id: kofuu, weight: sub, note: '資料: 高級遊女（花魁）を手本にした独特の話し方をする。', src: gemini}
     - {id: mitame-sabaku, weight: sub, note: '資料: 古くから存在する神・巨大な狼でありながら、ロレンスより若い少女の外見をしている。', src: gemini}
     - {id: nagaremono, weight: sub, note: '資料: パスロの町を脱出し、世界の変化を見るためにロレンスの荷馬車で旅を開始した。', src: gemini}
     - {id: yakusoku, weight: sub, note: '資料: かつてパスロの町の人々と毎年の小麦の豊作を保証する約束を交わしていた。', src: gemini}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 83%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: honda-tooru
@@ -4421,19 +4441,18 @@
     page: 'https://anilist.co/character/1359'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-09'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 90%', src: danbooru}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 88%', src: danbooru}
-    - {id: miko, weight: core, note: 'danbooru miko 75% / 資料: 立場・肩書きが巫女（shrine maiden）である。', src: both}
+    - {id: miko, weight: core, note: 'danbooru miko 75%', src: danbooru}
     - {id: wasou, weight: core, note: 'danbooru japanese_clothes 88%', src: danbooru}
     - {id: fukushuu, weight: sub, note: '資料: 妹の楓から真相を聞き、宿敵である奈落を討つことを決意して単独で追う。', src: gemini}
-    - {id: hakama, weight: sub, note: 'danbooru hakama 56%', src: danbooru}
+    - {id: hakama, weight: sub, note: 'danbooru hakama 55%', src: danbooru}
     - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 42%', src: danbooru}
     - {id: shukuteki, weight: sub, note: '資料: 自身を殺害し犬夜叉と敵対させた奈落が宿敵として設定されている。', src: gemini}
     - {id: taijou, weight: sub, note: '資料: 物語開始の50年前に一度死亡しており、蘇生後も奈落の攻撃を受けて息を引き取る。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 90%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 88%（共有 26% のため比重を下げた）', src: danbooru}
     - {id: saikai, weight: spice, note: '資料: かつて愛した犬夜叉と再会した際、彼を殺して地獄へ連れて行こうとした。', src: gemini}
   patterns: []
 
@@ -4481,6 +4500,31 @@
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 67%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru blazer 67%（共有 19% のため比重を下げた）', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 67%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: kino-makoto
+  name: 木野まこと
+  kana: きのまこと
+  work: 美少女戦士セーラームーン
+  year: 1992
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2825-d7HrsHjJgixD.png'
+    page: 'https://anilist.co/character/2825'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-09'
+  elements:
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 82%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 91%', src: danbooru}
+    - {id: choker, weight: sub, note: 'danbooru choker 49%', src: danbooru}
+    - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 51%', src: danbooru}
+    - {id: piasu, weight: sub, note: 'danbooru earrings 54%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru sailor_collar 56%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 57%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 89%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 67%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kinomoto-sakura
@@ -5653,6 +5697,26 @@
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 37%', src: danbooru}
     - {id: aome, weight: spice, note: 'danbooru blue_eyes 46%（共有 22% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 80%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: leorio
+  name: レオリオ
+  kana: れおりお
+  work: HUNTER×HUNTER
+  year: 1998
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b29-RgzoSeKmDYzl.jpg'
+    page: 'https://anilist.co/character/29'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-09'
+  elements:
+    - {id: megane, weight: sub, note: 'danbooru round_eyewear 51%', src: danbooru}
+    - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 36%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 68%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 60%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: levi
@@ -7777,20 +7841,19 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 92%', src: danbooru}
     - {id: jingai, weight: core, note: '資料: 人間の尺度から外れた500年以上の寿命を持つ吸血鬼であること。', src: gemini}
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 76%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 95%', src: danbooru}
     - {id: kyuuketsuki, weight: core, note: '資料: 500年以上生きた吸血鬼であり、かつてデストピアによって吸血鬼に変えられたこと。', src: gemini}
     - {id: mitame-sabaku, weight: core, note: '資料: 実年齢は598〜599歳であるにもかかわらず、現在は8歳の少女のような姿になっていること。', src: gemini}
     - {id: erufu, weight: sub, note: 'danbooru pointy_ears 46%', src: danbooru}
     - {id: furou, weight: sub, note: '資料: 500年以上を生きており、年齢が598〜599歳であること。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 95%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: kodomo, weight: sub, note: '資料: 現在は弱体化し、8歳の少女のような姿で存在していること。', src: gemini}
     - {id: reijou, weight: sub, note: '資料: かつては絶世の美女の姫であり、「プリンセス・ビューティー」と呼ばれていたこと。', src: gemini}
     - {id: tenraku, weight: sub, note: '資料: 「こよみヴァンプ」の出来事の後に能力と元の性格の痕跡を失って弱体化し、かつての吸血鬼の名を捨てたこと。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: otonashi-kyouko
@@ -7901,12 +7964,10 @@
     page: 'https://anilist.co/character/137079'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-09'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 85%', src: danbooru}
-    - {id: jingai, weight: core, note: 'danbooru horns 95% / 資料: 悪魔に所有された死体である「魔人」であり「血の魔人」とされる記述から。', src: both}
+    - {id: jingai, weight: core, note: 'danbooru horns 95%', src: danbooru}
     - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 66%', src: danbooru}
     - {id: aibou, weight: sub, note: '資料: デンジとパートナーとして共に働いているという記述より。', src: gemini}
     - {id: akuma, weight: sub, note: 'danbooru demon_horns 53%', src: danbooru}
@@ -7915,6 +7976,7 @@
     - {id: koushinchou, weight: sub, note: '資料: 身長170cmと記述されている。', src: gemini}
     - {id: nouryokusha, weight: sub, note: '資料: 自身の体内の血液を自由に操作する能力を持つと明記されているため。', src: gemini}
     - {id: zubora, weight: sub, note: '資料: 滅多に入浴せず、トイレの水を流さないことを自認しているという記述より。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: princess-peach
@@ -9046,6 +9108,31 @@
     - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 65%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 76%（共有 11% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 72%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: serval-2
+  name: フェネック
+  kana: ふぇねっく
+  work: けものフレンズ
+  year: 2017
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/n129204-wMENuXoPk0Ch.jpg'
+    page: 'https://anilist.co/character/129204'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-09'
+  elements:
+    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 99%', src: danbooru}
+    - {id: shippo, weight: core, note: 'danbooru tail 77%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 54%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 86%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: knit, weight: sub, note: 'danbooru sweater 51%', src: danbooru}
+    - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 50%', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru white_hair 39%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 41%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 63%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: sesshoumaru
@@ -10899,6 +10986,24 @@
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 37%', src: danbooru}
     - {id: twintail, weight: sub, note: 'danbooru twintails 42%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 81%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: usopp
+  name: ウソップ
+  kana: うそっぷ
+  work: ONE PIECE
+  year: 1997
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b724-GFGgI9AJQkfy.jpg'
+    page: 'https://anilist.co/character/724'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-09'
+  elements:
+    - {id: bushouhige, weight: sub, note: 'danbooru facial_hair 39%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 61%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: uzaki-hana

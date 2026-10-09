@@ -6,6 +6,36 @@
 # near_miss: 対応はあるが閾値に届かなかったもの（実測値）。閾値を勘で
 #   動かさないための材料。tools/report.py が集計する。
 # 採用・却下は人が決める。処理済みのエントリは消してよい。
+- id: abarai-renji
+  name: 阿散井恋次
+  date: '2026-10-09'
+  unmapped_danbooru:
+  - tag: forehead_tattoo
+    frequency: 0.4085
+  - tag: black_kimono
+    frequency: 0.3803
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.3099
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2394
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.169
+    threshold: 0.5
+  - id: tsurime
+    tag: tsurime
+    frequency: 0.1549
+    threshold: 0.35
+  - id: hakama
+    tag: hakama
+    frequency: 0.1549
+    threshold: 0.35
+  new_tag_proposals: []
 - id: accelerator
   name: アクセラレータ
   date: '2026-08-30'
@@ -2257,20 +2287,20 @@
     reason: 息苦しい生活から抜け出すために両親と家を捨てて単身で上京したため。
 - id: holo
   name: ホロ
-  date: '2026-08-31'
+  date: '2026-10-09'
   unmapped_danbooru: []
   near_miss:
   - id: yaeba
     tag: fang
-    frequency: 0.2301
+    frequency: 0.2295
     threshold: 0.35
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.222
+    frequency: 0.2228
     threshold: 0.5
   - id: pattsun
     tag: blunt_bangs
-    frequency: 0.1637
+    frequency: 0.1643
     threshold: 0.4
   new_tag_proposals: []
 - id: honda-tooru
@@ -3410,24 +3440,24 @@
   new_tag_proposals: []
 - id: kikyou
   name: 桔梗
-  date: '2026-08-31'
+  date: '2026-10-09'
   unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
-    frequency: 0.2482
+    frequency: 0.2464
     threshold: 0.35
   - id: ponytail
     tag: ponytail
-    frequency: 0.2409
+    frequency: 0.2391
     threshold: 0.35
   - id: chairo-no-me
     tag: brown_eyes
-    frequency: 0.219
+    frequency: 0.2174
     threshold: 0.35
   - id: murasaki-no-me
     tag: purple_eyes
-    frequency: 0.2044
+    frequency: 0.2029
     threshold: 0.35
   new_tag_proposals: []
 - id: killua-zoldyck
@@ -3468,6 +3498,34 @@
   - id: futomayu
     tag: thick_eyebrows
     frequency: 0.3333
+    threshold: 0.35
+  new_tag_proposals: []
+- id: kino-makoto
+  name: 木野まこと
+  date: '2026-10-09'
+  unmapped_danbooru:
+  - tag: hair_bobbles
+    frequency: 0.5473
+  - tag: green_sailor_collar
+    frequency: 0.4915
+  - tag: green_skirt
+    frequency: 0.443
+  - tag: pink_bow
+    frequency: 0.4417
+  - tag: green_choker
+    frequency: 0.392
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2367
+    threshold: 0.5
+  - id: oukan
+    tag: tiara
+    frequency: 0.2112
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1566
     threshold: 0.35
   new_tag_proposals: []
 - id: kinomoto-sakura
@@ -4412,6 +4470,20 @@
   - id: buki
     tag: weapon
     frequency: 0.2058
+    threshold: 0.35
+  new_tag_proposals: []
+- id: leorio
+  name: レオリオ
+  date: '2026-10-09'
+  unmapped_danbooru: []
+  near_miss:
+  - id: bushouhige
+    tag: facial_hair
+    frequency: 0.2642
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2264
     threshold: 0.35
   new_tag_proposals: []
 - id: levi
@@ -6469,7 +6541,7 @@
   new_tag_proposals: []
 - id: oshino-shinobu
   name: 忍野忍
-  date: '2026-08-31'
+  date: '2026-10-09'
   unmapped_danbooru: []
   near_miss:
   - id: yaeba
@@ -6478,11 +6550,11 @@
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.214
+    frequency: 0.215
     threshold: 0.35
   - id: hinnyuu
     tag: flat_chest
-    frequency: 0.1595
+    frequency: 0.1605
     threshold: 0.5
   new_tag_proposals: []
 - id: otonashi-kyouko
@@ -6591,20 +6663,20 @@
   new_tag_proposals: []
 - id: power
   name: パワー
-  date: '2026-08-31'
+  date: '2026-10-09'
   unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
     tag: yellow_eyes
-    frequency: 0.3088
+    frequency: 0.3084
     threshold: 0.35
   - id: akame
     tag: red_eyes
-    frequency: 0.2141
+    frequency: 0.2134
     threshold: 0.35
   - id: pinku-gami
     tag: pink_hair
-    frequency: 0.1922
+    frequency: 0.1914
     threshold: 0.35
   new_tag_proposals: []
 - id: princess-peach
@@ -7569,6 +7641,18 @@
     tag: brown_eyes
     frequency: 0.1559
     threshold: 0.35
+  new_tag_proposals: []
+- id: serval-2
+  name: フェネック
+  date: '2026-10-09'
+  unmapped_danbooru:
+  - tag: pink_sweater
+    frequency: 0.4374
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1623
+    threshold: 0.5
   new_tag_proposals: []
 - id: sesshoumaru
   name: 殺生丸
@@ -9270,6 +9354,44 @@
   - id: shippo
     tag: tail
     frequency: 0.1836
+    threshold: 0.35
+  new_tag_proposals: []
+- id: usopp
+  name: ウソップ
+  date: '2026-10-09'
+  unmapped_danbooru:
+  - tag: long_nose
+    frequency: 0.7654
+  - tag: curly_hair
+    frequency: 0.3642
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.3395
+    threshold: 0.35
+  - id: heddohon
+    tag: headphones
+    frequency: 0.2593
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2284
+    threshold: 0.35
+  - id: houtai
+    tag: bandages
+    frequency: 0.2037
+    threshold: 0.35
+  - id: kamen
+    tag: mask
+    frequency: 0.1975
+    threshold: 0.4
+  - id: gaitou
+    tag: cape
+    frequency: 0.1667
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1543
     threshold: 0.35
   new_tag_proposals: []
 - id: uzaki-hana
