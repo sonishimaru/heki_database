@@ -737,15 +737,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
     - {id: joushi, weight: core, note: '資料: 「騎士王」、「過去にして未来の王」と称され上に立つ者である記述。', src: gemini}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 85%', src: danbooru}
     - {id: kishi, weight: core, note: '資料: 「騎士王」と称されるブリテンの伝説的な英雄である記述。', src: gemini}
     - {id: ahoge, weight: sub, note: 'danbooru ahoge 57%', src: danbooru}
     - {id: keiyaku, weight: sub, note: '資料: 聖杯戦争においてサーヴァントとして召喚されマスターとペアを組む記述。', src: gemini}
-    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 45%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 85%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 46%', src: danbooru}
     - {id: mitame-sabaku, weight: sub, note: '資料: 実年齢35歳に対して肉体年齢が15歳である記述。', src: gemini}
     - {id: shoutai, weight: sub, note: '資料: 歴史上では男性（アーサー王）とみなされているが、実際は女性である記述。', src: gemini}
     - {id: tenraku, weight: sub, note: '資料: アンリマユに汚染され、セイバーオルタに変化・変質した記述。', src: gemini}
@@ -2035,12 +2034,12 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 80%', src: danbooru}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 90%', src: danbooru}
     - {id: momoiro-no-me, weight: sub, note: 'danbooru pink_eyes 53%', src: danbooru}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 37%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 38%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 80%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: genos
@@ -3319,15 +3318,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 81%', src: danbooru}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 70%', src: danbooru}
     - {id: shisutaa, weight: core, note: 'danbooru nun 71%', src: danbooru}
-    - {id: aogami, weight: sub, note: 'danbooru blue_hair 45%', src: danbooru}
+    - {id: aogami, weight: sub, note: 'danbooru blue_hair 46%', src: danbooru}
     - {id: joushi, weight: sub, note: '資料: 東京卍會の壱番隊隊長であり、創設メンバーのひとりである。', src: gemini}
     - {id: roobu, weight: sub, note: 'danbooru robe 42%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 81%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: inoue-orihime
@@ -3938,15 +3936,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
     - {id: akogare, weight: core, note: '資料: 魔女シャイニィシャリオに感銘を受け、それに触発されて魔法学校に入学した。', src: gemini}
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 86%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 77%', src: danbooru}
     - {id: majo, weight: core, note: '資料: ルーナノヴァ魔法学校の魔女の生徒であること。', src: gemini}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 57%', src: danbooru}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 38%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 37%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 85%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 77%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kageyama-shigeo
@@ -4314,14 +4311,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 62%', src: danbooru}
-    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 52%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 53%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 55%', src: danbooru}
     - {id: tenkousei, weight: sub, note: '資料: 大阪からの転校生であることが設定および過去の出来事として記述されている。', src: gemini}
     - {id: tennen, weight: sub, note: '資料: 講義中の居眠りや脈絡のない発言により教師を苛立たせている記述がある。', src: gemini}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 62%（共有 21% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: katsuki-yuuri
@@ -6673,18 +6669,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
     - {id: byoujaku, weight: core, note: '資料: 証拠資料には明記がないが、作品を通して重い病気を抱えていることが根幹にあるため。', src: gemini}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
     - {id: kikan-gentei, weight: core, note: '資料: 証拠資料には記載がないが、作品内で残された命の時間が限られている設定が存在するため。', src: gemini}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 96%', src: danbooru}
     - {id: taijou, weight: core, note: '資料: 証拠資料には記述がないが、物語の終盤で病気により死去し退場するため。', src: gemini}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 51%', src: danbooru}
-    - {id: gakki, weight: sub, note: 'danbooru instrument 42%', src: danbooru}
+    - {id: gakki, weight: sub, note: 'danbooru instrument 43%', src: danbooru}
     - {id: ganko, weight: sub, note: '資料: 審査員から多くの批判を受けても楽譜に従わない自身の演奏スタイルを貫いているため。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 95%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 56%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 51%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: mizuhara-chizuru
@@ -6901,12 +6896,12 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: seifuku, weight: core, note: 'danbooru school_uniform 66%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 90%', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 37%', src: danbooru}
     - {id: murasaki-gami, weight: sub, note: 'danbooru purple_hair 54%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 66%（共有 18% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 90%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nagatoro-hayase
@@ -8889,6 +8884,28 @@
     - {id: mimi-ga-akai, weight: spice, note: '資料: 結野アナの大ファンで、定春や結野アナの犬を利用して話しかけようとした際に赤面した。', src: gemini}
   patterns: []
 
+- id: sango
+  name: 珊瑚
+  kana: さんご
+  work: 犬夜叉
+  year: 1996
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b305-6lisPmHtCnLT.png'
+    page: 'https://anilist.co/character/305'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-09'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 53%', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 56%', src: danbooru}
+    - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 43%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 41%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 68%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 45%（共有 26% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: sanji
   name: サンジ
   kana: さんじ
@@ -9006,20 +9023,19 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 69%', src: danbooru}
     - {id: akuma, weight: core, note: '資料: 種族は悪魔（Demon）である。', src: gemini}
     - {id: juusha, weight: core, note: '資料: ファントムハイヴ家の執事兼ボディガードとして仕えている。', src: gemini}
     - {id: keiyaku, weight: core, note: '資料: シエルの意志に従う悪魔の契約（ファウスト的契約）で縛られている。', src: gemini}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 90%', src: danbooru}
     - {id: shitsuji, weight: core, note: '資料: ファントムハイヴ家の執事であり、シエルのボディガードを務めている。', src: gemini}
     - {id: shujuu, weight: core, note: '資料: ファントムハイヴ家の執事兼ボディガードとして仕えており、シエルの意志に従う。', src: gemini}
-    - {id: tebukuro, weight: core, note: 'danbooru gloves 66%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 69%（共有 13% のため比重を下げた）', src: danbooru}
     - {id: jingai, weight: sub, note: '資料: 種族は悪魔（Demon）である。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: 身長は185cm（6''1"）。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 55%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 66%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 90%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 55%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: senjougahara-hitagi
@@ -10585,18 +10601,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 96%', src: danbooru}
     - {id: keishou, weight: core, note: '資料: 遠坂家の魔術の継承者として父から指導を受け継いでいる。', src: gemini}
     - {id: majo, weight: core, note: '資料: 魔術師であり、遠坂家の魔術の継承者として魔術の鍛錬を重ねている。', src: gemini}
     - {id: twintail, weight: core, note: 'danbooru two_side_up 63%', src: danbooru}
     - {id: aidoru, weight: sub, note: '資料: 学校において模範的生徒でありアイドル的存在として認識されている。', src: gemini}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 59%', src: danbooru}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 54%', src: danbooru}
     - {id: shujuu, weight: sub, note: '資料: マスターとしてサーヴァントのアーチャーを召喚し従えている。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 59%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 96%（共有 38% のため比重を下げた）', src: danbooru}
     - {id: kabau, weight: spice, note: '資料: 桜を殺すと決めていたが最終的に殺せず、彼女を傷つけずに自ら攻撃を受けた。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 54%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: tokai-teio
