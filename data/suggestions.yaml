@@ -9,11 +9,7 @@
 - id: abarai-renji
   name: 阿散井恋次
   date: '2026-10-09'
-  unmapped_danbooru:
-  - tag: forehead_tattoo
-    frequency: 0.4085
-  - tag: black_kimono
-    frequency: 0.3803
+  unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
@@ -2118,9 +2114,7 @@
 - id: higashikata-jousuke
   name: 東方仗助
   date: '2026-10-08'
-  unmapped_danbooru:
-  - tag: peace_symbol
-    frequency: 0.3953
+  unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
@@ -2895,9 +2889,7 @@
 - id: izumi-sagiri
   name: 和泉紗霧
   date: '2026-10-08'
-  unmapped_danbooru:
-  - tag: pink_bow
-    frequency: 0.6146
+  unmapped_danbooru: []
   near_miss:
   - id: heyagi
     tag: pajamas
@@ -3503,17 +3495,7 @@
 - id: kino-makoto
   name: 木野まこと
   date: '2026-10-09'
-  unmapped_danbooru:
-  - tag: hair_bobbles
-    frequency: 0.5473
-  - tag: green_sailor_collar
-    frequency: 0.4915
-  - tag: green_skirt
-    frequency: 0.443
-  - tag: pink_bow
-    frequency: 0.4417
-  - tag: green_choker
-    frequency: 0.392
+  unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
@@ -4196,9 +4178,7 @@
 - id: kuroba-kaito
   name: 黒羽快斗
   date: '2026-10-08'
-  unmapped_danbooru:
-  - tag: monocle
-    frequency: 0.3774
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -5887,8 +5867,6 @@
   name: 鳴上悠
   date: '2026-09-30'
   unmapped_danbooru:
-  - tag: grey_eyes
-    frequency: 0.538
   - tag: yasogami_school_uniform
     frequency: 0.3732
   near_miss:
@@ -5977,8 +5955,6 @@
   unmapped_danbooru:
   - tag: little_busters!_school_uniform
     frequency: 0.4547
-  - tag: pink_bow
-    frequency: 0.4489
   near_miss:
   - id: ahoge
     tag: ahoge
@@ -6290,9 +6266,7 @@
 - id: oikawa-tooru
   name: 及川徹
   date: '2026-10-08'
-  unmapped_danbooru:
-  - tag: grey_eyes
-    frequency: 0.6
+  unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
@@ -7710,9 +7684,7 @@
 - id: shana
   name: シャナ
   date: '2026-10-01'
-  unmapped_danbooru:
-  - tag: misaki_high_school_uniform
-    frequency: 0.3725
+  unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
@@ -7745,8 +7717,6 @@
   unmapped_danbooru:
   - tag: pendant
     frequency: 0.8247
-  - tag: misaki_high_school_uniform
-    frequency: 0.4948
   near_miss:
   - id: ahoge
     tag: ahoge
@@ -8482,8 +8452,6 @@
   date: '2026-08-31'
   unmapped_danbooru:
   - tag: chair
-    frequency: 0.5
-  - tag: green_skirt
     frequency: 0.5
   - tag: suzume's_chair
     frequency: 0.4615

@@ -138,6 +138,8 @@ GENERIC_TAGS = {
     # メイド服と同じ扱い）、競技そのもの（boxing）、描き方の記号（blush_stickers）。
     "black_order_uniform", "boxing", "blush_stickers", "pectorals",
     "green_hat", "miniskirt", "pink_shirt",
+    # 20 巡目。色と衣類・髪飾りの組み合わせの続き、記号そのもの（peace_symbol）。
+    "pink_bow", "green_skirt", "green_choker", "peace_symbol", "hair_bobbles",
     # 作品固有の制服・装備
     "azumanga_daioh's_school_uniform", "kita_high_school_uniform",
     "icho_private_high_school_uniform", "kurumi-gaoka_high_school_uniform",

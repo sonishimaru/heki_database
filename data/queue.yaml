@@ -3589,18 +3589,9 @@ characters:
     year: 2018
     danbooru: tsukino_mito
     anilist: Mito Tsukino
-  - id: doraemon
-    name: ドラえもん
-    kana: どらえもん
-    work: ドラえもん
-    year: 1969
-    # doraemon は作品名のタグ。作品と同名のキャラは _(character) で区別される
-    danbooru: doraemon_(character)
-    anilist: Doraemon
-  # ピカチュウは外した。タグが引けなかったからだけではなく、入れたのが
-  # 間違いだった。このデータベースは人物の構成要素を4分類で見るもので、
-  # 性格・関係性・物語役割の軸が引けない対象を入れても埋まらない。
-  # 作品の枠を埋めるために足したのがそもそもの誤り。
+  # ドラえもんは外した。doraemon も doraemon_(character) も 404。
+  # 同作の野比のび太は nobi_nobita で通っているので、作品の側ではなく
+  # 彼のタグが無いらしい。
   - id: bowser
     name: クッパ
     kana: くっぱ
@@ -3842,7 +3833,8 @@ characters:
     kana: さんご
     work: 犬夜叉
     year: 1996
-    danbooru: sango
+    # 短い名前なので Danbooru は作品名で括るはず（レヴィ・キャスカと同じ）
+    danbooru: sango_(inuyasha)
     anilist: Sango
   - id: kino-makoto
     name: 木野まこと

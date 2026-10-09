@@ -91,17 +91,17 @@ elements:
   gishi:
     tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb, automail, robot_arm, prosthetic_arm]
   kokuin:
-    tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo, facial_mark, whisker_markings, facepaint, facial_tattoo, teardrop_facial_mark, forehead_mark, neck_tattoo, number_tattoo]
+    tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo, facial_mark, whisker_markings, facepaint, facial_tattoo, teardrop_facial_mark, forehead_mark, neck_tattoo, number_tattoo, forehead_tattoo]
 
   # --- 服装 ---
   seifuku:
-    tags: [school_uniform, serafuku, gakuran, blazer, sailor_collar, hikarizaka_private_high_school_uniform, kitauji_high_school_uniform, tomoeda_elementary_school_uniform, ouran_high_school_uniform, red_sailor_collar, tsubame_nishi_high_school_uniform, ryouou_school_uniform, advanced_nurturing_high_school_uniform, tokisadame_school_uniform, kiyosumi_school_uniform]
+    tags: [school_uniform, serafuku, gakuran, blazer, sailor_collar, hikarizaka_private_high_school_uniform, kitauji_high_school_uniform, tomoeda_elementary_school_uniform, ouran_high_school_uniform, red_sailor_collar, tsubame_nishi_high_school_uniform, ryouou_school_uniform, advanced_nurturing_high_school_uniform, tokisadame_school_uniform, kiyosumi_school_uniform, misaki_high_school_uniform, green_sailor_collar]
     threshold: 0.3
     note: 着ているかいないかしかない語なので、既定より低くてよい（41件が 0.30〜0.35 で落ちていた）
   hakui:
     tags: [labcoat, lab_coat, white_coat]
   wasou:
-    tags: [kimono, yukata, japanese_clothes, hakama, haori, white_kimono, pink_kimono]
+    tags: [kimono, yukata, japanese_clothes, hakama, haori, white_kimono, pink_kimono, black_kimono]
   gunpuku:
     tags: [military_uniform, epaulettes, peaked_cap, military, aiguillette]
   heyagi:
@@ -116,7 +116,7 @@ elements:
 
   # --- 小物 ---
   megane:
-    tags: [glasses, semi-rimless_eyewear, round_eyewear, rimless_eyewear, sunglasses, tinted_eyewear, green-tinted_eyewear, black-framed_eyewear]
+    tags: [glasses, semi-rimless_eyewear, round_eyewear, rimless_eyewear, sunglasses, tinted_eyewear, green-tinted_eyewear, black-framed_eyewear, monocle]
   tebukuro:
     tags: [gloves, fingerless_gloves, elbow_gloves, black_gloves, white_gloves, under-elbow_gloves, brown_gloves, boxing_gloves]
   choker:
@@ -355,3 +355,7 @@ elements:
   # --- 19 巡目に昇格した語 ---
   regent:
     tags: [pompadour, quiff, swept_bangs]
+
+  # --- 20 巡目に昇格した語 ---
+  haiiro-no-me:
+    tags: [grey_eyes, silver_eyes]

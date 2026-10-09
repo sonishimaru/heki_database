@@ -70,10 +70,15 @@ jobs:
           SAVED=$(mktemp -d)
           cp data/characters_auto.yaml "$SAVED/" 2>/dev/null || true
           cp data/suggestions.yaml "$SAVED/" 2>/dev/null || true
+          cp data/last_run.yaml "$SAVED/" 2>/dev/null || true
 
           for attempt in 1 2 3; do
             git fetch origin "${GITHUB_REF_NAME}"
             git reset --hard "origin/${GITHUB_REF_NAME}"
+            # reset は追跡済みのファイルを origin の内容に戻すので、この回に書いた
+            # 結果の要約が消える。reconcile は突き合わせる対象だけを扱うので、
+            # 要約はここで単に書き戻す。
+            cp "$SAVED/last_run.yaml" data/ 2>/dev/null || true
             python3 tools/ingest/reconcile.py "$SAVED"
             python3 tools/build.py
 

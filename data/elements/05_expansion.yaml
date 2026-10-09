@@ -1285,3 +1285,16 @@
   pairs_with: [kinniku, karetsu]
   contrasts_with: [megane, kyasha]
   tags: [応用]
+
+# --- 20 巡目。目の色に灰色が抜けていた ---
+
+- id: haiiro-no-me
+  name: 灰色の目
+  kana: はいいろのめ
+  aliases: [銀の目]
+  axis: appearance.eyecolor
+  summary: 灰色や銀色の瞳。色が無いほうに寄った目。
+  effect: 感情の読めなさを色で支え、光が入った一度だけを見せる。
+  pairs_with: [shirogami, muhyoujou, hikari-nashi]
+  contrasts_with: []
+  tags: [定番]
