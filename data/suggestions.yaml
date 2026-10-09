@@ -719,16 +719,16 @@
   new_tag_proposals: []
 - id: ayanami-rei
   name: 綾波レイ
-  date: '2026-08-31'
+  date: '2026-10-09'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2924
+    frequency: 0.2948
     threshold: 0.5
   - id: seifuku
     tag: school_uniform
-    frequency: 0.2034
+    frequency: 0.2016
     threshold: 0.3
   new_tag_proposals: []
 - id: ayase-chihaya
@@ -1229,16 +1229,16 @@
   new_tag_proposals: []
 - id: emilia
   name: エミリア
-  date: '2026-08-31'
+  date: '2026-10-09'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.228
+    frequency: 0.2291
     threshold: 0.5
   - id: pattsun
     tag: blunt_bangs
-    frequency: 0.2165
+    frequency: 0.214
     threshold: 0.4
   new_tag_proposals: []
 - id: emiya-kiritsugu
@@ -3196,16 +3196,16 @@
   new_tag_proposals: []
 - id: kamado-tanjirou
   name: 竈門炭治郎
-  date: '2026-08-31'
+  date: '2026-10-09'
   unmapped_danbooru: []
   near_miss:
   - id: akagami
     tag: red_hair
-    frequency: 0.276
+    frequency: 0.273
     threshold: 0.35
   - id: kurokami
     tag: black_hair
-    frequency: 0.1562
+    frequency: 0.1582
     threshold: 0.35
   new_tag_proposals: []
 - id: kamiya-kaoru
@@ -4349,17 +4349,14 @@
   new_tag_proposals: []
 - id: l-lawliet
   name: L
-  date: '2026-08-31'
+  date: '2026-10-09'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
     tag: collarbone
-    frequency: 0.169
+    frequency: 0.1787
     threshold: 0.35
-  new_tag_proposals:
-  - name: 探偵
-    axis: 関係性 / 立場
-    reason: 「世界的に有名な探偵」という明確な職業・立場が示されているが、既存の語彙リストに存在しないため。
+  new_tag_proposals: []
 - id: lacus-clyne
   name: ラクス・クライン
   date: '2026-10-02'
@@ -5579,24 +5576,24 @@
   new_tag_proposals: []
 - id: nagatoro-hayase
   name: 長瀞早瀬
-  date: '2026-08-31'
+  date: '2026-10-09'
   unmapped_danbooru: []
   near_miss:
   - id: yaeba
     tag: fang
-    frequency: 0.3261
+    frequency: 0.3296
     threshold: 0.35
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.3042
+    frequency: 0.3073
     threshold: 0.5
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1715
+    frequency: 0.1724
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.1707
+    frequency: 0.1716
     threshold: 0.3
   new_tag_proposals: []
 - id: nagisa-kaworu
@@ -8685,7 +8682,7 @@
   new_tag_proposals: []
 - id: takanashi-rikka
   name: 小鳥遊六花
-  date: '2026-08-31'
+  date: '2026-10-09'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
@@ -8694,15 +8691,15 @@
     threshold: 0.35
   - id: aogami
     tag: blue_hair
-    frequency: 0.2587
+    frequency: 0.2579
     threshold: 0.35
   - id: midori-no-me
     tag: green_eyes
-    frequency: 0.1837
+    frequency: 0.1839
     threshold: 0.35
   - id: heterochromia
     tag: heterochromia
-    frequency: 0.1647
+    frequency: 0.1637
     threshold: 0.35
   new_tag_proposals: []
 - id: takasu-ryuuji
@@ -8958,13 +8955,17 @@
     reason: 10代の頃に師匠ザンガンから学んだ素早く強力な格闘術を用いて戦うため。
 - id: todoroki-shouto
   name: 轟焦凍
-  date: '2026-08-31'
+  date: '2026-10-09'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.344
+    frequency: 0.3434
     threshold: 0.5
+  - id: haiiro-no-me
+    tag: grey_eyes
+    frequency: 0.2963
+    threshold: 0.35
   new_tag_proposals: []
 - id: tohru
   name: トール
@@ -9478,32 +9479,26 @@
     reason: 資料に「老若男女を問わず人気があり、ロックスタースタイルのカリスマ性を持つ」と明記されているため。
 - id: violet-evergarden
   name: ヴァイオレット・エヴァーガーデン
-  date: '2026-08-31'
+  date: '2026-10-09'
   unmapped_danbooru: []
   near_miss:
-  - id: gishi
-    tag: prosthesis
-    frequency: 0.2511
-    threshold: 0.35
   - id: odango
     tag: hair_bun
     frequency: 0.2511
     threshold: 0.35
+  - id: gishi
+    tag: prosthesis
+    frequency: 0.25
+    threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.237
+    frequency: 0.2382
     threshold: 0.35
   - id: semi-long
     tag: medium_hair
-    frequency: 0.1991
+    frequency: 0.2017
     threshold: 0.35
-  new_tag_proposals:
-  - name: 元少年兵
-    axis: 立場/経歴
-    reason: 孤児として軍隊に属し戦わされていた過去を表すため。
-  - name: 代筆屋（自動手記人形）
-    axis: 職業
-    reason: 手紙の代筆業務を行い人間の感情を学んでいく職能を表すため。
+  new_tag_proposals: []
 - id: watanuki-kimihiro
   name: 四月一日君尋
   date: '2026-10-06'
@@ -9582,20 +9577,20 @@
   new_tag_proposals: []
 - id: yagami-light
   name: 夜神月
-  date: '2026-08-31'
+  date: '2026-10-09'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.3591
+    frequency: 0.3616
     threshold: 0.5
   - id: chairo-no-me
     tag: brown_eyes
-    frequency: 0.3012
+    frequency: 0.2989
     threshold: 0.35
   - id: akame
     tag: red_eyes
-    frequency: 0.2008
+    frequency: 0.1956
     threshold: 0.35
   new_tag_proposals: []
 - id: yagami-taichi

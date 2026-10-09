@@ -853,11 +853,11 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 80%', src: danbooru}
     - {id: aogami, weight: core, note: 'danbooru blue_hair 84%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 79%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 80%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 79%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ayase-chihaya
@@ -1498,13 +1498,13 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 92%', src: danbooru}
-    - {id: erufu, weight: core, note: 'danbooru pointy_ears 70%', src: danbooru}
-    - {id: mitsuami, weight: core, note: 'danbooru braid 60%', src: danbooru}
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 71%', src: danbooru}
+    - {id: mitsuami, weight: core, note: 'danbooru braid 61%', src: danbooru}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 87%', src: danbooru}
     - {id: shirogami, weight: sub, note: 'danbooru white_hair 53%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: emiya-kiritsugu
@@ -2560,19 +2560,18 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 81%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
     - {id: kami, weight: core, note: '資料: 種族が神（God）と記載されている。', src: gemini}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 82%', src: danbooru}
     - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 74%', src: danbooru}
-    - {id: tebukuro, weight: core, note: 'danbooru gloves 71%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 89%', src: danbooru}
     - {id: kataomoi, weight: sub, note: '資料: ベルに深く好意を抱いており、他の女性が彼に興味を示した際に嫉妬を見せている。', src: gemini}
     - {id: shujuu, weight: sub, note: '資料: ベルを見つけてファルナを授け、自身のファミリアの最初の眷属にしている。', src: gemini}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 71%（共有 13% のため比重を下げた）', src: danbooru}
     - {id: teishinchou, weight: sub, note: '資料: プロフィールに身長140cmと記載されている。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 81%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 82%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hibari-kyoya
@@ -4117,18 +4116,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: kizuato, weight: core, note: 'danbooru scar 74%', src: danbooru}
+    - {id: kizuato, weight: core, note: 'danbooru scar 73%', src: danbooru}
     - {id: piasu, weight: core, note: 'danbooru earrings 74%', src: danbooru}
     - {id: wasou, weight: core, note: 'danbooru japanese_clothes 66%', src: danbooru}
-    - {id: akame, weight: sub, note: 'danbooru red_eyes 41%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 40%', src: danbooru}
     - {id: buki, weight: sub, note: 'danbooru weapon 45%', src: danbooru}
-    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 47%', src: danbooru}
     - {id: nouryokusha, weight: sub, note: '資料: 水の呼吸および日の呼吸を戦闘スタイルとし、伝説の日の呼吸の使い手である。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 51%', src: danbooru}
     - {id: toshiue, weight: sub, note: '資料: 妹である禰豆子に対して兄（年上）の立場にある。', src: gemini}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 47%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 51%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kamio-misuzu
@@ -5579,17 +5577,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
     - {id: kuma, weight: core, note: 'danbooru bags_under_eyes 61%', src: danbooru}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 77%', src: danbooru}
     - {id: dokuzetsu, weight: sub, note: '資料: 話し方の特徴として「時に見下すような印象を与えることがあり、皮肉めいた発言をすることもある」と記載されている。', src: gemini}
     - {id: keigo, weight: sub, note: '資料: 話し方の傾向として「一部の人に対して丁寧な態度をとる傾向がある」と記載されている。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: プロフィールに「身長は179cm」と記載されている。', src: gemini}
-    - {id: kurome, weight: sub, note: 'danbooru black_eyes 55%', src: danbooru}
+    - {id: kurome, weight: sub, note: 'danbooru black_eyes 53%', src: danbooru}
     - {id: kusekke, weight: sub, note: 'danbooru hair_between_eyes 50%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 60%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 76%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 60%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: lacus-clyne
@@ -6916,12 +6913,12 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 70%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 85%', src: danbooru}
-    - {id: kasshoku, weight: core, note: 'danbooru tan 87%', src: danbooru}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 84%', src: danbooru}
+    - {id: kasshoku, weight: core, note: 'danbooru tan 86%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 70%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 84%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nagisa-kaworu
@@ -10273,24 +10270,23 @@
     page: 'https://anilist.co/character/65865'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-09'
   elements:
     - {id: ahoge, weight: core, note: 'danbooru ahoge 70%', src: danbooru}
     - {id: chuuni, weight: core, note: '資料: 現役の中二病であり、右目を邪王真眼と呼び、父親の死を否定する信条が中二病の原因となっている。', src: gemini}
-    - {id: gantai, weight: core, note: 'danbooru eyepatch 88% / 資料: 自身の右目に眼帯を装着し、その下にカラーコンタクトレンズをつけている。', src: both}
-    - {id: ponytail, weight: core, note: 'danbooru one_side_up 78%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 68%', src: danbooru}
+    - {id: gantai, weight: core, note: 'danbooru eyepatch 88%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru one_side_up 77%', src: danbooru}
     - {id: akogare, weight: sub, note: '資料: 当時現役の中二病であった勇太と出会い、その格好良さに感銘を受けた。', src: gemini}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 60%', src: danbooru}
     - {id: dojikko, weight: sub, note: '資料: ドジな性格で、よく転んだり物を忘れたりする。', src: gemini}
     - {id: hitomishiri, weight: sub, note: '資料: 初対面の人には警戒心が強く、出会った際に戦闘ポーズをとる。', src: gemini}
     - {id: keiyaku, weight: sub, note: '資料: 勇太に恋をし、彼と契約を結んだ。', src: gemini}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 48%', src: danbooru}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 58%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 57%', src: danbooru}
     - {id: soushitsu, weight: sub, note: '資料: 過去に父親が亡くなったが、それを頑なに否定している。', src: gemini}
     - {id: teishinchou, weight: sub, note: '資料: 15-18歳で身長150cmである。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 59%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 48%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 68%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: takasu-ryuuji
@@ -10543,19 +10539,18 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: akagami, weight: core, note: 'danbooru red_hair 82%', src: danbooru}
     - {id: heterochromia, weight: core, note: 'danbooru heterochromia 61%', src: danbooru}
     - {id: kizuato, weight: core, note: 'danbooru scar 91%', src: danbooru}
     - {id: messhu, weight: core, note: 'danbooru multicolored_hair 96%', src: danbooru}
     - {id: nouryokusha, weight: core, note: '資料: 個性は「半冷半燃（Half-Cold Half-Hot）」で、身体の右側から氷を、左側から炎を発生させることができる。', src: gemini}
     - {id: shirogami, weight: core, note: 'danbooru white_hair 79%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 82%', src: danbooru}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 53%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 82%（共有 10% のため比重を下げた）', src: danbooru}
     - {id: fuguu, weight: sub, note: '資料: 体育祭の出来事を経て変化が生じているが、家庭環境や生い立ちの詳細は与えられた資料内では部分的にしか触れられていないため。', src: gemini}
     - {id: reijou, weight: sub, note: '資料: トップヒーローであるエンデヴァー（Endeavor）の末っ子。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 53%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 82%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: tohru
@@ -11150,18 +11145,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 80%', src: danbooru}
     - {id: gishi, weight: core, note: '資料: 戦争で両腕を失ったため、アダマン銀製の可動式義手を装着している。', src: gemini}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 93%', src: danbooru}
     - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 69%', src: danbooru}
     - {id: mitsuami, weight: core, note: 'danbooru braid 62%', src: danbooru}
     - {id: fuguu, weight: sub, note: '資料: 孤児の少年兵として軍隊で育ち、命令に従って多くの人々を殺害した。', src: gemini}
     - {id: keigo, weight: sub, note: '資料: 軍人生活の習慣から、敬礼をしたり軍人時代の言葉遣いをする癖がある。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 36%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 93%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 44%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 80%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 36%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: watanuki-kimihiro
@@ -11236,14 +11230,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-09'
   elements:
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 66%', src: danbooru}
     - {id: nimensei, weight: core, note: '資料: 学生として生活する一方で、デスノートを使用し自らを新世界の神として理想の世界を作り出そうとする「キラ」としての顔を併せ持っている。', src: gemini}
     - {id: shoutai, weight: core, note: '資料: 高校生や大学生として過ごしながら、「キラ」という通称でデスノートを使用している。', src: gemini}
     - {id: reijou, weight: sub, note: '資料: 父親が警察トップである夜神総一郎である。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 51%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 65%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 52%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yagami-taichi
