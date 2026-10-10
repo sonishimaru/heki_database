@@ -731,6 +731,26 @@
     frequency: 0.2016
     threshold: 0.3
   new_tag_proposals: []
+- id: ayasato-mayoi
+  name: 綾里真宵
+  date: '2026-10-10'
+  unmapped_danbooru:
+  - tag: half_updo
+    frequency: 0.4531
+  near_miss:
+  - id: pattsun
+    tag: blunt_bangs
+    frequency: 0.3727
+    threshold: 0.4
+  - id: ponytail
+    tag: topknot
+    frequency: 0.2306
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1689
+    threshold: 0.35
+  new_tag_proposals: []
 - id: ayase-chihaya
   name: 綾瀬千早
   date: '2026-08-31'
@@ -1030,6 +1050,28 @@
   - name: トラウマ
     axis: 性格 / 傷
     reason: 飛行機や海に対する恐怖症を抱えており、克服するまでの制約となっているため。
+- id: chilchuck
+  name: チルチャック
+  date: '2026-10-10'
+  unmapped_danbooru: []
+  near_miss:
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.3056
+    threshold: 0.35
+  - id: mafuraa
+    tag: scarf
+    frequency: 0.25
+    threshold: 0.35
+  - id: kishi
+    tag: armor
+    frequency: 0.2361
+    threshold: 0.4
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1528
+    threshold: 0.35
+  new_tag_proposals: []
 - id: chun-li
   name: 春麗
   date: '2026-10-02'
@@ -1109,6 +1151,34 @@
   - id: kin-no-me
     tag: yellow_eyes
     frequency: 0.1516
+    threshold: 0.35
+  new_tag_proposals: []
+- id: diamond-hnk
+  name: ダイヤモンド
+  date: '2026-10-10'
+  unmapped_danbooru:
+  - tag: gem_uniform_(houseki_no_kuni)
+    frequency: 0.776
+  - tag: sparkle
+    frequency: 0.3634
+  - tag: crystal_hair
+    frequency: 0.3525
+  near_miss:
+  - id: shirogami
+    tag: white_hair
+    frequency: 0.2432
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2049
+    threshold: 0.5
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.1749
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.1612
     threshold: 0.35
   new_tag_proposals: []
 - id: dio-brando
@@ -3355,6 +3425,20 @@
     frequency: 0.1664
     threshold: 0.35
   new_tag_proposals: []
+- id: kataoka-yuuki
+  name: 片岡優希
+  date: '2026-10-10'
+  unmapped_danbooru: []
+  near_miss:
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.3358
+    threshold: 0.35
+  - id: hinnyuu
+    tag: flat_chest
+    frequency: 0.194
+    threshold: 0.5
+  new_tag_proposals: []
 - id: katsura-kotonoha
   name: 桂言葉
   date: '2026-08-31'
@@ -3386,6 +3470,26 @@
     tag: earrings
     frequency: 0.328
     threshold: 0.5
+  new_tag_proposals: []
+- id: kazanari-tsubasa
+  name: 風鳴翼
+  date: '2026-10-10'
+  unmapped_danbooru:
+  - tag: mechanical_magical_girl
+    frequency: 0.4336
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.457
+    threshold: 0.5
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.3359
+    threshold: 0.5
+  - id: buki
+    tag: weapon
+    frequency: 0.2891
+    threshold: 0.35
   new_tag_proposals: []
 - id: kenshirou
   name: ケンシロウ
@@ -4004,6 +4108,22 @@
   - name: 真面目
     axis: 性格 / 気質
     reason: 資料に『直情的で真面目な妖夢の性格』との記述があるが、既存の語彙に該当がないため。
+- id: koshigaya-natsumi
+  name: 越谷夏海
+  date: '2026-10-10'
+  unmapped_danbooru:
+  - tag: asahigaoka_school_uniform
+    frequency: 0.4188
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1709
+    threshold: 0.5
+  - id: akagami
+    tag: orange_hair
+    frequency: 0.1709
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kotobuki-tsumugi
   name: 琴吹紬
   date: '2026-08-31'
@@ -4430,6 +4550,24 @@
   - name: 革命家
     axis: 物語役割/役割
     reason: 黒の騎士団を結成して民衆の支持を得て帝国に反逆する役割として資料に明記されているため。
+- id: lenalee-lee
+  name: リナリー・リー
+  date: '2026-10-10'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4949
+    threshold: 0.5
+  - id: piasu
+    tag: earrings
+    frequency: 0.345
+    threshold: 0.5
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2526
+    threshold: 0.35
+  new_tag_proposals: []
 - id: leon-s-kennedy
   name: レオン・S・ケネディ
   date: '2026-10-02'
@@ -6209,6 +6347,22 @@
     frequency: 0.1905
     threshold: 0.35
   new_tag_proposals: []
+- id: ogata-hyakunosuke
+  name: 尾形百之助
+  date: '2026-10-10'
+  unmapped_danbooru:
+  - tag: hair_slicked_back
+    frequency: 0.6058
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.343
+    threshold: 0.35
+  - id: gaitou
+    tag: hood
+    frequency: 0.3157
+    threshold: 0.35
+  new_tag_proposals: []
 - id: ogino-chihiro
   name: 荻野千尋
   date: '2026-08-31'
@@ -7840,6 +7994,28 @@
   - name: solo_camper
     axis: 性格 / 気質
     reason: 他者と群れず一人で野外活動を行うソロキャンパーという明確な行動・嗜好様式が示されているため。
+- id: shima-sousuke
+  name: 志摩聡介
+  date: '2026-10-10'
+  unmapped_danbooru: []
+  near_miss:
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.5455
+    threshold: 0.6
+  - id: knit
+    tag: sweater
+    frequency: 0.2727
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.1818
+    threshold: 0.35
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.1818
+    threshold: 0.35
+  new_tag_proposals: []
 - id: shimakaze-kancolle
   name: 島風
   date: '2026-08-31'
@@ -8708,6 +8884,30 @@
     frequency: 0.1765
     threshold: 0.35
   new_tag_proposals: []
+- id: takebe-saori
+  name: 武部沙織
+  date: '2026-10-10'
+  unmapped_danbooru:
+  - tag: ooarai_school_uniform
+    frequency: 0.3634
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3369
+    threshold: 0.5
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.3263
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.2422
+    threshold: 0.35
+  - id: megane
+    tag: glasses
+    frequency: 0.2021
+    threshold: 0.35
+  new_tag_proposals: []
 - id: tanaka-gundam
   name: 田中眼蛇夢
   date: '2026-08-31'
@@ -9328,6 +9528,24 @@
   - id: shippo
     tag: tail
     frequency: 0.1836
+    threshold: 0.35
+  new_tag_proposals: []
+- id: ushiromiya-battler
+  name: 右代宮戦人
+  date: '2026-10-10'
+  unmapped_danbooru: []
+  near_miss:
+  - id: gaitou
+    tag: cape
+    frequency: 0.2261
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.1709
+    threshold: 0.35
+  - id: akame
+    tag: red_eyes
+    frequency: 0.1608
     threshold: 0.35
   new_tag_proposals: []
 - id: usopp
