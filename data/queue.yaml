@@ -177,7 +177,10 @@ characters:
     kana: ほしのあい
     work: 【推しの子】
     year: 2020
-    danbooru: hoshino_ai_(oshi_no_ko)
+    # 8/31 にはこのタグで通っていたのに取得に失敗するようになった。
+    # Danbooru 側で名前が変わったとみて括弧なしを試す。これも駄目なら
+    # 収録済みの記録は残したままキューから外す（記録は消さない）
+    danbooru: hoshino_ai
     anilist: Ai Hoshino
   - id: gasai-yuno
     name: 我妻由乃
@@ -3850,10 +3853,106 @@ characters:
     year: 2017
     danbooru: fennec_(kemono_friends)
     anilist: Fennec
-  - id: sapphire-ribon
-    name: サファイア
-    kana: さふぁいあ
-    work: リボンの騎士
-    year: 1953
-    danbooru: sapphire_(ribon_no_kishi)
-    anilist: Sapphire
+  # サファイアは外した。1953 年の作品は Danbooru にほとんど無く、
+  # タグが引けない。ピカチュウと同じで、作品の幅を広げようとして
+  # 引けない対象を入れたのが誤り。
+  # 14 期目。1 名か 2 名しか入っていない作品の次の一人。
+  # 同じ作品の中で対比が引ける組を優先した。
+  - id: kataoka-yuuki
+    name: 片岡優希
+    kana: かたおかゆうき
+    work: 咲-Saki-
+    year: 2006
+    danbooru: kataoka_yuuki
+    anilist: Yuuki Kataoka
+  - id: naganohara-mio
+    name: 長野原みお
+    kana: ながのはらみお
+    work: 日常
+    year: 2006
+    danbooru: naganohara_mio
+    anilist: Mio Naganohara
+  - id: koshigaya-natsumi
+    name: 越谷夏海
+    kana: こしがやなつみ
+    work: のんのんびより
+    year: 2009
+    danbooru: koshigaya_natsumi
+    anilist: Natsumi Koshigaya
+  - id: takebe-saori
+    name: 武部沙織
+    kana: たけべさおり
+    work: ガールズ&パンツァー
+    year: 2012
+    danbooru: takebe_saori
+    anilist: Saori Takebe
+  - id: kazanari-tsubasa
+    name: 風鳴翼
+    kana: かざなりつばさ
+    work: 戦姫絶唱シンフォギア
+    year: 2012
+    danbooru: kazanari_tsubasa
+    anilist: Tsubasa Kazanari
+  - id: chilchuck
+    name: チルチャック
+    kana: ちるちゃっく
+    work: ダンジョン飯
+    year: 2014
+    danbooru: chilchuck_tims
+    anilist: Chilchuck Tims
+  - id: diamond-hnk
+    name: ダイヤモンド
+    kana: だいやもんど
+    work: 宝石の国
+    year: 2012
+    danbooru: diamond_(houseki_no_kuni)
+    anilist: Diamond
+  - id: ogata-hyakunosuke
+    name: 尾形百之助
+    kana: おがたひゃくのすけ
+    work: ゴールデンカムイ
+    year: 2014
+    danbooru: ogata_hyakunosuke
+    anilist: Hyakunosuke Ogata
+  - id: shima-sousuke
+    name: 志摩聡介
+    kana: しまそうすけ
+    work: スキップとローファー
+    year: 2018
+    danbooru: shima_sousuke
+    anilist: Sousuke Shima
+  - id: lenalee-lee
+    name: リナリー・リー
+    kana: りなりーりー
+    work: D.Gray-man
+    year: 2004
+    danbooru: lenalee_lee
+    anilist: Lenalee Lee
+  - id: ayasato-mayoi
+    name: 綾里真宵
+    kana: あやさとまよい
+    work: 逆転裁判
+    year: 2001
+    danbooru: ayasato_mayoi
+    anilist: Maya Fey
+  - id: ushiromiya-battler
+    name: 右代宮戦人
+    kana: うしろみやばとら
+    work: うみねこのなく頃に
+    year: 2007
+    danbooru: ushiromiya_battler
+    anilist: Battler Ushiromiya
+  - id: matsuno-karamatsu
+    name: 松野カラ松
+    kana: まつのからまつ
+    work: おそ松さん
+    year: 2015
+    danbooru: matsuno_karamatsu
+    anilist: Karamatsu Matsuno
+  - id: meta-knight
+    name: メタナイト
+    kana: めたないと
+    work: 星のカービィ
+    year: 1992
+    danbooru: meta_knight
+    anilist: Meta Knight

@@ -24,7 +24,7 @@ elements:
   tanpatsu:
     tags: [short_hair, very_short_hair, pixie_cut, undercut, buzz_cut]
   twintail:
-    tags: [twintails, low_twintails, short_twintails, two_side_up]
+    tags: [twintails, low_twintails, short_twintails, two_side_up, quad_tails]
   ponytail:
     tags: [ponytail, high_ponytail, side_ponytail, folded_ponytail, one_side_up, low_ponytail, topknot]
   hime-cut:
@@ -89,7 +89,7 @@ elements:
   kizuato:
     tags: [scar, scar_on_face, scar_across_eye, scar_on_cheek, burn_scar, scar_on_forehead]
   gishi:
-    tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb, automail, robot_arm, prosthetic_arm]
+    tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb, automail, robot_arm, prosthetic_arm, single_mechanical_arm, prosthetic_leg]
   kokuin:
     tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo, facial_mark, whisker_markings, facepaint, facial_tattoo, teardrop_facial_mark, forehead_mark, neck_tattoo, number_tattoo, forehead_tattoo]
 

@@ -3894,9 +3894,7 @@
 - id: koiwai-yotsuba
   name: 小岩井よつば
   date: '2026-10-02'
-  unmapped_danbooru:
-  - tag: quad_tails
-    frequency: 0.7532
+  unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
@@ -4881,11 +4879,7 @@
 - id: malenia
   name: マレニア
   date: '2026-10-04'
-  unmapped_danbooru:
-  - tag: single_mechanical_arm
-    frequency: 0.4799
-  - tag: prosthetic_leg
-    frequency: 0.3641
+  unmapped_danbooru: []
   near_miss:
   - id: kishi
     tag: armor
@@ -5009,11 +5003,7 @@
 - id: matsumae-ohana
   name: 松前緒花
   date: '2026-10-02'
-  unmapped_danbooru:
-  - tag: kissuisou_uniform
-    frequency: 0.4615
-  - tag: nakai_(waitress)
-    frequency: 0.4344
+  unmapped_danbooru: []
   near_miss:
   - id: seifuku
     tag: school_uniform
@@ -5063,11 +5053,7 @@
 - id: meliodas
   name: メリオダス
   date: '2026-09-30'
-  unmapped_danbooru:
-  - tag: monochrome
-    frequency: 0.4839
-  - tag: greyscale
-    frequency: 0.3548
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -5235,11 +5221,7 @@
 - id: miyafuji-yoshika
   name: 宮藤芳佳
   date: '2026-10-02'
-  unmapped_danbooru:
-  - tag: school_swimsuit
-    frequency: 0.4348
-  - tag: swimsuit_under_clothes
-    frequency: 0.4118
+  unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
@@ -5319,9 +5301,7 @@
 - id: miyanaga-saki
   name: 宮永咲
   date: '2026-10-03'
-  unmapped_danbooru:
-  - tag: red_neckerchief
-    frequency: 0.5024
+  unmapped_danbooru: []
   near_miss:
   - id: chairo-no-me
     tag: brown_eyes
