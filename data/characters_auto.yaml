@@ -215,18 +215,17 @@
     page: 'https://anilist.co/character/38005'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-10'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 95%', src: danbooru}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 80%', src: danbooru}
-    - {id: mahou-shoujo, weight: core, note: 'danbooru magical_girl 38% / 資料: 立場が魔法少女であり、キュゥべえと契約して時間を操る魔法少女となった。', src: both}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 61%', src: danbooru}
     - {id: taimu-ruupu, weight: core, note: '資料: まどかの死亡・魔法少女化・魔女化を防ぐため、失敗するたびに月の初めへ戻り同じ時間軸を何度も繰り返している。', src: gemini}
     - {id: byoujaku, weight: sub, note: '資料: かつて心臓病で長期間入院していた虚弱な転校生であったと記述されている。', src: gemini}
     - {id: keiyaku, weight: sub, note: '資料: まどかを守る存在になるためにキュゥべえと契約を結び魔法少女となった。', src: gemini}
+    - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 39%', src: danbooru}
     - {id: tenkousei, weight: sub, note: '資料: まどかの学校へ転校してきた転校生であると記述されている。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 95%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 80%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: akiyama-mio
@@ -1511,20 +1510,19 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-10'
   elements:
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 64%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 86%', src: danbooru}
     - {id: renkinjutsushi, weight: core, note: '資料: 12歳で称号を得た史上最年少の国家錬金術師であり、「鋼の錬金術師」の二つ名を持つ。', src: gemini}
     - {id: soushitsu, weight: core, note: '資料: 人体錬成の失敗により自身の右腕・左脚および弟の体を失っており、弟の体を取り戻すことが主な動機となっている。', src: gemini}
     - {id: ahoge, weight: sub, note: 'danbooru ahoge 44%', src: danbooru}
-    - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 57%', src: danbooru}
     - {id: gaitou, weight: sub, note: 'danbooru coat 37%', src: danbooru}
     - {id: gishi, weight: sub, note: '資料: 失った右腕と左脚に、幼馴染のウィンリィが製作・整備するオートメール（義肢）を装着している。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 86%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: mitsuami, weight: sub, note: 'danbooru braid 55%', src: danbooru}
     - {id: osananajimi, weight: sub, note: '資料: 義肢を製作・整備するウィンリィ・ロックベルと幼馴染の関係にある。', src: gemini}
     - {id: shitei, weight: sub, note: '資料: イズミ・カーティスを師匠とする関係が示されている。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 57%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: elias-ainsworth
@@ -3057,14 +3055,18 @@
     page: 'https://anilist.co/character/172759'
     credit: AniList
   analysis:
-    method: gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-10'
   elements:
-    - {id: aidoru, weight: core, note: '資料: 苺プロダクション所属のアイドルグループ「B小町」のリード（センター）を務めるアイドルである記述。', src: gemini}
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 87%', src: danbooru}
+    - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 82%', src: danbooru}
+    - {id: aidoru, weight: sub, note: 'danbooru idol 52%', src: danbooru}
+    - {id: furiru, weight: sub, note: 'danbooru frills 38%', src: danbooru}
     - {id: futago, weight: sub, note: '資料: 双子を妊娠し、双子の母親であるという記述。', src: gemini}
     - {id: himitsu-kyouyuu, weight: sub, note: '資料: 評判を損なわないよう、チームと共に妊娠の事実を隠したという記述。', src: gemini}
     - {id: nimensei, weight: sub, note: '資料: アイドルと母親の両方の役割を果たすことにしたという記述。', src: gemini}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 49%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 84%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hoshino-aquamarine
@@ -3219,15 +3221,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-10'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 62%', src: danbooru}
     - {id: fuguu, weight: sub, note: '資料: 父親から日向一族の跡取りとして訓練を受けたが、後に見切りをつけられて他者（夕日紅）のもとへ委ねられた', src: gemini}
     - {id: kataomoi, weight: sub, note: '資料: アカデミー時代からうずまきナルトに好意を寄せている', src: gemini}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 57%', src: danbooru}
     - {id: ninja, weight: sub, note: '資料: 第一部で下忍、第二部で中忍の階級を持つ', src: gemini}
     - {id: reijou, weight: sub, note: '資料: 日向一族の宗家の長女である', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 61%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 56%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ichihara-yuuko
@@ -4060,13 +4061,13 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-10'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 72%', src: danbooru}
     - {id: akagami, weight: sub, note: 'danbooru orange_hair 46%', src: danbooru}
     - {id: chuukafuku, weight: sub, note: 'danbooru chinese_clothes 49%', src: danbooru}
     - {id: odango, weight: sub, note: 'danbooru hair_bun 57%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 41%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 72%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 42%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kagurazaka-asuna
@@ -4315,15 +4316,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-10'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 68%', src: danbooru}
     - {id: hanyou, weight: core, note: '資料: 元は人間の大学生だったが、喰種の臓器移植により喰種の能力や特性を得て、人間と喰種のどちらの世界にも属せなくなったと記述されているため。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 67%', src: danbooru}
-    - {id: shirogami, weight: sub, note: 'danbooru white_hair 54%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 68%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru white_hair 55%', src: danbooru}
     - {id: fushi, weight: spice, note: '資料: 臓器移植によって「再生能力」といった喰種の能力を得たことが示されているため。', src: gemini}
     - {id: kataomoi, weight: spice, note: '資料: 人間に扮していた女性の喰種である神代利世（リゼ）に好意を寄せていたと記述されているため。', src: gemini}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 67%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kanroji-mitsuri
@@ -5868,17 +5868,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-10'
   elements:
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 78%', src: danbooru}
     - {id: saikyou, weight: core, note: '資料: 「人類最強の兵士」として知られている。', src: gemini}
-    - {id: buki, weight: sub, note: 'danbooru weapon 45%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 44%', src: danbooru}
     - {id: dokuzetsu, weight: sub, note: '資料: 攻撃的でぶっきらぼう（abrasive, blunt）な態度・口調である。', src: gemini}
     - {id: joushi, weight: sub, note: '資料: 調査兵団の特別作戦班（通称：リヴァイ班）の班長（Squad Captain）である。', src: gemini}
     - {id: kireizuki, weight: sub, note: '資料: 自分自身、装備、環境に完全な清潔さを求める潔癖症である。', src: gemini}
     - {id: teishinchou, weight: sub, note: '資料: 身長は160cmである。', src: gemini}
     - {id: fuguu, weight: spice, note: '資料: 兵士になる前、地下街の犯罪に関わっていたという噂がある。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 78%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: li-syaoran
@@ -6381,6 +6380,23 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 82%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: matsuno-karamatsu
+  name: 松野カラ松
+  kana: まつのからまつ
+  work: おそ松さん
+  year: 2015
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/89283-OoDi0NDKca10.jpg'
+    page: 'https://anilist.co/character/89283'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-10'
+  elements:
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 51%（共有 26% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: matsuno-osomatsu
   name: 松野おそ松
   kana: まつのおそまつ
@@ -6443,6 +6459,29 @@
     - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 42%', src: danbooru}
   patterns: []
 
+- id: meta-knight
+  name: メタナイト
+  kana: めたないと
+  work: 星のカービィ
+  year: 1992
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b5472-d2woNUc2CRdm.jpg'
+    page: 'https://anilist.co/character/5472'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-10'
+  elements:
+    - {id: kamen, weight: core, note: 'danbooru mask 81%', src: danbooru}
+    - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 62%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 62%（共有 10% のため比重を下げた）', src: danbooru}
+    - {id: gaitou, weight: sub, note: 'danbooru cape 57%', src: danbooru}
+    - {id: kishi, weight: sub, note: 'danbooru armor 57%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 40%', src: danbooru}
+    - {id: tsubasa, weight: sub, note: 'danbooru wings 36%', src: danbooru}
+  patterns: []
+
 - id: midoriya-izuku
   name: 緑谷出久
   kana: みどりやいずく
@@ -6479,18 +6518,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-10'
   elements:
     - {id: fuguu, weight: core, note: '資料: 幼少期に両親を人身売買業者に殺害されて誘拐された過酷な生い立ちを持つ。', src: gemini}
     - {id: gikyoudai, weight: core, note: '資料: 幼少期に事件の後イェーガー家に引き取られ、エレンとは養兄弟の関係にある。', src: gemini}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 82%', src: danbooru}
-    - {id: mafuraa, weight: core, note: 'danbooru scarf 69%', src: danbooru}
+    - {id: mafuraa, weight: core, note: 'danbooru scarf 68%', src: danbooru}
     - {id: osananajimi, weight: core, note: '資料: エレン・イェーガーやアルミン・アルレルトと幼馴染の関係にある。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 77%', src: danbooru}
     - {id: doryokuka, weight: sub, note: '資料: 訓練を通じて技術を磨き、第104期訓練兵団を首席で卒業した。', src: gemini}
     - {id: kurome, weight: sub, note: 'danbooru black_eyes 39%', src: danbooru}
     - {id: soushitsu, weight: sub, note: '資料: 実父母を殺害され、後に養母であるカルラも巨人に殺害されて失っている。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 82%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 77%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: mikazuki-munechika
@@ -11071,20 +11109,19 @@
     page: 'https://anilist.co/character/2030'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-10'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 77%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 92%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 87%', src: danbooru}
-    - {id: mahou-shoujo, weight: core, note: 'danbooru magical_girl 62% / 資料: セーラームーンに変身して覚醒する。', src: both}
+    - {id: mahou-shoujo, weight: core, note: 'danbooru magical_girl 62%', src: danbooru}
     - {id: odango, weight: core, note: 'danbooru hair_bun 78%', src: danbooru}
     - {id: piasu, weight: core, note: 'danbooru earrings 62%', src: danbooru}
-    - {id: seifuku, weight: core, note: 'danbooru sailor_collar 64%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 90%', src: danbooru}
     - {id: choker, weight: sub, note: 'danbooru choker 59%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 87%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru sailor_collar 64%（共有 19% のため比重を下げた）', src: danbooru}
     - {id: zense, weight: sub, note: '資料: 月のプリンセス・セレニティの現代の生まれ変わりである。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 77%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: tsukishima-kei
@@ -11859,17 +11896,16 @@
     page: 'https://anilist.co/character/127238'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-10'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 85%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 81%', src: danbooru}
     - {id: kioku-soushitsu, weight: core, note: '資料: 生きている頃の記憶を失っている。', src: gemini}
-    - {id: shirogami, weight: core, note: 'danbooru white_hair 72%', src: danbooru}
-    - {id: yuurei, weight: core, note: 'danbooru ghost 63% / 資料: ゆらぎ荘に憑いている幽霊である。', src: both}
-    - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 59%', src: danbooru}
-    - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 35%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru white_hair 71%', src: danbooru}
+    - {id: yuurei, weight: core, note: 'danbooru ghost 62%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 84%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 58%', src: danbooru}
+    - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 36%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 80%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yuuki-asuna
