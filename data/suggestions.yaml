@@ -1869,21 +1869,18 @@
   new_tag_proposals: []
 - id: guts
   name: ガッツ
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: houtai
     tag: bandages
-    frequency: 0.2022
+    frequency: 0.2
     threshold: 0.35
   - id: kinniku
     tag: muscular
-    frequency: 0.1867
+    frequency: 0.1848
     threshold: 0.35
-  new_tag_proposals:
-  - name: youhei
-    axis: 関係性 / 立場
-    reason: 資料に「元傭兵」と明記されているが、既存語彙に「傭兵」が存在しないため。
+  new_tag_proposals: []
 - id: hachiken-yuugo
   name: 八軒勇吾
   date: '2026-08-31'
@@ -2240,7 +2237,7 @@
   new_tag_proposals: []
 - id: himura-kenshin
   name: 緋村剣心
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: murasaki-no-me
@@ -2761,25 +2758,22 @@
   new_tag_proposals: []
 - id: inuyasha
   name: 犬夜叉
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.3616
+    frequency: 0.36
     threshold: 0.5
   - id: kurokami
     tag: black_hair
-    frequency: 0.2009
+    frequency: 0.2
     threshold: 0.35
   - id: hakama
     tag: hakama
-    frequency: 0.1652
+    frequency: 0.1644
     threshold: 0.35
-  new_tag_proposals:
-  - name: 新月の人間化
-    axis: 体質
-    reason: 毎月新月の夜に妖怪の力を失い人間に変化するという重要な体質的制限があるが、語彙に該当がないため。
+  new_tag_proposals: []
 - id: ishida-shouya
   name: 石田将也
   date: '2026-10-06'
@@ -2969,6 +2963,20 @@
     tag: hair_between_eyes
     frequency: 0.243
     threshold: 0.5
+  new_tag_proposals: []
+- id: izumi-konata-2
+  name: 柊かがみ
+  date: '2026-10-11'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tsurime
+    tag: tsurime
+    frequency: 0.2523
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.2179
+    threshold: 0.35
   new_tag_proposals: []
 - id: izumi-sagiri
   name: 和泉紗霧
@@ -3296,6 +3304,28 @@
     frequency: 0.1582
     threshold: 0.35
   new_tag_proposals: []
+- id: kaminari-denki
+  name: 上鳴電気
+  date: '2026-10-11'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2462
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2
+    threshold: 0.35
+  - id: sakadachi-gami
+    tag: spiked_hair
+    frequency: 0.2
+    threshold: 0.35
+  - id: choker
+    tag: choker
+    frequency: 0.1692
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kamiya-kaoru
   name: 神谷薫
   date: '2026-08-31'
@@ -3553,6 +3583,32 @@
   - id: chouhatsu
     tag: long_hair
     frequency: 0.1706
+    threshold: 0.35
+  new_tag_proposals: []
+- id: kikuchi-makoto
+  name: 菊地真
+  date: '2026-10-11'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.286
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.1904
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.1632
+    threshold: 0.5
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.1579
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1557
     threshold: 0.35
   new_tag_proposals: []
 - id: kikyou
@@ -4416,6 +4472,20 @@
   - name: 死神代行
     axis: 関係性 / 立場
     reason: 死神そのものではなく代理の立場を務める記述があるが、専用の語彙が存在しないため。
+- id: kurusu-syo
+  name: 如月千早
+  date: '2026-10-11'
+  unmapped_danbooru: []
+  near_miss:
+  - id: hinnyuu
+    tag: flat_chest
+    frequency: 0.1922
+    threshold: 0.5
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.1557
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kusanagi-motoko
   name: 草薙素子
   date: '2026-08-31'
@@ -5943,29 +6013,26 @@
   new_tag_proposals: []
 - id: nami
   name: ナミ
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
-    frequency: 0.3926
+    frequency: 0.3937
     threshold: 0.5
   - id: sakotsu
     tag: collarbone
-    frequency: 0.2905
+    frequency: 0.2926
     threshold: 0.35
   - id: kin-no-me
     tag: orange_eyes
-    frequency: 0.2711
+    frequency: 0.2672
     threshold: 0.35
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.1981
+    frequency: 0.1964
     threshold: 0.35
-  new_tag_proposals:
-  - name: koukaishi
-    axis: 関係性 / 立場
-    reason: 船の航行や天候予測を専門的に担う役職「航海士（Navigator）」であるため。
+  new_tag_proposals: []
 - id: nanachi
   name: ナナチ
   date: '2026-10-06'
@@ -7461,6 +7528,42 @@
   - id: chouhatsu
     tag: long_hair
     frequency: 0.2667
+    threshold: 0.35
+  new_tag_proposals: []
+- id: sakamata-chloe
+  name: 沙花叉クロヱ
+  date: '2026-10-11'
+  unmapped_danbooru:
+  - tag: black_streaks
+    frequency: 0.8609
+  near_miss:
+  - id: choker
+    tag: collar
+    frequency: 0.3471
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.3167
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.3057
+    threshold: 0.35
+  - id: yaeba
+    tag: fang
+    frequency: 0.2967
+    threshold: 0.35
+  - id: furiru
+    tag: frills
+    frequency: 0.243
+    threshold: 0.35
+  - id: piasu
+    tag: piercing
+    frequency: 0.2073
+    threshold: 0.5
+  - id: gaitou
+    tag: hood
+    frequency: 0.1928
     threshold: 0.35
   new_tag_proposals: []
 - id: sakata-gintoki
@@ -9593,6 +9696,28 @@
     frequency: 0.1608
     threshold: 0.35
   new_tag_proposals: []
+- id: ushiromiya-maria
+  name: 右代宮真里亞
+  date: '2026-10-11'
+  unmapped_danbooru: []
+  near_miss:
+  - id: akagami
+    tag: orange_hair
+    frequency: 0.3079
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2781
+    threshold: 0.35
+  - id: furiru
+    tag: frills
+    frequency: 0.1954
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.1556
+    threshold: 0.35
+  new_tag_proposals: []
 - id: usopp
   name: ウソップ
   date: '2026-10-09'
@@ -9860,6 +9985,18 @@
   - id: semi-long
     tag: medium_hair
     frequency: 0.1562
+    threshold: 0.35
+  new_tag_proposals: []
+- id: yamada-anna
+  name: 山田杏奈
+  date: '2026-10-11'
+  unmapped_danbooru:
+  - tag: mole_on_neck
+    frequency: 0.367
+  near_miss:
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.3342
     threshold: 0.35
   new_tag_proposals: []
 - id: yashiro-nene

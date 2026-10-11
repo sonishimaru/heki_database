@@ -2298,20 +2298,19 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-11'
   elements:
-    - {id: buki, weight: core, note: 'danbooru weapon 65%', src: danbooru}
-    - {id: gaitou, weight: sub, note: 'danbooru cape 38%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 64%（共有 10% のため比重を下げた）', src: danbooru}
+    - {id: gaitou, weight: sub, note: 'danbooru cape 37%', src: danbooru}
     - {id: gishi, weight: sub, note: '資料: 大砲を内蔵した磁気グリップ付きの義手を左前腕に装着している', src: gemini}
     - {id: kinniku, weight: sub, note: '資料: 背が高く筋肉質で', src: gemini}
     - {id: kishi, weight: sub, note: 'danbooru armor 58%', src: danbooru}
-    - {id: kizuato, weight: sub, note: 'danbooru scar 38%', src: danbooru}
+    - {id: kizuato, weight: sub, note: 'danbooru scar 39%', src: danbooru}
     - {id: kokuin, weight: sub, note: '資料: 烙印を押された放浪者である', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: 背が高く筋肉質で', src: gemini}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 51%', src: danbooru}
     - {id: nagaremono, weight: sub, note: '資料: 烙印を押された放浪者である', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 46%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 51%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 46%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hachiken-yuugo
@@ -2740,12 +2739,9 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-11'
   elements:
     - {id: ansatsusha, weight: core, note: '資料: 幕末期に倒幕派に参加し、神業的な抜刀速度から「人斬り抜刀斎」と呼ばれた。', src: gemini}
-    - {id: buki, weight: core, note: 'danbooru weapon 81%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 83%', src: danbooru}
     - {id: kizuato, weight: core, note: 'danbooru scar 78%', src: danbooru}
     - {id: nagaremono, weight: core, note: '資料: 倒幕後、10年間にわたり京都をはじめ日本全国を流浪しながら人々を助け続けた。', src: gemini}
     - {id: nimensei, weight: core, note: '資料: かつて恐れられた「人斬り抜刀斎」としての過去と、不殺の誓いを立て居候先で家事を手伝う穏やかな姿が同居している。', src: gemini}
@@ -2756,6 +2752,7 @@
     - {id: yakusoku, weight: core, note: '資料: 不殺の誓いを立て、新井赤空から受け取った逆刃刀を手にして流浪を続けている。', src: gemini}
     - {id: zaiakukan, weight: core, note: '資料: 自らの手で妻のTomoeを死亡させてしまい、その後に不殺の誓いを立てる決意を固めた。', src: gemini}
     - {id: akagami, weight: sub, note: 'danbooru red_hair 56%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 81%（共有 10% のため比重を下げた）', src: danbooru}
     - {id: fuguu, weight: sub, note: '資料: 幼少期に両親をコレラで亡くし、旅する奴隷一行として身を寄せていた際に山賊の襲撃に遭った。', src: gemini}
     - {id: hakama, weight: sub, note: 'danbooru hakama 41%', src: danbooru}
     - {id: saikyou, weight: sub, note: '資料: 神業的な抜刀速度を持ち、「人斬り抜刀斎」として名を馳せた。', src: gemini}
@@ -2763,6 +2760,7 @@
     - {id: shoutai, weight: sub, note: '資料: 「人斬り抜刀斎」の別名を持ちつつ、明治以降は姿を変えて流浪人として生きていた。', src: gemini}
     - {id: shukuteki, weight: sub, note: '資料: 斎藤一とは対決が引き分けに終わったライバル関係にある。', src: gemini}
     - {id: teishinchou, weight: sub, note: '資料: 成人男性で身長158cmと小柄である。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 83%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hinata-shouyou
@@ -3484,10 +3482,8 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-11'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 95%', src: danbooru}
     - {id: hanyou, weight: core, note: '資料: 犬の妖怪と人間との間に生まれた半妖である。', src: gemini}
     - {id: jingai, weight: core, note: '資料: 犬の妖怪と人間との間に生まれた半妖である。', src: gemini}
     - {id: kemomimi, weight: core, note: 'danbooru animal_ears 77%', src: danbooru}
@@ -3496,8 +3492,9 @@
     - {id: buki, weight: sub, note: 'danbooru weapon 37%', src: danbooru}
     - {id: fushi, weight: sub, note: '資料: 妖怪の力による再生能力を持ち、平均的な人間なら致命的となる傷からも回復できる。', src: gemini}
     - {id: keishou, weight: sub, note: '資料: 武器は爪と父の形見である鉄砕牙。', src: gemini}
-    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 54%', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 53%', src: danbooru}
     - {id: sankaku-kankei, weight: sub, note: '資料: 桔梗（Kikyo）を愛しており、かごめ（Kagome）にも恋愛感情を抱くようになり関係が複雑化する。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 94%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ishida-shouya
@@ -3742,6 +3739,27 @@
     - {id: namida-bokuro, weight: core, note: 'danbooru mole_under_eye 79%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 48%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 91%（共有 36% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: izumi-konata-2
+  name: 柊かがみ
+  kana: ひいらぎかがみ
+  work: らき☆すた
+  year: 2004
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2171-OTMMewsamHiC.png'
+    page: 'https://anilist.co/character/2171'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-11'
+  elements:
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 82%', src: danbooru}
+    - {id: twintail, weight: core, note: 'danbooru twintails 72%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 44%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 50%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 90%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: izumi-sagiri
@@ -4188,6 +4206,26 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 51%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: kaminari-denki
+  name: 上鳴電気
+  kana: かみなりでんき
+  work: 僕のヒーローアカデミア
+  year: 2014
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b89249-Ygc30RlYoFta.png'
+    page: 'https://anilist.co/character/89249'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-11'
+  elements:
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 48%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 77%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 48%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 46%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kamio-misuzu
   name: 神尾観鈴
   kana: かみおみすず
@@ -4525,6 +4563,25 @@
     - {id: kurokami, weight: sub, note: 'danbooru black_hair 36%', src: danbooru}
     - {id: majo, weight: sub, note: 'danbooru broom 55%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 55%', src: danbooru}
+  patterns: []
+
+- id: kikuchi-makoto
+  name: 菊地真
+  kana: きくちまこと
+  work: アイドルマスター
+  year: 2005
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b3987-gOEmGE4gDp7E.png'
+    page: 'https://anilist.co/character/3987'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-11'
+  elements:
+    - {id: ahoge, weight: core, note: 'danbooru antenna_hair 71%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 78%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 88%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kikyou
@@ -5598,6 +5655,25 @@
     - {id: soushitsu, weight: sub, note: '資料: 母親である黒崎真咲は故人である。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 48%', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 36%', src: danbooru}
+  patterns: []
+
+- id: kurusu-syo
+  name: 如月千早
+  kana: きさらぎちはや
+  work: アイドルマスター
+  year: 2005
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b10369-fwWQUkYDaVD1.png'
+    page: 'https://anilist.co/character/10369'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-11'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 84%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 63%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kusanagi-motoko
@@ -7336,16 +7412,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-11'
   elements:
-    - {id: akagami, weight: core, note: 'danbooru orange_hair 91%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 64%', src: danbooru}
-    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 62%', src: danbooru}
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 61%', src: danbooru}
     - {id: shokunin, weight: core, note: '資料: 航海士として直感で天候の微小な変化を認識・分析し、不安定な天候から船と乗組員を何度も救っている。', src: gemini}
-    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 42%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru orange_hair 91%（共有 10% のため比重を下げた）', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 43%', src: danbooru}
     - {id: kokuin, weight: sub, note: 'danbooru tattoo 57%', src: danbooru}
     - {id: muhoumono, weight: sub, note: '資料: 懸賞金が3億6600万ベリー（以前は1600万ベリー、6600万ベリー）掛けられている。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 65%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nanachi
@@ -8923,6 +8998,28 @@
     - {id: tabako, weight: sub, note: 'danbooru cigarette 47%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 40%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 53%', src: danbooru}
+  patterns: []
+
+- id: sakamata-chloe
+  name: 沙花叉クロヱ
+  kana: さかまたくろえ
+  work: ホロライブ
+  year: 2021
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b280955-MsdtbkbUWFK6.png'
+    page: 'https://anilist.co/character/280955'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-11'
+  elements:
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 66%', src: danbooru}
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 95%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru grey_hair 93%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 91%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: mitsuami, weight: sub, note: 'danbooru braid 43%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 38%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: sakata-gintoki
@@ -11282,6 +11379,25 @@
     - {id: aome, weight: spice, note: 'danbooru blue_eyes 40%（共有 22% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: ushiromiya-maria
+  name: 右代宮真里亞
+  kana: うしろみやまりあ
+  work: うみねこのなく頃に
+  year: 2007
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b8555-3PE8JBLkRYXa.png'
+    page: 'https://anilist.co/character/8555'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-11'
+  elements:
+    - {id: oukan, weight: core, note: 'danbooru crown 78%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 51%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 61%（共有 21% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: usopp
   name: ウソップ
   kana: うそっぷ
@@ -11540,6 +11656,26 @@
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 55%', src: danbooru}
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 94%（共有 19% のため比重を下げた）', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 48%', src: danbooru}
+  patterns: []
+
+- id: yamada-anna
+  name: 山田杏奈
+  kana: やまだあんな
+  work: ホリミヤ
+  year: 2011
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b174190-Yl9xcIc5VTtI.jpg'
+    page: 'https://anilist.co/character/174190'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-11'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 76%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 53%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 82%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yashiro-nene
