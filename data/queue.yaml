@@ -3956,3 +3956,60 @@ characters:
     year: 1992
     danbooru: meta_knight
     anilist: Meta Knight
+  # 15 期目。既存作品の次の一人。
+  - id: kikuchi-makoto
+    name: 菊地真
+    kana: きくちまこと
+    work: アイドルマスター
+    year: 2005
+    danbooru: kikuchi_makoto
+    anilist: Makoto Kikuchi
+  - id: ushiromiya-maria
+    name: 右代宮真里亞
+    kana: うしろみやまりあ
+    work: うみねこのなく頃に
+    year: 2007
+    danbooru: ushiromiya_maria
+    anilist: Maria Ushiromiya
+  - id: kaminari-denki
+    name: 上鳴電気
+    kana: かみなりでんき
+    work: 僕のヒーローアカデミア
+    year: 2014
+    danbooru: kaminari_denki
+    anilist: Denki Kaminari
+  - id: izumi-konata-2
+    name: 柊かがみ
+    kana: ひいらぎかがみ
+    work: らき☆すた
+    year: 2004
+    danbooru: hiiragi_kagami
+    anilist: Kagami Hiiragi
+  - id: yamada-anna
+    name: 山田杏奈
+    kana: やまだあんな
+    work: ホリミヤ
+    year: 2011
+    danbooru: yamada_anna
+    anilist: Anna Yamada
+  - id: kurusu-syo
+    name: 如月千早
+    kana: きさらぎちはや
+    work: アイドルマスター
+    year: 2005
+    danbooru: kisaragi_chihaya
+    anilist: Chihaya Kisaragi
+  - id: tendou-arisu
+    name: 天童アリス
+    kana: てんどうありす
+    work: ブルーアーカイブ
+    year: 2021
+    danbooru: tendou_arisu_(blue_archive)
+    anilist: Arisu Tendou
+  - id: sakamata-chloe
+    name: 沙花叉クロヱ
+    kana: さかまたくろえ
+    work: ホロライブ
+    year: 2021
+    danbooru: sakamata_chloe
+    anilist: Sakamata Chloe

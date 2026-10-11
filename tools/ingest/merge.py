@@ -144,6 +144,9 @@ GENERIC_TAGS = {
     # 制服と職種（kissuisou_uniform, nakai_(waitress)）、場面の服（水着）。
     "monochrome", "greyscale", "kissuisou_uniform", "nakai_(waitress)",
     "school_swimsuit", "swimsuit_under_clothes", "red_neckerchief",
+    # 22 巡目。作品固有の制服（gem_uniform。ロズワール邸のメイド服と同じ扱い）、
+    # 効果（sparkle）、髪のまとめ方の細部、色と手袋の組み合わせ。
+    "gem_uniform_(houseki_no_kuni)", "sparkle", "half_updo", "pink_gloves",
     # 作品固有の制服・装備
     "azumanga_daioh's_school_uniform", "kita_high_school_uniform",
     "icho_private_high_school_uniform", "kurumi-gaoka_high_school_uniform",

@@ -734,9 +734,7 @@
 - id: ayasato-mayoi
   name: 綾里真宵
   date: '2026-10-10'
-  unmapped_danbooru:
-  - tag: half_updo
-    frequency: 0.4531
+  unmapped_danbooru: []
   near_miss:
   - id: pattsun
     tag: blunt_bangs
@@ -1156,13 +1154,7 @@
 - id: diamond-hnk
   name: ダイヤモンド
   date: '2026-10-10'
-  unmapped_danbooru:
-  - tag: gem_uniform_(houseki_no_kuni)
-    frequency: 0.776
-  - tag: sparkle
-    frequency: 0.3634
-  - tag: crystal_hair
-    frequency: 0.3525
+  unmapped_danbooru: []
   near_miss:
   - id: shirogami
     tag: white_hair
@@ -2404,9 +2396,7 @@
 - id: hoshino-ai
   name: 星野アイ
   date: '2026-10-10'
-  unmapped_danbooru:
-  - tag: pink_gloves
-    frequency: 0.4288
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -3506,9 +3496,7 @@
 - id: kazanari-tsubasa
   name: 風鳴翼
   date: '2026-10-10'
-  unmapped_danbooru:
-  - tag: mechanical_magical_girl
-    frequency: 0.4336
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -4143,9 +4131,7 @@
 - id: koshigaya-natsumi
   name: 越谷夏海
   date: '2026-10-10'
-  unmapped_danbooru:
-  - tag: asahigaoka_school_uniform
-    frequency: 0.4188
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -5276,8 +5262,6 @@
   name: メタナイト
   date: '2026-10-10'
   unmapped_danbooru:
-  - tag: galaxia_(sword)
-    frequency: 0.5096
   - tag: shoulder_armor
     frequency: 0.4471
   - tag: pauldrons
@@ -6766,11 +6750,7 @@
 - id: phosphophyllite
   name: フォスフォフィライト
   date: '2026-09-30'
-  unmapped_danbooru:
-  - tag: gem_uniform_(houseki_no_kuni)
-    frequency: 0.6087
-  - tag: crystal_hair
-    frequency: 0.4341
+  unmapped_danbooru: []
   near_miss:
   - id: midorigami
     tag: green_hair
@@ -8718,9 +8698,7 @@
 - id: tachibana-hibiki
   name: 立花響
   date: '2026-10-01'
-  unmapped_danbooru:
-  - tag: mechanical_magical_girl
-    frequency: 0.4812
+  unmapped_danbooru: []
   near_miss:
   - id: tebukuro
     tag: gloves
