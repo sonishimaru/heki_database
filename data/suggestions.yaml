@@ -497,36 +497,36 @@
     reason: スキルポイントのほとんどを宴会芸スキルに費やしているという特徴的な記述があるため。
 - id: araragi-koyomi
   name: 阿良々木暦
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: ahoge
     tag: ahoge
-    frequency: 0.3014
+    frequency: 0.2972
     threshold: 0.35
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.2344
+    frequency: 0.2311
     threshold: 0.35
   - id: mekakure
     tag: hair_over_one_eye
-    frequency: 0.2201
+    frequency: 0.2217
     threshold: 0.35
   - id: kin-no-me
     tag: yellow_eyes
-    frequency: 0.1962
+    frequency: 0.1981
     threshold: 0.35
   - id: kinpatsu
     tag: blonde_hair
-    frequency: 0.1914
+    frequency: 0.1934
     threshold: 0.35
   - id: kurome
     tag: black_eyes
-    frequency: 0.177
+    frequency: 0.1745
     threshold: 0.35
   - id: murasaki-gami
     tag: purple_hair
-    frequency: 0.1675
+    frequency: 0.1651
     threshold: 0.35
   new_tag_proposals: []
 - id: arcueid-brunestud
@@ -1017,12 +1017,12 @@
   new_tag_proposals: []
 - id: cc
   name: C.C.
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.1516
+    frequency: 0.1521
     threshold: 0.5
   new_tag_proposals: []
 - id: char-aznable
@@ -1225,16 +1225,16 @@
   new_tag_proposals: []
 - id: edogawa-conan
   name: 江戸川コナン
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.3087
+    frequency: 0.3092
     threshold: 0.5
   - id: kodomo
     tag: child
-    frequency: 0.2617
+    frequency: 0.2566
     threshold: 0.5
   new_tag_proposals: []
 - id: edward-elric
@@ -1935,20 +1935,20 @@
   new_tag_proposals: []
 - id: hakurei-reimu
   name: 博麗霊夢
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: chairo-no-me
     tag: brown_eyes
-    frequency: 0.3166
+    frequency: 0.3168
     threshold: 0.35
   - id: akame
     tag: red_eyes
-    frequency: 0.2922
+    frequency: 0.293
     threshold: 0.35
   - id: kurokami
     tag: black_hair
-    frequency: 0.2392
+    frequency: 0.2348
     threshold: 0.35
   new_tag_proposals: []
 - id: hanagaki-takemichi
@@ -2035,29 +2035,29 @@
   new_tag_proposals: []
 - id: hatake-kakashi
   name: はたけカカシ
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: sakadachi-gami
     tag: spiked_hair
-    frequency: 0.3252
+    frequency: 0.3263
     threshold: 0.35
   - id: heterochromia
     tag: heterochromia
-    frequency: 0.2515
+    frequency: 0.2485
     threshold: 0.35
   - id: kurome
     tag: black_eyes
-    frequency: 0.2393
+    frequency: 0.2335
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.1737
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.1748
+    frequency: 0.1707
     threshold: 0.5
-  - id: buki
-    tag: weapon
-    frequency: 0.1748
-    threshold: 0.35
   new_tag_proposals: []
 - id: hatori-chise
   name: 羽鳥チセ
@@ -3854,12 +3854,12 @@
   new_tag_proposals: []
 - id: kirisame-marisa
   name: 霧雨魔理沙
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
     tag: frills
-    frequency: 0.239
+    frequency: 0.2388
     threshold: 0.35
   new_tag_proposals: []
 - id: kirishima-touka
@@ -4615,29 +4615,26 @@
   new_tag_proposals: []
 - id: lelouch-lamperouge
   name: ルルーシュ・ランペルージ
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.2978
+    frequency: 0.3035
     threshold: 0.35
   - id: tebukuro
     tag: gloves
-    frequency: 0.2453
+    frequency: 0.2458
     threshold: 0.35
   - id: gaitou
     tag: cape
-    frequency: 0.2285
+    frequency: 0.2309
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2172
+    frequency: 0.2253
     threshold: 0.5
-  new_tag_proposals:
-  - name: 革命家
-    axis: 物語役割/役割
-    reason: 黒の騎士団を結成して民衆の支持を得て帝国に反逆する役割として資料に明記されているため。
+  new_tag_proposals: []
 - id: lenalee-lee
   name: リナリー・リー
   date: '2026-10-10'
@@ -5027,29 +5024,26 @@
   new_tag_proposals: []
 - id: makise-kurisu
   name: 牧瀬紅莉栖
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.3912
+    frequency: 0.3942
     threshold: 0.5
   - id: murasaki-no-me
     tag: purple_eyes
-    frequency: 0.3227
+    frequency: 0.3224
     threshold: 0.35
   - id: akagami
     tag: red_hair
-    frequency: 0.2389
+    frequency: 0.2433
     threshold: 0.35
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.1966
+    frequency: 0.1967
     threshold: 0.5
-  new_tag_proposals:
-  - name: kagakusha
-    axis: 関係性 / 立場
-    reason: 大学研究所に所属し論文を執筆する科学者・研究者という属性を正確に表現するため。
+  new_tag_proposals: []
 - id: makishima-yuusuke
   name: 巻島裕介
   date: '2026-10-04'
@@ -6538,20 +6532,24 @@
   new_tag_proposals: []
 - id: okabe-rintarou
   name: 岡部倫太郎
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
     tag: collarbone
-    frequency: 0.327
+    frequency: 0.324
     threshold: 0.35
   - id: kin-no-me
     tag: yellow_eyes
-    frequency: 0.3113
+    frequency: 0.3146
+    threshold: 0.35
+  - id: haiiro-no-me
+    tag: grey_eyes
+    frequency: 0.2804
     threshold: 0.35
   - id: nodobotoke
     tag: adam's_apple
-    frequency: 0.2704
+    frequency: 0.2679
     threshold: 0.35
   new_tag_proposals: []
 - id: okarun
@@ -7496,7 +7494,7 @@
   new_tag_proposals: []
 - id: saitama
   name: サイタマ
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
@@ -7840,17 +7838,14 @@
   new_tag_proposals: []
 - id: senjougahara-hitagi
   name: 戦場ヶ原ひたぎ
-  date: '2026-08-31'
+  date: '2026-10-11'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
     tag: collarbone
-    frequency: 0.2173
+    frequency: 0.2214
     threshold: 0.35
-  new_tag_proposals:
-  - name: 体重消失
-    axis: 設定 / 体質
-    reason: 怪異である不思議なカニとの遭遇により、物理的な体重が消失しているため。
+  new_tag_proposals: []
 - id: senshi
   name: センシ
   date: '2026-10-05'

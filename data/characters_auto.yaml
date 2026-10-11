@@ -649,15 +649,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-11'
   elements:
     - {id: kyuuketsuki, weight: core, note: '資料: 春休みにキスショットに自分の血を与え、吸血鬼になった。忍野メメの助けにより人間に戻ったが、暗闇や遠くが見える視力、平均的な人間より早い治癒力などの後遺症が残っている。', src: gemini}
-    - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 41%', src: danbooru}
     - {id: jiko-gisei, weight: sub, note: '資料: 春休みにキスショットに自分の血を与え、吸血鬼になった。', src: gemini}
     - {id: jikokoutei, weight: sub, note: '資料: 傷物語および化物語以前の出来事により、友人を作ることを避け、他人や自分への信頼を失ったように見えていた。', src: gemini}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 42%', src: danbooru}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 35%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 34%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 41%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 42%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: arcueid-brunestud
@@ -1163,10 +1162,8 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-11'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 96%', src: danbooru}
     - {id: furou, weight: core, note: '資料: 不老不死であり、加齢せず', src: gemini}
     - {id: fushi, weight: core, note: '資料: 不老不死であり、いかなる傷からも時間の経過とともに回復する。', src: gemini}
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 77%', src: danbooru}
@@ -1175,6 +1172,7 @@
     - {id: kokuin, weight: sub, note: '資料: ギアスの力を発動させると額の紋章が光り', src: gemini}
     - {id: nouryokusha, weight: sub, note: '資料: 人々にギアスの力を与えることができる。', src: gemini}
     - {id: yuuhei, weight: sub, note: '資料: 実験目的でブリタニアに囚われ、監禁されていた。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 96%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: char-aznable
@@ -1484,18 +1482,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-11'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 67%', src: danbooru}
     - {id: kodomo, weight: core, note: '資料: 毒薬APTX 4869を飲まされて体が6歳児の大きさに縮み、コナンとして6〜7歳で過ごしている。', src: gemini}
     - {id: megane, weight: core, note: 'danbooru glasses 79%', src: danbooru}
     - {id: mitame-sabaku, weight: core, note: '資料: 実年齢17歳の高校生探偵でありながら、外見は6〜7歳の子供の姿になっている。', src: gemini}
     - {id: shoutai, weight: core, note: '資料: 本名の工藤新一を隠し、江戸川コナンという偽名を用いて正体を伏せている。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 60%', src: danbooru}
-    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 50%', src: danbooru}
     - {id: hogosha, weight: sub, note: '資料: 阿笠の遠戚と偽り、毛利蘭の世話になっている。', src: gemini}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 36%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 68%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 50%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 37%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 61%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: edward-elric
@@ -2359,14 +2356,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-11'
   elements:
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 61%', src: danbooru}
     - {id: miko, weight: core, note: '資料: 博麗神社の巫女（miko）である。', src: gemini}
-    - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 56%', src: danbooru}
-    - {id: furiru, weight: sub, note: 'danbooru frills 45%', src: danbooru}
+    - {id: furiru, weight: sub, note: 'danbooru frills 46%', src: danbooru}
     - {id: nouryokusha, weight: sub, note: '資料: かつての敵を含め、誰とでも仲良くなる能力を持つ。', src: gemini}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 62%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 56%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hanagaki-takemichi
@@ -2478,18 +2474,17 @@
     page: 'https://anilist.co/character/85'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-11'
   elements:
-    - {id: kamen, weight: core, note: 'danbooru mask 70%', src: danbooru}
-    - {id: ninja, weight: core, note: 'danbooru forehead_protector 44% / 資料: 木ノ葉隠れの里のはたけ一族の忍であり、「写輪眼のカカシ」「コピー忍者」として知られる。', src: both}
+    - {id: kamen, weight: core, note: 'danbooru mask 69%', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 40%', src: danbooru}
     - {id: kizuato, weight: sub, note: 'danbooru scar 57%', src: danbooru}
     - {id: koushinchou, weight: sub, note: '資料: 身長は180cm。', src: gemini}
+    - {id: ninja, weight: sub, note: 'danbooru forehead_protector 44%', src: danbooru}
     - {id: shirogami, weight: sub, note: 'danbooru grey_hair 48%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 53%', src: danbooru}
-    - {id: tebukuro, weight: sub, note: 'danbooru gloves 47%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 46%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 54%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hatori-chise
@@ -4862,17 +4857,16 @@
     page: 'https://anilist.co/character/5458'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-11'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 68%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 88%', src: danbooru}
-    - {id: majo, weight: core, note: 'danbooru witch_hat 73% / 資料: 人間の魔法使いであり、高レベルの破壊魔法の能力を持つと記載されているため。', src: both}
+    - {id: majo, weight: core, note: 'danbooru witch_hat 74%', src: danbooru}
     - {id: mitsuami, weight: core, note: 'danbooru braid 64%', src: danbooru}
     - {id: doryokuka, weight: sub, note: '資料: 霊夢と同等のレベルに達するために非常に努力を重ねたと記載されているため。', src: gemini}
     - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 55%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 88%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: shuushuuheki, weight: sub, note: '資料: 熱心な収集家であり、他人のものを返さずに借用していくことがあると記載されているため。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 68%（共有 39% のため比重を下げた）', src: danbooru}
     - {id: zubora, weight: spice, note: '資料: 散らかった家に住んでいるとの記述があるため。', src: gemini}
   patterns: []
 
@@ -5861,8 +5855,7 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-11'
   elements:
     - {id: joushi, weight: core, note: '資料: 黒の騎士団のリーダーとして組織を率いている。', src: gemini}
     - {id: nimensei, weight: core, note: '資料: アッシュフォード学園の高校生・生徒会メンバーでありながら、裏では「ゼロ」として帝国への反逆を行っている。', src: gemini}
@@ -5870,9 +5863,9 @@
     - {id: reijou, weight: core, note: '資料: ブリタニア皇室の第11皇子であること。', src: gemini}
     - {id: shoutai, weight: core, note: '資料: 「ゼロ」という正体を名乗り、革命家として活動している。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: 17-18歳で身長178-183cmと記載されている。', src: gemini}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 57%', src: danbooru}
     - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 59%', src: danbooru}
     - {id: pairotto, weight: sub, note: '資料: 無頼、ガウェイン、蜃気楼、サザーランドなどのナイトメアフレームに搭乗する。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 57%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: lenalee-lee
@@ -6250,16 +6243,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-11'
   elements:
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 68%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 95%', src: danbooru}
     - {id: tsundere, weight: core, note: '作品知識: 主人公の岡部倫太郎に対して素直になれず、素っ気ない態度を取りつつも深い信頼と好意を寄せる。', src: gemini}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 48%', src: danbooru}
     - {id: otaku, weight: sub, note: '作品知識: @ちゃんねる等のネットスラングを熟知しており、ふとした拍子にオタク用語が漏れ出る。', src: gemini}
     - {id: shokunin, weight: sub, note: '資料: 18歳でヴィクトル・コンドリア大学脳科学研究所の研究員を務め、アメリカで有名論文を執筆した専門家である。', src: gemini}
     - {id: tsukkomi, weight: sub, note: '資料・作品知識: 倫太郎からの『マッドサイエンティストのセンスがある』という指摘に同意せず、彼の厨二病的な言動に冷静に反論・否定する常識人の役割を持つ。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 48%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 68%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 95%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: makishima-yuusuke
@@ -7888,20 +7880,19 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-11'
   elements:
-    - {id: bushouhige, weight: core, note: 'danbooru facial_hair 75%', src: danbooru}
+    - {id: bushouhige, weight: core, note: 'danbooru facial_hair 74%', src: danbooru}
     - {id: chuuni, weight: core, note: '資料: 自らを「狂気のマッドサイエンティスト」と称し、携帯電話に向かって意味の通じないひとり言を頻繁に話す記載がある。', src: gemini}
     - {id: hakui, weight: core, note: 'danbooru lab_coat 63%', src: danbooru}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 83%', src: danbooru}
     - {id: taimu-ruupu, weight: core, note: '資料: 提供された資料内に直接の記述はないが、作品『シュタインズ・ゲート』の主人公として時間を繰り返しやり直す物語構造が確実であるため。', src: gemini}
-    - {id: gaitou, weight: sub, note: 'danbooru coat 39%', src: danbooru}
+    - {id: gaitou, weight: sub, note: 'danbooru coat 38%', src: danbooru}
     - {id: koushinchou, weight: sub, note: '資料: 身長177cmと明記されている。', src: gemini}
     - {id: kuchiguse, weight: sub, note: '資料: 会話を締めくくる言葉として「エル・プサイ・コングルゥ」を使用している。', src: gemini}
     - {id: kusekke, weight: sub, note: 'danbooru messy_hair 60%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 47%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 83%（共有 26% のため比重を下げた）', src: danbooru}
     - {id: taijou, weight: spice, note: '資料: 2025年にSERNのラウンダー部隊に捕らえられ、拷問を受けて死亡することが記載されている。', src: gemini}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 47%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: okarun
@@ -8964,14 +8955,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-11'
   elements:
     - {id: bouzu, weight: core, note: 'danbooru bald 61%', src: danbooru}
     - {id: saikyou, weight: core, note: '資料: 超人的な身体能力を得るまで自身を鍛え上げた。', src: gemini}
     - {id: doryokuka, weight: sub, note: '資料: 超人的な身体能力を得るまで自身を鍛え上げた。', src: gemini}
     - {id: gaitou, weight: sub, note: 'danbooru cape 52%', src: danbooru}
-    - {id: tebukuro, weight: sub, note: 'danbooru gloves 46%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 47%', src: danbooru}
   patterns: []
 
 - id: saitou-hajime
@@ -9369,16 +9359,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-11'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 68%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 85%', src: danbooru}
     - {id: dokuzetsu, weight: core, note: '資料: 常に罵倒するような口調で話しており、トラウマ克服後も毒舌の和らぎとして言及されている。', src: gemini}
     - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 87%', src: danbooru}
     - {id: tsundere, weight: core, note: '資料: 自身をツンデレと呼び、罵倒するような口調を見せつつも好意を認めて交際を開始している。', src: gemini}
     - {id: himitsu-kyouyuu, weight: sub, note: '資料: 不思議なカニに遭遇して体重が無くなった秘密を知った者を脅し、接触を避けていた。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 50%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 69%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: senshi
