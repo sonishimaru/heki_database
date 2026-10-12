@@ -5110,6 +5110,20 @@
     frequency: 0.2151
     threshold: 0.35
   new_tag_proposals: []
+- id: mankanshoku-mako
+  name: 満艦飾マコ
+  date: '2026-10-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: bob-cut
+    tag: bob_cut
+    frequency: 0.2824
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.1699
+    threshold: 0.35
+  new_tag_proposals: []
 - id: maomao
   name: 猫猫
   date: '2026-08-31'
@@ -5330,21 +5344,18 @@
   new_tag_proposals: []
 - id: midoriya-izuku
   name: 緑谷出久
-  date: '2026-08-31'
+  date: '2026-10-12'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
     tag: gloves
-    frequency: 0.3393
+    frequency: 0.3345
     threshold: 0.35
   - id: kizuato
     tag: scar
-    frequency: 0.1616
+    frequency: 0.1655
     threshold: 0.35
-  new_tag_proposals:
-  - name: 正義感
-    axis: 性格 / 信条
-    reason: 資料に「生まれ持ったヒーロー気質と強い正義感」と記載されているが、既存の語彙に当てはまるものがないため。
+  new_tag_proposals: []
 - id: mikasa-ackerman
   name: ミカサ・アッカーマン
   date: '2026-10-10'
@@ -7106,6 +7117,26 @@
     frequency: 0.2497
     threshold: 0.35
   new_tag_proposals: []
+- id: renton-thurston
+  name: レントン・サーストン
+  date: '2026-10-12'
+  unmapped_danbooru:
+  - tag: raglan_sleeves
+    frequency: 0.5417
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2083
+    threshold: 0.35
+  - id: heddohon
+    tag: headphones
+    frequency: 0.1667
+    threshold: 0.35
+  - id: aogami
+    tag: aqua_hair
+    frequency: 0.1667
+    threshold: 0.35
+  new_tag_proposals: []
 - id: revy
   name: レヴィ
   date: '2026-10-01'
@@ -8476,6 +8507,16 @@
     frequency: 0.1912
     threshold: 0.35
   new_tag_proposals: []
+- id: simon
+  name: シモン
+  date: '2026-10-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: gaitou
+    tag: coat
+    frequency: 0.1621
+    threshold: 0.35
+  new_tag_proposals: []
 - id: son-gohan
   name: 孫悟飯
   date: '2026-08-31'
@@ -8512,24 +8553,24 @@
   new_tag_proposals: []
 - id: son-goku
   name: 孫悟空
-  date: '2026-08-31'
+  date: '2026-10-12'
   unmapped_danbooru: []
   near_miss:
   - id: kinpatsu
     tag: blonde_hair
-    frequency: 0.2638
+    frequency: 0.2633
     threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.2451
+    frequency: 0.2464
     threshold: 0.35
   - id: shippo
     tag: tail
-    frequency: 0.2326
+    frequency: 0.2336
     threshold: 0.35
   - id: midori-no-me
     tag: green_eyes
-    frequency: 0.1542
+    frequency: 0.1549
     threshold: 0.35
   new_tag_proposals: []
 - id: sonoda-umi
@@ -8653,6 +8694,40 @@
   - id: tebukuro
     tag: gloves
     frequency: 0.1596
+    threshold: 0.35
+  new_tag_proposals: []
+- id: sousuke-aizen
+  name: 藍染惣右介
+  date: '2026-10-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: gantai
+    tag: eyepatch
+    frequency: 0.3358
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3285
+    threshold: 0.5
+  - id: wasou
+    tag: japanese_clothes
+    frequency: 0.2263
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1898
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.1679
+    threshold: 0.35
+  - id: tsurime
+    tag: tsurime
+    frequency: 0.1533
+    threshold: 0.35
+  - id: megane
+    tag: glasses
+    frequency: 0.1533
     threshold: 0.35
   new_tag_proposals: []
 - id: special-week
@@ -9122,6 +9197,24 @@
     frequency: 0.1614
     threshold: 0.35
   new_tag_proposals: []
+- id: tendou-arisu
+  name: 天童アリス
+  date: '2026-10-12'
+  unmapped_danbooru:
+  - tag: rectangular_halo
+    frequency: 0.8688
+  - tag: double-parted_bangs
+    frequency: 0.4202
+  near_miss:
+  - id: meido
+    tag: maid_headdress
+    frequency: 0.1966
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.1854
+    threshold: 0.5
+  new_tag_proposals: []
 - id: tenjou-utena
   name: 天上ウテナ
   date: '2026-10-01'
@@ -9562,20 +9655,20 @@
     reason: 公安局刑事課一係に配属された新任監視官として勤務しているため。
 - id: uchiha-sasuke
   name: うちはサスケ
-  date: '2026-08-31'
+  date: '2026-10-12'
   unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
-    frequency: 0.2829
+    frequency: 0.2868
     threshold: 0.35
   - id: kurome
     tag: black_eyes
-    frequency: 0.2613
+    frequency: 0.266
     threshold: 0.35
   - id: sakadachi-gami
     tag: spiked_hair
-    frequency: 0.2102
+    frequency: 0.2038
     threshold: 0.35
   new_tag_proposals: []
 - id: urameshi-keiko
@@ -9785,32 +9878,36 @@
     reason: 資料において暴力を嫌い「LOVE AND PEACE!」というメッセージを広めようとしていると記述されているため。
 - id: vegeta
   name: ベジータ
-  date: '2026-08-31'
+  date: '2026-10-12'
   unmapped_danbooru: []
   near_miss:
   - id: kishi
     tag: armor
-    frequency: 0.3238
+    frequency: 0.324
     threshold: 0.4
+  - id: yoroi
+    tag: armor
+    frequency: 0.324
+    threshold: 0.35
   - id: kinpatsu
     tag: blonde_hair
-    frequency: 0.293
+    frequency: 0.2916
     threshold: 0.35
   - id: kurokami
     tag: black_hair
-    frequency: 0.2885
+    frequency: 0.2873
     threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.2093
+    frequency: 0.2117
     threshold: 0.35
   - id: midori-no-me
     tag: green_eyes
-    frequency: 0.1938
+    frequency: 0.1944
     threshold: 0.35
   - id: shippo
     tag: tail
-    frequency: 0.152
+    frequency: 0.1533
     threshold: 0.35
   new_tag_proposals: []
 - id: victor-nikiforov
