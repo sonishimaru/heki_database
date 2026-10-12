@@ -1298,3 +1298,16 @@
   pairs_with: [shirogami, muhyoujou, hikari-nashi]
   contrasts_with: []
   tags: [定番]
+
+# --- 23 巡目。服装に鎧が無かった ---
+
+- id: yoroi
+  name: 鎧
+  kana: よろい
+  aliases: [甲冑, アーマー]
+  axis: appearance.costume
+  summary: 身を守るために着る金属。重さと硬さを着ている。
+  effect: 脱げない前提で置き、脱いだ場面の無防備さを際立たせる。
+  pairs_with: [buki, helmet, kinniku]
+  contrasts_with: [heyagi, knit]
+  tags: [定番]

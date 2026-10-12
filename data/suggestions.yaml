@@ -5325,11 +5325,7 @@
 - id: meta-knight
   name: メタナイト
   date: '2026-10-10'
-  unmapped_danbooru:
-  - tag: shoulder_armor
-    frequency: 0.4471
-  - tag: pauldrons
-    frequency: 0.3654
+  unmapped_danbooru: []
   near_miss: []
   new_tag_proposals: []
 - id: midoriya-izuku
@@ -5567,9 +5563,7 @@
 - id: miyata-ichirou
   name: 宮田一郎
   date: '2026-10-08'
-  unmapped_danbooru:
-  - tag: fighting_stance
-    frequency: 0.4
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -5633,13 +5627,7 @@
 - id: mizunashi-akari
   name: 水無灯里
   date: '2026-10-02'
-  unmapped_danbooru:
-  - tag: aria_company_uniform
-    frequency: 0.8427
-  - tag: long_dress
-    frequency: 0.485
-  - tag: blouse
-    frequency: 0.3953
+  unmapped_danbooru: []
   near_miss:
   - id: tebukuro
     tag: gloves
@@ -7122,8 +7110,6 @@
   name: レヴィ
   date: '2026-10-01'
   unmapped_danbooru:
-  - tag: tank_top
-    frequency: 0.5572
   - tag: shoulder_tattoo
     frequency: 0.5052
   - tag: black_tank_top
@@ -7132,8 +7118,6 @@
     frequency: 0.4577
   - tag: handgun
     frequency: 0.4146
-  - tag: short_shorts
-    frequency: 0.367
   near_miss:
   - id: kyonyuu
     tag: large_breasts
@@ -9258,8 +9242,6 @@
   name: ティファ・ロックハート
   date: '2026-08-31'
   unmapped_danbooru:
-  - tag: tank_top
-    frequency: 0.421
   - tag: low-tied_long_hair
     frequency: 0.4144
   near_miss:
@@ -10097,8 +10079,6 @@
   unmapped_danbooru:
   - tag: bikini_top_only
     frequency: 0.5851
-  - tag: short_shorts
-    frequency: 0.3903
   - tag: skull_hair_ornament
     frequency: 0.3548
   near_miss:

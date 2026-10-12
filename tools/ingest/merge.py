@@ -147,6 +147,11 @@ GENERIC_TAGS = {
     # 22 巡目。作品固有の制服（gem_uniform。ロズワール邸のメイド服と同じ扱い）、
     # 効果（sparkle）、髪のまとめ方の細部、色と手袋の組み合わせ。
     "gem_uniform_(houseki_no_kuni)", "sparkle", "half_updo", "pink_gloves",
+    # 23 巡目。tank_top と short_shorts は 3 週間ずっと 2 作品のまま報告に
+    # 残っていた。shorts と shirt をすでに汎用にしているので、同じ粒度の
+    # 衣類としてここで決める。姿勢（fighting_stance）、作品固有の制服も同じ。
+    "tank_top", "short_shorts", "fighting_stance", "aria_company_uniform",
+    "long_dress", "blouse",
     # 作品固有の制服・装備
     "azumanga_daioh's_school_uniform", "kita_high_school_uniform",
     "icho_private_high_school_uniform", "kurumi-gaoka_high_school_uniform",

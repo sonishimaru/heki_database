@@ -4004,7 +4004,9 @@ characters:
     kana: てんどうありす
     work: ブルーアーカイブ
     year: 2021
-    danbooru: tendou_arisu_(blue_archive)
+    # 同作のシロコが shiroko_(blue_archive) で通っている。ブルーアーカイブは
+    # 名前のほうだけを括るらしいので、姓を外す
+    danbooru: arisu_(blue_archive)
     anilist: Arisu Tendou
   - id: sakamata-chloe
     name: 沙花叉クロヱ
@@ -4013,3 +4015,46 @@ characters:
     year: 2021
     danbooru: sakamata_chloe
     anilist: Sakamata Chloe
+  # 16 期目。既存作品の主役級で抜けていた分。
+  - id: saotome-alto
+    name: 早乙女アルト
+    kana: さおとめあると
+    work: マクロスF
+    year: 2008
+    danbooru: saotome_alto
+    anilist: Alto Saotome
+  - id: renton-thurston
+    name: レントン・サーストン
+    kana: れんとんさーすとん
+    work: 交響詩篇エウレカセブン
+    year: 2005
+    danbooru: renton_thurston
+    anilist: Renton Thurston
+  - id: simon
+    name: シモン
+    kana: しもん
+    work: 天元突破グレンラガン
+    year: 2007
+    danbooru: simon_(ttgl)
+    anilist: Simon
+  - id: kamina
+    name: カミナ
+    kana: かみな
+    work: 天元突破グレンラガン
+    year: 2007
+    danbooru: kamina
+    anilist: Kamina
+  - id: mankanshoku-mako
+    name: 満艦飾マコ
+    kana: まんかんしょくまこ
+    work: キルラキル
+    year: 2013
+    danbooru: mankanshoku_mako
+    anilist: Mako Mankanshoku
+  - id: sousuke-aizen
+    name: 藍染惣右介
+    kana: あいぜんそうすけ
+    work: BLEACH
+    year: 2001
+    danbooru: aizen_sousuke
+    anilist: Sousuke Aizen

@@ -359,3 +359,7 @@ elements:
   # --- 20 巡目に昇格した語 ---
   haiiro-no-me:
     tags: [grey_eyes, silver_eyes]
+
+  # --- 23 巡目に昇格した語 ---
+  yoroi:
+    tags: [armor, armored_dress, shoulder_armor, pauldrons, breastplate, gauntlets, plate_armor]
