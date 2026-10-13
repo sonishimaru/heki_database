@@ -152,6 +152,10 @@ GENERIC_TAGS = {
     # 衣類としてここで決める。姿勢（fighting_stance）、作品固有の制服も同じ。
     "tank_top", "short_shorts", "fighting_stance", "aria_company_uniform",
     "long_dress", "blouse",
+    # 24 巡目。小道具の本、色と衣類の組み合わせ、帽子の種類（hat を汎用に
+    # しているので揃える）。office_lady と hoodie は記号職・服装の候補として
+    # 残す（まだ 1 作品）。
+    "book", "blue_choker", "blue_necktie", "straw_hat",
     # 作品固有の制服・装備
     "azumanga_daioh's_school_uniform", "kita_high_school_uniform",
     "icho_private_high_school_uniform", "kurumi-gaoka_high_school_uniform",

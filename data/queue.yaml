@@ -561,7 +561,10 @@ characters:
     kana: るぱんさんせい
     work: ルパン三世
     year: 1967
-    danbooru: lupin_iii
+    # 8/31 には通っていたのに取得できなくなった。作品と同名のキャラなので
+    # _(character) 付きを試す。これも駄目なら収録済みの記録は残したまま
+    # キューから外す（星野アイと同じ扱い）
+    danbooru: lupin_iii_(character)
     anilist: Lupin III
   - id: mine-fujiko
     name: 峰不二子
@@ -4042,7 +4045,8 @@ characters:
     kana: かみな
     work: 天元突破グレンラガン
     year: 2007
-    danbooru: kamina
+    # 同作のシモンが simon_(ttgl) で通っている。グレンラガンは _(ttgl) で括る
+    danbooru: kamina_(ttgl)
     anilist: Kamina
   - id: mankanshoku-mako
     name: 満艦飾マコ
@@ -4058,3 +4062,74 @@ characters:
     year: 2001
     danbooru: aizen_sousuke
     anilist: Sousuke Aizen
+  # 17 期目。ゲーム作品の二人目。同じ作品の中の対比を取る。
+  - id: nijima-makoto
+    name: 新島真
+    kana: にいじままこと
+    work: ペルソナ5
+    year: 2016
+    danbooru: niijima_makoto
+    anilist: Makoto Niijima
+  - id: satonaka-chie
+    name: 里中千枝
+    kana: さとなかちえ
+    work: ペルソナ4
+    year: 2008
+    danbooru: satonaka_chie
+    anilist: Chie Satonaka
+  - id: barret-wallace
+    name: バレット・ウォーレス
+    kana: ばれっとうぉーれす
+    work: ファイナルファンタジーVII
+    year: 1997
+    danbooru: barret_wallace
+    anilist: Barret Wallace
+  - id: auron
+    name: アーロン
+    kana: あーろん
+    work: ファイナルファンタジーX
+    year: 2001
+    danbooru: auron_(ff10)
+    anilist: Auron
+  - id: ganondorf
+    name: ガノンドロフ
+    kana: がのんどろふ
+    work: ゼルダの伝説
+    year: 1986
+    danbooru: ganondorf
+    anilist: Ganondorf
+  - id: ridley
+    name: リドリー
+    kana: りどりー
+    work: メトロイド
+    year: 1986
+    danbooru: ridley_(metroid)
+    anilist: Ridley
+  - id: robin-fe
+    name: ルフレ
+    kana: るふれ
+    work: ファイアーエムブレム
+    year: 2012
+    danbooru: robin_(fire_emblem)
+    anilist: Robin
+  - id: majima-goro
+    name: 真島吾朗
+    kana: まじまごろう
+    work: 龍が如く
+    year: 2005
+    danbooru: majima_goro
+    anilist: Goro Majima
+  - id: jill-valentine
+    name: ジル・バレンタイン
+    kana: じるばれんたいん
+    work: バイオハザード
+    year: 1998
+    danbooru: jill_valentine
+    anilist: Jill Valentine
+  - id: ryu-sf
+    name: リュウ
+    kana: りゅう
+    work: ストリートファイター
+    year: 1991
+    danbooru: ryu_(street_fighter)
+    anilist: Ryu

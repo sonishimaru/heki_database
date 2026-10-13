@@ -5637,9 +5637,7 @@
 - id: mizuno-ami
   name: 水野亜美
   date: '2026-10-01'
-  unmapped_danbooru:
-  - tag: blue_choker
-    frequency: 0.4682
+  unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
@@ -5653,11 +5651,7 @@
 - id: mizutani-shizuku
   name: 水谷雫
   date: '2026-10-03'
-  unmapped_danbooru:
-  - tag: book
-    frequency: 0.3846
-  - tag: blue_necktie
-    frequency: 0.3846
+  unmapped_danbooru: []
   near_miss: []
   new_tag_proposals: []
 - id: momose-narumi
@@ -5679,9 +5673,7 @@
 - id: monkey-d-luffy
   name: モンキー・D・ルフィ
   date: '2026-10-01'
-  unmapped_danbooru:
-  - tag: straw_hat
-    frequency: 0.6342
+  unmapped_danbooru: []
   near_miss:
   - id: shirogami
     tag: white_hair
