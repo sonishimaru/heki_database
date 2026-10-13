@@ -970,6 +970,29 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 73%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: barret-wallace
+  name: バレット・ウォーレス
+  kana: ばれっとうぉーれす
+  work: ファイナルファンタジーVII
+  year: 1997
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2933-oGfZYXEOYUAi.png'
+    page: 'https://anilist.co/character/2933'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-13'
+  elements:
+    - {id: bushouhige, weight: core, note: 'danbooru facial_hair 86%', src: danbooru}
+    - {id: kasshoku, weight: core, note: 'danbooru dark_skin 85%', src: danbooru}
+    - {id: kinniku, weight: core, note: 'danbooru muscular 65%', src: danbooru}
+    - {id: kizuato, weight: sub, note: 'danbooru scar 36%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 38%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 63%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 74%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: beatrice-umineko
   name: ベアトリーチェ
   kana: べあとりーちぇ
@@ -2044,6 +2067,26 @@
     - {id: otaku, weight: sub, note: '資料: コンピュータゲームに熱中したと記載されている。', src: gemini}
     - {id: teishinchou, weight: sub, note: '資料: 身長は144cmと明記されている。', src: gemini}
     - {id: tenraku, weight: sub, note: '資料: かつてトップの成績だった天使が、ゲームへの熱中により駄天使になったという変化を描いている。', src: gemini}
+  patterns: []
+
+- id: ganondorf
+  name: ガノンドロフ
+  kana: がのんどろふ
+  work: ゼルダの伝説
+  year: 1986
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b12748-6vyRUAo8F2Sv.png'
+    page: 'https://anilist.co/character/12748'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-13'
+  elements:
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 64%（共有 10% のため比重を下げた）', src: danbooru}
+    - {id: bushouhige, weight: sub, note: 'danbooru facial_hair 58%', src: danbooru}
+    - {id: kinniku, weight: sub, note: 'danbooru muscular 53%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 50%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ganyu
@@ -3814,6 +3857,27 @@
     - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 53%', src: danbooru}
   patterns: []
 
+- id: jill-valentine
+  name: ジル・バレンタイン
+  kana: じるばれんたいん
+  work: バイオハザード
+  year: 1998
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b12664-eVuO8OpCf1EO.png'
+    page: 'https://anilist.co/character/12664'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-13'
+  elements:
+    - {id: buki, weight: sub, note: 'danbooru weapon 46%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 45%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 63%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 73%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 66%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: jinshi
   name: 壬氏
   kana: じんし
@@ -4193,6 +4257,26 @@
     - {id: toshiue, weight: sub, note: '資料: 妹である禰豆子に対して兄（年上）の立場にある。', src: gemini}
     - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 47%（共有 21% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 51%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: kamina
+  name: カミナ
+  kana: かみな
+  work: 天元突破グレンラガン
+  year: 2007
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2075-sWb5Xz76JWdX.png'
+    page: 'https://anilist.co/character/2075'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-13'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 68%', src: danbooru}
+    - {id: gaitou, weight: sub, note: 'danbooru cape 48%', src: danbooru}
+    - {id: houtai, weight: sub, note: 'danbooru bandages 40%', src: danbooru}
+    - {id: kokuin, weight: sub, note: 'danbooru tattoo 47%', src: danbooru}
   patterns: []
 
 - id: kaminari-denki
@@ -6161,6 +6245,24 @@
     - {id: neko-o-kaburu, weight: sub, note: '資料: 相手の油断を誘う見せかけとして、無能な振る舞い（演技）をするため。', src: gemini}
   patterns: []
 
+- id: majima-goro
+  name: 真島吾朗
+  kana: まじまごろう
+  work: 龍が如く
+  year: 2005
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-13'
+  elements:
+    - {id: gantai, weight: core, note: 'danbooru eyepatch 86%', src: danbooru}
+    - {id: bushouhige, weight: sub, note: 'danbooru facial_hair 56%', src: danbooru}
+    - {id: kokuin, weight: sub, note: 'danbooru tattoo 45%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 47%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 70%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 40%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: maka-albarn
   name: マカ・アルバーン
   kana: まかあるばーん
@@ -7633,6 +7735,27 @@
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 80%（共有 24% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: nijima-makoto
+  name: 新島真
+  kana: にいじままこと
+  work: ペルソナ5
+  year: 2016
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b122977-6OaO4teZ9qKT.jpg'
+    page: 'https://anilist.co/character/122977'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-13'
+  elements:
+    - {id: mitsuami, weight: core, note: 'danbooru braid 80%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 83%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 47%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 84%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 88%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: nina-fortner
   name: ニナ・フォルトナー
   kana: になふぉるとなー
@@ -8675,6 +8798,29 @@
     - {id: karetsu, weight: spice, note: '資料: 引き取った犬が室内でトイレをした際、不適切な行動だと理解させるために背後の壁を銃で撃つ厳しい行動をとった。', src: gemini}
   patterns: []
 
+- id: robin-fe
+  name: ルフレ
+  kana: るふれ
+  work: ファイアーエムブレム
+  year: 2012
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b61-ywXUyyocEEqt.png'
+    page: 'https://anilist.co/character/61'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-13'
+  elements:
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 100%', src: danbooru}
+    - {id: gaitou, weight: core, note: 'danbooru hood 100%', src: danbooru}
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 100%', src: danbooru}
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 100%', src: danbooru}
+    - {id: midorigami, weight: core, note: 'danbooru green_hair 100%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 100%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 100%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: roronoa-zoro
   name: ロロノア・ゾロ
   kana: ろろのあぞろ
@@ -8815,6 +8961,28 @@
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 40%', src: danbooru}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 51%（共有 24% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 73%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: ryu-sf
+  name: リュウ
+  kana: りゅう
+  work: ストリートファイター
+  year: 1991
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b67325-yPkbZJkofp5w.jpg'
+    page: 'https://anilist.co/character/67325'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-13'
+  elements:
+    - {id: kinniku, weight: core, note: 'danbooru muscular 78%', src: danbooru}
+    - {id: bushouhige, weight: sub, note: 'danbooru facial_hair 36%', src: danbooru}
+    - {id: futomayu, weight: sub, note: 'danbooru thick_eyebrows 40%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 41%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 57%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 58%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ryuugazaki-rei
@@ -9317,6 +9485,25 @@
     - {id: akagami, weight: sub, note: 'danbooru red_hair 71%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: chuukafuku, weight: sub, note: 'danbooru chinese_clothes 36%', src: danbooru}
     - {id: aome, weight: spice, note: 'danbooru blue_eyes 58%（共有 22% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: satonaka-chie
+  name: 里中千枝
+  kana: さとなかちえ
+  work: ペルソナ4
+  year: 2008
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b16207-wLmwYTZmHzqz.jpg'
+    page: 'https://anilist.co/character/16207'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-13'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 75%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 86%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 91%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: satoshi-pokemon

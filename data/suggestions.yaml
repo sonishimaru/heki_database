@@ -821,6 +821,36 @@
     frequency: 0.182
     threshold: 0.35
   new_tag_proposals: []
+- id: barret-wallace
+  name: バレット・ウォーレス
+  date: '2026-10-13'
+  unmapped_danbooru:
+  - tag: dog_tags
+    frequency: 0.4898
+  - tag: chest_hair
+    frequency: 0.4082
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.3367
+    threshold: 0.35
+  - id: megane
+    tag: sunglasses
+    frequency: 0.3265
+    threshold: 0.35
+  - id: piasu
+    tag: earrings
+    frequency: 0.3163
+    threshold: 0.5
+  - id: kokuin
+    tag: tattoo
+    frequency: 0.2347
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.1735
+    threshold: 0.35
+  new_tag_proposals: []
 - id: beatrice-umineko
   name: ベアトリーチェ
   date: '2026-10-06'
@@ -1656,6 +1686,52 @@
   - id: tenshi
     tag: halo
     frequency: 0.1621
+    threshold: 0.35
+  new_tag_proposals: []
+- id: ganondorf
+  name: ガノンドロフ
+  date: '2026-10-13'
+  unmapped_danbooru: []
+  near_miss:
+  - id: futomayu
+    tag: thick_eyebrows
+    frequency: 0.3346
+    threshold: 0.35
+  - id: erufu
+    tag: pointy_ears
+    frequency: 0.3269
+    threshold: 0.35
+  - id: piasu
+    tag: earrings
+    frequency: 0.3231
+    threshold: 0.5
+  - id: jingai
+    tag: green_skin
+    frequency: 0.2615
+    threshold: 0.35
+  - id: kasshoku
+    tag: dark_skin
+    frequency: 0.2192
+    threshold: 0.35
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.2077
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.1769
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.1731
+    threshold: 0.35
+  - id: kokuin
+    tag: tattoo
+    frequency: 0.1538
+    threshold: 0.35
+  - id: akame
+    tag: red_eyes
+    frequency: 0.15
     threshold: 0.35
   new_tag_proposals: []
 - id: ganyu
@@ -3019,6 +3095,16 @@
     frequency: 0.1711
     threshold: 0.5
   new_tag_proposals: []
+- id: jill-valentine
+  name: ジル・バレンタイン
+  date: '2026-10-13'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2965
+    threshold: 0.5
+  new_tag_proposals: []
 - id: jinshi
   name: 壬氏
   date: '2026-08-31'
@@ -3293,6 +3379,30 @@
   - id: kurokami
     tag: black_hair
     frequency: 0.1582
+    threshold: 0.35
+  new_tag_proposals: []
+- id: kamina
+  name: カミナ
+  date: '2026-10-13'
+  unmapped_danbooru:
+  - tag: kamina_shades
+    frequency: 0.3968
+  - tag: sarashi
+    frequency: 0.3929
+  - tag: triangular_eyewear
+    frequency: 0.381
+  near_miss:
+  - id: akame
+    tag: red_eyes
+    frequency: 0.3175
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.2421
+    threshold: 0.35
+  - id: megane
+    tag: glasses
+    frequency: 0.1508
     threshold: 0.35
   new_tag_proposals: []
 - id: kaminari-denki
@@ -4948,6 +5058,28 @@
   - name: datsugoku
     axis: 技能・行動
     reason: 何度捕まっても常に脱獄に成功しているという特筆すべき実績があるため。
+- id: majima-goro
+  name: 真島吾朗
+  date: '2026-10-13'
+  unmapped_danbooru: []
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.2338
+    threshold: 0.35
+  - id: tabako
+    tag: cigarette
+    frequency: 0.1692
+    threshold: 0.35
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.1592
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1542
+    threshold: 0.35
+  new_tag_proposals: []
 - id: maka-albarn
   name: マカ・アルバーン
   date: '2026-09-29'
@@ -6218,6 +6350,24 @@
     frequency: 0.1543
     threshold: 0.35
   new_tag_proposals: []
+- id: nijima-makoto
+  name: 新島真
+  date: '2026-10-13'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2689
+    threshold: 0.35
+  - id: mafuraa
+    tag: scarf
+    frequency: 0.2273
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2044
+    threshold: 0.3
+  new_tag_proposals: []
 - id: nishikata
   name: 西片
   date: '2026-08-31'
@@ -7229,6 +7379,32 @@
   - name: 狙撃手
     axis: 関係性 / 立場
     reason: スナイパーライフルなどの銃器に特化し、極めて高い精度で標的を撃ち抜く職能を持つため。
+- id: robin-fe
+  name: ルフレ
+  date: '2026-10-13'
+  unmapped_danbooru:
+  - tag: stomach
+    frequency: 1.0
+  - tag: bra
+    frequency: 1.0
+  - tag: leaning_forward
+    frequency: 1.0
+  - tag: skindentation
+    frequency: 1.0
+  - tag: thick_thighs
+    frequency: 1.0
+  - tag: curvy
+    frequency: 1.0
+  - tag: thong
+    frequency: 1.0
+  - tag: side-tie_panties
+    frequency: 1.0
+  - tag: long_pointy_ears
+    frequency: 1.0
+  - tag: thong_panties
+    frequency: 1.0
+  near_miss: []
+  new_tag_proposals: []
 - id: roronoa-zoro
   name: ロロノア・ゾロ
   date: '2026-08-31'
@@ -7338,6 +7514,18 @@
   - id: kurome
     tag: black_eyes
     frequency: 0.1705
+    threshold: 0.35
+  new_tag_proposals: []
+- id: ryu-sf
+  name: リュウ
+  date: '2026-10-13'
+  unmapped_danbooru:
+  - tag: red_headband
+    frequency: 0.405
+  near_miss:
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.1538
     threshold: 0.35
   new_tag_proposals: []
 - id: ryuugazaki-rei
@@ -7778,6 +7966,20 @@
     tag: large_breasts
     frequency: 0.2562
     threshold: 0.5
+  new_tag_proposals: []
+- id: satonaka-chie
+  name: 里中千枝
+  date: '2026-10-13'
+  unmapped_danbooru: []
+  near_miss:
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2084
+    threshold: 0.3
+  - id: megane
+    tag: glasses
+    frequency: 0.1577
+    threshold: 0.35
   new_tag_proposals: []
 - id: satoshi-pokemon
   name: サトシ

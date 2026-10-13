@@ -4,12 +4,13 @@
 
 date: '2026-10-13'
 対象: 12
-完了: 10
+完了: 9
 失敗:
-- kamina
+- auron
+- ridley
 - lupin-iii
 レーン:
-  資料: 0 / 12
+  資料: 0 / 11
   識別: 0 / 12
 レーンの理由:
   資料: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
