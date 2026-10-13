@@ -56,25 +56,22 @@
     reason: 初登場時に街頭で花を売り歩く職業として提示されているため。
 - id: agatsuma-zenitsu
   name: 我妻善逸
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: itome
     tag: closed_eyes
-    frequency: 0.1912
+    frequency: 0.1882
     threshold: 0.6
   - id: futomayu
     tag: thick_eyebrows
-    frequency: 0.1912
+    frequency: 0.1882
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.1554
+    frequency: 0.1529
     threshold: 0.5
-  new_tag_proposals:
-  - name: 鬼殺隊士
-    axis: 関係性 / 立場
-    reason: 鬼殺隊に所属して戦う職能・立場だが、既存の語彙（侍等）に明記がなく直接合致しないため。
+  new_tag_proposals: []
 - id: ahri
   name: アーリ
   date: '2026-10-04'
@@ -812,16 +809,16 @@
   new_tag_proposals: []
 - id: bakugou-katsuki
   name: 爆豪勝己
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
     tag: gloves
-    frequency: 0.2135
+    frequency: 0.21
     threshold: 0.35
   - id: kizuato
     tag: scar
-    frequency: 0.1737
+    frequency: 0.182
     threshold: 0.35
   new_tag_proposals: []
 - id: beatrice-umineko
@@ -1143,12 +1140,12 @@
   new_tag_proposals: []
 - id: denji
   name: デンジ
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
     tag: yellow_eyes
-    frequency: 0.1516
+    frequency: 0.1511
     threshold: 0.35
   new_tag_proposals: []
 - id: diamond-hnk
@@ -1611,24 +1608,24 @@
     reason: 自分を鼓舞するために食べたい食べ物の名前を口にする習慣がある記述が存在するため。
 - id: fushiguro-megumi
   name: 伏黒恵
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.4462
+    frequency: 0.4355
     threshold: 0.5
   - id: midori-no-me
     tag: green_eyes
-    frequency: 0.3008
+    frequency: 0.2967
     threshold: 0.35
   - id: aome
     tag: blue_eyes
-    frequency: 0.261
+    frequency: 0.2524
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.2311
+    frequency: 0.2293
     threshold: 0.3
   new_tag_proposals: []
 - id: gabriel-tenma-white
@@ -2092,33 +2089,30 @@
     reason: 音声ライブラリ・歌唱用ソフトウェアという製品由来のキャラクター表現を分類する語彙がないため。
 - id: hayakawa-aki
   name: 早川アキ
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
-    frequency: 0.4343
+    frequency: 0.4353
     threshold: 0.5
   - id: buki
     tag: weapon
-    frequency: 0.3467
+    frequency: 0.3453
     threshold: 0.35
   - id: aome
     tag: blue_eyes
-    frequency: 0.3412
+    frequency: 0.3417
     threshold: 0.35
   - id: tabako
     tag: cigarette
-    frequency: 0.2646
+    frequency: 0.2644
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2628
+    frequency: 0.2608
     threshold: 0.5
-  new_tag_proposals:
-  - name: 監督役
-    axis: 立場
-    reason: パワーとデンジの両方を監督する役割を課されている。
+  new_tag_proposals: []
 - id: hayasaka-ai
   name: 早坂愛
   date: '2026-08-31'
@@ -2843,37 +2837,34 @@
   new_tag_proposals: []
 - id: itadori-yuuji
   name: 虎杖悠仁
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: kizuato
     tag: scar
-    frequency: 0.2989
+    frequency: 0.303
     threshold: 0.35
   - id: kurokami
     tag: black_hair
-    frequency: 0.2798
+    frequency: 0.2772
     threshold: 0.35
   - id: sakadachi-gami
     tag: spiked_hair
-    frequency: 0.2638
+    frequency: 0.2634
     threshold: 0.35
   - id: chairo-no-me
     tag: brown_eyes
-    frequency: 0.2327
+    frequency: 0.2297
     threshold: 0.35
   - id: kinniku
     tag: abs
-    frequency: 0.1986
+    frequency: 0.196
     threshold: 0.35
   - id: akame
     tag: red_eyes
-    frequency: 0.1565
+    frequency: 0.1554
     threshold: 0.35
-  new_tag_proposals:
-  - name: 器（宿体）
-    axis: 関係性 / 立場
-    reason: 肩書きに「器（Vessel）」と記されており、他者の存在や力をその身に宿す特有の立場・役割を示しているため。
+  new_tag_proposals: []
 - id: itou-kaiji
   name: 伊藤開司
   date: '2026-10-03'
@@ -4310,13 +4301,17 @@
   new_tag_proposals: []
 - id: kugisaki-nobara
   name: 釘崎野薔薇
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.3107
+    frequency: 0.3102
     threshold: 0.5
+  - id: regent
+    tag: swept_bangs
+    frequency: 0.1645
+    threshold: 0.35
   new_tag_proposals: []
 - id: kurama-yyh
   name: 蔵馬
@@ -4782,25 +4777,22 @@
     reason: ゲーム内では一切言葉を発しない主人公としての役割を持っているため。
 - id: loid-forger
   name: ロイド・フォージャー
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
     tag: gloves
-    frequency: 0.3347
+    frequency: 0.3346
     threshold: 0.35
   - id: buki
     tag: weapon
-    frequency: 0.281
+    frequency: 0.2795
     threshold: 0.35
   - id: midori-no-me
     tag: green_eyes
-    frequency: 0.1818
+    frequency: 0.1732
     threshold: 0.35
-  new_tag_proposals:
-  - name: スパイ
-    axis: 関係性 / 立場
-    reason: 身分を偽装して潜入・諜報活動を行う記号的職業を表す語彙が既存リストにないため。
+  new_tag_proposals: []
 - id: louise
   name: ルイズ
   date: '2026-10-01'
@@ -5452,25 +5444,22 @@
   new_tag_proposals: []
 - id: mine-fujiko
   name: 峰不二子
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: keshou
     tag: makeup
-    frequency: 0.237
+    frequency: 0.2355
     threshold: 0.35
   - id: buki
     tag: weapon
-    frequency: 0.2037
+    frequency: 0.2065
     threshold: 0.35
   - id: piasu
     tag: earrings
-    frequency: 0.1704
+    frequency: 0.1739
     threshold: 0.5
-  new_tag_proposals:
-  - name: 泥棒・怪盗
-    axis: 関係性 / 立場
-    reason: 資料に「泥棒としての技術はルパンに匹敵する」と明記されているが、語彙内に該当する分類がないため。
+  new_tag_proposals: []
 - id: misaka-mikoto
   name: 御坂美琴
   date: '2026-10-03'
@@ -9436,24 +9425,18 @@
   new_tag_proposals: []
 - id: tomioka-giyuu
   name: 冨岡義勇
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.3816
+    frequency: 0.3812
     threshold: 0.5
   - id: hikari-nashi
     tag: empty_eyes
-    frequency: 0.2412
+    frequency: 0.2403
     threshold: 0.35
-  new_tag_proposals:
-  - name: 孤立
-    axis: 関係性 / 評価
-    reason: 胡蝶しのぶから頻繁にからかわれ、友達がおらず周りから嫌われていると言われているため。
-  - name: 決戦の生き残り
-    axis: 物語役割 / 結末
-    reason: 鬼舞辻無惨との最終決戦において生き残った数少ない柱の一人となったため。
+  new_tag_proposals: []
 - id: tomoe-mami
   name: 巴マミ
   date: '2026-08-31'
