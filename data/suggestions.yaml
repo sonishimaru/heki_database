@@ -385,20 +385,16 @@
   new_tag_proposals: []
 - id: amuro-ray
   name: アムロ・レイ
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
-  - id: aome
-    tag: blue_eyes
-    frequency: 0.2566
-    threshold: 0.35
   - id: gunpuku
     tag: military_uniform
-    frequency: 0.2478
+    frequency: 0.2752
     threshold: 0.35
-  - id: chairo-no-me
-    tag: brown_eyes
-    frequency: 0.1504
+  - id: helmet
+    tag: helmet
+    frequency: 0.1611
     threshold: 0.35
   new_tag_proposals: []
 - id: andre-grandier
@@ -1054,17 +1050,21 @@
   new_tag_proposals: []
 - id: char-aznable
   name: シャア・アズナブル
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
-  - id: kamen
-    tag: mask
-    frequency: 0.2206
-    threshold: 0.4
+  - id: helmet
+    tag: helmet
+    frequency: 0.2328
+    threshold: 0.35
   - id: megane
     tag: sunglasses
-    frequency: 0.213
+    frequency: 0.2114
     threshold: 0.35
+  - id: kamen
+    tag: mask
+    frequency: 0.2114
+    threshold: 0.4
   new_tag_proposals: []
 - id: chiaki-shinichi
   name: 千秋真一
@@ -1584,23 +1584,14 @@
   new_tag_proposals: []
 - id: fujiwara-chika
   name: 藤原千花
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
     tag: collarbone
-    frequency: 0.281
+    frequency: 0.2777
     threshold: 0.35
-  new_tag_proposals:
-  - name: 生徒会書記
-    axis: 関係性 / 立場
-    reason: 秀知院学園生徒会の書記を務めている旨が明確に記載されているため。
-  - name: ピアノの神童
-    axis: 性格 / 経歴
-    reason: 完璧でありたいという理由でピアノを始めて神童となった経歴が記載されているため。
-  - name: 最初の友達
-    axis: 関係性 / 関係の型
-    reason: ゲーム対決を経て四宮かぐやの最初の友達になったと示されているため。
+  new_tag_proposals: []
 - id: fujiwara-takumi
   name: 藤原拓海
   date: '2026-10-01'
@@ -2353,12 +2344,12 @@
   new_tag_proposals: []
 - id: hirasawa-yui
   name: 平沢唯
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: gakki
     tag: instrument
-    frequency: 0.2534
+    frequency: 0.2557
     threshold: 0.35
   new_tag_proposals: []
 - id: hiruma-youichi
@@ -2714,12 +2705,12 @@
     reason: 結束バンドのドラムを担当しているため。
 - id: ikari-shinji
   name: 碇シンジ
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: kurokami
     tag: black_hair
-    frequency: 0.2776
+    frequency: 0.2781
     threshold: 0.35
   new_tag_proposals: []
 - id: imaizumi-shunsuke
@@ -4593,29 +4584,26 @@
   new_tag_proposals: []
 - id: kusanagi-motoko
   name: 草薙素子
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.2837
+    frequency: 0.2803
     threshold: 0.5
   - id: buki
     tag: weapon
-    frequency: 0.2777
+    frequency: 0.2774
     threshold: 0.35
-  - id: kurokami
-    tag: black_hair
-    frequency: 0.155
+  - id: jinzou
+    tag: cyborg
+    frequency: 0.1993
     threshold: 0.35
   - id: aogami
     tag: blue_hair
-    frequency: 0.1505
+    frequency: 0.1642
     threshold: 0.35
-  new_tag_proposals:
-  - name: ハッカー
-    axis: 関係性 / 立場
-    reason: スーパーウィザード級ハッカーとして公式に登録されているため。
+  new_tag_proposals: []
 - id: kushieda-minori
   name: 櫛枝実乃梨
   date: '2026-08-31'
@@ -8426,28 +8414,22 @@
   new_tag_proposals: []
 - id: shinomiya-kaguya
   name: 四宮かぐや
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.3124
+    frequency: 0.3122
     threshold: 0.5
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.167
+    frequency: 0.1672
     threshold: 0.35
   - id: kemomimi
     tag: animal_ears
-    frequency: 0.1656
+    frequency: 0.1659
     threshold: 0.35
-  new_tag_proposals:
-  - name: 天才
-    axis: 能力
-    reason: やろうと決めたことは何でもこなせる多才な天才という記述があるため。
-  - name: 世間知らず
-    axis: 性格
-    reason: 非常に箱入り娘であり、一般常識とされる知識に欠ける部分があるという記述があるため。
+  new_tag_proposals: []
 - id: shinonome-nano
   name: 東雲なの
   date: '2026-10-01'
@@ -8851,24 +8833,24 @@
   new_tag_proposals: []
 - id: souryuu-asuka-langley
   name: 惣流・アスカ・ラングレー
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: chapatsu
     tag: brown_hair
-    frequency: 0.3124
+    frequency: 0.311
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2758
+    frequency: 0.277
     threshold: 0.5
   - id: twintail
     tag: two_side_up
-    frequency: 0.24
+    frequency: 0.2412
     threshold: 0.35
   - id: gantai
     tag: eyepatch
-    frequency: 0.2306
+    frequency: 0.23
     threshold: 0.35
   - id: hinnyuu
     tag: small_breasts
@@ -8876,7 +8858,7 @@
     threshold: 0.5
   - id: tebukuro
     tag: gloves
-    frequency: 0.1596
+    frequency: 0.1582
     threshold: 0.35
   new_tag_proposals: []
 - id: sousuke-aizen
@@ -9027,12 +9009,12 @@
   new_tag_proposals: []
 - id: suzumiya-haruhi
   name: 涼宮ハルヒ
-  date: '2026-08-31'
+  date: '2026-10-13'
   unmapped_danbooru: []
   near_miss:
   - id: semi-long
     tag: medium_hair
-    frequency: 0.3148
+    frequency: 0.3152
     threshold: 0.35
   new_tag_proposals: []
 - id: tachibana-hibiki

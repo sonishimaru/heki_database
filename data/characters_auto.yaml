@@ -480,17 +480,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-13'
   elements:
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 66%', src: danbooru}
     - {id: nouryokusha, weight: core, note: '資料: ニュータイプ能力を持ち、数々の戦闘を経て覚醒していると記述されているため。', src: gemini}
     - {id: pairotto, weight: core, note: '資料: ガンダムに偶然遭遇して搭乗し、後に最強のモビルスーツパイロットの一人と見なされているため。', src: gemini}
     - {id: saikyou, weight: sub, note: '資料: 最強のモビルスーツパイロットの一人と見なされているため。', src: gemini}
     - {id: shitei, weight: sub, note: '資料: カミーユとチームを組み、ニュータイプとしての生き方や道を教えたため。', src: gemini}
     - {id: shokunin, weight: sub, note: '資料: 父親の仕事を見て育ち、非常に優れた技術者となったため。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 48%', src: danbooru}
     - {id: yuuhei, weight: sub, note: '資料: 一年戦争後にティターンズ勢力によって軟禁状態に置かれたため。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 36%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 70%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 55%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: andre-grandier
@@ -1208,19 +1208,18 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-13'
   elements:
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 68%', src: danbooru}
     - {id: pairotto, weight: core, note: '資料: ジオン公国のパイロットであり、赤いモビルスーツを操縦して戦果を挙げた記述があるため。', src: gemini}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 48%', src: danbooru}
     - {id: gunpuku, weight: sub, note: 'danbooru military_uniform 49%', src: danbooru}
     - {id: joushi, weight: sub, note: '資料: エゥーゴにて指揮官やリーダーを務めた記述があるため。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 68%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: kyoushi, weight: sub, note: '資料: エゥーゴに参加した際、教官を務めた記述があるため。', src: gemini}
     - {id: shoutai, weight: sub, note: '資料: ジオンと連邦の戦争後、クワトロ・バジーナという偽名でエゥーゴに参加した記述があるため。', src: gemini}
     - {id: shukuteki, weight: sub, note: '資料: 一年戦争を通じてアムロと何度もモビルスーツ戦を展開し、ホワイトベース隊を追跡した記述があるため。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 47%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 38%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 49%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 47%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: chiaki-shinichi
@@ -1972,15 +1971,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-13'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 87%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 88%', src: danbooru}
     - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 61%', src: danbooru}
-    - {id: pattsun, weight: core, note: 'danbooru blunt_bangs 67%', src: danbooru}
+    - {id: pattsun, weight: core, note: 'danbooru blunt_bangs 66%', src: danbooru}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 93%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 49%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 87%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 38% のため比重を下げた）', src: danbooru}
     - {id: yakusoku, weight: spice, note: '資料: 勝ったら友達になる約束でかぐやにゲーム勝負を挑んで勝利し、かぐやの最初の友達となった。', src: gemini}
   patterns: []
 
@@ -2854,14 +2852,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-13'
   elements:
-    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 79%', src: danbooru}
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 88%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 73%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 79%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 55%', src: danbooru}
     - {id: tennen, weight: sub, note: '資料: 「軽音」を「簡単な音楽」と勘違いして入部した点や、自身のギターに「Giita」と名付ける独特の感性・無自覚さ。', src: gemini}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 90%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 73%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hiruma-youichi
@@ -3362,17 +3359,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-13'
   elements:
     - {id: pairotto, weight: core, note: '資料: サードチルドレンであり、エヴァンゲリオン初号機（Unit 01）のパイロットである。', src: gemini}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 44%', src: danbooru}
-    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 44%', src: danbooru}
     - {id: fuguu, weight: sub, note: '資料: 幼児期に父ゲンドウによって捨てられた。', src: gemini}
     - {id: jikokoutei, weight: sub, note: '資料: 困難な状況から度々逃げ出していたことや、愛を表現してくれた唯一の人物を自らの手で殺すことを強いられて成長や自信が失われたこと。', src: gemini}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 36%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 34%', src: danbooru}
     - {id: soushitsu, weight: sub, note: '資料: 母が亡くなっていること、および自分に愛を表現してくれた唯一の人物を自らの手で殺すことを強いられたこと。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 56%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 44%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 44%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 57%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: imaizumi-shunsuke
@@ -5759,15 +5755,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-13'
   elements:
     - {id: gishi, weight: core, note: '資料: 幼少期に完全義体化し、成長に伴い様々なタイプの人工義体を扱ってきた。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 62%', src: danbooru}
-    - {id: akame, weight: sub, note: 'danbooru red_eyes 41%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 42%', src: danbooru}
     - {id: joushi, weight: sub, note: '資料: 特殊部隊を長年率いた経歴を持ち、特殊部隊を指揮した。', src: gemini}
-    - {id: murasaki-gami, weight: sub, note: 'danbooru purple_hair 54%', src: danbooru}
-    - {id: tebukuro, weight: sub, note: 'danbooru gloves 42%', src: danbooru}
+    - {id: murasaki-gami, weight: sub, note: 'danbooru purple_hair 53%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 41%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 62%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kushieda-minori
@@ -10039,17 +10034,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-13'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 90%', src: danbooru}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 84%', src: danbooru}
     - {id: ponytail, weight: core, note: 'danbooru folded_ponytail 62%', src: danbooru}
     - {id: reijou, weight: core, note: '資料: 裕福な四宮家の一員であり、非常に箱入り娘であると記述されている。', src: gemini}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 90%（共有 13% のため比重を下げた）', src: danbooru}
     - {id: sakotsu, weight: sub, note: 'danbooru collarbone 36%', src: danbooru}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 55%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 54%', src: danbooru}
     - {id: seitokaichou, weight: sub, note: '資料: 秀知院学園の生徒会副会長を務めていることが記述されている。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 36%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 84%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 35%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shinonome-nano
@@ -10492,17 +10486,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-13'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 79%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 88%', src: danbooru}
     - {id: fuguu, weight: core, note: '資料: 母親が精神異常をきたしてアスカを認識しなくなり、エヴァのパイロットに選ばれた当日に自殺した。', src: gemini}
     - {id: pairotto, weight: core, note: '資料: エヴァンゲリオン2号機のパイロット（セカンドチルドレン）である。', src: gemini}
     - {id: akagami, weight: sub, note: 'danbooru orange_hair 48%', src: danbooru}
     - {id: kataomoi, weight: sub, note: '資料: ミサトの元カレである加持に対して一方的な恋心を抱いている。', src: gemini}
     - {id: soushitsu, weight: sub, note: '資料: パイロットに選ばれた当日に母親を自殺で失っている。', src: gemini}
     - {id: yakusoku, weight: sub, note: '資料: 母親が自殺した日に、二度と泣かないと自分に誓った。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 79%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 38% のため比重を下げた）', src: danbooru}
     - {id: toshi-no-sa, weight: spice, note: '資料: 自身の2倍以上の年齢である加持に対して恋心を抱いている。', src: gemini}
   patterns: []
 
@@ -10653,16 +10646,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-13'
   elements:
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 81%', src: danbooru}
     - {id: kami, weight: core, note: '資料: 資料に直接の記述はないが、作品上は世界を自由に改変・再構成できる神格的な存在であるため。', src: gemini}
-    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 56%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 57%', src: danbooru}
     - {id: joushi, weight: sub, note: '資料: 肩書き・立場としてSOS団の団長（Brigade Chief）および創設者であることが明記されている。', src: gemini}
     - {id: koukishin, weight: sub, note: '資料: 宇宙人、時間旅行者、超能力者を見つける目的でSOS団を創設した点に現れている。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 48%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 40%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 81%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 40%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: tachibana-hibiki
