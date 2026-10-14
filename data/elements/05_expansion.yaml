@@ -1311,3 +1311,16 @@
   pairs_with: [buki, helmet, kinniku]
   contrasts_with: [heyagi, knit]
   tags: [定番]
+
+# --- 25 巡目 ---
+
+- id: hachimaki
+  name: 鉢巻
+  kana: はちまき
+  aliases: [ヘアバンド, バンダナ]
+  axis: appearance.item
+  summary: 額に巻く布。気合いを額に出している。
+  effect: 巻いている間を本気の合図にし、外した姿を素に見せる。
+  pairs_with: [uniform, kinniku, doryokuka]
+  contrasts_with: [megane]
+  tags: [定番]

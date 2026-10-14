@@ -124,7 +124,7 @@ GENERIC_TAGS = {
     # 一枚だけ巻くもの（bandana）。american_football_helmet は
     # ヘルメットの見出し語に移したのでここから外す。
     "blue_bow", "red_cape", "white_jacket", "blue_shirt", "striped_necktie",
-    "pointing", "bandana",
+    "pointing",
     # 17 巡目。Danbooru の作風タグ（bara, blue_theme）、帽子の種類
     # （hat をすでに汎用にしているので揃える）、作り物の角、爪と紐。
     "bara", "blue_theme", "suspenders", "fake_horns", "baseball_cap", "beanie",
@@ -156,6 +156,8 @@ GENERIC_TAGS = {
     # しているので揃える）。office_lady と hoodie は記号職・服装の候補として
     # 残す（まだ 1 作品）。
     "book", "blue_choker", "blue_necktie", "straw_hat",
+    # 25 巡目。一人しか付けない小道具（kamina_shades）、体毛、認識票。
+    "kamina_shades", "chest_hair", "dog_tags", "sarashi",
     # 作品固有の制服・装備
     "azumanga_daioh's_school_uniform", "kita_high_school_uniform",
     "icho_private_high_school_uniform", "kurumi-gaoka_high_school_uniform",

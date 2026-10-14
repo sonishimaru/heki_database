@@ -208,12 +208,39 @@ def report_run() -> None:
         print(f"    {lane}の理由: {why}")
 
 
+def report_ids() -> None:
+    """id と Danbooru タグが噛み合っていない件を並べる。
+
+    貼り付けで作っているせいで、id だけ前の行のものが残ることがある。
+    それ自体は実害が無いが、名前の側がずれていたことが一度あった
+    （橘めいという名前に鮎沢美咲のタグが付いていて、別人の外見を
+    取り込んでいた）。検証で落とすには当たりが緩いので、一覧で出す。
+    """
+    import re as _re
+    payload = yaml.safe_load((ROOT / "data" / "queue.yaml").read_text(encoding="utf-8")) or {}
+    entries = payload.get("characters") if isinstance(payload, dict) else payload
+    odd = []
+    for entry in entries or []:
+        tag = (entry.get("danbooru") or "").split("_(")[0]
+        if not tag:
+            continue
+        shared = set(_re.split(r"[-_]", entry["id"])) & set(_re.split(r"[-_]", tag))
+        if not shared:
+            odd.append(f"{entry['id']:24} {entry['name']}（{entry.get('work')}） → {entry['danbooru']}")
+    print(f"\n■ id と Danbooru タグに共通の語が無い件: {len(odd)}")
+    print("  別名・略称なら問題ない。名前のほうがずれていないかだけ見る。")
+    for row in odd:
+        print("   ", row)
+
+
 def main() -> None:
     which = sys.argv[1] if len(sys.argv) > 1 else "all"
     db = load_db()
     suggestions = load_suggestions()
     if which in ("all", "run"):
         report_run()
+    if which in ("all", "ids"):
+        report_ids()
     if which in ("all", "gaps"):
         report_gaps(db)
     if which in ("all", "axes"):

@@ -229,6 +229,26 @@
   unmapped_danbooru: []
   near_miss: []
   new_tag_proposals: []
+- id: alastor
+  name: アラストール
+  date: '2026-10-08'
+  unmapped_danbooru:
+  - tag: pendant
+    frequency: 0.8247
+  near_miss:
+  - id: ahoge
+    tag: ahoge
+    frequency: 0.2629
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2543
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2113
+    threshold: 0.5
+  new_tag_proposals: []
 - id: albedo-overlord
   name: アルベド
   date: '2026-08-30'
@@ -803,6 +823,40 @@
     frequency: 0.162
     threshold: 0.35
   new_tag_proposals: []
+- id: ayuzawa-misaki
+  name: 鮎沢美咲
+  date: '2026-08-31'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.3143
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2571
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2571
+    threshold: 0.35
+  - id: kemomimi
+    tag: animal_ears
+    frequency: 0.2286
+    threshold: 0.35
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.2
+    threshold: 0.35
+  - id: choker
+    tag: choker
+    frequency: 0.1714
+    threshold: 0.35
+  - id: shippo
+    tag: tail
+    frequency: 0.1714
+    threshold: 0.35
+  new_tag_proposals: []
 - id: bakugou-katsuki
   name: 爆豪勝己
   date: '2026-10-13'
@@ -820,11 +874,7 @@
 - id: barret-wallace
   name: バレット・ウォーレス
   date: '2026-10-13'
-  unmapped_danbooru:
-  - tag: dog_tags
-    frequency: 0.4898
-  - tag: chest_hair
-    frequency: 0.4082
+  unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
@@ -1474,6 +1524,18 @@
   - name: 冷凍睡眠
     axis: 物語役割 / 秘密
     reason: 宇宙船事故の後にコールドスリープ処置を受け、長期間を経て活動している背景を示すため。
+- id: fennec
+  name: フェネック
+  date: '2026-10-09'
+  unmapped_danbooru:
+  - tag: pink_sweater
+    frequency: 0.4374
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1623
+    threshold: 0.5
+  new_tag_proposals: []
 - id: fern
   name: フェルン
   date: '2026-08-31'
@@ -2253,6 +2315,20 @@
     frequency: 0.1797
     threshold: 0.35
   new_tag_proposals: []
+- id: hiiragi-kagami
+  name: 柊かがみ
+  date: '2026-10-11'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tsurime
+    tag: tsurime
+    frequency: 0.2523
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.2179
+    threshold: 0.35
+  new_tag_proposals: []
 - id: hikigaya-hachiman
   name: 比企谷八幡
   date: '2026-08-31'
@@ -3022,20 +3098,6 @@
     frequency: 0.243
     threshold: 0.5
   new_tag_proposals: []
-- id: izumi-konata-2
-  name: 柊かがみ
-  date: '2026-10-11'
-  unmapped_danbooru: []
-  near_miss:
-  - id: tsurime
-    tag: tsurime
-    frequency: 0.2523
-    threshold: 0.35
-  - id: murasaki-no-me
-    tag: purple_eyes
-    frequency: 0.2179
-    threshold: 0.35
-  new_tag_proposals: []
 - id: izumi-sagiri
   name: 和泉紗霧
   date: '2026-10-08'
@@ -3375,13 +3437,7 @@
 - id: kamina
   name: カミナ
   date: '2026-10-13'
-  unmapped_danbooru:
-  - tag: kamina_shades
-    frequency: 0.3968
-  - tag: sarashi
-    frequency: 0.3929
-  - tag: triangular_eyewear
-    frequency: 0.381
+  unmapped_danbooru: []
   near_miss:
   - id: akame
     tag: red_eyes
@@ -4034,6 +4090,20 @@
     frequency: 0.1794
     threshold: 0.35
   new_tag_proposals: []
+- id: kisaragi-chihaya
+  name: 如月千早
+  date: '2026-10-11'
+  unmapped_danbooru: []
+  near_miss:
+  - id: hinnyuu
+    tag: flat_chest
+    frequency: 0.1922
+    threshold: 0.5
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.1557
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kishibe-rohan
   name: 岸辺露伴
   date: '2026-10-08'
@@ -4568,20 +4638,6 @@
   - name: 死神代行
     axis: 関係性 / 立場
     reason: 死神そのものではなく代理の立場を務める記述があるが、専用の語彙が存在しないため。
-- id: kurusu-syo
-  name: 如月千早
-  date: '2026-10-11'
-  unmapped_danbooru: []
-  near_miss:
-  - id: hinnyuu
-    tag: flat_chest
-    frequency: 0.1922
-    threshold: 0.5
-  - id: tebukuro
-    tag: gloves
-    frequency: 0.1557
-    threshold: 0.35
-  new_tag_proposals: []
 - id: kusanagi-motoko
   name: 草薙素子
   date: '2026-10-13'
@@ -7507,9 +7563,7 @@
 - id: ryu-sf
   name: リュウ
   date: '2026-10-13'
-  unmapped_danbooru:
-  - tag: red_headband
-    frequency: 0.405
+  unmapped_danbooru: []
   near_miss:
   - id: chapatsu
     tag: brown_hair
@@ -7606,8 +7660,6 @@
   name: 相楽左之助
   date: '2026-08-31'
   unmapped_danbooru:
-  - tag: red_headband
-    frequency: 0.4286
   - tag: white_pants
     frequency: 0.381
   near_miss:
@@ -8102,18 +8154,6 @@
     frequency: 0.1559
     threshold: 0.35
   new_tag_proposals: []
-- id: serval-2
-  name: フェネック
-  date: '2026-10-09'
-  unmapped_danbooru:
-  - tag: pink_sweater
-    frequency: 0.4374
-  near_miss:
-  - id: kusekke
-    tag: hair_between_eyes
-    frequency: 0.1623
-    threshold: 0.5
-  new_tag_proposals: []
 - id: sesshoumaru
   name: 殺生丸
   date: '2026-10-01'
@@ -8196,26 +8236,6 @@
     tag: brown_eyes
     frequency: 0.1724
     threshold: 0.35
-  new_tag_proposals: []
-- id: shana-2
-  name: アラストール
-  date: '2026-10-08'
-  unmapped_danbooru:
-  - tag: pendant
-    frequency: 0.8247
-  near_miss:
-  - id: ahoge
-    tag: ahoge
-    frequency: 0.2629
-    threshold: 0.35
-  - id: kurokami
-    tag: black_hair
-    frequency: 0.2543
-    threshold: 0.35
-  - id: kusekke
-    tag: hair_between_eyes
-    frequency: 0.2113
-    threshold: 0.5
   new_tag_proposals: []
 - id: sheeta
   name: シータ
@@ -9067,40 +9087,6 @@
   - id: tenshi
     tag: angel_wings
     frequency: 0.1502
-    threshold: 0.35
-  new_tag_proposals: []
-- id: tachibana-mei
-  name: 橘めい
-  date: '2026-08-31'
-  unmapped_danbooru: []
-  near_miss:
-  - id: kurokami
-    tag: black_hair
-    frequency: 0.3143
-    threshold: 0.35
-  - id: chouhatsu
-    tag: long_hair
-    frequency: 0.2571
-    threshold: 0.35
-  - id: tanpatsu
-    tag: short_hair
-    frequency: 0.2571
-    threshold: 0.35
-  - id: kemomimi
-    tag: animal_ears
-    frequency: 0.2286
-    threshold: 0.35
-  - id: kin-no-me
-    tag: yellow_eyes
-    frequency: 0.2
-    threshold: 0.35
-  - id: choker
-    tag: choker
-    frequency: 0.1714
-    threshold: 0.35
-  - id: shippo
-    tag: tail
-    frequency: 0.1714
     threshold: 0.35
   new_tag_proposals: []
 - id: tainaka-ritsu

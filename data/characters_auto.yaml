@@ -3,6 +3,7 @@
 # このファイルは tools/ingest/auto.py が全体を書き直す。手で編集しないこと。
 # レビューして採用するときは、そのエントリを data/characters.yaml へ移して磨く。
 # 同じ id が characters.yaml にある場合、そちらが優先され、このファイル側は無視される。
+
 - id: abarai-renji
   name: 阿散井恋次
   kana: あばらいれんじ
@@ -285,6 +286,27 @@
     - {id: gakki, weight: sub, note: 'danbooru instrument 46%', src: danbooru}
     - {id: aome, weight: spice, note: 'danbooru blue_eyes 69%（共有 23% のため比重を下げた）', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 79%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: alastor
+  name: アラストール
+  kana: あらすとーる
+  work: 灼眼のシャナ
+  year: 2002
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/1934.jpg'
+    page: 'https://anilist.co/character/1934'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-08'
+  elements:
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 68%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 52%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 49%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 59%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 96%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: albedo-overlord
@@ -943,6 +965,26 @@
     - {id: choker, weight: sub, note: 'danbooru choker 49%', src: danbooru}
     - {id: kusekke, weight: sub, note: 'danbooru hair_between_eyes 53%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 48%', src: danbooru}
+  patterns: []
+
+- id: ayuzawa-misaki
+  name: 鮎沢美咲
+  kana: あゆざわみさき
+  work: '会長はメイド様!'
+  year: 2010
+  summary: 提供された資料に記載が存在しないため、構成要素を特定できない構造。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b14941-qh15JS5cEQDL.jpg'
+    page: 'https://anilist.co/character/14941'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    model: 'gemini-3.6-flash'
+    date: '2026-08-31'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 57%', src: danbooru}
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 46%', src: danbooru}
+    - {id: meido, weight: sub, note: 'danbooru maid 54%', src: danbooru}
   patterns: []
 
 - id: bakugou-katsuki
@@ -1774,6 +1816,31 @@
     - {id: keshou, weight: sub, note: 'danbooru makeup 37%', src: danbooru}
     - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 60%', src: danbooru}
     - {id: mitame-sabaku, weight: sub, note: '資料: 1994年生まれで2071年時点での実年齢は77歳（または74歳以上）だが、冷凍睡眠（コールドスリープ）処置を受けたため実年齢と見た目が合っていない。', src: gemini}
+  patterns: []
+
+- id: fennec
+  name: フェネック
+  kana: ふぇねっく
+  work: けものフレンズ
+  year: 2017
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/n129204-wMENuXoPk0Ch.jpg'
+    page: 'https://anilist.co/character/129204'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-09'
+  elements:
+    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 99%', src: danbooru}
+    - {id: shippo, weight: core, note: 'danbooru tail 77%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 54%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 86%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: knit, weight: sub, note: 'danbooru sweater 51%', src: danbooru}
+    - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 50%', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru white_hair 39%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 41%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 63%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: fern
@@ -2713,6 +2780,27 @@
     - {id: regent, weight: core, note: 'danbooru pompadour 88%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 65%（共有 18% のため比重を下げた）', src: danbooru}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 45%（共有 26% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: hiiragi-kagami
+  name: 柊かがみ
+  kana: ひいらぎかがみ
+  work: らき☆すた
+  year: 2004
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2171-OTMMewsamHiC.png'
+    page: 'https://anilist.co/character/2171'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-11'
+  elements:
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 82%', src: danbooru}
+    - {id: twintail, weight: core, note: 'danbooru twintails 72%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 44%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 50%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 90%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hikigaya-hachiman
@@ -3767,27 +3855,6 @@
     - {id: namida-bokuro, weight: core, note: 'danbooru mole_under_eye 79%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 48%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 91%（共有 36% のため比重を下げた）', src: danbooru}
-  patterns: []
-
-- id: izumi-konata-2
-  name: 柊かがみ
-  kana: ひいらぎかがみ
-  work: らき☆すた
-  year: 2004
-  summary: （要記入）
-  image:
-    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2171-OTMMewsamHiC.png'
-    page: 'https://anilist.co/character/2171'
-    credit: AniList
-  analysis:
-    method: danbooru+auto
-    date: '2026-10-11'
-  elements:
-    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 82%', src: danbooru}
-    - {id: twintail, weight: core, note: 'danbooru twintails 72%', src: danbooru}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 44%', src: danbooru}
-    - {id: aome, weight: spice, note: 'danbooru blue_eyes 50%（共有 23% のため比重を下げた）', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 90%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: izumi-sagiri
@@ -5031,6 +5098,25 @@
     - {id: uragiri, weight: sub, note: '資料: 母親（鬼龍院羅暁）を裏切り、纏流子と同じ目的を共有するようになった。', src: gemini}
   patterns: []
 
+- id: kisaragi-chihaya
+  name: 如月千早
+  kana: きさらぎちはや
+  work: アイドルマスター
+  year: 2005
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b10369-fwWQUkYDaVD1.png'
+    page: 'https://anilist.co/character/10369'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-11'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 84%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 63%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kishibe-rohan
   name: 岸辺露伴
   kana: きしべろはん
@@ -5722,25 +5808,6 @@
     - {id: soushitsu, weight: sub, note: '資料: 母親である黒崎真咲は故人である。', src: gemini}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 48%', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 36%', src: danbooru}
-  patterns: []
-
-- id: kurusu-syo
-  name: 如月千早
-  kana: きさらぎちはや
-  work: アイドルマスター
-  year: 2005
-  summary: （要記入）
-  image:
-    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b10369-fwWQUkYDaVD1.png'
-    page: 'https://anilist.co/character/10369'
-    credit: AniList
-  analysis:
-    method: danbooru+auto
-    date: '2026-10-11'
-  elements:
-    - {id: aogami, weight: core, note: 'danbooru blue_hair 84%', src: danbooru}
-    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 63%（共有 15% のため比重を下げた）', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kusanagi-motoko
@@ -9663,31 +9730,6 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 72%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
-- id: serval-2
-  name: フェネック
-  kana: ふぇねっく
-  work: けものフレンズ
-  year: 2017
-  summary: （要記入）
-  image:
-    url: 'https://s4.anilist.co/file/anilistcdn/character/large/n129204-wMENuXoPk0Ch.jpg'
-    page: 'https://anilist.co/character/129204'
-    credit: AniList
-  analysis:
-    method: danbooru+auto
-    date: '2026-10-09'
-  elements:
-    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 99%', src: danbooru}
-    - {id: shippo, weight: core, note: 'danbooru tail 77%', src: danbooru}
-    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 54%', src: danbooru}
-    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 86%（共有 16% のため比重を下げた）', src: danbooru}
-    - {id: knit, weight: sub, note: 'danbooru sweater 51%', src: danbooru}
-    - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 50%', src: danbooru}
-    - {id: shirogami, weight: sub, note: 'danbooru white_hair 39%', src: danbooru}
-    - {id: tebukuro, weight: sub, note: 'danbooru gloves 41%', src: danbooru}
-    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 63%（共有 39% のため比重を下げた）', src: danbooru}
-  patterns: []
-
 - id: sesshoumaru
   name: 殺生丸
   kana: せっしょうまる
@@ -9772,27 +9814,6 @@
     - {id: akame, weight: sub, note: 'danbooru red_eyes 48%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 52%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 96%（共有 37% のため比重を下げた）', src: danbooru}
-  patterns: []
-
-- id: shana-2
-  name: アラストール
-  kana: あらすとーる
-  work: 灼眼のシャナ
-  year: 2002
-  summary: （要記入）
-  image:
-    url: 'https://s4.anilist.co/file/anilistcdn/character/large/1934.jpg'
-    page: 'https://anilist.co/character/1934'
-    credit: AniList
-  analysis:
-    method: danbooru+auto
-    date: '2026-10-08'
-  elements:
-    - {id: akagami, weight: sub, note: 'danbooru red_hair 68%（共有 9% のため比重を下げた）', src: danbooru}
-    - {id: akame, weight: sub, note: 'danbooru red_eyes 52%', src: danbooru}
-    - {id: buki, weight: sub, note: 'danbooru weapon 49%', src: danbooru}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 59%', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 96%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: sheeta
@@ -10700,26 +10721,6 @@
     - {id: teishinchou, weight: sub, note: '資料: 16歳の女性で、身長は150cmである。', src: gemini}
     - {id: tenshi, weight: sub, note: '資料: 神の代理人と信じられたことなどから、対立するSSSから「天使」と呼ばれ続けている。', src: gemini}
     - {id: saikai, weight: spice, note: '資料: エンドクレジット後、現実世界で音無と再会したと思われる短いシーンが描かれている。', src: gemini}
-  patterns: []
-
-- id: tachibana-mei
-  name: 橘めい
-  kana: たちばなめい
-  work: '会長はメイド様!'
-  year: 2010
-  summary: 提供された資料に記載が存在しないため、構成要素を特定できない構造。
-  image:
-    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b14941-qh15JS5cEQDL.jpg'
-    page: 'https://anilist.co/character/14941'
-    credit: AniList
-  analysis:
-    method: danbooru+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
-  elements:
-    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 57%', src: danbooru}
-    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 46%', src: danbooru}
-    - {id: meido, weight: sub, note: 'danbooru maid 54%', src: danbooru}
   patterns: []
 
 - id: tainaka-ritsu

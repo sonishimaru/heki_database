@@ -116,7 +116,7 @@ elements:
 
   # --- 小物 ---
   megane:
-    tags: [glasses, semi-rimless_eyewear, round_eyewear, rimless_eyewear, sunglasses, tinted_eyewear, green-tinted_eyewear, black-framed_eyewear, monocle]
+    tags: [glasses, semi-rimless_eyewear, round_eyewear, rimless_eyewear, sunglasses, tinted_eyewear, green-tinted_eyewear, black-framed_eyewear, monocle, triangular_eyewear]
   tebukuro:
     tags: [gloves, fingerless_gloves, elbow_gloves, black_gloves, white_gloves, under-elbow_gloves, brown_gloves, boxing_gloves]
   choker:
@@ -363,3 +363,7 @@ elements:
   # --- 23 巡目に昇格した語 ---
   yoroi:
     tags: [armor, armored_dress, shoulder_armor, pauldrons, breastplate, gauntlets, plate_armor]
+
+  # --- 25 巡目に昇格した語 ---
+  hachimaki:
+    tags: [headband, red_headband, hachimaki, forehead_protector, bandana]

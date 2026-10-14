@@ -556,16 +556,10 @@ characters:
     year: 2018
     danbooru: denji_(chainsaw_man)
     anilist: Denji
-  - id: lupin-iii
-    name: ルパン三世
-    kana: るぱんさんせい
-    work: ルパン三世
-    year: 1967
-    # 8/31 には通っていたのに取得できなくなった。作品と同名のキャラなので
-    # _(character) 付きを試す。これも駄目なら収録済みの記録は残したまま
-    # キューから外す（星野アイと同じ扱い）
-    danbooru: lupin_iii_(character)
-    anilist: Lupin III
+  # ルパン三世はキューから外した。lupin_iii も lupin_iii_(character) も
+  # 取得できない。ただし 8/31 に取り込んだ記録は characters_auto に残す。
+  # 一度も取れなかった人物（レゴシ等）とは事情が違い、記録を消す理由が無い。
+  # これ以降は更新されないだけで、収録は 4 要素のまま続く。
   - id: mine-fujiko
     name: 峰不二子
     kana: みねふじこ
@@ -2017,9 +2011,9 @@ characters:
 #     部屋着・ぶかぶかの服（日常もの）、小声・耳が赤くなる・目を逸らす（内向）、
 #     ドS、立場の逆転、二人きり。作品の系統も未収録のものを選んだ ---
 
-  - id: tachibana-mei
-    name: 橘めい
-    kana: たちばなめい
+  - id: ayuzawa-misaki
+    name: 鮎沢美咲
+    kana: あゆざわみさき
     work: 会長はメイド様!
     year: 2010
     danbooru: ayuzawa_misaki
@@ -3753,7 +3747,7 @@ characters:
     year: 2013
     danbooru: izumi_sagiri
     anilist: Sagiri Izumi
-  - id: shana-2
+  - id: alastor
     name: アラストール
     kana: あらすとーる
     work: 灼眼のシャナ
@@ -3849,7 +3843,7 @@ characters:
     year: 1992
     danbooru: kino_makoto
     anilist: Makoto Kino
-  - id: serval-2
+  - id: fennec
     name: フェネック
     kana: ふぇねっく
     work: けものフレンズ
@@ -3981,7 +3975,7 @@ characters:
     year: 2014
     danbooru: kaminari_denki
     anilist: Denki Kaminari
-  - id: izumi-konata-2
+  - id: hiiragi-kagami
     name: 柊かがみ
     kana: ひいらぎかがみ
     work: らき☆すた
@@ -3995,7 +3989,7 @@ characters:
     year: 2011
     danbooru: yamada_anna
     anilist: Anna Yamada
-  - id: kurusu-syo
+  - id: kisaragi-chihaya
     name: 如月千早
     kana: きさらぎちはや
     work: アイドルマスター
@@ -4089,7 +4083,8 @@ characters:
     kana: あーろん
     work: ファイナルファンタジーX
     year: 2001
-    danbooru: auron_(ff10)
+    # 同作のユウナは Yuna が他と被るから括弧が要る。アーロンは被らないので外す
+    danbooru: auron
     anilist: Auron
   - id: ganondorf
     name: ガノンドロフ
@@ -4103,7 +4098,8 @@ characters:
     kana: りどりー
     work: メトロイド
     year: 1986
-    danbooru: ridley_(metroid)
+    # サムスが samus_aran で通っている。リドリーも名前が被らないので括弧を外す
+    danbooru: ridley
     anilist: Ridley
   - id: robin-fe
     name: ルフレ
@@ -4133,3 +4129,25 @@ characters:
     year: 1991
     danbooru: ryu_(street_fighter)
     anilist: Ryu
+  # 18 期目。近年の作品で抜けていた主要人物。
+  - id: uzui-tengen
+    name: 宇髄天元
+    kana: うずいてんげん
+    work: 鬼滅の刃
+    year: 2016
+    danbooru: uzui_tengen
+    anilist: Tengen Uzui
+  - id: nanami-kento
+    name: 七海建人
+    kana: ななみけんと
+    work: 呪術廻戦
+    year: 2018
+    danbooru: nanami_kento
+    anilist: Kento Nanami
+  - id: ayanokouji-kiyotaka
+    name: 綾小路清隆
+    kana: あやのこうじきよたか
+    work: ようこそ実力至上主義の教室へ
+    year: 2015
+    danbooru: ayanokouji_kiyotaka
+    anilist: Kiyotaka Ayanokouji
