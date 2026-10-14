@@ -1596,24 +1596,24 @@
   new_tag_proposals: []
 - id: flandre-scarlet
   name: フランドール・スカーレット
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.286
-    threshold: 0.35
-  - id: chouhatsu
-    tag: long_hair
-    frequency: 0.225
+    frequency: 0.2832
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.225
+    frequency: 0.224
     threshold: 0.5
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2236
+    threshold: 0.35
   - id: yaeba
     tag: fang
-    frequency: 0.223
+    frequency: 0.2214
     threshold: 0.35
   new_tag_proposals: []
 - id: florence-nightingale
@@ -2025,20 +2025,20 @@
   new_tag_proposals: []
 - id: gotou-hitori
   name: 後藤ひとり
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.4758
+    frequency: 0.473
     threshold: 0.5
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.2752
+    frequency: 0.2756
     threshold: 0.5
   - id: gakki
     tag: instrument
-    frequency: 0.2046
+    frequency: 0.2042
     threshold: 0.35
   new_tag_proposals: []
 - id: guts
@@ -2253,17 +2253,14 @@
   new_tag_proposals: []
 - id: hatsune-miku
   name: 初音ミク
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2558
+    frequency: 0.2616
     threshold: 0.5
-  new_tag_proposals:
-  - name: バーチャルシンガー
-    axis: 関係性 / 立場
-    reason: 音声ライブラリ・歌唱用ソフトウェアという製品由来のキャラクター表現を分類する語彙がないため。
+  new_tag_proposals: []
 - id: hayakawa-aki
   name: 早川アキ
   date: '2026-10-13'
@@ -2812,21 +2809,18 @@
   new_tag_proposals: []
 - id: ijichi-nijika
   name: 伊地知虹夏
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: seifuku
     tag: school_uniform
-    frequency: 0.2365
+    frequency: 0.2356
     threshold: 0.3
   - id: mitsuami
     tag: braid
-    frequency: 0.1881
+    frequency: 0.191
     threshold: 0.35
-  new_tag_proposals:
-  - name: ドラマー
-    axis: 役割/職能
-    reason: 結束バンドのドラムを担当しているため。
+  new_tag_proposals: []
 - id: ikari-shinji
   name: 碇シンジ
   date: '2026-10-13'
@@ -3124,16 +3118,16 @@
     reason: 世界の人々に対する「憤怒」の罪としてカースシリーズを解放したため。
 - id: izayoi-sakuya
   name: 十六夜咲夜
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: akame
     tag: red_eyes
-    frequency: 0.2328
+    frequency: 0.2334
     threshold: 0.35
   - id: furiru
     tag: frills
-    frequency: 0.1934
+    frequency: 0.1946
     threshold: 0.35
   new_tag_proposals: []
 - id: izumi-konata
@@ -4172,57 +4166,48 @@
   new_tag_proposals: []
 - id: kita-ikuyo
   name: 喜多郁代
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
     tag: yellow_eyes
-    frequency: 0.1822
+    frequency: 0.1844
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.173
+    frequency: 0.1754
     threshold: 0.35
-  new_tag_proposals:
-  - name: SNS頻繁投稿
-    axis: 性格 / 癖・仕草
-    reason: 頻繁に写真を撮影し、Isostaにアップロードしているという記述があるため。
+  new_tag_proposals: []
 - id: kitagawa-marin
   name: 喜多川海夢
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.4938
+    frequency: 0.496
     threshold: 0.5
   - id: sakotsu
     tag: collarbone
-    frequency: 0.2692
+    frequency: 0.268
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.2061
+    frequency: 0.2065
     threshold: 0.3
   - id: pinku-gami
     tag: pink_hair
-    frequency: 0.1967
+    frequency: 0.1971
     threshold: 0.35
   - id: momoiro-no-me
     tag: pink_eyes
-    frequency: 0.1914
+    frequency: 0.1931
     threshold: 0.35
   - id: yubiwa
     tag: ring
-    frequency: 0.1686
+    frequency: 0.1675
     threshold: 0.5
-  new_tag_proposals:
-  - name: コスプレイヤー
-    axis: 属性 / 趣味
-    reason: コスプレイヤーであることが資料に明記されているが、既存の語彙（記号職等）に含まれないため。
-  - name: 手先が不器用
-    axis: 性格 / 技能
-    reason: 手先の作業が得意ではない（不器用）と記述されているが、既存の癖や気質に該当がないため。
+  new_tag_proposals: []
 - id: klee
   name: クレー
   date: '2026-08-31'
@@ -7152,20 +7137,16 @@
   new_tag_proposals: []
 - id: ram-re-zero
   name: ラム
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
-  - id: momoiro-no-me
-    tag: pink_eyes
-    frequency: 0.3489
-    threshold: 0.35
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.3053
+    frequency: 0.2999
     threshold: 0.5
   - id: furiru
     tag: frills
-    frequency: 0.2992
+    frequency: 0.297
     threshold: 0.35
   new_tag_proposals: []
 - id: ranka-lee
@@ -7294,28 +7275,28 @@
   new_tag_proposals: []
 - id: remilia-scarlet
   name: レミリア・スカーレット
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
     tag: frills
-    frequency: 0.2696
+    frequency: 0.2746
     threshold: 0.35
   - id: murasaki-gami
     tag: purple_hair
-    frequency: 0.2078
+    frequency: 0.204
     threshold: 0.35
   - id: yaeba
     tag: fang
-    frequency: 0.2048
+    frequency: 0.2026
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.1988
+    frequency: 0.1974
     threshold: 0.5
   - id: erufu
     tag: pointy_ears
-    frequency: 0.1656
+    frequency: 0.1684
     threshold: 0.35
   new_tag_proposals: []
 - id: rengoku-kyojuro
@@ -7535,21 +7516,22 @@
   new_tag_proposals: []
 - id: roronoa-zoro
   name: ロロノア・ゾロ
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: kinniku
     tag: muscular
-    frequency: 0.2781
+    frequency: 0.2751
     threshold: 0.35
   - id: wasou
     tag: japanese_clothes
-    frequency: 0.2193
+    frequency: 0.216
     threshold: 0.35
-  new_tag_proposals:
-  - name: 海賊
-    axis: 関係性 / 立場
-    reason: 「麦わらの一味」の船員であり懸賞金をかけられている立場を表すタグ。
+  - id: hachimaki
+    tag: bandana
+    frequency: 0.1689
+    threshold: 0.35
+  new_tag_proposals: []
 - id: roxy-migurdia
   name: ロキシー・ミグルディア
   date: '2026-08-31'
@@ -10641,24 +10623,24 @@
   new_tag_proposals: []
 - id: yukinoshita-yukino
   name: 雪ノ下雪乃
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.3084
+    frequency: 0.3112
     threshold: 0.5
   - id: ahoge
     tag: ahoge
-    frequency: 0.2537
+    frequency: 0.2546
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.2379
+    frequency: 0.238
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.1921
+    frequency: 0.1909
     threshold: 0.5
   new_tag_proposals: []
 - id: yukishiro-tomoe

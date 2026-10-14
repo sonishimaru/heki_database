@@ -1361,16 +1361,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-14'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 90%', src: danbooru}
     - {id: koukishin, weight: core, note: '資料: 好奇心から奉太郎を謎解きに巻き込み、「私気になります！」というフレーズを使用する。', src: gemini}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 86%', src: danbooru}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 86%', src: danbooru}
     - {id: reijou, weight: core, note: '資料: 地域に残る4つの豪農一族の1つである千反田家の一人娘である。', src: gemini}
     - {id: kuchiguse, weight: sub, note: '資料: 好奇心を表現する際に「私気になります！」というフレーズを繰り返し使用する。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 56%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 90%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 86%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: chun-li
@@ -1922,20 +1921,19 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-14'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 83%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 91%', src: danbooru}
     - {id: kyuuketsuki, weight: core, note: '資料: 吸血鬼であり、紅魔館のレミリア・スカーレットの妹。', src: gemini}
     - {id: tsubasa, weight: core, note: 'danbooru wings 89%', src: danbooru}
     - {id: yuuhei, weight: core, note: '資料: 精神的な不安定さと圧倒的な破壊力のため、姉のレミリアから約500年間館から出ることを禁じられている。', src: gemini}
-    - {id: furiru, weight: sub, note: 'danbooru frills 35%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 83%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: furiru, weight: sub, note: 'danbooru frills 36%', src: danbooru}
     - {id: furou, weight: sub, note: '資料: 年齢は約500歳で、見た目は約10歳程度。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 91%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: kodomo, weight: sub, note: '資料: 見た目は約10歳程度。', src: gemini}
     - {id: mitame-sabaku, weight: sub, note: '資料: 年齢は約500歳で、見た目は約10歳程度。', src: gemini}
     - {id: nouryokusha, weight: sub, note: '資料: 対象の最も緊張が高い「目」を手元に移動させ、力を注ぎ込んで握り潰すことで何でも破壊できる能力を持つ。', src: gemini}
-    - {id: ponytail, weight: sub, note: 'danbooru side_ponytail 40%', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru side_ponytail 39%', src: danbooru}
   patterns: []
 
 - id: florence-nightingale
@@ -2415,17 +2413,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-14'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 73%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 87%', src: danbooru}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 93%', src: danbooru}
     - {id: akogare, weight: sub, note: '資料: テレビでロックバンドを見て人気者になりたくてギターを習い始めた。', src: gemini}
     - {id: doryokuka, weight: sub, note: '資料: ギターを始めてから2年間、自宅の押入れで一人動画投稿を続けてフォロワーを集めた。', src: gemini}
     - {id: hitomishiri, weight: sub, note: '資料: ギターを始めて2年が経過しても友達が一人もおらず、バンドにも加入していなかった。', src: gemini}
-    - {id: ponytail, weight: sub, note: 'danbooru one_side_up 54%', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru one_side_up 53%', src: danbooru}
     - {id: shoutai, weight: sub, note: '資料: 自宅の押入れでギターカバー動画を録画し、YouTubeチャンネル「guitarhero」に投稿して一定のフォロワーを集めた。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 73%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 87%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: guts
@@ -2663,15 +2660,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-14'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 91%', src: danbooru}
     - {id: jinzou, weight: core, note: '資料: クリプトン社によって開発・販売されたVOCALOIDであり、イラストレーターのKEIによりアンドロイドとして描かれている。', src: gemini}
     - {id: twintail, weight: core, note: 'danbooru twintails 86%', src: danbooru}
     - {id: aidoru, weight: sub, note: '資料: キャラクター・ボーカル・シリーズとして展開されているが、資料内に「アイドル」という直接的な表現はない。', src: gemini}
     - {id: aogami, weight: sub, note: 'danbooru aqua_hair 53%', src: danbooru}
-    - {id: aome, weight: sub, note: 'danbooru aqua_eyes 40%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru aqua_eyes 40%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 91%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hayakawa-aki
@@ -3465,15 +3461,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-14'
   elements:
     - {id: ahoge, weight: core, note: 'danbooru ahoge 77%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 86%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 94%', src: danbooru}
     - {id: ponytail, weight: core, note: 'danbooru side_ponytail 81%', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 50%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 94%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: sewayaki, weight: sub, note: '資料: ひとりの世話を焼くまとめ役であると記載されている。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 86%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ikari-shinji
@@ -3859,21 +3854,20 @@
     page: 'https://anilist.co/character/5570'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-14'
   elements:
-    - {id: meido, weight: core, note: 'danbooru maid_headdress 72% / 資料: 紅魔館に住む唯一の人間であり、メイド長を務めている。', src: both}
+    - {id: meido, weight: core, note: 'danbooru maid_headdress 72%', src: danbooru}
     - {id: mitsuami, weight: core, note: 'danbooru braid 84%', src: danbooru}
-    - {id: shirogami, weight: core, note: 'danbooru grey_hair 66%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru grey_hair 67%', src: danbooru}
     - {id: shujuu, weight: core, note: '資料: レミリア・スカーレットに過去敗北し、名前を与えられて以来長く仕えている。', src: gemini}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 46%', src: danbooru}
     - {id: buki, weight: sub, note: 'danbooru knife 38%', src: danbooru}
     - {id: juusha, weight: sub, note: '資料: 悪魔の忠実な番犬として主君に仕える。', src: gemini}
     - {id: nouryokusha, weight: sub, note: '資料: 時間を遅くする、止める、逆行させる能力を持つ。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 50%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 46%（共有 23% のため比重を下げた）', src: danbooru}
     - {id: kako, weight: spice, note: '資料: 紅魔館で働く前は吸血鬼ハンターであった可能性など、秘められた過去が存在する。', src: gemini}
     - {id: mitame-sabaku, weight: spice, note: '資料: 外見は16歳程度に見えるが、実際には見た目よりかなり年上である可能性が示唆されている。', src: gemini}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 50%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: izumi-konata
@@ -5188,17 +5182,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-14'
   elements:
-    - {id: akagami, weight: core, note: 'danbooru red_hair 94%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 75%', src: danbooru}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 65%', src: danbooru}
     - {id: ponytail, weight: core, note: 'danbooru one_side_up 66%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 94%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: akogare, weight: sub, note: '資料: リョウ（Ryo）に憧れており、その感情が行き過ぎることがある。', src: gemini}
     - {id: kusekke, weight: sub, note: 'danbooru hair_between_eyes 50%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 31%', src: danbooru}
     - {id: tenshin, weight: sub, note: '資料: 明るく人気があり、人と接することが好きで、初対面の人とも躊躇なく笑顔で話すことができる。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 76%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kitagawa-marin
@@ -5213,18 +5206,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-14'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 63%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 84%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 92%', src: danbooru}
     - {id: otaku, weight: core, note: '資料: 魔法少女アニメやアダルトゲームのファンであるオタクとして明確に記述されている。', src: gemini}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 62%（共有 13% のため比重を下げた）', src: danbooru}
     - {id: choker, weight: sub, note: 'danbooru choker 55%', src: danbooru}
     - {id: gyaru, weight: sub, note: 'danbooru gyaru 36%', src: danbooru}
     - {id: kataomoi, weight: sub, note: '資料: Wakanaに恋していることに気づき、彼を様々な場所に誘って一緒に過ごそうとしている。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 92%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 41%', src: danbooru}
-    - {id: piasu, weight: sub, note: 'danbooru piercing 60%', src: danbooru}
+    - {id: piasu, weight: sub, note: 'danbooru piercing 59%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 86%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: klee
@@ -8564,19 +8556,19 @@
     page: 'https://anilist.co/character/88576'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-14'
   elements:
     - {id: futago, weight: core, note: '資料: レムを双子の妹に持ち、双子メイドとして記述されている。', src: gemini}
-    - {id: meido, weight: core, note: 'danbooru maid 49% / 資料: ロズワール・L・メイザースのもとで働く双子メイドのひとりとして記載されている。', src: both}
     - {id: mekakure, weight: core, note: 'danbooru hair_over_one_eye 67%', src: danbooru}
     - {id: oni, weight: core, note: '資料: 提示された資料には明記されていないが、作品上の設定として鬼族であることが確実なため。', src: gemini}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 92%', src: danbooru}
     - {id: shujuu, weight: core, note: '資料: ロズワール・L・メイザースに仕えており、彼が最高であると信じている。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 88%', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 50%', src: danbooru}
     - {id: juusha, weight: sub, note: '資料: ロズワールのもとで働き仕える立場であることが明記されている。', src: gemini}
+    - {id: meido, weight: sub, note: 'danbooru maid 47%', src: danbooru}
+    - {id: momoiro-no-me, weight: sub, note: 'danbooru pink_eyes 36%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 88%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ranka-lee
@@ -8725,19 +8717,18 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-14'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 79%', src: danbooru}
     - {id: kyuuketsuki, weight: core, note: '資料: 種族が吸血鬼であり、日光に弱く、コウモリに変身する能力を持つ。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 62%', src: danbooru}
     - {id: tsubasa, weight: core, note: 'danbooru wings 85%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 79%（共有 13% のため比重を下げた）', src: danbooru}
     - {id: akuma, weight: sub, note: '資料: 幻想郷において危険な「紅い悪魔」として知られている。', src: gemini}
     - {id: aogami, weight: sub, note: 'danbooru blue_hair 58%', src: danbooru}
     - {id: hogosha, weight: sub, note: '資料: フランドールの姉であり保護者である。', src: gemini}
     - {id: nouryokusha, weight: sub, note: '資料: 運命を操る能力を持っている。', src: gemini}
     - {id: shujuu, weight: sub, note: '資料: 紅魔館のオーナーであり、咲夜や美鈴の主人である。', src: gemini}
     - {id: yosomono, weight: sub, note: '資料: ヨーロッパ起源であり昔日本に移住したとされる。', src: gemini}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 61%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: rengoku-kyojuro
@@ -8970,16 +8961,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-14'
   elements:
-    - {id: kizuato, weight: core, note: 'danbooru scar 61%', src: danbooru}
+    - {id: kizuato, weight: core, note: 'danbooru scar 60%', src: danbooru}
     - {id: midorigami, weight: core, note: 'danbooru green_hair 79%', src: danbooru}
     - {id: samurai, weight: core, note: '資料: 両手と口に刀を加える三刀流を使う剣士であることが示されている。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 83%', src: danbooru}
     - {id: buki, weight: sub, note: 'danbooru weapon 48%', src: danbooru}
     - {id: muhoumono, weight: sub, note: '資料: 懸賞金（1,111,000,000等）が掛けられた賞金首である。', src: gemini}
-    - {id: piasu, weight: sub, note: 'danbooru earrings 56%', src: danbooru}
+    - {id: piasu, weight: sub, note: 'danbooru earrings 57%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 83%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: roxy-migurdia
@@ -12325,15 +12315,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-14'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 74%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 95%', src: danbooru}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 90%', src: danbooru}
     - {id: kuudere, weight: sub, note: '資料: 「Ice-cold Beauty」という愛称で呼ばれているため。', src: gemini}
     - {id: reijou, weight: sub, note: '資料: 父親が日本の国会議員であるため。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 45%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 74%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 95%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 90%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yukishiro-tomoe
