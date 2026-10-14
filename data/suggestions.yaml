@@ -730,6 +730,40 @@
     frequency: 0.16
     threshold: 0.35
   new_tag_proposals: []
+- id: auron
+  name: アーロン
+  date: '2026-10-14'
+  unmapped_danbooru: []
+  near_miss:
+  - id: bushouhige
+    tag: facial_hair
+    frequency: 0.3226
+    threshold: 0.35
+  - id: kishi
+    tag: armor
+    frequency: 0.2903
+    threshold: 0.4
+  - id: messhu
+    tag: multicolored_hair
+    frequency: 0.2903
+    threshold: 0.35
+  - id: yoroi
+    tag: armor
+    frequency: 0.2903
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2581
+    threshold: 0.35
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.2258
+    threshold: 0.35
+  - id: wasou
+    tag: japanese_clothes
+    frequency: 0.1935
+    threshold: 0.35
+  new_tag_proposals: []
 - id: ayanami-rei
   name: 綾波レイ
   date: '2026-10-09'
@@ -743,6 +777,20 @@
     tag: school_uniform
     frequency: 0.2016
     threshold: 0.3
+  new_tag_proposals: []
+- id: ayanokouji-kiyotaka
+  name: 綾小路清隆
+  date: '2026-10-14'
+  unmapped_danbooru: []
+  near_miss:
+  - id: muhyoujou
+    tag: expressionless
+    frequency: 0.25
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.1667
+    threshold: 0.35
   new_tag_proposals: []
 - id: ayasato-mayoi
   name: 綾里真宵
@@ -1435,20 +1483,20 @@
     reason: 並外れた反射神経と驚異的な学習能力を持つと評されているため。
 - id: eren-yeager
   name: エレン・イェーガー
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.3253
+    frequency: 0.3283
     threshold: 0.35
   - id: kurokami
     tag: black_hair
-    frequency: 0.2945
+    frequency: 0.2929
     threshold: 0.35
   - id: semi-long
     tag: medium_hair
-    frequency: 0.1712
+    frequency: 0.1751
     threshold: 0.35
   new_tag_proposals: []
 - id: eris-boreas-greyrat
@@ -3717,20 +3765,20 @@
   new_tag_proposals: []
 - id: kiki
   name: キキ
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: chairo-no-me
     tag: brown_eyes
-    frequency: 0.2346
+    frequency: 0.2302
     threshold: 0.35
   - id: kurome
     tag: black_eyes
-    frequency: 0.1754
+    frequency: 0.1814
     threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.1706
+    frequency: 0.1698
     threshold: 0.35
   new_tag_proposals: []
 - id: kikuchi-makoto
@@ -5029,32 +5077,32 @@
   new_tag_proposals: []
 - id: lum
   name: ラム
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: oni
     tag: oni
-    frequency: 0.348
+    frequency: 0.3462
     threshold: 0.35
   - id: aome
     tag: blue_eyes
-    frequency: 0.2478
+    frequency: 0.2462
     threshold: 0.35
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.1899
+    frequency: 0.1905
     threshold: 0.5
-  - id: aogami
-    tag: blue_hair
-    frequency: 0.1635
-    threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1618
+    frequency: 0.1648
+    threshold: 0.35
+  - id: aogami
+    tag: blue_hair
+    frequency: 0.1631
     threshold: 0.35
   - id: kin-no-me
     tag: yellow_eyes
-    frequency: 0.1501
+    frequency: 0.1519
     threshold: 0.35
   new_tag_proposals: []
 - id: lupin-iii
@@ -5658,7 +5706,7 @@
   new_tag_proposals: []
 - id: miyamizu-mitsuha
   name: 宮水三葉
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
@@ -6654,28 +6702,28 @@
   new_tag_proposals: []
 - id: ogino-chihiro
   name: 荻野千尋
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.1944
+    frequency: 0.1958
     threshold: 0.35
   - id: hinnyuu
     tag: flat_chest
-    frequency: 0.1736
+    frequency: 0.1748
     threshold: 0.5
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.1667
+    frequency: 0.1678
     threshold: 0.35
   - id: wasou
     tag: japanese_clothes
-    frequency: 0.1597
+    frequency: 0.1608
     threshold: 0.35
   - id: kurome
     tag: black_eyes
-    frequency: 0.1528
+    frequency: 0.1538
     threshold: 0.35
   new_tag_proposals: []
 - id: oikawa-tooru
@@ -7344,6 +7392,42 @@
     frequency: 0.1638
     threshold: 0.35
   new_tag_proposals: []
+- id: ridley
+  name: リドリー
+  date: '2026-10-14'
+  unmapped_danbooru:
+  - tag: claws
+    frequency: 0.4737
+  near_miss:
+  - id: kinpatsu
+    tag: blonde_hair
+    frequency: 0.3421
+    threshold: 0.35
+  - id: gizaba
+    tag: sharp_teeth
+    frequency: 0.3421
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2105
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.2105
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.2105
+    threshold: 0.35
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.2105
+    threshold: 0.35
+  - id: namida-bokuro
+    tag: mole_under_mouth
+    frequency: 0.1842
+    threshold: 0.35
+  new_tag_proposals: []
 - id: rikiishi-tooru
   name: 力石徹
   date: '2026-10-04'
@@ -7872,20 +7956,20 @@
   new_tag_proposals: []
 - id: sakurajima-mai
   name: 桜島麻衣
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.2749
+    frequency: 0.2764
     threshold: 0.5
   - id: shippo
     tag: tail
-    frequency: 0.2112
+    frequency: 0.2109
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1633
+    frequency: 0.1611
     threshold: 0.35
   new_tag_proposals: []
 - id: samus-aran
@@ -7910,33 +7994,34 @@
   new_tag_proposals: []
 - id: san
   name: サン
-  date: '2026-08-31'
+  date: '2026-10-14'
   unmapped_danbooru: []
   near_miss:
   - id: kamen
     tag: mask
-    frequency: 0.3643
+    frequency: 0.3652
     threshold: 0.4
   - id: chairo-no-me
     tag: brown_eyes
-    frequency: 0.3265
+    frequency: 0.3242
     threshold: 0.35
   - id: gaitou
     tag: cape
-    frequency: 0.2577
+    frequency: 0.2594
     threshold: 0.35
   - id: buki
     tag: weapon
-    frequency: 0.2474
+    frequency: 0.2457
+    threshold: 0.35
+  - id: hachimaki
+    tag: headband
+    frequency: 0.2218
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1512
+    frequency: 0.1502
     threshold: 0.35
-  new_tag_proposals:
-  - name: amatou
-    axis: 嗜好
-    reason: パフェ、アイスクリーム、ケーキなどの甘いものやイチゴミルクを好む性格的特徴を示す語彙がないため。
+  new_tag_proposals: []
 - id: sango
   name: 珊瑚
   date: '2026-10-09'
@@ -9985,6 +10070,52 @@
   - id: sakotsu
     tag: collarbone
     frequency: 0.2726
+    threshold: 0.35
+  new_tag_proposals: []
+- id: uzui-tengen
+  name: 宇髄天元
+  date: '2026-10-14'
+  unmapped_danbooru: []
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.4202
+    threshold: 0.5
+  - id: hachimaki
+    tag: headband
+    frequency: 0.2941
+    threshold: 0.35
+  - id: kinniku
+    tag: muscular
+    frequency: 0.2773
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2437
+    threshold: 0.5
+  - id: wasou
+    tag: japanese_clothes
+    frequency: 0.2437
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.2017
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.1933
+    threshold: 0.35
+  - id: ninja
+    tag: forehead_protector
+    frequency: 0.1681
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1513
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.1513
     threshold: 0.35
   new_tag_proposals: []
 - id: uzumaki-naruto
