@@ -1696,13 +1696,12 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
     - {id: kabau, weight: core, note: '資料: 自身のサーヴァントであるセイバーを含め、他者を危険から非合理にかばおうとする。', src: gemini}
-    - {id: akagami, weight: sub, note: 'danbooru orange_hair 40%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 40%', src: danbooru}
     - {id: jiko-gisei, weight: sub, note: '資料: 自身のサーヴァントであるセイバーを含め、他者を危険から非合理にかばおうとする。', src: gemini}
-    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 44%', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 43%', src: danbooru}
     - {id: shujuu, weight: sub, note: '資料: セイバーは自身のサーヴァントである。', src: gemini}
   patterns: []
 
@@ -2269,21 +2268,20 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 84%', src: danbooru}
     - {id: gouman, weight: core, note: '資料: わがままで傲慢な暴君として育ったと明記されている。', src: gemini}
     - {id: joushi, weight: core, note: '資料: メソポタミア・シュメール王朝時代にウルクを統治した王であり英雄王と呼ばれる。', src: gemini}
     - {id: kami, weight: core, note: '資料: ウルク王と女神の間に生まれ、3分の2が神、3分の1が人間であると記載されている。', src: gemini}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 88%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 78%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 84%（共有 13% のため比重を下げた）', src: danbooru}
     - {id: keiyaku, weight: sub, note: '資料: サーヴァントとしてマスターと契約を結び召喚されている。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 88%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: koushinchou, weight: sub, note: '資料: 身長182cmと明記されている。', src: gemini}
     - {id: piasu, weight: sub, note: 'danbooru earrings 51%', src: danbooru}
     - {id: uragiri, weight: sub, note: '資料: マスターである遠坂時臣の殺害を画策し実行した。', src: gemini}
     - {id: aibou, weight: spice, note: '資料: エルキドゥを唯一の友人であり自分と同等と認めた唯一の存在としている。', src: gemini}
     - {id: shukuteki, weight: spice, note: '資料: イスカンダルを殺すに値する好敵手として興味を持った。', src: gemini}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 78%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ginko
@@ -2931,14 +2929,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
-    - {id: akagami, weight: core, note: 'danbooru orange_hair 91%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 71%', src: danbooru}
     - {id: teishinchou, weight: core, note: '資料: 幼少期から身長の低さを補うために足を鍛えたとの記述がある。', src: gemini}
+    - {id: akagami, weight: sub, note: 'danbooru orange_hair 91%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: doryokuka, weight: sub, note: '資料: 身長の低さを補うために自ら足を鍛え、高校卒業後もブラジルへ渡ってビーチバレーで経験を積むなど地道な成長を重ねている。', src: gemini}
-    - {id: kin-no-me, weight: sub, note: 'danbooru orange_eyes 46%', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru orange_eyes 45%', src: danbooru}
+    - {id: uniform, weight: sub, note: 'danbooru sportswear 35%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 71%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hino-rei
@@ -4207,15 +4205,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 89%', src: danbooru}
     - {id: shukuteki, weight: core, note: '資料: 日向翔陽からライバルと見なされており、彼と共にプレイし始めることで変わり始める。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 82%', src: danbooru}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 59%', src: danbooru}
     - {id: gouman, weight: sub, note: '資料: 中学時代、傲慢な態度とチームメイトへ指示を出す姿勢から「コート上の王様」と呼ばれていた。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: 15歳の高校1年生時点で180.6cmの身長がある。', src: gemini}
+    - {id: uniform, weight: sub, note: 'danbooru sportswear 55%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 57%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 89%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 80%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kagura
@@ -4945,14 +4943,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 86%', src: danbooru}
     - {id: saikyou, weight: core, note: '作品知識: 資料には直接の記述がないが、作品全体を通して絶大な戦闘力を誇る最強の剣士として描写されている。', src: gemini}
     - {id: buki, weight: sub, note: 'danbooru weapon 38%', src: danbooru}
     - {id: kurome, weight: sub, note: 'danbooru black_eyes 58%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 40%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 86%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kirigiri-kyouko
@@ -5476,18 +5473,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
     - {id: hanyou, weight: core, note: '資料: 人間と幽霊のハーフ（半人半霊）であり、二つの体が物理的に分離した状態で存在する。', src: gemini}
     - {id: juusha, weight: core, note: '資料: 白玉楼で庭の手入れをし、主人の命令に従っている。', src: gemini}
     - {id: samurai, weight: core, note: '資料: 楼観剣と白楼剣の二刀を扱い、剣術の訓練を受けていた。', src: gemini}
     - {id: shujuu, weight: core, note: '資料: 主人の西行寺幽々子に仕えている。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 74%', src: danbooru}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 46%', src: danbooru}
     - {id: buki, weight: sub, note: 'danbooru weapon 50%', src: danbooru}
     - {id: shirogami, weight: sub, note: 'danbooru grey_hair 47%', src: danbooru}
     - {id: shitei, weight: sub, note: '資料: 父であり従者でもあった妖忌から剣術の訓練を受け教わっていた。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 46%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 73%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: koshigaya-natsumi
@@ -5785,14 +5781,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
     - {id: aogami, weight: core, note: 'danbooru blue_hair 83%', src: danbooru}
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 73%', src: danbooru}
     - {id: juusha, weight: core, note: '資料: 自分自身を「影」とみなし、「光」となる存在が大業を達成するのを手助けすることを目標としている。', src: gemini}
     - {id: kage-ga-usui, weight: core, note: '資料: 非常に存在感が薄く、相手に気づかれずにパスを回すことを専門としている。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 79%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 73%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 79%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kuronuma-sawako
@@ -8397,6 +8392,25 @@
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 44%（共有 24% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: otonashi-yuzuru
+  name: 音無結弦
+  kana: おとなしゆづる
+  work: 'Angel Beats!'
+  year: 2010
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b24502-TJE8JeOERvj0.jpg'
+    page: 'https://anilist.co/character/24502'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-15'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 49%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 60%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 68%（共有 21% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: oumae-kumiko
   name: 黄前久美子
   kana: おうまえくみこ
@@ -8803,21 +8817,20 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
     - {id: ahoge, weight: core, note: 'danbooru ahoge 85%', src: danbooru}
-    - {id: akagami, weight: core, note: 'danbooru red_hair 98%', src: danbooru}
     - {id: akuma, weight: core, note: '資料: 純血悪魔の古い貴族であるグレモリー家の出身で、上級悪魔（純血悪魔）', src: gemini}
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 81%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
     - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 83%', src: danbooru}
     - {id: shujuu, weight: core, note: '資料: 一誠（Issei）を自身の僕（servant）として蘇生させた。', src: gemini}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 98%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: jingai, weight: sub, note: '資料: 純血悪魔の古い貴族であるグレモリー家の出身', src: gemini}
     - {id: joushi, weight: sub, note: '資料: ランク/役割はKing。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: 身長は172cm。', src: gemini}
     - {id: nouryokusha, weight: sub, note: '資料: 能力として「滅びの力（Power of destruction）」を持つ。', src: gemini}
     - {id: reijou, weight: sub, note: '資料: 純血悪魔の古い貴族であるグレモリー家の出身', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 82%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ridley
@@ -10786,6 +10799,25 @@
     - {id: saikai, weight: spice, note: '資料: エンドクレジット後、現実世界で音無と再会したと思われる短いシーンが描かれている。', src: gemini}
   patterns: []
 
+- id: tadano-hitohito
+  name: 只野仁人
+  kana: ただのひとひと
+  work: 古見さんは、コミュ症です。
+  year: 2016
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b78093-QnJ9wDICvhSR.png'
+    page: 'https://anilist.co/character/78093'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-15'
+  elements:
+    - {id: kurome, weight: sub, note: 'danbooru black_eyes 44%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 59%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 48%（共有 26% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: tainaka-ritsu
   name: 田井中律
   kana: たいなかりつ
@@ -12030,6 +12062,22 @@
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 82%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: yamada-ryo
+  name: 山田リョウ
+  kana: やまだりょう
+  work: 'ぼっち・ざ・ろっく!'
+  year: 2017
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-15'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 93%', src: danbooru}
+    - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 77%', src: danbooru}
+    - {id: namida-bokuro, weight: core, note: 'danbooru mole_under_eye 66%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 73%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: yashiro-nene
   name: 八尋寧々
   kana: やしろねね
@@ -12407,15 +12455,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
-    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 69%', src: danbooru}
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 72%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 96%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 69%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: joushi, weight: sub, note: '資料: 血盟騎士団の副リーダーという指導的な立場にある。', src: gemini}
     - {id: kishi, weight: sub, note: '資料: アインクラッド最強のギルド「血盟騎士団」の副リーダーを務めている。', src: gemini}
     - {id: mitsuami, weight: sub, note: 'danbooru braid 35%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 72%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 96%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yuzuriha-inori

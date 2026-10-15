@@ -1444,24 +1444,24 @@
   new_tag_proposals: []
 - id: emiya-shirou
   name: 衛宮士郎
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
-    frequency: 0.312
+    frequency: 0.3107
     threshold: 0.35
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.2805
+    frequency: 0.2819
     threshold: 0.35
   - id: kinniku
     tag: abs
-    frequency: 0.1628
+    frequency: 0.1646
     threshold: 0.35
   - id: wasou
     tag: japanese_clothes
-    frequency: 0.1607
+    frequency: 0.1615
     threshold: 0.35
   new_tag_proposals: []
 - id: emma-neverland
@@ -1887,16 +1887,20 @@
   new_tag_proposals: []
 - id: gilgamesh-fate
   name: ギルガメッシュ
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: kishi
     tag: armor
-    frequency: 0.25
+    frequency: 0.2492
     threshold: 0.4
+  - id: yoroi
+    tag: armor
+    frequency: 0.2492
+    threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.152
+    frequency: 0.1525
     threshold: 0.5
   new_tag_proposals: []
 - id: ginko
@@ -2445,12 +2449,12 @@
   new_tag_proposals: []
 - id: hinata-shouyou
   name: 日向翔陽
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: chairo-no-me
     tag: brown_eyes
-    frequency: 0.1617
+    frequency: 0.1613
     threshold: 0.35
   new_tag_proposals: []
 - id: hino-rei
@@ -3373,12 +3377,12 @@
   new_tag_proposals: []
 - id: kageyama-tobio
   name: 影山飛雄
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2774
+    frequency: 0.2727
     threshold: 0.5
   new_tag_proposals: []
 - id: kagura
@@ -3959,32 +3963,30 @@
   new_tag_proposals: []
 - id: kirigaya-kazuto
   name: キリト
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.3314
+    frequency: 0.3319
     threshold: 0.5
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.3299
+    frequency: 0.3289
     threshold: 0.35
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.1753
+    frequency: 0.1763
     threshold: 0.35
   - id: kishi
     tag: armor
-    frequency: 0.162
+    frequency: 0.1615
     threshold: 0.4
-  new_tag_proposals:
-  - name: ソロプレイヤー
-    axis: 関係性 / 立場
-    reason: ギルドに所属せず通常一人で行動するゲームプレイ形式を取っているため。
-  - name: ベータテスター
-    axis: 関係性 / 立場
-    reason: Sword Art Onlineのベータテスト期間をプレイした数少ない人物であるため。
+  - id: yoroi
+    tag: armor
+    frequency: 0.1615
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kirigiri-kyouko
   name: 霧切響子
   date: '2026-08-31'
@@ -4364,21 +4366,18 @@
   new_tag_proposals: []
 - id: konpaku-youmu
   name: 魂魄妖夢
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: midori-no-me
     tag: green_eyes
-    frequency: 0.2128
+    frequency: 0.2136
     threshold: 0.35
   - id: yuurei
     tag: ghost
-    frequency: 0.164
+    frequency: 0.161
     threshold: 0.35
-  new_tag_proposals:
-  - name: 真面目
-    axis: 性格 / 気質
-    reason: 資料に『直情的で真面目な妖夢の性格』との記述があるが、既存の語彙に該当がないため。
+  new_tag_proposals: []
 - id: koshigaya-natsumi
   name: 越谷夏海
   date: '2026-10-10'
@@ -4617,9 +4616,13 @@
   new_tag_proposals: []
 - id: kuroko-tetsuya
   name: 黒子テツヤ
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
+  - id: uniform
+    tag: sportswear
+    frequency: 0.2671
+    threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
     frequency: 0.2466
@@ -7001,6 +7004,22 @@
     frequency: 0.2021
     threshold: 0.35
   new_tag_proposals: []
+- id: otonashi-yuzuru
+  name: 音無結弦
+  date: '2026-10-15'
+  unmapped_danbooru:
+  - tag: shinda_sekai_sensen_uniform
+    frequency: 0.383
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.1915
+    threshold: 0.35
+  - id: akagami
+    tag: orange_hair
+    frequency: 0.1702
+    threshold: 0.35
+  new_tag_proposals: []
 - id: oumae-kumiko
   name: 黄前久美子
   date: '2026-09-30'
@@ -7361,16 +7380,16 @@
   new_tag_proposals: []
 - id: rias-gremory
   name: リアス・グレモリー
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.3467
+    frequency: 0.3478
     threshold: 0.5
   - id: tebukuro
     tag: gloves
-    frequency: 0.1638
+    frequency: 0.164
     threshold: 0.35
   new_tag_proposals: []
 - id: ridley
@@ -9156,6 +9175,24 @@
     frequency: 0.1502
     threshold: 0.35
   new_tag_proposals: []
+- id: tadano-hitohito
+  name: 只野仁人
+  date: '2026-10-15'
+  unmapped_danbooru: []
+  near_miss:
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2963
+    threshold: 0.3
+  - id: twintail
+    tag: twintails
+    frequency: 0.2222
+    threshold: 0.35
+  - id: pinku-gami
+    tag: pink_hair
+    frequency: 0.2222
+    threshold: 0.35
+  new_tag_proposals: []
 - id: tainaka-ritsu
   name: 田井中律
   date: '2026-08-31'
@@ -10331,6 +10368,16 @@
     frequency: 0.3342
     threshold: 0.35
   new_tag_proposals: []
+- id: yamada-ryo
+  name: 山田リョウ
+  date: '2026-10-15'
+  unmapped_danbooru: []
+  near_miss:
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2173
+    threshold: 0.3
+  new_tag_proposals: []
 - id: yashiro-nene
   name: 八尋寧々
   date: '2026-08-31'
@@ -10679,33 +10726,34 @@
   new_tag_proposals: []
 - id: yuuki-asuna
   name: アスナ
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: kishi
     tag: armor
-    frequency: 0.248
+    frequency: 0.2479
     threshold: 0.4
+  - id: yoroi
+    tag: armor
+    frequency: 0.2479
+    threshold: 0.35
   - id: buki
     tag: weapon
-    frequency: 0.2454
+    frequency: 0.2453
     threshold: 0.35
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.2163
+    frequency: 0.2168
     threshold: 0.5
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1586
+    frequency: 0.1601
     threshold: 0.35
   - id: erufu
     tag: pointy_ears
-    frequency: 0.1519
+    frequency: 0.1517
     threshold: 0.35
-  new_tag_proposals:
-  - name: 称号・異名
-    axis: 物語役割 / 役割
-    reason: 「閃光」という称号を得ているが、該当する語彙が存在しないため。
+  new_tag_proposals: []
 - id: yuzuriha-inori
   name: 楪いのり
   date: '2026-10-02'
