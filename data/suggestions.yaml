@@ -308,24 +308,32 @@
   new_tag_proposals: []
 - id: alphonse-elric
   name: アルフォンス・エルリック
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: kishi
     tag: armor
-    frequency: 0.3576
+    frequency: 0.3553
     threshold: 0.4
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.3487
+    threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.3245
+    frequency: 0.3224
     threshold: 0.35
   - id: tebukuro
     tag: gloves
-    frequency: 0.2185
+    frequency: 0.2171
+    threshold: 0.35
+  - id: helmet
+    tag: helmet
+    frequency: 0.1974
     threshold: 0.35
   - id: gaitou
     tag: coat
-    frequency: 0.1788
+    frequency: 0.1776
     threshold: 0.35
   new_tag_proposals: []
 - id: alucard
@@ -1553,25 +1561,22 @@
   new_tag_proposals: []
 - id: faye-valentine
   name: フェイ・ヴァレンタイン
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.3798
+    frequency: 0.3768
     threshold: 0.5
   - id: tabako
     tag: cigarette
-    frequency: 0.2374
+    frequency: 0.2348
     threshold: 0.35
   - id: buki
     tag: weapon
-    frequency: 0.2047
+    frequency: 0.2058
     threshold: 0.35
-  new_tag_proposals:
-  - name: 冷凍睡眠
-    axis: 物語役割 / 秘密
-    reason: 宇宙船事故の後にコールドスリープ処置を受け、長期間を経て活動している背景を示すため。
+  new_tag_proposals: []
 - id: fennec
   name: フェネック
   date: '2026-10-09'
@@ -2499,20 +2504,20 @@
   new_tag_proposals: []
 - id: hitsugaya-toushirou
   name: 日番谷冬獅郎
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: sakadachi-gami
     tag: spiked_hair
-    frequency: 0.2698
+    frequency: 0.2727
     threshold: 0.35
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.2275
+    frequency: 0.2222
     threshold: 0.35
   - id: aome
     tag: blue_eyes
-    frequency: 0.1958
+    frequency: 0.1919
     threshold: 0.35
   new_tag_proposals: []
 - id: hodaka-morishima
@@ -3532,16 +3537,16 @@
   new_tag_proposals: []
 - id: kaname-madoka
   name: 鹿目まどか
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
     tag: frills
-    frequency: 0.2698
+    frequency: 0.2714
     threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.2678
+    frequency: 0.268
     threshold: 0.35
   new_tag_proposals: []
 - id: kanbaru-suruga
@@ -4486,20 +4491,20 @@
   new_tag_proposals: []
 - id: kuchiki-rukia
   name: 朽木ルキア
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: wasou
     tag: japanese_clothes
-    frequency: 0.2822
+    frequency: 0.2813
     threshold: 0.35
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.2365
+    frequency: 0.2387
     threshold: 0.5
   - id: buki
     tag: weapon
-    frequency: 0.2053
+    frequency: 0.2073
     threshold: 0.35
   new_tag_proposals: []
 - id: kugisaki-nobara
@@ -4648,32 +4653,26 @@
   new_tag_proposals: []
 - id: kurosaki-ichigo
   name: 黒崎一護
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2366
+    frequency: 0.2329
     threshold: 0.5
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1884
-    threshold: 0.35
-  - id: chouhatsu
-    tag: long_hair
-    frequency: 0.1541
+    frequency: 0.1842
     threshold: 0.35
   - id: hakama
     tag: hakama
-    frequency: 0.1513
+    frequency: 0.1566
     threshold: 0.35
-  new_tag_proposals:
-  - name: 高校生
-    axis: 関係性 / 立場
-    reason: 空座町に住む高校生であることが明記されているが、語彙に存在しないため。
-  - name: 死神代行
-    axis: 関係性 / 立場
-    reason: 死神そのものではなく代理の立場を務める記述があるが、専用の語彙が存在しないため。
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.15
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kusanagi-motoko
   name: 草薙素子
   date: '2026-10-13'
@@ -5594,7 +5593,7 @@
   new_tag_proposals: []
 - id: miki-sayaka
   name: 美樹さやか
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: buki
@@ -7480,33 +7479,38 @@
   new_tag_proposals: []
 - id: riza-hawkeye
   name: リザ・ホークアイ
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
-    frequency: 0.4922
+    frequency: 0.4985
     threshold: 0.5
+  - id: ponytail
+    tag: folded_ponytail
+    frequency: 0.3446
+    threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.3386
+    frequency: 0.3415
     threshold: 0.35
   - id: buki
     tag: weapon
-    frequency: 0.2821
+    frequency: 0.28
     threshold: 0.35
   - id: gunpuku
     tag: military_uniform
-    frequency: 0.2539
+    frequency: 0.2492
     threshold: 0.35
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.2194
+    frequency: 0.2185
     threshold: 0.5
-  new_tag_proposals:
-  - name: 狙撃手
-    axis: 関係性 / 立場
-    reason: スナイパーライフルなどの銃器に特化し、極めて高い精度で標的を撃ち抜く職能を持つため。
+  - id: knit
+    tag: turtleneck
+    frequency: 0.1569
+    threshold: 0.35
+  new_tag_proposals: []
 - id: robin-fe
   name: ルフレ
   date: '2026-10-13'
@@ -9021,7 +9025,7 @@
   new_tag_proposals: []
 - id: spike-spiegel
   name: スパイク・スピーゲル
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: kurokami
@@ -9705,20 +9709,20 @@
   new_tag_proposals: []
 - id: tomoe-mami
   name: 巴マミ
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.3582
+    frequency: 0.3564
     threshold: 0.5
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.3258
+    frequency: 0.3288
     threshold: 0.35
   - id: buki
     tag: weapon
-    frequency: 0.3054
+    frequency: 0.3062
     threshold: 0.35
   new_tag_proposals: []
 - id: toujou-nozomi
@@ -10148,29 +10152,26 @@
     reason: 体内に九尾の妖狐という強大な存在を封印されている宿主としての特殊な立場。
 - id: vash-the-stampede
   name: ヴァッシュ・ザ・スタンピード
-  date: '2026-08-31'
+  date: '2026-10-15'
   unmapped_danbooru: []
   near_miss:
   - id: gishi
     tag: prosthesis
-    frequency: 0.2962
+    frequency: 0.298
     threshold: 0.35
   - id: buki
     tag: weapon
-    frequency: 0.2879
+    frequency: 0.2897
     threshold: 0.35
   - id: sakadachi-gami
     tag: spiked_hair
-    frequency: 0.2396
+    frequency: 0.2417
     threshold: 0.35
   - id: kurokami
     tag: black_hair
-    frequency: 0.2047
+    frequency: 0.2036
     threshold: 0.35
-  new_tag_proposals:
-  - name: 平和主義
-    axis: 性格 / 信条
-    reason: 資料において暴力を嫌い「LOVE AND PEACE!」というメッセージを広めようとしていると記述されているため。
+  new_tag_proposals: []
 - id: vegeta
   name: ベジータ
   date: '2026-10-12'

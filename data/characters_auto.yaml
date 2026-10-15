@@ -395,14 +395,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
     - {id: renkinjutsushi, weight: core, note: '資料: 職業が錬金術師であると資料に明記されている。', src: gemini}
-    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 35%', src: danbooru}
     - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 54%', src: danbooru}
     - {id: kodomo, weight: sub, note: '資料: 年齢が14-15歳であり、「人間の子供」であると資料に明記されている。', src: gemini}
     - {id: soushitsu, weight: sub, note: '資料: 亡くなった母親を蘇らせようとした結果、自らの身体を失ったことが資料に明記されている。', src: gemini}
+    - {id: yoroi, weight: sub, note: 'danbooru armor 36%', src: danbooru}
   patterns: []
 
 - id: alucard
@@ -1845,16 +1844,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
-    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 69%', src: danbooru}
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 60%', src: danbooru}
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 68%', src: danbooru}
     - {id: shoukin-kasegi, weight: core, note: '資料: 賞金稼ぎクルーのメンバーであり、賞金稼ぎの仲間と共に活動している。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 65%', src: danbooru}
     - {id: dokuzetsu, weight: sub, note: '資料: 皮肉的（Sarcastic）で図々しい口調や態度をとる。', src: gemini}
     - {id: keshou, weight: sub, note: 'danbooru makeup 37%', src: danbooru}
-    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 60%', src: danbooru}
     - {id: mitame-sabaku, weight: sub, note: '資料: 1994年生まれで2071年時点での実年齢は77歳（または74歳以上）だが、冷凍睡眠（コールドスリープ）処置を受けたため実年齢と見た目が合っていない。', src: gemini}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 65%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: fennec
@@ -3041,14 +3039,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
     - {id: joushi, weight: core, note: '資料: 護廷十三隊十番隊隊長を務めており、隊内で最年少の隊長という立場にある。', src: gemini}
     - {id: shinigami, weight: core, note: '資料: 種族が死神であり、斬魄刀「氷輪丸」を所持して護廷十三隊の隊長を務めている。', src: gemini}
-    - {id: shirogami, weight: core, note: 'danbooru white_hair 72%', src: danbooru}
-    - {id: buki, weight: sub, note: 'danbooru weapon 47%', src: danbooru}
-    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 48%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru white_hair 71%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 46%', src: danbooru}
+    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 47%', src: danbooru}
     - {id: osananajimi, weight: sub, note: '資料: 流魂街で雛森桃らと共に暮らし、幼少期を共に過ごした親しい友人関係にある。', src: gemini}
     - {id: teishinchou, weight: sub, note: '資料: 身長が133cmと小柄であり、幼少期も雛森桃より背が低かった。', src: gemini}
     - {id: toshishita, weight: sub, note: '資料: 雛森桃に対して自身が年下であり、護廷十三隊全体の中でも最年少の隊長である。', src: gemini}
@@ -4454,15 +4451,15 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 86%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 66%', src: danbooru}
     - {id: choker, weight: sub, note: 'danbooru choker 40%', src: danbooru}
     - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 47%', src: danbooru}
     - {id: momoiro-no-me, weight: sub, note: 'danbooru pink_eyes 51%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 36%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 54%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 36%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kanbaru-suruga
@@ -5620,17 +5617,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 77%', src: danbooru}
-    - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 64%', src: danbooru}
+    - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 65%', src: danbooru}
     - {id: shinigami, weight: core, note: '資料: 種族が死神であり、護廷十三隊十三番隊の副隊長を務めている。', src: gemini}
     - {id: gikyoudai, weight: sub, note: '資料: 貴族の養子となり、朽木白哉が義理の兄（養兄）である。', src: gemini}
     - {id: mibunsa, weight: sub, note: '資料: 下層階級出身でありながら貴族の家系へ養子に入った。', src: gemini}
-    - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 43%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 55%', src: danbooru}
+    - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 44%', src: danbooru}
     - {id: teishinchou, weight: sub, note: '資料: 身長が144cmと小柄である。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 76%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 55%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kugisaki-nobara
@@ -5821,11 +5817,10 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
-    - {id: akagami, weight: core, note: 'danbooru orange_hair 73%', src: danbooru}
     - {id: shinigami, weight: core, note: '資料: 死神代行であり、家族を守るためにルキアから力を譲り受けて一時的に死神となりその役割を務めることになった。', src: gemini}
+    - {id: akagami, weight: sub, note: 'danbooru orange_hair 73%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: buki, weight: sub, note: 'danbooru weapon 44%', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 36%', src: danbooru}
     - {id: kabau, weight: sub, note: '資料: 家族を守るため、ルキアの斬魄刀で胸を刺され死神の力を譲り受けた。', src: gemini}
@@ -5834,8 +5829,8 @@
     - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 46%', src: danbooru}
     - {id: sekininkan, weight: sub, note: '資料: ルキアが力を取り戻すまで死神の役割を務めることになった。', src: gemini}
     - {id: soushitsu, weight: sub, note: '資料: 母親である黒崎真咲は故人である。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 48%', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 36%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 48%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kusanagi-motoko
@@ -6832,22 +6827,21 @@
     page: 'https://anilist.co/character/38395'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-15'
   elements:
     - {id: aogami, weight: core, note: 'danbooru blue_hair 87%', src: danbooru}
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 75%', src: danbooru}
-    - {id: mahou-shoujo, weight: core, note: 'danbooru magical_girl 56% / 資料: キュゥべえの勧誘を受け、恭介の手を治す願いと引き換えに魔法少女となった。', src: both}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 81%', src: danbooru}
     - {id: gaitou, weight: sub, note: 'danbooru cape 58%', src: danbooru}
     - {id: jiko-gisei, weight: sub, note: '資料: 事故でヴァイオリン演奏能力を失った上条恭介の手を治すために自分の願いを捧げた。', src: gemini}
     - {id: kataomoi, weight: sub, note: '資料: 上条恭介に好意を寄せているが、親友の仁美から恭介への告白を聞かされ精神状態を悪化させた。', src: gemini}
     - {id: keiyaku, weight: sub, note: '資料: 願いと引き換えにキュゥべえから魔法少女になる契約を結んだ。', src: gemini}
+    - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 56%', src: danbooru}
     - {id: majo, weight: sub, note: '資料: ソウルジェムの穢れにより魔女Oktavia von Seckendorffに変貌した。', src: gemini}
     - {id: taijou, weight: sub, note: '資料: 魔女化したのち、佐倉杏子との戦いで共に死亡した。', src: gemini}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 51%', src: danbooru}
     - {id: tenraku, weight: sub, note: '資料: 魔法少女の仕組みを知って自分がゾンビと変わらないと絶望し、浄化を拒否した結果魔女に変貌した。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 75%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 81%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: milim-nava
@@ -8928,14 +8922,12 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
-    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 62%', src: danbooru}
     - {id: juusha, weight: core, note: '資料: ロイ・マスタングの最も信頼されている部下・個人補佐官として彼を危険から守り、感情的になった時には叱る役割を果たしている。', src: gemini}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 91%', src: danbooru}
     - {id: shujuu, weight: core, note: '資料: ロイ・マスタングの上司と部下（個人補佐官）という主従関係の中で行動している。', src: gemini}
-    - {id: ponytail, weight: sub, note: 'danbooru folded_ponytail 35%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 62%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 91%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: karetsu, weight: spice, note: '資料: 引き取った犬が室内でトイレをした際、不適切な行動だと理解させるために背後の壁を銃で撃つ厳しい行動をとった。', src: gemini}
   patterns: []
 
@@ -9023,17 +9015,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 80%', src: danbooru}
-    - {id: tebukuro, weight: core, note: 'danbooru gloves 64%', src: danbooru}
-    - {id: gaitou, weight: sub, note: 'danbooru coat 37%', src: danbooru}
-    - {id: gunpuku, weight: sub, note: 'danbooru military_uniform 56%', src: danbooru}
+    - {id: gaitou, weight: sub, note: 'danbooru coat 38%', src: danbooru}
+    - {id: gunpuku, weight: sub, note: 'danbooru military_uniform 55%', src: danbooru}
     - {id: joushi, weight: sub, note: '資料: アメストリス軍の将校であり、階級は大佐。エドワード・エルリックの上司。', src: gemini}
     - {id: kurome, weight: sub, note: 'danbooru black_eyes 48%', src: danbooru}
     - {id: renkinjutsushi, weight: sub, note: '資料: 国家錬金術師。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 38%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 64%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 80%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 39%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: rudeus-greyrat
@@ -10651,8 +10642,7 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
     - {id: shoukin-kasegi, weight: core, note: '資料: 職業が賞金稼ぎ（bounty hunter）であること。', src: gemini}
     - {id: tabako, weight: core, note: 'danbooru cigarette 62%', src: danbooru}
@@ -11403,12 +11393,12 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 71%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 87%', src: danbooru}
     - {id: tate-rooru, weight: core, note: 'danbooru drill_hair 88%', src: danbooru}
-    - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 52%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 87%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 53%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 43%', src: danbooru}
     - {id: twintail, weight: sub, note: 'danbooru twintails 47%', src: danbooru}
   patterns: []
@@ -11859,20 +11849,19 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-15'
   elements:
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 83%', src: danbooru}
     - {id: muhoumono, weight: core, note: '資料: 「ヒューマノイド・タイフーン」と呼ばれるアウトローとして認知されている。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 60%', src: danbooru}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 41%', src: danbooru}
     - {id: gaitou, weight: sub, note: 'danbooru coat 53%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 83%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: koushinchou, weight: sub, note: '資料: 身長が180cm（5''11"）ある。', src: gemini}
     - {id: kuchiguse, weight: sub, note: '資料: 「LOVE AND PEACE!」というメッセージを広めようとしている。', src: gemini}
     - {id: megane, weight: sub, note: 'danbooru round_eyewear 48%', src: danbooru}
     - {id: namida-bokuro, weight: sub, note: 'danbooru mole_under_eye 52%', src: danbooru}
     - {id: piasu, weight: sub, note: 'danbooru earrings 52%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 46%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 41%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 60%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: vegeta
