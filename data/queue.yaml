@@ -4151,3 +4151,25 @@ characters:
     year: 2015
     danbooru: ayanokouji_kiyotaka
     anilist: Kiyotaka Ayanokouji
+  # 19 期目。既存作品の次の一人。id は Danbooru タグから機械的に作っている。
+  - id: tadano-hitohito
+    name: 只野仁人
+    kana: ただのひとひと
+    work: 古見さんは、コミュ症です。
+    year: 2016
+    danbooru: tadano_hitohito
+    anilist: Hitohito Tadano
+  - id: otonashi-yuzuru
+    name: 音無結弦
+    kana: おとなしゆづる
+    work: Angel Beats!
+    year: 2010
+    danbooru: otonashi_yuzuru
+    anilist: Yuzuru Otonashi
+  - id: yamada-ryo
+    name: 山田リョウ
+    kana: やまだりょう
+    work: ぼっち・ざ・ろっく!
+    year: 2017
+    danbooru: yamada_ryo
+    anilist: Ryo Yamada
