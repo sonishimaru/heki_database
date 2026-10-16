@@ -451,7 +451,7 @@
   name: セミロング
   kana: せみろんぐ
   aliases: [ミディアムヘア]
-  axis: appearance.hairstyle
+  axis: appearance.hairlength
   summary: 肩に届く程度の中間の長さ。等身大の記号。
   effect: 長すぎず短すぎない現実感で、生活の気配を出す。
   pairs_with: []
@@ -667,14 +667,14 @@
   summary: 重力に逆らって立つ髪。気迫がそのまま形になっている。
   effect: 髪の立ち方で戦意の高低を示し、萎れた姿を敗北の絵にする。
   pairs_with: [kinniku, karetsu]
-  contrasts_with: [chouhatsu]
+  contrasts_with: []
   tags: [定番]
 
 - id: bouzu
   name: 坊主頭
   kana: ぼうずあたま
   aliases: [スキンヘッド, 丸刈り]
-  axis: appearance.hairstyle
+  axis: appearance.hairlength
   summary: 髪を落とした頭。飾りを捨てた者の記号。
   effect: 髪型で個性を出せない分、表情と佇まいだけで語らせる。
   pairs_with: [muhyoujou, saikyou]

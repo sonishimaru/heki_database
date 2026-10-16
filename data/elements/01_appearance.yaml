@@ -5,21 +5,21 @@
   name: 長髪
   kana: ちょうはつ
   aliases: [ロング, 黒髪ロング]
-  axis: appearance.hairstyle
+  axis: appearance.hairlength
   summary: 髪が長いこと。手入れの時間がそのまま外見に出る。
   description: >-
     長さ自体が「維持されている」という情報になる。風・水・寝起きで乱れるため、
     崩れの見せ場を常に用意できる。
   effect: 平常時の完成度を高く置き、乱れたときの差を大きくする。
   pairs_with: [shisei, hime-cut, muhyoujou]
-  contrasts_with: [tanpatsu, kusekke]
+  contrasts_with: [tanpatsu]
   tags: [定番]
 
 - id: tanpatsu
   name: 短髪
   kana: たんぱつ
   aliases: [ショート, 刈り上げ]
-  axis: appearance.hairstyle
+  axis: appearance.hairlength
   summary: 髪が短いこと。首筋が出る。
   description: >-
     短さは決断や身軽さと読まれる。切った理由が語られる場合、髪型がそのまま経歴の要約になる。
@@ -104,7 +104,7 @@
     管理されていないことが、他人の目を気にしていない／気にする余裕がないという情報になる。
   effect: 生活感と隙を出し、他人が手を伸ばす口実を作る。
   pairs_with: [heyagi, kuma, zubora]
-  contrasts_with: [chouhatsu, hime-cut]
+  contrasts_with: [hime-cut]
   tags: [生活感]
 
 - id: mekakure

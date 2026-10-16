@@ -4173,3 +4173,74 @@ characters:
     year: 2017
     danbooru: yamada_ryo
     anilist: Ryo Yamada
+  # 20 期目。
+  - id: suou-tamaki
+    name: 須王環
+    kana: すおうたまき
+    work: 桜蘭高校ホスト部
+    year: 2002
+    danbooru: suou_tamaki
+    anilist: Tamaki Suoh
+  - id: ootori-kyouya
+    name: 鳳鏡夜
+    kana: おおとりきょうや
+    work: 桜蘭高校ホスト部
+    year: 2002
+    danbooru: ootori_kyouya
+    anilist: Kyoya Ootori
+  - id: morita-shinobu
+    name: 森田忍
+    kana: もりたしのぶ
+    work: ハチミツとクローバー
+    year: 2000
+    danbooru: morita_shinobu
+    anilist: Shinobu Morita
+  - id: kujou-karen
+    name: 九条カレン
+    kana: くじょうかれん
+    work: きんいろモザイク
+    year: 2010
+    danbooru: kujou_karen
+    anilist: Karen Kujou
+  - id: alice-cartelet
+    name: アリス・カータレット
+    kana: ありすかーたれっと
+    work: きんいろモザイク
+    year: 2010
+    danbooru: alice_cartelet
+    anilist: Alice Cartelet
+  - id: miyazaki-nodoka
+    name: 宮崎のどか
+    kana: みやざきのどか
+    work: 魔法先生ネギま!
+    year: 2003
+    danbooru: miyazaki_nodoka
+    anilist: Nodoka Miyazaki
+  - id: kaizaki-arata
+    name: 海崎新太
+    kana: かいざきあらた
+    work: ReLIFE
+    year: 2013
+    danbooru: kaizaki_arata
+    anilist: Arata Kaizaki
+  - id: nitta-minami
+    name: 新田美波
+    kana: にったみなみ
+    work: アイドルマスター シンデレラガールズ
+    year: 2011
+    danbooru: nitta_minami
+    anilist: Minami Nitta
+  - id: hoshii-miki
+    name: 星井美希
+    kana: ほしいみき
+    work: アイドルマスター
+    year: 2005
+    danbooru: hoshii_miki
+    anilist: Miki Hoshii
+  - id: minase-iori
+    name: 水瀬伊織
+    kana: みなせいおり
+    work: アイドルマスター
+    year: 2005
+    danbooru: minase_iori
+    anilist: Iori Minase

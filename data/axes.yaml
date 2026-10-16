@@ -15,9 +15,12 @@ groups:
     name: 外見
     summary: 見た瞬間に処理される情報と、見た目に直結する設定。
     axes:
+      - id: hairlength
+        name: 髪の長さ
+        summary: 髪の長さ。短髪・セミロング・長髪は同時には成り立たない。
       - id: hairstyle
         name: 髪型
-        summary: 髪の形と結い方。
+        summary: 結い方と毛の質。長さとは独立に選べる。
       - id: haircolor
         name: 髪色
         summary: 髪の色。

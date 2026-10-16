@@ -233,6 +233,35 @@ def report_ids() -> None:
         print("   ", row)
 
 
+def report_conflicts(db: dict) -> None:
+    """同じ軸の中で両立しない語を同時に持っている人物。
+
+    1 軸 1 ファセットという前提の上では、同じ軸の二つの値が両方立つのは
+    どちらかが間違っている。別の軸をまたぐ対比（毒舌 × 敬語のような）は
+    緊張であって矛盾ではないので、ここでは数えない。
+    """
+    elements = {e["id"]: e for e in db["elements"]}
+    pairs = {
+        tuple(sorted((e["id"], other)))
+        for e in db["elements"]
+        for other in e.get("contrasts_with") or []
+        if other in elements and elements[other]["axis"] == e["axis"]
+    }
+    hits: dict[tuple[str, str], list[str]] = {}
+    for character in db["characters"]:
+        own = {item["id"] for item in character.get("elements") or []}
+        for a, b in pairs:
+            if a in own and b in own:
+                key = (elements[a]["name"], elements[b]["name"])
+                hits.setdefault(key, []).append(f"{character['name']}（{character.get('work')}）")
+    total = sum(len(v) for v in hits.values())
+    print(f"\n■ 同じ軸の中で両立しない語を同時に持つ件: {total}")
+    for (a, b), who in sorted(hits.items(), key=lambda kv: -len(kv[1])):
+        print(f"  {a} × {b}  {len(who)} 名")
+        for name in who[:6]:
+            print(f"      {name}")
+
+
 def main() -> None:
     which = sys.argv[1] if len(sys.argv) > 1 else "all"
     db = load_db()
@@ -241,6 +270,8 @@ def main() -> None:
         report_run()
     if which in ("all", "ids"):
         report_ids()
+    if which in ("all", "conflicts"):
+        report_conflicts(db)
     if which in ("all", "gaps"):
         report_gaps(db)
     if which in ("all", "axes"):
