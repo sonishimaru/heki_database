@@ -272,6 +272,18 @@
     frequency: 0.1892
     threshold: 0.35
   new_tag_proposals: []
+- id: alice-cartelet
+  name: アリス・カータレット
+  date: '2026-10-16'
+  unmapped_danbooru:
+  - tag: moegi_high_school_uniform
+    frequency: 0.3522
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2392
+    threshold: 0.35
+  new_tag_proposals: []
 - id: allen-walker
   name: アレン・ウォーカー
   date: '2026-10-02'
@@ -2581,6 +2593,16 @@
     frequency: 0.1593
     threshold: 0.35
   new_tag_proposals: []
+- id: hoshii-miki
+  name: 星井美希
+  date: '2026-10-16'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2412
+    threshold: 0.5
+  new_tag_proposals: []
 - id: hoshino-ai
   name: 星野アイ
   date: '2026-10-10'
@@ -3461,6 +3483,16 @@
   - name: 商人
     axis: 関係性 / 立場
     reason: アリア商会という商業組織の頭領（chief）を務めているため。
+- id: kaizaki-arata
+  name: 海崎新太
+  date: '2026-10-16'
+  unmapped_danbooru:
+  - tag: aged_up
+    frequency: 1.0
+  - tag: pill
+    frequency: 1.0
+  near_miss: []
+  new_tag_proposals: []
 - id: kamado-nezuko
   name: 竈門禰豆子
   date: '2026-10-03'
@@ -4519,6 +4551,20 @@
   - id: regent
     tag: swept_bangs
     frequency: 0.1645
+    threshold: 0.35
+  new_tag_proposals: []
+- id: kujou-karen
+  name: 九条カレン
+  date: '2026-10-16'
+  unmapped_danbooru: []
+  near_miss:
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.2164
+    threshold: 0.6
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1901
     threshold: 0.35
   new_tag_proposals: []
 - id: kurama-yyh
@@ -5653,6 +5699,20 @@
     frequency: 0.2373
     threshold: 0.35
   new_tag_proposals: []
+- id: minase-iori
+  name: 水瀬伊織
+  date: '2026-10-16'
+  unmapped_danbooru: []
+  near_miss:
+  - id: akame
+    tag: red_eyes
+    frequency: 0.2836
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.183
+    threshold: 0.5
+  new_tag_proposals: []
 - id: mine-fujiko
   name: 峰不二子
   date: '2026-10-13'
@@ -5805,6 +5865,32 @@
   - id: gakki
     tag: instrument
     frequency: 0.2115
+    threshold: 0.35
+  new_tag_proposals: []
+- id: miyazaki-nodoka
+  name: 宮崎のどか
+  date: '2026-10-16'
+  unmapped_danbooru: []
+  near_miss:
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2961
+    threshold: 0.3
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.267
+    threshold: 0.35
+  - id: mekakure
+    tag: hair_over_one_eye
+    frequency: 0.2184
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.2184
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.1893
     threshold: 0.35
   new_tag_proposals: []
 - id: miyazono-kaori
@@ -6561,6 +6647,20 @@
     frequency: 0.1673
     threshold: 0.35
   new_tag_proposals: []
+- id: nitta-minami
+  name: 新田美波
+  date: '2026-10-16'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3519
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2133
+    threshold: 0.35
+  new_tag_proposals: []
 - id: nobi-nobita
   name: 野比のび太
   date: '2026-10-01'
@@ -6910,6 +7010,14 @@
     tag: short_hair_with_long_locks
     frequency: 0.1684
     threshold: 0.35
+  new_tag_proposals: []
+- id: ootori-kyouya
+  name: 鳳鏡夜
+  date: '2026-10-16'
+  unmapped_danbooru:
+  - tag: purple_jacket
+    frequency: 0.3571
+  near_miss: []
   new_tag_proposals: []
 - id: oozora-tsubasa
   name: 大空翼
@@ -7908,16 +8016,16 @@
   new_tag_proposals: []
 - id: sakura-kyouko
   name: 佐倉杏子
-  date: '2026-08-31'
+  date: '2026-10-16'
   unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
-    frequency: 0.2719
+    frequency: 0.2772
     threshold: 0.35
   - id: yaeba
     tag: fang
-    frequency: 0.1936
+    frequency: 0.1949
     threshold: 0.35
   new_tag_proposals: []
 - id: sakura-miko
@@ -8573,12 +8681,12 @@
     reason: 身の回りの世話を担当する役職として明記されているが既存の語彙に含まれないため
 - id: shirai-kuroko
   name: 白井黒子
-  date: '2026-08-31'
+  date: '2026-10-16'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.2389
+    frequency: 0.2447
     threshold: 0.5
   new_tag_proposals: []
 - id: shirayuki
@@ -9102,6 +9210,16 @@
     tag: weapon
     frequency: 0.1714
     threshold: 0.35
+  new_tag_proposals: []
+- id: suou-tamaki
+  name: 須王環
+  date: '2026-10-16'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.375
+    threshold: 0.5
   new_tag_proposals: []
 - id: suzume-iwato
   name: 岩戸鈴芽
