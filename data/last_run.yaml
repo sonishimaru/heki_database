@@ -4,12 +4,13 @@
 
 date: '2026-10-16'
 対象: 12
-完了: 11
+完了: 10
 失敗:
 - morita-shinobu
+- accelerator
 レーン:
-  資料: 0 / 10
-  識別: 1 / 12
+  資料: 0 / 12
+  識別: 0 / 12
 レーンの理由:
   資料: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
   識別: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。

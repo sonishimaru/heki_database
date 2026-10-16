@@ -1092,12 +1092,12 @@
   new_tag_proposals: []
 - id: bruno-bucciarati
   name: ブローノ・ブチャラティ
-  date: '2026-08-31'
+  date: '2026-10-16'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.2773
+    frequency: 0.286
     threshold: 0.35
   new_tag_proposals: []
 - id: bulma
@@ -1320,20 +1320,24 @@
   new_tag_proposals: []
 - id: dio-brando
   name: ディオ・ブランドー
-  date: '2026-08-31'
+  date: '2026-10-16'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
-    frequency: 0.2595
+    frequency: 0.2633
     threshold: 0.5
+  - id: hachimaki
+    tag: headband
+    frequency: 0.2109
+    threshold: 0.35
   - id: kinniku
     tag: muscular
-    frequency: 0.1685
+    frequency: 0.1706
     threshold: 0.35
   - id: kizuato
     tag: scar
-    frequency: 0.1562
+    frequency: 0.1597
     threshold: 0.35
   new_tag_proposals: []
 - id: dva
@@ -1939,29 +1943,26 @@
     reason: 依頼を受けて何でも引き受ける職業・店舗を経営している記述があるが、既存の職業語彙に含まれないため。
 - id: giorno-giovanna
   name: ジョルノ・ジョバァーナ
-  date: '2026-08-31'
+  date: '2026-10-16'
   unmapped_danbooru: []
   near_miss:
   - id: aome
     tag: blue_eyes
-    frequency: 0.3327
+    frequency: 0.3296
     threshold: 0.35
   - id: piasu
     tag: earrings
-    frequency: 0.3062
+    frequency: 0.3116
     threshold: 0.5
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.2614
+    frequency: 0.2683
     threshold: 0.35
   - id: midori-no-me
     tag: green_eyes
-    frequency: 0.1851
+    frequency: 0.1879
     threshold: 0.35
-  new_tag_proposals:
-  - name: ギャングスター
-    axis: 関係性 / 立場
-    reason: 「Gang Star」を目指してギャング組織に加入し、その頂点に立つという独自の理念・立場を持つため。
+  new_tag_proposals: []
 - id: gojo-satoru
   name: 五条悟
   date: '2026-10-03'
@@ -3259,28 +3260,28 @@
   new_tag_proposals: []
 - id: joseph-joestar
   name: ジョセフ・ジョースター
-  date: '2026-08-31'
+  date: '2026-10-16'
   unmapped_danbooru: []
   near_miss:
   - id: chapatsu
     tag: brown_hair
-    frequency: 0.324
+    frequency: 0.3275
     threshold: 0.35
   - id: aome
     tag: blue_eyes
-    frequency: 0.3195
+    frequency: 0.3179
     threshold: 0.35
   - id: midori-no-me
     tag: green_eyes
-    frequency: 0.2756
+    frequency: 0.2766
     threshold: 0.35
   - id: kurokami
     tag: black_hair
-    frequency: 0.2039
+    frequency: 0.2025
     threshold: 0.35
   - id: kinniku
     tag: abs
-    frequency: 0.1703
+    frequency: 0.1708
     threshold: 0.35
   new_tag_proposals: []
 - id: kaga-kancolle
@@ -3678,16 +3679,16 @@
   new_tag_proposals: []
 - id: kanroji-mitsuri
   name: 甘露寺蜜璃
-  date: '2026-08-31'
+  date: '2026-10-16'
   unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
-    frequency: 0.2825
+    frequency: 0.2831
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2192
+    frequency: 0.2195
     threshold: 0.5
   new_tag_proposals: []
 - id: kasuga-ayumu
@@ -3742,16 +3743,16 @@
   new_tag_proposals: []
 - id: katsuragi-misato
   name: 葛城ミサト
-  date: '2026-08-31'
+  date: '2026-10-16'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.3441
+    frequency: 0.3444
     threshold: 0.5
   - id: piasu
     tag: earrings
-    frequency: 0.328
+    frequency: 0.3272
     threshold: 0.5
   new_tag_proposals: []
 - id: kazanari-tsubasa
@@ -4294,17 +4295,14 @@
     reason: 友達が少なく学校で変人扱いされており陰で「南極」と呼ばれているため。
 - id: kochou-shinobu
   name: 胡蝶しのぶ
-  date: '2026-08-31'
+  date: '2026-10-16'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.1856
+    frequency: 0.1882
     threshold: 0.5
-  new_tag_proposals:
-  - name: 毒使い
-    axis: 戦闘/技能
-    reason: 医学知識を活かして毒や薬を調合し、自らの身体に毒を仕込んで戦闘に利用しているため。
+  new_tag_proposals: []
 - id: koiwai-yotsuba
   name: 小岩井よつば
   date: '2026-10-02'
@@ -4753,24 +4751,24 @@
   new_tag_proposals: []
 - id: kuujou-joutarou
   name: 空条承太郎
-  date: '2026-08-31'
+  date: '2026-10-16'
   unmapped_danbooru: []
   near_miss:
   - id: gaitou
     tag: long_coat
-    frequency: 0.2723
+    frequency: 0.2699
     threshold: 0.35
   - id: piasu
     tag: earrings
-    frequency: 0.2629
+    frequency: 0.268
     threshold: 0.5
   - id: aome
     tag: blue_eyes
-    frequency: 0.2509
+    frequency: 0.2537
     threshold: 0.35
   - id: midori-no-me
     tag: green_eyes
-    frequency: 0.2484
+    frequency: 0.2463
     threshold: 0.35
   new_tag_proposals: []
 - id: kuwabara-kazuma
@@ -6111,12 +6109,12 @@
   new_tag_proposals: []
 - id: nagisa-kaworu
   name: 渚カヲル
-  date: '2026-08-31'
+  date: '2026-10-16'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.301
+    frequency: 0.3154
     threshold: 0.5
   new_tag_proposals: []
 - id: nakahara-chuuya
@@ -7777,20 +7775,20 @@
   new_tag_proposals: []
 - id: ryuuguu-rena
   name: 竜宮レナ
-  date: '2026-08-31'
+  date: '2026-10-16'
   unmapped_danbooru: []
   near_miss:
   - id: chapatsu
     tag: brown_hair
-    frequency: 0.2602
+    frequency: 0.2571
     threshold: 0.35
   - id: buki
     tag: weapon
-    frequency: 0.1698
+    frequency: 0.1691
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.1664
+    frequency: 0.1658
     threshold: 0.5
   new_tag_proposals: []
 - id: ryuuguuji-ken

@@ -1218,18 +1218,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-16'
   elements:
-    - {id: bob-cut, weight: core, note: 'danbooru bob_cut 75%', src: danbooru}
+    - {id: bob-cut, weight: core, note: 'danbooru bob_cut 76%', src: danbooru}
     - {id: joushi, weight: core, note: '資料: ギャング組織「パッショーネ」の幹部であり、ボスに対抗する造反グループを率いている。', src: gemini}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 70%', src: danbooru}
     - {id: nouryokusha, weight: core, note: '資料: 触れた場所にジッパーを取り付ける能力を持つスタンド「スティッキィ・フィンガーズ」を所持している。', src: gemini}
     - {id: pattsun, weight: core, note: 'danbooru blunt_bangs 69%', src: danbooru}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 42%', src: danbooru}
     - {id: kuchiguse, weight: sub, note: '資料: 攻撃時に「Ari ari ari」と連呼し、トドメに「Arrivederci」という決め台詞を発する。', src: gemini}
     - {id: muhoumono, weight: sub, note: '資料: 父親の命を狙う人物を自ら殺害し、ギャングの世界に入って過酷な環境で生きている。', src: gemini}
     - {id: uragiri, weight: sub, note: '資料: 所属していたギャング組織「パッショーネ」を脱退し、ボスであるディアボロに対抗する行動をとった。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 42%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 69%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: bulma
@@ -1535,16 +1534,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-16'
   elements:
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 76%', src: danbooru}
     - {id: kyuuketsuki, weight: core, note: '資料: 不死の吸血鬼となったこと、および石仮面を装着して吸血鬼となったことが明記されているため。', src: gemini}
     - {id: shukuteki, weight: core, note: '資料: ジョースター一族の宿敵と記載されているため。', src: gemini}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 50%', src: danbooru}
     - {id: fuguu, weight: sub, note: '資料: 実父がアルコール依存症で虐待的であったことが記載されているため。', src: gemini}
     - {id: fushi, weight: sub, note: '資料: 不死の吸血鬼となったとの記載があるため。', src: gemini}
     - {id: haraguro, weight: sub, note: '資料: 偽りで養父の信頼を得つつ、裏では養父の毒殺や財産の奪取を画策していたため。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 76%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: koushinchou, weight: sub, note: '資料: 身長が195cmと明記されているため。', src: gemini}
     - {id: nouryokusha, weight: sub, note: '資料: 石仮面により超自然的な力を得たと記述されているため。', src: gemini}
   patterns: []
@@ -2336,12 +2334,11 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-16'
   elements:
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 72%', src: danbooru}
     - {id: nouryokusha, weight: core, note: '資料: スタンド「ゴールド・エクスペリエンス」および「ゴールド・エクスペリエンス・レクイエム」を所持しているため。', src: gemini}
     - {id: joushi, weight: sub, note: '資料: ギャング組織「パッショーネ」の事実上のリーダーとなり、最終的にボス（マフィアボス）となるため。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 72%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: mitsuami, weight: sub, note: 'danbooru braid 52%', src: danbooru}
     - {id: muhoumono, weight: sub, note: '資料: ギャング組織「パッショーネ」の構成員となり、マフィアの世界で生きているため。', src: gemini}
     - {id: yosomono, weight: spice, note: '資料: イギリス系日本人（本名：Haruno Shiobana）として生まれ、幼少期にイタリアへ移住した経緯を持つため。', src: gemini}
@@ -4088,11 +4085,10 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-16'
   elements:
     - {id: koushinchou, weight: sub, note: '資料: 身長は195cm（6''5"）', src: gemini}
-    - {id: mafuraa, weight: sub, note: 'danbooru scarf 49%', src: danbooru}
+    - {id: mafuraa, weight: sub, note: 'danbooru scarf 50%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 58%', src: danbooru}
   patterns: []
 
@@ -4602,10 +4598,8 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-16'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 80%', src: danbooru}
     - {id: messhu, weight: core, note: 'danbooru multicolored_hair 89%', src: danbooru}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 80%', src: danbooru}
     - {id: midorigami, weight: core, note: 'danbooru green_hair 83%', src: danbooru}
@@ -4617,6 +4611,7 @@
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 57%', src: danbooru}
     - {id: shitei, weight: sub, note: '資料: 煉獄から炎の呼吸の指導を受けた経歴を持つ。', src: gemini}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 38%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 80%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kasuga-ayumu
@@ -4716,10 +4711,8 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-16'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 77%', src: danbooru}
     - {id: hogosha, weight: core, note: '資料: パイロットであるシンジとアスカの保護者となり、一人暮らしをさせずに自身のマンションに同居させている。', src: gemini}
     - {id: joushi, weight: core, note: '資料: NERVの作戦部長であり、エヴァンゲリオンパイロットの現場指揮官として命令や戦闘戦略の発令を担当している。', src: gemini}
     - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 68%', src: danbooru}
@@ -4727,6 +4720,7 @@
     - {id: nimensei, weight: sub, note: '資料: NERV作戦部長としての職場での顔と、勤務外のだらしなく酒を飲む私生活という二つの顔をあわせ持っている。', src: gemini}
     - {id: saikai, weight: sub, note: '資料: 大学時代の恋人であった加持リョウジと作中で再会し、恋愛関係を徐々に再燃させている。', src: gemini}
     - {id: zubora, weight: sub, note: '資料: 勤務外ではだらしなく、大酒飲みであると説明されている。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 77%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kazanari-tsubasa
@@ -5356,21 +5350,20 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-16'
   elements:
     - {id: jiko-gisei, weight: core, note: '資料: 童磨との戦闘の前に自らの身体に毒を仕込み、殺害され食べられることで相手を深刻な衰弱状態に陥らせた。', src: gemini}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 67%', src: danbooru}
-    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 66%', src: danbooru}
-    - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 69%', src: danbooru}
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 65%', src: danbooru}
+    - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 68%', src: danbooru}
     - {id: wasou, weight: core, note: 'danbooru japanese_clothes 61%', src: danbooru}
     - {id: buki, weight: sub, note: 'danbooru weapon 42%', src: danbooru}
     - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 50%', src: danbooru}
     - {id: samurai, weight: sub, note: '資料: 鬼殺隊の隊士であり、虫柱を務め、虫の呼吸を戦闘スタイルとしている。', src: gemini}
     - {id: shokunin, weight: sub, note: '資料: 医学知識に精通しており、毒や薬を調合することができる。', src: gemini}
     - {id: taijou, weight: sub, note: '資料: 無限城編で上弦の弐の鬼である童磨と遭遇し、戦闘の末に殺害された。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 47%', src: danbooru}
     - {id: teishinchou, weight: sub, note: '資料: 18歳で身長151cmである。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 67%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 47%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: koiwai-yotsuba
@@ -5972,14 +5965,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-16'
   elements:
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 61%', src: danbooru}
     - {id: nouryokusha, weight: core, note: '資料: 自身のスタンドがスタープラチナであることを知り、DIOとの戦いにおいて時間を止める能力を明かした。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: 身長は195cmである。', src: gemini}
     - {id: kuchiguse, weight: sub, note: '資料: キャッチフレーズ（決め台詞）は「Yare yare daze」である。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 49%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 61%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kuwabara-kazuma
@@ -7517,15 +7509,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-16'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 78%', src: danbooru}
     - {id: jingai, weight: core, note: '資料: 第17使徒であり、人間の体に宿った「生命の種子」とされるため。', src: gemini}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 78%（共有 12% のため比重を下げた）', src: danbooru}
     - {id: pairotto, weight: sub, note: '資料: フィフスチルドレンとして記載されているため。', src: gemini}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 47%', src: danbooru}
-    - {id: shirogami, weight: sub, note: 'danbooru grey_hair 51%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 54%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 46%', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru grey_hair 52%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 56%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nakahara-chuuya
@@ -9299,15 +9290,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-16'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 71%', src: danbooru}
     - {id: akagami, weight: sub, note: 'danbooru orange_hair 58%', src: danbooru}
     - {id: kikan, weight: sub, note: '資料: 1年前に茨城から雛見沢に戻ってきた。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 38%', src: danbooru}
     - {id: sewayaki, weight: sub, note: '資料: 彼や友人たちの世話をしている', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 58%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 71%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 58%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ryuuguuji-ken
