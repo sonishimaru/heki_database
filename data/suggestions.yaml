@@ -153,17 +153,14 @@
   new_tag_proposals: []
 - id: aisaka-taiga
   name: 逢坂大河
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2254
+    frequency: 0.2238
     threshold: 0.5
-  new_tag_proposals:
-  - name: 恋愛同盟
-    axis: 関係性 / 関係の状態
-    reason: お互いの親友との恋愛を協力し合う協力関係を指すが、語彙に該当するものがないため。
+  new_tag_proposals: []
 - id: akashi-seijuurou
   name: 赤司征十郎
   date: '2026-08-31'
@@ -3804,20 +3801,16 @@
   new_tag_proposals: []
 - id: katsura-kotonoha
   name: 桂言葉
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.1829
+    frequency: 0.1775
     threshold: 0.5
   - id: murasaki-no-me
     tag: purple_eyes
-    frequency: 0.1524
-    threshold: 0.35
-  - id: chairo-no-me
-    tag: brown_eyes
-    frequency: 0.1524
+    frequency: 0.1538
     threshold: 0.35
   new_tag_proposals: []
 - id: katsuragi-misato
@@ -4159,20 +4152,20 @@
   new_tag_proposals: []
 - id: kirisaki-chitoge
   name: 桐崎千棘
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2353
+    frequency: 0.2379
     threshold: 0.5
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1903
+    frequency: 0.1897
     threshold: 0.35
   - id: ponytail
     tag: ponytail
-    frequency: 0.1522
+    frequency: 0.1517
     threshold: 0.35
   new_tag_proposals: []
 - id: kirisame-marisa
@@ -4566,20 +4559,20 @@
   new_tag_proposals: []
 - id: kousaka-honoka
   name: 高坂穂乃果
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: chapatsu
     tag: brown_hair
-    frequency: 0.3151
+    frequency: 0.3149
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.2095
+    frequency: 0.2098
     threshold: 0.3
   - id: tebukuro
     tag: gloves
-    frequency: 0.1616
+    frequency: 0.161
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
@@ -4844,7 +4837,7 @@
   new_tag_proposals: []
 - id: kushieda-minori
   name: 櫛枝実乃梨
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: murasaki-no-me
@@ -5767,17 +5760,14 @@
     reason: 「最古にして最強の魔王」として言及されているが、語彙の立場一覧に該当する見出し語が存在しないため。
 - id: minami-kotori
   name: 南ことり
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
     tag: frills
-    frequency: 0.1548
+    frequency: 0.1542
     threshold: 0.35
-  new_tag_proposals:
-  - name: 衣装デザイナー
-    axis: 関係性 / 立場
-    reason: μ'sの衣装デザインを担当していることが資料に記載されているため。
+  new_tag_proposals: []
 - id: minamoto-sakura
   name: 源さくら
   date: '2026-10-01'
@@ -6706,17 +6696,14 @@
     reason: アラン機関によって開発された人工心臓を持っており、高電圧で壊れるリスクがあるため。
 - id: nishikino-maki
   name: 西木野真姫
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
     tag: gloves
-    frequency: 0.1838
+    frequency: 0.1849
     threshold: 0.35
-  new_tag_proposals:
-  - name: 家業の継承者
-    axis: 立場
-    reason: 実家の病院を継ぐために将来医学を学ぶ予定であったという背景を持つため。
+  new_tag_proposals: []
 - id: nishimiya-shouko
   name: 西宮硝子
   date: '2026-10-02'
@@ -7093,7 +7080,7 @@
   new_tag_proposals: []
 - id: onodera-kosaki
   name: 小野寺小咲
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
@@ -9070,7 +9057,7 @@
   new_tag_proposals: []
 - id: sonoda-umi
   name: 園田海未
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -9079,37 +9066,31 @@
     threshold: 0.5
   - id: tebukuro
     tag: gloves
-    frequency: 0.2207
+    frequency: 0.2205
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.1695
+    frequency: 0.1699
     threshold: 0.3
   - id: piasu
     tag: earrings
-    frequency: 0.1577
+    frequency: 0.1575
     threshold: 0.5
   new_tag_proposals: []
 - id: sonozaki-mion
   name: 園崎魅音
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.2713
+    frequency: 0.2707
     threshold: 0.5
   - id: seifuku
     tag: school_uniform
-    frequency: 0.176
+    frequency: 0.179
     threshold: 0.3
-  new_tag_proposals:
-  - name: 学級委員長
-    axis: 関係性 / 立場
-    reason: クラスの学級委員長を務めているが、語彙にある「生徒会長」とは規模や役割が異なるため。
-  - name: 部活のリーダー
-    axis: 性格 / 気質
-    reason: 部活（gaming club）のリーダーを務め、仲間たちから慕われているため。
+  new_tag_proposals: []
 - id: sophie-hatter
   name: ソフィー・ハッター
   date: '2026-08-31'
@@ -9554,7 +9535,7 @@
   new_tag_proposals: []
 - id: takasu-ryuuji
   name: 高須竜児
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: seifuku
@@ -10695,12 +10676,12 @@
   new_tag_proposals: []
 - id: yazawa-nico
   name: 矢澤にこ
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.2817
+    frequency: 0.2819
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
@@ -10708,7 +10689,7 @@
     threshold: 0.3
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.2148
+    frequency: 0.2143
     threshold: 0.35
   - id: tebukuro
     tag: gloves
@@ -10716,11 +10697,11 @@
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.1807
+    frequency: 0.1799
     threshold: 0.5
   - id: furiru
     tag: frills
-    frequency: 0.1535
+    frequency: 0.1539
     threshold: 0.35
   new_tag_proposals: []
 - id: yoko-littner

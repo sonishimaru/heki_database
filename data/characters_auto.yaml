@@ -169,17 +169,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
-    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 72%', src: danbooru}
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 87%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 95%', src: danbooru}
     - {id: fuguu, weight: core, note: '資料: 父親の事業破産・逃亡や、母親の再婚相手・異父きょうだいとの折り合いの悪さから一人暮らしをしている。', src: gemini}
     - {id: teishinchou, weight: core, note: '資料: 身長145cmの小柄な体形であることが明記されている。', src: gemini}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 72%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: karetsu, weight: sub, note: '資料: 周囲に攻撃的に突っかかる気質があり、「手乗りタイガー」というあだ名の由来になっている。', src: gemini}
     - {id: kataomoi, weight: sub, note: '資料: 物語の当初、竜児の親友である北村祐作に好意を寄せていた。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 52%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 87%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 95%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: akashi-seijuurou
@@ -4767,11 +4766,11 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 70%', src: danbooru}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 47%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 47%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 70%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 46%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: katsuragi-misato
@@ -5153,16 +5152,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 79%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
     - {id: keiyaku, weight: core, note: '資料: 家族間の抗争を防ぐため、一条楽と3年間の偽の恋人関係になった。', src: gemini}
     - {id: kikan-gentei, weight: core, note: '資料: 家族間の抗争を防ぐため、一条楽と3年間の偽の恋人関係になった。', src: gemini}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 92%', src: danbooru}
     - {id: kansatsu, weight: sub, note: '資料: 子供の頃に友人を作るのが困難だったため、クラスメイトの情報を取りまとめたノートを作成した。', src: gemini}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 52%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 92%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 51%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 79%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kirisame-marisa
@@ -5721,16 +5719,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
-    - {id: akagami, weight: core, note: 'danbooru orange_hair 61%', src: danbooru}
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 85%', src: danbooru}
     - {id: osananajimi, weight: core, note: '資料: 南ことりと幼少期からの友人であり、園田海未とも幼少期のかくれんぼをきっかけに友人となった。', src: gemini}
     - {id: ponytail, weight: core, note: 'danbooru one_side_up 74%', src: danbooru}
     - {id: semi-long, weight: core, note: 'danbooru medium_hair 93%', src: danbooru}
     - {id: aidoru, weight: sub, note: '資料: 学校を救うためにスクールアイドルグループの立ち上げを決意した。', src: gemini}
+    - {id: akagami, weight: sub, note: 'danbooru orange_hair 61%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: seitokaichou, weight: sub, note: '資料: アニメ2期において、周囲の推薦により新しい生徒会長になった。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 85%（共有 22% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kousaka-kirino
@@ -6056,16 +6053,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
-    - {id: akagami, weight: core, note: 'danbooru red_hair 80%', src: danbooru}
-    - {id: seifuku, weight: core, note: 'danbooru school_uniform 62%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 79%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 80%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 37%', src: danbooru}
     - {id: jiko-gisei, weight: sub, note: '資料: アニメ終盤において、自身も竜児のことが好きだと明かしながらも、竜児と大河が一緒にいられるようにするために自らの想いを諦めたこと。', src: gemini}
     - {id: kataomoi, weight: sub, note: '資料: 自身も竜児のことが好きであったが、その思いを実らせることなく自ら諦めたこと。', src: gemini}
     - {id: sankaku-kankei, weight: sub, note: '資料: 親しい友人である大河、自身が好意を寄せる竜児との間で、友情と恋愛感情が入り混じる関係にあること。', src: gemini}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 62%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 79%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kuujou-joutarou
@@ -7071,16 +7067,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 81%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 98%', src: danbooru}
     - {id: aidoru, weight: sub, note: '資料: 資料にはμ''sの衣装デザイナーとあるが、作品タイトルおよびグループの性質からスクールアイドルとして活動していることが作品上ほぼ確実に読み取れるため。', src: gemini}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 41%', src: danbooru}
     - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 44%', src: danbooru}
     - {id: ponytail, weight: sub, note: 'danbooru one_side_up 56%', src: danbooru}
     - {id: sewayaki, weight: sub, note: '資料: 高坂穂乃果が園田海未に叱られている際に、穂乃果をフォローする立ち回りを見せているため。', src: gemini}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 81%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 97%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: minamoto-sakura
@@ -8155,13 +8150,12 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
     - {id: aidoru, weight: core, note: '資料: グループ（μ''s）のメンバーとして加入し活動することが記されている。', src: gemini}
-    - {id: akagami, weight: core, note: 'danbooru red_hair 92%', src: danbooru}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 88%', src: danbooru}
     - {id: semi-long, weight: core, note: 'danbooru medium_hair 93%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 91%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: reijou, weight: sub, note: '資料: 実家の病院を継ぐことが決まっていたという記述がある。', src: gemini}
   patterns: []
 
@@ -8525,17 +8519,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
-    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 75%', src: danbooru}
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 88%', src: danbooru}
     - {id: ryou-kataomoi, weight: core, note: '資料: 一条楽に好意を寄せており、楽からもオープンに好意を寄せられているが、互いに相手の好意を知らないという状態にある。', src: gemini}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 75%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: osananajimi, weight: sub, note: '資料: 幼い頃に一条楽と出会っており、結婚の約束を交わしていた過去を持つ。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 44%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 49%', src: danbooru}
     - {id: yakusoku, weight: sub, note: '資料: 幼い頃に一条楽と結婚の約束を交わした「約束の女の子」であったことが物語終盤で明らかになる。', src: gemini}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 88%（共有 22% のため比重を下げた）', src: danbooru}
     - {id: sewayaki, weight: spice, note: '資料: 一条楽が負傷したり病気の時には介抱を行っている。', src: gemini}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 49%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ootori-kyouya
@@ -10750,16 +10743,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
-    - {id: aogami, weight: core, note: 'danbooru blue_hair 86%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 96%', src: danbooru}
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 87%', src: danbooru}
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 72%', src: danbooru}
     - {id: aidoru, weight: sub, note: '資料: 「School idol project」作品の登場人物であり、ライブを行う記述がある。', src: gemini}
     - {id: doryokuka, weight: sub, note: '資料: 自分に対しては特に厳しく、怠惰を嫌う。', src: gemini}
     - {id: ganko, weight: sub, note: '資料: 強い意志を持つ。', src: gemini}
     - {id: gouri, weight: sub, note: '資料: 常に論理的に考える。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 96%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: sonozaki-mion
@@ -10774,15 +10766,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 76%', src: danbooru}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 67%', src: danbooru}
     - {id: midorigami, weight: core, note: 'danbooru green_hair 90%', src: danbooru}
-    - {id: ponytail, weight: core, note: 'danbooru ponytail 75%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 76%', src: danbooru}
     - {id: reijou, weight: core, note: '資料: 雛見沢で絶大な影響力を持つ御三家の一つ、園崎家の次期当主であると示されている。', src: gemini}
     - {id: toshiue, weight: sub, note: '資料: 前原圭一のクラスの中で最年長である。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 76%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: sophie-hatter
@@ -11279,8 +11270,7 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
     - {id: aogami, weight: core, note: 'danbooru blue_hair 65%', src: danbooru}
     - {id: kataomoi, weight: core, note: '資料: 同じクラスの櫛枝実乃梨に片思いをしている', src: gemini}
@@ -12436,15 +12426,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
     - {id: aidoru, weight: core, note: '資料: アマチュアスクールアイドルとしての活動経験があり、穂乃果の新しいアイドルグループに加入しているため。', src: gemini}
-    - {id: akame, weight: core, note: 'danbooru red_eyes 80%', src: danbooru}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 87%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 86%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 80%（共有 12% のため比重を下げた）', src: danbooru}
     - {id: kansatsu, weight: sub, note: '資料: 穂乃果の新しいアイドルグループを事前に観察してから加入したため。', src: gemini}
     - {id: teishinchou, weight: sub, note: '資料: 17歳で身長154cmという小柄な体格であるため。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 88%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yoko-littner
