@@ -34,13 +34,26 @@
   new_tag_proposals: []
 - id: accelerator
   name: アクセラレータ
-  date: '2026-08-30'
+  date: '2026-10-17'
   unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: 本名不明
-    axis: 物語役割 / 秘密
-    reason: 本名が不明で、姓2文字・名3文字という記憶のみが残っているため。
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1948
+    threshold: 0.5
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.184
+    threshold: 0.3
+  - id: irojiro
+    tag: pale_skin
+    frequency: 0.1797
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.171
+    threshold: 0.35
+  new_tag_proposals: []
 - id: aerith-gainsborough
   name: エアリス・ゲインズブール
   date: '2026-08-31'
@@ -649,6 +662,38 @@
     tag: large_breasts
     frequency: 0.1708
     threshold: 0.5
+  new_tag_proposals: []
+- id: asahina-mikuru
+  name: 朝比奈みくる
+  date: '2026-10-17'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.284
+    threshold: 0.5
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1834
+    threshold: 0.3
+  - id: kemomimi
+    tag: animal_ears
+    frequency: 0.1737
+    threshold: 0.35
+  - id: meido
+    tag: maid
+    frequency: 0.1728
+    threshold: 0.35
+  new_tag_proposals: []
+- id: asakura-ryoko
+  name: 朝倉涼子
+  date: '2026-10-17'
+  unmapped_danbooru: []
+  near_miss:
+  - id: buki
+    tag: knife
+    frequency: 0.2612
+    threshold: 0.35
   new_tag_proposals: []
 - id: asakura-yoh
   name: 麻倉葉
@@ -1735,6 +1780,20 @@
     frequency: 0.2222
     threshold: 0.35
   new_tag_proposals: []
+- id: furude-rika
+  name: 古手梨花
+  date: '2026-10-17'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kemomimi
+    tag: animal_ears
+    frequency: 0.1793
+    threshold: 0.35
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.1699
+    threshold: 0.35
+  new_tag_proposals: []
 - id: furukawa-nagisa
   name: 古河渚
   date: '2026-08-31'
@@ -2221,6 +2280,24 @@
   - id: tebukuro
     tag: gloves
     frequency: 0.194
+    threshold: 0.35
+  new_tag_proposals: []
+- id: hashida-itaru
+  name: 橋田至
+  date: '2026-10-17'
+  unmapped_danbooru:
+  - tag: fat
+    frequency: 0.5106
+  - tag: fat_man
+    frequency: 0.5106
+  - tag: t-shirt
+    frequency: 0.4255
+  - tag: green_shirt
+    frequency: 0.383
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2553
     threshold: 0.35
   new_tag_proposals: []
 - id: hatake-kakashi
@@ -3353,12 +3430,20 @@
     reason: 野外活動サークルに所属しキャンプに傾倒しているため。
 - id: kagamine-rin
   name: 鏡音リン
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: heddohon
     tag: headphones
-    frequency: 0.2318
+    frequency: 0.2418
+    threshold: 0.35
+  - id: regent
+    tag: swept_bangs
+    frequency: 0.1772
+    threshold: 0.35
+  - id: kokuin
+    tag: tattoo
+    frequency: 0.1552
     threshold: 0.35
   new_tag_proposals: []
 - id: kagari-atsuko
@@ -3747,6 +3832,20 @@
   - id: piasu
     tag: earrings
     frequency: 0.3272
+    threshold: 0.5
+  new_tag_proposals: []
+- id: kawashima-ami
+  name: 川嶋亜美
+  date: '2026-10-17'
+  unmapped_danbooru: []
+  near_miss:
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.328
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2701
     threshold: 0.5
   new_tag_proposals: []
 - id: kazanari-tsubasa
@@ -4327,6 +4426,16 @@
   - id: kyonyuu
     tag: large_breasts
     frequency: 0.1758
+    threshold: 0.5
+  new_tag_proposals: []
+- id: koizumi-itsuki
+  name: 古泉一樹
+  date: '2026-10-17'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1985
     threshold: 0.5
   new_tag_proposals: []
 - id: komaeda-nagito
@@ -6203,21 +6312,18 @@
   new_tag_proposals: []
 - id: nakano-miku
   name: 中野三玖
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
     tag: collarbone
-    frequency: 0.2176
+    frequency: 0.2178
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.2065
+    frequency: 0.208
     threshold: 0.3
-  new_tag_proposals:
-  - name: itsutsugo
-    axis: 関係性の型
-    reason: 五つ子の三女という出生属性があるが、既存語彙の『双子』は二人に限定されているため
+  new_tag_proposals: []
 - id: nakano-nino
   name: 中野二乃
   date: '2026-08-31'
@@ -8519,6 +8625,24 @@
     frequency: 0.2607
     threshold: 0.35
   new_tag_proposals: []
+- id: shiina-mayuri
+  name: 椎名まゆり
+  date: '2026-10-17'
+  unmapped_danbooru: []
+  near_miss:
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2806
+    threshold: 0.35
+  - id: furiru
+    tag: frills
+    frequency: 0.2094
+    threshold: 0.35
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.1938
+    threshold: 0.35
+  new_tag_proposals: []
 - id: shima-rin
   name: 志摩リン
   date: '2026-08-31'
@@ -10107,6 +10231,26 @@
     frequency: 0.1836
     threshold: 0.35
   new_tag_proposals: []
+- id: usami-renko
+  name: 宇佐見蓮子
+  date: '2026-10-17'
+  unmapped_danbooru:
+  - tag: white_bow
+    frequency: 0.4301
+  near_miss:
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.2718
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1937
+    threshold: 0.5
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.1514
+    threshold: 0.35
+  new_tag_proposals: []
 - id: ushiromiya-battler
   name: 右代宮戦人
   date: '2026-10-10'
@@ -10521,7 +10665,7 @@
   new_tag_proposals: []
 - id: yato-noragami
   name: 夜ト
-  date: '2026-08-31'
+  date: '2026-10-17'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -10548,10 +10692,7 @@
     tag: blue_hair
     frequency: 0.1667
     threshold: 0.35
-  new_tag_proposals:
-  - name: デリバリーゴッド
-    axis: 関係性 / 立場
-    reason: 何でも屋のように依頼を請け負って行動する独自の神の肩書き・職業。
+  new_tag_proposals: []
 - id: yazawa-nico
   name: 矢澤にこ
   date: '2026-08-31'

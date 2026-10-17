@@ -35,12 +35,15 @@
     page: 'https://anilist.co/character/13917'
     credit: AniList
   analysis:
-    method: gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-17'
   elements:
     - {id: nouryokusha, weight: core, note: '資料: 超能力「Accelerator」を持ち、触れたもののベクトル値を変更する「Vector Change」を行えるLevel 5の超能力者である。', src: gemini}
     - {id: saikyou, weight: core, note: '資料: 学園都市で最も強力なLevel 5の超能力者である。', src: gemini}
+    - {id: shirogami, weight: core, note: 'danbooru white_hair 79%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 83%（共有 12% のため比重を下げた）', src: danbooru}
+    - {id: choker, weight: sub, note: 'danbooru choker 35%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 36%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: aerith-gainsborough
@@ -782,6 +785,41 @@
     - {id: mitame-sabaku, weight: sub, note: '資料: 実年齢35歳に対して肉体年齢が15歳である記述。', src: gemini}
     - {id: shoutai, weight: sub, note: '資料: 歴史上では男性（アーサー王）とみなされているが、実際は女性である記述。', src: gemini}
     - {id: tenraku, weight: sub, note: '資料: アンリマユに汚染され、セイバーオルタに変化・変質した記述。', src: gemini}
+  patterns: []
+
+- id: asahina-mikuru
+  name: 朝比奈みくる
+  kana: あさひなみくる
+  work: 涼宮ハルヒの憂鬱
+  year: 2003
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b253-opGQ1w4AdkEK.jpg'
+    page: 'https://anilist.co/character/253'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-17'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 43%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 56%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 61%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: asakura-ryoko
+  name: 朝倉涼子
+  kana: あさくらりょうこ
+  work: 涼宮ハルヒの憂鬱
+  year: 2003
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-17'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 70%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 53%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 63%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 73%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: asakura-yoh
@@ -2117,6 +2155,26 @@
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 59%', src: danbooru}
   patterns: []
 
+- id: furude-rika
+  name: 古手梨花
+  kana: ふるでりか
+  work: ひぐらしのなく頃に
+  year: 2002
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1534-CtOvaSPOMZne.png'
+    page: 'https://anilist.co/character/1534'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-17'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 73%', src: danbooru}
+    - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 63%', src: danbooru}
+    - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 41%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 86%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: furukawa-nagisa
   name: 古河渚
   kana: ふるかわなぎさ
@@ -2613,6 +2671,24 @@
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 69%', src: danbooru}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 90%', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 53%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: hashida-itaru
+  name: 橋田至
+  kana: はしだいたる
+  work: STEINS;GATE
+  year: 2009
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b35258-FeTGR4LEUNvt.png'
+    page: 'https://anilist.co/character/35258'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-17'
+  elements:
+    - {id: megane, weight: core, note: 'danbooru glasses 64%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 68%（共有 21% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hatake-kakashi
@@ -4170,16 +4246,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
     - {id: jinzou, weight: core, note: '資料: クリプトン・フューチャー・メディアが開発・販売するVOCALOID。', src: gemini}
     - {id: kagami, weight: core, note: '資料: 鏡音レン（Len）は対となる存在（counterpart）である。', src: gemini}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 87%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 65%', src: danbooru}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 51%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 87%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: kodomo, weight: sub, note: '資料: 14歳の女性。', src: gemini}
-    - {id: seifuku, weight: sub, note: 'danbooru sailor_collar 36%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru sailor_collar 37%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 51%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 65%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kagari-atsuko
@@ -4720,6 +4795,26 @@
     - {id: nimensei, weight: sub, note: '資料: NERV作戦部長としての職場での顔と、勤務外のだらしなく酒を飲む私生活という二つの顔をあわせ持っている。', src: gemini}
     - {id: saikai, weight: sub, note: '資料: 大学時代の恋人であった加持リョウジと作中で再会し、恋愛関係を徐々に再燃させている。', src: gemini}
     - {id: zubora, weight: sub, note: '資料: 勤務外ではだらしなく、大酒飲みであると説明されている。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 77%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: kawashima-ami
+  name: 川嶋亜美
+  kana: かわしまあみ
+  work: 'とらドラ!'
+  year: 2006
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b13725-Vk30kjvVT82z.png'
+    page: 'https://anilist.co/character/13725'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-17'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 87%', src: danbooru}
+    - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 43%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 39%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 77%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
@@ -5401,6 +5496,26 @@
     - {id: chapatsu, weight: core, note: 'danbooru brown_hair 86%', src: danbooru}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 80%', src: danbooru}
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 84%', src: danbooru}
+  patterns: []
+
+- id: koizumi-itsuki
+  name: 古泉一樹
+  kana: こいずみいつき
+  work: 涼宮ハルヒの憂鬱
+  year: 2003
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b254-ZyIHZUY6yz4W.png'
+    page: 'https://anilist.co/character/254'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-17'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 65%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 66%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 75%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 52%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: komaeda-nagito
@@ -7639,16 +7754,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 90%', src: danbooru}
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 82%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 85%', src: danbooru}
     - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 79%', src: danbooru}
     - {id: heddohon, weight: sub, note: 'danbooru headphones 60%', src: danbooru}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 57%', src: danbooru}
     - {id: otaku, weight: sub, note: '資料: 日本史（特に戦国時代の武将）が好きで、その哲学から強い影響を受けて現実の行動にも影響している', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 90%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 82%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nakano-nino
@@ -10150,6 +10264,25 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 30%', src: danbooru}
   patterns: []
 
+- id: shiina-mayuri
+  name: 椎名まゆり
+  kana: しいなまゆり
+  work: STEINS;GATE
+  year: 2009
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b35253-u6QVgLLyHq2W.png'
+    page: 'https://anilist.co/character/35253'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-17'
+  elements:
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 49%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 80%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 71%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: shima-rin
   name: 志摩リン
   kana: しまりん
@@ -11883,6 +12016,21 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 81%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: usami-renko
+  name: 宇佐見蓮子
+  kana: うさみれんこ
+  work: 東方Project
+  year: 1996
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-17'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 46%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 67%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 37%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: ushiromiya-battler
   name: 右代宮戦人
   kana: うしろみやばとら
@@ -12266,14 +12414,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-17'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 83%', src: danbooru}
     - {id: kami, weight: core, note: '資料: 種族が神（God）であり、武神・禍津神・デリバリーゴッドなどの神格としての肩書きが明記されている。', src: gemini}
     - {id: buki, weight: sub, note: 'danbooru weapon 53%', src: danbooru}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 50%', src: danbooru}
     - {id: mafuraa, weight: sub, note: 'danbooru scarf 36%', src: danbooru}
+    - {id: uniform, weight: sub, note: 'danbooru track_suit 39%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 83%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 50%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yazawa-nico
