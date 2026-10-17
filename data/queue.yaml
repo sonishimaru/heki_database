@@ -940,7 +940,9 @@ characters:
     kana: あくせられーた
     work: とある魔術の禁書目録
     year: 2004
-    danbooru: accelerator
+    # 8/31 には通っていたのに取得できなくなった。accelerator は普通名詞と
+    # ぶつかるので、Danbooru が作品名で括り直したとみる
+    danbooru: accelerator_(toaru_majutsu_no_index)
     anilist: Accelerator
   - id: kochou-shinobu
     name: 胡蝶しのぶ
@@ -4188,13 +4190,9 @@ characters:
     year: 2002
     danbooru: ootori_kyouya
     anilist: Kyoya Ootori
-  - id: morita-shinobu
-    name: 森田忍
-    kana: もりたしのぶ
-    work: ハチミツとクローバー
-    year: 2000
-    danbooru: morita_shinobu
-    anilist: Shinobu Morita
+  # 森田忍は外した。同作の花本はぐみが hanamoto_hagumi で通っているので、
+  # 姓_名 という書き方は合っている。綴りの問題ではなくタグが無いとみなす。
+  # 当て推量の直しは挟まない（ジンと同じ判断）。
   - id: kujou-karen
     name: 九条カレン
     kana: くじょうかれん
@@ -4244,3 +4242,60 @@ characters:
     year: 2005
     danbooru: minase_iori
     anilist: Iori Minase
+  # 21 期目。1 名か 2 名だけの作品に残りの主要人物を入れて層を揃える。
+  - id: usami-renko
+    name: 宇佐見蓮子
+    kana: うさみれんこ
+    work: 東方Project
+    year: 1996
+    danbooru: usami_renko
+    anilist: Renko Usami
+  - id: furude-rika
+    name: 古手梨花
+    kana: ふるでりか
+    work: ひぐらしのなく頃に
+    year: 2002
+    danbooru: furude_rika
+    anilist: Rika Furude
+  - id: hashida-itaru
+    name: 橋田至
+    kana: はしだいたる
+    work: STEINS;GATE
+    year: 2009
+    danbooru: hashida_itaru
+    anilist: Itaru Hashida
+  - id: shiina-mayuri
+    name: 椎名まゆり
+    kana: しいなまゆり
+    work: STEINS;GATE
+    year: 2009
+    danbooru: shiina_mayuri
+    anilist: Mayuri Shiina
+  - id: kawashima-ami
+    name: 川嶋亜美
+    kana: かわしまあみ
+    work: とらドラ!
+    year: 2006
+    danbooru: kawashima_ami
+    anilist: Ami Kawashima
+  - id: asakura-ryoko
+    name: 朝倉涼子
+    kana: あさくらりょうこ
+    work: 涼宮ハルヒの憂鬱
+    year: 2003
+    danbooru: asakura_ryoko
+    anilist: Ryoko Asakura
+  - id: asahina-mikuru
+    name: 朝比奈みくる
+    kana: あさひなみくる
+    work: 涼宮ハルヒの憂鬱
+    year: 2003
+    danbooru: asahina_mikuru
+    anilist: Mikuru Asahina
+  - id: koizumi-itsuki
+    name: 古泉一樹
+    kana: こいずみいつき
+    work: 涼宮ハルヒの憂鬱
+    year: 2003
+    danbooru: koizumi_itsuki
+    anilist: Itsuki Koizumi

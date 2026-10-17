@@ -232,9 +232,7 @@
 - id: alastor
   name: アラストール
   date: '2026-10-08'
-  unmapped_danbooru:
-  - tag: pendant
-    frequency: 0.8247
+  unmapped_danbooru: []
   near_miss:
   - id: ahoge
     tag: ahoge
@@ -275,9 +273,7 @@
 - id: alice-cartelet
   name: アリス・カータレット
   date: '2026-10-16'
-  unmapped_danbooru:
-  - tag: moegi_high_school_uniform
-    frequency: 0.3522
+  unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
@@ -1596,9 +1592,7 @@
 - id: fennec
   name: フェネック
   date: '2026-10-09'
-  unmapped_danbooru:
-  - tag: pink_sweater
-    frequency: 0.4374
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -7012,9 +7006,7 @@
 - id: ootori-kyouya
   name: 鳳鏡夜
   date: '2026-10-16'
-  unmapped_danbooru:
-  - tag: purple_jacket
-    frequency: 0.3571
+  unmapped_danbooru: []
   near_miss: []
   new_tag_proposals: []
 - id: oozora-tsubasa
@@ -8666,8 +8658,6 @@
     frequency: 0.9485
   - tag: black_horns
     frequency: 0.8088
-  - tag: purple_jacket
-    frequency: 0.3676
   near_miss:
   - id: buki
     tag: weapon
