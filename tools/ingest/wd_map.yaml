@@ -367,3 +367,9 @@ elements:
   # --- 25 巡目に昇格した語 ---
   hachimaki:
     tags: [headband, red_headband, hachimaki, forehead_protector, bandana]
+
+  # --- 26 巡目に昇格した語 ---
+  pocchari:
+    tags: [fat, fat_man, plump, chubby]
+    threshold: 0.45
+    note: 絵柄の崩しに付くこともあるので少し高くしている

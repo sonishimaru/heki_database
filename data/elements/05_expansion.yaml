@@ -1324,3 +1324,18 @@
   pairs_with: [uniform, kinniku, doryokuka]
   contrasts_with: [megane]
   tags: [定番]
+
+# --- 26 巡目。体格に肉付きの語が無かった ---
+# 高身長・低身長（背）、筋肉・華奢（締まり）、巨乳・貧乳（部位）はあるのに、
+# 体重の方向だけ語が無い。灰色の目・鎧と同じ、軸の中の空白。
+
+- id: pocchari
+  name: ぽっちゃり
+  kana: ぽっちゃり
+  aliases: [肉付きがいい, 太め]
+  axis: appearance.build
+  summary: 肉がついた体つき。柔らかさが外に出ている。
+  effect: 近づきやすさの記号として置き、本人が気にしている側を書く。
+  pairs_with: [kyasha, kodomo]
+  contrasts_with: [kinniku, kyasha]
+  tags: [定番]

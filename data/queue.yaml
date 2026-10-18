@@ -4299,3 +4299,74 @@ characters:
     year: 2003
     danbooru: koizumi_itsuki
     anilist: Itsuki Koizumi
+  # 22 期目。
+  - id: muto-kazuki
+    name: 武藤カズキ
+    kana: むとうかずき
+    work: 武装錬金
+    year: 2003
+    danbooru: muto_kazuki
+    anilist: Kazuki Muto
+  - id: tsumura-tokiko
+    name: 津村斗貴子
+    kana: つむらときこ
+    work: 武装錬金
+    year: 2003
+    danbooru: tsumura_tokiko
+    anilist: Tokiko Tsumura
+  - id: yukimura-chizuru
+    name: 雪村千鶴
+    kana: ゆきむらちづる
+    work: 薄桜鬼
+    year: 2008
+    danbooru: yukimura_chizuru
+    anilist: Chizuru Yukimura
+  - id: hijikata-toshizou
+    name: 土方歳三
+    kana: ひじかたとしぞう
+    work: 薄桜鬼
+    year: 2008
+    danbooru: hijikata_toshizou_(hakuouki)
+    anilist: Toshizo Hijikata
+  - id: fujiwara-no-sai
+    name: 藤原佐為
+    kana: ふじわらのさい
+    work: ヒカルの碁
+    year: 1998
+    danbooru: fujiwara_no_sai
+    anilist: Fujiwara no Sai
+  - id: shindou-hikaru
+    name: 進藤ヒカル
+    kana: しんどうひかる
+    work: ヒカルの碁
+    year: 1998
+    danbooru: shindou_hikaru
+    anilist: Hikaru Shindou
+  - id: hiwatari-akane
+    name: 日渡茜
+    kana: ひわたりあかね
+    work: ぼくの地球を守って
+    year: 1986
+    danbooru: hiwatari_akane
+    anilist: Akane Hiwatari
+  - id: yagami-sayu
+    name: 夜神粧裕
+    kana: やがみさゆ
+    work: DEATH NOTE
+    year: 2003
+    danbooru: yagami_sayu
+    anilist: Sayu Yagami
+  - id: amane-misa
+    name: 弥海砂
+    kana: あまねみさ
+    work: DEATH NOTE
+    year: 2003
+    danbooru: amane_misa
+    anilist: Misa Amane
+  - id: near
+    name: ニア
+    kana: にあ
+    work: DEATH NOTE
+    year: 2003
+    danbooru: near_(death_note)
+    anilist: Near

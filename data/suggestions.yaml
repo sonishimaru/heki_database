@@ -2282,15 +2282,7 @@
 - id: hashida-itaru
   name: 橋田至
   date: '2026-10-17'
-  unmapped_danbooru:
-  - tag: fat
-    frequency: 0.5106
-  - tag: fat_man
-    frequency: 0.5106
-  - tag: t-shirt
-    frequency: 0.4255
-  - tag: green_shirt
-    frequency: 0.383
+  unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
