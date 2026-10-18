@@ -411,6 +411,22 @@
     frequency: 0.1766
     threshold: 0.35
   new_tag_proposals: []
+- id: amane-misa
+  name: 弥海砂
+  date: '2026-10-18'
+  unmapped_danbooru:
+  - tag: cross
+    frequency: 0.5309
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.3049
+    threshold: 0.5
+  - id: akame
+    tag: red_eyes
+    frequency: 0.3006
+    threshold: 0.35
+  new_tag_proposals: []
 - id: amiya
   name: アーミヤ
   date: '2026-09-30'
@@ -1759,6 +1775,40 @@
     frequency: 0.2777
     threshold: 0.35
   new_tag_proposals: []
+- id: fujiwara-no-sai
+  name: 藤原佐為
+  date: '2026-10-18'
+  unmapped_danbooru:
+  - tag: tate_eboshi
+    frequency: 0.9322
+  - tag: kariginu
+    frequency: 0.7966
+  - tag: hand_fan
+    frequency: 0.5085
+  - tag: folding_fan
+    frequency: 0.4576
+  - tag: bishounen
+    frequency: 0.4237
+  - tag: holding_fan
+    frequency: 0.4068
+  near_miss:
+  - id: bukabuka
+    tag: sleeves_past_wrists
+    frequency: 0.322
+    threshold: 0.35
+  - id: piasu
+    tag: earrings
+    frequency: 0.2881
+    threshold: 0.5
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.1695
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.1525
+    threshold: 0.35
+  new_tag_proposals: []
 - id: fujiwara-takumi
   name: 藤原拓海
   date: '2026-10-01'
@@ -2454,6 +2504,54 @@
   - id: murasaki-no-me
     tag: purple_eyes
     frequency: 0.2179
+    threshold: 0.35
+  new_tag_proposals: []
+- id: hijikata-toshizou
+  name: 土方歳三
+  date: '2026-10-18'
+  unmapped_danbooru:
+  - tag: bishounen
+    frequency: 0.8333
+  near_miss:
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.3333
+    threshold: 0.35
+  - id: shirogami
+    tag: white_hair
+    frequency: 0.3333
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.3333
+    threshold: 0.35
+  - id: akame
+    tag: red_eyes
+    frequency: 0.3333
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.3333
+    threshold: 0.35
+  - id: ninja
+    tag: forehead_protector
+    frequency: 0.3333
+    threshold: 0.35
+  - id: hachimaki
+    tag: headband
+    frequency: 0.3333
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1667
+    threshold: 0.5
+  - id: gunpuku
+    tag: military_uniform
+    frequency: 0.1667
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.1667
     threshold: 0.35
   new_tag_proposals: []
 - id: hikigaya-hachiman
@@ -6577,6 +6675,20 @@
     frequency: 0.1791
     threshold: 0.3
   new_tag_proposals: []
+- id: near
+  name: ニア
+  date: '2026-10-18'
+  unmapped_danbooru: []
+  near_miss:
+  - id: hikari-nashi
+    tag: empty_eyes
+    frequency: 0.2167
+    threshold: 0.35
+  - id: haiiro-no-me
+    tag: grey_eyes
+    frequency: 0.1667
+    threshold: 0.35
+  new_tag_proposals: []
 - id: nico-robin
   name: ニコ・ロビン
   date: '2026-10-03'
@@ -8564,16 +8676,16 @@
   new_tag_proposals: []
 - id: shibuya-rin
   name: 渋谷凛
-  date: '2026-08-31'
+  date: '2026-10-18'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
-    frequency: 0.2381
+    frequency: 0.2389
     threshold: 0.5
   - id: kurokami
     tag: black_hair
-    frequency: 0.2103
+    frequency: 0.2101
     threshold: 0.35
   new_tag_proposals: []
 - id: shidou-hikaru
@@ -8695,6 +8807,24 @@
   - id: mitsuami
     tag: braid
     frequency: 0.1702
+    threshold: 0.35
+  new_tag_proposals: []
+- id: shindou-hikaru
+  name: 進藤ヒカル
+  date: '2026-10-18'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1724
+    threshold: 0.5
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1724
+    threshold: 0.3
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.1724
     threshold: 0.35
   new_tag_proposals: []
 - id: shinohara-natsuki
@@ -10091,6 +10221,18 @@
     frequency: 0.2
     threshold: 0.35
   new_tag_proposals: []
+- id: tsumura-tokiko
+  name: 津村斗貴子
+  date: '2026-10-18'
+  unmapped_danbooru:
+  - tag: scar_on_nose
+    frequency: 0.4601
+  near_miss:
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.3374
+    threshold: 0.35
+  new_tag_proposals: []
 - id: tsunemori-akane
   name: 常守朱
   date: '2026-08-31'
@@ -10554,6 +10696,32 @@
     frequency: 0.1956
     threshold: 0.35
   new_tag_proposals: []
+- id: yagami-sayu
+  name: 夜神粧裕
+  date: '2026-10-18'
+  unmapped_danbooru:
+  - tag: cover
+    frequency: 1.0
+  - tag: holding_knife
+    frequency: 1.0
+  - tag: orange_shirt
+    frequency: 1.0
+  - tag: yandere
+    frequency: 1.0
+  - tag: crazy_eyes
+    frequency: 1.0
+  - tag: partially_shaded_face
+    frequency: 1.0
+  - tag: crazy_smile
+    frequency: 1.0
+  - tag: hand_on_own_neck
+    frequency: 1.0
+  - tag: shirt_under_shirt
+    frequency: 1.0
+  - tag: hair_in_own_mouth
+    frequency: 1.0
+  near_miss: []
+  new_tag_proposals: []
 - id: yagami-taichi
   name: 八神太一
   date: '2026-10-01'
@@ -10887,6 +11055,20 @@
   - id: murasaki-no-me
     tag: purple_eyes
     frequency: 0.1622
+    threshold: 0.35
+  new_tag_proposals: []
+- id: yukimura-chizuru
+  name: 雪村千鶴
+  date: '2026-10-18'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.3103
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.2069
     threshold: 0.35
   new_tag_proposals: []
 - id: yukinoshita-yukino

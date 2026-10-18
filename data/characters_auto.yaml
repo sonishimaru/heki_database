@@ -455,15 +455,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-18'
   elements:
     - {id: aidoru, weight: core, note: '資料: 『THE IDOLM@STER』のメインヒロインであり、プロデューサーを喜ばせるために活動している。', src: gemini}
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 84%', src: danbooru}
     - {id: dojikko, weight: core, note: '資料: おっちょこちょいで、日常的に少なくとも1日に1回は転ぶと自分自身で認めている。', src: gemini}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 70%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 67%', src: danbooru}
     - {id: doryokuka, weight: sub, note: '資料: プロデューサーを喜ばせるために最も努力しているとされる。', src: gemini}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 84%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 67%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: amamiya-ren
@@ -484,6 +483,26 @@
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 44%', src: danbooru}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 81%（共有 24% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 41%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: amane-misa
+  name: 弥海砂
+  kana: あまねみさ
+  work: DEATH NOTE
+  year: 2003
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b835-CiZa8y2z2gCz.png'
+    page: 'https://anilist.co/character/835'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-18'
+  elements:
+    - {id: twintail, weight: core, note: 'danbooru two_side_up 64%', src: danbooru}
+    - {id: choker, weight: sub, note: 'danbooru choker 50%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 80%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 65%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: amiya
@@ -2137,6 +2156,26 @@
     - {id: yakusoku, weight: spice, note: '資料: 勝ったら友達になる約束でかぐやにゲーム勝負を挑んで勝利し、かぐやの最初の友達となった。', src: gemini}
   patterns: []
 
+- id: fujiwara-no-sai
+  name: 藤原佐為
+  kana: ふじわらのさい
+  work: ヒカルの碁
+  year: 1998
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b91-bEP3aysnsKXa.jpg'
+    page: 'https://anilist.co/character/91'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-18'
+  elements:
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 97%', src: danbooru}
+    - {id: murasaki-gami, weight: sub, note: 'danbooru purple_hair 37%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 90%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 39%（共有 26% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: fujiwara-takumi
   name: 藤原拓海
   kana: ふじわらたくみ
@@ -2923,6 +2962,25 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 44%', src: danbooru}
     - {id: aome, weight: spice, note: 'danbooru blue_eyes 50%（共有 23% のため比重を下げた）', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 90%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: hijikata-toshizou
+  name: 土方歳三
+  kana: ひじかたとしぞう
+  work: 薄桜鬼
+  year: 2008
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b314373-6iSwuGcEIQL2.png'
+    page: 'https://anilist.co/character/314373'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-18'
+  elements:
+    - {id: buki, weight: sub, note: 'danbooru weapon 83%（共有 10% のため比重を下げた）', src: danbooru}
+    - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 50%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 50%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hikigaya-hachiman
@@ -8035,6 +8093,26 @@
     - {id: yakusoku, weight: sub, note: '資料: 自分が死亡した際に友人帳を譲る約束と引き換えに、妖怪マダラに用心棒を務めてもらっている。', src: gemini}
   patterns: []
 
+- id: near
+  name: ニア
+  kana: にあ
+  work: DEATH NOTE
+  year: 2003
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/n464-6KeJpU6g7Hwj.jpg'
+    page: 'https://anilist.co/character/464'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-18'
+  elements:
+    - {id: kurome, weight: sub, note: 'danbooru black_eyes 42%', src: danbooru}
+    - {id: kusekke, weight: sub, note: 'danbooru hair_between_eyes 55%', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru white_hair 57%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 48%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: nico-robin
   name: ニコ・ロビン
   kana: にころびん
@@ -10205,15 +10283,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-18'
   elements:
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 72%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 94%', src: danbooru}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 73%', src: danbooru}
     - {id: aidoru, weight: sub, note: '資料: 資料の作品名が『アイドルマスターシンデレラガールズ』であり、作品上アイドルであることがほぼ確実である。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: 15歳で身長165cmと記載されており、平均的な同年代と比べて長身である。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 37%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 72%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 94%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shidou-hikaru
@@ -10360,6 +10437,27 @@
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 60%', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 40%', src: danbooru}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 64%（共有 26% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: shindou-hikaru
+  name: 進藤ヒカル
+  kana: しんどうひかる
+  work: ヒカルの碁
+  year: 1998
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b90-GIrZvsLzmdvx.jpg'
+    page: 'https://anilist.co/character/90'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-18'
+  elements:
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 83%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 79%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 38%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 52%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 69%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shinohara-natsuki
@@ -11890,6 +11988,27 @@
     - {id: koushinchou, weight: sub, note: '資料: 身長188cmという明確な高身長の体格をしている。', src: gemini}
   patterns: []
 
+- id: tsumura-tokiko
+  name: 津村斗貴子
+  kana: つむらときこ
+  work: 武装錬金
+  year: 2003
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/3688.jpg'
+    page: 'https://anilist.co/character/3688'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-18'
+  elements:
+    - {id: bob-cut, weight: core, note: 'danbooru bob_cut 85%', src: danbooru}
+    - {id: kizuato, weight: core, note: 'danbooru scar 67%', src: danbooru}
+    - {id: aogami, weight: sub, note: 'danbooru blue_hair 39%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 46%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 52%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: tsunemori-akane
   name: 常守朱
   kana: つねもりあかね
@@ -12316,6 +12435,27 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 52%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: yagami-sayu
+  name: 夜神粧裕
+  kana: やがみさゆ
+  work: DEATH NOTE
+  year: 2003
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/n8135-UgvqHuoMyZy5.png'
+    page: 'https://anilist.co/character/8135'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-18'
+  elements:
+    - {id: hikari-nashi, weight: core, note: 'danbooru empty_eyes 100%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 100%（共有 10% のため比重を下げた）', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 100%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 100%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 100%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: yagami-taichi
   name: 八神太一
   kana: やがみたいち
@@ -12641,6 +12781,27 @@
     - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 35%', src: danbooru}
     - {id: sakotsu, weight: sub, note: 'danbooru collarbone 46%', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 51%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: yukimura-chizuru
+  name: 雪村千鶴
+  kana: ゆきむらちづる
+  work: 薄桜鬼
+  year: 2008
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/29509.jpg'
+    page: 'https://anilist.co/character/29509'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-18'
+  elements:
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 72%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 55%', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 45%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 55%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 52%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yukinoshita-yukino
