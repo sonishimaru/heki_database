@@ -784,24 +784,24 @@
   new_tag_proposals: []
 - id: atago-azur-lane
   name: 愛宕
-  date: '2026-08-31'
+  date: '2026-10-18'
   unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
     tag: yellow_eyes
-    frequency: 0.3312
+    frequency: 0.329
     threshold: 0.35
   - id: tebukuro
     tag: gloves
-    frequency: 0.241
+    frequency: 0.2404
     threshold: 0.35
   - id: gunpuku
     tag: military_uniform
-    frequency: 0.1682
+    frequency: 0.1684
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.16
+    frequency: 0.1585
     threshold: 0.35
   new_tag_proposals: []
 - id: auron
@@ -1047,16 +1047,16 @@
   new_tag_proposals: []
 - id: belfast-azur-lane
   name: ベルファスト
-  date: '2026-08-31'
+  date: '2026-10-18'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
     tag: frills
-    frequency: 0.325
+    frequency: 0.3259
     threshold: 0.35
   - id: piasu
     tag: earrings
-    frequency: 0.1957
+    frequency: 0.1949
     threshold: 0.5
   new_tag_proposals: []
 - id: belldandy
@@ -1958,20 +1958,20 @@
   new_tag_proposals: []
 - id: ganyu
   name: 甘雨
-  date: '2026-08-31'
+  date: '2026-10-18'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.3312
+    frequency: 0.3328
     threshold: 0.5
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2692
+    frequency: 0.2694
     threshold: 0.5
   - id: ponytail
     tag: ponytail
-    frequency: 0.211
+    frequency: 0.2108
     threshold: 0.35
   new_tag_proposals: []
 - id: gasai-yuno
@@ -2898,7 +2898,7 @@
     reason: 他人に対して自分をよく見せようとする性分。カルシファーから「非常に見栄っ張りだ」と評されている。
 - id: hu-tao
   name: 胡桃
-  date: '2026-08-31'
+  date: '2026-10-18'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -2907,24 +2907,21 @@
     threshold: 0.5
   - id: yubiwa
     tag: ring
-    frequency: 0.3218
+    frequency: 0.3224
     threshold: 0.5
   - id: chuukafuku
     tag: chinese_clothes
-    frequency: 0.2424
+    frequency: 0.2432
     threshold: 0.35
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.1698
+    frequency: 0.1706
     threshold: 0.5
   - id: gaitou
     tag: coat
-    frequency: 0.1652
+    frequency: 0.1646
     threshold: 0.35
-  new_tag_proposals:
-  - name: 詩人
-    axis: 関係性 / 立場
-    reason: 才能ある詩人であり作品が民衆の口コミで広まっていると記述されているが、該当する語彙がないため。
+  new_tag_proposals: []
 - id: hyuuga-hinata
   name: 日向ヒナタ
   date: '2026-10-10'
@@ -3444,28 +3441,28 @@
   new_tag_proposals: []
 - id: kaga-kancolle
   name: 加賀
-  date: '2026-08-31'
+  date: '2026-10-18'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.3604
+    frequency: 0.3608
     threshold: 0.5
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.331
+    frequency: 0.3302
     threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.3158
+    frequency: 0.315
     threshold: 0.35
   - id: hakama
     tag: hakama
-    frequency: 0.213
+    frequency: 0.2142
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2048
+    frequency: 0.2052
     threshold: 0.5
   new_tag_proposals: []
 - id: kagami-taiga
@@ -4426,20 +4423,24 @@
   new_tag_proposals: []
 - id: klee
   name: クレー
-  date: '2026-08-31'
+  date: '2026-10-18'
   unmapped_danbooru: []
   near_miss:
   - id: gaitou
     tag: coat
-    frequency: 0.3382
+    frequency: 0.338
     threshold: 0.35
   - id: mafuraa
     tag: scarf
-    frequency: 0.2908
+    frequency: 0.2897
+    threshold: 0.35
+  - id: randoseru
+    tag: randoseru
+    frequency: 0.2817
     threshold: 0.35
   - id: kin-no-me
     tag: orange_eyes
-    frequency: 0.2667
+    frequency: 0.2654
     threshold: 0.35
   new_tag_proposals: []
 - id: kobayakawa-sena
@@ -5621,32 +5622,32 @@
   new_tag_proposals: []
 - id: matoi-ryuuko
   name: 纏流子
-  date: '2026-08-31'
+  date: '2026-10-18'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
     tag: gloves
-    frequency: 0.2906
+    frequency: 0.2905
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.2636
+    frequency: 0.2649
     threshold: 0.3
   - id: buki
     tag: weapon
-    frequency: 0.2573
+    frequency: 0.2568
     threshold: 0.35
   - id: akagami
     tag: red_hair
-    frequency: 0.2169
+    frequency: 0.2173
     threshold: 0.35
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.1875
+    frequency: 0.1878
     threshold: 0.5
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.1722
+    frequency: 0.1744
     threshold: 0.5
   new_tag_proposals: []
 - id: matou-sakura
@@ -7432,21 +7433,25 @@
   new_tag_proposals: []
 - id: raiden-shogun
   name: 雷電将軍
-  date: '2026-08-31'
+  date: '2026-10-18'
   unmapped_danbooru: []
   near_miss:
   - id: pattsun
     tag: blunt_bangs
-    frequency: 0.3222
+    frequency: 0.3214
     threshold: 0.4
   - id: buki
     tag: weapon
-    frequency: 0.2496
+    frequency: 0.2504
     threshold: 0.35
   - id: kishi
     tag: armor
-    frequency: 0.1944
+    frequency: 0.1932
     threshold: 0.4
+  - id: yoroi
+    tag: armor
+    frequency: 0.1932
+    threshold: 0.35
   new_tag_proposals: []
 - id: ram-re-zero
   name: ラム
@@ -8775,24 +8780,28 @@
   new_tag_proposals: []
 - id: shimakaze-kancolle
   name: 島風
-  date: '2026-08-31'
+  date: '2026-10-18'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.183
+    frequency: 0.1852
     threshold: 0.5
   - id: chairo-no-me
     tag: brown_eyes
-    frequency: 0.1728
+    frequency: 0.1722
     threshold: 0.35
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.1652
+    frequency: 0.1656
     threshold: 0.5
   - id: aome
     tag: blue_eyes
-    frequency: 0.1616
+    frequency: 0.1618
+    threshold: 0.35
+  - id: haiiro-no-me
+    tag: grey_eyes
+    frequency: 0.15
     threshold: 0.35
   new_tag_proposals: []
 - id: shimura-shinpachi
@@ -11230,7 +11239,7 @@
   new_tag_proposals: []
 - id: zhongli
   name: 鍾離
-  date: '2026-08-31'
+  date: '2026-10-18'
   unmapped_danbooru: []
   near_miss:
   - id: akagami
@@ -11239,6 +11248,6 @@
     threshold: 0.35
   - id: gaitou
     tag: coat
-    frequency: 0.1539
+    frequency: 0.1536
     threshold: 0.35
   new_tag_proposals: []

@@ -918,17 +918,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-18'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
     - {id: kemomimi, weight: core, note: 'danbooru animal_ears 92%', src: danbooru}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 82%', src: danbooru}
     - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 81%', src: danbooru}
     - {id: namida-bokuro, weight: core, note: 'danbooru mole_under_eye 70%', src: danbooru}
     - {id: sewayaki, weight: core, note: '資料: 資料には性別が女性であることのみ記載されているが、作品上指揮官に対して極めて過保護で世話焼きな気質を示す。', src: gemini}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 44%', src: danbooru}
+    - {id: regent, weight: sub, note: 'danbooru swept_bangs 36%', src: danbooru}
     - {id: shujuu, weight: sub, note: '資料: 資料には性別が女性であることのみ記載されているが、作品上指揮官に仕える艦船としての立場を担う。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 82%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: auron
@@ -1179,22 +1179,21 @@
     page: 'https://anilist.co/character/130070'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-18'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
     - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 79%', src: danbooru}
-    - {id: meido, weight: core, note: 'danbooru maid_headdress 53% / 資料: 資料内では「ロイヤルの頭領」と記載されているが、作品上はメイド隊の統括役（メイド）であることが確実である。', src: both}
     - {id: mitsuami, weight: core, note: 'danbooru braid 62%', src: danbooru}
     - {id: shirogami, weight: core, note: 'danbooru white_hair 68%', src: danbooru}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 46%', src: danbooru}
     - {id: choker, weight: sub, note: 'danbooru collar 41%', src: danbooru}
     - {id: jingai, weight: sub, note: '資料: エディンバラ級軽巡洋艦であると明記されている。', src: gemini}
+    - {id: meido, weight: sub, note: 'danbooru maid_headdress 53%', src: danbooru}
     - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 38%', src: danbooru}
     - {id: sakotsu, weight: sub, note: 'danbooru collarbone 42%', src: danbooru}
     - {id: shujuu, weight: sub, note: '資料: 指揮官（Commander）を親しみを込めて「master」と呼んでいる。', src: gemini}
-    - {id: tebukuro, weight: sub, note: 'danbooru gloves 43%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 44%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 46%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: belldandy
@@ -2313,17 +2312,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-18'
   elements:
-    - {id: ahoge, weight: core, note: 'danbooru ahoge 79%', src: danbooru}
+    - {id: ahoge, weight: core, note: 'danbooru ahoge 78%', src: danbooru}
     - {id: aogami, weight: core, note: 'danbooru blue_hair 94%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 89%', src: danbooru}
     - {id: jingai, weight: core, note: 'danbooru horns 95%', src: danbooru}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 74%', src: danbooru}
     - {id: hanyou, weight: sub, note: '資料: 半仙の使者であり', src: gemini}
     - {id: juusha, weight: sub, note: '資料: 璃月七星の秘書である。', src: gemini}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 45%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 89%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: gasai-yuno
@@ -3514,17 +3512,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-18'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 74%', src: danbooru}
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 87%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 86%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 67%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 74%（共有 12% のため比重を下げた）', src: danbooru}
     - {id: nouryokusha, weight: sub, note: '資料: Pyro（炎）のVision（神の目）を所有している。', src: gemini}
     - {id: sekininkan, weight: sub, note: '資料: 個人の最後の儀式を過ちなく執り行い、世界の陰陽の平衡を保つため最善を尽くしている。', src: gemini}
     - {id: shinigami, weight: sub, note: '資料: 往生堂の堂主として葬儀の管理を行い、個人の最後の儀式を執り行って世界の陰陽の平衡を保つなど、人の生き死にと死を扱う立場にある。', src: gemini}
     - {id: yuurei, weight: sub, note: 'danbooru ghost 38%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 88%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 86%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hyuuga-hinata
@@ -4237,14 +4234,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-18'
   elements:
-    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 67%', src: danbooru}
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 81%', src: danbooru}
     - {id: ponytail, weight: core, note: 'danbooru side_ponytail 89%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 67%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: nimensei, weight: sub, note: '資料: 柳澤光央によって語られた像とは異なる、暴力的ではない一面が存在すると記述されているため。', src: gemini}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 53%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 81%（共有 22% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kagami-taiga
@@ -5430,19 +5426,18 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-18'
   elements:
     - {id: ahoge, weight: core, note: 'danbooru ahoge 74%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 67%', src: danbooru}
-    - {id: erufu, weight: core, note: 'danbooru pointy_ears 85%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 86%', src: danbooru}
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 86%', src: danbooru}
     - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 66%', src: danbooru}
-    - {id: tebukuro, weight: core, note: 'danbooru gloves 64%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 76%', src: danbooru}
-    - {id: akame, weight: sub, note: 'danbooru red_eyes 51%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 52%', src: danbooru}
     - {id: hogosha, weight: sub, note: '資料: 母親のアリスからクレーの保護者役を任されたアルベドや、監督役を分担する西風騎士団のメンバーたちに囲まれている。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 86%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: kishi, weight: sub, note: '資料: 西風騎士団内で「The Spark Knight（火花騎士）」として知られている。', src: gemini}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 64%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 67%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kobayakawa-sena
@@ -6834,16 +6829,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-18'
   elements:
     - {id: fukushuu, weight: core, note: '資料: 父親を殺害したもう片方のハサミの持ち主を探し求めているため。', src: gemini}
     - {id: jingai, weight: core, note: '資料: 身体が生命繊維と融合しており、「生命繊維のバケモノ」と表記されているため。', src: gemini}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 81%', src: danbooru}
     - {id: messhu, weight: core, note: 'danbooru multicolored_hair 80%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 64%', src: danbooru}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 56%', src: danbooru}
     - {id: tenkousei, weight: sub, note: '資料: 本能字学園の2年生の転校生として現れるため。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 56%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 81%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 64%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: matou-sakura
@@ -8873,15 +8867,15 @@
   summary: （要記入）
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-18'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 86%', src: danbooru}
     - {id: mitsuami, weight: core, note: 'danbooru braid 60%', src: danbooru}
     - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 89%', src: danbooru}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 89%', src: danbooru}
     - {id: namida-bokuro, weight: core, note: 'danbooru mole_under_eye 63%', src: danbooru}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 58%', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 58%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 86%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ram-re-zero
@@ -10409,14 +10403,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-18'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 88%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 68%', src: danbooru}
-    - {id: tebukuro, weight: core, note: 'danbooru gloves 83%', src: danbooru}
     - {id: gouman, weight: sub, note: '資料: プロフィールにて「非常に足が速く高慢な艦娘」と記述されている。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 68%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru sailor_collar 52%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 83%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shimura-shinpachi
@@ -13022,11 +13015,8 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-18'
   elements:
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 85%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 82%', src: danbooru}
     - {id: kami, weight: core, note: '資料: 正体は岩神モラクス（Morax, the Geo Archon）であり、彼の神の力によって世界で使われる通貨が作られている。', src: gemini}
     - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 80%', src: danbooru}
     - {id: messhu, weight: core, note: 'danbooru multicolored_hair 77%', src: danbooru}
@@ -13034,9 +13024,11 @@
     - {id: shoutai, weight: core, note: '資料: 往生堂の客卿として送仙儀式の準備を取り仕切っていたが、後に岩神モラクスであることが明かされた。', src: gemini}
     - {id: furou, weight: sub, note: '資料: 年齢は6000歳以上とされる。', src: gemini}
     - {id: jingai, weight: sub, note: '資料: 6000歳以上の年齢を持ち、神としての力を持つ人ならざる存在。', src: gemini}
-    - {id: keshou, weight: sub, note: 'danbooru makeup 37%', src: danbooru}
+    - {id: keshou, weight: sub, note: 'danbooru makeup 38%', src: danbooru}
     - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 54%', src: danbooru}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 47%', src: danbooru}
     - {id: ponytail, weight: sub, note: 'danbooru ponytail 60%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 54%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 85%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 82%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 47%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
