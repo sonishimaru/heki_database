@@ -931,18 +931,18 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-19'
   elements:
     - {id: akogare, weight: core, note: '資料: 魔法帝になることを大きな目標・夢として掲げているため。', src: gemini}
     - {id: doryokuka, weight: core, note: '資料: 魔法が使えないハンデを補うために継続して身体を鍛え、反魔法の魔導書を入手するまでに至っているため。', src: gemini}
+    - {id: hachimaki, weight: core, note: 'danbooru headband 66%', src: danbooru}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 65%', src: danbooru}
-    - {id: shirogami, weight: core, note: 'danbooru grey_hair 62%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru grey_hair 61%', src: danbooru}
     - {id: buki, weight: sub, note: 'danbooru weapon 46%', src: danbooru}
     - {id: fuguu, weight: sub, note: '資料: ハージ村の教会のもとに預けられた孤児という境遇を持っているため。', src: gemini}
     - {id: kinniku, weight: sub, note: '資料: 魔法を使うことができない代わりに体を徹底的に鍛えているため。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 40%', src: danbooru}
     - {id: teishinchou, weight: sub, note: '資料: 15歳以上の男性でありながら身長155cmという小柄な体格であるため。', src: gemini}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 40%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: atago-azur-lane
@@ -1286,18 +1286,18 @@
     page: 'https://anilist.co/character/1344'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-19'
   elements:
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 62%', src: danbooru}
     - {id: messhu, weight: core, note: 'danbooru multicolored_hair 88%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 35%', src: danbooru}
     - {id: giri, weight: sub, note: '資料: 命を救ってくれた本間医師に対し深く感謝し大切に思っていること', src: gemini}
     - {id: kari, weight: sub, note: '資料: 過去に本間医師による手術を受けて命を救われた経緯があること', src: gemini}
-    - {id: kizuato, weight: sub, note: 'danbooru scar 57% / 資料: 顔に傷があること', src: both}
-    - {id: mekakure, weight: sub, note: 'danbooru hair_over_one_eye 41%', src: danbooru}
-    - {id: shirogami, weight: sub, note: 'danbooru white_hair 57%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 56%', src: danbooru}
+    - {id: kizuato, weight: sub, note: 'danbooru scar 55%', src: danbooru}
+    - {id: mekakure, weight: sub, note: 'danbooru hair_over_one_eye 42%', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru white_hair 58%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 62%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 58%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: bowser
@@ -2326,16 +2326,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-19'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 69%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 94%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 94%', src: danbooru}
     - {id: tenshi, weight: core, note: '資料: 天使であり、かつてクラスでトップの成績だったと記載されている。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 94%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: otaku, weight: sub, note: '資料: コンピュータゲームに熱中したと記載されている。', src: gemini}
     - {id: teishinchou, weight: sub, note: '資料: 身長は144cmと明記されている。', src: gemini}
     - {id: tenraku, weight: sub, note: '資料: かつてトップの成績だった天使が、ゲームへの熱中により駄天使になったという変化を描いている。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 69%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 94%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ganondorf
@@ -3898,14 +3897,14 @@
   summary: （要記入）
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-19'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 67%', src: danbooru}
-    - {id: kokuin, weight: sub, note: 'danbooru facial_mark 40%', src: danbooru}
-    - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 60%', src: danbooru}
-    - {id: midorigami, weight: sub, note: 'danbooru green_hair 56%', src: danbooru}
-    - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 57%', src: danbooru}
-    - {id: shirogami, weight: sub, note: 'danbooru white_hair 38%', src: danbooru}
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 62%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 69%（共有 12% のため比重を下げた）', src: danbooru}
+    - {id: kokuin, weight: sub, note: 'danbooru facial_mark 43%', src: danbooru}
+    - {id: midorigami, weight: sub, note: 'danbooru green_hair 58%', src: danbooru}
+    - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 58%', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru white_hair 40%', src: danbooru}
   patterns: []
 
 - id: ishigami-yuu
@@ -4402,14 +4401,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-19'
   elements:
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 76%', src: danbooru}
     - {id: nouryokusha, weight: core, note: '資料: 強力な超能力（telepathic power）を持っている。', src: gemini}
-    - {id: seifuku, weight: core, note: 'danbooru school_uniform 67%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 65%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 67%（共有 19% のため比重を下げた）', src: danbooru}
     - {id: shitei, weight: sub, note: '資料: 霊幻新隆（Arataka Reigen）のアシスタントであり弟子である。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 76%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 65%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kageyama-tobio
@@ -5680,17 +5678,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-19'
   elements:
     - {id: chinmoku, weight: core, note: '資料: 日常生活の中で言葉や音を発することができず、人とほとんど話をしない。', src: gemini}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 88%', src: danbooru}
     - {id: hitomishiri, weight: core, note: '資料: 重い不安と拒絶への恐怖からコミュニケーション障害（コミュ症）を抱えている。', src: gemini}
     - {id: kuchibeta, weight: core, note: '資料: 会話での発話ができず、人に応答する際はノートや黒板に文字を書いて伝える。', src: gemini}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 68%', src: danbooru}
     - {id: koushinchou, weight: sub, note: '資料: 身長は168cm（のちに169cm）。', src: gemini}
     - {id: kurome, weight: sub, note: 'danbooru black_eyes 46%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 34%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 68%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: konjiki-no-yami
@@ -8937,10 +8934,10 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-19'
   elements:
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 86%', src: danbooru}
-    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 59%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 59%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 86%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: power
@@ -9715,14 +9712,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-19'
   elements:
-    - {id: megane, weight: core, note: 'danbooru glasses 67%', src: danbooru}
+    - {id: megane, weight: core, note: 'danbooru glasses 64%', src: danbooru}
     - {id: nouryokusha, weight: core, note: '資料: 生まれつきの超能力者であり、生後14日で口を動かさずに言葉を発し、1歳でテレポートによりみりんの瓶を持ち帰るなど自主的に能力を使用しているため。', src: gemini}
-    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 84%', src: danbooru}
-    - {id: seifuku, weight: core, note: 'danbooru school_uniform 60%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 82%', src: danbooru}
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 85%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 62%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 83%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: saitama
@@ -9806,16 +9802,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-19'
   elements:
     - {id: samurai, weight: core, note: '資料: 天然パーマの銀髪を持つ侍であり、武士道精神に強い誇りを持っている。', src: gemini}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 54%', src: danbooru}
     - {id: shirogami, weight: sub, note: 'danbooru white_hair 59%', src: danbooru}
     - {id: soushitsu, weight: sub, note: '資料: 攘夷戦争で多くの友人や仲間を失った。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 38%', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 59%', src: danbooru}
     - {id: kataomoi, weight: spice, note: '資料: TVのお天気お姉さんである結野アナに思いを寄せている。', src: gemini}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 38%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: sakura-chiyo
@@ -12666,13 +12661,12 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-19'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 73%', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 46%', src: danbooru}
     - {id: kataomoi, weight: sub, note: '資料: 好きな人と両想いになる願いを叶えてもらうため、また好きな人を振り向かせる願いを込めて花子さんを訪ねている。', src: gemini}
     - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 59%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 73%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yato-noragami

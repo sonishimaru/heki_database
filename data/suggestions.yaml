@@ -754,49 +754,49 @@
   new_tag_proposals: []
 - id: asta-black-clover
   name: アスタ
-  date: '2026-08-31'
+  date: '2026-10-19'
   unmapped_danbooru: []
   near_miss:
   - id: akame
     tag: red_eyes
-    frequency: 0.3482
+    frequency: 0.3451
     threshold: 0.35
   - id: sakadachi-gami
     tag: spiked_hair
-    frequency: 0.3393
+    frequency: 0.3363
     threshold: 0.35
   - id: kurokami
     tag: black_hair
-    frequency: 0.3125
+    frequency: 0.3097
     threshold: 0.35
   - id: tsubasa
     tag: wings
-    frequency: 0.2857
+    frequency: 0.2832
     threshold: 0.35
   - id: jingai
     tag: horns
-    frequency: 0.2321
+    frequency: 0.2301
     threshold: 0.35
   - id: ahoge
     tag: ahoge
-    frequency: 0.2054
+    frequency: 0.2035
     threshold: 0.35
   - id: akuma
     tag: demon_horns
-    frequency: 0.2054
+    frequency: 0.2035
     threshold: 0.35
   - id: heterochromia
     tag: heterochromia
-    frequency: 0.1964
+    frequency: 0.1947
     threshold: 0.35
   - id: messhu
     tag: multicolored_hair
-    frequency: 0.1964
+    frequency: 0.1947
     threshold: 0.35
-  - id: kusekke
-    tag: hair_between_eyes
-    frequency: 0.1518
-    threshold: 0.5
+  - id: kinniku
+    tag: abs
+    frequency: 0.1593
+    threshold: 0.35
   new_tag_proposals: []
 - id: atago-azur-lane
   name: 愛宕
@@ -1113,21 +1113,14 @@
   new_tag_proposals: []
 - id: black-jack
   name: ブラック・ジャック
-  date: '2026-08-31'
+  date: '2026-10-19'
   unmapped_danbooru: []
   near_miss:
-  - id: akame
-    tag: red_eyes
-    frequency: 0.3401
-    threshold: 0.35
   - id: gaitou
     tag: coat
-    frequency: 0.3061
+    frequency: 0.3072
     threshold: 0.35
-  new_tag_proposals:
-  - name: 闇医者
-    axis: 関係性 / 立場
-    reason: 正規の免許や制度に縛られず医療活動を行う立場を表す語彙が既存にないため
+  new_tag_proposals: []
 - id: bowser
   name: クッパ
   date: '2026-10-06'
@@ -1908,7 +1901,7 @@
   new_tag_proposals: []
 - id: gabriel-tenma-white
   name: ガヴリール
-  date: '2026-08-31'
+  date: '2026-10-19'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -3180,16 +3173,16 @@
   new_tag_proposals: []
 - id: ishigami-senku
   name: 石神千空
-  date: '2026-08-31'
+  date: '2026-10-19'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.3482
+    frequency: 0.339
     threshold: 0.5
   - id: houtai
     tag: bandages
-    frequency: 0.2946
+    frequency: 0.2797
     threshold: 0.35
   new_tag_proposals: []
 - id: ishigami-yuu
@@ -3578,7 +3571,7 @@
   new_tag_proposals: []
 - id: kageyama-shigeo
   name: 影山茂夫
-  date: '2026-08-31'
+  date: '2026-10-19'
   unmapped_danbooru: []
   near_miss:
   - id: kurome
@@ -4580,20 +4573,24 @@
   new_tag_proposals: []
 - id: komi-shouko
   name: 古見硝子
-  date: '2026-08-31'
+  date: '2026-10-19'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.2998
+    frequency: 0.3015
     threshold: 0.5
   - id: murasaki-no-me
     tag: purple_eyes
-    frequency: 0.2897
+    frequency: 0.293
     threshold: 0.35
   - id: murasaki-gami
     tag: purple_hair
-    frequency: 0.1805
+    frequency: 0.1827
+    threshold: 0.35
+  - id: regent
+    tag: swept_bangs
+    frequency: 0.1673
     threshold: 0.35
   new_tag_proposals: []
 - id: konjiki-no-yami
@@ -7483,7 +7480,7 @@
   new_tag_proposals: []
 - id: pinoko
   name: ピノコ
-  date: '2026-08-31'
+  date: '2026-10-19'
   unmapped_danbooru: []
   near_miss:
   - id: bob-cut
@@ -8191,25 +8188,21 @@
   new_tag_proposals: []
 - id: saiki-kusuo
   name: 斉木楠雄
-  date: '2026-08-31'
+  date: '2026-10-19'
   unmapped_danbooru: []
   near_miss:
   - id: murasaki-no-me
     tag: purple_eyes
-    frequency: 0.2667
+    frequency: 0.2553
     threshold: 0.35
   - id: jingai
     tag: antennae
-    frequency: 0.2
+    frequency: 0.1915
     threshold: 0.35
   - id: midori-no-me
     tag: green_eyes
-    frequency: 0.1778
+    frequency: 0.1702
     threshold: 0.35
-  - id: kyonyuu
-    tag: large_breasts
-    frequency: 0.1556
-    threshold: 0.5
   new_tag_proposals: []
 - id: saitama
   name: サイタマ
@@ -8285,25 +8278,22 @@
   new_tag_proposals: []
 - id: sakata-gintoki
   name: 坂田銀時
-  date: '2026-08-31'
+  date: '2026-10-19'
   unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
-    frequency: 0.3218
+    frequency: 0.3238
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2734
+    frequency: 0.2735
     threshold: 0.5
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1672
+    frequency: 0.1682
     threshold: 0.35
-  new_tag_proposals:
-  - name: 甘党
-    axis: 性格 / 嗜好
-    reason: パフェやアイスクリーム、イチゴミルクなどの甘いものが好きという記述があるが、既存の語彙に含まれないため。
+  new_tag_proposals: []
 - id: sakura-chiyo
   name: 佐倉千代
   date: '2026-10-01'
@@ -10913,7 +10903,7 @@
   new_tag_proposals: []
 - id: yashiro-nene
   name: 八尋寧々
-  date: '2026-08-31'
+  date: '2026-10-19'
   unmapped_danbooru: []
   near_miss:
   - id: shirogami
