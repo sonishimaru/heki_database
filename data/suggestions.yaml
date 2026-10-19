@@ -414,9 +414,7 @@
 - id: amane-misa
   name: 弥海砂
   date: '2026-10-18'
-  unmapped_danbooru:
-  - tag: cross
-    frequency: 0.5309
+  unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
@@ -1779,16 +1777,12 @@
   name: 藤原佐為
   date: '2026-10-18'
   unmapped_danbooru:
-  - tag: tate_eboshi
-    frequency: 0.9322
   - tag: kariginu
     frequency: 0.7966
   - tag: hand_fan
     frequency: 0.5085
   - tag: folding_fan
     frequency: 0.4576
-  - tag: bishounen
-    frequency: 0.4237
   - tag: holding_fan
     frequency: 0.4068
   near_miss:
@@ -2509,9 +2503,7 @@
 - id: hijikata-toshizou
   name: 土方歳三
   date: '2026-10-18'
-  unmapped_danbooru:
-  - tag: bishounen
-    frequency: 0.8333
+  unmapped_danbooru: []
   near_miss:
   - id: ponytail
     tag: ponytail
@@ -9401,8 +9393,6 @@
   name: 杉元佐一
   date: '2026-09-30'
   unmapped_danbooru:
-  - tag: scar_on_nose
-    frequency: 0.5652
   - tag: military_hat
     frequency: 0.555
   - tag: scar_on_mouth
@@ -10233,9 +10223,7 @@
 - id: tsumura-tokiko
   name: 津村斗貴子
   date: '2026-10-18'
-  unmapped_danbooru:
-  - tag: scar_on_nose
-    frequency: 0.4601
+  unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
     tag: yellow_eyes

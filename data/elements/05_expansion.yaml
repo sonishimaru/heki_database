@@ -1339,3 +1339,16 @@
   pairs_with: [kyasha, kodomo]
   contrasts_with: [kinniku, kyasha]
   tags: [定番]
+
+# --- 27 巡目 ---
+
+- id: bishounen
+  name: 美少年
+  kana: びしょうねん
+  aliases: [綺麗な男]
+  axis: appearance.build
+  summary: 顔の造作で得をしている少年。中性的とは別で、男と分かる上での美。
+  effect: 周りが顔で判断してくる前提を置き、本人がそれを嫌がる側を書く。
+  pairs_with: [kyasha, chuuseiteki, irojiro]
+  contrasts_with: [kinniku, bushouhige]
+  tags: [定番]

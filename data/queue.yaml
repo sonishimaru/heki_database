@@ -4305,7 +4305,9 @@ characters:
     kana: むとうかずき
     work: 武装錬金
     year: 2003
-    danbooru: muto_kazuki
+    # 武藤は「むとう」。同じ姓の武藤遊戯が mutou_yuugi で通っているので
+    # 長音を ou で書く側。muto_kazuki と書いていたのが誤り
+    danbooru: mutou_kazuki
     anilist: Kazuki Muto
   - id: tsumura-tokiko
     name: 津村斗貴子
@@ -4342,13 +4344,9 @@ characters:
     year: 1998
     danbooru: shindou_hikaru
     anilist: Hikaru Shindou
-  - id: hiwatari-akane
-    name: 日渡茜
-    kana: ひわたりあかね
-    work: ぼくの地球を守って
-    year: 1986
-    danbooru: hiwatari_akane
-    anilist: Akane Hiwatari
+  # 日渡茜は外した。タグが引けなかったのもあるが、そもそもこの名前の人物が
+  # その作品にいるかどうか自分で確信が持てない。橘めい・旗彦と同じ型の
+  # 取りこぼしなので、確かめられないものは入れない。
   - id: yagami-sayu
     name: 夜神粧裕
     kana: やがみさゆ
@@ -4370,3 +4368,67 @@ characters:
     year: 2003
     danbooru: near_(death_note)
     anilist: Near
+  # 23 期目。スポーツものの層を厚くする（同じチーム内の対比が引ける）。
+  - id: midorima-shintarou
+    name: 緑間真太郎
+    kana: みどりましんたろう
+    work: 黒子のバスケ
+    year: 2008
+    danbooru: midorima_shintarou
+    anilist: Shintaro Midorima
+  - id: nishinoya-yuu
+    name: 西谷夕
+    kana: にしのやゆう
+    work: ハイキュー!!
+    year: 2012
+    danbooru: nishinoya_yuu
+    anilist: Yuu Nishinoya
+  - id: akaashi-keiji
+    name: 赤葦京治
+    kana: あかあしけいじ
+    work: ハイキュー!!
+    year: 2012
+    danbooru: akaashi_keiji
+    anilist: Keiji Akaashi
+  - id: mitsui-hisashi
+    name: 三井寿
+    kana: みついひさし
+    work: SLAM DUNK
+    year: 1990
+    danbooru: mitsui_hisashi
+    anilist: Hisashi Mitsui
+  - id: miyagi-ryouta
+    name: 宮城リョータ
+    kana: みやぎりょーた
+    work: SLAM DUNK
+    year: 1990
+    danbooru: miyagi_ryouta
+    anilist: Ryota Miyagi
+  - id: akagi-takenori
+    name: 赤木剛憲
+    kana: あかぎたけのり
+    work: SLAM DUNK
+    year: 1990
+    danbooru: akagi_takenori
+    anilist: Takenori Akagi
+  - id: atobe-keigo
+    name: 跡部景吾
+    kana: あとべけいご
+    work: テニスの王子様
+    year: 1999
+    danbooru: atobe_keigo
+    anilist: Keigo Atobe
+  - id: yukimura-seiichi
+    name: 幸村精市
+    kana: ゆきむらせいいち
+    work: テニスの王子様
+    year: 1999
+    danbooru: yukimura_seiichi
+    anilist: Seiichi Yukimura
+  - id: toudou-jinpachi
+    name: 東堂尽八
+    kana: とうどうじんぱち
+    work: 弱虫ペダル
+    year: 2008
+    danbooru: toudou_jinpachi
+    anilist: Jinpachi Toudou

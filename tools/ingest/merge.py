@@ -158,6 +158,7 @@ GENERIC_TAGS = {
     "book", "blue_choker", "blue_necktie", "straw_hat",
     "purple_jacket", "pink_sweater", "pendant",
     "t-shirt", "green_shirt",
+    "cross",
     # 25 巡目。一人しか付けない小道具（kamina_shades）、体毛、認識票。
     "kamina_shades", "chest_hair", "dog_tags", "sarashi",
     # 作品固有の制服・装備

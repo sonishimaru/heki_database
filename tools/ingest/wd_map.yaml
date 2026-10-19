@@ -87,7 +87,7 @@ elements:
     tags: [skinny, slender, narrow_waist]
     threshold: 0.5
   kizuato:
-    tags: [scar, scar_on_face, scar_across_eye, scar_on_cheek, burn_scar, scar_on_forehead]
+    tags: [scar, scar_on_face, scar_across_eye, scar_on_cheek, burn_scar, scar_on_forehead, scar_on_nose]
   gishi:
     tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb, automail, robot_arm, prosthetic_arm, single_mechanical_arm, prosthetic_leg]
   kokuin:
@@ -101,7 +101,7 @@ elements:
   hakui:
     tags: [labcoat, lab_coat, white_coat]
   wasou:
-    tags: [kimono, yukata, japanese_clothes, hakama, haori, white_kimono, pink_kimono, black_kimono]
+    tags: [kimono, yukata, japanese_clothes, hakama, haori, white_kimono, pink_kimono, black_kimono, tate_eboshi, eboshi]
   gunpuku:
     tags: [military_uniform, epaulettes, peaked_cap, military, aiguillette]
   heyagi:
@@ -373,3 +373,9 @@ elements:
     tags: [fat, fat_man, plump, chubby]
     threshold: 0.45
     note: 絵柄の崩しに付くこともあるので少し高くしている
+
+  # --- 27 巡目に昇格した語 ---
+  bishounen:
+    tags: [bishounen, pretty_boy]
+    threshold: 0.5
+    note: 絵柄の評価に付くこともあるので少し高くしている
