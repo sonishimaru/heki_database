@@ -181,6 +181,45 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 95%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: akaashi-keiji
+  name: 赤葦京治
+  kana: あかあしけいじ
+  work: 'ハイキュー!!'
+  year: 2012
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b88938-MQdQoMzEigo1.png'
+    page: 'https://anilist.co/character/88938'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-19'
+  elements:
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 86%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 89%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: akagi-takenori
+  name: 赤木剛憲
+  kana: あかぎたけのり
+  work: SLAM DUNK
+  year: 1990
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b314-MPvsR4ndNZDd.png'
+    page: 'https://anilist.co/character/314'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-19'
+  elements:
+    - {id: kasshoku, weight: sub, note: 'danbooru dark_skin 50%', src: danbooru}
+    - {id: kinniku, weight: sub, note: 'danbooru muscular 50%', src: danbooru}
+    - {id: uniform, weight: sub, note: 'danbooru basketball_uniform 43%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 64%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 71%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: akashi-seijuurou
   name: 赤司征十郎
   kana: あかしせいじゅうろう
@@ -929,6 +968,25 @@
     - {id: shujuu, weight: sub, note: '資料: 資料には性別が女性であることのみ記載されているが、作品上指揮官に仕える艦船としての立場を担う。', src: gemini}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 39% のため比重を下げた）', src: danbooru}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 82%（共有 26% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: atobe-keigo
+  name: 跡部景吾
+  kana: あとべけいご
+  work: テニスの王子様
+  year: 1999
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b3072-cSUWoHf2Txeo.jpg'
+    page: 'https://anilist.co/character/3072'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-19'
+  elements:
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 45%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 45%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 41%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: auron
@@ -4106,15 +4164,15 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-19'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 76%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 88%', src: danbooru}
-    - {id: seifuku, weight: core, note: 'danbooru school_uniform 83%', src: danbooru}
-    - {id: hime-cut, weight: sub, note: 'danbooru hime_cut 56%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 75%（共有 12% のため比重を下げた）', src: danbooru}
+    - {id: hime-cut, weight: sub, note: 'danbooru hime_cut 55%', src: danbooru}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 52%', src: danbooru}
     - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 53%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 83%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 88%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: jill-valentine
@@ -5314,18 +5372,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-19'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 62%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 83%', src: danbooru}
     - {id: joushi, weight: core, note: '資料: 鉄の拳で学校を支配し、生徒の能力を評価して人間を超える力を引き出す立場および権限を持つ。', src: gemini}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 81%', src: danbooru}
     - {id: seitokaichou, weight: core, note: '資料: 本能字学園の生徒会長である。', src: gemini}
     - {id: buki, weight: sub, note: 'danbooru weapon 41%', src: danbooru}
     - {id: futomayu, weight: sub, note: 'danbooru thick_eyebrows 39%', src: danbooru}
     - {id: kabe, weight: sub, note: '資料: 纏流子の到着直後、流子の父親の死に関する情報を持っているように見えたため、流子と対立した。', src: gemini}
     - {id: uragiri, weight: sub, note: '資料: 母親（鬼龍院羅暁）を裏切り、纏流子と同じ目的を共有するようになった。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 63%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 83%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 81%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kisaragi-chihaya
@@ -6984,6 +7041,22 @@
     - {id: tsubasa, weight: sub, note: 'danbooru wings 36%', src: danbooru}
   patterns: []
 
+- id: midorima-shintarou
+  name: 緑間真太郎
+  kana: みどりましんたろう
+  work: 黒子のバスケ
+  year: 2008
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-19'
+  elements:
+    - {id: megane, weight: core, note: 'danbooru glasses 86%', src: danbooru}
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 78%', src: danbooru}
+    - {id: midorigami, weight: core, note: 'danbooru green_hair 89%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 59%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: midoriya-izuku
   name: 緑谷出久
   kana: みどりやいずく
@@ -7214,6 +7287,26 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 40%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: mitsui-hisashi
+  name: 三井寿
+  kana: みついひさし
+  work: SLAM DUNK
+  year: 1990
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b313-D720Nz8fAUxw.jpg'
+    page: 'https://anilist.co/character/313'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-19'
+  elements:
+    - {id: kizuato, weight: sub, note: 'danbooru scar 43%', src: danbooru}
+    - {id: uniform, weight: sub, note: 'danbooru sportswear 48%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 63%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 86%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: miyafuji-yoshika
   name: 宮藤芳佳
   kana: みやふじよしか
@@ -7234,6 +7327,22 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 39%', src: danbooru}
     - {id: shippo, weight: sub, note: 'danbooru tail 53%', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 69%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: miyagi-ryouta
+  name: 宮城リョータ
+  kana: みやぎりょーた
+  work: SLAM DUNK
+  year: 1990
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-19'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 50%', src: danbooru}
+    - {id: uniform, weight: sub, note: 'danbooru sportswear 38%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 70%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 70%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: miyamizu-mitsuha
@@ -8249,6 +8358,28 @@
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 74%（共有 20% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 64%（共有 19% のため比重を下げた）', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 76%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: nishinoya-yuu
+  name: 西谷夕
+  kana: にしのやゆう
+  work: 'ハイキュー!!'
+  year: 2012
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b67327-zQb1dlC7joPb.jpg'
+    page: 'https://anilist.co/character/67327'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-19'
+  elements:
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 81%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 39%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 39%', src: danbooru}
+    - {id: uniform, weight: sub, note: 'danbooru sportswear 37%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 63%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 65%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nishizumi-miho
@@ -11783,6 +11914,25 @@
     - {id: twintail, weight: sub, note: 'danbooru twintails 47%', src: danbooru}
   patterns: []
 
+- id: toudou-jinpachi
+  name: 東堂尽八
+  kana: とうどうじんぱち
+  work: 弱虫ペダル
+  year: 2008
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b88734-jmBEqH1cS0Dy.jpg'
+    page: 'https://anilist.co/character/88734'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-19'
+  elements:
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 42%', src: danbooru}
+    - {id: uniform, weight: sub, note: 'danbooru sportswear 42%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 50%（共有 26% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: toujou-nozomi
   name: 東條希
   kana: とうじょうのぞみ
@@ -12795,6 +12945,25 @@
     - {id: ponytail, weight: sub, note: 'danbooru ponytail 45%', src: danbooru}
     - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 55%（共有 22% のため比重を下げた）', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 52%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: yukimura-seiichi
+  name: 幸村精市
+  kana: ゆきむらせいいち
+  work: テニスの王子様
+  year: 1999
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b5900-MdoVeX2TmlGz.png'
+    page: 'https://anilist.co/character/5900'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-19'
+  elements:
+    - {id: aogami, weight: sub, note: 'danbooru blue_hair 48%', src: danbooru}
+    - {id: hachimaki, weight: sub, note: 'danbooru headband 48%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 41%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yukinoshita-yukino
