@@ -101,7 +101,7 @@ elements:
   hakui:
     tags: [labcoat, lab_coat, white_coat]
   wasou:
-    tags: [kimono, yukata, japanese_clothes, hakama, haori, white_kimono, pink_kimono, black_kimono, tate_eboshi, eboshi]
+    tags: [kimono, yukata, japanese_clothes, hakama, haori, white_kimono, pink_kimono, black_kimono, tate_eboshi, eboshi, kariginu]
   gunpuku:
     tags: [military_uniform, epaulettes, peaked_cap, military, aiguillette]
   heyagi:

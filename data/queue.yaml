@@ -1282,7 +1282,9 @@ characters:
     kana: はなこくん
     work: 地縛少年花子くん
     year: 2014
-    danbooru: yugi_amane
+    # 8/31 には通っていたのに取得できなくなった。同作の八尋寧々は
+    # yashiro_nene で通っているので、彼だけ通り名のほうへ移されたとみる
+    danbooru: hanako_(jibaku_shounen_hanako-kun)
     anilist: Hanako
   - id: yashiro-nene
     name: 八尋寧々
@@ -4300,15 +4302,9 @@ characters:
     danbooru: koizumi_itsuki
     anilist: Itsuki Koizumi
   # 22 期目。
-  - id: muto-kazuki
-    name: 武藤カズキ
-    kana: むとうかずき
-    work: 武装錬金
-    year: 2003
-    # 武藤は「むとう」。同じ姓の武藤遊戯が mutou_yuugi で通っているので
-    # 長音を ou で書く側。muto_kazuki と書いていたのが誤り
-    danbooru: mutou_kazuki
-    anilist: Kazuki Muto
+  # 武藤カズキは外した。muto_kazuki も mutou_kazuki も 404。同作の
+  # 津村斗貴子は tsumura_tokiko で通っているので、作品の側ではなく
+  # 彼のタグが無いらしい。
   - id: tsumura-tokiko
     name: 津村斗貴子
     kana: つむらときこ
@@ -4432,3 +4428,81 @@ characters:
     year: 2008
     danbooru: toudou_jinpachi
     anilist: Jinpachi Toudou
+  # 24 期目。Key 作品とひぐらしの層を揃える。
+  - id: minase-nayuki
+    name: 水瀬名雪
+    kana: みなせなゆき
+    work: Kanon
+    year: 1999
+    danbooru: minase_nayuki
+    anilist: Nayuki Minase
+  - id: sawatari-makoto
+    name: 沢渡真琴
+    kana: さわたりまこと
+    work: Kanon
+    year: 1999
+    danbooru: sawatari_makoto
+    anilist: Makoto Sawatari
+  - id: kamio-haruko
+    name: 神尾晴子
+    kana: かみおはるこ
+    work: AIR
+    year: 2000
+    danbooru: kamio_haruko
+    anilist: Haruko Kamio
+  - id: ichinose-kotomi
+    name: 一ノ瀬ことみ
+    kana: いちのせことみ
+    work: CLANNAD
+    year: 2004
+    danbooru: ichinose_kotomi
+    anilist: Kotomi Ichinose
+  - id: sakagami-tomoyo
+    name: 坂上智代
+    kana: さかがみともよ
+    work: CLANNAD
+    year: 2004
+    danbooru: sakagami_tomoyo
+    anilist: Tomoyo Sakagami
+  - id: naoe-riki
+    name: 直枝理樹
+    kana: なおえりき
+    work: リトルバスターズ!
+    year: 2007
+    danbooru: naoe_riki
+    anilist: Riki Naoe
+  - id: kurugaya-yuiko
+    name: 来ヶ谷唯湖
+    kana: くるがやゆいこ
+    work: リトルバスターズ!
+    year: 2007
+    danbooru: kurugaya_yuiko
+    anilist: Yuiko Kurugaya
+  - id: nakamura-yuri
+    name: 仲村ゆり
+    kana: なかむらゆり
+    work: Angel Beats!
+    year: 2010
+    danbooru: nakamura_yuri
+    anilist: Yuri Nakamura
+  - id: sonozaki-shion
+    name: 園崎詩音
+    kana: そのざきしおん
+    work: ひぐらしのなく頃に
+    year: 2002
+    danbooru: sonozaki_shion
+    anilist: Shion Sonozaki
+  - id: houjou-satoko
+    name: 北条沙都子
+    kana: ほうじょうさとこ
+    work: ひぐらしのなく頃に
+    year: 2002
+    danbooru: houjou_satoko
+    anilist: Satoko Houjou
+  - id: maebara-keiichi
+    name: 前原圭一
+    kana: まえばらけいいち
+    work: ひぐらしのなく頃に
+    year: 2002
+    danbooru: maebara_keiichi
+    anilist: Keiichi Maebara

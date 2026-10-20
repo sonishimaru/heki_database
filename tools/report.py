@@ -7,12 +7,14 @@
   python3 tools/report.py            … 全部
   python3 tools/report.py gaps       … 実例0の見出し語だけ
   python3 tools/report.py near       … 閾値に届かなかったタグの実測値だけ
+  python3 tools/report.py names      … 名前の読みと Danbooru タグの食い違い
   python3 tools/report.py identity   … 共有率の高い語ばかりの人物を洗い出す
 """
 
 from __future__ import annotations
 
 import json
+import re
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -216,7 +218,6 @@ def report_ids() -> None:
     （橘めいという名前に鮎沢美咲のタグが付いていて、別人の外見を
     取り込んでいた）。検証で落とすには当たりが緩いので、一覧で出す。
     """
-    import re as _re
     payload = yaml.safe_load((ROOT / "data" / "queue.yaml").read_text(encoding="utf-8")) or {}
     entries = payload.get("characters") if isinstance(payload, dict) else payload
     odd = []
@@ -224,13 +225,113 @@ def report_ids() -> None:
         tag = (entry.get("danbooru") or "").split("_(")[0]
         if not tag:
             continue
-        shared = set(_re.split(r"[-_]", entry["id"])) & set(_re.split(r"[-_]", tag))
+        shared = set(re.split(r"[-_]", entry["id"])) & set(re.split(r"[-_]", tag))
         if not shared:
             odd.append(f"{entry['id']:24} {entry['name']}（{entry.get('work')}） → {entry['danbooru']}")
     print(f"\n■ id と Danbooru タグに共通の語が無い件: {len(odd)}")
     print("  別名・略称なら問題ない。名前のほうがずれていないかだけ見る。")
     for row in odd:
         print("   ", row)
+
+
+# かなをローマ字に直すための表。名前の読みと Danbooru タグを照らすのに使う。
+# 正確な翻字は目的ではない（それなら辞書が要る）。綴りが大きく違えば
+# 別人だと分かる、という程度の粗さで足りる。
+KANA_ROMAJI = [
+    ("きゃ", "kya"), ("きゅ", "kyu"), ("きょ", "kyo"),
+    ("しゃ", "sha"), ("しゅ", "shu"), ("しょ", "sho"),
+    ("ちゃ", "cha"), ("ちゅ", "chu"), ("ちょ", "cho"),
+    ("にゃ", "nya"), ("にゅ", "nyu"), ("にょ", "nyo"),
+    ("ひゃ", "hya"), ("ひゅ", "hyu"), ("ひょ", "hyo"),
+    ("みゃ", "mya"), ("みゅ", "myu"), ("みょ", "myo"),
+    ("りゃ", "rya"), ("りゅ", "ryu"), ("りょ", "ryo"),
+    ("ぎゃ", "gya"), ("ぎゅ", "gyu"), ("ぎょ", "gyo"),
+    ("じゃ", "ja"), ("じゅ", "ju"), ("じょ", "jo"),
+    ("びゃ", "bya"), ("びゅ", "byu"), ("びょ", "byo"),
+    ("ぴゃ", "pya"), ("ぴゅ", "pyu"), ("ぴょ", "pyo"),
+    ("っ", ""), ("ー", ""),
+    ("あ", "a"), ("い", "i"), ("う", "u"), ("え", "e"), ("お", "o"),
+    ("か", "ka"), ("き", "ki"), ("く", "ku"), ("け", "ke"), ("こ", "ko"),
+    ("さ", "sa"), ("し", "shi"), ("す", "su"), ("せ", "se"), ("そ", "so"),
+    ("た", "ta"), ("ち", "chi"), ("つ", "tsu"), ("て", "te"), ("と", "to"),
+    ("な", "na"), ("に", "ni"), ("ぬ", "nu"), ("ね", "ne"), ("の", "no"),
+    ("は", "ha"), ("ひ", "hi"), ("ふ", "fu"), ("へ", "he"), ("ほ", "ho"),
+    ("ま", "ma"), ("み", "mi"), ("む", "mu"), ("め", "me"), ("も", "mo"),
+    ("や", "ya"), ("ゆ", "yu"), ("よ", "yo"),
+    ("ら", "ra"), ("り", "ri"), ("る", "ru"), ("れ", "re"), ("ろ", "ro"),
+    ("わ", "wa"), ("を", "o"), ("ん", "n"),
+    ("が", "ga"), ("ぎ", "gi"), ("ぐ", "gu"), ("げ", "ge"), ("ご", "go"),
+    ("ざ", "za"), ("じ", "ji"), ("ず", "zu"), ("ぜ", "ze"), ("ぞ", "zo"),
+    ("だ", "da"), ("ぢ", "ji"), ("づ", "zu"), ("で", "de"), ("ど", "do"),
+    ("ば", "ba"), ("び", "bi"), ("ぶ", "bu"), ("べ", "be"), ("ぼ", "bo"),
+    ("ぱ", "pa"), ("ぴ", "pi"), ("ぷ", "pu"), ("ぺ", "pe"), ("ぽ", "po"),
+    ("ぁ", "a"), ("ぃ", "i"), ("ぅ", "u"), ("ぇ", "e"), ("ぉ", "o"),
+    ("ゃ", "ya"), ("ゅ", "yu"), ("ょ", "yo"), ("ゔ", "bu"),
+]
+
+# 読みと綴りが噛み合わないが、どちらも正しい人物。中国語読み・訳名・
+# 称号の付き方で、翻字では一致しようがないもの。見つけるたびに足す。
+NAME_EXCEPTIONS = {
+    "ganyu": "中国語読み",
+    "zhongli": "中国語読み",
+    "chun-li": "中国語読み",
+    "android-18": "訳名（人造人間18号）",
+    "red-blood-cell": "訳名（赤血球）",
+    "white-blood-cell": "訳名（白血球）",
+    "princess-peach": "姫が princess に移る",
+}
+
+KATAKANA_ONLY = re.compile(r"^[ァ-ヶー・\s]+$")
+HAS_JAPANESE = re.compile(r"[\u3040-\u309f\u4e00-\u9fff]")
+
+
+def to_romaji(kana: str) -> str:
+    for a, b in KANA_ROMAJI:
+        kana = kana.replace(a, b)
+    return re.sub(r"[^a-z]", "", kana)
+
+
+def report_names() -> None:
+    """キューの名前が Danbooru タグと噛み合っているか。
+
+    人物名を手で書いているので、別人の名前を書いてタグだけ正しい、という
+    取り違えが 6 件あった（橘めい・旗彦・日渡茜・鳴子の説明文・雨宮優子・
+    詩音）。id をタグから機械的に作るようにしたぶん ids の検査では
+    引っかからなくなったので、名前は読みの側から見る。
+
+    カタカナだけの名前は外来語で、読みと綴りが一致しないのが普通なので
+    対象から外す（これを入れると 98 件が誤検出になった）。
+    """
+    payload = yaml.safe_load((ROOT / "data" / "queue.yaml").read_text(encoding="utf-8")) or {}
+    entries = payload.get("characters") if isinstance(payload, dict) else payload
+    odd, known, skipped = [], [], 0
+    for entry in entries or []:
+        name = entry.get("name") or ""
+        if KATAKANA_ONLY.match(name) or not HAS_JAPANESE.search(name):
+            skipped += 1
+            continue
+        tag = (entry.get("danbooru") or "").split("_(")[0]
+        flat = re.sub(r"[^a-z0-9]", "", tag.lower())
+        reading = to_romaji(entry.get("kana") or "")
+        if not flat or not reading:
+            continue
+        # 長音や撥音の揺れを吸収するため、4 文字続けて一致する箇所があるかで見る。
+        overlap = any(reading[i:i + 4] in flat for i in range(max(1, len(reading) - 3))) or any(
+            flat[i:i + 4] in reading for i in range(max(1, len(flat) - 3))
+        )
+        if overlap:
+            continue
+        row = f"{entry['id']:24} {name}（{entry.get('work')}） かな={entry.get('kana')} tag={entry.get('danbooru')}"
+        if entry["id"] in NAME_EXCEPTIONS:
+            known.append(f"{row}  ← {NAME_EXCEPTIONS[entry['id']]}")
+        else:
+            odd.append(row)
+    print(f"\n■ 名前の読みと Danbooru タグが噛み合わない件: {len(odd)}")
+    print(f"  対象外（カタカナ名）{skipped} 件／既知の例外 {len(known)} 件")
+    for row in odd:
+        print("   ", row)
+    if odd:
+        print("  どちらが正しいか確かめる。訳名や別読みなら NAME_EXCEPTIONS に足す。")
 
 
 def report_conflicts(db: dict) -> None:
@@ -270,6 +371,8 @@ def main() -> None:
         report_run()
     if which in ("all", "ids"):
         report_ids()
+    if which in ("all", "names"):
+        report_names()
     if which in ("all", "conflicts"):
         report_conflicts(db)
     if which in ("all", "gaps"):

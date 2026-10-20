@@ -1802,8 +1802,6 @@
   name: 藤原佐為
   date: '2026-10-18'
   unmapped_danbooru:
-  - tag: kariginu
-    frequency: 0.7966
   - tag: hand_fan
     frequency: 0.5085
   - tag: folding_fan
