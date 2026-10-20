@@ -101,13 +101,9 @@
   new_tag_proposals: []
 - id: ainz-ooal-gown
   name: アインズ・ウール・ゴウン
-  date: '2026-08-31'
+  date: '2026-10-20'
   unmapped_danbooru: []
   near_miss:
-  - id: jingai
-    tag: horns
-    frequency: 0.3488
-    threshold: 0.35
   - id: gaitou
     tag: hood
     frequency: 0.3256
@@ -130,7 +126,7 @@
     threshold: 0.5
   - id: kin-no-me
     tag: yellow_eyes
-    frequency: 0.2558
+    frequency: 0.2674
     threshold: 0.35
   - id: roobu
     tag: robe
@@ -144,6 +140,10 @@
     tag: hair_between_eyes
     frequency: 0.1744
     threshold: 0.5
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.1512
+    threshold: 0.35
   new_tag_proposals: []
 - id: aioi-yuuko
   name: 相生祐子
@@ -204,39 +204,30 @@
     reason: 資料に「一本調子（モノトーン）の声をしている」とあるが、語彙に発声のトーンに関する項目がないため。
 - id: akiyama-mio
   name: 秋山澪
-  date: '2026-08-31'
+  date: '2026-10-20'
   unmapped_danbooru: []
   near_miss:
   - id: seifuku
     tag: school_uniform
-    frequency: 0.2863
+    frequency: 0.2868
     threshold: 0.3
   - id: hime-cut
     tag: hime_cut
-    frequency: 0.2363
+    frequency: 0.2358
     threshold: 0.35
   - id: aome
     tag: blue_eyes
-    frequency: 0.2126
+    frequency: 0.212
     threshold: 0.35
   - id: gakki
     tag: instrument
-    frequency: 0.176
+    frequency: 0.1753
     threshold: 0.35
   - id: pattsun
     tag: blunt_bangs
-    frequency: 0.1662
+    frequency: 0.1659
     threshold: 0.4
-  new_tag_proposals:
-  - name: ベーシスト
-    axis: 役割
-    reason: バンド「Ho-kago Tea Time」でベースを担当していることが明記されているため。
-  - name: 作詞担当
-    axis: 役割
-    reason: メイン作詞者として執筆を行い、仲間から感性を頼りにされているため。
-  - name: 左利き
-    axis: 身体性
-    reason: 左利きのミュージシャンであり、左利き用のベースを使用していると明記されているため。
+  new_tag_proposals: []
 - id: akutagawa-ryuunosuke
   name: 芥川龍之介
   date: '2026-10-06'
@@ -551,21 +542,18 @@
   new_tag_proposals: []
 - id: aqua-konosuba
   name: アクア
-  date: '2026-08-31'
+  date: '2026-10-20'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.4093
+    frequency: 0.4095
     threshold: 0.5
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2987
+    frequency: 0.2996
     threshold: 0.5
-  new_tag_proposals:
-  - name: 宴会芸
-    axis: 性格 / 癖・仕草
-    reason: スキルポイントのほとんどを宴会芸スキルに費やしているという特徴的な記述があるため。
+  new_tag_proposals: []
 - id: araragi-koyomi
   name: 阿良々木暦
   date: '2026-10-11'
@@ -1330,29 +1318,26 @@
   new_tag_proposals: []
 - id: darkness-konosuba
   name: ダクネス
-  date: '2026-08-31'
+  date: '2026-10-20'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.3022
+    frequency: 0.2957
     threshold: 0.5
   - id: mitsuami
     tag: braid
-    frequency: 0.2654
+    frequency: 0.2687
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1949
+    frequency: 0.1932
     threshold: 0.35
   - id: tebukuro
     tag: gloves
-    frequency: 0.1761
+    frequency: 0.1757
     threshold: 0.35
-  new_tag_proposals:
-  - name: 攻撃不命中
-    axis: 能力/戦闘
-    reason: 非常に不器用で攻撃が一切命中しないという極端な特徴が資料に記載されているため。
+  new_tag_proposals: []
 - id: dazai-osamu
   name: 太宰治
   date: '2026-09-29'
@@ -1714,20 +1699,20 @@
   new_tag_proposals: []
 - id: florence-nightingale
   name: ナイチンゲール
-  date: '2026-08-31'
+  date: '2026-10-20'
   unmapped_danbooru: []
   near_miss:
   - id: naasu
     tag: nurse_cap
-    frequency: 0.2135
+    frequency: 0.2125
     threshold: 0.35
   - id: gunpuku
     tag: military_uniform
-    frequency: 0.1741
+    frequency: 0.1762
     threshold: 0.35
   - id: ponytail
     tag: folded_ponytail
-    frequency: 0.1526
+    frequency: 0.1524
     threshold: 0.35
   new_tag_proposals: []
 - id: frieren
@@ -3009,7 +2994,7 @@
   new_tag_proposals: []
 - id: ichimaru-gin
   name: 市丸ギン
-  date: '2026-09-15'
+  date: '2026-10-20'
   unmapped_danbooru: []
   near_miss:
   - id: itome
@@ -5829,7 +5814,7 @@
   new_tag_proposals: []
 - id: megumin
   name: めぐみん
-  date: '2026-08-31'
+  date: '2026-10-20'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
@@ -5838,11 +5823,11 @@
     threshold: 0.5
   - id: sakotsu
     tag: collarbone
-    frequency: 0.2738
+    frequency: 0.275
     threshold: 0.35
   - id: choker
     tag: choker
-    frequency: 0.2446
+    frequency: 0.2448
     threshold: 0.35
   new_tag_proposals: []
 - id: meliodas
@@ -6817,40 +6802,34 @@
   new_tag_proposals: []
 - id: natsuki-subaru
   name: ナツキ・スバル
-  date: '2026-08-31'
+  date: '2026-10-20'
   unmapped_danbooru: []
   near_miss:
   - id: aome
     tag: blue_eyes
-    frequency: 0.274
+    frequency: 0.2505
     threshold: 0.35
   - id: aogami
     tag: blue_hair
-    frequency: 0.2618
+    frequency: 0.2393
     threshold: 0.35
   - id: mekakure
     tag: hair_over_one_eye
-    frequency: 0.2474
+    frequency: 0.2338
     threshold: 0.35
   - id: chairo-no-me
     tag: brown_eyes
-    frequency: 0.2229
+    frequency: 0.2263
     threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.2086
+    frequency: 0.2171
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1636
+    frequency: 0.1558
     threshold: 0.35
-  new_tag_proposals:
-  - name: 引きこもり
-    axis: 性格 / 気質
-    reason: 自宅に閉じこもる生活スタイルを表す概念。
-  - name: 異世界召喚
-    axis: 物語役割 / 導入
-    reason: 現実世界から異世界へと強制的・突発的に移転させられる構造。
+  new_tag_proposals: []
 - id: natsume-rin
   name: 棗鈴
   date: '2026-10-01'
@@ -8832,21 +8811,18 @@
   new_tag_proposals: []
 - id: shalltear-bloodfallen
   name: シャルティア・ブラッドフォールン
-  date: '2026-08-31'
+  date: '2026-10-20'
   unmapped_danbooru: []
   near_miss:
   - id: shirogami
     tag: white_hair
-    frequency: 0.3365
+    frequency: 0.3458
     threshold: 0.35
   - id: irojiro
     tag: pale_skin
-    frequency: 0.237
+    frequency: 0.243
     threshold: 0.35
-  new_tag_proposals:
-  - name: 精神支配
-    axis: 関係性 / 関係の状態
-    reason: 敵対組織のアイテムや能力により精神を操作され、意図せず敵対・反逆させられた状態。
+  new_tag_proposals: []
 - id: shana
   name: シャナ
   date: '2026-10-01'
@@ -10022,28 +9998,28 @@
   new_tag_proposals: []
 - id: tanya-degurechaff
   name: ターニャ・デグレチャフ
-  date: '2026-08-31'
+  date: '2026-10-20'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.4233
+    frequency: 0.4308
     threshold: 0.5
   - id: ponytail
     tag: ponytail
-    frequency: 0.2902
+    frequency: 0.2925
     threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.2814
+    frequency: 0.2815
     threshold: 0.35
   - id: buki
     tag: weapon
-    frequency: 0.2611
+    frequency: 0.2583
     threshold: 0.35
   - id: tebukuro
     tag: gloves
-    frequency: 0.2522
+    frequency: 0.2485
     threshold: 0.35
   new_tag_proposals: []
 - id: tendou-akane

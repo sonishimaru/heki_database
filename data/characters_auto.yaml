@@ -126,15 +126,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-20'
   elements:
     - {id: fushi, weight: core, note: '資料: 異世界へ転移しアンデッドとなった。', src: gemini}
-    - {id: jingai, weight: core, note: '資料: 異世界へ転移し、実際にアンデッド的存在となった。', src: gemini}
     - {id: joushi, weight: core, note: '資料: アインズ・ウール・ゴウンのギルドマスターであり、ナザリック大墳墓のNPCから至高の41人の頂点とみなされている。', src: gemini}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 36%', src: danbooru}
-    - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 37%', src: danbooru}
+    - {id: jingai, weight: sub, note: 'danbooru horns 36%', src: danbooru}
     - {id: yosomono, weight: sub, note: '資料: 異世界へ転移した存在である。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 37%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: aioi-yuuko
@@ -280,15 +279,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-20'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 95%', src: danbooru}
     - {id: hitomishiri, weight: core, note: '資料: 資料に直接の記述はないが、作品上で極度の恥ずかしがり屋・対人不安な性格であることがほぼ確実であるため。', src: gemini}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 88%', src: danbooru}
     - {id: kurome, weight: sub, note: 'danbooru black_eyes 46%', src: danbooru}
     - {id: sekininkan, weight: sub, note: '資料: 問題が起きた際にバンドメンバーから頼りにされる立場であることが明記されている。', src: gemini}
     - {id: tsukkomi, weight: sub, note: '資料: 資料に直接の記述はないが、作品上でメンバーの暴走に追及・軌道修正を行う常識人ポジションであることがほぼ確実であるため。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 95%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 88%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: akutagawa-ryuunosuke
@@ -360,16 +358,13 @@
     page: 'https://anilist.co/character/89122'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-20'
   elements:
     - {id: akuma, weight: core, note: 'danbooru demon_girl 79%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
-    - {id: jingai, weight: core, note: 'danbooru horns 97% / 資料: 堕天使の翼と角を持つ姿をしており、人間を嫌悪して下等生物と呼ぶ。', src: both}
+    - {id: jingai, weight: core, note: 'danbooru horns 98%', src: danbooru}
     - {id: juusha, weight: core, note: '資料: ナザリックの階層守護者統括としてアインズに仕える立場にある。', src: gemini}
-    - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 80%', src: danbooru}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 84%', src: danbooru}
+    - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 86%', src: danbooru}
     - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 62%', src: danbooru}
     - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 76%', src: danbooru}
     - {id: tsubasa, weight: core, note: 'danbooru wings 81%', src: danbooru}
@@ -380,7 +375,9 @@
     - {id: jinzou, weight: sub, note: '資料: NPCであり、アインズによって気まぐれに設定を変更された作られた存在である。', src: gemini}
     - {id: joushi, weight: sub, note: '資料: ナザリックの階層守護者統括としての上に立つ立場にある。', src: gemini}
     - {id: shujuu, weight: sub, note: '資料: 主君であるアインズに対し熱狂的な恋心と忠誠を持って仕えている。', src: gemini}
-    - {id: tebukuro, weight: sub, note: 'danbooru gloves 49%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 58%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 84%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: alibaba-saluja
@@ -723,14 +720,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-20'
   elements:
     - {id: aogami, weight: core, note: 'danbooru blue_hair 87%', src: danbooru}
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 79%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 92%', src: danbooru}
     - {id: kami, weight: core, note: '資料: 「水の女神である」と明記されている。', src: gemini}
     - {id: yosomono, weight: sub, note: '資料: カズマと共に「異世界へ連れていかれることになった」「異世界へと引きずり込まれた」と記載されている。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 79%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: araragi-koyomi
@@ -1557,17 +1553,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-20'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 76%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 90%', src: danbooru}
     - {id: do-m, weight: core, note: '資料: マゾヒストであることがプロフィールに明記されている。', src: gemini}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 90%', src: danbooru}
     - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 69%', src: danbooru}
-    - {id: ponytail, weight: core, note: 'danbooru ponytail 73%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 74%', src: danbooru}
     - {id: kabau, weight: sub, note: '資料: パーティの仲間を庇うために敵の前に身を投げる。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 91%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: kishi, weight: sub, note: '資料: クラス（職業）がクルセイダー（上級騎士）である。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 75%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 89%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: dazai-osamu
@@ -2073,16 +2068,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-20'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 62%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 74%', src: danbooru}
-    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 64%', src: danbooru}
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 62%', src: danbooru}
     - {id: naasu, weight: core, note: '資料: 資料には詳細な記述がないが、作品上看護師（ナース）の属性を持つことはほぼ確実であるため。', src: gemini}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 66%', src: danbooru}
-    - {id: tebukuro, weight: core, note: 'danbooru gloves 68%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 62%（共有 12% のため比重を下げた）', src: danbooru}
     - {id: mitsuami, weight: sub, note: 'danbooru braid 56%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 68%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 74%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: frieren
@@ -3678,7 +3672,7 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-09-15'
+    date: '2026-10-20'
   elements:
     - {id: shinigami, weight: core, note: '資料: 隊長・副隊長を務め、斬魄刀を所持することから死神であると窺える。', src: gemini}
     - {id: wasou, weight: core, note: 'danbooru japanese_clothes 63%', src: danbooru}
@@ -3687,7 +3681,7 @@
     - {id: juusha, weight: sub, note: '資料: 五番隊隊長であった藍染惣右介の副隊長を務めていた。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: 身長が185cmと明記されている。', src: gemini}
     - {id: shirogami, weight: sub, note: 'danbooru grey_hair 35%', src: danbooru}
-    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 57%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 57%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ichinose-kotomi
@@ -5852,15 +5846,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-20'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 76%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 91%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 88%', src: danbooru}
-    - {id: futomayu, weight: sub, note: 'danbooru thick_eyebrows 43%', src: danbooru}
+    - {id: futomayu, weight: sub, note: 'danbooru thick_eyebrows 44%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 88%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: reijou, weight: sub, note: '資料: 富裕層で、明るく可愛い少女であり、優しい性格をしている。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 32%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 76%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 91%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kougami-shinya
@@ -7082,20 +7075,19 @@
     page: 'https://anilist.co/character/89361'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-20'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 83%', src: danbooru}
     - {id: chuuni, weight: core, note: '資料: 中二病のような服装をし、中二病のような話し方をする。', src: gemini}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 83%（共有 12% のため比重を下げた）', src: danbooru}
     - {id: bob-cut, weight: sub, note: 'danbooru short_hair_with_long_locks 48%', src: danbooru}
-    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 57%', src: danbooru}
     - {id: gaitou, weight: sub, note: 'danbooru cape 37%', src: danbooru}
     - {id: houtai, weight: sub, note: 'danbooru bandages 48%', src: danbooru}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 36%', src: danbooru}
-    - {id: majo, weight: sub, note: 'danbooru witch_hat 54% / 資料: 肩書・職業がアークメイジであり、高い知性と魔力を持つ魔法使いの一族「紅魔族」の出身である。', src: both}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 45%', src: danbooru}
+    - {id: majo, weight: sub, note: 'danbooru witch_hat 54%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 50%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 57%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 35%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 45%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: meliodas
@@ -8298,16 +8290,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-20'
   elements:
     - {id: nouryokusha, weight: core, note: '資料: 死亡時に時間を遡る「死に戻り（Return by Death）」という能力を持つ。', src: gemini}
     - {id: taimu-ruupu, weight: core, note: '資料: 死亡時に時間を遡る「死に戻り（Return by Death）」という能力を持つ。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 65%', src: danbooru}
     - {id: yosomono, weight: core, note: '資料: コンビニからの帰り道に突然異世界へ召喚された。', src: gemini}
     - {id: kinniku, weight: sub, note: '資料: 筋トレをしており、基礎的な近接格闘の知識がある。', src: gemini}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 47%', src: danbooru}
     - {id: otaku, weight: sub, note: '資料: 現実世界では引きこもりでゲーマーであった。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 48%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 65%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: natsume-rin
@@ -10499,19 +10490,18 @@
     page: 'https://anilist.co/character/89121'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-10-20'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 90%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 83%', src: danbooru}
-    - {id: kyuuketsuki, weight: core, note: 'danbooru vampire 56% / 資料: 美しい吸血鬼の少女の姿をしている。', src: both}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 90%（共有 12% のため比重を下げた）', src: danbooru}
     - {id: furiru, weight: sub, note: 'danbooru lolita_fashion 47%', src: danbooru}
     - {id: juusha, weight: sub, note: '資料: ナザリックの第一、第二、第三階層の守護者である。', src: gemini}
+    - {id: kyuuketsuki, weight: sub, note: 'danbooru vampire 57%', src: danbooru}
     - {id: ponytail, weight: sub, note: 'danbooru ponytail 46%', src: danbooru}
     - {id: saikyou, weight: sub, note: '資料: 最も強力な守護者の一人であり、アルベドと互角に渡り合えると言われている。', src: gemini}
     - {id: sankaku-kankei, weight: sub, note: '資料: モモンガに恋をしている。アルベドとはモモンガの関心を引くために絶えず衝突している。', src: gemini}
-    - {id: yaeba, weight: sub, note: 'danbooru fang 39%', src: danbooru}
+    - {id: yaeba, weight: sub, note: 'danbooru fang 40%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 84%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shana
@@ -11795,13 +11785,13 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-20'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 66%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 85%', src: danbooru}
     - {id: ahoge, weight: sub, note: 'danbooru ahoge 45%', src: danbooru}
     - {id: gunpuku, weight: sub, note: 'danbooru military_uniform 58%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 39%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 85%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 65%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 39%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: tendou-akane
