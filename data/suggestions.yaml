@@ -2853,6 +2853,22 @@
     frequency: 0.1535
     threshold: 0.35
   new_tag_proposals: []
+- id: houjou-satoko
+  name: 北条沙都子
+  date: '2026-10-20'
+  unmapped_danbooru:
+  - tag: sailor_dress
+    frequency: 0.4321
+  - tag: green_dress
+    frequency: 0.4217
+  - tag: white_sailor_collar
+    frequency: 0.3818
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2165
+    threshold: 0.5
+  new_tag_proposals: []
 - id: hououji-fuu
   name: 鳳凰寺風
   date: '2026-10-08'
@@ -3007,6 +3023,16 @@
   - id: aome
     tag: blue_eyes
     frequency: 0.2157
+    threshold: 0.35
+  new_tag_proposals: []
+- id: ichinose-kotomi
+  name: 一ノ瀬ことみ
+  date: '2026-10-20'
+  unmapped_danbooru: []
+  near_miss:
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.3139
     threshold: 0.35
   new_tag_proposals: []
 - id: ijichi-nijika
@@ -3735,6 +3761,24 @@
     tag: choker
     frequency: 0.1692
     threshold: 0.35
+  new_tag_proposals: []
+- id: kamio-haruko
+  name: 神尾晴子
+  date: '2026-10-20'
+  unmapped_danbooru: []
+  near_miss:
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.2857
+    threshold: 0.35
+  - id: pinku-gami
+    tag: pink_hair
+    frequency: 0.2857
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2857
+    threshold: 0.5
   new_tag_proposals: []
 - id: kamiya-kaoru
   name: 神谷薫
@@ -4923,6 +4967,26 @@
     frequency: 0.15
     threshold: 0.35
   new_tag_proposals: []
+- id: kurugaya-yuiko
+  name: 来ヶ谷唯湖
+  date: '2026-10-20'
+  unmapped_danbooru:
+  - tag: little_busters!_school_uniform
+    frequency: 0.4354
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4096
+    threshold: 0.5
+  - id: buki
+    tag: weapon
+    frequency: 0.1882
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1661
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kusanagi-motoko
   name: 草薙素子
   date: '2026-10-13'
@@ -5387,6 +5451,24 @@
   - name: datsugoku
     axis: 技能・行動
     reason: 何度捕まっても常に脱獄に成功しているという特筆すべき実績があるため。
+- id: maebara-keiichi
+  name: 前原圭一
+  date: '2026-10-20'
+  unmapped_danbooru: []
+  near_miss:
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.2857
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.246
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1587
+    threshold: 0.3
+  new_tag_proposals: []
 - id: majima-goro
   name: 真島吾朗
   date: '2026-10-13'
@@ -5932,6 +6014,18 @@
     frequency: 0.183
     threshold: 0.5
   new_tag_proposals: []
+- id: minase-nayuki
+  name: 水瀬名雪
+  date: '2026-10-20'
+  unmapped_danbooru:
+  - tag: kanon_school_uniform
+    frequency: 0.4741
+  near_miss:
+  - id: tareme
+    tag: tareme
+    frequency: 0.2534
+    threshold: 0.35
+  new_tag_proposals: []
 - id: mine-fujiko
   name: 峰不二子
   date: '2026-10-13'
@@ -6424,6 +6518,28 @@
     frequency: 0.2237
     threshold: 0.35
   new_tag_proposals: []
+- id: nakamura-yuri
+  name: 仲村ゆり
+  date: '2026-10-20'
+  unmapped_danbooru:
+  - tag: shinda_sekai_sensen_uniform
+    frequency: 0.5591
+  - tag: green_bow
+    frequency: 0.4511
+  near_miss:
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2287
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.1779
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.1601
+    threshold: 0.35
+  new_tag_proposals: []
 - id: nakano-azusa
   name: 中野梓
   date: '2026-08-31'
@@ -6613,6 +6729,28 @@
   - name: 競泳選手
     axis: 関係性 / 立場
     reason: 岩鳶高校水泳部に所属するフリースタイル（クロール）の選手であるため。
+- id: naoe-riki
+  name: 直枝理樹
+  date: '2026-10-20'
+  unmapped_danbooru:
+  - tag: trap
+    frequency: 0.7165
+  - tag: crossdressing
+    frequency: 0.6897
+  - tag: crossdressing_(mtf)
+    frequency: 0.6897
+  - tag: little_busters!_school_uniform
+    frequency: 0.5096
+  near_miss:
+  - id: bob-cut
+    tag: bob_cut
+    frequency: 0.3065
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2529
+    threshold: 0.35
+  new_tag_proposals: []
 - id: naruhodou-ryuuichi
   name: 成歩堂龍一
   date: '2026-10-06'
@@ -8544,6 +8682,24 @@
   - name: 仲間思い
     axis: 性格/信条
     reason: 出会って以降にできた友人（ファミリー）を大切に思っており、彼らを危険から守ろうとするため。
+- id: sawatari-makoto
+  name: 沢渡真琴
+  date: '2026-10-20'
+  unmapped_danbooru: []
+  near_miss:
+  - id: twintail
+    tag: twintails
+    frequency: 0.3485
+    threshold: 0.35
+  - id: kinpatsu
+    tag: blonde_hair
+    frequency: 0.2222
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2071
+    threshold: 0.5
+  new_tag_proposals: []
 - id: sebastian-michaelis
   name: セバスチャン・ミカエリス
   date: '2026-10-09'
@@ -9315,6 +9471,24 @@
     tag: school_uniform
     frequency: 0.179
     threshold: 0.3
+  new_tag_proposals: []
+- id: sonozaki-shion
+  name: 園崎詩音
+  date: '2026-10-20'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.281
+    threshold: 0.5
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2198
+    threshold: 0.3
+  - id: knit
+    tag: sweater
+    frequency: 0.2057
+    threshold: 0.35
   new_tag_proposals: []
 - id: sophie-hatter
   name: ソフィー・ハッター
@@ -11121,13 +11295,26 @@
   new_tag_proposals: []
 - id: yugi-amane
   name: 花子くん
-  date: '2026-08-30'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: 七不思議
-    axis: 関係性 / 立場
-    reason: 学校の怪異たちを統括・管理する役職・立場の記述が存在するため。
+  date: '2026-10-20'
+  unmapped_danbooru:
+  - tag: gakuseibou
+    frequency: 0.6364
+  - tag: ofuda
+    frequency: 0.4156
+  near_miss:
+  - id: gunpuku
+    tag: peaked_cap
+    frequency: 0.3247
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.2208
+    threshold: 0.35
+  - id: yuurei
+    tag: ghost
+    frequency: 0.1688
+    threshold: 0.35
+  new_tag_proposals: []
 - id: yuigahama-yui
   name: 由比ヶ浜結衣
   date: '2026-08-31'
