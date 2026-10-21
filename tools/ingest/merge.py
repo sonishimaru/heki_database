@@ -217,6 +217,36 @@ GENERIC_TAGS = {
     "genderswap", "genderswap_(mtf)",
     # 10 巡目
     "star_(symbol)", "star-shaped_pupils", "colored_skin", "lycoris_uniform",
+    # 28 巡目。作品固有の制服と小道具、構図・動作・背景、色と衣類の
+    # 組み合わせ、下着と水着の種類、帽子の種類。
+    # ひげ（mustache 等）・ゴーグル・女装・パーカーはここに入れない。
+    # どれも人物の特徴ではあるので、2 作品目が出るまで報告に残して様子を見る。
+    "little_busters!_school_uniform", "shinda_sekai_sensen_uniform",
+    "kanon_school_uniform", "yasogami_school_uniform", "rouman_academy_school_uniform",
+    "first_high_school_uniform", "fourth_east_high_school_uniform",
+    "mukaihara_junior_high_school_uniform", "ooarai_school_uniform",
+    "wagnaria_uniform", "zero_suit", "namekian", "suzume's_chair", "winding_key",
+    "aged_up", "parody", "fine_art_parody", "cover", "name_connection",
+    "riding", "horseback_riding", "horse", "jumping", "leaning_forward", "kneeling",
+    "spread_legs", "straight-on", "mouth_hold", "hand_on_own_neck",
+    "hand_on_own_face", "hand_to_own_mouth", "hair_in_own_mouth", "light_smile",
+    "partially_shaded_face", "cloudy_sky", "sunlight", "grass", "wind", "bed",
+    "pillow", "chair", "bird", "chicken", "no_shoes", "feet", "stomach",
+    "fingernails", "skindentation", "border", "white_border", "outside_border",
+    "blue_background", "letterboxed",
+    "orange_shirt", "yellow_shirt", "red_shirt", "white_pants", "blue_pants",
+    "grey_skirt", "black_tank_top", "denim_shorts", "green_dress", "white_socks",
+    "sailor_dress", "white_sailor_collar", "blue_serafuku", "dress_shirt",
+    "shirt_under_shirt", "sleeveless_shirt", "raglan_sleeves", "juliet_sleeves",
+    "center_opening", "red_leotard", "highleg_leotard", "mittens", "brown_mittens",
+    "purple_bow", "white_bow", "green_bow", "print_bow", "print_bowtie", "ear_bow",
+    "green_ribbon", "purple_scarf", "white_scarf", "blue_hairband",
+    "cross_hair_ornament", "food-themed_hair_ornament", "carrot_hair_ornament",
+    "skull_hair_ornament", "sphere_earrings",
+    "bra", "thong", "thong_panties", "side-tie_panties", "bikini_top_only",
+    "one-piece_swimsuit", "competition_swimsuit",
+    "military_hat", "kepi", "gakuseibou", "animal_hat",
+    "curvy", "thick_thighs", "sugoi_dekai", "white_skin",
 }
 
 

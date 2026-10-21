@@ -4506,3 +4506,252 @@ characters:
     year: 2002
     danbooru: maebara_keiichi
     anilist: Keiichi Maebara
+
+  # --- 25期目。キューを使い切ったので補充。薄い軸を狙う。
+  #     記号職の執事、体格のぽっちゃり・美少年、服装の民族衣装と部屋着、
+  #     種族の獣人、小物のランドセル（いずれも実例 0〜1）。
+  #     あわせて 28 巡目に足した剣士・探偵の原型も入れる。
+  #     年代は 1967〜2015 に散らした。
+  - id: hattori-heiji
+    name: 服部平次
+    kana: はっとりへいじ
+    work: 名探偵コナン
+    year: 1994
+    danbooru: hattori_heiji
+    anilist: Heiji Hattori
+  - id: kaitou-kid
+    name: 怪盗キッド
+    kana: かいとうきっど
+    work: 名探偵コナン
+    year: 1994
+    danbooru: kaitou_kid
+    anilist: Kaitou Kid
+  - id: ciel-phantomhive
+    name: シエル・ファントムハイヴ
+    kana: しえるふぁんとむはいゔ
+    work: 黒執事
+    year: 2006
+    danbooru: ciel_phantomhive
+    anilist: Ciel Phantomhive
+  - id: tony-tony-chopper
+    name: トニートニー・チョッパー
+    kana: とにーとにーちょっぱー
+    work: ONE PIECE
+    year: 1997
+    danbooru: tony_tony_chopper
+    anilist: Tony Tony Chopper
+  - id: akimichi-chouji
+    name: 秋道チョウジ
+    kana: あきみちちょうじ
+    work: NARUTO
+    year: 1999
+    danbooru: akimichi_chouji
+    anilist: Chouji Akimichi
+  - id: tokitou-muichirou
+    name: 時透無一郎
+    kana: ときとうむいちろう
+    work: 鬼滅の刃
+    year: 2016
+    danbooru: tokitou_muichirou
+    anilist: Muichiro Tokito
+  - id: sasha-blouse
+    name: サシャ・ブラウス
+    kana: さしゃぶらうす
+    work: 進撃の巨人
+    year: 2009
+    danbooru: sasha_blouse
+    anilist: Sasha Blouse
+  - id: maetel
+    name: メーテル
+    kana: めーてる
+    work: 銀河鉄道999
+    year: 1977
+    danbooru: maetel
+    anilist: Maetel
+  - id: jigen-daisuke
+    name: 次元大介
+    kana: じげんだいすけ
+    work: ルパン三世
+    year: 1967
+    danbooru: jigen_daisuke
+    anilist: Daisuke Jigen
+  - id: arima-kousei
+    name: 有馬公生
+    kana: ありまこうせい
+    work: 四月は君の嘘
+    year: 2011
+    danbooru: arima_kousei
+    anilist: Kousei Arima
+
+  # 既存作品の二番手。有名どころは 8 割が既に入っていたので、
+  # 候補を書いてから id・人物・タグで突き合わせて残ったぶんだけを足した。
+  - id: hyuuga-neji
+    name: 日向ネジ
+    kana: ひゅうがねじ
+    work: NARUTO
+    year: 1999
+    danbooru: hyuuga_neji
+    anilist: Neji Hyuuga
+  - id: gaara
+    name: 我愛羅
+    kana: があら
+    work: NARUTO
+    year: 1999
+    danbooru: gaara
+    anilist: Gaara
+  - id: higurashi-kagome
+    name: 日暮かごめ
+    kana: ひぐらしかごめ
+    work: 犬夜叉
+    year: 1996
+    danbooru: higurashi_kagome
+    anilist: Kagome Higurashi
+  - id: miroku-inuyasha
+    name: 弥勒
+    kana: みろく
+    work: 犬夜叉
+    year: 1996
+    danbooru: miroku_(inuyasha)
+    anilist: Miroku
+  - id: hashibira-inosuke
+    name: 嘴平伊之助
+    kana: はしびらいのすけ
+    work: 鬼滅の刃
+    year: 2016
+    danbooru: hashibira_inosuke
+    anilist: Inosuke Hashibira
+  - id: hachikuji-mayoi
+    name: 八九寺真宵
+    kana: はちくじまよい
+    work: 化物語
+    year: 2006
+    danbooru: hachikuji_mayoi
+    anilist: Mayoi Hachikuji
+  - id: hijikata-toushirou
+    name: 土方十四郎
+    kana: ひじかたとうしろう
+    work: 銀魂
+    year: 2003
+    danbooru: hijikata_toushirou
+    anilist: Toushirou Hijikata
+  - id: ash-lynx
+    name: アッシュ・リンクス
+    kana: あっしゅりんくす
+    work: BANANA FISH
+    year: 1985
+    danbooru: ash_lynx
+    anilist: Ash Lynx
+  - id: okumura-eiji
+    name: 奥村英二
+    kana: おくむらえいじ
+    work: BANANA FISH
+    year: 1985
+    danbooru: okumura_eiji
+    anilist: Eiji Okumura
+
+  # まだ 1 人も入っていなかった作品から。
+  - id: korosensei
+    name: 殺せんせー
+    kana: ころせんせー
+    work: 暗殺教室
+    year: 2012
+    danbooru: korosensei
+    anilist: Korosensei
+  - id: akabane-karma
+    name: 赤羽業
+    kana: あかばねかるま
+    work: 暗殺教室
+    year: 2012
+    danbooru: akabane_karma
+    anilist: Karma Akabane
+  - id: shiota-nagisa
+    name: 潮田渚
+    kana: しおたなぎさ
+    work: 暗殺教室
+    year: 2012
+    danbooru: shiota_nagisa
+    anilist: Nagisa Shiota
+  - id: hibino-kafka
+    name: 日比野カフカ
+    kana: ひびのかふか
+    work: 怪獣8号
+    year: 2020
+    danbooru: hibino_kafka
+    anilist: Kafka Hibino
+  - id: shinomiya-kikoru
+    name: 四ノ宮キコル
+    kana: しのみやきこる
+    work: 怪獣8号
+    year: 2020
+    danbooru: shinomiya_kikoru
+    anilist: Kikoru Shinomiya
+  - id: takarada-rikka
+    name: 宝多六花
+    kana: たからだりっか
+    work: SSSS.GRIDMAN
+    year: 2018
+    danbooru: takarada_rikka
+    anilist: Rikka Takarada
+  - id: shinjou-akane
+    name: 新条アカネ
+    kana: しんじょうあかね
+    work: SSSS.GRIDMAN
+    year: 2018
+    danbooru: shinjou_akane
+    anilist: Akane Shinjou
+  - id: gabimaru
+    name: 画眉丸
+    kana: がびまる
+    work: 地獄楽
+    year: 2018
+    danbooru: gabimaru
+    anilist: Gabimaru
+  - id: pecorine
+    name: ペコリーヌ
+    kana: ぺこりーぬ
+    work: プリンセスコネクト!Re:Dive
+    year: 2018
+    danbooru: pecorine
+    anilist: Pecorine
+  - id: march-7th
+    name: 三月なのか
+    kana: さんがつなのか
+    work: 崩壊:スターレイル
+    year: 2023
+    danbooru: march_7th
+    anilist: March 7th
+  - id: lloyd-irving
+    name: ロイド・アーヴィング
+    kana: ろいどあーゔぃんぐ
+    work: テイルズ オブ シンフォニア
+    year: 2003
+    danbooru: lloyd_irving
+    anilist: Lloyd Irving
+  - id: boa-hancock
+    name: ボア・ハンコック
+    kana: ぼあはんこっく
+    work: ONE PIECE
+    year: 1997
+    danbooru: boa_hancock
+    anilist: Boa Hancock
+  - id: uraraka-ochako
+    name: 麗日お茶子
+    kana: うららかおちゃこ
+    work: 僕のヒーローアカデミア
+    year: 2014
+    danbooru: uraraka_ochako
+    anilist: Ochako Uraraka
+  - id: hange-zoe
+    name: ハンジ・ゾエ
+    kana: はんじぞえ
+    work: 進撃の巨人
+    year: 2009
+    danbooru: hange_zoe
+    anilist: Hange Zoe
+  - id: chibiusa
+    name: ちびうさ
+    kana: ちびうさ
+    work: 美少女戦士セーラームーン
+    year: 1991
+    danbooru: chibiusa
+    anilist: Chibiusa

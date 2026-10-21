@@ -1352,3 +1352,31 @@
   pairs_with: [kyasha, chuuseiteki, irojiro]
   contrasts_with: [kinniku, bushouhige]
   tags: [定番]
+
+# --- 28 巡目。立場の軸に剣士と探偵が無かった ---
+# 暗殺者・錬金術師・パイロット・賞金稼ぎまで入れてあるのに、刀を持つ側と
+# 謎を解く側だけ空いていた。灰色の目・鎧と同じ、頻度ではなく軸を数えて
+# 見つかった空白。資料レーンもエリス（剣士）と霧切響子（探偵）で
+# 「該当する見出し語が存在しない」と報告していた。
+
+- id: kenshi
+  name: 剣士
+  kana: けんし
+  aliases: [剣客, 剣の使い手]
+  axis: relation.position
+  summary: 剣で立つ者。騎士や侍と違い、身分ではなく腕前で呼ばれる。
+  effect: 強さの証明を剣一本に負わせ、剣を失ったときに何が残るかを書く。
+  pairs_with: [buki, saikyou, shitei]
+  contrasts_with: [nouryokusha]
+  tags: [定番]
+
+- id: tantei
+  name: 探偵
+  kana: たんてい
+  aliases: [名探偵]
+  axis: relation.position
+  summary: 謎を解く立場。事件のほうから向こうが寄ってくる。
+  effect: 真相に辿り着く力を与えておいて、間に合わなかった一件を抱えさせる。
+  pairs_with: [aibou, kansatsu, nouryokusha]
+  contrasts_with: [muhoumono]
+  tags: [定番]

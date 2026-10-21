@@ -34,7 +34,7 @@ elements:
   shirogami:
     tags: [white_hair, grey_hair, silver_hair, platinum_blonde_hair]
   kusekke:
-    tags: [messy_hair, bedhead, hair_between_eyes]
+    tags: [messy_hair, bedhead, hair_between_eyes, curly_hair, wavy_hair]
     threshold: 0.5
     note: hair_between_eyes は該当率が高すぎるので閾値を上げている
   mekakure:
@@ -87,11 +87,12 @@ elements:
     tags: [skinny, slender, narrow_waist]
     threshold: 0.5
   kizuato:
-    tags: [scar, scar_on_face, scar_across_eye, scar_on_cheek, burn_scar, scar_on_forehead, scar_on_nose]
+    tags: [scar, scar_on_face, scar_across_eye, scar_on_cheek, burn_scar, scar_on_forehead, scar_on_nose, scar_on_mouth]
   gishi:
     tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb, automail, robot_arm, prosthetic_arm, single_mechanical_arm, prosthetic_leg]
   kokuin:
-    tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo, facial_mark, whisker_markings, facepaint, facial_tattoo, teardrop_facial_mark, forehead_mark, neck_tattoo, number_tattoo, forehead_tattoo]
+    tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo, facial_mark, whisker_markings, facepaint, facial_tattoo, teardrop_facial_mark, forehead_mark, neck_tattoo, number_tattoo, forehead_tattoo, head_tattoo, chest_tattoo,
+        hand_tattoo, shoulder_tattoo]
 
   # --- 服装 ---
   seifuku:
@@ -129,13 +130,15 @@ elements:
   heddohon:
     tags: [headphones, headset, earphones, headphones_around_neck]
   buki:
-    tags: [holding_weapon, weapon, sword, katana, gun, spear, scythe, holding_sword, sheath, knife, shield, legendary_shield_(tate_no_yuusha_no_nariagari), holding_gun, rifle, assault_rifle, handgun, holding_scythe, galaxia_(sword)]
+    tags: [holding_weapon, weapon, sword, katana, gun, spear, scythe, holding_sword, sheath, knife, shield, legendary_shield_(tate_no_yuusha_no_nariagari), holding_gun, rifle, assault_rifle, handgun, holding_scythe, galaxia_(sword), dagger, axe, boomerang, hiraikotsu,
+        holding_knife, monado, keyblade, sword_of_dios, dominator_(gun)]
 
   # --- 種族（外見から確実に読める範囲だけ） ---
   kemomimi:
     tags: [animal_ears, cat_ears, fox_ears, wolf_ears, animal_ear_fluff, wolf_girl, cat_girl, fox_girl, dog_ears, rabbit_ears, extra_ears, raccoon_girl, raccoon_ears, horse_ears, horse_girl, rabbit_girl, dog_girl, kitsune]
   jingai:
-    tags: [horns, monster_girl, slime_girl, lamia, mermaid, red_horns, cone_horns, goat_horns, green_skin, antennae, crystal_hair]
+    tags: [horns, monster_girl, slime_girl, lamia, mermaid, red_horns, cone_horns, goat_horns, green_skin, antennae, crystal_hair,
+        single_horn, black_horns]
   jinzou:
     tags: [android, robot, robot_joints, mechanical_parts, doll_joints, joints, cyborg, mechanical_magical_girl]
 
@@ -190,7 +193,7 @@ elements:
   akuma:
     tags: [demon_girl, demon_horns, demon_tail, demon_wings, demon_boy]
   erufu:
-    tags: [elf, pointy_ears]
+    tags: [elf, pointy_ears, long_pointy_ears]
   ryuu:
     tags: [dragon_girl, dragon_horns, dragon_tail, dragon_boy]
   oni:
@@ -231,7 +234,8 @@ elements:
 
   # --- 3 巡目 ---
   messhu:
-    tags: [multicolored_hair, two-tone_hair, streaked_hair, gradient_hair, colored_inner_hair, split-color_hair, red_streaks, colored_bangs]
+    tags: [multicolored_hair, two-tone_hair, streaked_hair, gradient_hair, colored_inner_hair, split-color_hair, red_streaks, colored_bangs, white_streaks, black_streaks,
+        single_hair_streak]
 
   # --- 4 巡目 ---
   shippo:
@@ -338,7 +342,7 @@ elements:
 
   # --- 15 巡目に昇格した語 ---
   uniform:
-    tags: [american_football_uniform, baseball_uniform, soccer_uniform, basketball_uniform, volleyball_uniform, track_suit, sportswear, gym_uniform, cycling_uniform, boxing_shorts, bike_jersey]
+    tags: [american_football_uniform, baseball_uniform, soccer_uniform, basketball_uniform, basketball_jersey, volleyball_uniform, track_suit, sportswear, gym_uniform, cycling_uniform, boxing_shorts, bike_jersey]
 
   # --- 16 巡目に昇格した語 ---
   helmet:
