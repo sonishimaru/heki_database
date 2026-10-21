@@ -202,6 +202,34 @@
   - name: モノトーンボイス
     axis: 性格 / 話し方
     reason: 資料に「一本調子（モノトーン）の声をしている」とあるが、語彙に発声のトーンに関する項目がないため。
+- id: akimichi-chouji
+  name: 秋道チョウジ
+  date: '2026-10-21'
+  unmapped_danbooru:
+  - tag: open-toe_boots
+    frequency: 0.3636
+  - tag: marking_on_cheek
+    frequency: 0.3636
+  - tag: swirl
+    frequency: 0.3636
+  - tag: swirl_on_cheek
+    frequency: 0.3636
+  - tag: butterfly_mode_(naruto)
+    frequency: 0.3636
+  near_miss:
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2727
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2727
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.1818
+    threshold: 0.35
+  new_tag_proposals: []
 - id: akiyama-mio
   name: 秋山澪
   date: '2026-10-20'
@@ -623,6 +651,20 @@
     tag: blunt_bangs
     frequency: 0.1933
     threshold: 0.4
+  new_tag_proposals: []
+- id: arima-kousei
+  name: 有馬公生
+  date: '2026-10-21'
+  unmapped_danbooru:
+  - tag: petals
+    frequency: 0.375
+  - tag: grand_piano
+    frequency: 0.375
+  near_miss:
+  - id: heddohon
+    tag: earphones
+    frequency: 0.25
+    threshold: 0.35
   new_tag_proposals: []
 - id: armin-arlert
   name: アルミン・アルレルト
@@ -1304,6 +1346,42 @@
   - id: keshou
     tag: makeup
     frequency: 0.1745
+    threshold: 0.35
+  new_tag_proposals: []
+- id: ciel-phantomhive
+  name: シエル・ファントムハイヴ
+  date: '2026-10-21'
+  unmapped_danbooru:
+  - tag: victorian
+    frequency: 0.3647
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.4815
+    threshold: 0.5
+  - id: furiru
+    tag: frills
+    frequency: 0.3219
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2821
+    threshold: 0.5
+  - id: mekakure
+    tag: hair_over_one_eye
+    frequency: 0.2194
+    threshold: 0.35
+  - id: twintail
+    tag: twintails
+    frequency: 0.2137
+    threshold: 0.35
+  - id: heterochromia
+    tag: heterochromia
+    frequency: 0.1738
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.1681
     threshold: 0.35
   new_tag_proposals: []
 - id: daidouji-tomoyo
@@ -2392,6 +2470,16 @@
     frequency: 0.2616
     threshold: 0.5
   new_tag_proposals: []
+- id: hattori-heiji
+  name: 服部平次
+  date: '2026-10-21'
+  unmapped_danbooru: []
+  near_miss:
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1765
+    threshold: 0.3
+  new_tag_proposals: []
 - id: hayakawa-aki
   name: 早川アキ
   date: '2026-10-13'
@@ -2951,6 +3039,26 @@
     frequency: 0.1883
     threshold: 0.35
   new_tag_proposals: []
+- id: hyuuga-neji
+  name: 日向ネジ
+  date: '2026-10-21'
+  unmapped_danbooru:
+  - tag: konohagakure_symbol
+    frequency: 0.4375
+  near_miss:
+  - id: houtai
+    tag: bandages
+    frequency: 0.2292
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.1875
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.1667
+    threshold: 0.35
+  new_tag_proposals: []
 - id: ichihara-yuuko
   name: 壱原侑子
   date: '2026-10-01'
@@ -3394,6 +3502,18 @@
     frequency: 0.1694
     threshold: 0.5
   new_tag_proposals: []
+- id: jigen-daisuke
+  name: 次元大介
+  date: '2026-10-21'
+  unmapped_danbooru:
+  - tag: fedora
+    frequency: 0.3667
+  near_miss:
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1533
+    threshold: 0.35
+  new_tag_proposals: []
 - id: jill-valentine
   name: ジル・バレンタイン
   date: '2026-10-13'
@@ -3664,6 +3784,28 @@
   - name: 商人
     axis: 関係性 / 立場
     reason: アリア商会という商業組織の頭領（chief）を務めているため。
+- id: kaitou-kid
+  name: 怪盗キッド
+  date: '2026-10-21'
+  unmapped_danbooru:
+  - tag: top_hat
+    frequency: 0.7232
+  - tag: monocle_chain
+    frequency: 0.692
+  - tag: white_hat
+    frequency: 0.5121
+  - tag: white_suit
+    frequency: 0.4394
+  near_miss:
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.3322
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2561
+    threshold: 0.5
+  new_tag_proposals: []
 - id: kaizaki-arata
   name: 海崎新太
   date: '2026-10-16'
@@ -5437,6 +5579,18 @@
     tag: school_uniform
     frequency: 0.1587
     threshold: 0.3
+  new_tag_proposals: []
+- id: maetel
+  name: メーテル
+  date: '2026-10-21'
+  unmapped_danbooru:
+  - tag: fur_hat
+    frequency: 0.7871
+  near_miss:
+  - id: gaitou
+    tag: coat
+    frequency: 0.329
+    threshold: 0.35
   new_tag_proposals: []
 - id: majima-goro
   name: 真島吾朗
@@ -8492,6 +8646,26 @@
     frequency: 0.2562
     threshold: 0.5
   new_tag_proposals: []
+- id: sasha-blouse
+  name: サシャ・ブラウス
+  date: '2026-10-21'
+  unmapped_danbooru:
+  - tag: emblem
+    frequency: 0.3841
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2101
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1957
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.1884
+    threshold: 0.35
+  new_tag_proposals: []
 - id: satonaka-chie
   name: 里中千枝
   date: '2026-10-13'
@@ -10079,6 +10253,20 @@
     frequency: 0.1712
     threshold: 0.5
   new_tag_proposals: []
+- id: tokitou-muichirou
+  name: 時透無一郎
+  date: '2026-10-21'
+  unmapped_danbooru: []
+  near_miss:
+  - id: wasou
+    tag: japanese_clothes
+    frequency: 0.2785
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2679
+    threshold: 0.5
+  new_tag_proposals: []
 - id: tomioka-giyuu
   name: 冨岡義勇
   date: '2026-10-13'
@@ -10109,6 +10297,26 @@
   - id: buki
     tag: weapon
     frequency: 0.3062
+    threshold: 0.35
+  new_tag_proposals: []
+- id: tony-tony-chopper
+  name: トニートニー・チョッパー
+  date: '2026-10-21'
+  unmapped_danbooru:
+  - tag: antlers
+    frequency: 0.6213
+  - tag: reindeer_antlers
+    frequency: 0.4734
+  - tag: pink_hat
+    frequency: 0.355
+  near_miss:
+  - id: juujin
+    tag: furry
+    frequency: 0.2249
+    threshold: 0.5
+  - id: kemomimi
+    tag: animal_ears
+    frequency: 0.1657
     threshold: 0.35
   new_tag_proposals: []
 - id: toudou-jinpachi

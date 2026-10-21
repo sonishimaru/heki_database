@@ -267,6 +267,23 @@
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 80%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: akimichi-chouji
+  name: 秋道チョウジ
+  kana: あきみちちょうじ
+  work: NARUTO
+  year: 1999
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: hachimaki, weight: sub, note: 'danbooru forehead_protector 55%', src: danbooru}
+    - {id: houtai, weight: sub, note: 'danbooru bandages 36%', src: danbooru}
+    - {id: mafuraa, weight: sub, note: 'danbooru scarf 45%', src: danbooru}
+    - {id: ninja, weight: sub, note: 'danbooru forehead_protector 55%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 45%（共有 22% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: akiyama-mio
   name: 秋山澪
   kana: あきやまみお
@@ -795,6 +812,24 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 34%', src: danbooru}
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 59%', src: danbooru}
     - {id: teishinchou, weight: sub, note: '資料: 17歳〜19歳の年齢に対し、身長150cmである。', src: gemini}
+  patterns: []
+
+- id: arima-kousei
+  name: 有馬公生
+  kana: ありまこうせい
+  work: 四月は君の嘘
+  year: 2011
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: megane, weight: core, note: 'danbooru glasses 88%', src: danbooru}
+    - {id: gakki, weight: sub, note: 'danbooru instrument 38%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 50%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 50%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 50%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 38%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: armin-arlert
@@ -1514,6 +1549,24 @@
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 49%', src: danbooru}
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 58%', src: danbooru}
     - {id: chuukafuku, weight: sub, note: 'danbooru chinese_clothes 56%', src: danbooru}
+  patterns: []
+
+- id: ciel-phantomhive
+  name: シエル・ファントムハイヴ
+  kana: しえるふぁんとむはいゔ
+  work: 黒執事
+  year: 2006
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: aogami, weight: sub, note: 'danbooru blue_hair 60%', src: danbooru}
+    - {id: bishounen, weight: sub, note: 'danbooru bishounen 51%', src: danbooru}
+    - {id: gantai, weight: sub, note: 'danbooru eyepatch 56%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 36%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 81%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 58%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: daidouji-tomoyo
@@ -2843,6 +2896,24 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 91%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: hattori-heiji
+  name: 服部平次
+  kana: はっとりへいじ
+  work: 名探偵コナン
+  year: 1994
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: kasshoku, weight: sub, note: 'danbooru dark_skin 41%', src: danbooru}
+    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 41%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 41%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 41%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 41%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 53%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: hayakawa-aki
   name: 早川アキ
   kana: はやかわあき
@@ -3619,6 +3690,22 @@
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 56%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: hyuuga-neji
+  name: 日向ネジ
+  kana: ひゅうがねじ
+  work: NARUTO
+  year: 1999
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: hachimaki, weight: sub, note: 'danbooru forehead_protector 54%', src: danbooru}
+    - {id: ninja, weight: sub, note: 'danbooru forehead_protector 54%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 60%（共有 26% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: ichihara-yuuko
   name: 壱原侑子
   kana: いちはらゆうこ
@@ -4211,6 +4298,23 @@
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 88%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: jigen-daisuke
+  name: 次元大介
+  kana: じげんだいすけ
+  work: ルパン三世
+  year: 1967
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: bushouhige, weight: core, note: 'danbooru facial_hair 89%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 36%', src: danbooru}
+    - {id: tabako, weight: sub, note: 'danbooru cigarette 52%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 65%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 41%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: jill-valentine
   name: ジル・バレンタイン
   kana: じるばれんたいん
@@ -4557,6 +4661,24 @@
     - {id: joushi, weight: sub, note: '資料: アリア商会の頭領（chief）であるという記載から、組織の上位に立つ立場であることが確認できるため。', src: gemini}
     - {id: shirogami, weight: sub, note: 'danbooru white_hair 53%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 57%', src: danbooru}
+  patterns: []
+
+- id: kaitou-kid
+  name: 怪盗キッド
+  kana: かいとうきっど
+  work: 名探偵コナン
+  year: 1994
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: gaitou, weight: core, note: 'danbooru cape 64%', src: danbooru}
+    - {id: megane, weight: core, note: 'danbooru monocle 85%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 71%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 67%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 47%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 57%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kaizaki-arata
@@ -6712,6 +6834,21 @@
   elements:
     - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 68%（共有 22% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 51%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: maetel
+  name: メーテル
+  kana: めーてる
+  work: 銀河鉄道999
+  year: 1977
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 37%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 86%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 87%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: majima-goro
@@ -10239,6 +10376,21 @@
     - {id: aome, weight: spice, note: 'danbooru blue_eyes 58%（共有 22% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: sasha-blouse
+  name: サシャ・ブラウス
+  kana: さしゃぶらうす
+  work: 進撃の巨人
+  year: 2009
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 76%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 59%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 86%（共有 22% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: satonaka-chie
   name: 里中千枝
   kana: さとなかちえ
@@ -12073,6 +12225,24 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 36% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: tokitou-muichirou
+  name: 時透無一郎
+  kana: ときとうむいちろう
+  work: 鬼滅の刃
+  year: 2016
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 69%', src: danbooru}
+    - {id: aogami, weight: sub, note: 'danbooru aqua_hair 59%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 39%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru aqua_eyes 58%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 95%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 83%（共有 26% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: tomioka-giyuu
   name: 冨岡義勇
   kana: とみおかぎゆう
@@ -12117,6 +12287,19 @@
     - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 53%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 43%', src: danbooru}
     - {id: twintail, weight: sub, note: 'danbooru twintails 47%', src: danbooru}
+  patterns: []
+
+- id: tony-tony-chopper
+  name: トニートニー・チョッパー
+  kana: とにーとにーちょっぱー
+  work: ONE PIECE
+  year: 1997
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: jingai, weight: core, note: 'danbooru horns 64%', src: danbooru}
   patterns: []
 
 - id: toudou-jinpachi
