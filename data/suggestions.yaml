@@ -179,6 +179,26 @@
     frequency: 0.1689
     threshold: 0.35
   new_tag_proposals: []
+- id: akabane-karma
+  name: 赤羽業
+  date: '2026-10-21'
+  unmapped_danbooru:
+  - tag: kunugigaoka_middle_school_uniform
+    frequency: 0.5
+  near_miss:
+  - id: buki
+    tag: holding_weapon
+    frequency: 0.3
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2
+    threshold: 0.35
+  new_tag_proposals: []
 - id: akashi-seijuurou
   name: 赤司征十郎
   date: '2026-08-31'
@@ -762,6 +782,16 @@
   - id: buki
     tag: weapon
     frequency: 0.2791
+    threshold: 0.35
+  new_tag_proposals: []
+- id: ash-lynx
+  name: アッシュ・リンクス
+  date: '2026-10-21'
+  unmapped_danbooru: []
+  near_miss:
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.1948
     threshold: 0.35
   new_tag_proposals: []
 - id: asirpa
@@ -2292,6 +2322,32 @@
     frequency: 0.3333
     threshold: 0.35
   new_tag_proposals: []
+- id: hachikuji-mayoi
+  name: 八九寺真宵
+  date: '2026-10-21'
+  unmapped_danbooru: []
+  near_miss:
+  - id: yaeba
+    tag: fang
+    frequency: 0.337
+    threshold: 0.35
+  - id: houtai
+    tag: bandaid
+    frequency: 0.2958
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.2616
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2254
+    threshold: 0.3
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.1549
+    threshold: 0.35
+  new_tag_proposals: []
 - id: haibara-ai
   name: 灰原哀
   date: '2026-09-29'
@@ -2404,6 +2460,42 @@
   - id: tebukuro
     tag: gloves
     frequency: 0.194
+    threshold: 0.35
+  new_tag_proposals: []
+- id: hashibira-inosuke
+  name: 嘴平伊之助
+  date: '2026-10-21'
+  unmapped_danbooru:
+  - tag: boar_mask
+    frequency: 0.4259
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2778
+    threshold: 0.35
+  - id: kamen
+    tag: mask
+    frequency: 0.2778
+    threshold: 0.4
+  - id: kinniku
+    tag: muscular
+    frequency: 0.2654
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2531
+    threshold: 0.5
+  - id: wasou
+    tag: japanese_clothes
+    frequency: 0.1914
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.1667
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.1605
     threshold: 0.35
   new_tag_proposals: []
 - id: hashida-itaru
@@ -2548,6 +2640,24 @@
     frequency: 0.2281
     threshold: 0.5
   new_tag_proposals: []
+- id: hibino-kafka
+  name: 日比野カフカ
+  date: '2026-10-21'
+  unmapped_danbooru:
+  - tag: goatee_stubble
+    frequency: 0.5432
+  - tag: large_pectorals
+    frequency: 0.4198
+  near_miss:
+  - id: sakadachi-gami
+    tag: spiked_hair
+    frequency: 0.2593
+    threshold: 0.35
+  - id: pocchari
+    tag: plump
+    frequency: 0.2222
+    threshold: 0.45
+  new_tag_proposals: []
 - id: hiei
   name: 飛影
   date: '2026-08-30'
@@ -2577,6 +2687,20 @@
   - id: murasaki-no-me
     tag: purple_eyes
     frequency: 0.1797
+    threshold: 0.35
+  new_tag_proposals: []
+- id: higurashi-kagome
+  name: 日暮かごめ
+  date: '2026-10-21'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2562
+    threshold: 0.5
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.157
     threshold: 0.35
   new_tag_proposals: []
 - id: hiiragi-kagami
@@ -2637,6 +2761,24 @@
   - id: tebukuro
     tag: gloves
     frequency: 0.1667
+    threshold: 0.35
+  new_tag_proposals: []
+- id: hijikata-toushirou
+  name: 土方十四郎
+  date: '2026-10-21'
+  unmapped_danbooru: []
+  near_miss:
+  - id: buki
+    tag: weapon
+    frequency: 0.3316
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3105
+    threshold: 0.5
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.3
     threshold: 0.35
   new_tag_proposals: []
 - id: hikigaya-hachiman
@@ -6165,6 +6307,40 @@
     frequency: 0.1739
     threshold: 0.5
   new_tag_proposals: []
+- id: miroku-inuyasha
+  name: 弥勒
+  date: '2026-10-21'
+  unmapped_danbooru:
+  - tag: kesa
+    frequency: 0.6667
+  - tag: staff
+    frequency: 0.5556
+  - tag: short_ponytail
+    frequency: 0.5556
+  - tag: shakujou
+    frequency: 0.5556
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4444
+    threshold: 0.5
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2222
+    threshold: 0.35
+  - id: yubiwa
+    tag: ring
+    frequency: 0.2222
+    threshold: 0.5
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.2222
+    threshold: 0.35
+  - id: roobu
+    tag: robe
+    frequency: 0.2222
+    threshold: 0.35
+  new_tag_proposals: []
 - id: misaka-mikoto
   name: 御坂美琴
   date: '2026-10-03'
@@ -7439,6 +7615,20 @@
   - name: 特級被呪者
     axis: 関係性 / 立場
     reason: 呪いに取り憑かれている特殊な被害者としての立場を表す言葉が既存語彙にないため。
+- id: okumura-eiji
+  name: 奥村英二
+  date: '2026-10-21'
+  unmapped_danbooru: []
+  near_miss:
+  - id: megane
+    tag: glasses
+    frequency: 0.2353
+    threshold: 0.35
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.1765
+    threshold: 0.6
+  new_tag_proposals: []
 - id: okumura-rin
   name: 奥村燐
   date: '2026-10-01'
@@ -9179,6 +9369,34 @@
   - name: 個人秘書
     axis: 関係性 / 立場
     reason: 身の回りの世話を担当する役職として明記されているが既存の語彙に含まれないため
+- id: shiota-nagisa
+  name: 潮田渚
+  date: '2026-10-21'
+  unmapped_danbooru:
+  - tag: trap
+    frequency: 0.5441
+  - tag: crossdressing
+    frequency: 0.4118
+  - tag: crossdressing_(mtf)
+    frequency: 0.4118
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2279
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2279
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2059
+    threshold: 0.35
+  - id: buki
+    tag: knife
+    frequency: 0.1618
+    threshold: 0.35
+  new_tag_proposals: []
 - id: shirai-kuroko
   name: 白井黒子
   date: '2026-10-16'

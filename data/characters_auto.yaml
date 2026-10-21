@@ -198,6 +198,22 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 89%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: akabane-karma
+  name: 赤羽業
+  kana: あかばねかるま
+  work: 暗殺教室
+  year: 2012
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 90%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 50%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 50%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 50%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: akagi-takenori
   name: 赤木剛憲
   kana: あかぎたけのり
@@ -928,6 +944,21 @@
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 53%', src: danbooru}
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 74%（共有 17% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 51%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: ash-lynx
+  name: アッシュ・リンクス
+  kana: あっしゅりんくす
+  work: BANANA FISH
+  year: 1985
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 92%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 36%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 66%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: asirpa
@@ -2675,6 +2706,22 @@
     - {id: megane, weight: core, note: 'danbooru glasses 100%', src: danbooru}
   patterns: []
 
+- id: hachikuji-mayoi
+  name: 八九寺真宵
+  kana: はちくじまよい
+  work: 化物語
+  year: 2006
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: twintail, weight: core, note: 'danbooru twintails 87%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 56%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 65%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 57%（共有 26% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: haibara-ai
   name: 灰原哀
   kana: はいばらあい
@@ -2811,6 +2858,23 @@
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 69%', src: danbooru}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 90%', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 53%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: hashibira-inosuke
+  name: 嘴平伊之助
+  kana: はしびらいのすけ
+  work: 鬼滅の刃
+  year: 2016
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 65%', src: danbooru}
+    - {id: aogami, weight: sub, note: 'danbooru blue_hair 43%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 44%', src: danbooru}
+    - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 45%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 59%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hashida-itaru
@@ -3023,6 +3087,22 @@
     - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 39%', src: danbooru}
   patterns: []
 
+- id: hibino-kafka
+  name: 日比野カフカ
+  kana: ひびのかふか
+  work: 怪獣8号
+  year: 2020
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: bushouhige, weight: core, note: 'danbooru facial_hair 73%', src: danbooru}
+    - {id: kinniku, weight: core, note: 'danbooru muscular 73%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 73%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 70%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: hiei
   name: 飛影
   kana: ひえい
@@ -3063,6 +3143,22 @@
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 45%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: higurashi-kagome
+  name: 日暮かごめ
+  kana: ひぐらしかごめ
+  work: 犬夜叉
+  year: 1996
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 37%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 52%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 87%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 71%（共有 26% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: hiiragi-kagami
   name: 柊かがみ
   kana: ひいらぎかがみ
@@ -3101,6 +3197,21 @@
     - {id: buki, weight: sub, note: 'danbooru weapon 83%（共有 10% のため比重を下げた）', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 50%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 50%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: hijikata-toushirou
+  name: 土方十四郎
+  kana: ひじかたとうしろう
+  work: 銀魂
+  year: 2003
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: tabako, weight: sub, note: 'danbooru cigarette 52%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 76%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 49%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hikigaya-hachiman
@@ -7513,6 +7624,23 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 75%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: miroku-inuyasha
+  name: 弥勒
+  kana: みろく
+  work: 犬夜叉
+  year: 1996
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: piasu, weight: core, note: 'danbooru earrings 67%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 78%', src: danbooru}
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 78%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 56%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 78%（共有 26% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: misaka-mikoto
   name: 御坂美琴
   kana: みさかみこと
@@ -8913,6 +9041,21 @@
     - {id: osananajimi, weight: sub, note: '資料: 祈本里香が亡くなった幼馴染として記述されている。', src: gemini}
     - {id: shitei, weight: sub, note: '資料: 五条悟をメンター（指導者）とし、指導を受けて入学している。', src: gemini}
     - {id: soushitsu, weight: sub, note: '資料: 幼馴染である祈本里香を亡くしている。', src: gemini}
+  patterns: []
+
+- id: okumura-eiji
+  name: 奥村英二
+  kana: おくむらえいじ
+  work: BANANA FISH
+  year: 1985
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 35%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 76%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 41%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: okumura-rin
@@ -11011,6 +11154,23 @@
     - {id: juusha, weight: sub, note: '資料: リムルの身の回りの世話を担当する個人秘書であり、第一の僕', src: gemini}
     - {id: saikyou, weight: sub, note: '資料: リムル配下の最強の戦士の一人', src: gemini}
     - {id: sakotsu, weight: sub, note: 'danbooru collarbone 41%', src: danbooru}
+  patterns: []
+
+- id: shiota-nagisa
+  name: 潮田渚
+  kana: しおたなぎさ
+  work: 暗殺教室
+  year: 2012
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-21'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 86%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 35%', src: danbooru}
+    - {id: twintail, weight: sub, note: 'danbooru twintails 49%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 85%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 40%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shirai-kuroko
