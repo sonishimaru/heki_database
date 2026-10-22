@@ -990,25 +990,22 @@
   new_tag_proposals: []
 - id: ayase-eli
   name: 絢瀬絵里
-  date: '2026-08-31'
+  date: '2026-10-22'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.2509
+    frequency: 0.2526
     threshold: 0.5
   - id: tebukuro
     tag: gloves
-    frequency: 0.1597
+    frequency: 0.1586
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.1576
+    frequency: 0.1578
     threshold: 0.3
-  new_tag_proposals:
-  - name: kuootaa
-    axis: 外見 / 出自
-    reason: 祖母がロシア人であり、ロシアの血を引いているため。
+  new_tag_proposals: []
 - id: ayase-momo
   name: 綾瀬桃
   date: '2026-08-31'
@@ -2845,7 +2842,7 @@
   new_tag_proposals: []
 - id: hikigaya-hachiman
   name: 比企谷八幡
-  date: '2026-08-31'
+  date: '2026-10-22'
   unmapped_danbooru: []
   near_miss:
   - id: seifuku
@@ -2856,10 +2853,7 @@
     tag: hair_between_eyes
     frequency: 0.1591
     threshold: 0.5
-  new_tag_proposals:
-  - name: 孤立
-    axis: 性格 / 気質
-    reason: 「孤立しており友達がいない」という状態を直接表す語彙が既存タグに存在しないため。
+  new_tag_proposals: []
 - id: himemiya-anthy
   name: 姫宮アンシー
   date: '2026-10-06'
@@ -3111,20 +3105,20 @@
   new_tag_proposals: []
 - id: hoshizora-rin
   name: 星空凛
-  date: '2026-08-31'
+  date: '2026-10-22'
   unmapped_danbooru: []
   near_miss:
   - id: midori-no-me
     tag: green_eyes
-    frequency: 0.255
+    frequency: 0.2549
     threshold: 0.35
   - id: tebukuro
     tag: gloves
-    frequency: 0.2003
+    frequency: 0.1988
     threshold: 0.35
   - id: kemomimi
     tag: animal_ears
-    frequency: 0.1535
+    frequency: 0.1549
     threshold: 0.35
   new_tag_proposals: []
 - id: houjou-satoko
@@ -3520,20 +3514,20 @@
     reason: 生徒会長（seitokaichou）の語彙はあるが、学園の資金を一人で管理する生徒会会計という役職を表す語彙がないため。
 - id: isshiki-iroha
   name: 一色いろは
-  date: '2026-08-31'
+  date: '2026-10-22'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
     tag: collarbone
-    frequency: 0.331
+    frequency: 0.3329
     threshold: 0.35
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.3205
+    frequency: 0.3191
     threshold: 0.35
   - id: kinpatsu
     tag: blonde_hair
-    frequency: 0.2191
+    frequency: 0.2185
     threshold: 0.35
   new_tag_proposals: []
 - id: itadori-yuuji
@@ -4876,16 +4870,16 @@
   new_tag_proposals: []
 - id: koizumi-hanayo
   name: 小泉花陽
-  date: '2026-08-31'
+  date: '2026-10-22'
   unmapped_danbooru: []
   near_miss:
   - id: seifuku
     tag: school_uniform
-    frequency: 0.2082
+    frequency: 0.2074
     threshold: 0.3
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.1758
+    frequency: 0.1788
     threshold: 0.5
   new_tag_proposals: []
 - id: koizumi-itsuki
@@ -6921,12 +6915,12 @@
   new_tag_proposals: []
 - id: nakano-azusa
   name: 中野梓
-  date: '2026-08-31'
+  date: '2026-10-22'
   unmapped_danbooru: []
   near_miss:
   - id: kemomimi
     tag: animal_ears
-    frequency: 0.2691
+    frequency: 0.2697
     threshold: 0.35
   new_tag_proposals: []
 - id: nakano-ichika
@@ -10121,20 +10115,20 @@
   new_tag_proposals: []
 - id: tachibana-kanade
   name: 立華かなで
-  date: '2026-08-31'
+  date: '2026-10-22'
   unmapped_danbooru: []
   near_miss:
   - id: tsubasa
     tag: wings
-    frequency: 0.2725
+    frequency: 0.2754
     threshold: 0.35
   - id: aogami
     tag: blue_hair
-    frequency: 0.2494
+    frequency: 0.2455
     threshold: 0.35
   - id: tenshi
     tag: angel_wings
-    frequency: 0.1502
+    frequency: 0.1545
     threshold: 0.35
   new_tag_proposals: []
 - id: tadano-hitohito
@@ -10715,7 +10709,7 @@
   new_tag_proposals: []
 - id: toujou-nozomi
   name: 東條希
-  date: '2026-08-31'
+  date: '2026-10-22'
   unmapped_danbooru: []
   near_miss:
   - id: aome
@@ -10724,12 +10718,9 @@
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1509
+    frequency: 0.1513
     threshold: 0.35
-  new_tag_proposals:
-  - name: 生徒会副会長
-    axis: 関係性 / 立場
-    reason: 語彙には『生徒会長』が存在するが、実際の役職は生徒会副会長であるため。
+  new_tag_proposals: []
 - id: toyama-kasumi
   name: 戸山香澄
   date: '2026-09-30'
@@ -11607,42 +11598,42 @@
   new_tag_proposals: []
 - id: yuigahama-yui
   name: 由比ヶ浜結衣
-  date: '2026-08-31'
+  date: '2026-10-22'
   unmapped_danbooru:
   - tag: single_side_bun
-    frequency: 0.481
+    frequency: 0.4841
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.3887
+    frequency: 0.3896
     threshold: 0.5
   - id: sakotsu
     tag: collarbone
-    frequency: 0.31
+    frequency: 0.3115
     threshold: 0.35
   - id: akagami
     tag: orange_hair
-    frequency: 0.2983
+    frequency: 0.298
     threshold: 0.35
   - id: akame
     tag: red_eyes
-    frequency: 0.2216
+    frequency: 0.2208
     threshold: 0.35
   - id: aome
     tag: blue_eyes
-    frequency: 0.2157
+    frequency: 0.2141
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.1983
+    frequency: 0.1977
     threshold: 0.5
   - id: semi-long
     tag: medium_hair
-    frequency: 0.1681
+    frequency: 0.1678
     threshold: 0.35
   - id: kin-no-me
     tag: orange_eyes
-    frequency: 0.1506
+    frequency: 0.1533
     threshold: 0.35
   new_tag_proposals: []
 - id: yukihira-souma

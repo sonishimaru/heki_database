@@ -1165,15 +1165,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-22'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 87%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 60%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 93%', src: danbooru}
     - {id: ponytail, weight: core, note: 'danbooru ponytail 75%', src: danbooru}
     - {id: aidoru, weight: sub, note: '資料: 学校の廃校を防ぐため、希とともにスクールアイドルグループに加入する。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 93%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: seitokaichou, weight: sub, note: '資料: 音ノ木坂学院の生徒会長である。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 87%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 60%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ayase-momo
@@ -3307,14 +3306,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-22'
   elements:
     - {id: hikari-nashi, weight: core, note: '資料: 最も際立った特徴として「死んだ魚のような目（dead fish-eyes）」を持っていると明記されている。', src: gemini}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 70%', src: danbooru}
     - {id: ahoge, weight: sub, note: 'danbooru ahoge 59%', src: danbooru}
     - {id: kurome, weight: sub, note: 'danbooru black_eyes 36%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 55%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 70%（共有 27% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 55%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: himemiya-anthy
@@ -3763,14 +3761,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-22'
   elements:
-    - {id: akagami, weight: core, note: 'danbooru orange_hair 83%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 89%', src: danbooru}
     - {id: aidoru, weight: sub, note: '資料: スクールアイドルグループ「μ''s」のメンバーである。', src: gemini}
+    - {id: akagami, weight: sub, note: 'danbooru orange_hair 83%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: doryokuka, weight: sub, note: '資料: 高坂穂乃果と同様に非常にエネルギッシュで努力家で活発であるが、行動を起こす前に他人の感情や意見を非常に配慮する点が異なる。', src: gemini}
     - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 55%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 89%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: houjou-satoko
@@ -4260,17 +4257,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-22'
   elements:
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 68%', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 50%', src: danbooru}
     - {id: haraguro, weight: sub, note: '資料: 周囲に本性を気づかせないまま裏で八幡を苛立たせるような面を秘めている。', src: gemini}
-    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 41%', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 42%', src: danbooru}
     - {id: neko-o-kaburu, weight: sub, note: '資料: 戸部が気づかない一方で八幡たちの前では本性を見せていることから、周囲に対して表向きのキャラクターを演出している。', src: gemini}
     - {id: nimensei, weight: sub, note: '資料: 戸部には気づかれていない表向きの顔と、八幡に見せる本性という二つの顔を使い分けている。', src: gemini}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 39%', src: danbooru}
-    - {id: semi-long, weight: sub, note: 'danbooru medium_hair 42%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 38%', src: danbooru}
+    - {id: semi-long, weight: sub, note: 'danbooru medium_hair 43%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 68%（共有 22% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: itadori-yuuji
@@ -5968,11 +5964,11 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-22'
   elements:
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 86%', src: danbooru}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 80%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 84%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 86%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 84%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: koizumi-itsuki
@@ -8360,15 +8356,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-22'
   elements:
-    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 67%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 87%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 86%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 67%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 42%', src: danbooru}
     - {id: teishinchou, weight: sub, note: '資料: 身長が150cmと記載されている。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 87%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nakano-ichika
@@ -11990,17 +11985,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-22'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 89%', src: danbooru}
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 82%', src: danbooru}
-    - {id: seifuku, weight: core, note: 'danbooru school_uniform 63%', src: danbooru}
     - {id: nouryokusha, weight: sub, note: '資料: 「Guard Skills」と呼ばれる自己防衛スキルを扱う。', src: gemini}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 62%（共有 20% のため比重を下げた）', src: danbooru}
     - {id: seitokaichou, weight: sub, note: '資料: 死後の世界の学校で生徒会長を務め、校内の非行や妨害活動を抑止する立場にある。', src: gemini}
     - {id: shirogami, weight: sub, note: 'danbooru grey_hair 35%', src: danbooru}
     - {id: teishinchou, weight: sub, note: '資料: 16歳の女性で、身長は150cmである。', src: gemini}
     - {id: tenshi, weight: sub, note: '資料: 神の代理人と信じられたことなどから、対立するSSSから「天使」と呼ばれ続けている。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 89%（共有 38% のため比重を下げた）', src: danbooru}
     - {id: saikai, weight: spice, note: '資料: エンドクレジット後、現実世界で音無と再会したと思われる短いシーンが描かれている。', src: gemini}
   patterns: []
 
@@ -12035,14 +12029,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-22'
   elements:
-    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 71%', src: danbooru}
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 84%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 76%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 71%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 43%', src: danbooru}
     - {id: sekininkan, weight: sub, note: '資料: 廃部寸前だった軽音部を再始動させ、それ以来部のリーダーとなった。', src: gemini}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 84%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 76%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: takagi-san
@@ -12699,16 +12692,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-22'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 93%', src: danbooru}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 64%', src: danbooru}
     - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 83%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 69%', src: danbooru}
     - {id: aidoru, weight: sub, note: '資料: 絵里と共にスクールアイドル部に入部する', src: gemini}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 56%', src: danbooru}
     - {id: miko, weight: sub, note: '資料: 神社で巫女をしている', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: toyama-kasumi
@@ -13672,14 +13664,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-22'
   elements:
     - {id: odango, weight: core, note: 'danbooru hair_bun 81%', src: danbooru}
     - {id: kataomoi, weight: sub, note: '資料: 八幡に好意を抱いており、アニメ最終話でその好意を奉仕部のメンバーに打ち明けている。', src: gemini}
     - {id: pinku-gami, weight: sub, note: 'danbooru pink_hair 44%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 39%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 56%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 56%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yukihira-souma
