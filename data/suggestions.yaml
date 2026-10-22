@@ -7021,13 +7021,7 @@
 - id: naoe-riki
   name: 直枝理樹
   date: '2026-10-20'
-  unmapped_danbooru:
-  - tag: trap
-    frequency: 0.7165
-  - tag: crossdressing
-    frequency: 0.6897
-  - tag: crossdressing_(mtf)
-    frequency: 0.6897
+  unmapped_danbooru: []
   near_miss:
   - id: bob-cut
     tag: bob_cut
@@ -9372,13 +9366,7 @@
 - id: shiota-nagisa
   name: 潮田渚
   date: '2026-10-21'
-  unmapped_danbooru:
-  - tag: trap
-    frequency: 0.5441
-  - tag: crossdressing
-    frequency: 0.4118
-  - tag: crossdressing_(mtf)
-    frequency: 0.4118
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes

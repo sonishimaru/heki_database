@@ -314,6 +314,12 @@ elements:
   futomayu:
     tags: [thick_eyebrows]
 
+  # --- 29 巡目に昇格した語 ---
+  josou:
+    tags: [trap, crossdressing, "crossdressing_(mtf)", otoko_no_ko]
+    threshold: 0.5
+    note: 女顔の少年にも付くタグなので、既定より高くしている
+
 # 画像タグでは判定しない見出し語（vision.py または手作業の担当）
 #   目の形の軸    … つり目・たれ目・ジト目は Danbooru がほぼ付けない（tsurime は
 #                   294 名で最高 0.20 が 1 件、tareme と jitome は 0.15 未満）。

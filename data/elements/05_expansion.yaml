@@ -1380,3 +1380,19 @@
   pairs_with: [aibou, kansatsu, nouryokusha]
   contrasts_with: [muhoumono]
   tags: [定番]
+
+# --- 29 巡目。女装が 2 作品目に達した ---
+# trap / crossdressing が直枝理樹（リトルバスターズ!）と潮田渚（暗殺教室）の
+# 二つの作品から独立に出た。中性的・美少年は体格の話だが、こちらは何を
+# 着ているかなので軸が違う。
+
+- id: josou
+  name: 女装
+  kana: じょそう
+  aliases: [男の娘]
+  axis: appearance.costume
+  summary: 男が女の服を着ている状態。本人の意志とは限らない。
+  effect: 周りが気づく瞬間までの間を作り、本人がどう受け止めるかを書く。
+  pairs_with: [chuuseiteki, bishounen, seifuku]
+  contrasts_with: [kinniku, bushouhige]
+  tags: [定番]

@@ -4597,7 +4597,7 @@ characters:
     kana: があら
     work: NARUTO
     year: 1999
-    danbooru: gaara
+    danbooru: gaara_(naruto)
     anilist: Gaara
   - id: higurashi-kagome
     name: 日暮かごめ
@@ -4655,7 +4655,7 @@ characters:
     kana: ころせんせー
     work: 暗殺教室
     year: 2012
-    danbooru: korosensei
+    danbooru: koro-sensei
     anilist: Korosensei
   - id: akabane-karma
     name: 赤羽業

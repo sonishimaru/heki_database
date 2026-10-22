@@ -106,6 +106,14 @@ def write_run_summary(targets: list[dict], failed: list[str], tally: dict) -> No
             lane: tally[f"{lane}_理由"]
             for lane in ("資料", "識別") if tally.get(f"{lane}_理由")
         },
+        "取得元": {
+            kind: f"{tally.get(f'取得_{kind}', 0)} / {tally[f'取得_{kind}_試行']}"
+            for kind in ("danbooru", "anilist", "page") if tally.get(f"取得_{kind}_試行")
+        },
+        "取得元の理由": {
+            kind: tally[f"取得_{kind}_理由"]
+            for kind in ("danbooru", "anilist", "page") if tally.get(f"取得_{kind}_理由")
+        },
     }
     header = ("# 直近の取り込みの結果（auto.py が毎回書き直す）。\n"
               "# 日次の確認でここを読めば、どの件が落ちたか Actions のログを\n"
@@ -173,32 +181,43 @@ def process(entry: dict, api_key: str | None, sleep: float, tally: dict) -> None
     workdir.mkdir(parents=True, exist_ok=True)
     python = sys.executable
 
-    def try_fetch(cmd: list, out_path: Path, label: str) -> bool:
-        """ソース単位の取得。失敗しても他のソースで続行する。"""
+    def try_fetch(cmd: list, out_path: Path, label: str, kind: str) -> bool:
+        """ソース単位の取得。失敗しても他のソースで続行する。
+
+        kind ごとに成否を数えて要約に残す。AniList が「severe stability issues」で
+        丸ごと止まった日、12 件それぞれに「取得失敗（続行）」と 403 の本文が出て、
+        各件の事情のように見えていた。全滅なら取得元の問題だと一行で分かるようにする。
+        """
+        tally[f"取得_{kind}_試行"] = tally.get(f"取得_{kind}_試行", 0) + 1
         try:
-            run(cmd)
+            run(cmd, stderr=subprocess.PIPE, text=True)
             time.sleep(sleep)
-            return out_path.exists()
-        except subprocess.CalledProcessError:
-            print(f"  取得失敗（続行）: {label}")
+            if out_path.exists():
+                tally[f"取得_{kind}"] = tally.get(f"取得_{kind}", 0) + 1
+                return True
+            return False
+        except subprocess.CalledProcessError as err:
+            why = reason_of(err)
+            tally.setdefault(f"取得_{kind}_理由", why)
+            print(f"  取得失敗（続行）: {label} — {why}")
             return False
 
     danbooru_file = None
     if entry.get("danbooru"):
         path = workdir / "danbooru.json"
-        if try_fetch([python, INGEST / "fetch.py", "--sleep", sleep, "danbooru", entry["danbooru"], "--out", path], path, f"danbooru {entry['danbooru']}"):
+        if try_fetch([python, INGEST / "fetch.py", "--sleep", sleep, "danbooru", entry["danbooru"], "--out", path], path, f"danbooru {entry['danbooru']}", "danbooru"):
             danbooru_file = path
 
     pages: list[Path] = []
     anilist_file = None
     if entry.get("anilist"):
         path = workdir / "anilist.json"
-        if try_fetch([python, INGEST / "fetch.py", "--sleep", sleep, "anilist", entry["anilist"], "--out", path], path, f"anilist {entry['anilist']}"):
+        if try_fetch([python, INGEST / "fetch.py", "--sleep", sleep, "anilist", entry["anilist"], "--out", path], path, f"anilist {entry['anilist']}", "anilist"):
             pages.append(path)
             anilist_file = path
     for index, url in enumerate(entry.get("pages") or []):
         path = workdir / f"page_{index}.txt"
-        if try_fetch([python, INGEST / "fetch.py", "--sleep", sleep, "page", url, "--out", path], path, url):
+        if try_fetch([python, INGEST / "fetch.py", "--sleep", sleep, "page", url, "--out", path], path, url, "page"):
             pages.append(path)
 
     classify_file = None

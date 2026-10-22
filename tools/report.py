@@ -208,6 +208,10 @@ def report_run() -> None:
         print(f"  {lane}レーン: {count} 件")
     for lane, why in (run.get("レーンの理由") or {}).items():
         print(f"    {lane}の理由: {why}")
+    for kind, count in (run.get("取得元") or {}).items():
+        print(f"  {kind}: {count} 件")
+    for kind, why in (run.get("取得元の理由") or {}).items():
+        print(f"    {kind}の理由: {why}")
 
 
 def report_ids() -> None:
