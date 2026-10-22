@@ -1181,6 +1181,18 @@
     frequency: 0.3072
     threshold: 0.35
   new_tag_proposals: []
+- id: boa-hancock
+  name: ボア・ハンコック
+  date: '2026-10-22'
+  unmapped_danbooru:
+  - tag: snake_earrings
+    frequency: 0.6312
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4866
+    threshold: 0.5
+  new_tag_proposals: []
 - id: bowser
   name: クッパ
   date: '2026-10-06'
@@ -1987,6 +1999,42 @@
     frequency: 0.2293
     threshold: 0.3
   new_tag_proposals: []
+- id: gaara
+  name: 我愛羅
+  date: '2026-10-22'
+  unmapped_danbooru:
+  - tag: sand
+    frequency: 0.5043
+  - tag: gourd
+    frequency: 0.4017
+  near_miss:
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.3162
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.2308
+    threshold: 0.35
+  - id: ninja
+    tag: ninja
+    frequency: 0.2222
+    threshold: 0.35
+  - id: keshou
+    tag: makeup
+    frequency: 0.1538
+    threshold: 0.35
+  new_tag_proposals: []
+- id: gabimaru
+  name: 画眉丸
+  date: '2026-10-22'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.2222
+    threshold: 0.35
+  new_tag_proposals: []
 - id: gabriel-tenma-white
   name: ガヴリール
   date: '2026-10-19'
@@ -2414,6 +2462,20 @@
   - id: aome
     tag: blue_eyes
     frequency: 0.1667
+    threshold: 0.35
+  new_tag_proposals: []
+- id: hange-zoe
+  name: ハンジ・ゾエ
+  date: '2026-10-22'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.234
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.2128
     threshold: 0.35
   new_tag_proposals: []
 - id: haramura-nodoka
@@ -4916,6 +4978,32 @@
   - id: yuurei
     tag: ghost
     frequency: 0.161
+    threshold: 0.35
+  new_tag_proposals: []
+- id: korosensei
+  name: 殺せんせー
+  date: '2026-10-22'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2414
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2414
+    threshold: 0.3
+  - id: twintail
+    tag: twintails
+    frequency: 0.2069
+    threshold: 0.35
+  - id: josou
+    tag: trap
+    frequency: 0.2069
+    threshold: 0.5
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1724
     threshold: 0.35
   new_tag_proposals: []
 - id: koshigaya-natsumi
@@ -7843,6 +7931,20 @@
     frequency: 0.1677
     threshold: 0.35
   new_tag_proposals: []
+- id: pecorine
+  name: ペコリーヌ
+  date: '2026-10-22'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3439
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2432
+    threshold: 0.35
+  new_tag_proposals: []
 - id: phosphophyllite
   name: フォスフォフィライト
   date: '2026-09-30'
@@ -9296,6 +9398,34 @@
     frequency: 0.1724
     threshold: 0.35
   new_tag_proposals: []
+- id: shinjou-akane
+  name: 新条アカネ
+  date: '2026-10-22'
+  unmapped_danbooru:
+  - tag: off_shoulder
+    frequency: 0.4015
+  near_miss:
+  - id: pinku-gami
+    tag: pink_hair
+    frequency: 0.2872
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2338
+    threshold: 0.3
+  - id: megane
+    tag: glasses
+    frequency: 0.1917
+    threshold: 0.35
+  - id: bukabuka
+    tag: sleeves_past_wrists
+    frequency: 0.1824
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1784
+    threshold: 0.5
+  new_tag_proposals: []
 - id: shinohara-natsuki
   name: 篠原夏希
   date: '2026-10-02'
@@ -9339,6 +9469,34 @@
     tag: animal_ears
     frequency: 0.1659
     threshold: 0.35
+  new_tag_proposals: []
+- id: shinomiya-kikoru
+  name: 四ノ宮キコル
+  date: '2026-10-22'
+  unmapped_danbooru:
+  - tag: black_bodysuit
+    frequency: 0.5135
+  near_miss:
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.3243
+    threshold: 0.35
+  - id: kishi
+    tag: armor
+    frequency: 0.3243
+    threshold: 0.4
+  - id: yoroi
+    tag: armor
+    frequency: 0.3243
+    threshold: 0.35
+  - id: kamen
+    tag: mask
+    frequency: 0.2432
+    threshold: 0.4
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1622
+    threshold: 0.5
   new_tag_proposals: []
 - id: shinonome-nano
   name: 東雲なの
@@ -10799,6 +10957,20 @@
   - name: 武道家
     axis: 関係性 / 立場
     reason: 資料において『物語の経過に伴い、人間界を守る強力な武道家へと成長していく』と明記されているため。
+- id: uraraka-ochako
+  name: 麗日お茶子
+  date: '2026-10-22'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3584
+    threshold: 0.5
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.1718
+    threshold: 0.35
+  new_tag_proposals: []
 - id: usada-pekora
   name: 兎田ぺこら
   date: '2026-10-06'
