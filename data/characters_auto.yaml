@@ -816,18 +816,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-23'
   elements:
-    - {id: akagami, weight: core, note: 'danbooru red_hair 95%', src: danbooru}
-    - {id: akame, weight: core, note: 'danbooru red_eyes 92%', src: danbooru}
     - {id: bob-cut, weight: core, note: 'danbooru bob_cut 70%', src: danbooru}
     - {id: joyuu, weight: core, note: '資料: かつて天才子役と呼ばれた女優であると記述されている。', src: gemini}
     - {id: kataomoi, weight: core, note: '資料: アクアマリンに対して秘密裏に恋心を抱いており、彼を自分に惚れさせようと決意している。', src: gemini}
     - {id: aidoru, weight: sub, note: '資料: 新生B小町のファーストコンサートでパフォーマンスを行った記述がある。', src: gemini}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 34%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 59%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 95%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 92%（共有 12% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 33%', src: danbooru}
     - {id: teishinchou, weight: sub, note: '資料: 17歳〜19歳の年齢に対し、身長150cmである。', src: gemini}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 59%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: arima-kousei
@@ -3093,18 +3092,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-23'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 90%', src: danbooru}
     - {id: juusha, weight: core, note: '資料: 四宮家の使用人（valet）として、10年間にわたり四宮かぐやの生活や高校生活をサポートしていた。', src: gemini}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 94%', src: danbooru}
     - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 72%', src: danbooru}
     - {id: meido, weight: core, note: '資料: 代々四宮家に仕える立場であり、四宮かぐやのメイドとしての仕事を長年行っていた。', src: gemini}
     - {id: ponytail, weight: core, note: 'danbooru side_ponytail 78%', src: danbooru}
     - {id: shujuu, weight: core, note: '資料: 四宮家に代々仕える家系であり、四宮かぐやに使用人・メイドとして仕える関係であった。', src: gemini}
-    - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 50%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 94%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 38%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 90%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 50%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: heiwajima-shizuo
@@ -3709,18 +3707,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-23'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 80%', src: danbooru}
     - {id: fukushuu, weight: core, note: '資料: アイの死を計画した人物への復讐を計画している記述がある。', src: gemini}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 83%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 83%', src: danbooru}
     - {id: zense, weight: core, note: '資料: 前世はゴローという名の医師であり、アクアマリンとして転生した記述がある。', src: gemini}
     - {id: akogare, weight: sub, note: '資料: 患者であったサリナを通じてアイのファンになったという記述がある。', src: gemini}
     - {id: futago, weight: sub, note: '資料: 星野ルビーの双子の兄であると明記されている。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 83%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: kusekke, weight: sub, note: 'danbooru hair_between_eyes 56%', src: danbooru}
     - {id: soushitsu, weight: sub, note: '資料: アイが殺害されるところを目撃している。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 80%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 82%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hoshino-ruby
@@ -3735,18 +3732,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-23'
   elements:
     - {id: aidoru, weight: core, note: '資料: 苺プロダクションに所属し、B小町を復活させて活動するアイドルである。', src: gemini}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 83%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 90%', src: danbooru}
     - {id: momoiro-no-me, weight: core, note: 'danbooru pink_eyes 65%', src: danbooru}
     - {id: zense, weight: core, note: '資料: 前世は「さりな」という患者であり、ルビーとして転生した。', src: gemini}
     - {id: akogare, weight: sub, note: '資料: アイのようなアイドルになる夢を叶えるために活動している。', src: gemini}
     - {id: byoujaku, weight: sub, note: '資料: 前世では病気のため車椅子生活を送っていた。', src: gemini}
     - {id: futago, weight: sub, note: '資料: 星野アクアマリンの双子の妹である。', src: gemini}
-    - {id: ponytail, weight: sub, note: 'danbooru one_side_up 52%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 90%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru one_side_up 53%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 83%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hoshizora-rin
@@ -4105,13 +4101,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-23'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 89%', src: danbooru}
     - {id: gouri, weight: core, note: '資料: 非効率を嫌う現実主義者であると明記されている。', src: gemini}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 88%', src: danbooru}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 81%', src: danbooru}
     - {id: tenkousei, weight: sub, note: '資料: 以前は別の場所で優秀なリコリスとして活動していたが、何らかの理由で現在の喫茶リコリコへ移って働くようになった経緯を持つ。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 89%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 88%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: integra-hellsing
@@ -4232,17 +4228,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-23'
   elements:
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 63%', src: danbooru}
     - {id: mekakure, weight: core, note: 'danbooru hair_over_one_eye 67%', src: danbooru}
-    - {id: seifuku, weight: core, note: 'danbooru school_uniform 60%', src: danbooru}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 47%', src: danbooru}
     - {id: heddohon, weight: sub, note: 'danbooru headphones 57%', src: danbooru}
     - {id: kataomoi, weight: sub, note: '資料: 子安つばめに恋心を抱き、文化祭で告白する形となった。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 53%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 60%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 47%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 63%（共有 27% のため比重を下げた）', src: danbooru}
     - {id: kuzureru-egao, weight: spice, note: '資料: 卒業式当日に振られた際、笑顔と花束で見送った後に一人で涙を流した。', src: gemini}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 53%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: isshiki-iroha
@@ -6433,13 +6428,12 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-23'
   elements:
     - {id: aogami, weight: core, note: 'danbooru blue_hair 89%', src: danbooru}
     - {id: joyuu, weight: core, note: '資料: 劇団ララライに所属する若手女優であり、恋愛リアリティショー『今から愛をはじめます』のキャストとして出演している。', src: gemini}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 54%', src: danbooru}
     - {id: semi-long, weight: sub, note: 'danbooru medium_hair 36%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 54%（共有 23% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kuroko-tetsuya
@@ -8009,14 +8003,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-23'
   elements:
-    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 71%', src: danbooru}
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 88%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 89%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 71%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: nimensei, weight: sub, note: '資料: 大学生としての一ノ瀬ちづると、レンタル彼女としての水原千鶴という二つの身分・名義を使い分けている。', src: gemini}
-    - {id: sakotsu, weight: sub, note: 'danbooru collarbone 35%', src: danbooru}
+    - {id: sakotsu, weight: sub, note: 'danbooru collarbone 36%', src: danbooru}
     - {id: shoutai, weight: sub, note: '資料: 本名は一ノ瀬ちづるであり、「レンタル彼女」としての活動時には水原千鶴という別の名前を使用している。', src: gemini}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 88%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 89%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: mizunashi-akari
@@ -8840,14 +8834,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-23'
   elements:
-    - {id: akame, weight: core, note: 'danbooru red_eyes 78%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 92%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 83%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 78%（共有 12% のため比重を下げた）', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 92%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: saikyou, weight: sub, note: '資料: 史上最強のリコリスと言われている。', src: gemini}
     - {id: tenshin, weight: sub, note: '資料: 喫茶リコリコで自称看板娘として楽しそうに元気に働いている。', src: gemini}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 83%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nishikino-maki
@@ -11427,18 +11420,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    date: '2026-10-23'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 72%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 72%', src: danbooru}
     - {id: neko-o-kaburu, weight: core, note: '資料: かぐやを惹きつけるため、自信家なキャラクターや自信に満ちた天才の振る舞いを演じている。', src: gemini}
-    - {id: seifuku, weight: core, note: 'danbooru school_uniform 61%', src: danbooru}
     - {id: seitokaichou, weight: core, note: '資料: 秀知院学園の2年生で生徒会会長を務めている。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 69%', src: danbooru}
     - {id: fuguu, weight: sub, note: '資料: 幼少期に母親が家族のもとを去り、父親の工場が閉鎖されたことで貧しい生活を送るようになった。', src: gemini}
     - {id: kataomoi, weight: sub, note: '資料: 四宮かぐやに好意を寄せているが、気後れして告白できずにいる。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 72%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: mibunsa, weight: sub, note: '資料: 裕福な名門校の中で貧しい生活を送る特待生であり、相手の財力や才能に気後れしている。', src: gemini}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 61%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 72%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 69%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shirogane-noel

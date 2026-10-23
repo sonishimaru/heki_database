@@ -660,16 +660,16 @@
   new_tag_proposals: []
 - id: arima-kana
   name: 有馬かな
-  date: '2026-08-31'
+  date: '2026-10-23'
   unmapped_danbooru: []
   near_miss:
   - id: semi-long
     tag: medium_hair
-    frequency: 0.3393
+    frequency: 0.3356
     threshold: 0.35
   - id: pattsun
     tag: blunt_bangs
-    frequency: 0.1933
+    frequency: 0.1924
     threshold: 0.4
   new_tag_proposals: []
 - id: arima-kousei
@@ -2659,16 +2659,16 @@
   new_tag_proposals: []
 - id: hayasaka-ai
   name: 早坂愛
-  date: '2026-08-31'
+  date: '2026-10-23'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
     tag: collarbone
-    frequency: 0.2977
+    frequency: 0.2993
     threshold: 0.35
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.1981
+    frequency: 0.1992
     threshold: 0.5
   new_tag_proposals: []
 - id: heiwajima-shizuo
@@ -3069,38 +3069,38 @@
   new_tag_proposals: []
 - id: hoshino-aquamarine
   name: 星野アクアマリン
-  date: '2026-08-31'
+  date: '2026-10-23'
   unmapped_danbooru: []
   near_miss:
   - id: gaitou
     tag: hood
-    frequency: 0.2244
+    frequency: 0.2215
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.1603
+    frequency: 0.1582
     threshold: 0.3
   new_tag_proposals: []
 - id: hoshino-ruby
   name: 星野ルビー
-  date: '2026-08-31'
+  date: '2026-10-23'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.4054
+    frequency: 0.4067
     threshold: 0.5
   - id: seifuku
     tag: school_uniform
-    frequency: 0.2196
+    frequency: 0.2202
     threshold: 0.3
   - id: akame
     tag: red_eyes
-    frequency: 0.1804
+    frequency: 0.1794
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1554
+    frequency: 0.1545
     threshold: 0.35
   new_tag_proposals: []
 - id: hoshizora-rin
@@ -3401,12 +3401,12 @@
   new_tag_proposals: []
 - id: inoue-takina
   name: 井ノ上たきな
-  date: '2026-08-31'
+  date: '2026-10-23'
   unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
-    frequency: 0.1862
+    frequency: 0.1869
     threshold: 0.35
   new_tag_proposals: []
 - id: integra-hellsing
@@ -3493,7 +3493,7 @@
   new_tag_proposals: []
 - id: ishigami-yuu
   name: 石上優
-  date: '2026-08-31'
+  date: '2026-10-23'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
@@ -3508,10 +3508,7 @@
     tag: black_eyes
     frequency: 0.1667
     threshold: 0.35
-  new_tag_proposals:
-  - name: 生徒会会計
-    axis: 立場
-    reason: 生徒会長（seitokaichou）の語彙はあるが、学園の資金を一人で管理する生徒会会計という役職を表す語彙がないため。
+  new_tag_proposals: []
 - id: isshiki-iroha
   name: 一色いろは
   date: '2026-10-22'
@@ -5222,33 +5219,37 @@
   new_tag_proposals: []
 - id: kurokawa-akane
   name: 黒川あかね
-  date: '2026-08-31'
+  date: '2026-10-23'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.3255
+    frequency: 0.3267
     threshold: 0.35
   - id: messhu
     tag: multicolored_hair
-    frequency: 0.3104
+    frequency: 0.3133
     threshold: 0.35
   - id: midori-no-me
     tag: green_eyes
-    frequency: 0.2215
+    frequency: 0.22
     threshold: 0.35
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.2064
+    frequency: 0.205
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2047
+    frequency: 0.2033
     threshold: 0.5
   - id: seifuku
     tag: school_uniform
-    frequency: 0.193
+    frequency: 0.1967
     threshold: 0.3
+  - id: regent
+    tag: swept_bangs
+    frequency: 0.1883
+    threshold: 0.35
   new_tag_proposals: []
 - id: kuroko-tetsuya
   name: 黒子テツヤ
@@ -6645,17 +6646,21 @@
   new_tag_proposals: []
 - id: mizuhara-chizuru
   name: 水原千鶴
-  date: '2026-08-31'
+  date: '2026-10-23'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.3958
+    frequency: 0.3918
     threshold: 0.5
   - id: mitsuami
     tag: braid
-    frequency: 0.2917
+    frequency: 0.2913
     threshold: 0.35
+  - id: piasu
+    tag: earrings
+    frequency: 0.1516
+    threshold: 0.5
   new_tag_proposals: []
 - id: mizunashi-akari
   name: 水無灯里
@@ -7344,29 +7349,26 @@
     reason: 資料に「ブラックコーヒーのような苦いものが苦手」との記述があるため。
 - id: nishikigi-chisato
   name: 錦木千束
-  date: '2026-08-31'
+  date: '2026-10-23'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.33
+    frequency: 0.3333
     threshold: 0.5
   - id: ponytail
     tag: one_side_up
-    frequency: 0.2849
+    frequency: 0.2864
     threshold: 0.35
   - id: bob-cut
     tag: bob_cut
-    frequency: 0.2582
+    frequency: 0.254
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1615
+    frequency: 0.1597
     threshold: 0.35
-  new_tag_proposals:
-  - name: 人工心臓
-    axis: 外見 / 痕
-    reason: アラン機関によって開発された人工心臓を持っており、高電圧で壊れるリスクがあるため。
+  new_tag_proposals: []
 - id: nishikino-maki
   name: 西木野真姫
   date: '2026-10-17'
@@ -9597,7 +9599,7 @@
   new_tag_proposals: []
 - id: shirogane-miyuki
   name: 白銀御行
-  date: '2026-08-31'
+  date: '2026-10-23'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
