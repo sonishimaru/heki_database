@@ -1781,12 +1781,12 @@
   new_tag_proposals: []
 - id: fern
   name: フェルン
-  date: '2026-08-31'
+  date: '2026-10-24'
   unmapped_danbooru: []
   near_miss:
   - id: gaitou
     tag: coat
-    frequency: 0.1857
+    frequency: 0.1837
     threshold: 0.35
   new_tag_proposals: []
 - id: flandre-scarlet
@@ -4093,12 +4093,12 @@
   new_tag_proposals: []
 - id: kamiya-kaoru
   name: 神谷薫
-  date: '2026-08-31'
+  date: '2026-10-24'
   unmapped_danbooru: []
   near_miss:
   - id: aogami
     tag: blue_hair
-    frequency: 0.1667
+    frequency: 0.1765
     threshold: 0.35
   new_tag_proposals: []
 - id: kaname-madoka
@@ -6930,42 +6930,42 @@
   new_tag_proposals: []
 - id: nakano-ichika
   name: 中野一花
-  date: '2026-08-31'
+  date: '2026-10-24'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.3892
+    frequency: 0.3877
     threshold: 0.5
   - id: piasu
     tag: earrings
-    frequency: 0.1882
+    frequency: 0.1861
     threshold: 0.5
   - id: seifuku
     tag: school_uniform
-    frequency: 0.1704
+    frequency: 0.1745
     threshold: 0.3
   new_tag_proposals: []
 - id: nakano-itsuki
   name: 中野五月
-  date: '2026-08-31'
+  date: '2026-10-24'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.4904
+    frequency: 0.4907
     threshold: 0.5
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.3703
+    frequency: 0.3651
     threshold: 0.5
   - id: sakotsu
     tag: collarbone
-    frequency: 0.2493
+    frequency: 0.2502
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.2138
+    frequency: 0.2155
     threshold: 0.3
   new_tag_proposals: []
 - id: nakano-miku
@@ -6984,56 +6984,60 @@
   new_tag_proposals: []
 - id: nakano-nino
   name: 中野二乃
-  date: '2026-08-31'
+  date: '2026-10-24'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
     tag: collarbone
-    frequency: 0.3332
+    frequency: 0.3338
     threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.3089
+    frequency: 0.3075
     threshold: 0.35
   - id: semi-long
     tag: medium_hair
-    frequency: 0.2805
+    frequency: 0.2825
     threshold: 0.35
   - id: akagami
     tag: red_hair
-    frequency: 0.2264
-    threshold: 0.35
-  new_tag_proposals: []
-- id: nakano-yotsuba
-  name: 中野四葉
-  date: '2026-08-31'
-  unmapped_danbooru:
-  - tag: eyebrows_hidden_by_hair
-    frequency: 0.4606
-  near_miss:
-  - id: tanpatsu
-    tag: short_hair
-    frequency: 0.2758
-    threshold: 0.35
-  - id: sakotsu
-    tag: collarbone
-    frequency: 0.2664
-    threshold: 0.35
-  - id: kyonyuu
-    tag: large_breasts
-    frequency: 0.2664
-    threshold: 0.5
-  - id: semi-long
-    tag: medium_hair
-    frequency: 0.1966
+    frequency: 0.229
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.1622
+    frequency: 0.1542
+    threshold: 0.3
+  new_tag_proposals: []
+- id: nakano-yotsuba
+  name: 中野四葉
+  date: '2026-10-24'
+  unmapped_danbooru:
+  - tag: eyebrows_hidden_by_hair
+    frequency: 0.4577
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2775
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2695
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2663
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.1989
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1657
     threshold: 0.3
   - id: gaitou
     tag: hood
-    frequency: 0.1537
+    frequency: 0.1526
     threshold: 0.35
   new_tag_proposals: []
 - id: nami
@@ -8597,7 +8601,7 @@
   new_tag_proposals: []
 - id: sagara-sanosuke
   name: 相楽左之助
-  date: '2026-08-31'
+  date: '2026-10-24'
   unmapped_danbooru: []
   near_miss:
   - id: chapatsu
@@ -8673,7 +8677,7 @@
   new_tag_proposals: []
 - id: saitou-hajime
   name: 斎藤一
-  date: '2026-08-31'
+  date: '2026-10-24'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
@@ -9683,8 +9687,10 @@
   new_tag_proposals: []
 - id: shishio-makoto
   name: 志々雄真実
-  date: '2026-08-31'
-  unmapped_danbooru: []
+  date: '2026-10-24'
+  unmapped_danbooru:
+  - tag: hadanugi_dousa
+    frequency: 0.3611
   near_miss: []
   new_tag_proposals: []
 - id: shizue
@@ -10009,16 +10015,16 @@
   new_tag_proposals: []
 - id: stark
   name: シュタルク
-  date: '2026-08-31'
+  date: '2026-10-24'
   unmapped_danbooru: []
   near_miss:
   - id: gaitou
     tag: coat
-    frequency: 0.2426
+    frequency: 0.2391
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2206
+    frequency: 0.2246
     threshold: 0.5
   new_tag_proposals: []
 - id: sugimoto-saichi

@@ -2117,9 +2117,8 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-24'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 90%', src: danbooru}
     - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 96%', src: danbooru}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 88%', src: danbooru}
     - {id: shitei, weight: core, note: '資料: フリーレンの弟子であり、彼女のパーティメンバーとして同行していると明記されているため。', src: gemini}
@@ -2128,7 +2127,8 @@
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 52%', src: danbooru}
     - {id: majo, weight: sub, note: '資料: 女性であり「若き魔法使い」と記載されているため。', src: gemini}
     - {id: nagaremono, weight: sub, note: '資料: パーティの一員として旅に同行しているため。', src: gemini}
-    - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 59%', src: danbooru}
+    - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 58%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 90%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: flandre-scarlet
@@ -5027,18 +5027,18 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-24'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 85%', src: danbooru}
     - {id: keishou, weight: core, note: '資料: 父の死後、父が創始した神谷活心流と小さな道場を継承し一人で運営している。', src: gemini}
-    - {id: ponytail, weight: core, note: 'danbooru ponytail 77%', src: danbooru}
-    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 73%', src: danbooru}
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 52%', src: danbooru}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 50%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 78%', src: danbooru}
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 75%', src: danbooru}
     - {id: kyoushi, weight: sub, note: '資料: 神谷活心流の師範代を務めている。', src: gemini}
     - {id: samurai, weight: sub, note: '資料: 神谷活心流という剣法流派の師範代を務めている。', src: gemini}
     - {id: sekininkan, weight: sub, note: '資料: 父の死後、17歳という若さで一人で道場を継承し運営し続けている。', src: gemini}
     - {id: soushitsu, weight: sub, note: '資料: 西南戦争で父の神谷越路郎が死去している。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 55%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 86%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 51%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kaname-madoka
@@ -8372,15 +8372,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-24'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 83%', src: danbooru}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 91%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 95%', src: danbooru}
     - {id: joyuu, weight: sub, note: '資料: 女優を目指している。', src: gemini}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 59%', src: danbooru}
-    - {id: sakotsu, weight: sub, note: 'danbooru collarbone 42%', src: danbooru}
+    - {id: sakotsu, weight: sub, note: 'danbooru collarbone 41%', src: danbooru}
     - {id: sewayaki, weight: sub, note: '資料: 中野五姉妹から信頼され、相談相手やリーダーとして行動している。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 83%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 95%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nakano-itsuki
@@ -8395,13 +8395,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-24'
   elements:
     - {id: ahoge, weight: core, note: 'danbooru ahoge 70%', src: danbooru}
-    - {id: akagami, weight: core, note: 'danbooru red_hair 87%', src: danbooru}
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 83%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 89%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 87%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: keigo, weight: sub, note: '資料: フォーマルで丁寧な話し方をする。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 83%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 89%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nakano-miku
@@ -8439,16 +8439,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-24'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 86%', src: danbooru}
     - {id: pattsun, weight: core, note: 'danbooru blunt_bangs 61%', src: danbooru}
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 70%', src: danbooru}
     - {id: dokuzetsu, weight: sub, note: '資料: 毒舌であり、相手が姉妹であっても率直に話す。', src: gemini}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 59%', src: danbooru}
     - {id: sewayaki, weight: sub, note: '資料: 普段は家族の母親のような役割を果たしており、料理や医療面の世話をしている。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 36%', src: danbooru}
     - {id: twintail, weight: sub, note: 'danbooru two_side_up 45%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 85%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 36%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nakano-yotsuba
@@ -8463,13 +8463,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-24'
   elements:
-    - {id: akagami, weight: core, note: 'danbooru orange_hair 82%', src: danbooru}
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 82%', src: danbooru}
     - {id: futago, weight: core, note: '資料: 中野家五卵性双生児の四女である。', src: gemini}
-    - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 63%', src: danbooru}
+    - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 62%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru orange_hair 82%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: sewayaki, weight: sub, note: '資料: 風太郎を最初から受け入れ、すべてにおいて全心全意でサポートしている唯一の姉妹である。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 82%（共有 23% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nami
@@ -10239,14 +10239,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-24'
   elements:
+    - {id: hachimaki, weight: core, note: 'danbooru headband 67%', src: danbooru}
     - {id: fuguu, weight: sub, note: '資料: 幼少期に父親、母親、妹を残して家を離れ、赤報隊に参加した。', src: gemini}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 48%', src: danbooru}
     - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 52%', src: danbooru}
     - {id: sakotsu, weight: sub, note: 'danbooru collarbone 48%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 57%', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 48%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 48%（共有 27% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 57%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: saihara-shuuichi
@@ -10320,18 +10321,18 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-24'
   elements:
-    - {id: buki, weight: core, note: 'danbooru weapon 67%', src: danbooru}
     - {id: samurai, weight: core, note: '資料: 新選組三番隊組長であり、左片手一本突き「牙突」を得意技とすることが記述されている。', src: gemini}
     - {id: shukuteki, weight: core, note: '資料: 緋村剣心の幕末からの古い宿敵・ライバルであることが明記されている。', src: gemini}
+    - {id: buki, weight: sub, note: 'danbooru weapon 67%（共有 10% のため比重を下げた）', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 40%', src: danbooru}
     - {id: ganko, weight: sub, note: '資料: 敵に対して情けや慈悲を持たず、新選組の掟「悪即斬」に従って生きている。', src: gemini}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 47%', src: danbooru}
     - {id: shoutai, weight: sub, note: '資料: 新選組隊士としての過去を持ちながら、明治時代には「藤田五郎」という名前で生きている。', src: gemini}
     - {id: tabako, weight: sub, note: 'danbooru cigarette 47%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 40%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 53%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 47%（共有 27% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 40%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: sakagami-tomoyo
@@ -11491,18 +11492,18 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-24'
   elements:
     - {id: ansatsusha, weight: core, note: '資料: 緋村剣心の後継者として「影の人斬り（暗殺者）」を務め、組織の裏切り者を暗殺した。', src: gemini}
-    - {id: buki, weight: core, note: 'danbooru weapon 72%', src: danbooru}
     - {id: houtai, weight: core, note: 'danbooru bandages 94%', src: danbooru}
     - {id: wasou, weight: core, note: 'danbooru japanese_clothes 75%', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 47%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 72%（共有 10% のため比重を下げた）', src: danbooru}
     - {id: joushi, weight: sub, note: '資料: 明治政府打倒のために結成された「十本刀」のリーダーを務めている。', src: gemini}
     - {id: kizuato, weight: sub, note: '資料: 戊辰戦争中に生きたまま焼かれ、全身に深刻なダメージを負った。', src: gemini}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 36%', src: danbooru}
     - {id: shitei, weight: sub, note: '資料: 右腕である瀬田宗次郎にとっての「思想的弟子」の関係にある。', src: gemini}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 50%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 36%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shizue
@@ -11842,17 +11843,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-24'
   elements:
-    - {id: akagami, weight: core, note: 'danbooru red_hair 76%', src: danbooru}
     - {id: shitei, weight: core, note: '資料: アイゼンの弟子であり、その指示によってフリーレンのパーティに前衛として加わっている。', src: gemini}
-    - {id: akame, weight: sub, note: 'danbooru red_eyes 49%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 76%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 50%', src: danbooru}
     - {id: buki, weight: sub, note: 'danbooru weapon 41%', src: danbooru}
-    - {id: houtai, weight: sub, note: 'danbooru bandages 44%', src: danbooru}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 35%', src: danbooru}
+    - {id: houtai, weight: sub, note: 'danbooru bandages 43%', src: danbooru}
     - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 47%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 57%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 40%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 36%（共有 27% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 57%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: sugimoto-saichi
