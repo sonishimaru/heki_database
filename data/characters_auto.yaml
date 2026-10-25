@@ -1538,6 +1538,29 @@
     - {id: shitei, weight: sub, note: '資料: セバスチャーノ・ヴィエラをメンター（師）としていること。', src: gemini}
   patterns: []
 
+- id: chibiusa
+  name: ちびうさ
+  kana: ちびうさ
+  work: 美少女戦士セーラームーン
+  year: 1991
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2827-XDpzQoIQSPL8.jpg'
+    page: 'https://anilist.co/character/2827'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-25'
+  elements:
+    - {id: odango, weight: core, note: 'danbooru hair_bun 92%', src: danbooru}
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 93%', src: danbooru}
+    - {id: twintail, weight: core, note: 'danbooru twintails 86%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 55%', src: danbooru}
+    - {id: kokuin, weight: sub, note: 'danbooru facial_mark 39%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru sailor_collar 41%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 53%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: chilchuck
   name: チルチャック
   kana: ちるちゃっく
@@ -1757,6 +1780,27 @@
     - {id: nouryokusha, weight: sub, note: '資料: 石仮面により超自然的な力を得たと記述されているため。', src: gemini}
   patterns: []
 
+- id: dragon-shiryu
+  name: 紫龍
+  kana: しりゅう
+  work: 聖闘士星矢
+  year: 1986
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b5922-DzYFLk6qzQif.png'
+    page: 'https://anilist.co/character/5922'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-25'
+  elements:
+    - {id: kishi, weight: core, note: 'danbooru armor 62%', src: danbooru}
+    - {id: yoroi, weight: core, note: 'danbooru armor 62%', src: danbooru}
+    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 38%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 100%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 75%（共有 27% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: dva
   name: D.Va
   kana: でぃーゔぁ
@@ -1951,6 +1995,25 @@
     - {id: tanpatsu, weight: core, note: 'danbooru short_hair 77%', src: danbooru}
     - {id: ahoge, weight: sub, note: 'danbooru ahoge 57%', src: danbooru}
     - {id: kodomo, weight: sub, note: '資料: 年齢が11〜15歳、身長が145cmと記録されている。', src: gemini}
+  patterns: []
+
+- id: endou-mamoru
+  name: 円堂守
+  kana: えんどうまもる
+  work: イナズマイレブン
+  year: 2008
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b16412-ZsvITu2WWg6Q.jpg'
+    page: 'https://anilist.co/character/16412'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-25'
+  elements:
+    - {id: hachimaki, weight: core, note: 'danbooru headband 79%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 52%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 80%（共有 22% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: enma-ai
@@ -6280,6 +6343,25 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 55%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: kudou-shinichi
+  name: 工藤新一
+  kana: くどうしんいち
+  work: 名探偵コナン
+  year: 1994
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1742-NiV278NBFOvZ.png'
+    page: 'https://anilist.co/character/1742'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-25'
+  elements:
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 73%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 54%（共有 27% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 72%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kugisaki-nobara
   name: 釘崎野薔薇
   kana: くぎさきのばら
@@ -7073,6 +7155,26 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 87%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: maizono-sayaka
+  name: 舞園さやか
+  kana: まいぞのさやか
+  work: ダンガンロンパ
+  year: 2010
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b63849-wA9ddqRcEyug.png'
+    page: 'https://anilist.co/character/63849'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-25'
+  elements:
+    - {id: aogami, weight: sub, note: 'danbooru blue_hair 60%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 65%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 68%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: majima-goro
   name: 真島吾朗
   kana: まじまごろう
@@ -7277,6 +7379,28 @@
     - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 42%', src: danbooru}
     - {id: shitei, weight: sub, note: '資料: 羅門（Luomen）は師匠であり養父（実際は血縁上の大叔父）。', src: gemini}
     - {id: sobakasu, weight: sub, note: 'danbooru freckles 38%', src: danbooru}
+  patterns: []
+
+- id: march-7th
+  name: 三月なのか
+  kana: さんがつなのか
+  work: '崩壊:スターレイル'
+  year: 2023
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b315251-MRn3L5P0dB6O.png'
+    page: 'https://anilist.co/character/315251'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-25'
+  elements:
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 95%', src: danbooru}
+    - {id: choker, weight: sub, note: 'danbooru choker 37%', src: danbooru}
+    - {id: momoiro-no-me, weight: sub, note: 'danbooru pink_eyes 45%', src: danbooru}
+    - {id: semi-long, weight: sub, note: 'danbooru medium_hair 52%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 46%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 55%（共有 23% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: marcille-donato
@@ -9444,6 +9568,27 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 96%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: pegasus-seiya
+  name: 星矢
+  kana: せいや
+  work: 聖闘士星矢
+  year: 1986
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b141625-oYFYH78dmAkz.png'
+    page: 'https://anilist.co/character/141625'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-25'
+  elements:
+    - {id: kishi, weight: core, note: 'danbooru armor 60%', src: danbooru}
+    - {id: yoroi, weight: core, note: 'danbooru armor 60%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 67%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 77%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 40%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: phosphophyllite
   name: フォスフォフィライト
   kana: ふぉすふぉふぃらいと
@@ -11283,6 +11428,29 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 78%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: shinomori-aoshi
+  name: 四乃森蒼紫
+  kana: しのもりあおし
+  work: るろうに剣心
+  year: 1994
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1238-E5QVXIonLmR8.png'
+    page: 'https://anilist.co/character/1238'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-25'
+  elements:
+    - {id: buki, weight: sub, note: 'danbooru holding_weapon 100%（共有 10% のため比重を下げた）', src: danbooru}
+    - {id: gaitou, weight: sub, note: 'danbooru coat 50%', src: danbooru}
+    - {id: hakui, weight: sub, note: 'danbooru white_coat 50%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 50%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 50%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 75%（共有 27% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 75%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: shinonome-nano
   name: 東雲なの
   kana: しののめなの
@@ -11897,6 +12065,25 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 72%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: suzuki-sonoko
+  name: 鈴木園子
+  kana: すずきそのこ
+  work: 名探偵コナン
+  year: 1994
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1749-Jt3uRH7SRntc.png'
+    page: 'https://anilist.co/character/1749'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-25'
+  elements:
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 43%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 80%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 77%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: suzume-iwato
   name: 岩戸鈴芽
   kana: いわとすずめ
@@ -11989,6 +12176,25 @@
     - {id: tenshi, weight: sub, note: '資料: 神の代理人と信じられたことなどから、対立するSSSから「天使」と呼ばれ続けている。', src: gemini}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 89%（共有 38% のため比重を下げた）', src: danbooru}
     - {id: saikai, weight: spice, note: '資料: エンドクレジット後、現実世界で音無と再会したと思われる短いシーンが描かれている。', src: gemini}
+  patterns: []
+
+- id: tachibana-makoto
+  name: 橘真琴
+  kana: たちばなまこと
+  work: 'Free!'
+  year: 2013
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b83027-SpFq12qbN0Dr.png'
+    page: 'https://anilist.co/character/83027'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-25'
+  elements:
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 82%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 81%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 65%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: tadano-hitohito
@@ -12493,6 +12699,26 @@
     - {id: reijou, weight: sub, note: '資料: トップヒーローであるエンデヴァー（Endeavor）の末っ子。', src: gemini}
     - {id: aome, weight: spice, note: 'danbooru blue_eyes 53%（共有 22% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 82%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: togami-byakuya
+  name: 十神白夜
+  kana: とがみびゃくや
+  work: ダンガンロンパ
+  year: 2010
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b65541-Nha4B0vJIkFA.png'
+    page: 'https://anilist.co/character/65541'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-25'
+  elements:
+    - {id: megane, weight: core, note: 'danbooru glasses 79%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 58%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 44%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 72%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: tohru
