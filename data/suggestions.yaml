@@ -182,9 +182,7 @@
 - id: akabane-karma
   name: 赤羽業
   date: '2026-10-21'
-  unmapped_danbooru:
-  - tag: kunugigaoka_middle_school_uniform
-    frequency: 0.5
+  unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: holding_weapon
@@ -225,17 +223,7 @@
 - id: akimichi-chouji
   name: 秋道チョウジ
   date: '2026-10-21'
-  unmapped_danbooru:
-  - tag: open-toe_boots
-    frequency: 0.3636
-  - tag: marking_on_cheek
-    frequency: 0.3636
-  - tag: swirl
-    frequency: 0.3636
-  - tag: swirl_on_cheek
-    frequency: 0.3636
-  - tag: butterfly_mode_(naruto)
-    frequency: 0.3636
+  unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
     tag: long_hair
@@ -675,11 +663,7 @@
 - id: arima-kousei
   name: 有馬公生
   date: '2026-10-21'
-  unmapped_danbooru:
-  - tag: petals
-    frequency: 0.375
-  - tag: grand_piano
-    frequency: 0.375
+  unmapped_danbooru: []
   near_miss:
   - id: heddohon
     tag: earphones
@@ -1181,9 +1165,7 @@
 - id: boa-hancock
   name: ボア・ハンコック
   date: '2026-10-22'
-  unmapped_danbooru:
-  - tag: snake_earrings
-    frequency: 0.6312
+  unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
@@ -1390,9 +1372,7 @@
 - id: ciel-phantomhive
   name: シエル・ファントムハイヴ
   date: '2026-10-21'
-  unmapped_danbooru:
-  - tag: victorian
-    frequency: 0.3647
+  unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
@@ -1999,11 +1979,7 @@
 - id: gaara
   name: 我愛羅
   date: '2026-10-22'
-  unmapped_danbooru:
-  - tag: sand
-    frequency: 0.5043
-  - tag: gourd
-    frequency: 0.4017
+  unmapped_danbooru: []
   near_miss:
   - id: midori-no-me
     tag: green_eyes
@@ -2524,9 +2500,7 @@
 - id: hashibira-inosuke
   name: 嘴平伊之助
   date: '2026-10-21'
-  unmapped_danbooru:
-  - tag: boar_mask
-    frequency: 0.4259
+  unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
@@ -2702,11 +2676,7 @@
 - id: hibino-kafka
   name: 日比野カフカ
   date: '2026-10-21'
-  unmapped_danbooru:
-  - tag: goatee_stubble
-    frequency: 0.5432
-  - tag: large_pectorals
-    frequency: 0.4198
+  unmapped_danbooru: []
   near_miss:
   - id: sakadachi-gami
     tag: spiked_hair
@@ -3240,9 +3210,7 @@
 - id: hyuuga-neji
   name: 日向ネジ
   date: '2026-10-21'
-  unmapped_danbooru:
-  - tag: konohagakure_symbol
-    frequency: 0.4375
+  unmapped_danbooru: []
   near_miss:
   - id: houtai
     tag: bandages
@@ -3700,9 +3668,7 @@
 - id: jigen-daisuke
   name: 次元大介
   date: '2026-10-21'
-  unmapped_danbooru:
-  - tag: fedora
-    frequency: 0.3667
+  unmapped_danbooru: []
   near_miss:
   - id: kurome
     tag: black_eyes
@@ -3983,10 +3949,6 @@
   name: 怪盗キッド
   date: '2026-10-21'
   unmapped_danbooru:
-  - tag: top_hat
-    frequency: 0.7232
-  - tag: monocle_chain
-    frequency: 0.692
   - tag: white_hat
     frequency: 0.5121
   - tag: white_suit

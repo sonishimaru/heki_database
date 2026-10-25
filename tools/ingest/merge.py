@@ -96,7 +96,7 @@ GENERIC_TAGS = {
     "roswaal_mansion_maid_uniform", "demon_slayer_uniform",
     "nude", "safety_pin", "forehead", "sash", "wide_sleeves", "sweater_vest",
     "black_dress", "bamboo", "symbol-shaped_pupils", "cross-shaped_pupils",
-    "slit_pupils", "tokiwadai_school_uniform", "summer_uniform",
+    "slit_pupils", "summer_uniform",
     "pink_ribbon", "red_ribbon", "blue_ribbon",
     "ascot", "blue_sailor_collar", "black_thighhighs", "white_thighhighs",
     "paradis_military_uniform", "purple_ribbon", "white_dress", "hat",
@@ -162,8 +162,6 @@ GENERIC_TAGS = {
     # 25 巡目。一人しか付けない小道具（kamina_shades）、体毛、認識票。
     "kamina_shades", "chest_hair", "dog_tags", "sarashi",
     # 作品固有の制服・装備
-    "azumanga_daioh's_school_uniform", "kita_high_school_uniform",
-    "icho_private_high_school_uniform", "kurumi-gaoka_high_school_uniform",
     "sailor_senshi_uniform", "checkered_haori", "three-dimensional_maneuver_gear",
     "hairpods", "winter_uniform",
     # 汎用の服飾
@@ -175,9 +173,7 @@ GENERIC_TAGS = {
     # 作品固有（制服・装備・固有名）
     "super_saiyan", "saiyan_armor", "dragonslayer_(sword)", "flak_jacket",
     "konohagakure_shinobi_uniform", "jujutsu_tech_uniform", "dougi",
-    "shuuchiin_academy_school_uniform", "kamiyama_high_school_uniform_(hyouka)",
-    "naoetsu_high_school_uniform", "sobu_high_school_uniform",
-    "sakuragaoka_high_school_uniform", "interface_headset_(evangelion)",
+    "interface_headset_(evangelion)",
     "print_haori", "red_haori", "kikkoumon", "hair_tubes", "kishimen_hair",
     # 汎用の服飾・装飾
     "necklace", "red_bow", "black_bow", "hat_bow", "red_bowtie", "red_necktie",
@@ -196,12 +192,10 @@ GENERIC_TAGS = {
     "vertical-striped_clothes", "vertical-striped_thighhighs", "lapels",
     "notched_lapels", "zipper", "chain", "crystal", "ice", "bug", "butterfly",
     "food", "card_(medium)", "chess_piece", "king_(chess)", "sprite", "tachi-e",
-    "character_name", "amestris_military_uniform", "tokyo-3_middle_school_uniform",
+    "character_name", "amestris_military_uniform",
     "albino",
     # 9 巡目: 作品固有の制服、装飾、露出、ファンアート由来のタグ
-    "oohashi_high_school_uniform", "bonyari_high_school_uniform",
-    "hyakkaou_academy_school_uniform", "pk_academy_school_uniform",
-    "sakakino_academy_school_uniform", "black_bulls_(emblem)", "clover_print",
+    "black_bulls_(emblem)", "clover_print",
     "magatama", "magatama_hair_ornament", "bell", "neck_bell", "hair_rings",
     "sphere_hair_ornament", "tassel", "tassel_earrings", "bead_necklace",
     "feathers", "hat_feather", "hat_flower", "headband", "black_headband",
@@ -221,11 +215,8 @@ GENERIC_TAGS = {
     # 組み合わせ、下着と水着の種類、帽子の種類。
     # ひげ（mustache 等）・ゴーグル・女装・パーカーはここに入れない。
     # どれも人物の特徴ではあるので、2 作品目が出るまで報告に残して様子を見る。
-    "little_busters!_school_uniform", "shinda_sekai_sensen_uniform",
-    "kanon_school_uniform", "yasogami_school_uniform", "rouman_academy_school_uniform",
-    "first_high_school_uniform", "fourth_east_high_school_uniform",
-    "mukaihara_junior_high_school_uniform", "ooarai_school_uniform",
-    "wagnaria_uniform", "zero_suit", "namekian", "suzume's_chair", "winding_key",
+    "shinda_sekai_sensen_uniform", "wagnaria_uniform", "zero_suit", "namekian",
+    "suzume's_chair", "winding_key",
     "aged_up", "parody", "fine_art_parody", "cover", "name_connection",
     "riding", "horseback_riding", "horse", "jumping", "leaning_forward", "kneeling",
     "spread_legs", "straight-on", "mouth_hold", "hand_on_own_neck",
@@ -247,6 +238,11 @@ GENERIC_TAGS = {
     "one-piece_swimsuit", "competition_swimsuit",
     "military_hat", "kepi", "gakuseibou", "animal_hat",
     "curvy", "thick_thighs", "sugoi_dekai", "white_skin",
+    # 30 巡目。作品固有の記号と小道具、背景・効果、帽子、作風。
+    # 学校の制服はこの巡で対応表（制服）へ移した。作品固有でも学校でない
+    # 衣装は役割の記号なので、これまで通りここに置く。
+    "konohagakure_symbol", "butterfly_mode_(naruto)", "gourd", "sand", "petals",
+    "swirl", "open-toe_boots", "victorian", "fedora", "top_hat", "monocle_chain",
 }
 
 

@@ -204,6 +204,8 @@ def report_run() -> None:
     print(f"  完了 {run.get('完了', '?')} / {run.get('対象', '?')} 件")
     failed = run.get("失敗") or []
     print(f"  失敗 {len(failed)} 件" + (f": {', '.join(failed)}" if failed else ""))
+    for name, why in (run.get("失敗の理由") or {}).items():
+        print(f"    {name}: {why}")
     for lane, count in (run.get("レーン") or {}).items():
         print(f"  {lane}レーン: {count} 件")
     for lane, why in (run.get("レーンの理由") or {}).items():

@@ -114,6 +114,11 @@ def write_run_summary(targets: list[dict], failed: list[str], tally: dict) -> No
             kind: tally[f"取得_{kind}_理由"]
             for kind in ("danbooru", "anilist", "page") if tally.get(f"取得_{kind}_理由")
         },
+        "失敗の理由": {
+            name: "／".join(reasons)
+            for name, reasons in (tally.get("取得失敗") or {}).items()
+            if name in failed
+        },
     }
     header = ("# 直近の取り込みの結果（auto.py が毎回書き直す）。\n"
               "# 日次の確認でここを読めば、どの件が落ちたか Actions のログを\n"
@@ -199,6 +204,11 @@ def process(entry: dict, api_key: str | None, sleep: float, tally: dict) -> None
         except subprocess.CalledProcessError as err:
             why = reason_of(err)
             tally.setdefault(f"取得_{kind}_理由", why)
+            # 取得元ごとの理由は setdefault で最初の一件しか残らない。取得元が
+            # 丸ごと落ちた日はそれで足りるが、タグ名の間違いは件ごとに違うので、
+            # 落ちた件の名前と一緒に控えておく（chibiusa の理由が march_7th の
+            # 理由に上書きされて、ログを掘り直すことになった）。
+            tally.setdefault("取得失敗", {}).setdefault(entry["id"], []).append(f"{kind}: {why}")
             print(f"  取得失敗（続行）: {label} — {why}")
             return False
 

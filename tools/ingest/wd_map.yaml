@@ -82,7 +82,7 @@ elements:
   nodobotoke:
     tags: ["adam's_apple"]
   kinniku:
-    tags: [muscular, muscular_male, muscular_female, abs, toned]
+    tags: [muscular, muscular_male, muscular_female, abs, toned, large_pectorals]
   kyasha:
     tags: [skinny, slender, narrow_waist]
     threshold: 0.5
@@ -92,11 +92,24 @@ elements:
     tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb, automail, robot_arm, prosthetic_arm, single_mechanical_arm, prosthetic_leg]
   kokuin:
     tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo, facial_mark, whisker_markings, facepaint, facial_tattoo, teardrop_facial_mark, forehead_mark, neck_tattoo, number_tattoo, forehead_tattoo, head_tattoo, chest_tattoo,
-        hand_tattoo, shoulder_tattoo]
+        hand_tattoo, shoulder_tattoo, marking_on_cheek, swirl_on_cheek]
 
   # --- 服装 ---
   seifuku:
-    tags: [school_uniform, serafuku, gakuran, blazer, sailor_collar, hikarizaka_private_high_school_uniform, kitauji_high_school_uniform, tomoeda_elementary_school_uniform, ouran_high_school_uniform, red_sailor_collar, tsubame_nishi_high_school_uniform, ryouou_school_uniform, advanced_nurturing_high_school_uniform, tokisadame_school_uniform, kiyosumi_school_uniform, misaki_high_school_uniform, green_sailor_collar, asahigaoka_school_uniform, moegi_high_school_uniform]
+    tags: [school_uniform, serafuku, gakuran, blazer, sailor_collar, hikarizaka_private_high_school_uniform, kitauji_high_school_uniform, tomoeda_elementary_school_uniform, ouran_high_school_uniform, red_sailor_collar, tsubame_nishi_high_school_uniform, ryouou_school_uniform, advanced_nurturing_high_school_uniform, tokisadame_school_uniform, kiyosumi_school_uniform, misaki_high_school_uniform, green_sailor_collar, asahigaoka_school_uniform, moegi_high_school_uniform,
+      kunugigaoka_middle_school_uniform, "azumanga_daioh's_school_uniform",
+      bonyari_high_school_uniform, first_high_school_uniform,
+      fourth_east_high_school_uniform, hyakkaou_academy_school_uniform,
+      icho_private_high_school_uniform, "kamiyama_high_school_uniform_(hyouka)",
+      kanon_school_uniform, kita_high_school_uniform,
+      kurumi-gaoka_high_school_uniform, "little_busters!_school_uniform",
+      mukaihara_junior_high_school_uniform, naoetsu_high_school_uniform,
+      ooarai_school_uniform, oohashi_high_school_uniform,
+      pk_academy_school_uniform, rouman_academy_school_uniform,
+      sakakino_academy_school_uniform, sakuragaoka_high_school_uniform,
+      shuuchiin_academy_school_uniform, sobu_high_school_uniform,
+      tokiwadai_school_uniform, tokyo-3_middle_school_uniform,
+      yasogami_school_uniform]
     threshold: 0.3
     note: 着ているかいないかしかない語なので、既定より低くてよい（41件が 0.30〜0.35 で落ちていた）
   hakui:
@@ -274,7 +287,8 @@ elements:
   mafuraa:
     tags: [scarf, red_scarf]
   gakki:
-    tags: [instrument, violin, piano, guitar, holding_instrument, flute, holding_flute]
+    tags: [instrument, violin, piano, guitar, holding_instrument, flute, holding_flute,
+      grand_piano]
   kodomo:
     tags: [child, aged_down]
     threshold: 0.5
@@ -285,11 +299,11 @@ elements:
   bouzu:
     tags: [bald, shaved_head, buzz_cut]
   bushouhige:
-    tags: [stubble, beard_stubble, facial_hair, beard, goatee]
+    tags: [stubble, beard_stubble, facial_hair, beard, goatee, goatee_stubble]
   sobakasu:
     tags: [freckles]
   kamen:
-    tags: [mask, mouth_mask, masked, domino_mask]
+    tags: [mask, mouth_mask, masked, domino_mask, boar_mask]
     threshold: 0.4
   samurai:
     tags: [samurai]
@@ -300,7 +314,7 @@ elements:
   tsubasa:
     tags: [wings, bat_wings, angel_wings, feathered_wings, demon_wings, black_wings, low_wings]
   piasu:
-    tags: [piercing, ear_piercing, earrings, single_earring]
+    tags: [piercing, ear_piercing, earrings, single_earring, snake_earrings]
     threshold: 0.5
     note: earrings は該当率が高いので閾値を上げている
   tabako:

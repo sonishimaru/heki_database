@@ -4718,7 +4718,7 @@ characters:
     kana: さんがつなのか
     work: 崩壊:スターレイル
     year: 2023
-    danbooru: march_7th
+    danbooru: march_7th_(honkai:_star_rail)
     anilist: March 7th
   - id: lloyd-irving
     name: ロイド・アーヴィング
@@ -4753,5 +4753,292 @@ characters:
     kana: ちびうさ
     work: 美少女戦士セーラームーン
     year: 1991
-    danbooru: chibiusa
+    danbooru: chibi_usa
     anilist: Chibiusa
+
+  # --- 26期目。未処理が 2 件まで減ったので補充。
+  #     有名どころは埋まってきているので、候補を 84 名書いて id・人物・タグで
+  #     突き合わせ、既存と重ならなかったぶんだけを入れた（重複率 51%）。
+  #     まだ 1 人も入っていない作品を優先している。
+  - id: pegasus-seiya
+    name: 星矢
+    kana: せいや
+    work: 聖闘士星矢
+    year: 1986
+    danbooru: pegasus_seiya
+    anilist: Seiya
+  - id: dragon-shiryu
+    name: 紫龍
+    kana: しりゅう
+    work: 聖闘士星矢
+    year: 1986
+    danbooru: dragon_shiryuu
+    anilist: Shiryu
+  - id: izumi-shinichi
+    name: 泉新一
+    kana: いずみしんいち
+    work: 寄生獣
+    year: 1988
+    danbooru: izumi_shinichi
+    anilist: Shinichi Izumi
+  - id: tachibana-makoto
+    name: 橘真琴
+    kana: たちばなまこと
+    work: Free!
+    year: 2013
+    danbooru: tachibana_makoto
+    anilist: Makoto Tachibana
+  - id: endou-mamoru
+    name: 円堂守
+    kana: えんどうまもる
+    work: イナズマイレブン
+    year: 2008
+    danbooru: endou_mamoru
+    anilist: Mamoru Endou
+  - id: shinomori-aoshi
+    name: 四乃森蒼紫
+    kana: しのもりあおし
+    work: るろうに剣心
+    year: 1994
+    danbooru: shinomori_aoshi
+    anilist: Aoshi Shinomori
+  - id: kudou-shinichi
+    name: 工藤新一
+    kana: くどうしんいち
+    work: 名探偵コナン
+    year: 1994
+    danbooru: kudou_shinichi
+    anilist: Shinichi Kudou
+  - id: suzuki-sonoko
+    name: 鈴木園子
+    kana: すずきそのこ
+    work: 名探偵コナン
+    year: 1994
+    danbooru: suzuki_sonoko
+    anilist: Sonoko Suzuki
+  - id: togami-byakuya
+    name: 十神白夜
+    kana: とがみびゃくや
+    work: ダンガンロンパ
+    year: 2010
+    danbooru: togami_byakuya
+    anilist: Byakuya Togami
+  - id: maizono-sayaka
+    name: 舞園さやか
+    kana: まいぞのさやか
+    work: ダンガンロンパ
+    year: 2010
+    danbooru: maizono_sayaka
+    anilist: Sayaka Maizono
+  - id: hinata-hajime
+    name: 日向創
+    kana: ひなたはじめ
+    work: スーパーダンガンロンパ2
+    year: 2012
+    danbooru: hinata_hajime
+    anilist: Hajime Hinata
+  - id: mioda-ibuki
+    name: 澪田唯吹
+    kana: みおだいぶき
+    work: スーパーダンガンロンパ2
+    year: 2012
+    danbooru: mioda_ibuki
+    anilist: Ibuki Mioda
+  - id: sakurauchi-riko
+    name: 桜内梨子
+    kana: さくらうちりこ
+    work: ラブライブ!サンシャイン!!
+    year: 2015
+    danbooru: sakurauchi_riko
+    anilist: Riko Sakurauchi
+  - id: himmel
+    name: ヒンメル
+    kana: ひんめる
+    work: 葬送のフリーレン
+    year: 2020
+    danbooru: himmel_(sousou_no_frieren)
+    anilist: Himmel
+  - id: higuruma-hiromi
+    name: 日車寛見
+    kana: ひぐるまひろみ
+    work: 呪術廻戦
+    year: 2018
+    danbooru: higuruma_hiromi
+    anilist: Hiromi Higuruma
+
+  # 未収録の作品と、既存作品の空いていた側。
+  - id: itoshiki-nozomu
+    name: 糸色望
+    kana: いとしきのぞむ
+    work: さよなら絶望先生
+    year: 2005
+    danbooru: itoshiki_nozomu
+    anilist: Nozomu Itoshiki
+  - id: mikazuki-augus
+    name: 三日月・オーガス
+    kana: みかづきおーがす
+    work: 機動戦士ガンダム 鉄血のオルフェンズ
+    year: 2015
+    danbooru: mikazuki_augus
+    anilist: Mikazuki Augus
+  - id: heero-yuy
+    name: ヒイロ・ユイ
+    kana: ひいろゆい
+    work: 新機動戦記ガンダムW
+    year: 1995
+    danbooru: heero_yuy
+    anilist: Heero Yuy
+  - id: relena-peacecraft
+    name: リリーナ・ピースクラフト
+    kana: りりーなぴーすくらふと
+    work: 新機動戦記ガンダムW
+    year: 1995
+    danbooru: relena_peacecraft
+    anilist: Relena Peacecraft
+  - id: mihashi-ren
+    name: 三橋廉
+    kana: みはしれん
+    work: おおきく振りかぶって
+    year: 2003
+    danbooru: mihashi_ren
+    anilist: Ren Mihashi
+  - id: misaki-mei
+    name: 見崎鳴
+    kana: みさきめい
+    work: Another
+    year: 2009
+    danbooru: misaki_mei
+    anilist: Mei Misaki
+  - id: aozaki-aoko
+    name: 蒼崎青子
+    kana: あおざきあおこ
+    work: 魔法使いの夜
+    year: 2012
+    danbooru: aozaki_aoko
+    anilist: Aoko Aozaki
+  - id: zidane-tribal
+    name: ジタン・トライバル
+    kana: じたんとらいばる
+    work: ファイナルファンタジーIX
+    year: 2000
+    danbooru: zidane_tribal
+    anilist: Zidane Tribal
+  - id: garnet-til-alexandros
+    name: ガーネット
+    kana: がーねっと
+    work: ファイナルファンタジーIX
+    year: 2000
+    danbooru: garnet_til_alexandros_xvii
+    anilist: Garnet Til Alexandros XVII
+  - id: squall-leonhart
+    name: スコール・レオンハート
+    kana: すこーるれおんはーと
+    work: ファイナルファンタジーVIII
+    year: 1999
+    danbooru: squall_leonhart
+    anilist: Squall Leonhart
+  - id: rinoa-heartilly
+    name: リノア・ハーティリー
+    kana: りのあはーてぃりー
+    work: ファイナルファンタジーVIII
+    year: 1999
+    danbooru: rinoa_heartilly
+    anilist: Rinoa Heartilly
+  - id: solid-snake
+    name: ソリッド・スネーク
+    kana: そりっどすねーく
+    work: メタルギアソリッド
+    year: 1998
+    danbooru: solid_snake
+    anilist: Solid Snake
+  - id: kyo-kusanagi
+    name: 草薙京
+    kana: くさなぎきょう
+    work: THE KING OF FIGHTERS
+    year: 1994
+    danbooru: kyo_kusanagi
+    anilist: Kyo Kusanagi
+  - id: sol-badguy
+    name: ソル・バッドガイ
+    kana: そるばっどがい
+    work: GUILTY GEAR
+    year: 1998
+    danbooru: sol_badguy
+    anilist: Sol Badguy
+  - id: sans-undertale
+    name: サンズ
+    kana: さんず
+    work: Undertale
+    year: 2015
+    danbooru: sans
+    anilist: Sans
+  - id: toriko
+    name: トリコ
+    kana: とりこ
+    work: トリコ
+    year: 2008
+    danbooru: toriko
+    anilist: Toriko
+  - id: shinguuji-sakura
+    name: 真宮寺さくら
+    kana: しんぐうじさくら
+    work: サクラ大戦
+    year: 1996
+    danbooru: shinguuji_sakura
+    anilist: Sakura Shinguuji
+  - id: uchiha-itachi
+    name: うちはイタチ
+    kana: うちはいたち
+    work: NARUTO
+    year: 1999
+    danbooru: uchiha_itachi
+    anilist: Itachi Uchiha
+  - id: winry-rockbell
+    name: ウィンリィ・ロックベル
+    kana: うぃんりぃろっくべる
+    work: 鋼の錬金術師
+    year: 2001
+    danbooru: winry_rockbell
+    anilist: Winry Rockbell
+  - id: urahara-kisuke
+    name: 浦原喜助
+    kana: うらはらきすけ
+    work: BLEACH
+    year: 2001
+    danbooru: urahara_kisuke
+    anilist: Kisuke Urahara
+  - id: yoruichi-shihouin
+    name: 四楓院夜一
+    kana: しほういんよるいち
+    work: BLEACH
+    year: 2001
+    danbooru: shihouin_yoruichi
+    anilist: Yoruichi Shihouin
+  - id: takasugi-shinsuke
+    name: 高杉晋助
+    kana: たかすぎしんすけ
+    work: 銀魂
+    year: 2003
+    danbooru: takasugi_shinsuke
+    anilist: Shinsuke Takasugi
+  - id: sakamoto-tatsuma
+    name: 坂本辰馬
+    kana: さかもとたつま
+    work: 銀魂
+    year: 2003
+    danbooru: sakamoto_tatsuma
+    anilist: Tatsuma Sakamoto
+  - id: kyoraku-shunsui
+    name: 京楽春水
+    kana: きょうらくしゅんすい
+    work: BLEACH
+    year: 2001
+    danbooru: kyouraku_shunsui
+    anilist: Shunsui Kyouraku
+  - id: genkai
+    name: 幻海
+    kana: げんかい
+    work: 幽☆遊☆白書
+    year: 1990
+    danbooru: genkai
+    anilist: Genkai
