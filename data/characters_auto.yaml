@@ -6825,6 +6825,31 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 47%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: kyoraku-shunsui
+  name: 京楽春水
+  kana: きょうらくしゅんすい
+  work: BLEACH
+  year: 2001
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1088-6oO10CmxZ1lP.jpg'
+    page: 'https://anilist.co/character/1088'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: bushouhige, weight: core, note: 'danbooru facial_hair 84%', src: danbooru}
+    - {id: gantai, weight: core, note: 'danbooru eyepatch 68%', src: danbooru}
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 77%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 45%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 35%', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 52%', src: danbooru}
+    - {id: sakotsu, weight: sub, note: 'danbooru collarbone 35%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 42%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 35%（共有 27% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: l-lawliet
   name: L
   kana: える
@@ -10771,6 +10796,25 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 38%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: sakamoto-tatsuma
+  name: 坂本辰馬
+  kana: さかもとたつま
+  work: 銀魂
+  year: 2003
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2945-HS6t9u16Tdce.jpg'
+    page: 'https://anilist.co/character/2945'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: buki, weight: sub, note: 'danbooru weapon 42%', src: danbooru}
+    - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 42%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 83%（共有 22% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: sakata-gintoki
   name: 坂田銀時
   kana: さかたぎんとき
@@ -12762,6 +12806,26 @@
     - {id: sewayaki, weight: core, note: '資料: 大河ができない家事をよく手伝っている', src: gemini}
   patterns: []
 
+- id: takasugi-shinsuke
+  name: 高杉晋助
+  kana: たかすぎしんすけ
+  work: 銀魂
+  year: 2003
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2948-Er1xnL05k1oU.png'
+    page: 'https://anilist.co/character/2948'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 69%', src: danbooru}
+    - {id: houtai, weight: sub, note: 'danbooru bandage_over_one_eye 40%', src: danbooru}
+    - {id: murasaki-gami, weight: sub, note: 'danbooru purple_hair 38%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 44%（共有 27% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: takebe-saori
   name: 武部沙織
   kana: たけべさおり
@@ -13505,6 +13569,27 @@
     - {id: sekininkan, weight: sub, note: '資料: 自分と同等の高得点者がいない警察組織において「自分にしかできないことがある」と考え就職を選択した。', src: gemini}
   patterns: []
 
+- id: uchiha-itachi
+  name: うちはイタチ
+  kana: うちはいたち
+  work: NARUTO
+  year: 1999
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b14-9Kb1E5oel1ke.png'
+    page: 'https://anilist.co/character/14'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 59%', src: danbooru}
+    - {id: hachimaki, weight: sub, note: 'danbooru forehead_protector 49%', src: danbooru}
+    - {id: ninja, weight: sub, note: 'danbooru forehead_protector 49%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 38%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 74%（共有 27% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: uchiha-sasuke
   name: うちはサスケ
   kana: うちはさすけ
@@ -13526,6 +13611,27 @@
     - {id: soushitsu, weight: sub, note: '資料: 幼少期に家族や一族全員を失っている。', src: gemini}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 78%（共有 26% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 47%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: urahara-kisuke
+  name: 浦原喜助
+  kana: うらはらきすけ
+  work: BLEACH
+  year: 2001
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b210-mw01NrQfRjzT.png'
+    page: 'https://anilist.co/character/210'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: bushouhige, weight: sub, note: 'danbooru facial_hair 55%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 67%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: kusekke, weight: sub, note: 'danbooru hair_between_eyes 59%', src: danbooru}
+    - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 55%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 43%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: urameshi-keiko
@@ -13890,6 +13996,26 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 56%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: winry-rockbell
+  name: ウィンリィ・ロックベル
+  kana: うぃんりぃろっくべる
+  work: 鋼の錬金術師
+  year: 2001
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/63-xloedtYxiJ2E.jpg'
+    page: 'https://anilist.co/character/63'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 91%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 56%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 79%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 83%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: yabuki-joe
   name: 矢吹丈
   kana: やぶきじょー
@@ -14166,6 +14292,28 @@
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 54%', src: danbooru}
   patterns: []
 
+- id: yoruichi-shihouin
+  name: 四楓院夜一
+  kana: しほういんよるいち
+  work: BLEACH
+  year: 2001
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b908-JSYUkJLCw1f0.png'
+    page: 'https://anilist.co/character/908'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: kasshoku, weight: core, note: 'danbooru dark_skin 95%', src: danbooru}
+    - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 75%', src: danbooru}
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 67%', src: danbooru}
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 81%', src: danbooru}
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 81%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 74%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: yoshida-haru
   name: 吉田春
   kana: よしだはる
@@ -14352,17 +14500,17 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-26'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 80%', src: danbooru}
     - {id: fukushuu, weight: core, note: '資料: 許嫁を殺害した剣心の死を企てながら正体を隠して接近した。', src: gemini}
     - {id: jiko-gisei, weight: core, note: '資料: 剣心の命を救うために自身の命を捧げた。', src: gemini}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 60%', src: danbooru}
     - {id: wasou, weight: core, note: 'danbooru kimono 95%', src: danbooru}
     - {id: gisei-yaku, weight: sub, note: '資料: 剣心の命を救うために自らの命を捧げた。', src: gemini}
     - {id: hogosha, weight: sub, note: '資料: 母が出産直後に亡くなったため、弟の縁からは親代わりのように見られていた。', src: gemini}
     - {id: shoutai, weight: sub, note: '資料: 相手が許嫁を殺した男であることを知らない振りをしながら潜入した。', src: gemini}
     - {id: taijou, weight: sub, note: '資料: 剣心の命を救うために自身の命を捧げて死亡・退場した。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 80%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 60%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yuna-ff10

@@ -5563,6 +5563,28 @@
     frequency: 0.2667
     threshold: 0.35
   new_tag_proposals: []
+- id: kyoraku-shunsui
+  name: 京楽春水
+  date: '2026-10-26'
+  unmapped_danbooru:
+  - tag: mature_male
+    frequency: 0.6129
+  - tag: one_eye_covered
+    frequency: 0.3871
+  near_miss:
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.3226
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1935
+    threshold: 0.5
+  - id: hakama
+    tag: hakama
+    frequency: 0.1613
+    threshold: 0.35
+  new_tag_proposals: []
 - id: l-lawliet
   name: L
   date: '2026-10-09'
@@ -9075,6 +9097,32 @@
     frequency: 0.1928
     threshold: 0.35
   new_tag_proposals: []
+- id: sakamoto-tatsuma
+  name: 坂本辰馬
+  date: '2026-10-26'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.25
+    threshold: 0.35
+  - id: kusekke
+    tag: messy_hair
+    frequency: 0.25
+    threshold: 0.5
+  - id: megane
+    tag: sunglasses
+    frequency: 0.25
+    threshold: 0.35
+  - id: kodomo
+    tag: aged_down
+    frequency: 0.25
+    threshold: 0.5
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.1667
+    threshold: 0.35
+  new_tag_proposals: []
 - id: sakata-gintoki
   name: 坂田銀時
   date: '2026-10-19'
@@ -10836,6 +10884,40 @@
     frequency: 0.1765
     threshold: 0.35
   new_tag_proposals: []
+- id: takasugi-shinsuke
+  name: 高杉晋助
+  date: '2026-10-26'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2877
+    threshold: 0.35
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.2603
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.2534
+    threshold: 0.35
+  - id: tabako
+    tag: smoking_pipe
+    frequency: 0.2329
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2055
+    threshold: 0.35
+  - id: mekakure
+    tag: hair_over_one_eye
+    frequency: 0.1849
+    threshold: 0.35
+  - id: gantai
+    tag: eyepatch
+    frequency: 0.1507
+    threshold: 0.35
+  new_tag_proposals: []
 - id: takebe-saori
   name: 武部沙織
   date: '2026-10-10'
@@ -11471,6 +11553,32 @@
   - name: 警察官
     axis: 関係性 / 立場
     reason: 公安局刑事課一係に配属された新任監視官として勤務しているため。
+- id: uchiha-itachi
+  name: うちはイタチ
+  date: '2026-10-26'
+  unmapped_danbooru:
+  - tag: sharingan
+    frequency: 0.3836
+  - tag: akatsuki_uniform
+    frequency: 0.3527
+  near_miss:
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.1815
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.1575
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.1575
+    threshold: 0.35
+  - id: yubiwa
+    tag: ring
+    frequency: 0.1507
+    threshold: 0.5
+  new_tag_proposals: []
 - id: uchiha-sasuke
   name: うちはサスケ
   date: '2026-10-12'
@@ -11487,6 +11595,24 @@
   - id: sakadachi-gami
     tag: spiked_hair
     frequency: 0.2038
+    threshold: 0.35
+  new_tag_proposals: []
+- id: urahara-kisuke
+  name: 浦原喜助
+  date: '2026-10-26'
+  unmapped_danbooru: []
+  near_miss:
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2759
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.2241
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.1724
     threshold: 0.35
   new_tag_proposals: []
 - id: urameshi-keiko
@@ -11866,6 +11992,20 @@
     frequency: 0.2044
     threshold: 0.35
   new_tag_proposals: []
+- id: winry-rockbell
+  name: ウィンリィ・ロックベル
+  date: '2026-10-26'
+  unmapped_danbooru: []
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.3527
+    threshold: 0.5
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2054
+    threshold: 0.35
+  new_tag_proposals: []
 - id: yabuki-joe
   name: 矢吹丈
   date: '2026-10-02'
@@ -12140,6 +12280,28 @@
     frequency: 0.1552
     threshold: 0.35
   new_tag_proposals: []
+- id: yoruichi-shihouin
+  name: 四楓院夜一
+  date: '2026-10-26'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kinniku
+    tag: toned
+    frequency: 0.2016
+    threshold: 0.35
+  - id: kemomimi
+    tag: animal_ears
+    frequency: 0.1783
+    threshold: 0.35
+  - id: shippo
+    tag: tail
+    frequency: 0.1672
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.1648
+    threshold: 0.35
+  new_tag_proposals: []
 - id: yoshida-haru
   name: 吉田春
   date: '2026-10-05'
@@ -12300,7 +12462,7 @@
   new_tag_proposals: []
 - id: yukishiro-tomoe
   name: 雪代巴
-  date: '2026-08-31'
+  date: '2026-10-26'
   unmapped_danbooru:
   - tag: umbrella
     frequency: 0.4
