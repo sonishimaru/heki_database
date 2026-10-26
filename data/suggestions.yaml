@@ -10089,38 +10089,34 @@
   new_tag_proposals: []
 - id: shiroko
   name: シロコ
-  date: '2026-09-30'
+  date: '2026-10-26'
   unmapped_danbooru:
   - tag: mismatched_pupils
-    frequency: 0.581
+    frequency: 0.592
   near_miss:
   - id: ponytail
     tag: ponytail
-    frequency: 0.303
+    frequency: 0.3038
     threshold: 0.35
   - id: mafuraa
     tag: scarf
-    frequency: 0.271
+    frequency: 0.2704
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2034
+    frequency: 0.2044
     threshold: 0.5
   - id: seifuku
     tag: school_uniform
-    frequency: 0.1994
+    frequency: 0.1984
     threshold: 0.3
   - id: tebukuro
     tag: gloves
-    frequency: 0.183
+    frequency: 0.184
     threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.175
-    threshold: 0.35
-  - id: sakotsu
-    tag: collarbone
-    frequency: 0.1502
+    frequency: 0.1756
     threshold: 0.35
   new_tag_proposals: []
 - id: shishio-makoto

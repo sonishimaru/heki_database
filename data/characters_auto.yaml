@@ -11926,13 +11926,12 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-09-30'
+    date: '2026-10-26'
   elements:
     - {id: kemomimi, weight: core, note: 'danbooru animal_ears 98%', src: danbooru}
-    - {id: tenshi, weight: core, note: 'danbooru halo 92%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru grey_hair 88%', src: danbooru}
     - {id: semi-long, weight: sub, note: 'danbooru medium_hair 51%', src: danbooru}
-    - {id: shirogami, weight: sub, note: 'danbooru grey_hair 89%（共有 8% のため比重を下げた）', src: danbooru}
-    - {id: aome, weight: spice, note: 'danbooru blue_eyes 83%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 83%（共有 24% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shishio-makoto
