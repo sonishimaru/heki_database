@@ -243,6 +243,10 @@ GENERIC_TAGS = {
     # 衣装は役割の記号なので、これまで通りここに置く。
     "konohagakure_symbol", "butterfly_mode_(naruto)", "gourd", "sand", "petals",
     "swirl", "open-toe_boots", "victorian", "fedora", "top_hat", "monocle_chain",
+    # 31 巡目。halo はこの巡で天使の対応から外した（作品の設定で全員に
+    # 付くことがある）。帽子の種類と競技名も。
+    "halo", "rectangular_halo", "fur_hat", "soccer",
+    "white_hat", "white_suit", "pink_bowtie", "baseball_mitt", "pill",
 }
 
 

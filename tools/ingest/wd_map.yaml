@@ -26,7 +26,7 @@ elements:
   twintail:
     tags: [twintails, low_twintails, short_twintails, two_side_up, quad_tails]
   ponytail:
-    tags: [ponytail, high_ponytail, side_ponytail, folded_ponytail, one_side_up, low_ponytail, topknot]
+    tags: [ponytail, high_ponytail, side_ponytail, folded_ponytail, one_side_up, low_ponytail, topknot, short_ponytail]
   hime-cut:
     tags: [hime_cut]
   ahoge:
@@ -52,7 +52,7 @@ elements:
     threshold: 0.6
     note: 閉眼と糸目は Danbooru 上で区別されにくい。常時その顔かどうかは要確認
   heterochromia:
-    tags: [heterochromia]
+    tags: [heterochromia, multicolored_eyes, two-tone_eyes]
   hikari-nashi:
     tags: [empty_eyes, expressionless_eyes, dark_persona]
   gantai:
@@ -92,7 +92,7 @@ elements:
     tags: [prosthesis, mechanical_arm, mechanical_arms, mechanical_hand, artificial_limb, automail, robot_arm, prosthetic_arm, single_mechanical_arm, prosthetic_leg]
   kokuin:
     tags: [tattoo, brand_of_sacrifice, symbol_on_body, back_tattoo, facial_mark, whisker_markings, facepaint, facial_tattoo, teardrop_facial_mark, forehead_mark, neck_tattoo, number_tattoo, forehead_tattoo, head_tattoo, chest_tattoo,
-        hand_tattoo, shoulder_tattoo, marking_on_cheek, swirl_on_cheek]
+        hand_tattoo, shoulder_tattoo, marking_on_cheek, swirl_on_cheek, crescent_facial_mark]
 
   # --- 服装 ---
   seifuku:
@@ -109,13 +109,13 @@ elements:
       sakakino_academy_school_uniform, sakuragaoka_high_school_uniform,
       shuuchiin_academy_school_uniform, sobu_high_school_uniform,
       tokiwadai_school_uniform, tokyo-3_middle_school_uniform,
-      yasogami_school_uniform]
+      yasogami_school_uniform, yomiyama_north_junior_high_school_uniform]
     threshold: 0.3
     note: 着ているかいないかしかない語なので、既定より低くてよい（41件が 0.30〜0.35 で落ちていた）
   hakui:
     tags: [labcoat, lab_coat, white_coat]
   wasou:
-    tags: [kimono, yukata, japanese_clothes, hakama, haori, white_kimono, pink_kimono, black_kimono, tate_eboshi, eboshi, kariginu]
+    tags: [kimono, yukata, japanese_clothes, hakama, haori, white_kimono, pink_kimono, black_kimono, tate_eboshi, eboshi, kariginu, kesa]
   gunpuku:
     tags: [military_uniform, epaulettes, peaked_cap, military, aiguillette]
   heyagi:
@@ -144,14 +144,14 @@ elements:
     tags: [headphones, headset, earphones, headphones_around_neck]
   buki:
     tags: [holding_weapon, weapon, sword, katana, gun, spear, scythe, holding_sword, sheath, knife, shield, legendary_shield_(tate_no_yuusha_no_nariagari), holding_gun, rifle, assault_rifle, handgun, holding_scythe, galaxia_(sword), dagger, axe, boomerang, hiraikotsu,
-        holding_knife, monado, keyblade, sword_of_dios, dominator_(gun)]
+        holding_knife, monado, keyblade, sword_of_dios, dominator_(gun), arm_shield, staff, shakujou]
 
   # --- 種族（外見から確実に読める範囲だけ） ---
   kemomimi:
     tags: [animal_ears, cat_ears, fox_ears, wolf_ears, animal_ear_fluff, wolf_girl, cat_girl, fox_girl, dog_ears, rabbit_ears, extra_ears, raccoon_girl, raccoon_ears, horse_ears, horse_girl, rabbit_girl, dog_girl, kitsune]
   jingai:
     tags: [horns, monster_girl, slime_girl, lamia, mermaid, red_horns, cone_horns, goat_horns, green_skin, antennae, crystal_hair,
-        single_horn, black_horns]
+        single_horn, black_horns, antlers]
   jinzou:
     tags: [android, robot, robot_joints, mechanical_parts, doll_joints, joints, cyborg, mechanical_magical_girl]
 
@@ -189,7 +189,7 @@ elements:
   mitsuami:
     tags: [braid, single_braid, twin_braids, french_braid, braided_ponytail, crown_braid, multiple_braids, half_up_braid, side_braid]
   odango:
-    tags: [hair_bun, double_bun, single_hair_bun, bun_cover]
+    tags: [hair_bun, double_bun, single_hair_bun, bun_cover, cone_hair_bun]
 
   # --- 体格（追加） ---
   kasshoku:
@@ -202,7 +202,8 @@ elements:
     tags: [vampire, fang_necklace]
     threshold: 0.4
   tenshi:
-    tags: [angel, halo, angel_wings]
+    tags: [angel, angel_wings]
+    note: halo は入れない。ブルーアーカイブのように設定で全員に付く作品がある
   akuma:
     tags: [demon_girl, demon_horns, demon_tail, demon_wings, demon_boy]
   erufu:
@@ -248,7 +249,7 @@ elements:
   # --- 3 巡目 ---
   messhu:
     tags: [multicolored_hair, two-tone_hair, streaked_hair, gradient_hair, colored_inner_hair, split-color_hair, red_streaks, colored_bangs, white_streaks, black_streaks,
-        single_hair_streak]
+        single_hair_streak, pink_streaks, blue_streaks]
 
   # --- 4 巡目 ---
   shippo:
@@ -314,7 +315,7 @@ elements:
   tsubasa:
     tags: [wings, bat_wings, angel_wings, feathered_wings, demon_wings, black_wings, low_wings]
   piasu:
-    tags: [piercing, ear_piercing, earrings, single_earring, snake_earrings]
+    tags: [piercing, ear_piercing, earrings, single_earring, snake_earrings, face_piercing]
     threshold: 0.5
     note: earrings は該当率が高いので閾値を上げている
   tabako:

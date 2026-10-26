@@ -1324,11 +1324,7 @@
 - id: chibiusa
   name: ちびうさ
   date: '2026-10-25'
-  unmapped_danbooru:
-  - tag: cone_hair_bun
-    frequency: 0.8712
-  - tag: crescent_facial_mark
-    frequency: 0.3712
+  unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
@@ -1536,9 +1532,7 @@
 - id: dragon-shiryu
   name: 紫龍
   date: '2026-10-25'
-  unmapped_danbooru:
-  - tag: arm_shield
-    frequency: 0.5
+  unmapped_danbooru: []
   near_miss:
   - id: bishounen
     tag: bishounen
@@ -4122,11 +4116,7 @@
 - id: kaitou-kid
   name: 怪盗キッド
   date: '2026-10-21'
-  unmapped_danbooru:
-  - tag: white_hat
-    frequency: 0.5121
-  - tag: white_suit
-    frequency: 0.4394
+  unmapped_danbooru: []
   near_miss:
   - id: kurokami
     tag: black_hair
@@ -4140,9 +4130,7 @@
 - id: kaizaki-arata
   name: 海崎新太
   date: '2026-10-16'
-  unmapped_danbooru:
-  - tag: pill
-    frequency: 1.0
+  unmapped_danbooru: []
   near_miss: []
   new_tag_proposals: []
 - id: kamado-nezuko
@@ -5962,9 +5950,7 @@
 - id: maetel
   name: メーテル
   date: '2026-10-21'
-  unmapped_danbooru:
-  - tag: fur_hat
-    frequency: 0.7871
+  unmapped_danbooru: []
   near_miss:
   - id: gaitou
     tag: coat
@@ -5974,9 +5960,7 @@
 - id: maizono-sayaka
   name: 舞園さやか
   date: '2026-10-25'
-  unmapped_danbooru:
-  - tag: pink_bowtie
-    frequency: 0.3906
+  unmapped_danbooru: []
   near_miss:
   - id: kurokami
     tag: black_hair
@@ -6210,11 +6194,7 @@
 - id: march-7th
   name: 三月なのか
   date: '2026-10-25'
-  unmapped_danbooru:
-  - tag: multicolored_eyes
-    frequency: 0.5224
-  - tag: two-tone_eyes
-    frequency: 0.4488
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -6464,9 +6444,7 @@
 - id: mihashi-ren
   name: 三橋廉
   date: '2026-10-25'
-  unmapped_danbooru:
-  - tag: baseball_mitt
-    frequency: 0.4615
+  unmapped_danbooru: []
   near_miss:
   - id: chapatsu
     tag: brown_hair
@@ -6646,12 +6624,6 @@
   unmapped_danbooru:
   - tag: hair_horns
     frequency: 0.8187
-  - tag: pink_streaks
-    frequency: 0.7564
-  - tag: blue_streaks
-    frequency: 0.6051
-  - tag: face_piercing
-    frequency: 0.5206
   near_miss:
   - id: tebukuro
     tag: gloves
@@ -6677,15 +6649,7 @@
 - id: miroku-inuyasha
   name: 弥勒
   date: '2026-10-21'
-  unmapped_danbooru:
-  - tag: kesa
-    frequency: 0.6667
-  - tag: staff
-    frequency: 0.5556
-  - tag: short_ponytail
-    frequency: 0.5556
-  - tag: shakujou
-    frequency: 0.5556
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -6721,9 +6685,7 @@
 - id: misaki-mei
   name: 見崎鳴
   date: '2026-10-25'
-  unmapped_danbooru:
-  - tag: yomiyama_north_junior_high_school_uniform
-    frequency: 0.5752
+  unmapped_danbooru: []
   near_miss:
   - id: heterochromia
     tag: heterochromia
@@ -8110,9 +8072,7 @@
 - id: oozora-tsubasa
   name: 大空翼
   date: '2026-10-02'
-  unmapped_danbooru:
-  - tag: soccer
-    frequency: 0.75
+  unmapped_danbooru: []
   near_miss:
   - id: kurokami
     tag: black_hair
@@ -10842,8 +10802,6 @@
   name: 天童アリス
   date: '2026-10-12'
   unmapped_danbooru:
-  - tag: rectangular_halo
-    frequency: 0.8688
   - tag: double-parted_bangs
     frequency: 0.4202
   near_miss:
@@ -11119,8 +11077,6 @@
   name: トニートニー・チョッパー
   date: '2026-10-21'
   unmapped_danbooru:
-  - tag: antlers
-    frequency: 0.6213
   - tag: reindeer_antlers
     frequency: 0.4734
   - tag: pink_hat
@@ -11182,9 +11138,7 @@
 - id: toyama-kasumi
   name: 戸山香澄
   date: '2026-09-30'
-  unmapped_danbooru:
-  - tag: cone_hair_bun
-    frequency: 0.5943
+  unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
     tag: long_hair
