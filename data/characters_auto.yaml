@@ -12884,14 +12884,13 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-10-12'
+    date: '2026-10-26'
   elements:
     - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 71%', src: danbooru}
-    - {id: tenshi, weight: core, note: 'danbooru halo 91%', src: danbooru}
     - {id: ponytail, weight: sub, note: 'danbooru one_side_up 46%', src: danbooru}
-    - {id: aome, weight: spice, note: 'danbooru blue_eyes 80%（共有 23% のため比重を下げた）', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 39% のため比重を下げた）', src: danbooru}
-    - {id: kurokami, weight: spice, note: 'danbooru black_hair 80%（共有 26% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 80%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 80%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: tenjou-utena

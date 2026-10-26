@@ -10944,18 +10944,18 @@
   new_tag_proposals: []
 - id: tendou-arisu
   name: 天童アリス
-  date: '2026-10-12'
+  date: '2026-10-26'
   unmapped_danbooru:
   - tag: double-parted_bangs
-    frequency: 0.4202
+    frequency: 0.422
   near_miss:
   - id: meido
     tag: maid_headdress
-    frequency: 0.1966
+    frequency: 0.1958
     threshold: 0.35
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.1854
+    frequency: 0.185
     threshold: 0.5
   new_tag_proposals: []
 - id: tenjou-utena
