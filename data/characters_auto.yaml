@@ -741,6 +741,26 @@
     - {id: tsuyoi-noni-moroi, weight: sub, note: '資料: 誰も倒せない最強の強さを誇る一方で、そのせいで挫折感や無気力に陥ってしまう精神的な危うさを抱えている。', src: gemini}
   patterns: []
 
+- id: aozaki-aoko
+  name: 蒼崎青子
+  kana: あおざきあおこ
+  work: 魔法使いの夜
+  year: 2012
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b11298-QVINnNyLJCN9.png'
+    page: 'https://anilist.co/character/11298'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 52%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 87%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 71%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 91%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: aqua-konosuba
   name: アクア
   kana: あくあ
@@ -2578,6 +2598,24 @@
     - {id: juusha, weight: sub, note: '資料: 璃月七星の秘書である。', src: gemini}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 45%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 89%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: garnet-til-alexandros
+  name: ガーネット
+  kana: がーねっと
+  work: ファイナルファンタジーIX
+  year: 2000
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 48%', src: danbooru}
+    - {id: choker, weight: sub, note: 'danbooru choker 50%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 56%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 42%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 58%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 49%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: gasai-yuno
@@ -10270,6 +10308,21 @@
     - {id: yosomono, weight: sub, note: '資料: 元の世界から来た異世界人（Otherworlder）であり転生者である。', src: gemini}
   patterns: []
 
+- id: rinoa-heartilly
+  name: リノア・ハーティリー
+  kana: りのあはーてぃりー
+  work: ファイナルファンタジーVIII
+  year: 1999
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 39%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 78%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 79%（共有 27% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: riza-hawkeye
   name: リザ・ホークアイ
   kana: りざほーくあい
@@ -11559,6 +11612,25 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 69%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: shinguuji-sakura
+  name: 真宮寺さくら
+  kana: しんぐうじさくら
+  work: サクラ大戦
+  year: 1996
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: ponytail, weight: core, note: 'danbooru ponytail 63%', src: danbooru}
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 64%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 44%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 66%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 48%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 86%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 59%（共有 27% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: shinjou-akane
   name: 新条アカネ
   kana: しんじょうあかね
@@ -11967,6 +12039,47 @@
     - {id: aogami, weight: sub, note: 'danbooru blue_hair 49%', src: danbooru}
   patterns: []
 
+- id: sol-badguy
+  name: ソル・バッドガイ
+  kana: そるばっどがい
+  work: GUILTY GEAR
+  year: 1998
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b30931-Z0h4zwBJW3DV.png'
+    page: 'https://anilist.co/character/30931'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: buki, weight: sub, note: 'danbooru weapon 38%', src: danbooru}
+    - {id: hachimaki, weight: sub, note: 'danbooru headband 50%', src: danbooru}
+    - {id: kinniku, weight: sub, note: 'danbooru muscular 50%', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 53%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 60%（共有 12% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 68%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 64%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: solid-snake
+  name: ソリッド・スネーク
+  kana: そりっどすねーく
+  work: メタルギアソリッド
+  year: 1998
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b272535-MdATaTz715Kx.png'
+    page: 'https://anilist.co/character/272535'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: bushouhige, weight: sub, note: 'danbooru facial_hair 49%', src: danbooru}
+    - {id: hachimaki, weight: sub, note: 'danbooru headband 57%', src: danbooru}
+  patterns: []
+
 - id: son-gohan
   name: 孫悟飯
   kana: そんごはん
@@ -12212,6 +12325,27 @@
     - {id: shoukin-kasegi, weight: core, note: '資料: 職業が賞金稼ぎ（bounty hunter）であること。', src: gemini}
     - {id: tabako, weight: core, note: 'danbooru cigarette 62%', src: danbooru}
     - {id: koushinchou, weight: sub, note: '資料: 身長が185cmであること。', src: gemini}
+  patterns: []
+
+- id: squall-leonhart
+  name: スコール・レオンハート
+  kana: すこーるれおんはーと
+  work: ファイナルファンタジーVIII
+  year: 1999
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b11632-4u071zk8PWrD.png'
+    page: 'https://anilist.co/character/11632'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: kizuato, weight: core, note: 'danbooru scar 74%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 46%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 70%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 87%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 71%（共有 41% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: stark
@@ -13093,6 +13227,25 @@
     date: '2026-10-21'
   elements:
     - {id: jingai, weight: core, note: 'danbooru horns 64%', src: danbooru}
+  patterns: []
+
+- id: toriko
+  name: トリコ
+  kana: とりこ
+  work: トリコ
+  year: 2008
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b156049-0ZDmKK1PvF0W.png'
+    page: 'https://anilist.co/character/156049'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 91%', src: danbooru}
+    - {id: kinniku, weight: core, note: 'danbooru muscular 64%', src: danbooru}
+    - {id: kizuato, weight: core, note: 'danbooru scar 82%', src: danbooru}
   patterns: []
 
 - id: toudou-jinpachi
@@ -14401,4 +14554,21 @@
     - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 85%（共有 22% のため比重を下げた）', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 82%（共有 39% のため比重を下げた）', src: danbooru}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 47%（共有 26% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: zidane-tribal
+  name: ジタン・トライバル
+  kana: じたんとらいばる
+  work: ファイナルファンタジーIX
+  year: 2000
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-26'
+  elements:
+    - {id: shippo, weight: core, note: 'danbooru tail 63%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 75%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 56%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 66%（共有 12% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 45%（共有 24% のため比重を下げた）', src: danbooru}
   patterns: []
