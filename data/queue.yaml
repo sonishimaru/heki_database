@@ -4774,13 +4774,9 @@ characters:
     year: 1986
     danbooru: dragon_shiryuu
     anilist: Shiryu
-  - id: izumi-shinichi
-    name: 泉新一
-    kana: いずみしんいち
-    work: 寄生獣
-    year: 1988
-    danbooru: izumi_shinichi_(kiseijuu)
-    anilist: Shinichi Izumi
+  # 泉新一（寄生獣）は izumi_shinichi と izumi_shinichi_(kiseijuu) の
+  # どちらも関連タグが取れなかったので外した。寄生獣はこの 1 人だけで、
+  # 兄弟で命名の裏も取れない。Danbooru にタグ自体が無さそう。
   - id: tachibana-makoto
     name: 橘真琴
     kana: たちばなまこと
@@ -4956,7 +4952,7 @@ characters:
     kana: くさなぎきょう
     work: THE KING OF FIGHTERS
     year: 1994
-    danbooru: kyo_kusanagi
+    danbooru: kusanagi_kyou
     anilist: Kyo Kusanagi
   - id: sol-badguy
     name: ソル・バッドガイ
@@ -4970,7 +4966,7 @@ characters:
     kana: さんず
     work: Undertale
     year: 2015
-    danbooru: sans
+    danbooru: sans_(undertale)
     anilist: Sans
   - id: toriko
     name: トリコ
@@ -5040,5 +5036,414 @@ characters:
     kana: げんかい
     work: 幽☆遊☆白書
     year: 1990
-    danbooru: genkai
+    danbooru: genkai_(yu_yu_hakusho)
     anilist: Genkai
+
+  # --- 27期目。未処理が 3 件まで減ったので補充。候補 85 名のうち 27 名は
+  #     既に入っていた。未収録の作品と、収録済み作品の空いていた側。
+  - id: gokudera-hayato
+    name: 獄寺隼人
+    kana: ごくでらはやと
+    work: 家庭教師ヒットマンREBORN!
+    year: 2004
+    danbooru: gokudera_hayato
+    anilist: Hayato Gokudera
+  - id: takamine-kiyomaro
+    name: 高嶺清麿
+    kana: たかみねきよまろ
+    work: 金色のガッシュ!!
+    year: 2001
+    danbooru: takamine_kiyomaro
+    anilist: Kiyomaro Takamine
+  - id: aono-tsukune
+    name: 青野月音
+    kana: あおのつくね
+    work: ロザリオとバンパイア
+    year: 2004
+    danbooru: aono_tsukune
+    anilist: Tsukune Aono
+  - id: akashiya-moka
+    name: 赤夜萌香
+    kana: あかしやもか
+    work: ロザリオとバンパイア
+    year: 2004
+    danbooru: akashiya_moka
+    anilist: Moka Akashiya
+  - id: tsurumi-tokushirou
+    name: 鶴見篤四郎
+    kana: つるみとくしろう
+    work: ゴールデンカムイ
+    year: 2014
+    danbooru: tsurumi_tokushirou
+    anilist: Tokushirou Tsurumi
+  - id: fushiguro-tsumiki
+    name: 伏黒津美紀
+    kana: ふしぐろつみき
+    work: 呪術廻戦
+    year: 2018
+    danbooru: fushiguro_tsumiki
+    anilist: Tsumiki Fushiguro
+  - id: nanami-chiaki
+    name: 七海千秋
+    kana: ななみちあき
+    work: スーパーダンガンロンパ2
+    year: 2012
+    danbooru: nanami_chiaki
+    anilist: Chiaki Nanami
+  - id: ouma-kokichi
+    name: 王馬小吉
+    kana: おうまこきち
+    work: ニューダンガンロンパV3
+    year: 2017
+    danbooru: ouma_kokichi
+    anilist: Kokichi Ouma
+  - id: mitsurugi-reiji
+    name: 御剣怜侍
+    kana: みつるぎれいじ
+    work: 逆転裁判
+    year: 2001
+    danbooru: mitsurugi_reiji
+    anilist: Miles Edgeworth
+  - id: shiranui-mai
+    name: 不知火舞
+    kana: しらぬいまい
+    work: 餓狼伝説
+    year: 1992
+    danbooru: shiranui_mai
+    anilist: Mai Shiranui
+  - id: terry-bogard
+    name: テリー・ボガード
+    kana: てりーぼがーど
+    work: 餓狼伝説
+    year: 1991
+    danbooru: terry_bogard
+    anilist: Terry Bogard
+  - id: kasugano-sakura
+    name: 春日野さくら
+    kana: かすがのさくら
+    work: ストリートファイター
+    year: 1996
+    danbooru: kasugano_sakura
+    anilist: Sakura Kasugano
+  - id: mishima-kazuya
+    name: 三島一八
+    kana: みしまかずや
+    work: 鉄拳
+    year: 1994
+    danbooru: mishima_kazuya
+    anilist: Kazuya Mishima
+  - id: kazama-jin
+    name: 風間仁
+    kana: かざまじん
+    work: 鉄拳
+    year: 1994
+    danbooru: kazama_jin
+    anilist: Jin Kazama
+  - id: hinata-hideki
+    name: 日向秀樹
+    kana: ひなたひでき
+    work: Angel Beats!
+    year: 2010
+    danbooru: hinata_hideki
+    anilist: Hideki Hinata
+  - id: kawasaki-saki
+    name: 川崎沙希
+    kana: かわさきさき
+    work: やはり俺の青春ラブコメはまちがっている。
+    year: 2011
+    danbooru: kawasaki_saki
+    anilist: Saki Kawasaki
+  - id: ryuuzaki-sakuno
+    name: 竜崎桜乃
+    kana: りゅうざきさくの
+    work: テニスの王子様
+    year: 1999
+    danbooru: ryuuzaki_sakuno
+    anilist: Sakuno Ryuuzaki
+  - id: natsume-reiko
+    name: 夏目レイコ
+    kana: なつめれいこ
+    work: 夏目友人帳
+    year: 2003
+    danbooru: natsume_reiko
+    anilist: Reiko Natsume
+  - id: nanami-touko
+    name: 七海燈子
+    kana: ななみとうこ
+    work: やがて君になる
+    year: 2015
+    danbooru: nanami_touko
+    anilist: Touko Nanami
+  - id: koito-yuu
+    name: 小糸侑
+    kana: こいとゆう
+    work: やがて君になる
+    year: 2015
+    danbooru: koito_yuu
+    anilist: Yuu Koito
+  - id: kirima-syaro
+    name: 桐間紗路
+    kana: きりまさろ
+    work: ご注文はうさぎですか?
+    year: 2011
+    danbooru: kirima_syaro
+    anilist: Sharo Kirima
+  - id: tedeza-rize
+    name: 天々座理世
+    kana: てでざりぜ
+    work: ご注文はうさぎですか?
+    year: 2011
+    danbooru: tedeza_rize
+    anilist: Rize Tedeza
+  - id: kafuu-chino
+    name: 香風智乃
+    kana: かふうちの
+    work: ご注文はうさぎですか?
+    year: 2011
+    danbooru: kafuu_chino
+    anilist: Chino Kafuu
+  - id: shinonono-houki
+    name: 篠ノ之箒
+    kana: しののののほうき
+    work: IS〈インフィニット・ストラトス〉
+    year: 2009
+    danbooru: shinonono_houki
+    anilist: Houki Shinonono
+  - id: makinami-mari
+    name: 真希波・マリ
+    kana: まきなみまり
+    work: 新世紀エヴァンゲリオン
+    year: 2009
+    danbooru: makinami_mari_illustrious
+    anilist: Mari Makinami
+  - id: tsunade-naruto
+    name: 綱手
+    kana: つなで
+    work: NARUTO
+    year: 1999
+    danbooru: tsunade_(naruto)
+    anilist: Tsunade
+  - id: nara-shikamaru
+    name: 奈良シカマル
+    kana: ならしかまる
+    work: NARUTO
+    year: 1999
+    danbooru: nara_shikamaru
+    anilist: Shikamaru Nara
+  - id: yamanaka-ino
+    name: 山中いの
+    kana: やまなかいの
+    work: NARUTO
+    year: 1999
+    danbooru: yamanaka_ino
+    anilist: Ino Yamanaka
+  - id: sakamoto-tarou
+    name: 坂本太郎
+    kana: さかもとたろう
+    work: SAKAMOTO DAYS
+    year: 2020
+    danbooru: sakamoto_tarou_(sakamoto_days)
+    anilist: Taro Sakamoto
+  - id: shin-sakamoto-days
+    name: シン
+    kana: しん
+    work: SAKAMOTO DAYS
+    year: 2020
+    danbooru: shin_(sakamoto_days)
+    anilist: Shin
+  - id: inomata-taiki
+    name: 猪股大喜
+    kana: いのまただいき
+    work: アオのハコ
+    year: 2021
+    danbooru: inomata_taiki
+    anilist: Taiki Inomata
+  - id: chinatsu-kano
+    name: 鹿野千夏
+    kana: かのちなつ
+    work: アオのハコ
+    year: 2021
+    danbooru: kano_chinatsu
+    anilist: Chinatsu Kano
+  - id: shinei-nouzen
+    name: シンエイ・ノウゼン
+    kana: しんえいのうぜん
+    work: 86―エイティシックス―
+    year: 2017
+    danbooru: shinei_nouzen
+    anilist: Shinei Nouzen
+  - id: vladilena-milize
+    name: ヴラディレーナ・ミリーゼ
+    kana: ゔらでぃれーなみりーぜ
+    work: 86―エイティシックス―
+    year: 2017
+    danbooru: vladilena_milize
+    anilist: Vladilena Milize
+  - id: ichikawa-kyoutarou
+    name: 市川京太郎
+    kana: いちかわきょうたろう
+    work: 僕の心のヤバイやつ
+    year: 2018
+    danbooru: ichikawa_kyoutarou
+    anilist: Kyotaro Ichikawa
+  - id: yaoyorozu-momo
+    name: 八百万百
+    kana: やおよろずもも
+    work: 僕のヒーローアカデミア
+    year: 2014
+    danbooru: yaoyorozu_momo
+    anilist: Momo Yaoyorozu
+  - id: asui-tsuyu
+    name: 蛙吹梅雨
+    kana: あすいつゆ
+    work: 僕のヒーローアカデミア
+    year: 2014
+    danbooru: asui_tsuyu
+    anilist: Tsuyu Asui
+  - id: mirko
+    name: ミルコ
+    kana: みるこ
+    work: 僕のヒーローアカデミア
+    year: 2014
+    danbooru: mirko
+    anilist: Mirko
+  - id: iguro-obanai
+    name: 伊黒小芭内
+    kana: いぐろおばない
+    work: 鬼滅の刃
+    year: 2016
+    danbooru: iguro_obanai
+    anilist: Obanai Iguro
+  - id: shinazugawa-sanemi
+    name: 不死川実弥
+    kana: しなずがわさねみ
+    work: 鬼滅の刃
+    year: 2016
+    danbooru: shinazugawa_sanemi
+    anilist: Sanemi Shinazugawa
+  - id: kibutsuji-muzan
+    name: 鬼舞辻無惨
+    kana: きぶつじむざん
+    work: 鬼滅の刃
+    year: 2016
+    danbooru: kibutsuji_muzan
+    anilist: Muzan Kibutsuji
+  - id: todo-aoi
+    name: 東堂葵
+    kana: とうどうあおい
+    work: 呪術廻戦
+    year: 2018
+    danbooru: toudou_aoi_(jujutsu_kaisen)
+    anilist: Aoi Todo
+  - id: mahito
+    name: 真人
+    kana: まひと
+    work: 呪術廻戦
+    year: 2018
+    danbooru: mahito_(jujutsu_kaisen)
+    anilist: Mahito
+  - id: ryomen-sukuna
+    name: 両面宿儺
+    kana: りょうめんすくな
+    work: 呪術廻戦
+    year: 2018
+    danbooru: ryoumen_sukuna_(jujutsu_kaisen)
+    anilist: Ryomen Sukuna
+  - id: reze-chainsaw-man
+    name: レゼ
+    kana: れぜ
+    work: チェンソーマン
+    year: 2018
+    danbooru: reze_(chainsaw_man)
+    anilist: Reze
+  - id: kobeni-higashiyama
+    name: 東山コベニ
+    kana: ひがしやまこべに
+    work: チェンソーマン
+    year: 2018
+    danbooru: higashiyama_kobeni
+    anilist: Kobeni Higashiyama
+  - id: fiona-frost
+    name: ナイトフォール
+    kana: ないとふぉーる
+    work: SPY×FAMILY
+    year: 2019
+    danbooru: fiona_frost
+    anilist: Fiona Frost
+  - id: becky-blackbell
+    name: ベッキー・ブラックベル
+    kana: べっきーぶらっくべる
+    work: SPY×FAMILY
+    year: 2019
+    danbooru: becky_blackbell
+    anilist: Becky Blackbell
+  - id: damian-desmond
+    name: ダミアン・デズモンド
+    kana: だみあんでずもんど
+    work: SPY×FAMILY
+    year: 2019
+    danbooru: damian_desmond
+    anilist: Damian Desmond
+  - id: kujo-sara
+    name: 九条裟羅
+    kana: くじょうさら
+    work: 原神
+    year: 2020
+    danbooru: kujou_sara
+    anilist: Kujou Sara
+  - id: yae-miko
+    name: 八重神子
+    kana: やえみこ
+    work: 原神
+    year: 2020
+    danbooru: yae_miko
+    anilist: Yae Miko
+  - id: furina
+    name: フリーナ
+    kana: ふりーな
+    work: 原神
+    year: 2020
+    danbooru: furina_(genshin_impact)
+    anilist: Furina
+  - id: kafka-honkai
+    name: カフカ
+    kana: かふか
+    work: 崩壊:スターレイル
+    year: 2023
+    danbooru: kafka_(honkai:_star_rail)
+    anilist: Kafka
+  - id: silver-wolf
+    name: 銀狼
+    kana: ぎんろう
+    work: 崩壊:スターレイル
+    year: 2023
+    danbooru: silver_wolf_(honkai:_star_rail)
+    anilist: Silver Wolf
+  - id: hoshino-blue-archive
+    name: 小鳥遊ホシノ
+    kana: たかなしほしの
+    work: ブルーアーカイブ
+    year: 2021
+    danbooru: hoshino_(blue_archive)
+    anilist: Hoshino
+  - id: yuuka-blue-archive
+    name: 早瀬ユウカ
+    kana: はやせゆうか
+    work: ブルーアーカイブ
+    year: 2021
+    danbooru: yuuka_(blue_archive)
+    anilist: Yuuka
+  - id: hina-blue-archive
+    name: 空崎ヒナ
+    kana: そらさきひな
+    work: ブルーアーカイブ
+    year: 2021
+    danbooru: hina_(blue_archive)
+    anilist: Hina
+  - id: uesugi-fuutarou
+    name: 上杉風太郎
+    kana: うえすぎふうたろう
+    work: 五等分の花嫁
+    year: 2017
+    danbooru: uesugi_fuutarou
+    anilist: Fuutarou Uesugi

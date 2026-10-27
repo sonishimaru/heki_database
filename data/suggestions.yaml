@@ -2185,9 +2185,7 @@
 - id: garnet-til-alexandros
   name: ガーネット
   date: '2026-10-26'
-  unmapped_danbooru:
-  - tag: orange_bodysuit
-    frequency: 0.5317
+  unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
@@ -8028,9 +8026,7 @@
 - id: okumura-rin
   name: 奥村燐
   date: '2026-10-01'
-  unmapped_danbooru:
-  - tag: blue_fire
-    frequency: 0.5175
+  unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
@@ -9913,9 +9909,7 @@
 - id: shinomiya-kikoru
   name: 四ノ宮キコル
   date: '2026-10-22'
-  unmapped_danbooru:
-  - tag: black_bodysuit
-    frequency: 0.5135
+  unmapped_danbooru: []
   near_miss:
   - id: tebukuro
     tag: gloves
@@ -9941,11 +9935,7 @@
 - id: shinomori-aoshi
   name: 四乃森蒼紫
   date: '2026-10-25'
-  unmapped_danbooru:
-  - tag: black_pants
-    frequency: 0.5
-  - tag: dual_wielding
-    frequency: 0.5
+  unmapped_danbooru: []
   near_miss:
   - id: ahoge
     tag: ahoge

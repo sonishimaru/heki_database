@@ -247,6 +247,8 @@ GENERIC_TAGS = {
     # 付くことがある）。帽子の種類と競技名も。
     "halo", "rectangular_halo", "fur_hat", "soccer",
     "white_hat", "white_suit", "pink_bowtie", "baseball_mitt", "pill",
+    # 32 巡目。色と衣類の組み合わせ、効果。
+    "orange_bodysuit", "black_bodysuit", "black_pants", "blue_fire",
 }
 
 

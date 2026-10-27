@@ -286,6 +286,7 @@ NAME_EXCEPTIONS = {
     "white-blood-cell": "訳名（白血球）",
     "princess-peach": "姫が princess に移る",
     "march-7th": "訳名（三月なのか）",
+    "silver-wolf": "訳名（銀狼）",
 }
 
 KATAKANA_ONLY = re.compile(r"^[ァ-ヶー・\s]+$")

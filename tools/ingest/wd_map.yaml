@@ -144,7 +144,7 @@ elements:
     tags: [headphones, headset, earphones, headphones_around_neck]
   buki:
     tags: [holding_weapon, weapon, sword, katana, gun, spear, scythe, holding_sword, sheath, knife, shield, legendary_shield_(tate_no_yuusha_no_nariagari), holding_gun, rifle, assault_rifle, handgun, holding_scythe, galaxia_(sword), dagger, axe, boomerang, hiraikotsu,
-        holding_knife, monado, keyblade, sword_of_dios, dominator_(gun), arm_shield, staff, shakujou]
+        holding_knife, monado, keyblade, sword_of_dios, dominator_(gun), arm_shield, staff, shakujou, dual_wielding]
 
   # --- 種族（外見から確実に読める範囲だけ） ---
   kemomimi:
