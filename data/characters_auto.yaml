@@ -4359,6 +4359,27 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 81%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: inomata-taiki
+  name: 猪股大喜
+  kana: いのまただいき
+  work: アオのハコ
+  year: 2021
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b191242-uQJUPMyknaTb.png'
+    page: 'https://anilist.co/character/191242'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-28'
+  elements:
+    - {id: sakadachi-gami, weight: core, note: 'danbooru spiked_hair 100%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 100%（共有 17% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 100%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 100%（共有 27% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 100%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: inoue-orihime
   name: 井上織姫
   kana: いのうえおりひめ
@@ -4914,6 +4935,25 @@
     - {id: koushinchou, weight: sub, note: '資料: 身長は195cm（6''5"）', src: gemini}
     - {id: mafuraa, weight: sub, note: 'danbooru scarf 50%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 58%', src: danbooru}
+  patterns: []
+
+- id: kafuu-chino
+  name: 香風智乃
+  kana: かふうちの
+  work: 'ご注文はうさぎですか?'
+  year: 2011
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b88032-YQOBGYKIpgnN.png'
+    page: 'https://anilist.co/character/88032'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-28'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 80%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 91%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kaga-kancolle
@@ -5989,6 +6029,23 @@
     - {id: akagami, weight: sub, note: 'danbooru red_hair 87%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 74%（共有 13% のため比重を下げた）', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 89%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: kirima-syaro
+  name: 桐間紗路
+  kana: きりまさろ
+  work: 'ご注文はうさぎですか?'
+  year: 2011
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-28'
+  elements:
+    - {id: furiru, weight: sub, note: 'danbooru frills 47%', src: danbooru}
+    - {id: kemomimi, weight: sub, note: 'danbooru animal_ears 44%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 93%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 37%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 55%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kirisaki-chitoge
@@ -7639,6 +7696,27 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 36%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: makinami-mari
+  name: 真希波・マリ
+  kana: まきなみまり
+  work: 新世紀エヴァンゲリオン
+  year: 2009
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b21512-IuVgN5P0zg5P.jpg'
+    page: 'https://anilist.co/character/21512'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-28'
+  elements:
+    - {id: megane, weight: core, note: 'danbooru glasses 93%', src: danbooru}
+    - {id: twintail, weight: sub, note: 'danbooru twintails 51%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 58%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 74%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 74%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: makise-kurisu
   name: 牧瀬紅莉栖
   kana: まきせくりす
@@ -9244,6 +9322,24 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 56%', src: danbooru}
     - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 72%（共有 22% のため比重を下げた）', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 40%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: nara-shikamaru
+  name: 奈良シカマル
+  kana: ならしかまる
+  work: NARUTO
+  year: 1999
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2007-QaesJlIZDifj.jpg'
+    page: 'https://anilist.co/character/2007'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-28'
+  elements:
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 52%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 67%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: naruhodou-ryuuichi
@@ -12022,6 +12118,24 @@
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 64%（共有 26% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: shin-sakamoto-days
+  name: シン
+  kana: しん
+  work: SAKAMOTO DAYS
+  year: 2020
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b141060-ZJFvHqBBSvhN.png'
+    page: 'https://anilist.co/character/141060'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-28'
+  elements:
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 85%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 83%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: shindou-hikaru
   name: 進藤ヒカル
   kana: しんどうひかる
@@ -12187,6 +12301,27 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 44%', src: danbooru}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 87%（共有 25% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 77%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: shinonono-houki
+  name: 篠ノ之箒
+  kana: しののののほうき
+  work: IS〈インフィニット・ストラトス〉
+  year: 2009
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b35660-kHfdwJ4ZOubg.jpg'
+    page: 'https://anilist.co/character/35660'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-28'
+  elements:
+    - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 52%', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 80%（共有 8% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 63%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 38% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 69%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shion-tensura
@@ -13326,6 +13461,26 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 39%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: tedeza-rize
+  name: 天々座理世
+  kana: てでざりぜ
+  work: 'ご注文はうさぎですか?'
+  year: 2011
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b88034-RjrFBU7gVCGO.png'
+    page: 'https://anilist.co/character/88034'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-28'
+  elements:
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 92%', src: danbooru}
+    - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 92%', src: danbooru}
+    - {id: twintail, weight: core, note: 'danbooru twintails 70%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: tendou-akane
   name: 天道あかね
   kana: てんどうあかね
@@ -13979,6 +14134,29 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 52%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: tsunade-naruto
+  name: 綱手
+  kana: つなで
+  work: NARUTO
+  year: 1999
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2767-r61Cj9v8I0wl.png'
+    page: 'https://anilist.co/character/2767'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-28'
+  elements:
+    - {id: kokuin, weight: core, note: 'danbooru facial_mark 84%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 48%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 88%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: kyonyuu, weight: sub, note: 'danbooru huge_breasts 53%', src: danbooru}
+    - {id: sakotsu, weight: sub, note: 'danbooru collarbone 40%', src: danbooru}
+    - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 40%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 64%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: tsunemori-akane
   name: 常守朱
   kana: つねもりあかね
@@ -14584,6 +14762,27 @@
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 77%', src: danbooru}
     - {id: namida-bokuro, weight: core, note: 'danbooru mole_under_eye 66%', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 73%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: yamanaka-ino
+  name: 山中いの
+  kana: やまなかいの
+  work: NARUTO
+  year: 1999
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2009-H7n38Ns1fr0Y.jpg'
+    page: 'https://anilist.co/character/2009'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-28'
+  elements:
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 85%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: mekakure, weight: sub, note: 'danbooru hair_over_one_eye 53%', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 56%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 57%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 76%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yashiro-nene
