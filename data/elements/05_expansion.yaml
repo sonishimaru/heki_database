@@ -682,15 +682,23 @@
   tags: []
 
 - id: bushouhige
-  name: 無精髭
-  kana: ぶしょうひげ
-  aliases: [不精髭, 髭]
+  name: 髭
+  kana: ひげ
+  aliases: [無精髭, 不精髭, 顎髭, 口髭]
   axis: appearance.face
-  summary: 剃り残した髭。生活の乱れと年季を同時に出す。
-  effect: 整えた姿との落差を作り、私生活のだらしなさを一目で見せる。
-  pairs_with: [zubora, kuma]
+  summary: 顔に生えた髭。剃り残しも整えた髭もここに入る。
+  effect: 年季と手入れの度合いを顔だけで示す。剃り残しならだらしなさ、整えていれば余裕。
+  pairs_with: [zubora, kuma, nagaremono]
   contrasts_with: []
   tags: [定番]
+  # id が bushouhige のままなのは、無精髭という名前で始めたから。
+  # 実際には facial_hair（髭があるかどうか）でしか引けていなかった。
+  # 29 巡目の時点で 20 名すべてが facial_hair 由来で、センシの立派な髭
+  # （96%）も次元大介の剃り残し（89%）も同じ語に入っていた。Danbooru は
+  # この二つを区別しないので、引ける粒度に名前を合わせた。
+  # 剃り残しかどうかの読みは aliases に残し、人の判断で足す。
+  # id を変えると既存の記録 700 件以上と参照 4 箇所を書き換えることになる
+  # ので、そのままにしている。
 
 - id: sobakasu
   name: そばかす
@@ -1395,4 +1403,20 @@
   effect: 周りが気づく瞬間までの間を作り、本人がどう受け止めるかを書く。
   pairs_with: [chuuseiteki, bishounen, seifuku]
   contrasts_with: [kinniku, bushouhige]
+  tags: [定番]
+
+# --- 33 巡目。扇子が 2 作品目に達した ---
+# hand_fan / folding_fan が藤原佐為（ヒカルの碁）と不知火舞（餓狼伝説）から
+# 独立に出た。小物の軸には得物・楽器・煙草はあるが、手に持つ所作の道具が
+# 無かった。
+
+- id: sensu
+  name: 扇子
+  kana: せんす
+  aliases: [扇, 扇ぐもの]
+  axis: appearance.item
+  summary: 手に持つ扇。開く・閉じる・口元を隠すという所作が付いてくる。
+  effect: 間を取る道具として持たせ、閉じた瞬間に本音を言わせる。
+  pairs_with: [wasou, miko, yoyuu]
+  contrasts_with: []
   tags: [定番]

@@ -2010,13 +2010,7 @@
 - id: fujiwara-no-sai
   name: 藤原佐為
   date: '2026-10-18'
-  unmapped_danbooru:
-  - tag: hand_fan
-    frequency: 0.5085
-  - tag: folding_fan
-    frequency: 0.4576
-  - tag: holding_fan
-    frequency: 0.4068
+  unmapped_danbooru: []
   near_miss:
   - id: bukabuka
     tag: sleeves_past_wrists
@@ -5158,9 +5152,7 @@
 - id: koito-yuu
   name: 小糸侑
   date: '2026-10-27'
-  unmapped_danbooru:
-  - tag: tohmi_higashi_high_school_uniform
-    frequency: 0.5495
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -7645,9 +7637,7 @@
 - id: nanami-touko
   name: 七海燈子
   date: '2026-10-27'
-  unmapped_danbooru:
-  - tag: tohmi_higashi_high_school_uniform
-    frequency: 0.6111
+  unmapped_danbooru: []
   near_miss:
   - id: kurome
     tag: black_eyes
@@ -9803,16 +9793,8 @@
   name: センシ
   date: '2026-10-05'
   unmapped_danbooru:
-  - tag: mustache
-    frequency: 0.924
   - tag: dwarf
     frequency: 0.9066
-  - tag: long_beard
-    frequency: 0.8892
-  - tag: thick_mustache
-    frequency: 0.8506
-  - tag: very_long_beard
-    frequency: 0.7671
   near_miss:
   - id: kinniku
     tag: muscular
@@ -10363,12 +10345,8 @@
   name: 不知火舞
   date: '2026-10-27'
   unmapped_danbooru:
-  - tag: hand_fan
-    frequency: 0.5505
   - tag: revealing_clothes
     frequency: 0.4898
-  - tag: folding_fan
-    frequency: 0.3992
   near_miss:
   - id: sakotsu
     tag: collarbone
@@ -11907,8 +11885,6 @@
   name: 鶴見篤四郎
   date: '2026-10-27'
   unmapped_danbooru:
-  - tag: mustache
-    frequency: 0.8462
   - tag: hair_slicked_back
     frequency: 0.4154
   near_miss:

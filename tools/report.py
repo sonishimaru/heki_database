@@ -114,32 +114,53 @@ def report_near_miss(suggestions: list[dict]) -> None:
     print("     逆に単発で低いものは、そのキャラの絵柄の揺れなので触らない。")
 
 
+def works_by_id() -> dict[str, str]:
+    """人物 id → 作品名。未対応タグが何作品から出ているかを数えるのに使う。"""
+    payload = yaml.safe_load((ROOT / "data" / "queue.yaml").read_text(encoding="utf-8")) or {}
+    entries = payload.get("characters") if isinstance(payload, dict) else payload
+    return {e["id"]: e.get("work") or "?" for e in entries or []}
+
+
 def report_unmapped(suggestions: list[dict]) -> None:
-    """対応表に無い高頻度タグと、資料レーンからの新語提案。"""
-    tags: Counter = Counter()
+    """対応表に無い高頻度タグと、資料レーンからの新語提案。
+
+    昇格の基準は「2 作品以上から独立に出ていること」なので、件数ではなく
+    作品数で数える。件数で数えていたせいで、鉄拳の 2 人から出た
+    v-shaped_eyebrows が「複数作品」と出て、1 作品しか裏が無いのに
+    基準を満たしたように見えていた（8 種のうち実際に 2 作品だったのは 4 種）。
+    """
+    works = works_by_id()
+    tag_works: dict[str, set[str]] = {}
+    tag_count: Counter = Counter()
     tag_best: dict[str, float] = {}
-    proposals: Counter = Counter()
+    proposal_works: dict[str, set[str]] = {}
     for entry in suggestions:
+        work = works.get(entry["id"], "?")
         for row in entry.get("unmapped_danbooru") or []:
-            tags[row["tag"]] += 1
+            tag_works.setdefault(row["tag"], set()).add(work)
+            tag_count[row["tag"]] += 1
             tag_best[row["tag"]] = max(tag_best.get(row["tag"], 0.0), row["frequency"])
         for row in entry.get("new_tag_proposals") or []:
             label = row.get("name") or row.get("tag") or ""
             if label:
-                proposals[label] += 1
+                proposal_works.setdefault(label, set()).add(work)
 
-    print(f"\n■ 対応表に無い高頻度タグ（{len(tags)} 種）")
-    for tag, count in tags.most_common(30):
-        mark = "  ←複数作品" if count >= 2 else ""
-        print(f"  {tag:<34} {count:>2} 件 / 最高 {tag_best[tag]:.2f}{mark}")
-    if not tags:
+    print(f"\n■ 対応表に無い高頻度タグ（{len(tag_works)} 種）")
+    ranked = sorted(tag_works, key=lambda t: (-len(tag_works[t]), -tag_best[t]))
+    for tag in ranked[:30]:
+        nwork = len(tag_works[tag])
+        mark = f"  ←{nwork} 作品" if nwork >= 2 else ""
+        print(f"  {tag:<34} {tag_count[tag]:>2} 件 / 最高 {tag_best[tag]:.2f}{mark}")
+    if not tag_works:
         print("  なし")
 
-    print(f"\n■ 資料レーンからの新語提案（{len(proposals)} 種）")
-    for label, count in proposals.most_common(40):
-        mark = "  ←複数作品" if count >= 2 else ""
-        print(f"  {label:<28} {count:>2} 件{mark}")
-    if not proposals:
+    print(f"\n■ 資料レーンからの新語提案（{len(proposal_works)} 種）")
+    ranked = sorted(proposal_works, key=lambda l: -len(proposal_works[l]))
+    for label in ranked[:40]:
+        nwork = len(proposal_works[label])
+        mark = f"  ←{nwork} 作品" if nwork >= 2 else ""
+        print(f"  {label:<28} {nwork:>2} 作品{mark}")
+    if not proposal_works:
         print("  なし")
 
 

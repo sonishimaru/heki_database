@@ -109,7 +109,8 @@ elements:
       sakakino_academy_school_uniform, sakuragaoka_high_school_uniform,
       shuuchiin_academy_school_uniform, sobu_high_school_uniform,
       tokiwadai_school_uniform, tokyo-3_middle_school_uniform,
-      yasogami_school_uniform, yomiyama_north_junior_high_school_uniform]
+      yasogami_school_uniform, yomiyama_north_junior_high_school_uniform,
+      tohmi_higashi_high_school_uniform]
     threshold: 0.3
     note: 着ているかいないかしかない語なので、既定より低くてよい（41件が 0.30〜0.35 で落ちていた）
   hakui:
@@ -300,7 +301,8 @@ elements:
   bouzu:
     tags: [bald, shaved_head, buzz_cut]
   bushouhige:
-    tags: [stubble, beard_stubble, facial_hair, beard, goatee, goatee_stubble]
+    tags: [stubble, beard_stubble, facial_hair, beard, goatee, goatee_stubble,
+      mustache, thick_mustache, long_beard, very_long_beard]
   sobakasu:
     tags: [freckles]
   kamen:
@@ -328,6 +330,10 @@ elements:
   # --- 9 巡目 ---
   futomayu:
     tags: [thick_eyebrows]
+
+  # --- 33 巡目に昇格した語 ---
+  sensu:
+    tags: [hand_fan, folding_fan, holding_fan]
 
   # --- 29 巡目に昇格した語 ---
   josou:
