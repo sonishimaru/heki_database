@@ -554,16 +554,16 @@
   new_tag_proposals: []
 - id: android-18
   name: 人造人間18号
-  date: '2026-08-31'
+  date: '2026-10-29'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.3958
+    frequency: 0.397
     threshold: 0.5
   - id: sakotsu
     tag: collarbone
-    frequency: 0.2153
+    frequency: 0.2154
     threshold: 0.35
   new_tag_proposals: []
 - id: anya-forger
@@ -1348,28 +1348,28 @@
   new_tag_proposals: []
 - id: bulma
   name: ブルマ
-  date: '2026-08-31'
+  date: '2026-10-29'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.3389
+    frequency: 0.3423
     threshold: 0.5
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.2771
+    frequency: 0.2792
     threshold: 0.35
   - id: tebukuro
     tag: gloves
-    frequency: 0.2485
+    frequency: 0.2453
     threshold: 0.35
   - id: kemomimi
     tag: animal_ears
-    frequency: 0.2105
+    frequency: 0.2103
     threshold: 0.35
   - id: piasu
     tag: earrings
-    frequency: 0.1617
+    frequency: 0.1647
     threshold: 0.5
   new_tag_proposals: []
 - id: casca
@@ -2091,7 +2091,7 @@
   new_tag_proposals: []
 - id: frieza
   name: フリーザ
-  date: '2026-08-31'
+  date: '2026-10-29'
   unmapped_danbooru: []
   near_miss:
   - id: kinniku
@@ -2100,7 +2100,7 @@
     threshold: 0.35
   - id: jingai
     tag: horns
-    frequency: 0.1844
+    frequency: 0.1793
     threshold: 0.35
   new_tag_proposals: []
 - id: fuji-shuusuke
@@ -3272,6 +3272,20 @@
     frequency: 0.1852
     threshold: 0.35
   new_tag_proposals: []
+- id: hina-blue-archive
+  name: 空崎ヒナ
+  date: '2026-10-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.3466
+    threshold: 0.5
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2896
+    threshold: 0.35
+  new_tag_proposals: []
 - id: hinata-hajime
   name: 日向創
   date: '2026-10-25'
@@ -3474,6 +3488,34 @@
     tag: school_uniform
     frequency: 0.1582
     threshold: 0.3
+  new_tag_proposals: []
+- id: hoshino-blue-archive
+  name: 小鳥遊ホシノ
+  date: '2026-10-29'
+  unmapped_danbooru:
+  - tag: pink_halo
+    frequency: 0.5968
+  near_miss:
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2254
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.2188
+    threshold: 0.5
+  - id: twintail
+    tag: twintails
+    frequency: 0.2116
+    threshold: 0.35
+  - id: furiru
+    tag: frills
+    frequency: 0.1934
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1666
+    threshold: 0.35
   new_tag_proposals: []
 - id: hoshino-ruby
   name: 星野ルビー
@@ -4272,6 +4314,28 @@
     tag: abs
     frequency: 0.1708
     threshold: 0.35
+  new_tag_proposals: []
+- id: kafka-honkai
+  name: カフカ
+  date: '2026-10-29'
+  unmapped_danbooru:
+  - tag: eyewear_on_head
+    frequency: 0.675
+  - tag: purple_gloves
+    frequency: 0.3872
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3242
+    threshold: 0.5
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.176
+    threshold: 0.35
+  - id: piasu
+    tag: earrings
+    frequency: 0.1636
+    threshold: 0.5
   new_tag_proposals: []
 - id: kafuu-chino
   name: 香風智乃
@@ -9015,24 +9079,24 @@
   new_tag_proposals: []
 - id: piccolo
   name: ピッコロ
-  date: '2026-08-31'
+  date: '2026-10-29'
   unmapped_danbooru: []
   near_miss:
-  - id: gaitou
-    tag: cape
-    frequency: 0.3368
-    threshold: 0.35
   - id: kinniku
     tag: muscular
-    frequency: 0.3263
+    frequency: 0.3316
+    threshold: 0.35
+  - id: gaitou
+    tag: cape
+    frequency: 0.3316
     threshold: 0.35
   - id: bouzu
     tag: bald
-    frequency: 0.2895
+    frequency: 0.2953
     threshold: 0.35
   - id: akame
     tag: red_eyes
-    frequency: 0.1684
+    frequency: 0.171
     threshold: 0.35
   new_tag_proposals: []
 - id: pinoko
@@ -11102,6 +11166,32 @@
     frequency: 0.1912
     threshold: 0.35
   new_tag_proposals: []
+- id: silver-wolf
+  name: 銀狼
+  date: '2026-10-29'
+  unmapped_danbooru:
+  - tag: eyewear_on_head
+    frequency: 0.5148
+  - tag: crossed_bangs
+    frequency: 0.3595
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4448
+    threshold: 0.5
+  - id: megane
+    tag: tinted_eyewear
+    frequency: 0.2765
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.1957
+    threshold: 0.5
+  - id: choker
+    tag: choker
+    frequency: 0.1852
+    threshold: 0.35
+  new_tag_proposals: []
 - id: simon
   name: シモン
   date: '2026-10-12'
@@ -12343,20 +12433,24 @@
   new_tag_proposals: []
 - id: trunks
   name: トランクス
-  date: '2026-08-31'
+  date: '2026-10-29'
   unmapped_danbooru: []
   near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.3469
+    threshold: 0.35
   - id: kinniku
     tag: muscular
-    frequency: 0.186
+    frequency: 0.1959
     threshold: 0.35
   - id: kinpatsu
     tag: blonde_hair
-    frequency: 0.1736
+    frequency: 0.1755
     threshold: 0.35
   - id: sakadachi-gami
     tag: spiked_hair
-    frequency: 0.1612
+    frequency: 0.1673
     threshold: 0.35
   new_tag_proposals: []
 - id: tsukamoto-tenma
@@ -12533,6 +12627,52 @@
   - id: sakadachi-gami
     tag: spiked_hair
     frequency: 0.2038
+    threshold: 0.35
+  new_tag_proposals: []
+- id: uesugi-fuutarou
+  name: 上杉風太郎
+  date: '2026-10-29'
+  unmapped_danbooru:
+  - tag: doll
+    frequency: 0.4333
+  - tag: character_doll
+    frequency: 0.3833
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4333
+    threshold: 0.5
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.35
+    threshold: 0.5
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.3167
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2833
+    threshold: 0.35
+  - id: akagami
+    tag: orange_hair
+    frequency: 0.25
+    threshold: 0.35
+  - id: pinku-gami
+    tag: pink_hair
+    frequency: 0.2167
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2
+    threshold: 0.3
+  - id: ahoge
+    tag: ahoge
+    frequency: 0.15
     threshold: 0.35
   new_tag_proposals: []
 - id: urahara-kisuke
@@ -13470,6 +13610,34 @@
   - id: semi-long
     tag: medium_hair
     frequency: 0.2026
+    threshold: 0.35
+  new_tag_proposals: []
+- id: yuuka-blue-archive
+  name: 早瀬ユウカ
+  date: '2026-10-29'
+  unmapped_danbooru:
+  - tag: mechanical_halo
+    frequency: 0.5478
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3236
+    threshold: 0.5
+  - id: aogami
+    tag: blue_hair
+    frequency: 0.1996
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.188
+    threshold: 0.35
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.1754
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1532
     threshold: 0.35
   new_tag_proposals: []
 - id: yuuki-asuna

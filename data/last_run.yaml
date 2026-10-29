@@ -8,14 +8,14 @@ date: '2026-10-29'
 失敗:
 - sakamoto-tarou
 レーン:
-  資料: 0 / 8
+  資料: 0 / 11
   識別: 0 / 12
 レーンの理由:
   資料: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
   識別: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
 取得元:
   danbooru: 11 / 12
-  anilist: 8 / 12
+  anilist: 11 / 12
 取得元の理由:
   danbooru: '関連タグが取れません。タグ名を確認してください: sakamoto_taro_(sakamoto_days)'
   anilist: 'HTTP 404: https://graphql.anilist.co'

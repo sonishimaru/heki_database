@@ -675,14 +675,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-29'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 79%', src: danbooru}
     - {id: jinzou, weight: core, note: '資料: ドクター・ゲロによって人間をベースに改造されたサイボーグ（サイバネティック・ヒューマン）であること。', src: gemini}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 89%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 73%', src: danbooru}
     - {id: futago, weight: sub, note: '資料: 17号が双子の兄弟であることが明記されている。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 89%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: piasu, weight: sub, note: 'danbooru earrings 59%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 79%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 73%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: anya-forger
@@ -1536,12 +1536,12 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-29'
   elements:
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 66%', src: danbooru}
     - {id: shokunin, weight: core, note: '資料: ドラゴンレーダーの発明者であり天才とされ、自作ガジェットを用いて孫悟空やその仲間たちをサポートし続けている。', src: gemini}
     - {id: aogami, weight: sub, note: 'danbooru blue_hair 46%', src: danbooru}
-    - {id: chouhatsu, weight: sub, note: 'danbooru long_hair 37%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 66%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 37%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: casca
@@ -2441,14 +2441,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-29'
   elements:
     - {id: joushi, weight: core, note: '資料: 79以上の惑星を支配する帝国の支配者であり、銀河のオーバーロード（最高権力者）として君臨している。', src: gemini}
     - {id: uchuujin, weight: core, note: '資料: 広大な銀河やナメック星を舞台に惑星支配を行い、地球へと来訪する地球外の存在である。', src: gemini}
-    - {id: akame, weight: sub, note: 'danbooru red_eyes 51%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 52%', src: danbooru}
     - {id: fukushuu, weight: sub, note: '資料: 悟空への復讐のため、父親とともに地球へ向かった。', src: gemini}
     - {id: gishi, weight: sub, note: '資料: 悟空との戦いを生き延びた際、複数の金属製補綴（義体）を装着した姿となった。', src: gemini}
-    - {id: shippo, weight: sub, note: 'danbooru tail 59%', src: danbooru}
+    - {id: shippo, weight: sub, note: 'danbooru tail 60%', src: danbooru}
     - {id: shujuu, weight: sub, note: '資料: ベジータなどを手下として従え、任務やお使いを命じている。', src: gemini}
     - {id: taijou, weight: sub, note: '資料: 復讐のため向かった地球にて、トランクスに容易に倒された。', src: gemini}
   patterns: []
@@ -3748,6 +3748,29 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 83%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: hina-blue-archive
+  name: 空崎ヒナ
+  kana: そらさきひな
+  work: ブルーアーカイブ
+  year: 2021
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b64769-WoWlCMLLgJ14.png'
+    page: 'https://anilist.co/character/64769'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-29'
+  elements:
+    - {id: akuma, weight: core, note: 'danbooru demon_horns 72%', src: danbooru}
+    - {id: jingai, weight: core, note: 'danbooru horns 92%', src: danbooru}
+    - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 81%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru white_hair 74%', src: danbooru}
+    - {id: ahoge, weight: sub, note: 'danbooru ahoge 56%', src: danbooru}
+    - {id: tsubasa, weight: sub, note: 'danbooru wings 57%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 90%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: hinata-hajime
   name: 日向創
   kana: ひなたはじめ
@@ -4135,6 +4158,30 @@
     - {id: soushitsu, weight: sub, note: '資料: アイが殺害されるところを目撃している。', src: gemini}
     - {id: aome, weight: spice, note: 'danbooru blue_eyes 80%（共有 23% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 82%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: hoshino-blue-archive
+  name: 小鳥遊ホシノ
+  kana: たかなしほしの
+  work: ブルーアーカイブ
+  year: 2021
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b172759-cccVhJ2fQA92.png'
+    page: 'https://anilist.co/character/172759'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-29'
+  elements:
+    - {id: ahoge, weight: core, note: 'danbooru ahoge 94%', src: danbooru}
+    - {id: heterochromia, weight: core, note: 'danbooru heterochromia 73%', src: danbooru}
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 96%', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 54%', src: danbooru}
+    - {id: kusekke, weight: sub, note: 'danbooru hair_between_eyes 51%', src: danbooru}
+    - {id: yaeba, weight: sub, note: 'danbooru fang 38%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 70%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 83%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hoshino-ruby
@@ -5096,6 +5143,28 @@
     - {id: koushinchou, weight: sub, note: '資料: 身長は195cm（6''5"）', src: gemini}
     - {id: mafuraa, weight: sub, note: 'danbooru scarf 50%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 58%', src: danbooru}
+  patterns: []
+
+- id: kafka-honkai
+  name: カフカ
+  kana: かふか
+  work: '崩壊:スターレイル'
+  year: 2023
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b180692-rPGXuxhcKw5N.png'
+    page: 'https://anilist.co/character/180692'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-29'
+  elements:
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 60%', src: danbooru}
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 87%', src: danbooru}
+    - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 81%', src: danbooru}
+    - {id: megane, weight: sub, note: 'danbooru sunglasses 52%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 52%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 67%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kafuu-chino
@@ -10566,9 +10635,9 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-29'
   elements:
-    - {id: erufu, weight: core, note: 'danbooru pointy_ears 77%', src: danbooru}
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 78%', src: danbooru}
     - {id: uchuujin, weight: core, note: '資料: 種族がナメック星人であるため', src: gemini}
     - {id: hogosha, weight: sub, note: '資料: 孫悟飯の修行を引き受け、その命を救うために自らを犠牲にする関係となったため', src: gemini}
     - {id: jiko-gisei, weight: sub, note: '資料: 孫悟飯の命を救うために自らを犠牲にしたため', src: gemini}
@@ -12950,6 +13019,28 @@
     - {id: aome, weight: spice, note: 'danbooru blue_eyes 72%（共有 22% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: silver-wolf
+  name: 銀狼
+  kana: ぎんろう
+  work: '崩壊:スターレイル'
+  year: 2023
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b89196-E2tIf6nIPKnW.png'
+    page: 'https://anilist.co/character/89196'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-29'
+  elements:
+    - {id: haiiro-no-me, weight: core, note: 'danbooru grey_eyes 77%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru grey_hair 89%', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 44%', src: danbooru}
+    - {id: tate-rooru, weight: sub, note: 'danbooru drill_hair 49%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 53%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 74%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: simon
   name: シモン
   kana: しもん
@@ -14353,13 +14444,12 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-29'
   elements:
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 60%', src: danbooru}
-    - {id: buki, weight: sub, note: 'danbooru weapon 60%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 60%（共有 10% のため比重を下げた）', src: danbooru}
     - {id: hanyou, weight: sub, note: '資料: 種族は半人間・半サイヤ人（Half-Human, Half-Saiyan）である。', src: gemini}
     - {id: murasaki-gami, weight: sub, note: 'danbooru purple_hair 45%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 35%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 59%（共有 23% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: tsukamoto-tenma
@@ -14605,6 +14695,23 @@
     - {id: soushitsu, weight: sub, note: '資料: 幼少期に家族や一族全員を失っている。', src: gemini}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 78%（共有 26% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 47%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: uesugi-fuutarou
+  name: 上杉風太郎
+  kana: うえすぎふうたろう
+  work: 五等分の花嫁
+  year: 2017
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b128063-0h9piZcxa2zt.png'
+    page: 'https://anilist.co/character/128063'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-29'
+  elements:
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 62%（共有 23% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: urahara-kisuke
@@ -15611,6 +15718,27 @@
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 58%', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 36%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 80%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: yuuka-blue-archive
+  name: 早瀬ユウカ
+  kana: はやせゆうか
+  work: ブルーアーカイブ
+  year: 2021
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b264237-sAM1foeXoY8M.png'
+    page: 'https://anilist.co/character/264237'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-10-29'
+  elements:
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 76%', src: danbooru}
+    - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 50%', src: danbooru}
+    - {id: twintail, weight: sub, note: 'danbooru two_side_up 49%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 40%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 84%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yuuki-asuna
