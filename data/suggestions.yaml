@@ -1202,6 +1202,38 @@
     frequency: 0.1551
     threshold: 0.35
   new_tag_proposals: []
+- id: becky-blackbell
+  name: ベッキー・ブラックベル
+  date: '2026-10-29'
+  unmapped_danbooru:
+  - tag: loli
+    frequency: 0.7436
+  near_miss:
+  - id: hinnyuu
+    tag: flat_chest
+    frequency: 0.4103
+    threshold: 0.5
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.3333
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2735
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2051
+    threshold: 0.3
+  - id: kodomo
+    tag: child
+    frequency: 0.2051
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1624
+    threshold: 0.35
+  new_tag_proposals: []
 - id: belfast-azur-lane
   name: ベルファスト
   date: '2026-10-18'
@@ -1545,6 +1577,34 @@
   - id: murasaki-gami
     tag: purple_hair
     frequency: 0.2205
+    threshold: 0.35
+  new_tag_proposals: []
+- id: damian-desmond
+  name: ダミアン・デズモンド
+  date: '2026-10-29'
+  unmapped_danbooru:
+  - tag: eden_academy_school_uniform
+    frequency: 0.4773
+  near_miss:
+  - id: kodomo
+    tag: child
+    frequency: 0.4091
+    threshold: 0.5
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.25
+    threshold: 0.35
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.2273
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.1818
+    threshold: 0.35
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.1818
     threshold: 0.35
   new_tag_proposals: []
 - id: darkness-konosuba
@@ -1939,6 +1999,46 @@
     frequency: 0.1837
     threshold: 0.35
   new_tag_proposals: []
+- id: fiona-frost
+  name: ナイトフォール
+  date: '2026-10-29'
+  unmapped_danbooru:
+  - tag: colored_eyelashes
+    frequency: 0.5769
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4519
+    threshold: 0.5
+  - id: piasu
+    tag: earrings
+    frequency: 0.3269
+    threshold: 0.5
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2692
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.2692
+    threshold: 0.35
+  - id: haiiro-no-me
+    tag: grey_eyes
+    frequency: 0.2115
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.1827
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.1731
+    threshold: 0.35
+  - id: muhyoujou
+    tag: expressionless
+    frequency: 0.1538
+    threshold: 0.35
+  new_tag_proposals: []
 - id: flandre-scarlet
   name: フランドール・スカーレット
   date: '2026-10-14'
@@ -2085,6 +2185,20 @@
   - id: muhyoujou
     tag: expressionless
     frequency: 0.2222
+    threshold: 0.35
+  new_tag_proposals: []
+- id: furina
+  name: フリーナ
+  date: '2026-10-29'
+  unmapped_danbooru:
+  - tag: blue_hat
+    frequency: 0.3892
+  - tag: drop-shaped_pupils
+    frequency: 0.3526
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.1838
     threshold: 0.35
   new_tag_proposals: []
 - id: furude-rika
@@ -5308,6 +5422,36 @@
     frequency: 0.16
     threshold: 0.5
   new_tag_proposals: []
+- id: kobeni-higashiyama
+  name: 東山コベニ
+  date: '2026-10-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2981
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.2796
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.2525
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2389
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1947
+    threshold: 0.35
+  - id: buki
+    tag: knife
+    frequency: 0.1534
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kobuchizawa-shirase
   name: 小淵沢報瀬
   date: '2026-08-31'
@@ -5657,6 +5801,28 @@
   - id: regent
     tag: swept_bangs
     frequency: 0.1645
+    threshold: 0.35
+  new_tag_proposals: []
+- id: kujo-sara
+  name: 九条裟羅
+  date: '2026-10-29'
+  unmapped_danbooru:
+  - tag: mask_on_head
+    frequency: 0.7579
+  - tag: bird_mask
+    frequency: 0.6204
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4987
+    threshold: 0.5
+  - id: aogami
+    tag: blue_hair
+    frequency: 0.1832
+    threshold: 0.35
+  - id: regent
+    tag: swept_bangs
+    frequency: 0.178
     threshold: 0.35
   new_tag_proposals: []
 - id: kujou-karen
@@ -6375,6 +6541,38 @@
   - id: gaitou
     tag: coat
     frequency: 0.329
+    threshold: 0.35
+  new_tag_proposals: []
+- id: mahito
+  name: 真人
+  date: '2026-10-29'
+  unmapped_danbooru:
+  - tag: stitched_face
+    frequency: 0.7961
+  - tag: stitched_arm
+    frequency: 0.5727
+  - tag: stitched_neck
+    frequency: 0.5184
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4642
+    threshold: 0.5
+  - id: shirogami
+    tag: grey_hair
+    frequency: 0.321
+    threshold: 0.35
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.2842
+    threshold: 0.35
+  - id: haiiro-no-me
+    tag: grey_eyes
+    frequency: 0.2148
+    threshold: 0.35
+  - id: ponytail
+    tag: low-tied_long_hair
+    frequency: 0.1584
     threshold: 0.35
   new_tag_proposals: []
 - id: maizono-sayaka
@@ -9141,6 +9339,24 @@
     frequency: 0.4101
     threshold: 0.5
   new_tag_proposals: []
+- id: reze-chainsaw-man
+  name: レゼ
+  date: '2026-10-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.3264
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2014
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.1804
+    threshold: 0.35
+  new_tag_proposals: []
 - id: rias-gremory
   name: リアス・グレモリー
   date: '2026-10-15'
@@ -9379,6 +9595,30 @@
   - id: kinniku
     tag: toned
     frequency: 0.1837
+    threshold: 0.35
+  new_tag_proposals: []
+- id: ryomen-sukuna
+  name: 両面宿儺
+  date: '2026-10-29'
+  unmapped_danbooru:
+  - tag: extra_eyes
+    frequency: 0.6226
+  near_miss:
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2585
+    threshold: 0.35
+  - id: kinniku
+    tag: muscular
+    frequency: 0.2229
+    threshold: 0.35
+  - id: sakadachi-gami
+    tag: spiked_hair
+    frequency: 0.2184
+    threshold: 0.35
+  - id: wasou
+    tag: japanese_clothes
+    frequency: 0.1887
     threshold: 0.35
   new_tag_proposals: []
 - id: ryougi-shiki
@@ -12733,6 +12973,16 @@
     tag: black_eyes
     frequency: 0.2143
     threshold: 0.35
+  new_tag_proposals: []
+- id: yae-miko
+  name: 八重神子
+  date: '2026-10-29'
+  unmapped_danbooru: []
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.4556
+    threshold: 0.5
   new_tag_proposals: []
 - id: yagami-light
   name: 夜神月
