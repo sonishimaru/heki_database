@@ -26,7 +26,7 @@ elements:
   twintail:
     tags: [twintails, low_twintails, short_twintails, two_side_up, quad_tails]
   ponytail:
-    tags: [ponytail, high_ponytail, side_ponytail, folded_ponytail, one_side_up, low_ponytail, topknot, short_ponytail]
+    tags: [ponytail, high_ponytail, side_ponytail, folded_ponytail, one_side_up, low_ponytail, topknot, short_ponytail, low-tied_long_hair]
   hime-cut:
     tags: [hime_cut]
   ahoge:
@@ -131,7 +131,7 @@ elements:
 
   # --- 小物 ---
   megane:
-    tags: [glasses, semi-rimless_eyewear, round_eyewear, rimless_eyewear, sunglasses, tinted_eyewear, green-tinted_eyewear, black-framed_eyewear, monocle, triangular_eyewear]
+    tags: [glasses, semi-rimless_eyewear, round_eyewear, rimless_eyewear, sunglasses, tinted_eyewear, green-tinted_eyewear, black-framed_eyewear, monocle, triangular_eyewear, red-framed_eyewear]
   tebukuro:
     tags: [gloves, fingerless_gloves, elbow_gloves, black_gloves, white_gloves, under-elbow_gloves, brown_gloves, boxing_gloves]
   choker:

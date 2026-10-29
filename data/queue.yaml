@@ -5048,13 +5048,9 @@ characters:
     year: 2004
     danbooru: gokudera_hayato
     anilist: Hayato Gokudera
-  - id: takamine-kiyomaro
-    name: 高嶺清麿
-    kana: たかみねきよまろ
-    work: 金色のガッシュ!!
-    year: 2001
-    danbooru: takamine_kiyomaro_(konjiki_no_gash_bell)
-    anilist: Kiyomaro Takamine
+  # 高嶺清麿（金色のガッシュ!!）は takamine_kiyomaro と作品名付きの
+  # 両方で関連タグが取れなかったので外した。この作品はこの 1 人だけで、
+  # 兄弟で命名の裏も取れない。
   - id: aono-tsukune
     name: 青野月音
     kana: あおのつくね
@@ -5242,7 +5238,7 @@ characters:
     kana: さかもとたろう
     work: SAKAMOTO DAYS
     year: 2020
-    danbooru: sakamoto_tarou_(sakamoto_days)
+    danbooru: sakamoto_taro_(sakamoto_days)
     anilist: Taro Sakamoto
   - id: shin-sakamoto-days
     name: シン
@@ -5272,13 +5268,10 @@ characters:
     year: 2017
     danbooru: shinei_nouzen
     anilist: Shinei Nouzen
-  - id: vladilena-milize
-    name: ヴラディレーナ・ミリーゼ
-    kana: ゔらでぃれーなみりーぜ
-    work: 86―エイティシックス―
-    year: 2017
-    danbooru: vladilena_milize
-    anilist: Vladilena Milize
+  # ヴラディレーナ・ミリーゼ（86）は vladilena_milize で取れなかった。
+  # 兄弟のシンエイ・ノウゼンが shinei_nouzen で通っているので、カッコを
+  # 付けない形という決まりは裏が取れている。綴りの当てが無いので、
+  # 推測で直さずに外す。
   - id: ichikawa-kyoutarou
     name: 市川京太郎
     kana: いちかわきょうたろう

@@ -249,6 +249,8 @@ GENERIC_TAGS = {
     "white_hat", "white_suit", "pink_bowtie", "baseball_mitt", "pill",
     # 32 巡目。色と衣類の組み合わせ、効果。
     "orange_bodysuit", "black_bodysuit", "black_pants", "blue_fire",
+    # 33 巡目。手の形は仕草であって人物の特徴ではない。
+    "clenched_hand", "lips", "insect_wings",
 }
 
 

@@ -914,8 +914,6 @@
     frequency: 0.5342
   - tag: tongue_out
     frequency: 0.4617
-  - tag: low-tied_long_hair
-    frequency: 0.4417
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -2145,11 +2143,7 @@
 - id: fushiguro-tsumiki
   name: 伏黒津美紀
   date: '2026-10-27'
-  unmapped_danbooru:
-  - tag: lips
-    frequency: 1.0
-  - tag: insect_wings
-    frequency: 1.0
+  unmapped_danbooru: []
   near_miss: []
   new_tag_proposals: []
 - id: gaara
@@ -3744,8 +3738,6 @@
   - tag: nose_blush
     frequency: 1.0
   - tag: sneakers
-    frequency: 1.0
-  - tag: clenched_hand
     frequency: 1.0
   - tag: buckle
     frequency: 1.0
@@ -6494,9 +6486,7 @@
 - id: makinami-mari
   name: 真希波・マリ
   date: '2026-10-28'
-  unmapped_danbooru:
-  - tag: red-framed_eyewear
-    frequency: 0.3716
+  unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
@@ -8792,9 +8782,7 @@
 - id: pegasus-seiya
   name: 星矢
   date: '2026-10-25'
-  unmapped_danbooru:
-  - tag: clenched_hand
-    frequency: 0.3667
+  unmapped_danbooru: []
   near_miss:
   - id: tebukuro
     tag: gloves
@@ -9428,9 +9416,7 @@
 - id: ryuugazaki-rei
   name: 竜ヶ崎怜
   date: '2026-08-31'
-  unmapped_danbooru:
-  - tag: red-framed_eyewear
-    frequency: 0.4231
+  unmapped_danbooru: []
   near_miss: []
   new_tag_proposals: []
 - id: ryuuguu-rena
@@ -11819,9 +11805,7 @@
 - id: tifa-lockhart
   name: ティファ・ロックハート
   date: '2026-08-31'
-  unmapped_danbooru:
-  - tag: low-tied_long_hair
-    frequency: 0.4144
+  unmapped_danbooru: []
   near_miss:
   - id: chapatsu
     tag: brown_hair
