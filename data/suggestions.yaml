@@ -1829,16 +1829,16 @@
   new_tag_proposals: []
 - id: emiya-kiritsugu
   name: 衛宮切嗣
-  date: '2026-08-31'
+  date: '2026-10-30'
   unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
-    frequency: 0.3286
+    frequency: 0.3305
     threshold: 0.35
   - id: tabako
     tag: cigarette
-    frequency: 0.2578
+    frequency: 0.2571
     threshold: 0.35
   new_tag_proposals: []
 - id: emiya-shirou
@@ -2587,7 +2587,7 @@
   new_tag_proposals: []
 - id: gon-freecss
   name: ゴン＝フリークス
-  date: '2026-08-31'
+  date: '2026-10-30'
   unmapped_danbooru: []
   near_miss:
   - id: chairo-no-me
@@ -2596,11 +2596,11 @@
     threshold: 0.35
   - id: midorigami
     tag: green_hair
-    frequency: 0.25
+    frequency: 0.247
     threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.1844
+    frequency: 0.1822
     threshold: 0.35
   new_tag_proposals: []
 - id: gotou-hitori
@@ -3356,12 +3356,12 @@
   new_tag_proposals: []
 - id: hisoka-morow
   name: ヒソカ
-  date: '2026-08-31'
+  date: '2026-10-30'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
-    frequency: 0.3008
+    frequency: 0.3067
     threshold: 0.5
   new_tag_proposals: []
 - id: hitsugaya-toushirou
@@ -5048,17 +5048,21 @@
   new_tag_proposals: []
 - id: killua-zoldyck
   name: キルア＝ゾルディック
-  date: '2026-08-31'
+  date: '2026-10-30'
   unmapped_danbooru: []
   near_miss:
   - id: sakadachi-gami
     tag: spiked_hair
-    frequency: 0.3174
+    frequency: 0.3146
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.1855
+    frequency: 0.1816
     threshold: 0.5
+  - id: knit
+    tag: turtleneck
+    frequency: 0.1704
+    threshold: 0.35
   new_tag_proposals: []
 - id: kindaichi-hajime
   name: 金田一一
@@ -5905,7 +5909,7 @@
   new_tag_proposals: []
 - id: kurama-yyh
   name: 蔵馬
-  date: '2026-08-31'
+  date: '2026-10-30'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -5919,25 +5923,29 @@
   new_tag_proposals: []
 - id: kurapika
   name: クラピカ
-  date: '2026-08-31'
+  date: '2026-10-30'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
     tag: earrings
-    frequency: 0.4006
+    frequency: 0.4017
+    threshold: 0.5
+  - id: chuuseiteki
+    tag: androgynous
+    frequency: 0.2986
     threshold: 0.5
   - id: yubiwa
     tag: ring
-    frequency: 0.2415
+    frequency: 0.2408
     threshold: 0.5
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2115
+    frequency: 0.2114
     threshold: 0.5
   new_tag_proposals: []
 - id: kuririn
   name: クリリン
-  date: '2026-08-31'
+  date: '2026-10-30'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
@@ -6981,21 +6989,25 @@
   new_tag_proposals: []
 - id: matou-sakura
   name: 間桐桜
-  date: '2026-08-31'
+  date: '2026-10-30'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.3674
+    frequency: 0.3671
     threshold: 0.5
   - id: seifuku
     tag: school_uniform
-    frequency: 0.1573
+    frequency: 0.1576
     threshold: 0.3
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.1555
+    frequency: 0.1562
     threshold: 0.5
+  - id: akame
+    tag: red_eyes
+    frequency: 0.1502
+    threshold: 0.35
   new_tag_proposals: []
 - id: matsumae-ohana
   name: 松前緒花
@@ -10549,12 +10561,12 @@
   new_tag_proposals: []
 - id: shiina-mahiru
   name: 椎名真昼
-  date: '2026-08-31'
+  date: '2026-10-30'
   unmapped_danbooru: []
   near_miss:
   - id: chapatsu
     tag: brown_hair
-    frequency: 0.2607
+    frequency: 0.2674
     threshold: 0.35
   new_tag_proposals: []
 - id: shiina-mayuri
@@ -11252,36 +11264,36 @@
   new_tag_proposals: []
 - id: son-gohan
   name: 孫悟飯
-  date: '2026-08-31'
+  date: '2026-10-30'
   unmapped_danbooru: []
   near_miss:
   - id: kinpatsu
     tag: blonde_hair
-    frequency: 0.3322
+    frequency: 0.3377
     threshold: 0.35
   - id: akame
     tag: red_eyes
-    frequency: 0.3156
+    frequency: 0.31
     threshold: 0.35
   - id: midori-no-me
     tag: green_eyes
-    frequency: 0.2375
+    frequency: 0.2365
     threshold: 0.35
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.2276
+    frequency: 0.2284
     threshold: 0.35
   - id: kurokami
     tag: black_hair
-    frequency: 0.2259
+    frequency: 0.2268
     threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.1844
+    frequency: 0.1843
     threshold: 0.35
   - id: shirogami
     tag: grey_hair
-    frequency: 0.1661
+    frequency: 0.1648
     threshold: 0.35
   new_tag_proposals: []
 - id: son-goku

@@ -2080,14 +2080,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-30'
   elements:
     - {id: ansatsusha, weight: core, note: '資料: フリーランスの「魔術師殺し（Magus Killer）」として知られ、現代の兵器や魔術を用いて魔術師を追跡・殺害していた。', src: gemini}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 61%', src: danbooru}
     - {id: bushouhige, weight: sub, note: 'danbooru facial_hair 37%', src: danbooru}
     - {id: hogosha, weight: sub, note: '資料: 冬木の大火災の跡地から士郎を救い出し、彼の養父となった。', src: gemini}
     - {id: kurome, weight: sub, note: 'danbooru black_eyes 45%', src: danbooru}
     - {id: teikan, weight: sub, note: '資料: 生涯の中で、すべての人を救う正義の味方になることに幻滅した。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 62%（共有 28% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: emiya-shirou
@@ -3010,14 +3010,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-30'
   elements:
     - {id: akogare, weight: core, note: '資料: 父親が生きていることとハンターであることを知り、父親を探すためにハンター試験を受けることを決意した点。', src: gemini}
     - {id: kodomo, weight: sub, note: '資料: 年齢が11歳以上と提示されている点。', src: gemini}
-    - {id: kurokami, weight: sub, note: 'danbooru black_hair 37%', src: danbooru}
     - {id: nouryokusha, weight: sub, note: '資料: 念の系統が強化系（enhancement nen group）であること。', src: gemini}
-    - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 50%', src: danbooru}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 48%', src: danbooru}
+    - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 51%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 37%（共有 28% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 49%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: gotou-hitori
@@ -3912,14 +3912,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-30'
   elements:
-    - {id: akagami, weight: core, note: 'danbooru red_hair 68%', src: danbooru}
     - {id: kokuin, weight: core, note: 'danbooru facial_mark 68%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 68%（共有 8% のため比重を下げた）', src: danbooru}
     - {id: kabe, weight: sub, note: '資料: ゴンの潜在能力と成長可能性に興味を示し、将来の対戦相手として時期尚早に倒さず援助を行っていること。', src: gemini}
     - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 50%', src: danbooru}
     - {id: koushinchou, weight: sub, note: '資料: 身長は187cmであること。', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 49%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 50%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: hitsugaya-toushirou
@@ -6076,18 +6076,18 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-30'
   elements:
     - {id: ansatsusha, weight: core, note: '資料: 伝説的な暗殺者一家であるゾルディック家のメンバーであり、生まれながらに絶え間なく暗殺術の訓練を受けた。', src: gemini}
-    - {id: aome, weight: core, note: 'danbooru blue_eyes 64%', src: danbooru}
     - {id: shirogami, weight: core, note: 'danbooru white_hair 75%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 66%', src: danbooru}
     - {id: aibou, weight: sub, note: '資料: ハンター試験で出会ってすぐに友人となり、それ以来つき従っているゴンとの関係。', src: gemini}
     - {id: doryokuka, weight: sub, note: '資料: 念能力をたゆまず向上させ、多くの技を開発したこと。', src: gemini}
     - {id: fuguu, weight: sub, note: '資料: 生まれながらに絶え間なく暗殺術の訓練を受けさせられ、家族と暗殺業から逃亡したこと。', src: gemini}
     - {id: kodomo, weight: sub, note: '資料: 年齢が11歳〜であること。', src: gemini}
     - {id: nouryokusha, weight: sub, note: '資料: 変化系の念能力者であり、多くの技を開発している。', src: gemini}
     - {id: reijou, weight: sub, note: '資料: 伝説的な暗殺者一家であるゾルディック家のメンバーであること。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 65%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 67%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kindaichi-hajime
@@ -7101,16 +7101,16 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-30'
   elements:
-    - {id: akagami, weight: core, note: 'danbooru red_hair 80%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 85%', src: danbooru}
     - {id: jingai, weight: core, note: '資料: かつて魔界で最も恐れられた1000年以上生きているA級妖怪（妖狐蔵馬）であること。', src: gemini}
     - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 73%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 80%（共有 8% のため比重を下げた）', src: danbooru}
     - {id: furou, weight: sub, note: '資料: 1000年以上生きているという記述があること。', src: gemini}
     - {id: nimensei, weight: sub, note: '資料: 魔界で恐れられた盗賊妖怪の顔と、人間界で母親を思いやり息子として生きる顔を併せ持っていること。', src: gemini}
     - {id: nouryokusha, weight: sub, note: '資料: 植物に妖気を流し込んで武器に変える能力を持ち、薔薇のツルから作られた鞭などを扱う。', src: gemini}
     - {id: shoutai, weight: sub, note: '資料: 正体は魔界の妖怪・盗賊でありながら、人間界では南野志保利の息子として生活していること。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kurapika
@@ -7125,14 +7125,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-30'
   elements:
     - {id: fukushuu, weight: core, note: '資料: 4年前にクルタ族を虐殺した幻影旅団への復讐を目的として抱いている。', src: gemini}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 87%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 68%', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 59%', src: danbooru}
     - {id: fuguu, weight: sub, note: '資料: ハンター試験の4年前、所属していたクルタ族が幻影旅団によって虐殺された。', src: gemini}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 87%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: soushitsu, weight: sub, note: '資料: クルタ族唯一の生存者であり、奪われた同胞の緋色の目を取り戻そうとしている。', src: gemini}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 68%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kuririn
@@ -7147,15 +7147,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-30'
   elements:
-    - {id: aome, weight: sub, note: 'danbooru blue_eyes 51%', src: danbooru}
     - {id: bouzu, weight: sub, note: 'danbooru bald 40%', src: danbooru}
     - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 49%', src: danbooru}
     - {id: shitei, weight: sub, note: '資料: 武天老師のもとで修業を行った。', src: gemini}
     - {id: shukuteki, weight: sub, note: '資料: かつて孫悟空の激しいライバルであった', src: gemini}
-    - {id: tanpatsu, weight: sub, note: 'danbooru short_hair 36%', src: danbooru}
     - {id: teishinchou, weight: sub, note: '資料: 小柄で、作中の大半で髪のない武道僧。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 51%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 36%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kuroba-kaito
@@ -8251,14 +8251,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-30'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 76%', src: danbooru}
     - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 78%', src: danbooru}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 67%', src: danbooru}
     - {id: kataomoi, weight: sub, note: '資料: 衛宮士郎（Shirou Emiya）に対して長年明確な好意を抱いている。', src: gemini}
     - {id: sewayaki, weight: sub, note: '資料: 衛宮士郎の父親である切嗣（Kiritsugu）が亡くなった後、士郎の家を頻繁に訪れて日常の家事を手伝うようになった。', src: gemini}
     - {id: toshishita, weight: sub, note: '資料: 間桐慎二（Shinji Mato）の妹。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 76%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: matsumae-ohana
@@ -12373,13 +12373,13 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-10-30'
   elements:
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 91%', src: danbooru}
-    - {id: kinpatsu, weight: core, note: 'danbooru blonde_hair 67%', src: danbooru}
-    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 40%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 41%', src: danbooru}
     - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 45%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 66%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 30%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 91%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shiina-mayuri
@@ -13111,11 +13111,11 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-30'
   elements:
     - {id: hanyou, weight: core, note: '資料: サイヤ人と地球人のハーフである。', src: gemini}
     - {id: sakadachi-gami, weight: core, note: 'danbooru spiked_hair 74%', src: danbooru}
-    - {id: kinniku, weight: sub, note: 'danbooru muscular 54%', src: danbooru}
+    - {id: kinniku, weight: sub, note: 'danbooru muscular 53%', src: danbooru}
     - {id: nimensei, weight: sub, note: '資料: 大人になり、スーパーヒーローとしての役割から離れて学者として頭脳を使うようになった。', src: gemini}
   patterns: []
 
@@ -14770,14 +14770,14 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-10-30'
   elements:
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 69%', src: danbooru}
     - {id: nouryokusha, weight: core, note: '資料: 霊界探偵として超自然的な脅威から人間界を守る任に就き、物語を通して強力な格闘家となっていった。', src: gemini}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 73%', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 43%', src: danbooru}
     - {id: muhoumono, weight: sub, note: '資料: 物語の開始時点では、手に負えない不良少年およびストリートファイターであった。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 41%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 69%（共有 28% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 73%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: uraraka-ochako
