@@ -1571,12 +1571,12 @@
   new_tag_proposals: []
 - id: daidouji-tomoyo
   name: 大道寺知世
-  date: '2026-08-31'
+  date: '2026-10-31'
   unmapped_danbooru: []
   near_miss:
   - id: murasaki-gami
     tag: purple_hair
-    frequency: 0.2205
+    frequency: 0.2259
     threshold: 0.35
   new_tag_proposals: []
 - id: damian-desmond
@@ -1731,21 +1731,17 @@
   new_tag_proposals: []
 - id: echizen-ryoma
   name: 越前リョーマ
-  date: '2026-08-31'
+  date: '2026-10-31'
   unmapped_danbooru: []
   near_miss:
-  - id: tanpatsu
-    tag: short_hair
-    frequency: 0.3462
+  - id: uniform
+    tag: sportswear
+    frequency: 0.25
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.1538
+    frequency: 0.1786
     threshold: 0.5
-  - id: megane
-    tag: glasses
-    frequency: 0.1538
-    threshold: 0.35
   new_tag_proposals: []
 - id: edogawa-conan
   name: 江戸川コナン
@@ -3411,12 +3407,20 @@
   new_tag_proposals: []
 - id: honda-tooru
   name: 本田透
-  date: '2026-08-31'
+  date: '2026-10-31'
   unmapped_danbooru: []
   near_miss:
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.1569
+    threshold: 0.6
   - id: aome
     tag: blue_eyes
-    frequency: 0.1633
+    frequency: 0.1569
+    threshold: 0.35
+  - id: uniform
+    tag: gym_uniform
+    frequency: 0.1569
     threshold: 0.35
   new_tag_proposals: []
 - id: hori-kyouko
@@ -4530,12 +4534,12 @@
   new_tag_proposals: []
 - id: kaiba-seto
   name: 海馬瀬人
-  date: '2026-08-31'
+  date: '2026-10-31'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2823
+    frequency: 0.281
     threshold: 0.5
   new_tag_proposals: []
 - id: kaine
@@ -5110,20 +5114,20 @@
   new_tag_proposals: []
 - id: kinomoto-sakura
   name: 木之本桜
-  date: '2026-08-31'
+  date: '2026-10-31'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
     tag: gloves
-    frequency: 0.2929
+    frequency: 0.2955
     threshold: 0.35
   - id: tsubasa
     tag: wings
-    frequency: 0.2487
+    frequency: 0.2493
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.2248
+    frequency: 0.2252
     threshold: 0.3
   new_tag_proposals: []
 - id: kinomoto-touya
@@ -6339,20 +6343,20 @@
   new_tag_proposals: []
 - id: li-syaoran
   name: 李小狼
-  date: '2026-08-31'
+  date: '2026-10-31'
   unmapped_danbooru: []
   near_miss:
   - id: chuukafuku
     tag: chinese_clothes
-    frequency: 0.336
+    frequency: 0.3413
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.264
+    frequency: 0.2619
     threshold: 0.3
   - id: kodomo
     tag: child
-    frequency: 0.224
+    frequency: 0.2302
     threshold: 0.5
   new_tag_proposals: []
 - id: lina-inverse
@@ -7786,29 +7790,33 @@
   new_tag_proposals: []
 - id: mutou-yuugi
   name: 武藤遊戯
-  date: '2026-08-31'
+  date: '2026-10-31'
   unmapped_danbooru: []
   near_miss:
   - id: murasaki-gami
     tag: purple_hair
-    frequency: 0.3425
+    frequency: 0.3311
     threshold: 0.35
   - id: choker
     tag: collar
-    frequency: 0.2534
+    frequency: 0.2583
     threshold: 0.35
   - id: akagami
     tag: red_hair
-    frequency: 0.1986
+    frequency: 0.1987
     threshold: 0.35
   - id: akame
     tag: red_eyes
-    frequency: 0.1781
+    frequency: 0.1788
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.1712
+    frequency: 0.1722
     threshold: 0.3
+  - id: bishounen
+    tag: bishounen
+    frequency: 0.1656
+    threshold: 0.5
   new_tag_proposals: []
 - id: naegi-makoto
   name: 苗木誠
@@ -9657,20 +9665,20 @@
     reason: 前世において迫害後に引きこもりとなった経歴が明確に記されているため。
 - id: rukawa-kaede
   name: 流川楓
-  date: '2026-08-31'
+  date: '2026-10-31'
   unmapped_danbooru: []
   near_miss:
-  - id: kusekke
-    tag: hair_between_eyes
-    frequency: 0.2109
-    threshold: 0.5
   - id: sakotsu
     tag: collarbone
-    frequency: 0.2109
+    frequency: 0.2148
     threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2081
+    threshold: 0.5
   - id: kinniku
     tag: toned
-    frequency: 0.1837
+    frequency: 0.1879
     threshold: 0.35
   new_tag_proposals: []
 - id: ryomen-sukuna
@@ -10038,9 +10046,13 @@
     reason: hololive所属の女性バーチャルYouTuberとして活動していると明記されているため。
 - id: sakuragi-hanamichi
   name: 桜木花道
-  date: '2026-08-31'
+  date: '2026-10-31'
   unmapped_danbooru: []
   near_miss:
+  - id: uniform
+    tag: sportswear
+    frequency: 0.3081
+    threshold: 0.35
   - id: kurome
     tag: black_eyes
     frequency: 0.2384
@@ -11397,7 +11409,7 @@
   new_tag_proposals: []
 - id: souma-kyou
   name: 草摩夾
-  date: '2026-08-31'
+  date: '2026-10-31'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
