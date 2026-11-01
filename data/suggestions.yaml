@@ -2430,6 +2430,36 @@
     frequency: 0.2268
     threshold: 0.35
   new_tag_proposals: []
+- id: gawr-gura
+  name: がうる・ぐら
+  date: '2026-11-01'
+  unmapped_danbooru:
+  - tag: fins
+    frequency: 0.7242
+  - tag: fish_tail
+    frequency: 0.7224
+  - tag: shark_tail
+    frequency: 0.719
+  - tag: shark_girl
+    frequency: 0.673
+  - tag: shark_hair_ornament
+    frequency: 0.4308
+  - tag: hoodie
+    frequency: 0.369
+  near_miss:
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.3092
+    threshold: 0.35
+  - id: kemomimi
+    tag: animal_ears
+    frequency: 0.1666
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.1582
+    threshold: 0.5
+  new_tag_proposals: []
 - id: genkai
   name: 幻海
   date: '2026-10-27'
@@ -3236,6 +3266,28 @@
     frequency: 0.1591
     threshold: 0.5
   new_tag_proposals: []
+- id: hikigaya-komachi
+  name: 比企谷小町
+  date: '2026-11-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.3761
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.3303
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.3211
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.2202
+    threshold: 0.35
+  new_tag_proposals: []
 - id: himemiya-anthy
   name: 姫宮アンシー
   date: '2026-10-06'
@@ -3400,6 +3452,40 @@
   - id: gakki
     tag: instrument
     frequency: 0.2557
+    threshold: 0.35
+  new_tag_proposals: []
+- id: hiratsuka-shizuka
+  name: 平塚静
+  date: '2026-11-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4521
+    threshold: 0.5
+  - id: haiiro-no-me
+    tag: grey_eyes
+    frequency: 0.2877
+    threshold: 0.35
+  - id: tabako
+    tag: cigarette
+    frequency: 0.274
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2192
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2055
+    threshold: 0.35
+  - id: hakui
+    tag: lab_coat
+    frequency: 0.2055
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.1781
     threshold: 0.35
   new_tag_proposals: []
 - id: hiruma-youichi
@@ -3656,6 +3742,20 @@
     tag: brown_hair
     frequency: 0.1515
     threshold: 0.35
+  new_tag_proposals: []
+- id: houshou-marine
+  name: 宝鐘マリン
+  date: '2026-11-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.3006
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.184
+    threshold: 0.5
   new_tag_proposals: []
 - id: howl
   name: ハウル
@@ -5486,6 +5586,28 @@
     frequency: 0.1557
     threshold: 0.35
   new_tag_proposals: []
+- id: kise-ryouta
+  name: 黄瀬涼太
+  date: '2026-11-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.4839
+    threshold: 0.5
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4452
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2065
+    threshold: 0.35
+  - id: uniform
+    tag: sportswear
+    frequency: 0.1677
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kishibe-rohan
   name: 岸辺露伴
   date: '2026-10-08'
@@ -7173,6 +7295,16 @@
   - id: tanpatsu
     tag: short_hair
     frequency: 0.179
+    threshold: 0.35
+  new_tag_proposals: []
+- id: matsuoka-rin
+  name: 松岡凛
+  date: '2026-11-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: gizaba
+    tag: sharp_teeth
+    frequency: 0.229
     threshold: 0.35
   new_tag_proposals: []
 - id: megumin
@@ -11107,6 +11239,18 @@
     frequency: 0.2447
     threshold: 0.5
   new_tag_proposals: []
+- id: shirakami-fubuki
+  name: 白上フブキ
+  date: '2026-11-01'
+  unmapped_danbooru:
+  - tag: animal_ear_piercing
+    frequency: 0.382
+  near_miss:
+  - id: gaitou
+    tag: hood
+    frequency: 0.208
+    threshold: 0.35
+  new_tag_proposals: []
 - id: shiranui-mai
   name: 不知火舞
   date: '2026-10-27'
@@ -13696,6 +13840,44 @@
   - id: kurokami
     tag: black_hair
     frequency: 0.2069
+    threshold: 0.35
+  new_tag_proposals: []
+- id: yukinoshita-haruno
+  name: 雪ノ下陽乃
+  date: '2026-11-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4466
+    threshold: 0.5
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.3398
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2816
+    threshold: 0.5
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.2427
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.2039
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.1942
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1553
+    threshold: 0.35
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.1553
     threshold: 0.35
   new_tag_proposals: []
 - id: yukinoshita-yukino
