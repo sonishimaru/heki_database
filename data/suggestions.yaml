@@ -2121,6 +2121,24 @@
     frequency: 0.1956
     threshold: 0.5
   new_tag_proposals: []
+- id: fujimiya-kaori
+  name: 藤宮香織
+  date: '2026-11-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: knit
+    tag: sweater
+    frequency: 0.2063
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1587
+    threshold: 0.35
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.1587
+    threshold: 0.6
+  new_tag_proposals: []
 - id: fujioka-haruhi
   name: 藤岡ハルヒ
   date: '2026-10-01'
@@ -2757,6 +2775,32 @@
     frequency: 0.1667
     threshold: 0.35
   new_tag_proposals: []
+- id: hanekawa-tsubasa
+  name: 羽川翼
+  date: '2026-11-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.333
+    threshold: 0.35
+  - id: shirogami
+    tag: white_hair
+    frequency: 0.2726
+    threshold: 0.35
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.2425
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.1975
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1514
+    threshold: 0.35
+  new_tag_proposals: []
 - id: hange-zoe
   name: ハンジ・ゾエ
   date: '2026-10-22'
@@ -2816,6 +2860,30 @@
     tag: gloves
     frequency: 0.194
     threshold: 0.35
+  new_tag_proposals: []
+- id: hase-yuuki
+  name: 長谷祐樹
+  date: '2026-11-01'
+  unmapped_danbooru:
+  - tag: white_panties
+    frequency: 1.0
+  - tag: black_socks
+    frequency: 1.0
+  - tag: pantyshot
+    frequency: 1.0
+  - tag: doll
+    frequency: 1.0
+  - tag: sunset
+    frequency: 1.0
+  - tag: character_doll
+    frequency: 1.0
+  - tag: hugging_object
+    frequency: 1.0
+  - tag: hugging_doll
+    frequency: 1.0
+  - tag: button_eyes
+    frequency: 1.0
+  near_miss: []
   new_tag_proposals: []
 - id: hashibira-inosuke
   name: 嘴平伊之助
@@ -4514,6 +4582,56 @@
     frequency: 0.281
     threshold: 0.5
   new_tag_proposals: []
+- id: kaidou-shun
+  name: 海藤瞬
+  date: '2026-11-01'
+  unmapped_danbooru:
+  - tag: torn_clothes
+    frequency: 0.5
+  - tag: torn_shirt
+    frequency: 0.5
+  near_miss:
+  - id: shirogami
+    tag: grey_hair
+    frequency: 0.1667
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.1667
+    threshold: 0.5
+  - id: mekakure
+    tag: hair_over_one_eye
+    frequency: 0.1667
+    threshold: 0.35
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.1667
+    threshold: 0.6
+  - id: gantai
+    tag: eyepatch
+    frequency: 0.1667
+    threshold: 0.35
+  - id: yaeba
+    tag: fang
+    frequency: 0.1667
+    threshold: 0.35
+  - id: senaka
+    tag: from_behind
+    frequency: 0.1667
+    threshold: 0.35
+  - id: wasou
+    tag: japanese_clothes
+    frequency: 0.1667
+    threshold: 0.35
+  - id: choker
+    tag: collar
+    frequency: 0.1667
+    threshold: 0.35
+  - id: kemomimi
+    tag: animal_ears
+    frequency: 0.1667
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kaine
   name: カイネ
   date: '2026-08-31'
@@ -5717,6 +5835,32 @@
   - name: 作曲者
     axis: 役割
     reason: バンドでメインの作曲者を務めているため。
+- id: kotoko-iwanaga
+  name: 岩永琴子
+  date: '2026-11-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: ahoge
+    tag: ahoge
+    frequency: 0.3194
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.3056
+    threshold: 0.5
+  - id: gishi
+    tag: prosthesis
+    frequency: 0.2778
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2083
+    threshold: 0.5
+  - id: furiru
+    tag: frills
+    frequency: 0.1806
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kougami-shinya
   name: 狡噛慎也
   date: '2026-08-31'
@@ -8867,6 +9011,20 @@
     frequency: 0.25
     threshold: 0.35
   new_tag_proposals: []
+- id: oreki-houtarou
+  name: 折木奉太郎
+  date: '2026-11-01'
+  unmapped_danbooru:
+  - tag: logo
+    frequency: 0.4224
+  - tag: artist_logo
+    frequency: 0.4224
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2672
+    threshold: 0.5
+  new_tag_proposals: []
 - id: orihara-izaya
   name: 折原臨也
   date: '2026-10-03'
@@ -10273,6 +10431,28 @@
   - id: shitsuji
     tag: butler
     frequency: 0.241
+    threshold: 0.35
+  new_tag_proposals: []
+- id: sengoku-nadeko
+  name: 千石撫子
+  date: '2026-11-01'
+  unmapped_danbooru: []
+  near_miss:
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.1961
+    threshold: 0.5
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1662
+    threshold: 0.35
+  - id: akame
+    tag: red_eyes
+    frequency: 0.1628
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.162
     threshold: 0.35
   new_tag_proposals: []
 - id: senjougahara-hitagi
@@ -12415,6 +12595,26 @@
   - id: kurome
     tag: black_eyes
     frequency: 0.2121
+    threshold: 0.35
+  new_tag_proposals: []
+- id: tsukimi-kurashita
+  name: 倉下月海
+  date: '2026-11-01'
+  unmapped_danbooru:
+  - tag: jimiko
+    frequency: 0.4545
+  near_miss:
+  - id: furiru
+    tag: frills
+    frequency: 0.1818
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.1818
+    threshold: 0.35
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.1818
     threshold: 0.35
   new_tag_proposals: []
 - id: tsukimiya-ayu
