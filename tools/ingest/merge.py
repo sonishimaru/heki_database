@@ -251,6 +251,19 @@ GENERIC_TAGS = {
     "orange_bodysuit", "black_bodysuit", "black_pants", "blue_fire",
     # 33 巡目。手の形は仕草であって人物の特徴ではない。
     "clenched_hand", "lips", "insect_wings",
+    # 36 巡目。色と衣類・靴・ベルト、姿勢と表情の描き方、作風タグ、
+    # 前髪と睫毛の描き方、ブルーアーカイブの輪（halo は 31 巡目に外した）、
+    # Danbooru の年齢・体型メタ、手に持っているだけの小道具。
+    "black_shoes", "sneakers", "buckle", "belt_buckle", "brown_belt",
+    "shirt_tucked_in", "checkered_clothes", "checkered_scarf", "striped_panties",
+    "nose_blush", "arm_at_side", "hand_on_own_hip", "anger_vein", "barefoot",
+    "bare_legs", "ass", "covered_nipples", "no_pants", "tongue",
+    "revealing_clothes", "anime_coloring",
+    "crossed_bangs", "long_eyelashes", "colored_eyelashes", "curtained_hair",
+    "pink_halo", "mechanical_halo",
+    "loli", "mature_female", "mature_male",
+    "controller", "game_controller", "pen", "holding_pen",
+    "stitched_face", "stitched_arm", "stitched_neck",
 }
 
 

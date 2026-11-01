@@ -1743,7 +1743,7 @@ characters:
     kana: ひえい
     work: 幽☆遊☆白書
     year: 1990
-    danbooru: hiei
+    danbooru: hiei_(yu_yu_hakusho)
     anilist: Hiei
   - id: sakuragi-hanamichi
     name: 桜木花道
@@ -5233,13 +5233,9 @@ characters:
     year: 1999
     danbooru: yamanaka_ino
     anilist: Ino Yamanaka
-  - id: sakamoto-tarou
-    name: 坂本太郎
-    kana: さかもとたろう
-    work: SAKAMOTO DAYS
-    year: 2020
-    danbooru: sakamoto_taro_(sakamoto_days)
-    anilist: Taro Sakamoto
+  # 坂本太郎（SAKAMOTO DAYS）は sakamoto_tarou_(sakamoto_days) と
+  # sakamoto_taro_(sakamoto_days) の両方で取れなかったので外した。
+  # 兄弟のシンが shin_(sakamoto_days) で通っているので作品自体はある。
   - id: shin-sakamoto-days
     name: シン
     kana: しん
@@ -5440,3 +5436,258 @@ characters:
     year: 2017
     danbooru: uesugi_fuutarou
     anilist: Fuutarou Uesugi
+
+  # --- 28期目。未処理が 1 件まで減ったので補充。候補 65 名のうち 29 名は
+  #     既に入っていた。未収録の作品と、収録済み作品の空いていた側。
+  - id: sengoku-nadeko
+    name: 千石撫子
+    kana: せんごくなでこ
+    work: 化物語
+    year: 2006
+    danbooru: sengoku_nadeko
+    anilist: Nadeko Sengoku
+  - id: hanekawa-tsubasa
+    name: 羽川翼
+    kana: はねかわつばさ
+    work: 化物語
+    year: 2006
+    danbooru: hanekawa_tsubasa
+    anilist: Tsubasa Hanekawa
+  - id: kaidou-shun
+    name: 海藤瞬
+    kana: かいどうしゅん
+    work: 斉木楠雄のΨ難
+    year: 2012
+    danbooru: kaidou_shun
+    anilist: Shun Kaidou
+  - id: sakamoto-ryuunosuke
+    name: 坂本
+    kana: さかもと
+    work: 坂本ですが?
+    year: 2011
+    danbooru: sakamoto_(sakamoto_desu_ga)
+    anilist: Sakamoto
+  - id: tanaka-tanaka-kun
+    name: 田中
+    kana: たなか
+    work: 田中くんはいつもけだるげ
+    year: 2013
+    danbooru: tanaka_(tanaka-kun_wa_itsumo_kedaruge)
+    anilist: Tanaka
+  - id: oota-shinji
+    name: 太田
+    kana: おおた
+    work: 田中くんはいつもけだるげ
+    year: 2013
+    danbooru: oota_shinji
+    anilist: Shinji Oota
+  - id: yamada-ryou
+    name: 山田
+    kana: やまだ
+    work: B型H系
+    year: 2004
+    danbooru: yamada_(b_gata_h_kei)
+    anilist: Yamada
+  - id: fujimiya-kaori
+    name: 藤宮香織
+    kana: ふじみやかおり
+    work: 一週間フレンズ。
+    year: 2012
+    danbooru: fujimiya_kaori
+    anilist: Kaori Fujimiya
+  - id: hase-yuuki
+    name: 長谷祐樹
+    kana: はせゆうき
+    work: 一週間フレンズ。
+    year: 2012
+    danbooru: hase_yuuki
+    anilist: Yuuki Hase
+  - id: oreki-houtarou
+    name: 折木奉太郎
+    kana: おれきほうたろう
+    work: 氷菓
+    year: 2001
+    danbooru: oreki_houtarou
+    anilist: Houtarou Oreki
+  - id: tsukimi-kurashita
+    name: 倉下月海
+    kana: くらしたつきみ
+    work: 海月姫
+    year: 2008
+    danbooru: kurashita_tsukimi
+    anilist: Tsukimi Kurashita
+  - id: kotoko-iwanaga
+    name: 岩永琴子
+    kana: いわながことこ
+    work: 虚構推理
+    year: 2011
+    danbooru: iwanaga_kotoko
+    anilist: Kotoko Iwanaga
+  - id: matsuoka-rin
+    name: 松岡凛
+    kana: まつおかりん
+    work: Free!
+    year: 2013
+    danbooru: matsuoka_rin
+    anilist: Rin Matsuoka
+  - id: kise-ryouta
+    name: 黄瀬涼太
+    kana: きせりょうた
+    work: 黒子のバスケ
+    year: 2008
+    danbooru: kise_ryouta
+    anilist: Ryouta Kise
+  - id: yukinoshita-haruno
+    name: 雪ノ下陽乃
+    kana: ゆきのしたはるの
+    work: やはり俺の青春ラブコメはまちがっている。
+    year: 2011
+    danbooru: yukinoshita_haruno
+    anilist: Haruno Yukinoshita
+  - id: hikigaya-komachi
+    name: 比企谷小町
+    kana: ひきがやこまち
+    work: やはり俺の青春ラブコメはまちがっている。
+    year: 2011
+    danbooru: hikigaya_komachi
+    anilist: Komachi Hikigaya
+  - id: hiratsuka-shizuka
+    name: 平塚静
+    kana: ひらつかしずか
+    work: やはり俺の青春ラブコメはまちがっている。
+    year: 2011
+    danbooru: hiratsuka_shizuka
+    anilist: Shizuka Hiratsuka
+  - id: shirakami-fubuki
+    name: 白上フブキ
+    kana: しらかみふぶき
+    work: ホロライブ
+    year: 2018
+    danbooru: shirakami_fubuki
+    anilist: Shirakami Fubuki
+  - id: houshou-marine
+    name: 宝鐘マリン
+    kana: ほうしょうまりん
+    work: ホロライブ
+    year: 2018
+    danbooru: houshou_marine
+    anilist: Houshou Marine
+  - id: gawr-gura
+    name: がうる・ぐら
+    kana: がうるぐら
+    work: ホロライブ
+    year: 2020
+    danbooru: gawr_gura
+    anilist: Gawr Gura
+  - id: mori-calliope
+    name: 森カリオペ
+    kana: もりかりおぺ
+    work: ホロライブ
+    year: 2020
+    danbooru: mori_calliope
+    anilist: Mori Calliope
+  - id: kurokami-medaka
+    name: 黒神めだか
+    kana: くろかみめだか
+    work: めだかボックス
+    year: 2009
+    danbooru: kurokami_medaka
+    anilist: Medaka Kurokami
+  - id: zenigata-koichi
+    name: 銭形幸一
+    kana: ぜにがたこういち
+    work: ルパン三世
+    year: 1967
+    danbooru: zenigata_kouichi
+    anilist: Koichi Zenigata
+  - id: ishikawa-goemon
+    name: 石川五ェ門
+    kana: いしかわごえもん
+    work: ルパン三世
+    year: 1967
+    danbooru: ishikawa_goemon_xiii
+    anilist: Goemon Ishikawa XIII
+  - id: aino-minako
+    name: 愛野美奈子
+    kana: あいのみなこ
+    work: 美少女戦士セーラームーン
+    year: 1991
+    danbooru: aino_minako
+    anilist: Minako Aino
+  - id: chiba-mamoru
+    name: 地場衛
+    kana: ちばまもる
+    work: 美少女戦士セーラームーン
+    year: 1991
+    danbooru: chiba_mamoru
+    anilist: Mamoru Chiba
+  - id: nakiri-erina
+    name: 薙切えりな
+    kana: なぎりえりな
+    work: 食戟のソーマ
+    year: 2012
+    danbooru: nakiri_erina
+    anilist: Erina Nakiri
+  - id: teshima-junta
+    name: 手嶋純太
+    kana: てしまじゅんた
+    work: 弱虫ペダル
+    year: 2008
+    danbooru: teshima_junta
+    anilist: Junta Teshima
+  - id: akagi-haruko
+    name: 赤木晴子
+    kana: あかぎはるこ
+    work: SLAM DUNK
+    year: 1990
+    danbooru: akagi_haruko
+    anilist: Haruko Akagi
+  - id: touya-akira
+    name: 塔矢アキラ
+    kana: とうやあきら
+    work: ヒカルの碁
+    year: 1998
+    danbooru: touya_akira
+    anilist: Akira Touya
+  - id: wataya-arata
+    name: 綿谷新
+    kana: わたやあらた
+    work: ちはやふる
+    year: 2007
+    danbooru: wataya_arata
+    anilist: Arata Wataya
+  - id: kawamoto-hinata
+    name: 川本ひなた
+    kana: かわもとひなた
+    work: 3月のライオン
+    year: 2007
+    danbooru: kawamoto_hinata
+    anilist: Hinata Kawamoto
+  - id: takeo-gouda
+    name: 剛田猛男
+    kana: ごうだたけお
+    work: 俺物語!!
+    year: 2011
+    danbooru: gouda_takeo
+    anilist: Takeo Gouda
+  - id: yamato-rinko
+    name: 大和凛子
+    kana: やまとりんこ
+    work: 俺物語!!
+    year: 2011
+    danbooru: yamato_rinko
+    anilist: Rinko Yamato
+  - id: kazehaya-shouta
+    name: 風早翔太
+    kana: かぜはやしょうた
+    work: 君に届け
+    year: 2005
+    danbooru: kazehaya_shouta
+    anilist: Shouta Kazehaya
+  - id: mabuchi-kou
+    name: 馬渕洸
+    kana: まぶちこう
+    work: アオハライド
+    year: 2011
+    danbooru: mabuchi_kou
+    anilist: Kou Mabuchi

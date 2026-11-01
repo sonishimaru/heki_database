@@ -910,8 +910,6 @@
   name: 蛙吹梅雨
   date: '2026-10-28'
   unmapped_danbooru:
-  - tag: tongue
-    frequency: 0.5342
   - tag: tongue_out
     frequency: 0.4617
   near_miss:
@@ -1205,9 +1203,7 @@
 - id: becky-blackbell
   name: ベッキー・ブラックベル
   date: '2026-10-29'
-  unmapped_danbooru:
-  - tag: loli
-    frequency: 0.7436
+  unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
     tag: flat_chest
@@ -1998,9 +1994,7 @@
 - id: fiona-frost
   name: ナイトフォール
   date: '2026-10-29'
-  unmapped_danbooru:
-  - tag: colored_eyelashes
-    frequency: 0.5769
+  unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
@@ -3496,9 +3490,7 @@
 - id: hoshino-blue-archive
   name: 小鳥遊ホシノ
   date: '2026-10-29'
-  unmapped_danbooru:
-  - tag: pink_halo
-    frequency: 0.5968
+  unmapped_danbooru: []
   near_miss:
   - id: tebukuro
     tag: gloves
@@ -3892,25 +3884,7 @@
 - id: inomata-taiki
   name: 猪股大喜
   date: '2026-10-28'
-  unmapped_danbooru:
-  - tag: black_shoes
-    frequency: 1.0
-  - tag: nose_blush
-    frequency: 1.0
-  - tag: sneakers
-    frequency: 1.0
-  - tag: buckle
-    frequency: 1.0
-  - tag: arm_at_side
-    frequency: 1.0
-  - tag: anime_coloring
-    frequency: 1.0
-  - tag: shirt_tucked_in
-    frequency: 1.0
-  - tag: belt_buckle
-    frequency: 1.0
-  - tag: brown_belt
-    frequency: 1.0
+  unmapped_danbooru: []
   near_miss: []
   new_tag_proposals: []
 - id: inoue-orihime
@@ -4323,8 +4297,6 @@
   name: カフカ
   date: '2026-10-29'
   unmapped_danbooru:
-  - tag: eyewear_on_head
-    frequency: 0.675
   - tag: purple_gloves
     frequency: 0.3872
   near_miss:
@@ -5878,11 +5850,7 @@
 - id: kujo-sara
   name: 九条裟羅
   date: '2026-10-29'
-  unmapped_danbooru:
-  - tag: mask_on_head
-    frequency: 0.7579
-  - tag: bird_mask
-    frequency: 0.6204
+  unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
@@ -6173,8 +6141,6 @@
   name: 京楽春水
   date: '2026-10-26'
   unmapped_danbooru:
-  - tag: mature_male
-    frequency: 0.6129
   - tag: one_eye_covered
     frequency: 0.3871
   near_miss:
@@ -6622,13 +6588,7 @@
 - id: mahito
   name: 真人
   date: '2026-10-29'
-  unmapped_danbooru:
-  - tag: stitched_face
-    frequency: 0.7961
-  - tag: stitched_arm
-    frequency: 0.5727
-  - tag: stitched_neck
-    frequency: 0.5184
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -7362,8 +7322,6 @@
   name: ミルコ
   date: '2026-10-28'
   unmapped_danbooru:
-  - tag: long_eyelashes
-    frequency: 0.6144
   - tag: rabbit_tail
     frequency: 0.433
   near_miss:
@@ -7465,9 +7423,7 @@
 - id: mitsurugi-reiji
   name: 御剣怜侍
   date: '2026-10-27'
-  unmapped_danbooru:
-  - tag: curtained_hair
-    frequency: 0.601
+  unmapped_danbooru: []
   near_miss:
   - id: haiiro-no-me
     tag: grey_eyes
@@ -8294,27 +8250,7 @@
 - id: natsume-reiko
   name: 夏目レイコ
   date: '2026-10-27'
-  unmapped_danbooru:
-  - tag: ass
-    frequency: 0.5
-  - tag: barefoot
-    frequency: 0.5
-  - tag: hand_on_own_hip
-    frequency: 0.5
-  - tag: covered_nipples
-    frequency: 0.5
-  - tag: bare_legs
-    frequency: 0.5
-  - tag: anger_vein
-    frequency: 0.5
-  - tag: no_pants
-    frequency: 0.5
-  - tag: striped_panties
-    frequency: 0.5
-  - tag: controller
-    frequency: 0.5
-  - tag: game_controller
-    frequency: 0.5
+  unmapped_danbooru: []
   near_miss: []
   new_tag_proposals: []
 - id: natsume-rin
@@ -9017,10 +8953,6 @@
   name: 王馬小吉
   date: '2026-10-27'
   unmapped_danbooru:
-  - tag: checkered_clothes
-    frequency: 0.6177
-  - tag: checkered_scarf
-    frequency: 0.5789
   - tag: flipped_hair
     frequency: 0.4324
   near_miss:
@@ -10998,9 +10930,7 @@
 - id: shiranui-mai
   name: 不知火舞
   date: '2026-10-27'
-  unmapped_danbooru:
-  - tag: revealing_clothes
-    frequency: 0.4898
+  unmapped_danbooru: []
   near_miss:
   - id: sakotsu
     tag: collarbone
@@ -11193,11 +11123,7 @@
 - id: silver-wolf
   name: 銀狼
   date: '2026-10-29'
-  unmapped_danbooru:
-  - tag: eyewear_on_head
-    frequency: 0.5148
-  - tag: crossed_bangs
-    frequency: 0.3595
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
@@ -12568,9 +12494,7 @@
 - id: tsunade-naruto
   name: 綱手
   date: '2026-10-28'
-  unmapped_danbooru:
-  - tag: mature_female
-    frequency: 0.7404
+  unmapped_danbooru: []
   near_miss:
   - id: twintail
     tag: twintails
@@ -13448,13 +13372,7 @@
   name: 吉田春
   date: '2026-10-05'
   unmapped_danbooru:
-  - tag: crossed_bangs
-    frequency: 0.5
   - tag: tentacles
-    frequency: 0.5
-  - tag: pen
-    frequency: 0.5
-  - tag: holding_pen
     frequency: 0.5
   - tag: suction_cups
     frequency: 0.5
@@ -13639,9 +13557,7 @@
 - id: yuuka-blue-archive
   name: 早瀬ユウカ
   date: '2026-10-29'
-  unmapped_danbooru:
-  - tag: mechanical_halo
-    frequency: 0.5478
+  unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
