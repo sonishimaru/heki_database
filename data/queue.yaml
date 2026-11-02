@@ -5460,34 +5460,6 @@ characters:
     year: 2012
     danbooru: kaidou_shun
     anilist: Shun Kaidou
-  - id: sakamoto-ryuunosuke
-    name: 坂本
-    kana: さかもと
-    work: 坂本ですが?
-    year: 2011
-    danbooru: sakamoto_(sakamoto_desu_ga)
-    anilist: Sakamoto
-  - id: tanaka-tanaka-kun
-    name: 田中
-    kana: たなか
-    work: 田中くんはいつもけだるげ
-    year: 2013
-    danbooru: tanaka_(tanaka-kun_wa_itsumo_kedaruge)
-    anilist: Tanaka
-  - id: oota-shinji
-    name: 太田
-    kana: おおた
-    work: 田中くんはいつもけだるげ
-    year: 2013
-    danbooru: oota_shinji
-    anilist: Shinji Oota
-  - id: yamada-ryou
-    name: 山田
-    kana: やまだ
-    work: B型H系
-    year: 2004
-    danbooru: yamada_(b_gata_h_kei)
-    anilist: Yamada
   - id: fujimiya-kaori
     name: 藤宮香織
     kana: ふじみやかおり
@@ -5691,3 +5663,11 @@ characters:
     year: 2011
     danbooru: mabuchi_kou
     anilist: Kou Mabuchi
+  # 坂本（坂本ですが?）・田中と太田（田中くんはいつもけだるげ）・
+  # 山田（B型H系）を外した。4 件とも関連タグが取れず、兄弟でも裏が
+  # 取れない（太田は田中の兄弟で、両方落ちている）。
+  # 人気の無い作品だからではない。同じ巡で入れた一週間フレンズ。・海月姫・
+  # 虚構推理はどれも通っている。共通しているのは姓だけで呼ばれる人物
+  # という点で、坂本・田中・山田は同名が大量にいるため Danbooru 側の
+  # 区別の付け方が推測できない。次の補充では、姓だけの名前の人物は
+  # タグを確かめられるときだけ入れる。

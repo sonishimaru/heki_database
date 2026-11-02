@@ -2444,8 +2444,6 @@
     frequency: 0.673
   - tag: shark_hair_ornament
     frequency: 0.4308
-  - tag: hoodie
-    frequency: 0.369
   near_miss:
   - id: semi-long
     tag: medium_hair
@@ -2895,17 +2893,9 @@
   name: 長谷祐樹
   date: '2026-11-01'
   unmapped_danbooru:
-  - tag: white_panties
-    frequency: 1.0
-  - tag: black_socks
-    frequency: 1.0
   - tag: pantyshot
     frequency: 1.0
-  - tag: doll
-    frequency: 1.0
   - tag: sunset
-    frequency: 1.0
-  - tag: character_doll
     frequency: 1.0
   - tag: hugging_object
     frequency: 1.0
@@ -8053,11 +8043,7 @@
 - id: naegi-makoto
   name: 苗木誠
   date: '2026-10-01'
-  unmapped_danbooru:
-  - tag: hoodie
-    frequency: 0.4416
-  - tag: hood_down
-    frequency: 0.3994
+  unmapped_danbooru: []
   near_miss:
   - id: midori-no-me
     tag: green_eyes
@@ -12924,11 +12910,7 @@
 - id: uesugi-fuutarou
   name: 上杉風太郎
   date: '2026-10-29'
-  unmapped_danbooru:
-  - tag: doll
-    frequency: 0.4333
-  - tag: character_doll
-    frequency: 0.3833
+  unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes

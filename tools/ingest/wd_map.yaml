@@ -127,7 +127,7 @@ elements:
   furiru:
     tags: [frills, frilled_dress, lolita_fashion, gothic_lolita, layered_dress]
   gaitou:
-    tags: [cape, cloak, coat, long_coat, hooded_cloak, trench_coat, hood, white_cape, red_coat]
+    tags: [cape, cloak, coat, long_coat, hooded_cloak, trench_coat, white_cape, red_coat]
 
   # --- 小物 ---
   megane:
@@ -334,6 +334,11 @@ elements:
   # --- 33 巡目に昇格した語 ---
   sensu:
     tags: [hand_fan, folding_fan, holding_fan]
+
+  # --- 37 巡目に昇格した語 ---
+  paakaa:
+    tags: [hoodie, hood, hood_up, hood_down, drawstring]
+    note: 裸の hood も含める。外套のフードなら cape か cloak が一緒に付く
 
   # --- 29 巡目に昇格した語 ---
   josou:

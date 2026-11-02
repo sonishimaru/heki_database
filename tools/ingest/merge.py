@@ -264,6 +264,9 @@ GENERIC_TAGS = {
     "loli", "mature_female", "mature_male",
     "controller", "game_controller", "pen", "holding_pen",
     "stitched_face", "stitched_arm", "stitched_neck",
+    # 37 巡目。doll / character_doll は絵の中に人形が写っていることを
+    # 言うタグで、人物が人形だという意味ではない。あとは色と下着・靴下。
+    "doll", "character_doll", "white_panties", "black_socks",
 }
 
 

@@ -1420,3 +1420,24 @@
   pairs_with: [wasou, miko, yoyuu]
   contrasts_with: []
   tags: [定番]
+
+# --- 37 巡目。パーカーが 2 作品目に達した ---
+# hoodie がダンガンロンパとホロライブから独立に出た。28 巡目から報告に
+# 残して様子を見ていた語。
+# 同時に、裸の hood をコート・マントから外してこちらへ移した。hood で
+# コート・マントが付いていた 8 名を見たら、7 名はパーカーを着ている人物
+# （がうる・ぐら・虎杖悠仁・狛枝凪斗・苗木誠・七海千秋・サンズ・ソラ）で、
+# 外套なのはルフレ 1 名だけだった。umbrella なタグを特定の見出し語に
+# 寄せると外れるという、halo（天使）と facial_hair（髭）と同じ形の誤り。
+# ルフレの 1 件は外れるが、7 件の誤りを残すより良い。
+
+- id: paakaa
+  name: パーカー
+  kana: ぱーかー
+  aliases: [フード付き, スウェット]
+  axis: appearance.costume
+  summary: フードの付いた上着。普段着のまま出てきたという記号。
+  effect: 気を抜いた格好で通させ、フードを被る動作で顔を隠させる。
+  pairs_with: [heyagi, bukabuka, kodomo]
+  contrasts_with: [gunpuku, seifuku]
+  tags: [定番]
