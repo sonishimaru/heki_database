@@ -740,7 +740,7 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-10-03'
+    date: '2026-11-03'
   elements:
     - {id: fuguu, weight: core, note: '資料: 不明の組織の元被験者であり、実験室からの脱走や孤児院での生活という不遇な生い立ちを持つ。', src: gemini}
     - {id: kodomo, weight: core, note: 'danbooru child 63%', src: danbooru}
@@ -2480,7 +2480,7 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-10-03'
+    date: '2026-11-03'
   elements:
     - {id: erufu, weight: core, note: 'danbooru pointy_ears 97%', src: danbooru}
     - {id: furou, weight: core, note: '資料: 年齢は1000歳以上（1000+）である。', src: gemini}
@@ -2490,9 +2490,9 @@
     - {id: shitei, weight: core, note: '資料: フェルンの師匠であり、自身も人間の魔法使いフランメに弟子として師事していた。', src: gemini}
     - {id: twintail, weight: core, note: 'danbooru twintails 76%', src: danbooru}
     - {id: nagaremono, weight: sub, note: '資料: 勇者ヒンメル、戦士アイゼン、僧侶ハイターと共に10年間の旅をして魔王を討伐した。', src: gemini}
-    - {id: shirogami, weight: sub, note: 'danbooru white_hair 55%', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru white_hair 57%', src: danbooru}
     - {id: shuushuuheki, weight: sub, note: '資料: どんなに些細な魔法知識であっても収集し続けている。', src: gemini}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 79%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 80%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: frieza
@@ -3058,7 +3058,7 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-10-03'
+    date: '2026-11-03'
   elements:
     - {id: kyoushi, weight: core, note: '資料: 職業は呪術師および教師である。東京都立呪術高等専門学校の教師として、自身の影響力を使って強い若い味方を保護し訓練している。', src: gemini}
     - {id: saikyou, weight: core, note: '資料: 世界最強として広く認識されており、400年ぶりに「無下限」と「六眼」の両方を継承した', src: gemini}
@@ -3066,8 +3066,8 @@
     - {id: hogosha, weight: sub, note: '資料: 自身の影響力を使って強い若い味方を保護し訓練している。', src: gemini}
     - {id: keishou, weight: sub, note: '資料: 400年ぶりに「無下限」と「六眼」の両方を継承した五条家の誇りである。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: 身長は190cmである。', src: gemini}
-    - {id: aome, weight: spice, note: 'danbooru blue_eyes 71%（共有 22% のため比重を下げた）', src: danbooru}
-    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 87%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 71%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 86%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: gojou-wakana
@@ -6244,6 +6244,24 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 90%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: kazehaya-shouta
+  name: 風早翔太
+  kana: かぜはやしょうた
+  work: 君に届け
+  year: 2005
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/n13531-z66ipM6nJioi.png'
+    page: 'https://anilist.co/character/13531'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-03'
+  elements:
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 100%（共有 28% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 100%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kenshirou
   name: ケンシロウ
   kana: けんしろう
@@ -8315,11 +8333,11 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-10-03'
+    date: '2026-11-03'
   elements:
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 61%', src: danbooru}
     - {id: mitsuami, weight: core, note: 'danbooru braid 66%', src: danbooru}
-    - {id: akagami, weight: sub, note: 'danbooru red_hair 76%（共有 10% のため比重を下げた）', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 76%（共有 8% のため比重を下げた）', src: danbooru}
     - {id: joushi, weight: sub, note: '資料: 日本の公安における指導的な人物の一人である。', src: gemini}
     - {id: petto-atsukai, weight: sub, note: '資料: デンジを人間のペットとして引き取り、扱っている。', src: gemini}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 52%（共有 39% のため比重を下げた）', src: danbooru}
@@ -11321,7 +11339,7 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-10-03'
+    date: '2026-11-03'
   elements:
     - {id: aogami, weight: core, note: 'danbooru blue_hair 95%', src: danbooru}
     - {id: futago, weight: core, note: '資料: ラムは双子の姉であり、髪・目・リボンの色を除いてほぼ瓜二つの姿をしている。', src: gemini}
@@ -11332,8 +11350,8 @@
     - {id: meido, weight: sub, note: 'danbooru maid 56%', src: danbooru}
     - {id: shujuu, weight: sub, note: '資料: ロズワール・L・メイザースのもとでメイドとして働いている。', src: gemini}
     - {id: zaiakukan, weight: sub, note: '資料: 過去の出来事から、姉に対して崇拝に近いほどの尊敬と罪悪感を抱いている。', src: gemini}
-    - {id: aome, weight: spice, note: 'danbooru blue_eyes 90%（共有 22% のため比重を下げた）', src: danbooru}
-    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 88%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 90%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 88%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: remilia-scarlet
@@ -11370,13 +11388,13 @@
   summary: （要記入）
   analysis:
     method: danbooru+auto
-    date: '2026-10-03'
+    date: '2026-11-03'
   elements:
-    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 85%', src: danbooru}
-    - {id: akagami, weight: sub, note: 'danbooru red_hair 63%（共有 10% のため比重を下げた）', src: danbooru}
-    - {id: buki, weight: sub, note: 'danbooru weapon 51%', src: danbooru}
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 84%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 63%（共有 8% のため比重を下げた）', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 50%', src: danbooru}
     - {id: gaitou, weight: sub, note: 'danbooru cape 43%', src: danbooru}
-    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 78%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 78%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 62%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
@@ -14290,6 +14308,23 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: takeo-gouda
+  name: 剛田猛男
+  kana: ごうだたけお
+  work: '俺物語!!'
+  year: 2011
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/80757-gA4WilhjE97U.png'
+    page: 'https://anilist.co/character/80757'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-03'
+  elements:
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 100%（共有 19% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: tanaka-gundam
   name: 田中眼蛇夢
   kana: たなかがんだむ
@@ -15817,6 +15852,32 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 76%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: yamato-rinko
+  name: 大和凛子
+  kana: やまとりんこ
+  work: '俺物語!!'
+  year: 2011
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b87904-jdgZmYp28Wuk.jpg'
+    page: 'https://anilist.co/character/87904'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-03'
+  elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 50%', src: danbooru}
+    - {id: jitome, weight: sub, note: 'danbooru half-closed_eyes 50%', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 50%', src: danbooru}
+    - {id: kusekke, weight: sub, note: 'danbooru wavy_hair 50%', src: danbooru}
+    - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 50%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 100%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: semi-long, weight: sub, note: 'danbooru medium_hair 50%', src: danbooru}
+    - {id: tareme, weight: sub, note: 'danbooru tareme 50%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 100%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 50%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: yaoyorozu-momo
   name: 八百万百
   kana: やおよろずもも
@@ -15959,12 +16020,12 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-10-03'
+    date: '2026-11-03'
   elements:
     - {id: ansatsusha, weight: core, note: '資料: 裏の顔は「いばら姫」と呼ばれるプロの殺し屋であり、暗殺組織「ガーデン」に所属している。', src: gemini}
     - {id: nimensei, weight: core, note: '資料: 表の職業である市役所事務員と、裏の顔である殺し屋の二つの顔を使い分けている。', src: gemini}
     - {id: shoutai, weight: core, note: '資料: 殺し屋としての正体がバレて怪しまれることを恐れ、正体を隠して日常を送っている。', src: gemini}
-    - {id: akame, weight: sub, note: 'danbooru red_eyes 84%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 84%（共有 12% のため比重を下げた）', src: danbooru}
     - {id: buki, weight: sub, note: 'danbooru weapon 38%', src: danbooru}
     - {id: hogosha, weight: sub, note: '資料: 養女であるアーニャの母親・保護者として偽装家族の一角を担っている。', src: gemini}
     - {id: keiyaku, weight: sub, note: '資料: 互いの利害の一致（正体隠蔽と相手の任務）によりロイドと偽装結婚の合意をしている。', src: gemini}
@@ -15972,7 +16033,7 @@
     - {id: piasu, weight: sub, note: 'danbooru earrings 51%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 55%（共有 39% のため比重を下げた）', src: danbooru}
     - {id: kireizuki, weight: spice, note: '資料: 清潔好きで掃除が得意であることが公式プロフィールに明記されている。', src: gemini}
-    - {id: kurokami, weight: spice, note: 'danbooru black_hair 87%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 87%（共有 28% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yorha-2b
@@ -16425,7 +16486,7 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-10-03'
+    date: '2026-11-03'
   elements:
     - {id: jingai, weight: core, note: 'danbooru horns 89%', src: danbooru}
     - {id: pairotto, weight: core, note: '資料: FRANXXストレリチアのピスティルを務めるエリートFRANXXパイロットである', src: gemini}

@@ -620,12 +620,12 @@
   new_tag_proposals: []
 - id: anya-forger
   name: アーニャ・フォージャー
-  date: '2026-10-03'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.2036
+    frequency: 0.2046
     threshold: 0.35
   new_tag_proposals: []
 - id: anzu-hinazuki
@@ -2135,12 +2135,16 @@
   new_tag_proposals: []
 - id: frieren
   name: フリーレン
-  date: '2026-10-03'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: futomayu
     tag: thick_eyebrows
-    frequency: 0.2034
+    frequency: 0.2012
+    threshold: 0.35
+  - id: buki
+    tag: staff
+    frequency: 0.2006
     threshold: 0.35
   new_tag_proposals: []
 - id: frieza
@@ -2609,20 +2613,20 @@
   new_tag_proposals: []
 - id: gojo-satoru
   name: 五条悟
-  date: '2026-10-03'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.2508
+    frequency: 0.2465
     threshold: 0.5
   - id: megane
     tag: sunglasses
-    frequency: 0.1818
+    frequency: 0.178
     threshold: 0.35
   - id: mekakushi
     tag: blindfold
-    frequency: 0.1782
+    frequency: 0.177
     threshold: 0.35
   new_tag_proposals: []
 - id: gojou-wakana
@@ -5220,6 +5224,46 @@
     frequency: 0.2891
     threshold: 0.35
   new_tag_proposals: []
+- id: kazehaya-shouta
+  name: 風早翔太
+  date: '2026-11-03'
+  unmapped_danbooru:
+  - tag: from_side
+    frequency: 0.6667
+  near_miss:
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.3333
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3333
+    threshold: 0.5
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.3333
+    threshold: 0.6
+  - id: pattsun
+    tag: blunt_bangs
+    frequency: 0.3333
+    threshold: 0.4
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.3333
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.3333
+    threshold: 0.35
+  - id: paakaa
+    tag: hood
+    frequency: 0.3333
+    threshold: 0.35
+  - id: knit
+    tag: sweater
+    frequency: 0.3333
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kenshirou
   name: ケンシロウ
   date: '2026-09-30'
@@ -7053,16 +7097,16 @@
   new_tag_proposals: []
 - id: makima
   name: マキマ
-  date: '2026-10-03'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.2072
+    frequency: 0.2112
     threshold: 0.5
   - id: semi-long
     tag: medium_hair
-    frequency: 0.1862
+    frequency: 0.1852
     threshold: 0.35
   new_tag_proposals: []
 - id: makimura-kaori
@@ -9711,12 +9755,12 @@
   new_tag_proposals: []
 - id: rem
   name: レム
-  date: '2026-10-03'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.2798
+    frequency: 0.2796
     threshold: 0.5
   new_tag_proposals: []
 - id: remilia-scarlet
@@ -9747,24 +9791,24 @@
   new_tag_proposals: []
 - id: rengoku-kyojuro
   name: 煉獄杏寿郎
-  date: '2026-10-03'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
     tag: yellow_eyes
-    frequency: 0.3206
+    frequency: 0.319
     threshold: 0.35
   - id: akame
     tag: red_eyes
-    frequency: 0.297
+    frequency: 0.2956
     threshold: 0.35
   - id: wasou
     tag: japanese_clothes
-    frequency: 0.2497
+    frequency: 0.2487
     threshold: 0.35
   - id: futomayu
     tag: thick_eyebrows
-    frequency: 0.2497
+    frequency: 0.2474
     threshold: 0.35
   new_tag_proposals: []
 - id: renton-thurston
@@ -12334,6 +12378,18 @@
     frequency: 0.2021
     threshold: 0.35
   new_tag_proposals: []
+- id: takeo-gouda
+  name: 剛田猛男
+  date: '2026-11-03'
+  unmapped_danbooru:
+  - tag: sketch
+    frequency: 1.0
+  - tag: nose
+    frequency: 1.0
+  - tag: thumbs_up
+    frequency: 1.0
+  near_miss: []
+  new_tag_proposals: []
 - id: tanaka-gundam
   name: 田中眼蛇夢
   date: '2026-08-31'
@@ -13738,6 +13794,30 @@
     frequency: 0.1536
     threshold: 0.35
   new_tag_proposals: []
+- id: yamato-rinko
+  name: 大和凛子
+  date: '2026-11-03'
+  unmapped_danbooru:
+  - tag: eyelashes
+    frequency: 0.5
+  - tag: dutch_angle
+    frequency: 0.5
+  - tag: shiny_skin
+    frequency: 0.5
+  - tag: happy
+    frequency: 0.5
+  - tag: light_blush
+    frequency: 0.5
+  - tag: light_particles
+    frequency: 0.5
+  - tag: lens_flare
+    frequency: 0.5
+  - tag: hand_in_own_hair
+    frequency: 0.5
+  - tag: red_border
+    frequency: 0.5
+  near_miss: []
+  new_tag_proposals: []
 - id: yaoyorozu-momo
   name: 八百万百
   date: '2026-10-28'
@@ -13874,28 +13954,28 @@
   new_tag_proposals: []
 - id: yor-forger
   name: ヨル・フォージャー
-  date: '2026-10-03'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: tebukuro
     tag: gloves
-    frequency: 0.3251
+    frequency: 0.3244
     threshold: 0.35
   - id: knit
     tag: sweater
-    frequency: 0.1892
+    frequency: 0.1894
     threshold: 0.35
   - id: bob-cut
     tag: short_hair_with_long_locks
-    frequency: 0.1849
+    frequency: 0.1842
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1648
+    frequency: 0.1639
     threshold: 0.35
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.1501
+    frequency: 0.1506
     threshold: 0.5
   new_tag_proposals: []
 - id: yorha-2b
@@ -14281,16 +14361,16 @@
     reason: 生まれつき呪力を持たない代償として圧倒的な身体能力を得る特殊な体質。
 - id: zero-two
   name: ゼロツー
-  date: '2026-10-03'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: keshou
     tag: makeup
-    frequency: 0.284
+    frequency: 0.2842
     threshold: 0.35
   - id: aome
     tag: aqua_eyes
-    frequency: 0.2388
+    frequency: 0.2387
     threshold: 0.35
   - id: sakotsu
     tag: collarbone
@@ -14298,11 +14378,11 @@
     threshold: 0.35
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.1543
+    frequency: 0.1544
     threshold: 0.5
   - id: gunpuku
     tag: military_uniform
-    frequency: 0.1539
+    frequency: 0.1536
     threshold: 0.35
   new_tag_proposals: []
 - id: zhongli
