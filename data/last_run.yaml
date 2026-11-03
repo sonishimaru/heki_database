@@ -3,22 +3,33 @@
 # 掘らずに分かる。tools/report.py run で整形して表示できる。
 
 date: '2026-11-03'
-対象: 12
-完了: 10
+対象: 777
+完了: 770
 失敗:
 - chiaki-shinichi
 - victor-nikiforov
+- okarun
+- eris-boreas-greyrat
+- zenin-maki
+- hodaka-morishima
+- sophie-hatter
 レーン:
-  資料: 0 / 12
-  識別: 0 / 12
+  資料: 0 / 734
+  識別: 0 / 777
 レーンの理由:
   資料: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
   識別: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
 取得元:
-  danbooru: 10 / 12
-  anilist: 12 / 12
+  danbooru: 770 / 777
+  anilist: 734 / 777
 取得元の理由:
   danbooru: '関連タグが取れません。タグ名を確認してください: chiaki_shinichi'
+  anilist: 'HTTP 404: https://graphql.anilist.co'
 失敗の理由:
   chiaki-shinichi: 'danbooru: 関連タグが取れません。タグ名を確認してください: chiaki_shinichi'
   victor-nikiforov: 'danbooru: 関連タグが取れません。タグ名を確認してください: victor_nikiforov'
+  okarun: 'danbooru: 関連タグが取れません。タグ名を確認してください: okarun'
+  eris-boreas-greyrat: 'danbooru: 関連タグが取れません。タグ名を確認してください: eris_boreas_greyrat'
+  zenin-maki: 'danbooru: 関連タグが取れません。タグ名を確認してください: zenin_maki'
+  hodaka-morishima: 'danbooru: 関連タグが取れません。タグ名を確認してください: morishima_hodaka'
+  sophie-hatter: 'danbooru: 関連タグが取れません。タグ名を確認してください: sophie_hatter'
