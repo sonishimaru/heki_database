@@ -1094,7 +1094,7 @@
   new_tag_proposals: []
 - id: ayase-chihaya
   name: 綾瀬千早
-  date: '2026-08-31'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: hakama
@@ -3159,13 +3159,18 @@
   new_tag_proposals: []
 - id: hiei
   name: 飛影
-  date: '2026-08-30'
+  date: '2026-11-03'
   unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: 邪眼
-    axis: 外見 / 痕
-    reason: 額にある第三の目（邪眼）についての記述があり、既存語彙に当てはまるものがないため。
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.25
+    threshold: 0.35
+  - id: hachimaki
+    tag: headband
+    frequency: 0.1944
+    threshold: 0.35
+  new_tag_proposals: []
 - id: higashikata-jousuke
   name: 東方仗助
   date: '2026-10-08'
@@ -4835,12 +4840,12 @@
   new_tag_proposals: []
 - id: kamado-nezuko
   name: 竈門禰豆子
-  date: '2026-10-03'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: akagami
     tag: orange_hair
-    frequency: 0.1565
+    frequency: 0.1568
     threshold: 0.35
   new_tag_proposals: []
 - id: kamado-tanjirou
@@ -5630,7 +5635,7 @@
   new_tag_proposals: []
 - id: kiriyama-rei
   name: 桐山零
-  date: '2026-08-31'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
@@ -5647,6 +5652,10 @@
     threshold: 0.35
   - id: kurome
     tag: black_eyes
+    frequency: 0.2143
+    threshold: 0.35
+  - id: knit
+    tag: sweater
     frequency: 0.2143
     threshold: 0.35
   new_tag_proposals: []
@@ -5945,7 +5954,7 @@
   new_tag_proposals: []
 - id: komatsu-nana
   name: 小松奈々
-  date: '2026-08-31'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
@@ -5962,6 +5971,10 @@
     threshold: 0.5
   - id: chouhatsu
     tag: long_hair
+    frequency: 0.1765
+    threshold: 0.35
+  - id: knit
+    tag: turtleneck
     frequency: 0.1765
     threshold: 0.35
   new_tag_proposals: []
@@ -7778,12 +7791,12 @@
   new_tag_proposals: []
 - id: misaka-mikoto
   name: 御坂美琴
-  date: '2026-10-03'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.266
+    frequency: 0.267
     threshold: 0.5
   new_tag_proposals: []
 - id: misaki-mei
@@ -8949,7 +8962,7 @@
   new_tag_proposals: []
 - id: noda-megumi
   name: 野田恵
-  date: '2026-08-31'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: gakki
@@ -9239,7 +9252,7 @@
   new_tag_proposals: []
 - id: onoda-sakamichi
   name: 小野田坂道
-  date: '2026-08-31'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
@@ -12673,28 +12686,28 @@
   new_tag_proposals: []
 - id: tohru
   name: トール
-  date: '2026-10-03'
+  date: '2026-11-03'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.3746
+    frequency: 0.3759
     threshold: 0.5
   - id: akame
     tag: red_eyes
-    frequency: 0.3206
+    frequency: 0.3221
     threshold: 0.35
   - id: akagami
     tag: orange_hair
-    frequency: 0.2847
+    frequency: 0.2851
     threshold: 0.35
   - id: furiru
     tag: frills
-    frequency: 0.2709
+    frequency: 0.2714
     threshold: 0.35
   - id: yaeba
     tag: fang
-    frequency: 0.2667
+    frequency: 0.2661
     threshold: 0.35
   new_tag_proposals: []
 - id: tohsaka-rin

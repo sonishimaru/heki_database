@@ -1267,13 +1267,13 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-11-03'
   elements:
-    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 62%', src: danbooru}
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 79%', src: danbooru}
-    - {id: chouhatsu, weight: core, note: 'danbooru long_hair 62%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 62%（共有 17% のため比重を下げた）', src: danbooru}
     - {id: ponytail, weight: sub, note: 'danbooru ponytail 46%', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 50%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 79%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 62%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ayase-eli
@@ -3690,14 +3690,17 @@
     page: 'https://anilist.co/character/732'
     credit: AniList
   analysis:
-    method: gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-30'
+    method: danbooru+gemini+auto
+    date: '2026-11-03'
   elements:
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 50%', src: danbooru}
     - {id: akuma, weight: sub, note: '資料: 妖怪（demon）であると記載されている。', src: gemini}
+    - {id: houtai, weight: sub, note: 'danbooru bandages 42%', src: danbooru}
     - {id: jingai, weight: sub, note: '資料: 妖怪（demon）であると記載されている。', src: gemini}
     - {id: kinniku, weight: sub, note: '資料: 引き締まった筋肉質の体格をしていると記載されている。', src: gemini}
+    - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 42%', src: danbooru}
     - {id: teishinchou, weight: sub, note: '資料: 暗黒武術会時の身長が147cmで小柄であると記載されている。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 72%（共有 28% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: higashikata-jousuke
@@ -5740,7 +5743,7 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-10-03'
+    date: '2026-11-03'
   elements:
     - {id: messhu, weight: core, note: 'danbooru multicolored_hair 66%', src: danbooru}
     - {id: momoiro-no-me, weight: core, note: 'danbooru pink_eyes 70%', src: danbooru}
@@ -5748,9 +5751,9 @@
     - {id: sarugutsuwa, weight: core, note: 'danbooru gag 64%', src: danbooru}
     - {id: wasou, weight: core, note: 'danbooru japanese_clothes 69%', src: danbooru}
     - {id: chinmoku, weight: sub, note: '資料: 鬼に変貌した影響で言葉を発することができない状態（mute）となっている。', src: gemini}
-    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 36%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 35%（共有 22% のため比重を下げた）', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 90%（共有 39% のため比重を下げた）', src: danbooru}
-    - {id: kurokami, weight: spice, note: 'danbooru black_hair 77%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 77%（共有 28% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kamado-tanjirou
@@ -6081,15 +6084,15 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-11-03'
   elements:
-    - {id: chairo-no-me, weight: core, note: 'danbooru brown_eyes 62%', src: danbooru}
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 88%', src: danbooru}
     - {id: akogare, weight: sub, note: '資料: ヴィクトル・ニキフォロフを憧れの選手とし、後に彼の指導を受ける。', src: gemini}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 62%（共有 17% のため比重を下げた）', src: danbooru}
     - {id: jikokoutei, weight: sub, note: '資料: 初のグランプリファイナルで失敗し自信を失い、ヴィクトルの指導のもと自信を取り戻していく。', src: gemini}
     - {id: megane, weight: sub, note: 'danbooru glasses 36%', src: danbooru}
     - {id: shitei, weight: sub, note: '資料: ミナコを先生（指導者）に持ち、後にヴィクトル・ニキフォロフの指導を受ける。', src: gemini}
     - {id: kikan, weight: spice, note: '資料: グランプリファイナルで失敗し自信を失い、5年ぶりに帰郷する。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 88%（共有 28% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: katsura-kotonoha
@@ -6682,13 +6685,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-11-03'
   elements:
-    - {id: kurokami, weight: core, note: 'danbooru black_hair 86%', src: danbooru}
     - {id: megane, weight: core, note: 'danbooru glasses 71%', src: danbooru}
     - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 36%', src: danbooru}
     - {id: nimensei, weight: sub, note: '資料: プロの将棋棋士として公式戦を戦いながら、高校通学も両立させている。', src: gemini}
     - {id: shokunin, weight: sub, note: '資料: 中学生でプロとなった将棋棋士であり、専門的な対局の給与と貯金で自立して生活している。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 86%（共有 28% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kiryu-kazuma
@@ -7068,10 +7071,10 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-08-31'
+    date: '2026-11-03'
   elements:
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 65%', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 53%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 65%（共有 22% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: komi-shouko
@@ -9120,13 +9123,13 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-10-03'
+    date: '2026-11-03'
   elements:
-    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 84%（共有 15% のため比重を下げた）', src: danbooru}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 50%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 84%（共有 17% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 49%', src: danbooru}
     - {id: semi-long, weight: sub, note: 'danbooru medium_hair 40%', src: danbooru}
-    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 90%（共有 21% のため比重を下げた）', src: danbooru}
-    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 40%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 90%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 40%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: misaki-mei
@@ -10513,13 +10516,13 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-11-03'
   elements:
-    - {id: chapatsu, weight: core, note: 'danbooru brown_hair 83%', src: danbooru}
-    - {id: tanpatsu, weight: core, note: 'danbooru short_hair 67%', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 50%', src: danbooru}
     - {id: kataomoi, weight: sub, note: '資料: 千秋に恋をしており、常に彼について回り、彼の「妻」であると主張している。', src: gemini}
     - {id: surechigai, weight: sub, note: '資料: 音楽に対する姿勢が千秋とすれ違う原因になると気づき、自身のために音楽を追求する意欲を身につけた。', src: gemini}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 83%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 67%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nohara-shinnosuke
@@ -10780,9 +10783,10 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-08-31'
+    date: '2026-11-03'
   elements:
     - {id: otaku, weight: core, note: '資料: アニメオタクであり、一番好きなアニメ『ラブ★ヒメ』のグッズを得るための熱意によって競技自転車選手に必要な能力を身につけた。', src: gemini}
+    - {id: uniform, weight: core, note: 'danbooru cycling_uniform 67%', src: danbooru}
     - {id: gishiki, weight: sub, note: '資料: クライミング（登坂）中に『ラブ★ヒメ』のテーマソングを歌う。', src: gemini}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 33%', src: danbooru}
   patterns: []
@@ -14701,7 +14705,7 @@
     credit: AniList
   analysis:
     method: danbooru+gemini+auto
-    date: '2026-10-03'
+    date: '2026-11-03'
   elements:
     - {id: jingai, weight: core, note: 'danbooru horns 94%', src: danbooru}
     - {id: meido, weight: core, note: 'danbooru maid_headdress 70%', src: danbooru}
@@ -14712,7 +14716,7 @@
     - {id: hogosha, weight: sub, note: '資料: カンナに対して保護的であり、母親であり姉のような存在である。', src: gemini}
     - {id: kataomoi, weight: sub, note: '資料: 小林に救われた後、彼女に恋をしてメイドとして働くことを決めた。', src: gemini}
     - {id: kin-no-me, weight: sub, note: 'danbooru orange_eyes 42%', src: danbooru}
-    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 75%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 75%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 59%', src: danbooru}
     - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 36%', src: danbooru}
     - {id: shukuteki, weight: sub, note: '資料: エルマとはライバル関係にある。', src: gemini}
