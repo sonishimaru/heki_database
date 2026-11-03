@@ -152,7 +152,7 @@ elements:
     tags: [animal_ears, cat_ears, fox_ears, wolf_ears, animal_ear_fluff, wolf_girl, cat_girl, fox_girl, dog_ears, rabbit_ears, extra_ears, raccoon_girl, raccoon_ears, horse_ears, horse_girl, rabbit_girl, dog_girl, kitsune]
   jingai:
     tags: [horns, monster_girl, slime_girl, lamia, mermaid, red_horns, cone_horns, goat_horns, green_skin, antennae, crystal_hair,
-        single_horn, black_horns, antlers]
+        single_horn, black_horns, antlers, shark_girl, fins]
   jinzou:
     tags: [android, robot, robot_joints, mechanical_parts, doll_joints, joints, cyborg, mechanical_magical_girl]
 
@@ -254,7 +254,7 @@ elements:
 
   # --- 4 巡目 ---
   shippo:
-    tags: [tail, wolf_tail, cat_tail, fox_tail, dog_tail, dragon_tail, demon_tail, brown_tail, raccoon_tail, horse_tail, multiple_tails]
+    tags: [tail, wolf_tail, cat_tail, fox_tail, dog_tail, dragon_tail, demon_tail, brown_tail, raccoon_tail, horse_tail, multiple_tails, shark_tail, fish_tail]
   sarugutsuwa:
     tags: [gag, gagged, bit_gag, ball_gag]
     threshold: 0.5

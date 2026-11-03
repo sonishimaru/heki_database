@@ -221,8 +221,6 @@
   name: 赤木晴子
   date: '2026-11-02'
   unmapped_danbooru:
-  - tag: basketball_(object)
-    frequency: 0.65
   - tag: holding_ball
     frequency: 0.4
   - tag: basketball_(sport)
@@ -2502,14 +2500,6 @@
   name: がうる・ぐら
   date: '2026-11-01'
   unmapped_danbooru:
-  - tag: fins
-    frequency: 0.7242
-  - tag: fish_tail
-    frequency: 0.7224
-  - tag: shark_tail
-    frequency: 0.719
-  - tag: shark_girl
-    frequency: 0.673
   - tag: shark_hair_ornament
     frequency: 0.4308
   near_miss:
@@ -2960,17 +2950,7 @@
 - id: hase-yuuki
   name: 長谷祐樹
   date: '2026-11-01'
-  unmapped_danbooru:
-  - tag: pantyshot
-    frequency: 1.0
-  - tag: sunset
-    frequency: 1.0
-  - tag: hugging_object
-    frequency: 1.0
-  - tag: hugging_doll
-    frequency: 1.0
-  - tag: button_eyes
-    frequency: 1.0
+  unmapped_danbooru: []
   near_miss: []
   new_tag_proposals: []
 - id: hashibira-inosuke
@@ -5132,8 +5112,6 @@
   name: 川本ひなた
   date: '2026-11-02'
   unmapped_danbooru:
-  - tag: happy
-    frequency: 0.4444
   - tag: dot_nose
     frequency: 0.4444
   near_miss:
@@ -5227,9 +5205,7 @@
 - id: kazehaya-shouta
   name: 風早翔太
   date: '2026-11-03'
-  unmapped_danbooru:
-  - tag: from_side
-    frequency: 0.6667
+  unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
     tag: long_hair
@@ -12381,13 +12357,7 @@
 - id: takeo-gouda
   name: 剛田猛男
   date: '2026-11-03'
-  unmapped_danbooru:
-  - tag: sketch
-    frequency: 1.0
-  - tag: nose
-    frequency: 1.0
-  - tag: thumbs_up
-    frequency: 1.0
+  unmapped_danbooru: []
   near_miss: []
   new_tag_proposals: []
 - id: tanaka-gundam
@@ -12579,9 +12549,7 @@
 - id: teshima-junta
   name: 手嶋純太
   date: '2026-11-02'
-  unmapped_danbooru:
-  - tag: happy_birthday
-    frequency: 0.6667
+  unmapped_danbooru: []
   near_miss:
   - id: tanpatsu
     tag: short_hair
@@ -13803,8 +13771,6 @@
   - tag: dutch_angle
     frequency: 0.5
   - tag: shiny_skin
-    frequency: 0.5
-  - tag: happy
     frequency: 0.5
   - tag: light_blush
     frequency: 0.5

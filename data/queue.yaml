@@ -5656,13 +5656,9 @@ characters:
     year: 2005
     danbooru: kazehaya_shouta
     anilist: Shouta Kazehaya
-  - id: mabuchi-kou
-    name: 馬渕洸
-    kana: まぶちこう
-    work: アオハライド
-    year: 2011
-    danbooru: mabuchi_kou
-    anilist: Kou Mabuchi
+  # 馬渕洸（アオハライド）は mabuchi_kou で取れなかった。兄弟の吉岡双葉が
+  # yoshioka_futaba で通っているので、カッコを付けない形という決まりは
+  # 裏が取れている。綴りの当てが無いので推測で直さずに外す。
   # 坂本（坂本ですが?）・田中と太田（田中くんはいつもけだるげ）・
   # 山田（B型H系）を外した。4 件とも関連タグが取れず、兄弟でも裏が
   # 取れない（太田は田中の兄弟で、両方落ちている）。

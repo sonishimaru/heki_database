@@ -267,6 +267,11 @@ GENERIC_TAGS = {
     # 37 巡目。doll / character_doll は絵の中に人形が写っていることを
     # 言うタグで、人物が人形だという意味ではない。あとは色と下着・靴下。
     "doll", "character_doll", "white_panties", "black_socks",
+    # 38 巡目。構図・背景・小道具・表情。hugging_doll と button_eyes は
+    # 絵の中の人形の話で、人物の特徴ではない。
+    "pantyshot", "sunset", "hugging_object", "hugging_doll", "button_eyes",
+    "sketch", "nose", "thumbs_up", "from_side", "happy", "happy_birthday",
+    "basketball_(object)",
 }
 
 
