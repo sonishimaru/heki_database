@@ -124,28 +124,35 @@ def tag_candidates(tag: str, sleep: float) -> list[str]:
     環境から Danbooru は引けない（DNS で止まる）ので、名前を調べられるのは
     この runner だけ。候補をログに出せば当てに行く必要がなくなる。
 
-    tag を _ で割り、長い成分 2 つで部分一致を引く。失敗したときだけ呼ぶ。
+    tag を _ で割り、長い成分 2 つで引く。成分ごとに二通りの形で引く。
+    部分一致（*part*）は人気順 20 件しか取れないので、作例の少ない
+    カッコ付きが落ちる。ソフィー・ハッターを探したとき *sophie* の上位は
+    別作品のソフィーで埋まり、妹の lettie_hatter は出たのに本人は出な
+    かった。そこで part_(* も引く。作品名のカッコが付く形はこれまで
+    morishima_hodaka_(tenki_no_ko) と okarun_(dandadan) で当たっている。
+    失敗したときだけ呼ぶ。
     """
     parts = sorted({p for p in tag.split("_") if len(p) >= 4}, key=len, reverse=True)[:2]
     found: dict[str, int] = {}
     for part in parts:
-        time.sleep(sleep)
-        url = "https://danbooru.donmai.us/tags.json?" + urllib.parse.urlencode(
-            {
-                "search[name_matches]": f"*{part}*",
-                "search[category]": 4,
-                "search[order]": "count",
-                "limit": 20,
-            }
-        )
-        try:
-            rows = json.loads(http(url))
-        except SystemExit:
-            continue
-        for row in rows:
-            name = row.get("name")
-            if name and name != tag:
-                found[name] = row.get("post_count") or 0
+        for pattern, limit in ((f"*{part}*", 20), (f"{part}_(*", 10)):
+            time.sleep(sleep)
+            url = "https://danbooru.donmai.us/tags.json?" + urllib.parse.urlencode(
+                {
+                    "search[name_matches]": pattern,
+                    "search[category]": 4,
+                    "search[order]": "count",
+                    "limit": limit,
+                }
+            )
+            try:
+                rows = json.loads(http(url))
+            except SystemExit:
+                continue
+            for row in rows:
+                name = row.get("name")
+                if name and name != tag:
+                    found[name] = row.get("post_count") or 0
     # 並べ方は一つでは足りない。どちらの順でも答えが落ちた例がある。
     # 作例数順だと zenin_maki のとき *maki* の上位が makima・nishikino_maki・
     # uzumaki_naruto・tatsumaki・makise_kurisu で埋まり zen'in_maki が落ちた。
