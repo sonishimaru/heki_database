@@ -116,30 +116,52 @@ def cmd_anilist(args) -> int:
 
 
 def no_related_reason(tag: str, sleep: float) -> str:
-    """related_tags が空のとき、名前が違うのか作例が足りないのかを分けて返す。
+    """related_tags が空のとき、その理由を分けて返す。
 
-    空になる理由は二つある。そのタグが無いか、あっても solo の作例が
-    集計に足りないか。前は両方に「タグ名を確認してください」と出して
-    いたので、2026-11-04 の確認で綴りの当てを 7 件分探す羽目になった。
-    実際には名前は正しく絵が少ないだけの人物が混ざっている可能性があり、
-    どちらなのかログから判別できなかった。失敗したときだけ 1 回余分に
-    問い合わせる。
+    空になる理由は一つではない。そのタグが無いか、改名されて別名に
+    なったか、あっても solo の作例が集計に足りないか。前は全部に
+    「タグ名を確認してください」と出していたので、綴りの当てを 7 件分
+    探す羽目になった。
+
+    tags.json を引いて作例数を見る。作例 0 件のタグは行だけが残って
+    いるので「ある」と言ってはいけない。そこで tag_aliases.json も
+    引く。Danbooru の改名は別名として記録されるので、正しい名前が
+    そのまま返る。これまで改名に 4 件（星野アイ・アクセラレータ・
+    ルパン三世・飛影）当たって毎回手で探していたのが要らなくなる。
+    失敗したときだけ引くので、通常の取得は重くならない。
     """
-    time.sleep(sleep)
-    url = "https://danbooru.donmai.us/tags.json?" + urllib.parse.urlencode(
-        {"search[name]": tag, "limit": 1}
+
+    def get(url: str):
+        time.sleep(sleep)
+        try:
+            return json.loads(http(url))
+        except SystemExit as err:
+            return err
+
+    rows = get(
+        "https://danbooru.donmai.us/tags.json?"
+        + urllib.parse.urlencode({"search[name]": tag, "limit": 1})
     )
-    try:
-        rows = json.loads(http(url))
-    except SystemExit as err:
-        return f"関連タグが空です。タグの有無は確かめられませんでした: {tag}（{err}）"
-    if not rows:
-        return f"そのタグはありません。名前が違います: {tag}"
-    count = rows[0].get("post_count") or 0
-    return (
-        f"タグはあります（作例 {count} 件）が、solo の関連タグが集計できません: {tag}。"
-        "綴りではなく作例の少なさが原因です"
+    if isinstance(rows, SystemExit):
+        return f"関連タグが空です。タグの有無は確かめられませんでした: {tag}（{rows}）"
+    count = (rows[0].get("post_count") or 0) if rows else 0
+    if count > 0:
+        return (
+            f"タグはあります（作例 {count} 件）が、solo の関連タグが集計できません: {tag}。"
+            "綴りではなく作例の少なさが原因です"
+        )
+
+    aliases = get(
+        "https://danbooru.donmai.us/tag_aliases.json?"
+        + urllib.parse.urlencode(
+            {"search[antecedent_name]": tag, "search[status]": "active", "limit": 1}
+        )
     )
+    if isinstance(aliases, SystemExit):
+        return f"作例 0 件のタグです（名前が違います）: {tag}。別名は確かめられませんでした（{aliases}）"
+    if aliases:
+        return f"改名されています。{tag} → {aliases[0].get('consequent_name')} に直してください"
+    return f"作例 0 件で別名もありません。名前が違います: {tag}"
 
 
 def cmd_danbooru(args) -> int:
