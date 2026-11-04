@@ -1906,16 +1906,6 @@ characters:
     year: 2021
     danbooru: ayase_momo
     anilist: Momo Ayase
-  - id: okarun
-    name: オカルン
-    kana: おかるん
-    work: ダンダダン
-    year: 2021
-    # okarun は作例 0 件の空タグで、okarun_(dandadan) も 0 件。愛称では
-    # 引けないので本名の高倉健で試す。姉妹の綾瀬桃が ayase_momo で
-    # 通っているので姓→名の形は裏が取れている。
-    danbooru: takakura_ken
-    anilist: Ken Takakura
   - id: maomao
     name: 猫猫
     kana: まおまお
@@ -5678,6 +5668,10 @@ characters:
   # 坂本（坂本ですが?）・田中と太田（田中くんはいつもけだるげ）・
   # 山田（B型H系）を外した。4 件とも関連タグが取れず、兄弟でも裏が
   # 取れない（太田は田中の兄弟で、両方落ちている）。
+  # オカルン（ダンダダン）を外した。okarun も okarun_(dandadan) も作例 0 件、
+  # 本名の takakura_ken も 0 件で、候補検索に出たのは takakura_kanba・
+  # takakura_karin・takakura_takeo など別作品の高倉姓だけ。綾瀬桃は
+  # ayase_momo で通っているので作品自体は入っている。2 度落ちたので外す。
   # 人気の無い作品だからではない。同じ巡で入れた一週間フレンズ。・海月姫・
   # 虚構推理はどれも通っている。共通しているのは姓だけで呼ばれる人物
   # という点で、坂本・田中・山田は同名が大量にいるため Danbooru 側の

@@ -146,14 +146,18 @@ def tag_candidates(tag: str, sleep: float) -> list[str]:
             name = row.get("name")
             if name and name != tag:
                 found[name] = row.get("post_count") or 0
-    # 作例数で並べると埋もれる。zenin_maki を探したとき、*maki* の上位 5 件は
-    # makima・nishikino_maki・uzumaki_naruto・tatsumaki・makise_kurisu で、
-    # 肝心の zen'in_maki は人気順で 6 位以下に落ちていた。綴りの近さで並べる。
+    # 並べ方は一つでは足りない。どちらの順でも答えが落ちた例がある。
+    # 作例数順だと zenin_maki のとき *maki* の上位が makima・nishikino_maki・
+    # uzumaki_naruto・tatsumaki・makise_kurisu で埋まり zen'in_maki が落ちた。
+    # 綴りの近さ順だと sophie_hatter のとき作品のカッコが付く形が落ちた
+    # （morishima_hodaka_(tenki_no_ko) は長いので近さでは下に来る）。
+    # 両方の上位を並べて出す。
     def closeness(name: str) -> float:
         return difflib.SequenceMatcher(None, tag, name).ratio()
 
-    ranked = sorted(found.items(), key=lambda kv: -closeness(kv[0]))[:5]
-    return [f"{name}（作例 {count}）" for name, count in ranked]
+    near = sorted(found, key=lambda n: -closeness(n))[:3]
+    many = [n for n in sorted(found, key=lambda n: -found[n]) if n not in near][:3]
+    return [f"{name}（作例 {found[name]}）" for name in near + many]
 
 
 def no_related_reason(tag: str, sleep: float) -> str:
