@@ -2153,7 +2153,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-03'
+    date: '2026-11-04'
   elements:
     - {id: erufu, weight: core, note: 'danbooru pointy_ears 71%', src: danbooru}
     - {id: mitsuami, weight: core, note: 'danbooru braid 60%', src: danbooru}
@@ -5671,7 +5671,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-03'
+    date: '2026-11-04'
   elements:
     - {id: akagami, weight: sub, note: 'danbooru orange_hair 46%', src: danbooru}
     - {id: chuukafuku, weight: sub, note: 'danbooru chinese_clothes 49%', src: danbooru}
@@ -5980,7 +5980,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-03'
+    date: '2026-11-04'
   elements:
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 86%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 66%', src: danbooru}
@@ -9787,7 +9787,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-03'
+    date: '2026-11-04'
   elements:
     - {id: kasshoku, weight: core, note: 'danbooru tan 86%', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 70%（共有 17% のため比重を下げた）', src: danbooru}
@@ -12263,7 +12263,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-03'
+    date: '2026-11-04'
   elements:
     - {id: akagami, weight: sub, note: 'danbooru red_hair 83%（共有 8% のため比重を下げた）', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 71%（共有 12% のため比重を下げた）', src: danbooru}
@@ -14951,7 +14951,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-03'
+    date: '2026-11-04'
   elements:
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 71%', src: danbooru}
     - {id: tate-rooru, weight: core, note: 'danbooru drill_hair 88%', src: danbooru}
