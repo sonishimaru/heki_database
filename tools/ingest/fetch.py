@@ -115,6 +115,40 @@ def cmd_anilist(args) -> int:
     return 0
 
 
+def tag_candidates(tag: str, sleep: float) -> list[str]:
+    """名前が違うとき、実在する近い名前を探して並べる。
+
+    綴りを当てに行って落とした人物が何人もいる。坂本・田中・山田・太田は
+    「推測できない」として外し、馬渕洸も綴りの当てが無くて外した。手元の
+    環境から Danbooru は引けない（DNS で止まる）ので、名前を調べられるのは
+    この runner だけ。候補をログに出せば当てに行く必要がなくなる。
+
+    tag を _ で割り、長い成分 2 つで部分一致を引く。失敗したときだけ呼ぶ。
+    """
+    parts = sorted({p for p in tag.split("_") if len(p) >= 4}, key=len, reverse=True)[:2]
+    found: dict[str, int] = {}
+    for part in parts:
+        time.sleep(sleep)
+        url = "https://danbooru.donmai.us/tags.json?" + urllib.parse.urlencode(
+            {
+                "search[name_matches]": f"*{part}*",
+                "search[category]": 4,
+                "search[order]": "count",
+                "limit": 5,
+            }
+        )
+        try:
+            rows = json.loads(http(url))
+        except SystemExit:
+            continue
+        for row in rows:
+            name = row.get("name")
+            if name and name != tag:
+                found[name] = row.get("post_count") or 0
+    ranked = sorted(found.items(), key=lambda kv: -kv[1])[:6]
+    return [f"{name}（作例 {count}）" for name, count in ranked]
+
+
 def no_related_reason(tag: str, sleep: float) -> str:
     """related_tags が空のとき、その理由を分けて返す。
 
@@ -161,7 +195,9 @@ def no_related_reason(tag: str, sleep: float) -> str:
         return f"作例 0 件のタグです（名前が違います）: {tag}。別名は確かめられませんでした（{aliases}）"
     if aliases:
         return f"改名されています。{tag} → {aliases[0].get('consequent_name')} に直してください"
-    return f"作例 0 件で別名もありません。名前が違います: {tag}"
+    candidates = tag_candidates(tag, sleep)
+    near = "似た名前: " + "、".join(candidates) if candidates else "似た名前も見つかりません"
+    return f"作例 0 件で別名もありません。名前が違います: {tag}。{near}"
 
 
 def cmd_danbooru(args) -> int:
