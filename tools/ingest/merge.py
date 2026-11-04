@@ -272,6 +272,17 @@ GENERIC_TAGS = {
     "pantyshot", "sunset", "hugging_object", "hugging_doll", "button_eyes",
     "sketch", "nose", "thumbs_up", "from_side", "happy", "happy_birthday",
     "basketball_(object)",
+    # 48 巡目。楽譜の記号は絵の中に音符が描かれているという話で、人物の
+    # 特徴ではない（千秋真一から出た）。yandere・crazy_eyes・crazy_smile は
+    # 性格の話で、性癖は人の判断でしか付けないので自動の材料にはしない。
+    # 服を脱ぐ・見せる系と姿勢・視線・背景も絵の撮り方。
+    "musical_note", "beamed_eighth_notes", "treble_clef", "musical_staff",
+    "bass_clef", "sixteenth_note",
+    "yandere", "crazy_eyes", "crazy_smile",
+    "pulling_own_clothes", "opening_own_clothes", "presenting_own_body",
+    "flashing", "borrowed_clothes", "string_panties",
+    "bare_arms", "arms_at_sides", "tongue_out", "looking_up",
+    "outstretched_hand", "black_background", "aqua_jacket", "aqua_pants",
 }
 
 

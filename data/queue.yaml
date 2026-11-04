@@ -5651,6 +5651,171 @@ characters:
     year: 2005
     danbooru: kazehaya_shouta
     anilist: Shouta Kazehaya
+  # --- 29期目。未処理が 0 件になったので補充。候補 50 名のうち 28 名は
+  # 既に入っていた。775 名・321 作品まで来ているので、思い付く人物は
+  # 大半が収録済みで、残りは Danbooru の作例が薄い作品（タッチ・H2・
+  # ピンポン・20世紀少年・もやしもん）に偏る。綴りを当てに行くと落ちる
+  # 側なので、40 名に届かせるために確度の低いタグを混ぜるのは止めて
+  # 22 名で切った。
+  # 狙ったのは Gemini 無しでも埋まる外見の薄い軸。巫女（5 件）・ナース
+  # （1 件）・シスター（1 件）・執事（1 件）・そばかす（3 件）・
+  # 目の下の隈（2 件）・つり目（0 件）・無表情（0 件）あたり。
+  # 性格・関係性・物語役割の薄い軸は資料レーン（Gemini）でしか埋まらない
+  # ので、残高が戻るまで狙っても無駄。
+  - id: kochiya-sanae
+    name: 東風谷早苗
+    kana: こちやさなえ
+    work: 東方Project
+    year: 2009
+    danbooru: kochiya_sanae
+    anilist: Sanae Kochiya
+  - id: shameimaru-aya
+    name: 射命丸文
+    kana: しゃめいまるあや
+    work: 東方Project
+    year: 2003
+    danbooru: shameimaru_aya
+    anilist: Aya Shameimaru
+  - id: reiuji-utsuho
+    name: 霊烏路空
+    kana: れいうじうつほ
+    work: 東方Project
+    year: 2008
+    danbooru: reiuji_utsuho
+    anilist: Utsuho Reiuji
+  - id: ayasaki-hayate
+    name: 綾崎ハヤテ
+    kana: あやさきはやて
+    work: ハヤテのごとく!
+    year: 2004
+    danbooru: ayasaki_hayate
+    anilist: Hayate Ayasaki
+  - id: sanzenin-nagi
+    name: 三千院ナギ
+    kana: さんぜんいんなぎ
+    work: ハヤテのごとく!
+    year: 2004
+    danbooru: sanzenin_nagi
+    anilist: Nagi Sanzenin
+  - id: eda
+    name: エダ
+    kana: えだ
+    work: BLACK LAGOON
+    year: 2002
+    danbooru: eda_(black_lagoon)
+    anilist: Eda
+  - id: balalaika
+    name: バラライカ
+    kana: ばららいか
+    work: BLACK LAGOON
+    year: 2002
+    danbooru: balalaika_(black_lagoon)
+    anilist: Balalaika
+  - id: ieiri-shouko
+    name: 家入硝子
+    kana: いえいりしょうこ
+    work: 呪術廻戦
+    year: 2018
+    danbooru: ieiri_shouko
+    anilist: Shoko Ieiri
+  - id: yamaguchi-tadashi
+    name: 山口忠
+    kana: やまぐちただし
+    work: ハイキュー!!
+    year: 2012
+    danbooru: yamaguchi_tadashi
+    anilist: Tadashi Yamaguchi
+  - id: tanaka-ryuunosuke
+    name: 田中龍之介
+    kana: たなかりゅうのすけ
+    work: ハイキュー!!
+    year: 2012
+    danbooru: tanaka_ryuunosuke
+    anilist: Ryuunosuke Tanaka
+  - id: aizawa-shouta
+    name: 相澤消太
+    kana: あいざわしょうた
+    work: 僕のヒーローアカデミア
+    year: 2014
+    danbooru: aizawa_shouta
+    anilist: Shouta Aizawa
+  - id: tokoyami-fumikage
+    name: 常闇踏陰
+    kana: とこやみふみかげ
+    work: 僕のヒーローアカデミア
+    year: 2014
+    danbooru: tokoyami_fumikage
+    anilist: Fumikage Tokoyami
+  - id: gokou-ruri
+    name: 五更瑠璃
+    kana: ごこうるり
+    work: 俺の妹がこんなに可愛いわけがない
+    year: 2008
+    danbooru: gokou_ruri
+    anilist: Ruri Gokou
+  - id: tachibana-taki
+    name: 立花瀧
+    kana: たちばなたき
+    work: 君の名は。
+    year: 2016
+    danbooru: tachibana_taki
+    anilist: Taki Tachibana
+  - id: amuro-tooru
+    name: 安室透
+    kana: あむろとおる
+    work: 名探偵コナン
+    year: 1994
+    danbooru: amuro_tooru
+    anilist: Tooru Amuro
+  - id: orga-itsuka
+    name: オルガ・イツカ
+    kana: おるがいつか
+    work: 機動戦士ガンダム 鉄血のオルフェンズ
+    year: 2015
+    danbooru: orga_itsuka
+    anilist: Orga Itsuka
+  - id: illyasviel-von-einzbern
+    name: イリヤスフィール・フォン・アインツベルン
+    kana: いりやすふぃーるふぉんあいんつべるん
+    work: Fate/stay night
+    year: 2004
+    danbooru: illyasviel_von_einzbern
+    anilist: Illyasviel von Einzbern
+  - id: kraft-lawrence
+    name: クラフト・ロレンス
+    kana: くらふとろれんす
+    work: 狼と香辛料
+    year: 2006
+    danbooru: kraft_lawrence
+    anilist: Kraft Lawrence
+  - id: tanaka-asuka
+    name: 田中あすか
+    kana: たなかあすか
+    work: 響け!ユーフォニアム
+    year: 2013
+    danbooru: tanaka_asuka
+    anilist: Asuka Tanaka
+  - id: chidori-kaname
+    name: 千鳥かなめ
+    kana: ちどりかなめ
+    work: フルメタル・パニック!
+    year: 1998
+    danbooru: chidori_kaname
+    anilist: Kaname Chidori
+  - id: sagara-sousuke
+    name: 相良宗介
+    kana: さがらそうすけ
+    work: フルメタル・パニック!
+    year: 1998
+    danbooru: sagara_sousuke
+    anilist: Sousuke Sagara
+  - id: tousen-kaname
+    name: 東仙要
+    kana: とうせんかなめ
+    work: BLEACH
+    year: 2001
+    danbooru: tousen_kaname
+    anilist: Kaname Tousen
   # 馬渕洸（アオハライド）は mabuchi_kou で取れなかった。兄弟の吉岡双葉が
   # yoshioka_futaba で通っているので、カッコを付けない形という決まりは
   # 裏が取れている。綴りの当てが無いので推測で直さずに外す。

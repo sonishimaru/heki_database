@@ -127,7 +127,8 @@ elements:
   furiru:
     tags: [frills, frilled_dress, lolita_fashion, gothic_lolita, layered_dress]
   gaitou:
-    tags: [cape, cloak, coat, long_coat, hooded_cloak, trench_coat, white_cape, red_coat]
+    tags: [cape, cloak, coat, long_coat, hooded_cloak, hooded_coat, trench_coat, white_cape,
+        red_coat]
 
   # --- 小物 ---
   megane:
