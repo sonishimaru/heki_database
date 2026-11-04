@@ -23,6 +23,7 @@
 from __future__ import annotations
 
 import argparse
+import difflib
 import html as html_mod
 import json
 import re
@@ -134,7 +135,7 @@ def tag_candidates(tag: str, sleep: float) -> list[str]:
                 "search[name_matches]": f"*{part}*",
                 "search[category]": 4,
                 "search[order]": "count",
-                "limit": 5,
+                "limit": 20,
             }
         )
         try:
@@ -145,7 +146,13 @@ def tag_candidates(tag: str, sleep: float) -> list[str]:
             name = row.get("name")
             if name and name != tag:
                 found[name] = row.get("post_count") or 0
-    ranked = sorted(found.items(), key=lambda kv: -kv[1])[:6]
+    # 作例数で並べると埋もれる。zenin_maki を探したとき、*maki* の上位 5 件は
+    # makima・nishikino_maki・uzumaki_naruto・tatsumaki・makise_kurisu で、
+    # 肝心の zen'in_maki は人気順で 6 位以下に落ちていた。綴りの近さで並べる。
+    def closeness(name: str) -> float:
+        return difflib.SequenceMatcher(None, tag, name).ratio()
+
+    ranked = sorted(found.items(), key=lambda kv: -closeness(kv[0]))[:5]
     return [f"{name}（作例 {count}）" for name, count in ranked]
 
 

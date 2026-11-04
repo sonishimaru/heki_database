@@ -1827,7 +1827,9 @@ characters:
     kana: ちあきしんいち
     work: のだめカンタービレ
     year: 2001
-    danbooru: chiaki_shinichi
+    # 真一は同じ規則で shin'ichi。姉妹の野田恵が noda_megumi で通って
+    # いるので姓→名の形は裏が取れている。
+    danbooru: chiaki_shin'ichi
     anilist: Shinichi Chiaki
   - id: komatsu-nana
     name: 小松奈々
@@ -1872,7 +1874,9 @@ characters:
     kana: ゔぃくとるにきふぉろふ
     work: ユーリ!!! on ICE
     year: 2016
-    danbooru: victor_nikiforov
+    # ロシア語の Виктор は Danbooru では viktor。候補検索で
+    # viktor_nikiforov（作例 1953）が出た。
+    danbooru: viktor_nikiforov
     anilist: Victor Nikiforov
   - id: hanagaki-takemichi
     name: 花垣武道
@@ -1907,7 +1911,10 @@ characters:
     kana: おかるん
     work: ダンダダン
     year: 2021
-    danbooru: okarun
+    # okarun は作例 0 件の空タグで、okarun_(dandadan) も 0 件。愛称では
+    # 引けないので本名の高倉健で試す。姉妹の綾瀬桃が ayase_momo で
+    # 通っているので姓→名の形は裏が取れている。
+    danbooru: takakura_ken
     anilist: Ken Takakura
   - id: maomao
     name: 猫猫
@@ -1977,7 +1984,9 @@ characters:
     kana: えりすぼれあすぐれいらっと
     work: 無職転生
     year: 2012
-    danbooru: eris_boreas_greyrat
+    # 候補検索で eris_greyrat（作例 3079）。rudeus_greyrat・aisha_greyrat・
+    # norn_greyrat も同じ形で、家名のボレアスは入らない。
+    danbooru: eris_greyrat
     anilist: Eris Boreas Greyrat
   - id: okkotsu-yuuta
     name: 乙骨憂太
@@ -1991,7 +2000,8 @@ characters:
     kana: ぜんいんまき
     work: 呪術廻戦
     year: 2018
-    danbooru: zenin_maki
+    # 禪院は Danbooru では zen'in。ん＋母音の間にアポストロフィが入る。
+    danbooru: zen'in_maki
     anilist: Maki Zenin
   - id: inumaki-toge
     name: 狗巻棘
@@ -2188,13 +2198,19 @@ characters:
     kana: もりしまほだか
     work: 天気の子
     year: 2019
-    danbooru: morishima_hodaka
+    # 候補検索で morishima_hodaka_(tenki_no_ko)（作例 79）。姓→名は
+    # 合っていて、作品のカッコが要るほうだった。
+    danbooru: morishima_hodaka_(tenki_no_ko)
     anilist: Hodaka Morishima
   - id: sophie-hatter
     name: ソフィー・ハッター
     kana: そふぃーはったー
     work: ハウルの動く城
     year: 2004
+    # 候補検索では hatterene・sophie_neuenmuller・sophie_(tales)・
+    # mad_hatter_(alice_in_wonderland) しか読めず、5 件目が理由の字数
+    # 制限で切れていた。判断が付かないので直さない。字数を伸ばして
+    # 綴りの近さで並べ直したので、次の巡で候補を見て決める。
     danbooru: sophie_hatter
     anilist: Sophie Hatter
   - id: howl
