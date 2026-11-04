@@ -2192,17 +2192,6 @@ characters:
     # 合っていて、作品のカッコが要るほうだった。
     danbooru: morishima_hodaka_(tenki_no_ko)
     anilist: Hodaka Morishima
-  - id: sophie-hatter
-    name: ソフィー・ハッター
-    kana: そふぃーはったー
-    work: ハウルの動く城
-    year: 2004
-    # 候補検索では hatterene・sophie_neuenmuller・sophie_(tales)・
-    # mad_hatter_(alice_in_wonderland) しか読めず、5 件目が理由の字数
-    # 制限で切れていた。判断が付かないので直さない。字数を伸ばして
-    # 綴りの近さで並べ直したので、次の巡で候補を見て決める。
-    danbooru: sophie_hatter
-    anilist: Sophie Hatter
   - id: howl
     name: ハウル
     kana: はうる
@@ -5668,6 +5657,14 @@ characters:
   # 坂本（坂本ですが?）・田中と太田（田中くんはいつもけだるげ）・
   # 山田（B型H系）を外した。4 件とも関連タグが取れず、兄弟でも裏が
   # 取れない（太田は田中の兄弟で、両方落ちている）。
+  # ソフィー・ハッター（ハウルの動く城）を外した。sophie_hatter は作例 0 件で
+  # 別名も無い。sophie_( で始まるタグは 21 件あり、作例の多い 8 件は
+  # sophie_(tales)・sophie_(popopoka)・sophie_(fire_emblem) など別作品で、
+  # ハウルは入っていなかった。妹の lettie_hatter が作例 18 件で実在するので
+  # 作品自体は Danbooru に入っている。
+  # 「引ける名前が無い」とは言えない。残り 13 件を見ていないだけで、作例 32 件
+  # 以下のどこかに居る可能性がある。候補検索に作品名を渡せるようにすれば
+  # 絞れるはずで、そこまでやる値打ちがあるときに直す。今はキューから外す。
   # オカルン（ダンダダン）を外した。okarun も okarun_(dandadan) も作例 0 件、
   # 本名の takakura_ken も 0 件で、候補検索に出たのは takakura_kanba・
   # takakura_karin・takakura_takeo など別作品の高倉姓だけ。綾瀬桃は
