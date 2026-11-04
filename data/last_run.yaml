@@ -23,13 +23,25 @@ date: '2026-11-04'
   danbooru: 5 / 12
   anilist: 11 / 12
 取得元の理由:
-  danbooru: '作例 0 件で別名もありません。名前が違います: chiaki_shinichi'
+  danbooru: '作例 0 件で別名もありません。名前が違います: chiaki_shinichi。似た名前: nanami_chiaki（作例 14166）、chiaki_(blue_archive)（作例
+    1127）、morisawa_chiaki（作例 886）、oogaki_chiaki（作例 588）、minami_chiak'
   anilist: 'HTTP 404: https://graphql.anilist.co'
 失敗の理由:
-  chiaki-shinichi: 'danbooru: 作例 0 件で別名もありません。名前が違います: chiaki_shinichi'
-  victor-nikiforov: 'danbooru: 作例 0 件で別名もありません。名前が違います: victor_nikiforov'
-  okarun: 'danbooru: 作例 0 件で別名もありません。名前が違います: okarun'
-  eris-boreas-greyrat: 'danbooru: 作例 0 件で別名もありません。名前が違います: eris_boreas_greyrat'
-  zenin-maki: 'danbooru: 作例 0 件で別名もありません。名前が違います: zenin_maki'
-  hodaka-morishima: 'danbooru: 作例 0 件で別名もありません。名前が違います: morishima_hodaka'
-  sophie-hatter: 'danbooru: 作例 0 件で別名もありません。名前が違います: sophie_hatter'
+  chiaki-shinichi: 'danbooru: 作例 0 件で別名もありません。名前が違います: chiaki_shinichi。似た名前: nanami_chiaki（作例
+    14166）、chiaki_(blue_archive)（作例 1127）、morisawa_chiaki（作例 886）、oogaki_chiaki（作例
+    588）、minami_chiak'
+  victor-nikiforov: 'danbooru: 作例 0 件で別名もありません。名前が違います: victor_nikiforov。似た名前: viktor_nikiforov（作例
+    1953）、victor_(pokemon)（作例 1628）、victorica_de_blois（作例 607）、seras_victoria（作例 540）、victorious'
+  okarun: 'danbooru: 作例 0 件で別名もありません。名前が違います: okarun。似た名前: okarun_(dandadan)（作例 0）'
+  eris-boreas-greyrat: 'danbooru: 作例 0 件で別名もありません。名前が違います: eris_boreas_greyrat。似た名前:
+    eris_greyrat（作例 3079）、rudeus_greyrat（作例 1324）、eris_greyrat_(adult)（作例 1072）、aisha_greyrat（作例
+    347）、norn_greyra'
+  zenin-maki: 'danbooru: 作例 0 件で別名もありません。名前が違います: zenin_maki。似た名前: makima_(chainsaw_man)（作例
+    11258）、nishikino_maki（作例 8453）、uzumaki_naruto（作例 5965）、tatsumaki（作例 5042）、makise_kurisu（作例
+    44'
+  hodaka-morishima: 'danbooru: 作例 0 件で別名もありません。名前が違います: morishima_hodaka。似た名前: morishima_haruka（作例
+    891）、hodaka_natsumi（作例 195）、morishima_hodaka_(tenki_no_ko)（作例 79）、hodaka_fuuko（作例
+    26）、saotom'
+  sophie-hatter: 'danbooru: 作例 0 件で別名もありません。名前が違います: sophie_hatter。似た名前: hatterene（作例
+    1103）、sophie_neuenmuller（作例 910）、sophie_(tales)（作例 838）、mad_hatter_(alice_in_wonderland)（作例
+    520）、sophi'
