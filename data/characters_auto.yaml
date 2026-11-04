@@ -1690,11 +1690,11 @@
     page: 'https://anilist.co/character/1184'
     credit: AniList
   analysis:
-    method: gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-30'
+    method: danbooru+gemini+auto
+    date: '2026-11-04'
   elements:
     - {id: akogare, weight: core, note: '資料: メンターであるセバスチャーノ・ヴィエラのような有名な指揮者になることを夢見ていること。', src: gemini}
+    - {id: shirogami, weight: core, note: 'danbooru grey_hair 100%', src: danbooru}
     - {id: shokunin, weight: core, note: '資料: 優れたピアニストでありヴァイオリニストとして技術を修め、最終的に指揮者としての仕事を得て野望を実現させていること。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: 身長181cmであること。', src: gemini}
     - {id: kyouizon, weight: sub, note: '資料: のだめの隠された才能に共感し、後に彼女のサポートなしでは前に進めないと実感していること。', src: gemini}
@@ -2304,12 +2304,16 @@
     page: 'https://anilist.co/character/88349'
     credit: AniList
   analysis:
-    method: gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-11-04'
   elements:
+    - {id: ahoge, weight: core, note: 'danbooru ahoge 72%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 95%（共有 8% のため比重を下げた）', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 91%（共有 12% のため比重を下げた）', src: danbooru}
+    - {id: kusekke, weight: sub, note: 'danbooru hair_between_eyes 57%', src: danbooru}
     - {id: reijou, weight: sub, note: '資料: 貴族の少女であることが明記されている。', src: gemini}
     - {id: samurai, weight: sub, note: '資料: 剣神流の素質があり、戦神の女神の聖遺物として木刀が祀られている。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: eureka
@@ -4221,12 +4225,14 @@
     page: 'https://anilist.co/character/139709'
     credit: AniList
   analysis:
-    method: gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-11-04'
   elements:
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 100%（共有 17% のため比重を下げた）', src: danbooru}
     - {id: yosomono, weight: sub, note: '資料: 息苦しい生活から離れ、新しい生活を始めるため両親のもとを離れて単身で東京へ家出してきたため。', src: gemini}
     - {id: koushinchou, weight: spice, note: '資料: プロフィールに「身長は173cm超」との記述があるため。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 100%（共有 28% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 100%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: holo
@@ -15707,11 +15713,13 @@
     page: 'https://anilist.co/character/90225'
     credit: AniList
   analysis:
-    method: gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-30'
+    method: danbooru+gemini+auto
+    date: '2026-11-04'
   elements:
+    - {id: shirogami, weight: core, note: 'danbooru grey_hair 67%', src: danbooru}
+    - {id: mekakure, weight: sub, note: 'danbooru hair_over_one_eye 38%', src: danbooru}
     - {id: saikyou, weight: sub, note: '資料: 世界選手権で5連覇を果たしたスケーターであり、「リビングレジェンド（生きる伝説）」と呼ばれている。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 72%（共有 23% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: violet-evergarden
@@ -16582,16 +16590,19 @@
     page: 'https://anilist.co/character/134167'
     credit: AniList
   analysis:
-    method: gemini+auto
-    model: 'gemini-3.6-flash'
-    date: '2026-08-31'
+    method: danbooru+gemini+auto
+    date: '2026-11-04'
   elements:
     - {id: fuguu, weight: core, note: '資料: 呪力がないため無能とみなされた後、呪術師として能力を証明するために禪院家を出た。', src: gemini}
     - {id: futago, weight: core, note: '資料: 禪院真依の双子の姉。', src: gemini}
+    - {id: kizuato, weight: core, note: 'danbooru scar 66%', src: danbooru}
     - {id: reijou, weight: core, note: '資料: 呪術界の「御三家」の一つである禪院家の宗家出身。', src: gemini}
     - {id: koushinchou, weight: sub, note: '資料: 年齢は16歳、性別は女性、身長は170cm。', src: gemini}
+    - {id: megane, weight: sub, note: 'danbooru glasses 50%', src: danbooru}
+    - {id: midorigami, weight: sub, note: 'danbooru green_hair 52%', src: danbooru}
     - {id: nouryokusha, weight: sub, note: '資料: 4級呪術師であり、天与呪縛を得た後、伏黒甚爾と同等の能力・スキルを持つ。', src: gemini}
     - {id: soushitsu, weight: sub, note: '資料: 双子の妹である真依の死後、すべての呪力を失い天与呪縛を得て', src: gemini}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 60%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: zero-two

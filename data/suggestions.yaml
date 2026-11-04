@@ -1513,13 +1513,30 @@
   new_tag_proposals: []
 - id: chiaki-shinichi
   name: 千秋真一
-  date: '2026-08-30'
-  unmapped_danbooru: []
+  date: '2026-11-04'
+  unmapped_danbooru:
+  - tag: black_background
+    frequency: 1.0
+  - tag: looking_up
+    frequency: 1.0
+  - tag: musical_note
+    frequency: 1.0
+  - tag: outstretched_hand
+    frequency: 1.0
+  - tag: beamed_eighth_notes
+    frequency: 1.0
+  - tag: treble_clef
+    frequency: 1.0
+  - tag: musical_staff
+    frequency: 1.0
+  - tag: bass_clef
+    frequency: 1.0
+  - tag: conductor_baton
+    frequency: 1.0
+  - tag: sixteenth_note
+    frequency: 1.0
   near_miss: []
-  new_tag_proposals:
-  - name: トラウマ
-    axis: 性格 / 傷
-    reason: 飛行機や海に対する恐怖症を抱えており、克服するまでの制約となっているため。
+  new_tag_proposals: []
 - id: chiba-mamoru
   name: 地場衛
   date: '2026-11-03'
@@ -2016,13 +2033,22 @@
   new_tag_proposals: []
 - id: eris-boreas-greyrat
   name: エリス・ボレアス・グレイラット
-  date: '2026-08-30'
+  date: '2026-11-04'
   unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: 妻
-    axis: 関係性 / 立場
-    reason: ルーデウスの3番目の妻であることが明記されているが、配偶者・妻を表す語彙がないため。
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3152
+    threshold: 0.5
+  - id: buki
+    tag: weapon
+    frequency: 0.1922
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1731
+    threshold: 0.35
+  new_tag_proposals: []
 - id: eureka
   name: エウレカ
   date: '2026-11-03'
@@ -3653,13 +3679,38 @@
   new_tag_proposals: []
 - id: hodaka-morishima
   name: 森嶋帆高
-  date: '2026-08-31'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: 家出
-    axis: 境遇
-    reason: 息苦しい生活から抜け出すために両親と家を捨てて単身で上京したため。
+  date: '2026-11-04'
+  unmapped_danbooru:
+  - tag: wet
+    frequency: 0.5
+  - tag: bare_arms
+    frequency: 0.5
+  - tag: plant
+    frequency: 0.5
+  - tag: white_shoes
+    frequency: 0.5
+  - tag: building
+    frequency: 0.5
+  - tag: surprised
+    frequency: 0.5
+  - tag: arms_at_sides
+    frequency: 0.5
+  - tag: tiles
+    frequency: 0.5
+  - tag: stairs
+    frequency: 0.5
+  - tag: railing
+    frequency: 0.5
+  near_miss:
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.25
+    threshold: 0.35
+  - id: houtai
+    tag: bandages
+    frequency: 0.25
+    threshold: 0.35
+  new_tag_proposals: []
 - id: holo
   name: ホロ
   date: '2026-11-03'
@@ -13782,13 +13833,18 @@
   new_tag_proposals: []
 - id: victor-nikiforov
   name: ヴィクトル・ニキフォロフ
-  date: '2026-08-30'
+  date: '2026-11-04'
   unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: カリスマ
-    axis: 性格/気質
-    reason: 資料に「老若男女を問わず人気があり、ロックスタースタイルのカリスマ性を持つ」と明記されているため。
+  near_miss:
+  - id: kodomo
+    tag: aged_down
+    frequency: 0.1734
+    threshold: 0.5
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.1676
+    threshold: 0.35
+  new_tag_proposals: []
 - id: violet-evergarden
   name: ヴァイオレット・エヴァーガーデン
   date: '2026-11-03'
@@ -14635,13 +14691,42 @@
   new_tag_proposals: []
 - id: zenin-maki
   name: 禪院真希
-  date: '2026-08-30'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: 天与呪縛
-    axis: 外見 / 体格
-    reason: 生まれつき呪力を持たない代償として圧倒的な身体能力を得る特殊な体質。
+  date: '2026-11-04'
+  unmapped_danbooru:
+  - tag: scar_on_arm
+    frequency: 0.3887
+  - tag: multiple_scars
+    frequency: 0.3684
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3381
+    threshold: 0.5
+  - id: kinniku
+    tag: muscular
+    frequency: 0.3259
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.3117
+    threshold: 0.35
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.2773
+    threshold: 0.35
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.2692
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2692
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.168
+    threshold: 0.35
+  new_tag_proposals: []
 - id: zero-two
   name: ゼロツー
   date: '2026-11-03'

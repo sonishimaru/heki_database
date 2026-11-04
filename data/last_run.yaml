@@ -4,14 +4,9 @@
 
 date: '2026-11-04'
 対象: 12
-完了: 5
+完了: 10
 失敗:
-- chiaki-shinichi
-- victor-nikiforov
 - okarun
-- eris-boreas-greyrat
-- zenin-maki
-- hodaka-morishima
 - sophie-hatter
 レーン:
   資料: 0 / 11
@@ -20,28 +15,16 @@ date: '2026-11-04'
   資料: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
   識別: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
 取得元:
-  danbooru: 5 / 12
+  danbooru: 10 / 12
   anilist: 11 / 12
 取得元の理由:
-  danbooru: '作例 0 件で別名もありません。名前が違います: chiaki_shinichi。似た名前: nanami_chiaki（作例 14166）、chiaki_(blue_archive)（作例
-    1127）、morisawa_chiaki（作例 886）、oogaki_chiaki（作例 588）、minami_chiak'
+  danbooru: '作例 0 件で別名もありません。名前が違います: takakura_ken。似た名前: takakura_kenzan（作例 2）、takakura_kanba（作例
+    272）、takakura_karin（作例 21）、takakura_takeo（作例 14）、takakura_chien（作例 4）'
   anilist: 'HTTP 404: https://graphql.anilist.co'
 失敗の理由:
-  chiaki-shinichi: 'danbooru: 作例 0 件で別名もありません。名前が違います: chiaki_shinichi。似た名前: nanami_chiaki（作例
-    14166）、chiaki_(blue_archive)（作例 1127）、morisawa_chiaki（作例 886）、oogaki_chiaki（作例
-    588）、minami_chiak'
-  victor-nikiforov: 'danbooru: 作例 0 件で別名もありません。名前が違います: victor_nikiforov。似た名前: viktor_nikiforov（作例
-    1953）、victor_(pokemon)（作例 1628）、victorica_de_blois（作例 607）、seras_victoria（作例 540）、victorious'
-  okarun: 'danbooru: 作例 0 件で別名もありません。名前が違います: okarun。似た名前: okarun_(dandadan)（作例 0）'
-  eris-boreas-greyrat: 'danbooru: 作例 0 件で別名もありません。名前が違います: eris_boreas_greyrat。似た名前:
-    eris_greyrat（作例 3079）、rudeus_greyrat（作例 1324）、eris_greyrat_(adult)（作例 1072）、aisha_greyrat（作例
-    347）、norn_greyra'
-  zenin-maki: 'danbooru: 作例 0 件で別名もありません。名前が違います: zenin_maki。似た名前: makima_(chainsaw_man)（作例
-    11258）、nishikino_maki（作例 8453）、uzumaki_naruto（作例 5965）、tatsumaki（作例 5042）、makise_kurisu（作例
-    44'
-  hodaka-morishima: 'danbooru: 作例 0 件で別名もありません。名前が違います: morishima_hodaka。似た名前: morishima_haruka（作例
-    891）、hodaka_natsumi（作例 195）、morishima_hodaka_(tenki_no_ko)（作例 79）、hodaka_fuuko（作例
-    26）、saotom'
-  sophie-hatter: 'danbooru: 作例 0 件で別名もありません。名前が違います: sophie_hatter。似た名前: hatterene（作例
-    1103）、sophie_neuenmuller（作例 910）、sophie_(tales)（作例 838）、mad_hatter_(alice_in_wonderland)（作例
-    520）、sophi'
+  okarun: 'danbooru: 作例 0 件で別名もありません。名前が違います: takakura_ken。似た名前: takakura_kenzan（作例
+    2）、takakura_kanba（作例 272）、takakura_karin（作例 21）、takakura_takeo（作例 14）、takakura_chien（作例
+    4）'
+  sophie-hatter: 'danbooru: 作例 0 件で別名もありません。名前が違います: sophie_hatter。似た名前: sophie_winters（作例
+    35）、lettie_hatter（作例 18）、sophie_(tales)（作例 838）、sophie_twilight（作例 287）、broom_hatter（作例
+    57）'
