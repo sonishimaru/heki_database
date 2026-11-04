@@ -138,7 +138,7 @@ def tag_candidates(tag: str, sleep: float) -> list[str]:
     for part in parts:
         for pattern, limit, bucket in (
             (f"*{part}*", 20, broad),
-            (f"{part}_(*", 10, bracket),
+            (f"{part}_(*", 20, bracket),
         ):
             time.sleep(sleep)
             url = "https://danbooru.donmai.us/tags.json?" + urllib.parse.urlencode(
@@ -172,8 +172,13 @@ def tag_candidates(tag: str, sleep: float) -> list[str]:
         shown = [f"{n}（作例 {broad[n]}）" for n in near + many]
         out.append("似た名前: " + "、".join(shown))
     if bracket:
-        ranked = sorted(bracket, key=lambda n: -bracket[n])[:4]
-        out.append("カッコ付き: " + "、".join(f"{n}（作例 {bracket[n]}）" for n in ranked))
+        # ここを 4 件で切っていたせいで、ハウルの動く城のソフィーが
+        # 入っているかどうか分からないまま二度も回した。狙って引いた
+        # 組は狭いので、件数を出して取りこぼしが分かるようにする。
+        ranked = sorted(bracket, key=lambda n: -bracket[n])
+        shown = [f"{n}（作例 {bracket[n]}）" for n in ranked[:8]]
+        rest = f"、ほか {len(ranked) - 8} 件" if len(ranked) > 8 else ""
+        out.append("カッコ付き: " + "、".join(shown) + rest)
     return out
 
 

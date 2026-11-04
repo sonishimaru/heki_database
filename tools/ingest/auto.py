@@ -54,7 +54,7 @@ def reason_of(err: subprocess.CalledProcessError) -> str:
 
     レーンが落ちたとき「各件のログを見てください」とだけ出していたが、
     肝心の理由は 40 行の traceback に埋もれていて、実際には誰も辿れなかった。
-    要約に載せられる長さまで削って返す。160 字では足りなかった。
+    要約に載せられる長さまで削って返す。160 字でも 400 字でも足りなかった。
     Danbooru の候補名を並べた理由が候補の途中で切れて、
     「minami_chiak」のような読めない字で終わっていた。
     """
@@ -64,13 +64,13 @@ def reason_of(err: subprocess.CalledProcessError) -> str:
         return "理由不明"
     if "Traceback (most recent call last):" not in text:
         # SystemExit の文言はそのまま出るので、一行目が理由そのもの
-        return lines[0][:400]
+        return lines[0][:700]
     # traceback なら末尾の例外行。ここは要約であって、全文は note_lane_failure が出す
     for line in reversed(lines):
         matched = EXCEPTION_LINE.match(line)
         if matched:
-            return matched.group(1)[:400]
-    return lines[-1][:400]
+            return matched.group(1)[:700]
+    return lines[-1][:700]
 
 
 def note_lane_failure(lane: str, err: subprocess.CalledProcessError, tally: dict) -> str:
