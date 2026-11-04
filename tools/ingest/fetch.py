@@ -120,22 +120,26 @@ def tag_candidates(tag: str, sleep: float) -> list[str]:
     """名前が違うとき、実在する近い名前を探して並べる。
 
     綴りを当てに行って落とした人物が何人もいる。坂本・田中・山田・太田は
-    「推測できない」として外し、馬渕洸も綴りの当てが無くて外した。手元の
-    環境から Danbooru は引けない（DNS で止まる）ので、名前を調べられるのは
-    この runner だけ。候補をログに出せば当てに行く必要がなくなる。
+    「推測できない」として外し、馬渕洸とオカルンも綴りの当てが無くて
+    外した。手元の環境から Danbooru は引けない（DNS で止まる）ので、
+    名前を調べられるのはこの runner だけ。候補をログに出せば当てに行く
+    必要がなくなる。
 
-    tag を _ で割り、長い成分 2 つで引く。成分ごとに二通りの形で引く。
-    部分一致（*part*）は人気順 20 件しか取れないので、作例の少ない
-    カッコ付きが落ちる。ソフィー・ハッターを探したとき *sophie* の上位は
-    別作品のソフィーで埋まり、妹の lettie_hatter は出たのに本人は出な
-    かった。そこで part_(* も引く。作品名のカッコが付く形はこれまで
-    morishima_hodaka_(tenki_no_ko) と okarun_(dandadan) で当たっている。
-    失敗したときだけ呼ぶ。
+    tag を _ で割り、長い成分 2 つで引く。成分ごとに二通り引いて、
+    結果は混ぜずに別の組として出す。部分一致（*part*）は人気順でしか
+    取れないので作例の少ないカッコ付きが落ちる。カッコ付きを狙って
+    part_(* も引いたのに、同じ並べ替えに混ぜてしまったので、またしても
+    上位 6 件から落ちて sophie-hatter の候補が一字も変わらなかった。
+    狙って引いたものを狙って出す。失敗したときだけ呼ぶ。
     """
     parts = sorted({p for p in tag.split("_") if len(p) >= 4}, key=len, reverse=True)[:2]
-    found: dict[str, int] = {}
+    broad: dict[str, int] = {}
+    bracket: dict[str, int] = {}
     for part in parts:
-        for pattern, limit in ((f"*{part}*", 20), (f"{part}_(*", 10)):
+        for pattern, limit, bucket in (
+            (f"*{part}*", 20, broad),
+            (f"{part}_(*", 10, bracket),
+        ):
             time.sleep(sleep)
             url = "https://danbooru.donmai.us/tags.json?" + urllib.parse.urlencode(
                 {
@@ -152,19 +156,25 @@ def tag_candidates(tag: str, sleep: float) -> list[str]:
             for row in rows:
                 name = row.get("name")
                 if name and name != tag:
-                    found[name] = row.get("post_count") or 0
-    # 並べ方は一つでは足りない。どちらの順でも答えが落ちた例がある。
-    # 作例数順だと zenin_maki のとき *maki* の上位が makima・nishikino_maki・
-    # uzumaki_naruto・tatsumaki・makise_kurisu で埋まり zen'in_maki が落ちた。
-    # 綴りの近さ順だと sophie_hatter のとき作品のカッコが付く形が落ちた
-    # （morishima_hodaka_(tenki_no_ko) は長いので近さでは下に来る）。
-    # 両方の上位を並べて出す。
+                    bucket[name] = row.get("post_count") or 0
+
+    # 部分一致のほうは並べ方が一つでは足りない。作例数順だと zenin_maki の
+    # とき *maki* の上位が makima・nishikino_maki・uzumaki_naruto・tatsumaki・
+    # makise_kurisu で埋まり zen'in_maki が落ちた。綴りの近さ順だと長い名前が
+    # 下に来る。両方の上位を並べる。
     def closeness(name: str) -> float:
         return difflib.SequenceMatcher(None, tag, name).ratio()
 
-    near = sorted(found, key=lambda n: -closeness(n))[:3]
-    many = [n for n in sorted(found, key=lambda n: -found[n]) if n not in near][:3]
-    return [f"{name}（作例 {found[name]}）" for name in near + many]
+    near = sorted(broad, key=lambda n: -closeness(n))[:3]
+    many = [n for n in sorted(broad, key=lambda n: -broad[n]) if n not in near][:3]
+    out = []
+    if near or many:
+        shown = [f"{n}（作例 {broad[n]}）" for n in near + many]
+        out.append("似た名前: " + "、".join(shown))
+    if bracket:
+        ranked = sorted(bracket, key=lambda n: -bracket[n])[:4]
+        out.append("カッコ付き: " + "、".join(f"{n}（作例 {bracket[n]}）" for n in ranked))
+    return out
 
 
 def no_related_reason(tag: str, sleep: float) -> str:
@@ -213,9 +223,9 @@ def no_related_reason(tag: str, sleep: float) -> str:
         return f"作例 0 件のタグです（名前が違います）: {tag}。別名は確かめられませんでした（{aliases}）"
     if aliases:
         return f"改名されています。{tag} → {aliases[0].get('consequent_name')} に直してください"
-    candidates = tag_candidates(tag, sleep)
-    near = "似た名前: " + "、".join(candidates) if candidates else "似た名前も見つかりません"
-    return f"作例 0 件で別名もありません。名前が違います: {tag}。{near}"
+    groups = tag_candidates(tag, sleep)
+    found = "。".join(groups) if groups else "似た名前も見つかりません"
+    return f"作例 0 件で別名もありません。名前が違います: {tag}。{found}"
 
 
 def cmd_danbooru(args) -> int:
