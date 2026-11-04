@@ -1229,7 +1229,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-03'
+    date: '2026-11-04'
   elements:
     - {id: aogami, weight: core, note: 'danbooru blue_hair 84%', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 80%（共有 12% のため比重を下げた）', src: danbooru}
@@ -2927,7 +2927,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-03'
+    date: '2026-11-04'
   elements:
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 90%', src: danbooru}
     - {id: momoiro-no-me, weight: sub, note: 'danbooru pink_eyes 53%', src: danbooru}
@@ -9214,7 +9214,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-03'
+    date: '2026-11-04'
   elements:
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 84%（共有 17% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 49%', src: danbooru}
@@ -9761,7 +9761,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-03'
+    date: '2026-11-04'
   elements:
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 37%', src: danbooru}
     - {id: murasaki-gami, weight: sub, note: 'danbooru purple_hair 54%', src: danbooru}
@@ -11499,7 +11499,7 @@
   summary: （要記入）
   analysis:
     method: danbooru+auto
-    date: '2026-11-03'
+    date: '2026-11-04'
   elements:
     - {id: messhu, weight: core, note: 'danbooru multicolored_hair 84%', src: danbooru}
     - {id: akagami, weight: sub, note: 'danbooru red_hair 63%（共有 8% のため比重を下げた）', src: danbooru}

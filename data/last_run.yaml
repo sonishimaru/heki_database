@@ -2,9 +2,9 @@
 # 日次の確認でここを読めば、どの件が落ちたか Actions のログを
 # 掘らずに分かる。tools/report.py run で整形して表示できる。
 
-date: '2026-11-03'
-対象: 777
-完了: 770
+date: '2026-11-04'
+対象: 12
+完了: 5
 失敗:
 - chiaki-shinichi
 - victor-nikiforov
@@ -14,19 +14,19 @@ date: '2026-11-03'
 - hodaka-morishima
 - sophie-hatter
 レーン:
-  資料: 0 / 734
-  識別: 0 / 777
+  資料: 0 / 11
+  識別: 0 / 12
 レーンの理由:
   資料: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
   識別: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
 取得元:
-  danbooru: 770 / 777
-  anilist: 734 / 777
+  danbooru: 5 / 12
+  anilist: 11 / 12
 取得元の理由:
-  danbooru: '関連タグが取れません。タグ名を確認してください: chiaki_shinichi'
+  danbooru: 'HTTP 504: https://danbooru.donmai.us/related_tag.json?query=chiaki_shinichi+solo&category=General&limit=80'
   anilist: 'HTTP 404: https://graphql.anilist.co'
 失敗の理由:
-  chiaki-shinichi: 'danbooru: 関連タグが取れません。タグ名を確認してください: chiaki_shinichi'
+  chiaki-shinichi: 'danbooru: HTTP 504: https://danbooru.donmai.us/related_tag.json?query=chiaki_shinichi+solo&category=General&limit=80'
   victor-nikiforov: 'danbooru: 関連タグが取れません。タグ名を確認してください: victor_nikiforov'
   okarun: 'danbooru: 関連タグが取れません。タグ名を確認してください: okarun'
   eris-boreas-greyrat: 'danbooru: 関連タグが取れません。タグ名を確認してください: eris_boreas_greyrat'
