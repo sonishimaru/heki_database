@@ -23,13 +23,13 @@ date: '2026-11-04'
   danbooru: 5 / 12
   anilist: 11 / 12
 取得元の理由:
-  danbooru: 'HTTP 504: https://danbooru.donmai.us/related_tag.json?query=chiaki_shinichi+solo&category=General&limit=80'
+  danbooru: 'タグはあります（作例 0 件）が、solo の関連タグが集計できません: chiaki_shinichi。綴りではなく作例の少なさが原因です'
   anilist: 'HTTP 404: https://graphql.anilist.co'
 失敗の理由:
-  chiaki-shinichi: 'danbooru: HTTP 504: https://danbooru.donmai.us/related_tag.json?query=chiaki_shinichi+solo&category=General&limit=80'
-  victor-nikiforov: 'danbooru: 関連タグが取れません。タグ名を確認してください: victor_nikiforov'
-  okarun: 'danbooru: 関連タグが取れません。タグ名を確認してください: okarun'
-  eris-boreas-greyrat: 'danbooru: 関連タグが取れません。タグ名を確認してください: eris_boreas_greyrat'
-  zenin-maki: 'danbooru: 関連タグが取れません。タグ名を確認してください: zenin_maki'
-  hodaka-morishima: 'danbooru: 関連タグが取れません。タグ名を確認してください: morishima_hodaka'
-  sophie-hatter: 'danbooru: 関連タグが取れません。タグ名を確認してください: sophie_hatter'
+  chiaki-shinichi: 'danbooru: タグはあります（作例 0 件）が、solo の関連タグが集計できません: chiaki_shinichi。綴りではなく作例の少なさが原因です'
+  victor-nikiforov: 'danbooru: そのタグはありません。名前が違います: victor_nikiforov'
+  okarun: 'danbooru: タグはあります（作例 0 件）が、solo の関連タグが集計できません: okarun。綴りではなく作例の少なさが原因です'
+  eris-boreas-greyrat: 'danbooru: タグはあります（作例 0 件）が、solo の関連タグが集計できません: eris_boreas_greyrat。綴りではなく作例の少なさが原因です'
+  zenin-maki: 'danbooru: タグはあります（作例 0 件）が、solo の関連タグが集計できません: zenin_maki。綴りではなく作例の少なさが原因です'
+  hodaka-morishima: 'danbooru: タグはあります（作例 0 件）が、solo の関連タグが集計できません: morishima_hodaka。綴りではなく作例の少なさが原因です'
+  sophie-hatter: 'danbooru: タグはあります（作例 0 件）が、solo の関連タグが集計できません: sophie_hatter。綴りではなく作例の少なさが原因です'
