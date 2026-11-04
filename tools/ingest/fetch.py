@@ -115,6 +115,33 @@ def cmd_anilist(args) -> int:
     return 0
 
 
+def no_related_reason(tag: str, sleep: float) -> str:
+    """related_tags が空のとき、名前が違うのか作例が足りないのかを分けて返す。
+
+    空になる理由は二つある。そのタグが無いか、あっても solo の作例が
+    集計に足りないか。前は両方に「タグ名を確認してください」と出して
+    いたので、2026-11-04 の確認で綴りの当てを 7 件分探す羽目になった。
+    実際には名前は正しく絵が少ないだけの人物が混ざっている可能性があり、
+    どちらなのかログから判別できなかった。失敗したときだけ 1 回余分に
+    問い合わせる。
+    """
+    time.sleep(sleep)
+    url = "https://danbooru.donmai.us/tags.json?" + urllib.parse.urlencode(
+        {"search[name]": tag, "limit": 1}
+    )
+    try:
+        rows = json.loads(http(url))
+    except SystemExit as err:
+        return f"関連タグが空です。タグの有無は確かめられませんでした: {tag}（{err}）"
+    if not rows:
+        return f"そのタグはありません。名前が違います: {tag}"
+    count = rows[0].get("post_count") or 0
+    return (
+        f"タグはあります（作例 {count} 件）が、solo の関連タグが集計できません: {tag}。"
+        "綴りではなく作例の少なさが原因です"
+    )
+
+
 def cmd_danbooru(args) -> int:
     tag = args.tag.strip()
     # キャラクタータグと同時に付く一般タグの頻度 = そのキャラの外見の群衆合意。
@@ -136,7 +163,7 @@ def cmd_danbooru(args) -> int:
             }
         )
     if not related:
-        raise SystemExit(f"関連タグが取れません。タグ名を確認してください: {tag}")
+        raise SystemExit(no_related_reason(tag, args.sleep))
 
     time.sleep(args.sleep)
     wiki_url = f"https://danbooru.donmai.us/wiki_pages/{urllib.parse.quote(tag)}.json"
