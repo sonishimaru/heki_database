@@ -233,6 +233,28 @@ def no_related_reason(tag: str, sleep: float) -> str:
     return f"作例 0 件で別名もありません。名前が違います: {tag}。{found}"
 
 
+def api_alive(tag: str, sleep: float) -> str:
+    """related_tag が落ちたとき、API 全体が死んでいるのか切り分ける。
+
+    related_tag は重い集計なので、混雑時にここだけ止まることがある。
+    2026-11-04 の 21:40 から 7 時間以上 503 が続いたが、手元から Danbooru は
+    引けない（DNS で止まる）ので、サイト全体なのかこの経路だけなのかを
+    確かめられなかった。落ちたときだけ軽い tags.json を 1 回引いて、
+    どちらなのかを理由に書く。
+    """
+    time.sleep(sleep)
+    url = "https://danbooru.donmai.us/tags.json?" + urllib.parse.urlencode(
+        {"search[name]": tag, "limit": 1}
+    )
+    try:
+        rows = json.loads(http(url))
+    except SystemExit as err:
+        head = str(err).splitlines()[0]
+        return f"tags.json も落ちています（{head}）。API 全体が落ちている"
+    found = f"作例 {(rows[0].get('post_count') or 0)} 件" if rows else "タグ行なし"
+    return f"tags.json は応答します（{found}）。related_tag だけが落ちている"
+
+
 def cmd_danbooru(args) -> int:
     tag = args.tag.strip()
     # キャラクタータグと同時に付く一般タグの頻度 = そのキャラの外見の群衆合意。
@@ -242,7 +264,13 @@ def cmd_danbooru(args) -> int:
         "https://danbooru.donmai.us/related_tag.json?"
         + urllib.parse.urlencode({"query": query, "category": "General", "limit": args.limit})
     )
-    raw = json.loads(http(url))
+    try:
+        raw = json.loads(http(url))
+    except SystemExit as err:
+        head = str(err).splitlines()[0]
+        # auto.py の reason_of は stderr の 1 行目しか要約に残さない。
+        # 切り分けを改行で足すと last_run.yaml から落ちるので同じ行に置く。
+        raise SystemExit(f"{head}／切り分け: {api_alive(tag, args.sleep)}")
     related = []
     for row in raw.get("related_tags", []):
         info = row.get("tag") or {}
