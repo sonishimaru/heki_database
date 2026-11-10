@@ -7,6 +7,23 @@
 #   threshold … 既定 0.35 を上書きする（誤検出しやすいタグは高めにする）
 #   note      … 判定時の注意。merge.py が出力するメモの下敷きにもなる
 
+# 実例 0 件のまま動かない見出し語（778 名・50巡目の実測）。Danbooru が
+# 全面停止している間に、外部を引かずに分かることとして数えた。括弧内は
+# suggestions.yaml の near_miss に残っている実測の最大値。
+#   糸目 0.545（閾値 0.6）… closed_eyes は「今その絵で閉じている」を含むので
+#     わざと高くしている。0 件はこの守りが働いた結果で、直す対象ではない。
+#     常時細目を引けるタグが別にあるなら、それに替えるのが筋。
+#   貧乳 0.410（閾値 0.5）… 届かない。既定 0.35 まで下げれば当たるが、
+#     惜しい記録が 49 件もあり、下げると一度に数十件増える。体型の判定なので
+#     ここは人の判断を仰ぐ。
+#   無表情 0.333（閾値 0.35）… expressionless が 35% に届かない。
+#   喉仏 0.268 ／ つり目 0.253 ／ 色白 0.250 ／ 部屋着 0.239 ／ 背中 0.167
+#     … いずれも閾値を下げても届く水準ではなく、タグ自体の付き方が薄い。
+#   華奢 0.000 … skinny・slender・narrow_waist が一度も記録に出ていない。
+# これらは「語が悪い」のではなく Danbooru から読めないだけで、無表情・色白・
+# 華奢・貧乳は資料レーン（プロフィール文）なら書ける。残高が戻るまで
+# 降格の判断はしない。
+#
 # 既定の閾値 0.35 を動かさない理由（294 名分の実測、11 巡目）:
 # 採用された判定 1157 件の中央値は 66% で、40〜90% に広く散っている。一方
 # 閾値に届かなかった側は 0.30〜0.35 に密集していて、境界に谷が無い。
@@ -139,7 +156,9 @@ elements:
     tags: [choker, collar, neck_belt]
   yubiwa:
     tags: [ring, wedding_band, wedding_ring]
-    threshold: 0.5
+    # 閾値 0.5 を既定に戻した。778 名を通して ring が最も高かったのは 0.396 で、
+    # 0.5 は届かない数字だった（実例 0 件）。指輪のタグは曖昧ではないので、
+    # 高く置いて守る必要が無い。
   houtai:
     tags: [bandages, bandaged_arm, bandaged_head, bandaid, bandaged_hand, bandaged_leg, bandaged_neck, bandage_over_one_eye]
   heddohon:
@@ -300,7 +319,11 @@ elements:
   sakadachi-gami:
     tags: [spiked_hair]
   bouzu:
-    tags: [bald, shaved_head, buzz_cut]
+    # buzz_cut を外した。髪の長さの軸は実質 1 人 1 値（778 名で 653 件）なのに、
+    # buzz_cut が 短髪 と 坊主 の両方に入っていて、当たれば 1 本のタグで
+    # 同じ軸に 2 値が立つ形になっていた。坊主は bald・shaved_head の意味で、
+    # 刈り上げは坊主ではないので 短髪 側に残す。まだ当たった人物はいない。
+    tags: [bald, shaved_head]
   bushouhige:
     tags: [stubble, beard_stubble, facial_hair, beard, goatee, goatee_stubble,
       mustache, thick_mustache, long_beard, very_long_beard]
