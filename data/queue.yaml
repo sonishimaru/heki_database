@@ -5789,7 +5789,8 @@ characters:
     kana: くらふとろれんす
     work: 狼と香辛料
     year: 2006
-    danbooru: kraft_lawrence
+    # 候補検索で craft_lawrence（作例 579）。Kraft だが Danbooru は C 綴り。
+    danbooru: craft_lawrence
     anilist: Kraft Lawrence
   - id: tanaka-asuka
     name: 田中あすか
@@ -5819,6 +5820,108 @@ characters:
     year: 2001
     danbooru: tousen_kaname
     anilist: Kaname Tousen
+  # --- 30期目。未処理が 1 件になったので補充。候補 56 名のうち 43 名が
+  # 既に入っていた。前回（29期目）は 50 名中 28 名、今回は 56 名中 43 名で、
+  # 思い付く人物の枯れ方が進んでいる。799 名・320 作品を越えて、主要作品の
+  # 名の知れた人物はほぼ収録済み。
+  # 40 名に届かないのは承知で 13 名で切る。残りは Danbooru の作例が薄い作品
+  # （タッチ・H2・ピンポン・20世紀少年・もやしもん・プラネテス）に偏り、
+  # 綴りを当てに行くと落ちる側なので、確度の低いタグは混ぜない。
+  # 次の補充では、人物名を思い付く方式ではなく、薄い軸から逆に引く方式
+  # （巫女・ナース・シスター・執事・そばかす・隈・つり目・無表情）を試す。
+  # ただし作例の多い人物がその軸に居るかどうかは Danbooru を引かないと
+  # 分からないので、候補検索を人物探しに使えるようにするのが先かもしれない。
+  - id: komeiji-koishi
+    name: 古明地こいし
+    kana: こめいじこいし
+    work: 東方Project
+    year: 2008
+    danbooru: komeiji_koishi
+    anilist: Koishi Komeiji
+  - id: yakumo-yukari
+    name: 八雲紫
+    kana: やくもゆかり
+    work: 東方Project
+    year: 2002
+    danbooru: yakumo_yukari
+    anilist: Yukari Yakumo
+  - id: saigyouji-yuyuko
+    name: 西行寺幽々子
+    kana: さいぎょうじゆゆこ
+    work: 東方Project
+    year: 2003
+    danbooru: saigyouji_yuyuko
+    anilist: Yuyuko Saigyouji
+  - id: sora-ngnl
+    name: 空
+    kana: そら
+    work: ノーゲーム・ノーライフ
+    year: 2012
+    danbooru: sora_(no_game_no_life)
+    anilist: Sora
+  - id: norman-yakusoku
+    name: ノーマン
+    kana: のーまん
+    work: 約束のネバーランド
+    year: 2016
+    danbooru: norman_(yakusoku_no_neverland)
+    anilist: Norman
+  - id: ray-yakusoku
+    name: レイ
+    kana: れい
+    work: 約束のネバーランド
+    year: 2016
+    danbooru: ray_(yakusoku_no_neverland)
+    anilist: Ray
+  - id: jeanne-d-arc-fate
+    name: ジャンヌ・ダルク
+    kana: じゃんぬだるく
+    work: Fate/Grand Order
+    year: 2015
+    danbooru: jeanne_d'arc_(fate)
+    anilist: Jeanne d'Arc
+  - id: okita-souji-fate
+    name: 沖田総司
+    kana: おきたそうじ
+    work: Fate/Grand Order
+    year: 2015
+    danbooru: okita_souji_(fate)
+    anilist: Okita Souji
+  - id: shiranui-flare
+    name: 不知火フレア
+    kana: しらぬいふれあ
+    work: ホロライブ
+    year: 2019
+    danbooru: shiranui_flare
+    anilist: Flare Shiranui
+  - id: minato-aqua
+    name: 湊あくあ
+    kana: みなとあくあ
+    work: ホロライブ
+    year: 2018
+    danbooru: minato_aqua
+    anilist: Aqua Minato
+  - id: matsumoto-rangiku
+    name: 松本乱菊
+    kana: まつもとらんぎく
+    work: BLEACH
+    year: 2001
+    danbooru: matsumoto_rangiku
+    anilist: Rangiku Matsumoto
+  - id: takanashi-kiara
+    name: 小鳥遊キアラ
+    kana: たかなしきあら
+    work: ホロライブ
+    year: 2020
+    danbooru: takanashi_kiara
+    anilist: Kiara Takanashi
+  - id: ninomae-inanis
+    name: 一伊那尓栖
+    kana: にのまえいなにす
+    work: ホロライブ
+    year: 2020
+    danbooru: ninomae_ina'nis
+    anilist: Ninomae Ina'nis
   # 馬渕洸（アオハライド）は mabuchi_kou で取れなかった。兄弟の吉岡双葉が
   # yoshioka_futaba で通っているので、カッコを付けない形という決まりは
   # 裏が取れている。綴りの当てが無いので推測で直さずに外す。
