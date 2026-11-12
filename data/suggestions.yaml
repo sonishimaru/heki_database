@@ -182,6 +182,24 @@
     frequency: 0.2253
     threshold: 0.5
   new_tag_proposals: []
+- id: aizawa-shouta
+  name: 相澤消太
+  date: '2026-11-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: messy_hair
+    frequency: 0.3101
+    threshold: 0.5
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1977
+    threshold: 0.35
+  - id: gantai
+    tag: eyepatch
+    frequency: 0.1512
+    threshold: 0.35
+  new_tag_proposals: []
 - id: akaashi-keiji
   name: 赤葦京治
   date: '2026-11-03'
@@ -1103,6 +1121,20 @@
     frequency: 0.1667
     threshold: 0.35
   new_tag_proposals: []
+- id: ayasaki-hayate
+  name: 綾崎ハヤテ
+  date: '2026-11-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2667
+    threshold: 0.35
+  - id: meido
+    tag: maid
+    frequency: 0.2
+    threshold: 0.35
+  new_tag_proposals: []
 - id: ayasato-mayoi
   name: 綾里真宵
   date: '2026-11-03'
@@ -1230,6 +1262,30 @@
     tag: mask
     frequency: 0.1504
     threshold: 0.4
+  new_tag_proposals: []
+- id: balalaika
+  name: バラライカ
+  date: '2026-11-12'
+  unmapped_danbooru:
+  - tag: cigar
+    frequency: 0.471
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4865
+    threshold: 0.5
+  - id: tabako
+    tag: smoking
+    frequency: 0.3398
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.1544
+    threshold: 0.35
+  - id: keshou
+    tag: makeup
+    frequency: 0.1506
+    threshold: 0.35
   new_tag_proposals: []
 - id: barret-wallace
   name: バレット・ウォーレス
@@ -1864,6 +1920,24 @@
     tag: hair_between_eyes
     frequency: 0.1786
     threshold: 0.5
+  new_tag_proposals: []
+- id: eda
+  name: エダ
+  date: '2026-11-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4516
+    threshold: 0.5
+  - id: buki
+    tag: weapon
+    frequency: 0.2903
+    threshold: 0.35
+  - id: tabako
+    tag: cigarette
+    frequency: 0.1613
+    threshold: 0.35
   new_tag_proposals: []
 - id: edogawa-conan
   name: 江戸川コナン
@@ -6003,6 +6077,24 @@
     frequency: 0.1628
     threshold: 0.6
   new_tag_proposals: []
+- id: kochiya-sanae
+  name: 東風谷早苗
+  date: '2026-11-12'
+  unmapped_danbooru:
+  - tag: frog_hair_ornament
+    frequency: 0.6508
+  - tag: snake_hair_ornament
+    frequency: 0.5374
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3324
+    threshold: 0.5
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.185
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kochou-shinobu
   name: 胡蝶しのぶ
   date: '2026-11-03'
@@ -9959,6 +10051,24 @@
     frequency: 0.1579
     threshold: 0.35
   new_tag_proposals: []
+- id: reiuji-utsuho
+  name: 霊烏路空
+  date: '2026-11-12'
+  unmapped_danbooru:
+  - tag: third_eye
+    frequency: 0.4912
+  - tag: arm_cannon
+    frequency: 0.4204
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2408
+    threshold: 0.5
+  - id: furiru
+    tag: frills
+    frequency: 0.1974
+    threshold: 0.35
+  new_tag_proposals: []
 - id: relena-peacecraft
   name: リリーナ・ピースクラフト
   date: '2026-11-03'
@@ -10896,6 +11006,16 @@
     frequency: 0.1996
     threshold: 0.35
   new_tag_proposals: []
+- id: sanzenin-nagi
+  name: 三千院ナギ
+  date: '2026-11-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.239
+    threshold: 0.3
+  new_tag_proposals: []
 - id: saotome-ranma
   name: 早乙女乱馬
   date: '2026-11-03'
@@ -11156,6 +11276,28 @@
   - id: irojiro
     tag: pale_skin
     frequency: 0.243
+    threshold: 0.35
+  new_tag_proposals: []
+- id: shameimaru-aya
+  name: 射命丸文
+  date: '2026-11-12'
+  unmapped_danbooru:
+  - tag: tokin_hat
+    frequency: 0.8624
+  - tag: pom_pom_(clothes)
+    frequency: 0.3532
+  near_miss:
+  - id: erufu
+    tag: pointy_ears
+    frequency: 0.2662
+    threshold: 0.35
+  - id: furiru
+    tag: frills
+    frequency: 0.1772
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.1698
     threshold: 0.35
   new_tag_proposals: []
 - id: shana
@@ -12669,6 +12811,28 @@
     frequency: 0.1789
     threshold: 0.5
   new_tag_proposals: []
+- id: tanaka-ryuunosuke
+  name: 田中龍之介
+  date: '2026-11-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: shirogami
+    tag: grey_hair
+    frequency: 0.3333
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2222
+    threshold: 0.3
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2222
+    threshold: 0.35
+  - id: haiiro-no-me
+    tag: grey_eyes
+    frequency: 0.2222
+    threshold: 0.35
+  new_tag_proposals: []
 - id: taneshima-popura
   name: 種島ぽぷら
   date: '2026-11-03'
@@ -13056,6 +13220,30 @@
     tag: hair_between_eyes
     frequency: 0.2644
     threshold: 0.5
+  new_tag_proposals: []
+- id: tokoyami-fumikage
+  name: 常闇踏陰
+  date: '2026-11-12'
+  unmapped_danbooru:
+  - tag: animal_head
+    frequency: 0.5938
+  - tag: bird_boy
+    frequency: 0.5312
+  - tag: beak
+    frequency: 0.4375
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.25
+    threshold: 0.35
+  - id: gaitou
+    tag: cloak
+    frequency: 0.1875
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.1875
+    threshold: 0.35
   new_tag_proposals: []
 - id: tomioka-giyuu
   name: 冨岡義勇
@@ -14076,6 +14264,40 @@
     tag: school_uniform
     frequency: 0.217
     threshold: 0.3
+  new_tag_proposals: []
+- id: yamaguchi-tadashi
+  name: 山口忠
+  date: '2026-11-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.3333
+    threshold: 0.35
+  - id: uniform
+    tag: volleyball_uniform
+    frequency: 0.3333
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2778
+    threshold: 0.5
+  - id: kinpatsu
+    tag: blonde_hair
+    frequency: 0.2222
+    threshold: 0.35
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.2222
+    threshold: 0.35
+  - id: megane
+    tag: glasses
+    frequency: 0.1667
+    threshold: 0.35
+  - id: midorigami
+    tag: green_hair
+    frequency: 0.1667
+    threshold: 0.35
   new_tag_proposals: []
 - id: yamanaka-ino
   name: 山中いの

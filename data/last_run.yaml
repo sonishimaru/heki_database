@@ -2,22 +2,11 @@
 # 日次の確認でここを読めば、どの件が落ちたか Actions のログを
 # 掘らずに分かる。tools/report.py run で整形して表示できる。
 
-date: '2026-11-11'
+date: '2026-11-12'
 対象: 12
-完了: 0
+完了: 11
 失敗:
-- kochiya-sanae
-- shameimaru-aya
-- reiuji-utsuho
-- ayasaki-hayate
-- sanzenin-nagi
-- eda
-- balalaika
 - ieiri-shouko
-- yamaguchi-tadashi
-- tanaka-ryuunosuke
-- aizawa-shouta
-- tokoyami-fumikage
 レーン:
   資料: 0 / 11
   識別: 0 / 12
@@ -25,47 +14,18 @@ date: '2026-11-11'
   資料: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
   識別: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
 取得元:
-  danbooru: 0 / 12
+  danbooru: 11 / 12
   anilist: 11 / 12
 取得元の理由:
-  danbooru: 'HTTP 503: https://danbooru.donmai.us/related_tag.json?query=kochiya_sanae+solo&category=General&limit=80／切り分け:
-    tags.json も落ちています（HTTP 503: https://danbooru.donmai.us/tags.json?search%5Bname%5D=kochiya_sanae&limit=1）。API
-    全体が落ちている'
+  danbooru: '作例 0 件で別名もありません。名前が違います: ieiri_shouko。似た名前: ieiri_shoko（作例 743）、ieiri_popo（作例
+    118）、nishimiya_shouko（作例 332）、komi_shouko（作例 2488）、sonshoukou_(koihime_musou)（作例
+    191）、shouko_(blue_archive)（作例 177）。カッコ付き: shouko_(blue_archive)（作例 177）、shouko_(mama_ni_aitai)（作例
+    2）、shouko_(nijiura_maids)（作例 2）、shouko_(kero_kero_chime)（作例 1）、shouko_(yamashita_shun''ya)（作例
+    1）、shouko_(nijiura_maid)（作例 0）'
   anilist: 'HTTP 404: https://graphql.anilist.co'
 失敗の理由:
-  kochiya-sanae: 'danbooru: HTTP 503: https://danbooru.donmai.us/related_tag.json?query=kochiya_sanae+solo&category=General&limit=80／切り分け:
-    tags.json も落ちています（HTTP 503: https://danbooru.donmai.us/tags.json?search%5Bname%5D=kochiya_sanae&limit=1）。API
-    全体が落ちている'
-  shameimaru-aya: 'danbooru: HTTP 503: https://danbooru.donmai.us/related_tag.json?query=shameimaru_aya+solo&category=General&limit=80／切り分け:
-    tags.json も落ちています（HTTP 503: https://danbooru.donmai.us/tags.json?search%5Bname%5D=shameimaru_aya&limit=1）。API
-    全体が落ちている'
-  reiuji-utsuho: 'danbooru: HTTP 503: https://danbooru.donmai.us/related_tag.json?query=reiuji_utsuho+solo&category=General&limit=80／切り分け:
-    tags.json も落ちています（HTTP 503: https://danbooru.donmai.us/tags.json?search%5Bname%5D=reiuji_utsuho&limit=1）。API
-    全体が落ちている'
-  ayasaki-hayate: 'danbooru: HTTP 503: https://danbooru.donmai.us/related_tag.json?query=ayasaki_hayate+solo&category=General&limit=80／切り分け:
-    tags.json も落ちています（HTTP 503: https://danbooru.donmai.us/tags.json?search%5Bname%5D=ayasaki_hayate&limit=1）。API
-    全体が落ちている'
-  sanzenin-nagi: 'danbooru: HTTP 503: https://danbooru.donmai.us/related_tag.json?query=sanzenin_nagi+solo&category=General&limit=80／切り分け:
-    tags.json も落ちています（HTTP 503: https://danbooru.donmai.us/tags.json?search%5Bname%5D=sanzenin_nagi&limit=1）。API
-    全体が落ちている'
-  eda: 'danbooru: HTTP 503: https://danbooru.donmai.us/related_tag.json?query=eda_%28black_lagoon%29+solo&category=General&limit=80／切り分け:
-    tags.json も落ちています（HTTP 503: https://danbooru.donmai.us/tags.json?search%5Bname%5D=eda_%28black_lagoon%29&limit=1）。API
-    全体が落ちている'
-  balalaika: 'danbooru: HTTP 503: https://danbooru.donmai.us/related_tag.json?query=balalaika_%28black_lagoon%29+solo&category=General&limit=80／切り分け:
-    tags.json も落ちています（HTTP 503: https://danbooru.donmai.us/tags.json?search%5Bname%5D=balalaika_%28black_lagoon%29&limit=1）。API
-    全体が落ちている'
-  ieiri-shouko: 'danbooru: HTTP 503: https://danbooru.donmai.us/related_tag.json?query=ieiri_shouko+solo&category=General&limit=80／切り分け:
-    tags.json も落ちています（HTTP 503: https://danbooru.donmai.us/tags.json?search%5Bname%5D=ieiri_shouko&limit=1）。API
-    全体が落ちている／anilist: HTTP 404: https://graphql.anilist.co'
-  yamaguchi-tadashi: 'danbooru: HTTP 503: https://danbooru.donmai.us/related_tag.json?query=yamaguchi_tadashi+solo&category=General&limit=80／切り分け:
-    tags.json も落ちています（HTTP 503: https://danbooru.donmai.us/tags.json?search%5Bname%5D=yamaguchi_tadashi&limit=1）。API
-    全体が落ちている'
-  tanaka-ryuunosuke: 'danbooru: HTTP 503: https://danbooru.donmai.us/related_tag.json?query=tanaka_ryuunosuke+solo&category=General&limit=80／切り分け:
-    tags.json も落ちています（HTTP 503: https://danbooru.donmai.us/tags.json?search%5Bname%5D=tanaka_ryuunosuke&limit=1）。API
-    全体が落ちている'
-  aizawa-shouta: 'danbooru: HTTP 503: https://danbooru.donmai.us/related_tag.json?query=aizawa_shouta+solo&category=General&limit=80／切り分け:
-    tags.json も落ちています（HTTP 503: https://danbooru.donmai.us/tags.json?search%5Bname%5D=aizawa_shouta&limit=1）。API
-    全体が落ちている'
-  tokoyami-fumikage: 'danbooru: HTTP 503: https://danbooru.donmai.us/related_tag.json?query=tokoyami_fumikage+solo&category=General&limit=80／切り分け:
-    tags.json も落ちています（HTTP 503: https://danbooru.donmai.us/tags.json?search%5Bname%5D=tokoyami_fumikage&limit=1）。API
-    全体が落ちている'
+  ieiri-shouko: 'danbooru: 作例 0 件で別名もありません。名前が違います: ieiri_shouko。似た名前: ieiri_shoko（作例
+    743）、ieiri_popo（作例 118）、nishimiya_shouko（作例 332）、komi_shouko（作例 2488）、sonshoukou_(koihime_musou)（作例
+    191）、shouko_(blue_archive)（作例 177）。カッコ付き: shouko_(blue_archive)（作例 177）、shouko_(mama_ni_aitai)（作例
+    2）、shouko_(nijiura_maids)（作例 2）、shouko_(kero_kero_chime)（作例 1）、shouko_(yamashita_shun''ya)（作例
+    1）、shouko_(nijiura_maid)（作例 0）／anilist: HTTP 404: https://graphql.anilist.co'
