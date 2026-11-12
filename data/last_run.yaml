@@ -4,30 +4,16 @@
 
 date: '2026-11-12'
 対象: 12
-完了: 11
-失敗:
-- kraft-lawrence
+完了: 12
+失敗: []
 レーン:
-  資料: 0 / 10
-  識別: 0 / 12
+  資料: 0 / 12
+  識別: 1 / 12
 レーンの理由:
   資料: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
   識別: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
 取得元:
-  danbooru: 11 / 12
-  anilist: 10 / 12
-取得元の理由:
-  danbooru: '作例 0 件で別名もありません。名前が違います: kraft_lawrence。似た名前: craft_lawrence（作例 579）、tim_lawrence（作例
-    6）、randel_lawrence（作例 39）、rhein_kraft_(umamusume)（作例 750）、rhein_kraft_(dream_successor)_(umamusume)（作例
-    164）、lawrence_(shiro_seijo_to_kuro_bokushi)（作例 106）。カッコ付き: lawrence_(shiro_seijo_to_kuro_bokushi)（作例
-    106）、kraft_(sousou_no_frieren)（作例 52）、lawrence_(crash_fever)（作例 4）、lawrence_(pixiv_fantasia_age_of_starlight)（作例
-    2）、kraft_(level_e)（作例 2）、lawrence_(yarinaoshi_reijou)（作例 1）、lawrence_(honzuki_no_gekokujou)（作例
-    1）、lawrence_(genshin_impact)（作例 1）、ほか 6 件'
-  anilist: 'HTTP 404: https://graphql.anilist.co'
-失敗の理由:
-  kraft-lawrence: 'danbooru: 作例 0 件で別名もありません。名前が違います: kraft_lawrence。似た名前: craft_lawrence（作例
-    579）、tim_lawrence（作例 6）、randel_lawrence（作例 39）、rhein_kraft_(umamusume)（作例 750）、rhein_kraft_(dream_successor)_(umamusume)（作例
-    164）、lawrence_(shiro_seijo_to_kuro_bokushi)（作例 106）。カッコ付き: lawrence_(shiro_seijo_to_kuro_bokushi)（作例
-    106）、kraft_(sousou_no_frieren)（作例 52）、lawrence_(crash_fever)（作例 4）、lawrence_(pixiv_fantasia_age_of_starlight)（作例
-    2）、kraft_(level_e)（作例 2）、lawrence_(yarinaoshi_reijou)（作例 1）、lawrence_(honzuki_no_gekokujou)（作例
-    1）、lawrence_(genshin_impact)（作例 1）、ほか 6 件'
+  danbooru: 12 / 12
+  anilist: 12 / 12
+取得元の理由: {}
+失敗の理由: {}
