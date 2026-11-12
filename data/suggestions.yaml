@@ -615,6 +615,16 @@
     frequency: 0.1509
     threshold: 0.35
   new_tag_proposals: []
+- id: amuro-tooru
+  name: 安室透
+  date: '2026-11-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.1689
+    threshold: 0.35
+  new_tag_proposals: []
 - id: andre-grandier
   name: アンドレ・グランディエ
   date: '2026-11-03'
@@ -1634,6 +1644,24 @@
     tag: short_hair
     frequency: 0.1631
     threshold: 0.35
+  new_tag_proposals: []
+- id: chidori-kaname
+  name: 千鳥かなめ
+  date: '2026-11-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: ponytail
+    tag: low-tied_long_hair
+    frequency: 0.3259
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2963
+    threshold: 0.3
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2
+    threshold: 0.5
   new_tag_proposals: []
 - id: chilchuck
   name: チルチャック
@@ -2825,6 +2853,32 @@
   - id: momoiro-no-me
     tag: pink_eyes
     frequency: 0.1622
+    threshold: 0.35
+  new_tag_proposals: []
+- id: gokou-ruri
+  name: 五更瑠璃
+  date: '2026-11-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.3133
+    threshold: 0.35
+  - id: furiru
+    tag: lolita_fashion
+    frequency: 0.2699
+    threshold: 0.35
+  - id: hime-cut
+    tag: hime_cut
+    frequency: 0.2497
+    threshold: 0.35
+  - id: pattsun
+    tag: blunt_bangs
+    frequency: 0.1812
+    threshold: 0.4
+  - id: shippo
+    tag: tail
+    frequency: 0.1681
     threshold: 0.35
   new_tag_proposals: []
 - id: gokudera-hayato
@@ -4185,6 +4239,32 @@
     frequency: 0.3161
     threshold: 0.35
   new_tag_proposals: []
+- id: ieiri-shouko
+  name: 家入硝子
+  date: '2026-11-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2936
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2477
+    threshold: 0.5
+  - id: gaitou
+    tag: coat
+    frequency: 0.2294
+    threshold: 0.35
+  - id: hakui
+    tag: lab_coat
+    frequency: 0.1651
+    threshold: 0.35
+  - id: knit
+    tag: turtleneck
+    frequency: 0.156
+    threshold: 0.35
+  new_tag_proposals: []
 - id: iguro-obanai
   name: 伊黒小芭内
   date: '2026-11-03'
@@ -4244,6 +4324,28 @@
     tag: black_hair
     frequency: 0.2838
     threshold: 0.35
+  new_tag_proposals: []
+- id: illyasviel-von-einzbern
+  name: イリヤスフィール・フォン・アインツベルン
+  date: '2026-11-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.4696
+    threshold: 0.5
+  - id: kinpatsu
+    tag: blonde_hair
+    frequency: 0.3191
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2937
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2792
+    threshold: 0.5
   new_tag_proposals: []
 - id: imaizumi-shunsuke
   name: 今泉俊輔
@@ -9655,6 +9757,28 @@
     frequency: 0.2672
     threshold: 0.5
   new_tag_proposals: []
+- id: orga-itsuka
+  name: オルガ・イツカ
+  date: '2026-11-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: sakadachi-gami
+    tag: spiked_hair
+    frequency: 0.3235
+    threshold: 0.35
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.2941
+    threshold: 0.35
+  - id: kinniku
+    tag: toned
+    frequency: 0.2059
+    threshold: 0.35
+  - id: kizuato
+    tag: scar
+    frequency: 0.1765
+    threshold: 0.35
+  new_tag_proposals: []
 - id: orihara-izaya
   name: 折原臨也
   date: '2026-11-03'
@@ -10121,7 +10245,7 @@
   new_tag_proposals: []
 - id: rengoku-kyojuro
   name: 煉獄杏寿郎
-  date: '2026-11-04'
+  date: '2026-11-12'
   unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
@@ -10644,6 +10768,48 @@
   - id: houtai
     tag: bandages
     frequency: 0.1905
+    threshold: 0.35
+  new_tag_proposals: []
+- id: sagara-sousuke
+  name: 相良宗介
+  date: '2026-11-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kizuato
+    tag: scar
+    frequency: 0.3077
+    threshold: 0.35
+  - id: aogami
+    tag: blue_hair
+    frequency: 0.3077
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2308
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2308
+    threshold: 0.35
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.2308
+    threshold: 0.35
+  - id: gunpuku
+    tag: military_uniform
+    frequency: 0.1538
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.1538
+    threshold: 0.35
+  - id: mitsuami
+    tag: braid
+    frequency: 0.1538
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1538
     threshold: 0.35
   new_tag_proposals: []
 - id: saihara-shuuichi
@@ -12565,6 +12731,30 @@
     frequency: 0.1795
     threshold: 0.35
   new_tag_proposals: []
+- id: tachibana-taki
+  name: 立花瀧
+  date: '2026-11-12'
+  unmapped_danbooru:
+  - tag: night
+    frequency: 0.35
+  near_miss:
+  - id: senaka
+    tag: from_behind
+    frequency: 0.25
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.25
+    threshold: 0.3
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.25
+    threshold: 0.35
+  - id: josou
+    tag: crossdressing
+    frequency: 0.25
+    threshold: 0.5
+  new_tag_proposals: []
 - id: tadano-hitohito
   name: 只野仁人
   date: '2026-11-03'
@@ -12788,6 +12978,22 @@
   date: '2026-11-03'
   unmapped_danbooru: []
   near_miss: []
+  new_tag_proposals: []
+- id: tanaka-asuka
+  name: 田中あすか
+  date: '2026-11-12'
+  unmapped_danbooru:
+  - tag: over-rim_eyewear
+    frequency: 0.3931
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2759
+    threshold: 0.5
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2103
+    threshold: 0.5
   new_tag_proposals: []
 - id: tanaka-gundam
   name: 田中眼蛇夢
@@ -13371,6 +13577,28 @@
   - id: sakotsu
     tag: collarbone
     frequency: 0.1512
+    threshold: 0.35
+  new_tag_proposals: []
+- id: tousen-kaname
+  name: 東仙要
+  date: '2026-11-12'
+  unmapped_danbooru: []
+  near_miss:
+  - id: wasou
+    tag: kimono
+    frequency: 0.2857
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2857
+    threshold: 0.35
+  - id: mafuraa
+    tag: scarf
+    frequency: 0.2857
+    threshold: 0.35
+  - id: knit
+    tag: turtleneck
+    frequency: 0.2857
     threshold: 0.35
   new_tag_proposals: []
 - id: touya-akira
