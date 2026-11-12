@@ -5716,7 +5716,10 @@ characters:
     kana: いえいりしょうこ
     work: 呪術廻戦
     year: 2018
-    danbooru: ieiri_shouko
+    # 候補検索で ieiri_shoko（作例 743）。硝子は Shōko だが Danbooru は
+    # 長音を落とす側だった。todoroki_shouto・hinata_shouyou は残す綴りなので、
+    # 長音の扱いは人物ごとに確かめるしかない。
+    danbooru: ieiri_shoko
     anilist: Shoko Ieiri
   - id: yamaguchi-tadashi
     name: 山口忠
