@@ -328,6 +328,48 @@ def iri_to_uri(url: str) -> str:
     )
 
 
+def cmd_who(args) -> int:
+    """ある一般タグから、その特徴を持つ人物タグを引く（逆引き）。
+
+    これまでキューの補充は人物名を思い付く方式でやっていたが、813 名・
+    320 作品まで来て枯れた（2026-11-12 の補充は候補 56 名のうち 43 名が
+    既収録）。薄い軸を埋めたいのに、その軸に作例の多い人物が居るかどうかは
+    Danbooru を引かないと分からず、綴りも当てに行くしかなかった。
+
+    related_tag は category=Character も返す。巫女なら miko、ナースなら
+    nurse を渡せば、その特徴と一緒に付くことの多い人物タグが並ぶ。
+    名前は Danbooru 自身が返すので綴りを当てる必要もなくなる。
+    """
+    for tag in args.tags:
+        time.sleep(args.sleep)
+        url = (
+            "https://danbooru.donmai.us/related_tag.json?"
+            + urllib.parse.urlencode(
+                {"query": tag, "category": "Character", "limit": args.limit}
+            )
+        )
+        print(f"\n■ {tag}")
+        try:
+            raw = json.loads(http(url))
+        except SystemExit as err:
+            print(f"  引けません: {str(err).splitlines()[0]}")
+            continue
+        rows = []
+        for row in raw.get("related_tags", []):
+            info = row.get("tag") or {}
+            if info.get("name"):
+                rows.append(
+                    (info["name"], info.get("post_count") or 0,
+                     round(float(row.get("frequency") or 0.0), 3))
+                )
+        if not rows:
+            print("  該当する人物タグがありません")
+            continue
+        for name, count, freq in rows:
+            print(f"  {name:48s} 作例 {count:7d}  共起 {freq:.3f}")
+    return 0
+
+
 def cmd_page(args) -> int:
     raw = http(iri_to_uri(args.url)).decode("utf-8", "replace")
     text = TAG_STRIP_RE.sub(" ", raw)
@@ -362,6 +404,11 @@ def main() -> int:
     p.add_argument("--no-solo", action="store_true", help="solo（一人絵）への限定を外す")
     p.add_argument("--out", help="保存先を指定する")
     p.set_defaults(func=cmd_danbooru)
+
+    p = sub.add_parser("who", help="一般タグから、その特徴を持つ人物タグを逆引きする")
+    p.add_argument("tags", nargs="+", help="一般タグ（例: miko nurse butler freckles）")
+    p.add_argument("--limit", type=int, default=25)
+    p.set_defaults(func=cmd_who)
 
     p = sub.add_parser("page", help="任意の 1 ページを取得してテキスト化する")
     p.add_argument("url")

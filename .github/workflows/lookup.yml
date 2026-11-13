@@ -1,0 +1,55 @@
+name: lookup
+
+# Danbooru を引くだけの読み取り専用のワークフロー。何もコミットしない。
+#
+# 手元の環境から Danbooru は引けない（DNS で止まり、ページ取得でも同じ）ので、
+# 調べ物ができるのは runner だけだった。取り込みのついでにログを掘るしかなく、
+# キューの補充は人物名を思い付く方式に頼っていた。813 名まで来てそれが枯れた
+# （候補 56 名のうち 43 名が既収録）ので、薄い軸から人物を逆引きできるように
+# これを足した。結果はログに出るだけで、データには触らない。
+
+on:
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: "一般タグを空白区切りで（例: miko nurse butler freckles）"
+        required: true
+      limit:
+        description: "タグごとに出す人物の数"
+        required: false
+        default: "25"
+
+concurrency:
+  group: lookup
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 一般タグから人物を逆引きする
+        env:
+          TAGS: ${{ inputs.tags }}
+          LIMIT: ${{ inputs.limit }}
+        run: |
+          # 入力を run の中へ直接展開すると、記号を混ぜられたときにそのまま
+          # コマンドになる。env 経由で渡し、Danbooru のタグ名に使える字だけに
+          # 絞ってから渡す。
+          case "$LIMIT" in
+            ""|*[!0-9]*) echo "::error::limit は数字で指定してください: $LIMIT"; exit 1;;
+          esac
+          for t in $TAGS; do
+            case "$t" in
+              *[!a-zA-Z0-9_.\'\(\)-]*)
+                echo "::error::タグ名に使えない字が入っています: $t"; exit 1;;
+            esac
+          done
+          # shellcheck disable=SC2086  # 空白区切りで複数タグを渡したいので展開する
+          python3 tools/ingest/fetch.py --sleep 2.0 who --limit "$LIMIT" $TAGS
