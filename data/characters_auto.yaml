@@ -669,6 +669,34 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 65%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: amayadori-machi
+  name: 雨宿まち
+  kana: あまやどりまち
+  work: くまみこ
+  year: 2013
+  summary: 過疎化する村で熊と人の共生を仲介する巫女であり、現代の世界に憧れを抱いている。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b89713-SDxiPZ7417mf.jpg'
+    page: 'https://anilist.co/character/89713'
+    credit: AniList
+  analysis:
+    method: both+danbooru+knowledge+auto
+    model: 'gemini-pro-latest'
+    date: '2026-11-13'
+  elements:
+    - {id: hitomishiri, weight: core, note: '通説: 村外の人間や同世代の子供と接すると、極度の緊張からパニックや被害妄想に陥ってしまう。', src: knowledge}
+    - {id: miko, weight: core, note: 'danbooru miko 47% / 資料: 熊出神社の巫女である。 / 通説: 常に巫女服姿で生活しており、熊出神社の巫女としての役割がキャラクターの前提になっている。', src: both}
+    - {id: twintail, weight: core, note: 'danbooru twintails 77%', src: danbooru}
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 62%', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 83%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: hachimaki, weight: sub, note: 'danbooru headband 38%', src: danbooru}
+    - {id: hakama, weight: sub, note: 'danbooru hakama 46%', src: danbooru}
+    - {id: osananajimi, weight: sub, note: '通説: 言葉を話すヒグマのナツとは幼い頃から一緒に育ち、家族以上の強い依存関係にある。', src: knowledge}
+    - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 44%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 90%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 63%（共有 28% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: amiya
   name: アーミヤ
   kana: あーみや
@@ -4434,6 +4462,30 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 82%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: hong-meiling
+  name: 紅美鈴
+  kana: ほんめいりん
+  work: 東方Project
+  year: 2002
+  summary: 紅魔館の入り口を警備する門番であり、部下を率いる武術の達人の妖怪。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b14598-Zw6Weirxf1IT.png'
+    page: 'https://anilist.co/character/14598'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+auto
+    model: 'gemini-pro-latest'
+    date: '2026-11-13'
+  elements:
+    - {id: jingai, weight: core, note: '資料: 妖怪であるが、具体的にどの分類に属するかは知られていない。', src: gemini}
+    - {id: mitsuami, weight: core, note: 'danbooru braid 83%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 80%（共有 8% のため比重を下げた）', src: danbooru}
+    - {id: chuukafuku, weight: sub, note: 'danbooru chinese_clothes 37%', src: danbooru}
+    - {id: joushi, weight: sub, note: '資料: 部下たちと共に紅魔館の入り口を警備している。', src: gemini}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 42%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 91%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: honma-meiko
   name: 本間芽衣子
   kana: ほんまめいこ
@@ -7667,6 +7719,31 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: krista-lenz
+  name: クリスタ・レンズ
+  kana: くりすたれんず
+  work: 進撃の巨人
+  year: 2009
+  summary: 145cmの小柄な体格を持ち、兵団で10位の成績を修める兵士としての顔と、ユミルとの親しい友人関係を併せ持つ。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b62481-ZZDa7vn17lMU.png'
+    page: 'https://anilist.co/character/62481'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+knowledge+auto
+    model: 'gemini-pro-latest'
+    date: '2026-11-13'
+  elements:
+    - {id: neko-o-kaburu, weight: core, note: '通説: 「クリスタ・レンズ」という誰からも愛される優しい少女を意図的に演じていたため。', src: knowledge}
+    - {id: shoutai, weight: core, note: '通説: その正体は壁内の真の王族であるレイス家の血を引くヒストリア・レイスであるため。', src: knowledge}
+    - {id: teishinchou, weight: core, note: '資料: 身長は145cm（4''8"）である', src: gemini}
+    - {id: jiko-gisei, weight: sub, note: '通説: 誰かの記憶に残るために、立派な理由をつけて死ぬことを無意識に望んでいたため。', src: knowledge}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 93%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: kyouizon, weight: sub, note: '通説: ユミルとお互いの生い立ちや欠落を理解し合い、強く執着し合う関係であったため。', src: knowledge}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 75%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 43%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kuchiki-rukia
   name: 朽木ルキア
   kana: くちきるきあ
@@ -9967,6 +10044,37 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 87%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: morichika-rinnosuke
+  name: 森近霖之助
+  kana: もりちかりんのすけ
+  work: 東方Project
+  year: 2002
+  summary: 魔法の森の近くで古道具屋を営み、不老の肉体と未知の道具を判別する能力を持つ謎多き店主。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b9910-NxwWCIGSO9T4.png'
+    page: 'https://anilist.co/character/9910'
+    credit: AniList
+  analysis:
+    method: both+danbooru+gemini+knowledge+auto
+    model: 'gemini-pro-latest'
+    date: '2026-11-13'
+  elements:
+    - {id: furou, weight: core, note: '資料: 外見は人間だが霊夢より何倍も長く生きており、少なくとも魔理沙が幼少の頃から外見が変わっていない。', src: gemini}
+    - {id: hanyou, weight: core, note: '通説: 人間と妖怪のハーフという設定で、長寿でありながら人間寄りの生活をしている。', src: knowledge}
+    - {id: kataribe, weight: core, note: '通説: 小説版の主人公として、幻想郷の少女たちの騒動を一歩引いた視点から語っている。', src: knowledge}
+    - {id: megane, weight: core, note: 'danbooru glasses 85%', src: danbooru}
+    - {id: nouryokusha, weight: core, note: '資料: 未知の外来アイテムの名前と用途を判別できる認識能力を持つが、使い方は判別できない。', src: gemini}
+    - {id: shuushuuheki, weight: core, note: '資料: 境界を越えて迷い込んできた外界の道具を収集し、店の品揃えにしている。 / 通説: 外の世界の道具を拾い集めては店に並べるが、気に入ったものは非売品にしてしまう。', src: both}
+    - {id: toshiue, weight: core, note: '資料: 魔理沙が幼少の頃から霖之助の外見は変わっていない。公式の物語において、霊夢より何倍も長く生きているとされている。', src: gemini}
+    - {id: ahoge, weight: sub, note: 'danbooru ahoge 51%', src: danbooru}
+    - {id: choker, weight: sub, note: 'danbooru choker 38%', src: danbooru}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 44%', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru white_hair 41%', src: danbooru}
+    - {id: shoutai, weight: sub, note: '資料: 正体は不明。', src: gemini}
+    - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 36%', src: danbooru}
+    - {id: hogosha, weight: spice, note: '通説: 実家を飛び出した魔理沙を預かった過去があり、今でも彼女たちから親戚のお兄さんのように扱われている。', src: knowledge}
+  patterns: []
+
 - id: mouri-ran
   name: 毛利蘭
   kana: もうりらん
@@ -11515,6 +11623,30 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 56%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: patchouli-knowledge
+  name: パチュリー・ノーレッジ
+  kana: ぱちゅりーのーれっじ
+  work: 東方Project
+  year: 2003
+  summary: 100歳以上の長命な魔女であり、肉体的な戦闘能力を持たない代わりに多種多様な魔法の知識を操り、日光の届かない図書館で司書として過ごす存在。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b9909-SQs7BBfKBc2G.png'
+    page: 'https://anilist.co/character/9909'
+    credit: AniList
+  analysis:
+    method: both+danbooru+gemini+auto
+    model: 'gemini-pro-latest'
+    date: '2026-11-13'
+  elements:
+    - {id: byoujaku, weight: core, note: '資料: 肉体的な戦闘能力が完全に欠如しており、直接の打撃攻撃はほぼ行わない（作品上は喘息持ちなどの病弱設定が確実であるため） / 通説: 喘息持ちで、魔法の詠唱中に咳き込んでしまうほど体が弱い', src: both}
+    - {id: furou, weight: core, note: '資料: 年齢は100歳以上（100+）', src: gemini}
+    - {id: majo, weight: core, note: '資料: 種族は魔法使い（Magician / witch） / 通説: 紅魔館の地下図書館に陣取る、生まれついての魔法使い', src: both}
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 91%', src: danbooru}
+    - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 74%', src: danbooru}
+    - {id: gishiki, weight: sub, note: '資料: 使う魔法を曜日に応じて分ける秘密の趣味がある', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 89%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: pecorine
   name: ペコリーヌ
   kana: ぺこりーぬ
@@ -11622,6 +11754,37 @@
   elements:
     - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 59%（共有 22% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 86%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: portgas-d-ace
+  name: ポートガス・D・エース
+  kana: ぽーとがすでぃーえーす
+  work: ONE PIECE
+  year: 1997
+  summary: 白ひげ海賊団の隊長として船長に忠誠を誓う能力者であり、亡き義兄弟への喪失を抱えながら弟の先を往く無法者。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2072-Lc6jEdsueJUK.jpg'
+    page: 'https://anilist.co/character/2072'
+    credit: AniList
+  analysis:
+    method: both+danbooru+gemini+knowledge+auto
+    model: 'gemini-pro-latest'
+    date: '2026-11-13'
+  elements:
+    - {id: gikyoudai, weight: core, note: '資料: サボが義兄弟であり、ルフィが弟であること。 / 通説: 主人公と幼少期に杯を交わした、血の繋がらない兄。', src: both}
+    - {id: joushi, weight: core, note: '資料: 白ひげ海賊団の第2部隊隊長を務めていること。', src: gemini}
+    - {id: kabau, weight: core, note: '通説: 絶体絶命の弟を庇い、マグマの拳にその身を貫かれる最期。', src: knowledge}
+    - {id: kokuin, weight: core, note: 'danbooru tattoo 38% / 資料: 背中に白ひげのシンボルのタトゥーがあり、左腕にもタトゥーがあること。', src: both}
+    - {id: koushinchou, weight: core, note: '資料: 身長が185cmであること。', src: gemini}
+    - {id: muhoumono, weight: core, note: '資料: 5億5000万の懸賞金がかけられており、海軍の逮捕から逃れていること。', src: gemini}
+    - {id: nouryokusha, weight: core, note: '資料: 自然系「メラメラの実」の能力者であること。', src: gemini}
+    - {id: shujuu, weight: core, note: '資料: 白ひげを自身の船長とし、忠誠を尽くしていること。', src: gemini}
+    - {id: sobakasu, weight: core, note: 'danbooru freckles 71% / 通説: 母親譲りのそばかすが顔にあるのが外見上の大きな特徴。', src: both}
+    - {id: soushitsu, weight: core, note: '資料: サボという亡くなった義兄弟がいること。', src: gemini}
+    - {id: taijou, weight: core, note: '通説: 彼の死が主人公に最大の絶望を与え、その後の成長の原動力となる。', src: knowledge}
+    - {id: toshiue, weight: core, note: '資料: 弟であるルフィより3年早く村を旅立っていること。', src: gemini}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 79%（共有 28% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 72%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: power
@@ -12217,6 +12380,36 @@
     - {id: muhoumono, weight: sub, note: '資料: 懸賞金（1,111,000,000等）が掛けられた賞金首である。', src: gemini}
     - {id: piasu, weight: sub, note: 'danbooru earrings 57%', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 83%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: rosaria-genshin
+  name: ロサリア
+  kana: ろさりあ
+  work: 原神
+  year: 2020
+  summary: バレンシア家の名を引く8歳の少女。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b319048-6TSNZieKkCcX.png'
+    page: 'https://anilist.co/character/319048'
+    credit: AniList
+  analysis:
+    method: both+danbooru+gemini+knowledge+auto
+    model: 'gemini-pro-latest'
+    date: '2026-11-13'
+  elements:
+    - {id: ansatsusha, weight: core, note: '通説: モンドの平和を裏から守るため、夜な夜な汚れ仕事を引き受けている。', src: knowledge}
+    - {id: kodomo, weight: core, note: '資料: 年齢は8歳であると明記されている。', src: gemini}
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 69% / 通説: 実装前後のモデル変更で胸のサイズが界隈を騒がせた。', src: both}
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 63%', src: danbooru}
+    - {id: reijou, weight: core, note: '資料: 本名が「Rosaria von Valencia」であり、名前に貴族を示す「von」が含まれていることから推測。', src: gemini}
+    - {id: shisutaa, weight: core, note: 'danbooru nun 66% / 通説: 西風教会のシスターだが、祈りも仕事もサボる不良シスター。', src: both}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 57%', src: danbooru}
+    - {id: gouri, weight: sub, note: '通説: 無駄を極端に嫌い、どんな状況でも定時退社を貫く。', src: knowledge}
+    - {id: kuma, weight: sub, note: '通説: 夜の裏仕事のせいか、目の下に濃い隈ができている。', src: knowledge}
+    - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 46%', src: danbooru}
+    - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 42%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 65%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 51%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: roxy-migurdia
@@ -13198,6 +13391,40 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 50%', src: danbooru}
     - {id: aome, weight: spice, note: 'danbooru blue_eyes 69%（共有 24% のため比重を下げた）', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 84%（共有 39% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: senko
+  name: 仙狐
+  kana: せんこ
+  work: 世話やき狐の仙狐さん
+  year: 2017
+  summary: 800歳という長寿の神使でありながら、小柄な姿で人間を甘やかし世話を焼く救済者。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b130429-jw2wdaJJGCIc.png'
+    page: 'https://anilist.co/character/130429'
+    credit: AniList
+  analysis:
+    method: both+danbooru+gemini+knowledge+auto
+    model: 'gemini-pro-latest'
+    date: '2026-11-13'
+  elements:
+    - {id: furou, weight: core, note: '資料: 年齢は800歳', src: gemini}
+    - {id: jingai, weight: core, note: '資料: 神の使いの狐', src: gemini}
+    - {id: kemomimi, weight: core, note: 'danbooru animal_ears 98% / 資料: 種族はキツネ（Kitsune）とあり、作品上は獣耳の姿であるため / 通説: 感情に合わせて動く狐耳と、手入れの行き届いた大きな尻尾がトレードマーク。', src: both}
+    - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 64%', src: danbooru}
+    - {id: kyuusai, weight: core, note: '資料: 人類を悩ませる不安や闇を和らげる使命を持つ', src: gemini}
+    - {id: mitame-sabaku, weight: core, note: '資料: 年齢は800歳だが身長は135cm / 通説: 「800歳超えの合法ロリ」としてのじゃロリの代表格に挙げられる。', src: both}
+    - {id: nojya, weight: core, note: '通説: 「存分に甘やかしてやるのじゃ」など、母性と幼さが同居した口調で話す。', src: knowledge}
+    - {id: sewayaki, weight: core, note: '資料: 中野を料理や掃除などで甘やかし世話をする / 通説: タイトル通り、ブラック企業で疲弊した主人公の生活全般を全力で世話して甘やかす。', src: both}
+    - {id: shippo, weight: core, note: 'danbooru tail 95%', src: danbooru}
+    - {id: teishinchou, weight: core, note: '資料: 身長は135cm', src: gemini}
+    - {id: wasou, weight: core, note: 'danbooru japanese_clothes 61%', src: danbooru}
+    - {id: kami, weight: sub, note: '通説: ただの妖怪ではなく、正式な神使の狐としての高い格と神通力を持っている。', src: knowledge}
+    - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 54%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 70%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: miko, weight: sub, note: 'danbooru miko 45%', src: danbooru}
+    - {id: yaeba, weight: sub, note: 'danbooru fang 48%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 49%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: senshi
@@ -15941,6 +16168,32 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 72%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: tsumiki-mikan
+  name: 罪木蜜柑
+  kana: つみきみかん
+  work: スーパーダンガンロンパ2
+  year: 2012
+  summary: 「超高校級の保健委員（ナース）」の才能を持ち、コロシアイ修学旅行に参加した希望ヶ峰学園の生徒。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b90008-rwpjqIlTGFEl.jpg'
+    page: 'https://anilist.co/character/90008'
+    credit: AniList
+  analysis:
+    method: both+danbooru+knowledge+auto
+    model: 'gemini-pro-latest'
+    date: '2026-11-13'
+  elements:
+    - {id: houtai, weight: core, note: 'danbooru bandages 76% / 通説: 左腕や右脚など、全身のあちこちに痛々しい包帯を巻いている。', src: both}
+    - {id: jikokoutei, weight: core, note: '通説: 「すいませんすいません！」と息をするように謝り続けるのが基本スタイル。', src: knowledge}
+    - {id: misuterare, weight: core, note: '通説: 嫌われることを極端に恐れ、どんな酷い扱いを受けても自分を必要としてくれる人に依存する。', src: knowledge}
+    - {id: naasu, weight: core, note: '資料: 才能（Talent）は「Ultimate Nurse」。 / 通説: 超高校級の保健委員として、常にナース服風のエプロンを着ている。', src: both}
+    - {id: namida-bokuro, weight: core, note: 'danbooru mole_under_eye 64%', src: danbooru}
+    - {id: dojikko, weight: sub, note: '通説: 何もないところで転んでは、毎回ありえないほど扇情的なポーズになる。', src: knowledge}
+    - {id: yandere, weight: sub, note: '通説: 3章での豹変と「愛する人」への狂気的な執着が、プレイヤーに強烈な印象を残した。', src: knowledge}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 93%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 41%（共有 28% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: tsumura-tokiko
   name: 津村斗貴子
   kana: つむらときこ
@@ -16175,6 +16428,35 @@
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 76%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 89%（共有 22% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 62%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: urushibara-luka
+  name: 漆原るか
+  kana: うるしばらるか
+  work: STEINS;GATE
+  year: 2009
+  summary: 倫太郎から弟子扱いされ敬語で接する少年であり、過去への干渉によって一時的に女性の身体を得た経験を持つ。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b30919-5PjiA4ucfuuJ.png'
+    page: 'https://anilist.co/character/30919'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+knowledge+auto
+    model: 'gemini-pro-latest'
+    date: '2026-11-13'
+  elements:
+    - {id: chuuseiteki, weight: core, note: '資料: まゆりから頻繁にコスプレの依頼を受けていることや、性別が男性から女性に変わるエピソードから、外見が中性的あるいは女性的であることが強く示唆される。', src: gemini}
+    - {id: josou, weight: core, note: 'danbooru trap 89%', src: danbooru}
+    - {id: kataomoi, weight: core, note: '通説: 主人公の岡部に対して、性別に関わらず一途な恋心を抱いている。', src: knowledge}
+    - {id: keigo, weight: core, note: '資料: 特に倫太郎に対して敬称・敬語を使用する。', src: gemini}
+    - {id: miko, weight: core, note: '通説: 実家の柳林神社で日常的に巫女服を着て手伝いをしている。', src: knowledge}
+    - {id: kyasha, weight: sub, note: '通説: 「だが男だ」と言われるほど、女性以上に線の細い可憐な体つきをしている。', src: knowledge}
+    - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 55%', src: danbooru}
+    - {id: shitei, weight: sub, note: '資料: 倫太郎から一方的に弟子扱いされている。', src: gemini}
+    - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 41%', src: danbooru}
+    - {id: hitomishiri, weight: spice, note: '通説: 極度の恥ずかしがり屋で、会話の際も常にもじもじと自信なさげに振る舞う。', src: knowledge}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 81%（共有 28% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 67%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: usada-pekora
@@ -16614,6 +16896,35 @@
     - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 94%（共有 22% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: yagokoro-eirin
+  name: 八意永琳
+  kana: やごころえいりん
+  work: 東方Project
+  year: 2004
+  summary: かつて月に住んでいた天才薬師であり、輝夜への罪悪感から同胞を裏切って共に地球へ隠れ住んだ逃亡者。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b8918-pKl36MKDjhiF.png'
+    page: 'https://anilist.co/character/8918'
+    credit: AniList
+  analysis:
+    method: danbooru+gemini+knowledge+auto
+    model: 'gemini-pro-latest'
+    date: '2026-11-13'
+  elements:
+    - {id: fushi, weight: core, note: '通説: 自ら作った蓬莱の薬を飲んだ蓬莱人であり、絶対に死なない', src: knowledge}
+    - {id: mitsuami, weight: core, note: 'danbooru braid 62%', src: danbooru}
+    - {id: zaiakukan, weight: core, note: '資料: 輝夜のみが処罰されて地球へ追放され、永琳はそのことに対して常に罪悪感を抱いていた。', src: gemini}
+    - {id: hogosha, weight: sub, note: '通説: 輝夜や鈴仙など、永遠亭の面々をまとめる実質的な保護者枠', src: knowledge}
+    - {id: naasu, weight: sub, note: 'danbooru nurse_cap 57%', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru grey_hair 59%', src: danbooru}
+    - {id: shokunin, weight: sub, note: '資料: かつて月に住んでいた天才薬師。', src: gemini}
+    - {id: shujuu, weight: sub, note: '通説: 姫である輝夜に絶対の忠誠を誓い、従者として仕えている', src: knowledge}
+    - {id: uchuujin, weight: sub, note: '資料: かつて月に住んでいた天才薬師。', src: gemini}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 84%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: mitame-sabaku, weight: spice, note: '通説: 億単位の途方もない年月を生きているが、見た目は若い女性のまま', src: knowledge}
+    - {id: uragiri, weight: spice, note: '資料: 輝夜が月に戻りたがっていないことを知り、過去の罪悪感から、輝夜を育てた地球人たちの前で他の使者全員を裏切って殺害した。', src: gemini}
+  patterns: []
+
 - id: yakumo-yukari
   name: 八雲紫
   kana: やくもゆかり
@@ -16817,6 +17128,33 @@
     - {id: kansatsu, weight: sub, note: '資料: 穂乃果の新しいアイドルグループを事前に観察してから加入したため。', src: gemini}
     - {id: teishinchou, weight: sub, note: '資料: 17歳で身長154cmという小柄な体格であるため。', src: gemini}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 88%（共有 28% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: ymir-shingeki
+  name: ユミル
+  kana: ゆみる
+  work: 進撃の巨人
+  year: 2009
+  summary: 調査兵団に所属する長身の女性で、特定の仲間に対して親切に振る舞う兵士。
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b71479-huCD908XIdqv.png'
+    page: 'https://anilist.co/character/71479'
+    credit: AniList
+  analysis:
+    method: both+danbooru+gemini+knowledge+auto
+    model: 'gemini-pro-latest'
+    date: '2026-11-13'
+  elements:
+    - {id: koushinchou, weight: core, note: '資料: 身長は172cm（5フィート7インチ）である', src: gemini}
+    - {id: shoutai, weight: core, note: '通説: ただの訓練兵を装っていたが、実は人間を捕食する側の能力者だった。', src: knowledge}
+    - {id: sobakasu, weight: core, note: 'danbooru freckles 80% / 通説: 作中でもファンからも「そばかす」が彼女を指す代名詞として使われる。', src: both}
+    - {id: tatemae-honne, weight: core, note: '通説: 「自分のために生きる」と公言しながら、結局は他人のために命を投げ出してしまう。', src: knowledge}
+    - {id: dokuzetsu, weight: sub, note: '通説: 常に皮肉や悪態をついて周囲を煽るコミュニケーションをとる。', src: knowledge}
+    - {id: sewayaki, weight: sub, note: '資料: 特にクリスタ（Krista）に対して親切に接することがある', src: gemini}
+    - {id: yakusoku, weight: sub, note: '通説: 雪山で交わした「元の名前を名乗って胸を張って生きろ」という誓いが彼女たちの軸になる。', src: knowledge}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 36%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: mitame-sabaku, weight: spice, note: '通説: 10代の少女に見えるが、実は60年以上壁の外を彷徨っていた。', src: knowledge}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 66%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yoko-littner

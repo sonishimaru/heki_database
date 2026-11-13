@@ -7,14 +7,11 @@ date: '2026-11-13'
 完了: 12
 失敗: []
 レーン:
-  資料: 0 / 11
-  識別: 0 / 12
-レーンの理由:
-  資料: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
-  識別: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
+  資料: 12 / 12
+  識別: 12 / 12
+レーンの理由: {}
 取得元:
   danbooru: 12 / 12
-  anilist: 11 / 12
-取得元の理由:
-  anilist: 'HTTP 404: https://graphql.anilist.co'
+  anilist: 12 / 12
+取得元の理由: {}
 失敗の理由: {}
