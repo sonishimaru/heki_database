@@ -5922,6 +5922,266 @@ characters:
     year: 2020
     danbooru: ninomae_ina'nis
     anilist: Ninomae Ina'nis
+  # --- 31期目。逆引きで補充した最初の期。候補 45 名のうち 35 名が新規で、
+  # 思い付く方式（前回は 56 名中 13 名）から命中率が 23% → 78% に上がった。
+  # lookup.yml に miko nurse butler nun freckles eyebags tsurime
+  # expressionless prosthesis blindfold を渡して、Danbooru が返した人物を
+  # そのまま使っている。綴りを当てていないので、綴り違いで落ちる分は
+  # 原理的に無くなる（日本語名と作品に確信が持てないものは入れていない）。
+  # 狙った薄い軸: 巫女 5・ナース 1・シスター 1・執事 1・そばかす 3・
+  # 隈 2・つり目 0・無表情 0・義肢 7・目隠し 2。
+  #
+  # 既存の綴りとの食い違いも分かった。Danbooru は todoroki_shoto・
+  # uraraka_ochaco・gojo_satoru・itadori_yuji・sanzen'in_nagi・
+  # violet_evergarden と書くが、こちらの todoroki_shouto などでも
+  # 記録は取れている（6 件すべて danbooru 由来の要素あり）。別名として
+  # 解決されているので直さない。ただし ieiri_shouko と kraft_lawrence は
+  # 解決されなかったので、長音の扱いは一律ではない。
+  - id: yagokoro-eirin
+    name: 八意永琳
+    kana: やごころえいりん
+    work: 東方Project
+    year: 2004
+    danbooru: yagokoro_eirin
+    anilist: Eirin Yagokoro
+  - id: urushibara-luka
+    name: 漆原るか
+    kana: うるしばらるか
+    work: STEINS;GATE
+    year: 2009
+    danbooru: urushibara_luka
+    anilist: Luka Urushibara
+  - id: senko
+    name: 仙狐
+    kana: せんこ
+    work: 世話やき狐の仙狐さん
+    year: 2017
+    danbooru: senko_(sewayaki_kitsune_no_senko-san)
+    anilist: Senko
+  - id: amayadori-machi
+    name: 雨宿まち
+    kana: あまやどりまち
+    work: くまみこ
+    year: 2013
+    danbooru: amayadori_machi
+    anilist: Machi Amayadori
+  - id: tsumiki-mikan
+    name: 罪木蜜柑
+    kana: つみきみかん
+    work: スーパーダンガンロンパ2
+    year: 2012
+    danbooru: tsumiki_mikan
+    anilist: Mikan Tsumiki
+  - id: morichika-rinnosuke
+    name: 森近霖之助
+    kana: もりちかりんのすけ
+    work: 東方Project
+    year: 2002
+    danbooru: morichika_rinnosuke
+    anilist: Rinnosuke Morichika
+  - id: hong-meiling
+    name: 紅美鈴
+    kana: ほんめいりん
+    work: 東方Project
+    year: 2002
+    danbooru: hong_meiling
+    anilist: Hong Meiling
+  - id: patchouli-knowledge
+    name: パチュリー・ノーレッジ
+    kana: ぱちゅりーのーれっじ
+    work: 東方Project
+    year: 2003
+    danbooru: patchouli_knowledge
+    anilist: Patchouli Knowledge
+  - id: rosaria-genshin
+    name: ロサリア
+    kana: ろさりあ
+    work: 原神
+    year: 2020
+    danbooru: rosaria_(genshin_impact)
+    anilist: Rosaria
+  - id: portgas-d-ace
+    name: ポートガス・D・エース
+    kana: ぽーとがすでぃーえーす
+    work: ONE PIECE
+    year: 1997
+    danbooru: portgas_d._ace
+    anilist: Portgas D. Ace
+  - id: ymir-shingeki
+    name: ユミル
+    kana: ゆみる
+    work: 進撃の巨人
+    year: 2009
+    danbooru: ymir_(shingeki_no_kyojin)
+    anilist: Ymir
+  - id: krista-lenz
+    name: クリスタ・レンズ
+    kana: くりすたれんず
+    work: 進撃の巨人
+    year: 2009
+    danbooru: krista_lenz
+    anilist: Krista Lenz
+  - id: koizumi-mahiru
+    name: 小泉真昼
+    kana: こいずみまひる
+    work: スーパーダンガンロンパ2
+    year: 2012
+    danbooru: koizumi_mahiru
+    anilist: Mahiru Koizumi
+  - id: ikusaba-mukuro
+    name: 戦刃むくろ
+    kana: いくさばむくろ
+    work: ダンガンロンパ
+    year: 2010
+    danbooru: ikusaba_mukuro
+    anilist: Mukuro Ikusaba
+  - id: kuroki-tomoko
+    name: 黒木智子
+    kana: くろきともこ
+    work: 私がモテないのはどう考えてもお前らが悪い!
+    year: 2011
+    danbooru: kuroki_tomoko
+    anilist: Tomoko Kuroki
+  - id: toga-himiko
+    name: 渡我被身子
+    kana: とがひみこ
+    work: 僕のヒーローアカデミア
+    year: 2014
+    danbooru: toga_himiko
+    anilist: Himiko Toga
+  - id: katou-asuka
+    name: 加藤明日香
+    kana: かとうあすか
+    work: 私がモテないのはどう考えてもお前らが悪い!
+    year: 2011
+    danbooru: katou_asuka
+    anilist: Asuka Katou
+  - id: tamura-yuri
+    name: 田村ゆり
+    kana: たむらゆり
+    work: 私がモテないのはどう考えてもお前らが悪い!
+    year: 2011
+    danbooru: tamura_yuri
+    anilist: Yuri Tamura
+  - id: mithrun
+    name: ミスルン
+    kana: みするん
+    work: ダンジョン飯
+    year: 2014
+    danbooru: mithrun
+    anilist: Mithrun
+  - id: kabru
+    name: カブルー
+    kana: かぶるー
+    work: ダンジョン飯
+    year: 2014
+    danbooru: kabru
+    anilist: Kabru
+  - id: scaramouche-genshin
+    name: スカラマシュ
+    kana: すからましゅ
+    work: 原神
+    year: 2020
+    danbooru: scaramouche_(genshin_impact)
+    anilist: Scaramouche
+  - id: nahida-genshin
+    name: ナヒーダ
+    kana: なひーだ
+    work: 原神
+    year: 2020
+    danbooru: nahida_(genshin_impact)
+    anilist: Nahida
+  - id: mona-genshin
+    name: モナ
+    kana: もな
+    work: 原神
+    year: 2020
+    danbooru: mona_(genshin_impact)
+    anilist: Mona
+  - id: hata-no-kokoro
+    name: 秦こころ
+    kana: はたのこころ
+    work: 東方Project
+    year: 2013
+    danbooru: hata_no_kokoro
+    anilist: Kokoro Hata
+  - id: komeiji-satori
+    name: 古明地さとり
+    kana: こめいじさとり
+    work: 東方Project
+    year: 2008
+    danbooru: komeiji_satori
+    anilist: Satori Komeiji
+  - id: meltryllis
+    name: メルトリリス
+    kana: めるとりりす
+    work: Fate/Grand Order
+    year: 2015
+    danbooru: meltryllis_(fate)
+    anilist: Meltryllis
+  - id: bedivere
+    name: ベディヴィエール
+    kana: べでぃゔぃえーる
+    work: Fate/Grand Order
+    year: 2015
+    danbooru: bedivere_(fate)
+    anilist: Bedivere
+  - id: medusa-rider
+    name: メドゥーサ
+    kana: めどうーさ
+    work: Fate/stay night
+    year: 2004
+    danbooru: medusa_(rider)_(fate)
+    anilist: Medusa
+  - id: geto-suguru
+    name: 夏油傑
+    kana: げとうすぐる
+    work: 呪術廻戦
+    year: 2018
+    danbooru: geto_suguru
+    anilist: Suguru Geto
+  - id: sword-maiden
+    name: 剣の乙女
+    kana: けんのおとめ
+    work: ゴブリンスレイヤー
+    year: 2016
+    danbooru: sword_maiden
+    anilist: Sword Maiden
+  - id: nurse-joy
+    name: ジョーイ
+    kana: じょーい
+    work: ポケットモンスター
+    year: 1996
+    danbooru: nurse_joy
+    anilist: Nurse Joy
+  - id: bridget-guilty-gear
+    name: ブリジット
+    kana: ぶりじっと
+    work: ギルティギア
+    year: 1998
+    danbooru: bridget_(guilty_gear)
+    anilist: Bridget
+  - id: shirasaka-koume
+    name: 白坂小梅
+    kana: しらさかこうめ
+    work: アイドルマスター シンデレラガールズ
+    year: 2011
+    danbooru: shirasaka_koume
+    anilist: Koume Shirasaka
+  - id: jeanne-alter
+    name: ジャンヌ・ダルク〔オルタ〕
+    kana: じゃんぬだるくおるた
+    work: Fate/Grand Order
+    year: 2015
+    danbooru: "jeanne_d'arc_alter_(fate)"
+    anilist: Jeanne d'Arc Alter
+  - id: kashima-kancolle
+    name: 鹿島
+    kana: かしま
+    work: 艦隊これくしょん
+    year: 2013
+    danbooru: kashima_(kancolle)
+    anilist: Kashima
   # 馬渕洸（アオハライド）は mabuchi_kou で取れなかった。兄弟の吉岡双葉が
   # yoshioka_futaba で通っているので、カッコを付けない形という決まりは
   # 裏が取れている。綴りの当てが無いので推測で直さずに外す。
