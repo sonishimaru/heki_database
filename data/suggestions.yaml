@@ -6,6 +6,7 @@
 # near_miss: 対応はあるが閾値に届かなかったもの（実測値）。閾値を勘で
 #   動かさないための材料。tools/report.py が集計する。
 # 採用・却下は人が決める。処理済みのエントリは消してよい。
+
 - id: abarai-renji
   name: 阿散井恋次
   date: '2026-11-12'
@@ -166,12 +167,6 @@
     frequency: 0.1512
     threshold: 0.35
   new_tag_proposals: []
-- id: aioi-yuuko
-  name: 相生祐子
-  date: '2026-10-06'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals: []
 - id: aisaka-taiga
   name: 逢坂大河
   date: '2026-11-12'
@@ -308,15 +303,6 @@
     frequency: 0.1503
     threshold: 0.4
   new_tag_proposals: []
-- id: akemi-homura
-  name: 暁美ほむら
-  date: '2026-08-30'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: モノトーンボイス
-    axis: 性格 / 話し方
-    reason: 資料に「一本調子（モノトーン）の声をしている」とあるが、語彙に発声のトーンに関する項目がないため。
 - id: akimichi-chouji
   name: 秋道チョウジ
   date: '2026-11-12'
@@ -403,15 +389,6 @@
     frequency: 0.2137
     threshold: 0.5
   new_tag_proposals: []
-- id: albedo-overlord
-  name: アルベド
-  date: '2026-08-30'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: datenshi
-    axis: 外見 / 種族
-    reason: 堕天使の翼と角を持つ姿として記載されており、既存の天使・悪魔の記号とは区別されるため。
 - id: alibaba-saluja
   name: アリババ・サルージャ
   date: '2026-11-12'
@@ -526,15 +503,6 @@
     frequency: 0.2472
     threshold: 0.35
   new_tag_proposals: []
-- id: amami-haruka
-  name: 天海春香
-  date: '2026-08-31'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: 料理苦手
-    axis: 能力・技能
-    reason: お菓子作りは好きだが料理全般は苦手というギャップのある属性を持っているため。
 - id: amamiya-ren
   name: 雨宮蓮
   date: '2026-11-12'
@@ -1811,16 +1779,6 @@
     frequency: 0.3165
     threshold: 0.35
   new_tag_proposals: []
-- id: denji
-  name: デンジ
-  date: '2026-10-13'
-  unmapped_danbooru: []
-  near_miss:
-  - id: kin-no-me
-    tag: yellow_eyes
-    frequency: 0.1511
-    threshold: 0.35
-  new_tag_proposals: []
 - id: diamond-hnk
   name: ダイヤモンド
   date: '2026-11-12'
@@ -2495,12 +2453,6 @@
     frequency: 0.228
     threshold: 0.3
   new_tag_proposals: []
-- id: fushiguro-tsumiki
-  name: 伏黒津美紀
-  date: '2026-10-27'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals: []
 - id: gaara
   name: 我愛羅
   date: '2026-11-12'
@@ -3101,12 +3053,6 @@
     frequency: 0.2128
     threshold: 0.35
   new_tag_proposals: []
-- id: haramura-nodoka
-  name: 原村和
-  date: '2026-10-05'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals: []
 - id: haru-beastars
   name: ハル
   date: '2026-11-12'
@@ -3150,12 +3096,6 @@
     tag: gloves
     frequency: 0.1944
     threshold: 0.35
-  new_tag_proposals: []
-- id: hase-yuuki
-  name: 長谷祐樹
-  date: '2026-11-01'
-  unmapped_danbooru: []
-  near_miss: []
   new_tag_proposals: []
 - id: hashibira-inosuke
   name: 嘴平伊之助
@@ -4375,16 +4315,6 @@
     frequency: 0.3278
     threshold: 0.35
   new_tag_proposals: []
-- id: inomata-taiki
-  name: 猪股大喜
-  date: '2026-11-03'
-  unmapped_danbooru:
-  - tag: aqua_jacket
-    frequency: 1.0
-  - tag: aqua_pants
-    frequency: 1.0
-  near_miss: []
-  new_tag_proposals: []
 - id: inoue-orihime
   name: 井上織姫
   date: '2026-11-12'
@@ -4815,12 +4745,6 @@
     frequency: 0.2128
     threshold: 0.35
   new_tag_proposals: []
-- id: johan-liebert
-  name: ヨハン・リーベルト
-  date: '2026-10-01'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals: []
 - id: joseph-joestar
   name: ジョセフ・ジョースター
   date: '2026-11-12'
@@ -5154,12 +5078,6 @@
     tag: hair_between_eyes
     frequency: 0.2586
     threshold: 0.5
-  new_tag_proposals: []
-- id: kaizaki-arata
-  name: 海崎新太
-  date: '2026-10-16'
-  unmapped_danbooru: []
-  near_miss: []
   new_tag_proposals: []
 - id: kamado-nezuko
   name: 竈門禰豆子
@@ -6439,18 +6357,6 @@
     frequency: 0.1695
     threshold: 0.35
   new_tag_proposals: []
-- id: kotobuki-tsumugi
-  name: 琴吹紬
-  date: '2026-08-31'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: キーボード担当
-    axis: 役割
-    reason: バンド「Ho-kago Tea Time」でキーボードを担当しているため。
-  - name: 作曲者
-    axis: 役割
-    reason: バンドでメインの作曲者を務めているため。
 - id: kotoko-iwanaga
   name: 岩永琴子
   date: '2026-11-13'
@@ -7952,12 +7858,6 @@
     frequency: 0.1613
     threshold: 0.35
   new_tag_proposals: []
-- id: meta-knight
-  name: メタナイト
-  date: '2026-10-10'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals: []
 - id: midorima-shintarou
   name: 緑間真太郎
   date: '2026-11-12'
@@ -8589,12 +8489,6 @@
     tag: collarbone
     frequency: 0.1632
     threshold: 0.35
-  new_tag_proposals: []
-- id: mizutani-shizuku
-  name: 水谷雫
-  date: '2026-10-03'
-  unmapped_danbooru: []
-  near_miss: []
   new_tag_proposals: []
 - id: momose-narumi
   name: 桃瀬成海
@@ -9899,12 +9793,6 @@
     frequency: 0.1684
     threshold: 0.35
   new_tag_proposals: []
-- id: ootori-kyouya
-  name: 鳳鏡夜
-  date: '2026-10-16'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals: []
 - id: oozora-tsubasa
   name: 大空翼
   date: '2026-11-12'
@@ -10675,26 +10563,6 @@
     frequency: 0.1555
     threshold: 0.35
   new_tag_proposals: []
-- id: robin-fe
-  name: ルフレ
-  date: '2026-11-03'
-  unmapped_danbooru:
-  - tag: pulling_own_clothes
-    frequency: 1.0
-  - tag: presenting_own_body
-    frequency: 1.0
-  - tag: string_panties
-    frequency: 1.0
-  - tag: hooded_coat
-    frequency: 1.0
-  - tag: flashing
-    frequency: 1.0
-  - tag: borrowed_clothes
-    frequency: 1.0
-  - tag: opening_own_clothes
-    frequency: 1.0
-  near_miss: []
-  new_tag_proposals: []
 - id: roronoa-zoro
   name: ロロノア・ゾロ
   date: '2026-11-12'
@@ -10727,15 +10595,6 @@
     frequency: 0.2371
     threshold: 0.35
   new_tag_proposals: []
-- id: roy-mustang
-  name: ロイ・マスタング
-  date: '2026-08-30'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: 国家指導者志望
-    axis: 目的/野心
-    reason: アメストリスの次期大総統を目指しているという明確な目的・野望が記述されているため。
 - id: rudeus-greyrat
   name: ルーデウス・グレイラット
   date: '2026-11-12'
@@ -10843,12 +10702,6 @@
     tag: brown_hair
     frequency: 0.1531
     threshold: 0.35
-  new_tag_proposals: []
-- id: ryuugazaki-rei
-  name: 竜ヶ崎怜
-  date: '2026-08-31'
-  unmapped_danbooru: []
-  near_miss: []
   new_tag_proposals: []
 - id: ryuuguu-rena
   name: 竜宮レナ
@@ -11169,12 +11022,6 @@
     tag: collarbone
     frequency: 0.1672
     threshold: 0.35
-  new_tag_proposals: []
-- id: sakura-chiyo
-  name: 佐倉千代
-  date: '2026-10-01'
-  unmapped_danbooru: []
-  near_miss: []
   new_tag_proposals: []
 - id: sakura-kyouko
   name: 佐倉杏子
@@ -13061,18 +12908,6 @@
     frequency: 0.2222
     threshold: 0.35
   new_tag_proposals: []
-- id: tainaka-ritsu
-  name: 田井中律
-  date: '2026-08-31'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: ドラマー
-    axis: 関係性 / 立場
-    reason: バンド「放課後ティータイム」のドラマーとして演奏を行っているため。
-  - name: 部長
-    axis: 関係性 / 立場
-    reason: 軽音部の自称部長であり、ナチュラルリーダーとして部を再始動させたため。
 - id: takagi-san
   name: 高木さん
   date: '2026-11-12'
@@ -13276,12 +13111,6 @@
     tag: glasses
     frequency: 0.202
     threshold: 0.35
-  new_tag_proposals: []
-- id: takeo-gouda
-  name: 剛田猛男
-  date: '2026-11-03'
-  unmapped_danbooru: []
-  near_miss: []
   new_tag_proposals: []
 - id: tanaka-asuka
   name: 田中あすか
@@ -14279,21 +14108,6 @@
     frequency: 0.2
     threshold: 0.35
   new_tag_proposals: []
-- id: urameshi-yuusuke
-  name: 浦飯幽助
-  date: '2026-08-30'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: 不良少年
-    axis: 性格 / 気質
-    reason: 資料において『物語の開始時点では、手に負えない不良少年およびストリートファイターであった』と明記されているため。
-  - name: 霊界探偵
-    axis: 関係性 / 立場
-    reason: 資料において『人間界を超自然的な脅威から守る使命を帯びた「霊界探偵（Spirit Detective）」』と明記されているため。
-  - name: 武道家
-    axis: 関係性 / 立場
-    reason: 資料において『物語の経過に伴い、人間界を守る強力な武道家へと成長していく』と明記されているため。
 - id: uraraka-ochako
   name: 麗日お茶子
   date: '2026-11-12'
@@ -14482,15 +14296,6 @@
     frequency: 0.1639
     threshold: 0.35
   new_tag_proposals: []
-- id: uzumaki-naruto
-  name: うずまきナルト
-  date: '2026-08-31'
-  unmapped_danbooru: []
-  near_miss: []
-  new_tag_proposals:
-  - name: 人柱力
-    axis: 関係性 / 立場
-    reason: 体内に九尾の妖狐という強大な存在を封印されている宿主としての特殊な立場。
 - id: vash-the-stampede
   name: ヴァッシュ・ザ・スタンピード
   date: '2026-11-12'
@@ -14732,18 +14537,6 @@
     tag: red_eyes
     frequency: 0.1956
     threshold: 0.35
-  new_tag_proposals: []
-- id: yagami-sayu
-  name: 夜神粧裕
-  date: '2026-11-03'
-  unmapped_danbooru:
-  - tag: yandere
-    frequency: 1.0
-  - tag: crazy_eyes
-    frequency: 1.0
-  - tag: crazy_smile
-    frequency: 1.0
-  near_miss: []
   new_tag_proposals: []
 - id: yagami-taichi
   name: 八神太一

@@ -545,16 +545,24 @@ def main() -> int:
 
         # 語彙の穴を suggestions に蓄積（人がレビューして見出し語に昇格させる）
         new_tags = vision_payload.get("new_tags") or []
+        existing_s = []
+        if SUGGESTIONS.exists():
+            # 語彙の穴の蓄積は付帯的な出力なので、壊れていても本体は止めない
+            try:
+                existing_s = yaml.safe_load(SUGGESTIONS.read_text(encoding="utf-8")) or []
+            except yaml.YAMLError as err:
+                print(f"警告: {SUGGESTIONS} を読めないので作り直します（{err.__class__.__name__}）")
+                existing_s = []
+        # 古い行はまず必ず落とす。この 1 行を「提案が残っているとき」の条件の
+        # 中に置いていたせいで、汎用へ移して提案が空になった人物の古い行が
+        # 消えずに残り続けていた。2026-11-12 の全件取り直しのあと、48巡目で
+        # 汎用へ移した yandere・crazy_eyes・pulling_own_clothes・aqua_jacket が
+        # 報告にまだ出ていて、提案ファイルの日付だけ 11-03 のままだったので
+        # 気付いた。報告が嘘をつくので、同じ語を何度もレビューすることになる。
+        before = len(existing_s)
+        existing_s = [s for s in existing_s if s.get("id") != entry["id"]]
+        dropped = before != len(existing_s)
         if unmapped or new_tags or near_miss:
-            existing_s = []
-            if SUGGESTIONS.exists():
-                # 語彙の穴の蓄積は付帯的な出力なので、壊れていても本体は止めない
-                try:
-                    existing_s = yaml.safe_load(SUGGESTIONS.read_text(encoding="utf-8")) or []
-                except yaml.YAMLError as err:
-                    print(f"警告: {SUGGESTIONS} を読めないので作り直します（{err.__class__.__name__}）")
-                    existing_s = []
-            existing_s = [s for s in existing_s if s.get("id") != entry["id"]]
             existing_s.append(
                 {
                     "id": entry["id"],
@@ -565,6 +573,7 @@ def main() -> int:
                     "new_tag_proposals": new_tags,
                 }
             )
+        if dropped or unmapped or new_tags or near_miss:
             existing_s.sort(key=lambda s: s["id"])
             header = (
                 "# 語彙の穴の候補（自動蓄積。tools/ingest/merge.py --write-auto が更新する）\n"
