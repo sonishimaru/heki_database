@@ -2,18 +2,19 @@
 # 日次の確認でここを読めば、どの件が落ちたか Actions のログを
 # 掘らずに分かる。tools/report.py run で整形して表示できる。
 
-date: '2026-11-12'
-対象: 12
-完了: 12
+date: '2026-11-13'
+対象: 810
+完了: 810
 失敗: []
 レーン:
-  資料: 0 / 12
-  識別: 1 / 12
+  資料: 0 / 766
+  識別: 1 / 810
 レーンの理由:
   資料: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
   識別: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
 取得元:
-  danbooru: 12 / 12
-  anilist: 12 / 12
-取得元の理由: {}
+  danbooru: 810 / 810
+  anilist: 766 / 810
+取得元の理由:
+  anilist: 'HTTP 404: https://graphql.anilist.co'
 失敗の理由: {}
