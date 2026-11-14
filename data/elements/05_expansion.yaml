@@ -1441,3 +1441,22 @@
   pairs_with: [heyagi, bukabuka, kodomo]
   contrasts_with: [gunpuku, seifuku]
   tags: [定番]
+
+# --- 57 巡目。ベールが 2 作品目に達した ---
+# veil が原神（ロサリア）とゴブリンスレイヤー（剣の乙女）から独立に報告に
+# 出た。逆引きでも原神・ブルーアーカイブ・ウマ娘・スターレイル・東方・
+# 崩壊3rd・FGO と作品が散っていて、2 作品どころではない。
+# 顔を覆うものには仮面があるが、仮面は素顔を隠して立場を作るもので、
+# ベールは透けるぶん隠しきらない。どちらを着せるかは独立に選べるので
+# 別の語にする。
+
+- id: beeru
+  name: ベール
+  kana: べーる
+  aliases: [ヴェール, 面紗]
+  axis: appearance.item
+  summary: 顔や髪を覆う薄い布。隠しているのに透けている。
+  effect: 隠しきらない状態のまま通させ、めくる所作は相手の手でやらせる。
+  pairs_with: [shisutaa, shoutai, reijou]
+  contrasts_with: [kamen]
+  tags: [定番]
