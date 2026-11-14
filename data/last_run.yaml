@@ -2,16 +2,45 @@
 # 日次の確認でここを読めば、どの件が落ちたか Actions のログを
 # 掘らずに分かる。tools/report.py run で整形して表示できる。
 
-date: '2026-11-13'
+date: '2026-11-14'
 対象: 12
-完了: 12
-失敗: []
+完了: 4
+失敗:
+- koizumi-mahiru
+- ikusaba-mukuro
+- kuroki-tomoko
+- toga-himiko
+- scaramouche-genshin
+- nahida-genshin
+- mona-genshin
+- hata-no-kokoro
 レーン:
-  資料: 12 / 12
-  識別: 12 / 12
-レーンの理由: {}
+  資料: 0 / 11
+  識別: 0 / 12
+レーンの理由:
+  資料: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
+  識別: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
 取得元:
-  danbooru: 12 / 12
-  anilist: 12 / 12
-取得元の理由: {}
-失敗の理由: {}
+  danbooru: 4 / 12
+  anilist: 11 / 12
+取得元の理由:
+  danbooru: 'HTTP 429: https://danbooru.donmai.us/related_tag.json?query=koizumi_mahiru+solo&category=General&limit=80／切り分け:
+    tags.json は応答します（作例 1277 件）。related_tag だけが落ちている'
+  anilist: 'HTTP 404: https://graphql.anilist.co'
+失敗の理由:
+  koizumi-mahiru: 'danbooru: HTTP 429: https://danbooru.donmai.us/related_tag.json?query=koizumi_mahiru+solo&category=General&limit=80／切り分け:
+    tags.json は応答します（作例 1277 件）。related_tag だけが落ちている'
+  ikusaba-mukuro: 'danbooru: HTTP 429: https://danbooru.donmai.us/related_tag.json?query=ikusaba_mukuro+solo&category=General&limit=80／切り分け:
+    tags.json は応答します（作例 1189 件）。related_tag だけが落ちている'
+  kuroki-tomoko: 'danbooru: HTTP 429: https://danbooru.donmai.us/related_tag.json?query=kuroki_tomoko+solo&category=General&limit=80／切り分け:
+    tags.json は応答します（作例 5003 件）。related_tag だけが落ちている'
+  toga-himiko: 'danbooru: HTTP 429: https://danbooru.donmai.us/related_tag.json?query=toga_himiko+solo&category=General&limit=80／切り分け:
+    tags.json は応答します（作例 3890 件）。related_tag だけが落ちている'
+  scaramouche-genshin: 'danbooru: HTTP 429: https://danbooru.donmai.us/related_tag.json?query=scaramouche_%28genshin_impact%29+solo&category=General&limit=80／切り分け:
+    tags.json は応答します（作例 28548 件）。related_tag だけが落ちている'
+  nahida-genshin: 'danbooru: HTTP 429: https://danbooru.donmai.us/related_tag.json?query=nahida_%28genshin_impact%29+solo&category=General&limit=80／切り分け:
+    tags.json は応答します（作例 13856 件）。related_tag だけが落ちている／anilist: HTTP 404: https://graphql.anilist.co'
+  mona-genshin: 'danbooru: HTTP 429: https://danbooru.donmai.us/related_tag.json?query=mona_%28genshin_impact%29+solo&category=General&limit=80／切り分け:
+    tags.json は応答します（作例 10060 件）。related_tag だけが落ちている'
+  hata-no-kokoro: 'danbooru: HTTP 429: https://danbooru.donmai.us/related_tag.json?query=hata_no_kokoro+solo&category=General&limit=80／切り分け:
+    tags.json は応答します（作例 8197 件）。related_tag だけが落ちている'

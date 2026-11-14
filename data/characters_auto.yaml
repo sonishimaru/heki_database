@@ -5720,6 +5720,26 @@
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 58%', src: danbooru}
   patterns: []
 
+- id: kabru
+  name: カブルー
+  kana: かぶるー
+  work: ダンジョン飯
+  year: 2014
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b135286-htqjXWhhjWSm.png'
+    page: 'https://anilist.co/character/135286'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-14'
+  elements:
+    - {id: kasshoku, weight: core, note: 'danbooru dark_skin 87%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 73%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 70%（共有 28% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 78%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kafka-honkai
   name: カフカ
   kana: かふか
@@ -6404,6 +6424,26 @@
     - {id: aome, weight: spice, note: 'danbooru blue_eyes 43%（共有 24% のため比重を下げた）', src: danbooru}
     - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 76%（共有 22% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 61%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: katou-asuka
+  name: 加藤明日香
+  kana: かとうあすか
+  work: '私がモテないのはどう考えてもお前らが悪い!'
+  year: 2011
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b144052-RHXluFqd1mhc.png'
+    page: 'https://anilist.co/character/144052'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-14'
+  elements:
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 42%', src: danbooru}
+    - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 55%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 40%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 90%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: katsuki-yuuri
@@ -9660,6 +9700,28 @@
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 53%', src: danbooru}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 74%（共有 28% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 52%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: mithrun
+  name: ミスルン
+  kana: みするん
+  work: ダンジョン飯
+  year: 2014
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b149833-nZ7ZMv8bHQon.png'
+    page: 'https://anilist.co/character/149833'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-14'
+  elements:
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 95%', src: danbooru}
+    - {id: kurome, weight: core, note: 'danbooru black_eyes 60%', src: danbooru}
+    - {id: kusekke, weight: core, note: 'danbooru wavy_hair 71%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru grey_hair 80%', src: danbooru}
+    - {id: kuma, weight: sub, note: 'danbooru bags_under_eyes 59%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 69%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: mitsui-hisashi
@@ -15290,6 +15352,27 @@
     date: '2026-11-13'
   elements:
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 100%（共有 19% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: tamura-yuri
+  name: 田村ゆり
+  kana: たむらゆり
+  work: '私がモテないのはどう考えてもお前らが悪い!'
+  year: 2011
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b127460-vmbn0ZE0osPQ.png'
+    page: 'https://anilist.co/character/127460'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-14'
+  elements:
+    - {id: twintail, weight: core, note: 'danbooru twintails 83%', src: danbooru}
+    - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 47%', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 40%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 50%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 50%（共有 28% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: tanaka-asuka

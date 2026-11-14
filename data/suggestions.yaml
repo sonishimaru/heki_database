@@ -4815,6 +4815,24 @@
     frequency: 0.1711
     threshold: 0.35
   new_tag_proposals: []
+- id: kabru
+  name: カブルー
+  date: '2026-11-14'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: curly_hair
+    frequency: 0.4667
+    threshold: 0.5
+  - id: kishi
+    tag: armor
+    frequency: 0.2444
+    threshold: 0.4
+  - id: yoroi
+    tag: armor
+    frequency: 0.2444
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kafka-honkai
   name: カフカ
   date: '2026-11-13'
@@ -5360,6 +5378,28 @@
     tag: flat_chest
     frequency: 0.194
     threshold: 0.5
+  new_tag_proposals: []
+- id: katou-asuka
+  name: 加藤明日香
+  date: '2026-11-14'
+  unmapped_danbooru: []
+  near_miss:
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.3319
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3319
+    threshold: 0.5
+  - id: pinku-gami
+    tag: pink_hair
+    frequency: 0.2059
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1555
+    threshold: 0.35
   new_tag_proposals: []
 - id: katsura-kotonoha
   name: 桂言葉
@@ -8278,6 +8318,42 @@
   - id: tsubasa
     tag: wings
     frequency: 0.1886
+    threshold: 0.35
+  new_tag_proposals: []
+- id: mithrun
+  name: ミスルン
+  date: '2026-11-14'
+  unmapped_danbooru:
+  - tag: notched_ear
+    frequency: 0.532
+  - tag: uneven_eyes
+    frequency: 0.3931
+  - tag: gorget
+    frequency: 0.3693
+  near_miss:
+  - id: gaitou
+    tag: cloak
+    frequency: 0.2431
+    threshold: 0.35
+  - id: haiiro-no-me
+    tag: grey_eyes
+    frequency: 0.2395
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.234
+    threshold: 0.35
+  - id: paakaa
+    tag: hood
+    frequency: 0.2139
+    threshold: 0.35
+  - id: chuuseiteki
+    tag: androgynous
+    frequency: 0.1609
+    threshold: 0.5
+  - id: mitsuami
+    tag: braid
+    frequency: 0.1572
     threshold: 0.35
   new_tag_proposals: []
 - id: mitsui-hisashi
