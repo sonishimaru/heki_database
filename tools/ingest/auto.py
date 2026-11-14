@@ -150,8 +150,23 @@ def select_targets(
 ) -> list[dict]:
     cutoff = time.strftime("%Y-%m-%d", time.localtime(time.time() - max_age_days * 86400))
     fresh, stale, lane_gap = [], [], []
+    no_id = []
     for entry in queue:
-        cid = entry.get("id") or common.slugify(entry.get("name", ""))
+        cid = entry.get("id")
+        if not cid:
+            cid = common.slugify(entry.get("name", ""))
+            if cid == "character":
+                # slugify は [a-z0-9] 以外を落とすので、日本語だけの名前は
+                # 全部消えて既定値の "character" になる。それを id として
+                # 使うと別人同士が同じ id を共有し、処理した順に上書きし
+                # 合って最後の 1 件しか残らない。しかも処理自体は成功する
+                # ので「完了 38 / 38 件」と出る。
+                # 57 巡目に id を省いた 37 名を入れてこれを踏んだ。34 名が
+                # 1 件の記録に潰れ、要約は 12/12・26/26 と報告していた。
+                # 数が合わないことに気付くまで、嘘の成功が 2 回通った。
+                # 当てずっぽうの id を作るより、落として名前を出す。
+                no_id.append(entry.get("name") or "(名前なし)")
+                continue
         entry["id"] = cid
         if only:
             if cid == only:
@@ -179,6 +194,10 @@ def select_targets(
         if backfill_gemini and wants_gemini and "gemini" not in (meta.get("method") or ""):
             entry["_reason"] = f"資料レーン未取得（前回 {last}）"
             lane_gap.append(entry)
+    if no_id:
+        print(f"::error::id を書いていないので処理できない件が {len(no_id)} 件あります。"
+              "data/queue.yaml で id を指定してください: " + "・".join(no_id),
+              file=sys.stderr)
     return fresh + stale + lane_gap
 
 

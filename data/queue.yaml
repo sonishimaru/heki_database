@@ -6222,259 +6222,296 @@ characters:
   # 外した。前者は楽曲企画の歌い手で物語上の役割が無く、後者は指輪の共起が
   # 0.004 しかない。
 
-  - name: フォン・ライカン
+  - id: von-lycaon
+    name: フォン・ライカン
     kana: ふぉんらいかん
     work: ゼンレスゾーンゼロ
     year: 2024
     danbooru: von_lycaon
     anilist: Von Lycaon
 
-  - name: ジョーカー
+  - id: jakob-fire-emblem
+    name: ジョーカー
     kana: じょーかー
     work: ファイアーエムブレムif
     year: 2015
     danbooru: jakob_(fire_emblem)
     anilist: Jakob
 
-  - name: 9S
+  - id: 9s
+    name: 9S
     kana: ないんえす
     work: NieR:Automata
     year: 2017
     danbooru: 9s_(nier:automata)
     anilist: 9S
 
-  - name: A2
+  - id: a2
+    name: A2
     kana: えーつー
     work: NieR:Automata
     year: 2017
     danbooru: a2_(nier:automata)
     anilist: A2
 
-  - name: 鏡流
+  - id: jingliu
+    name: 鏡流
     kana: きょうりゅう
     work: 崩壊：スターレイル
     year: 2023
     danbooru: jingliu_(honkai:_star_rail)
     anilist: Jingliu
 
-  - name: コロンビーナ
+  - id: columbina
+    name: コロンビーナ
     kana: ころんびーな
     work: 原神
     year: 2020
     danbooru: columbina_(genshin_impact)
     anilist: Columbina
 
-  - name: 天龍
+  - id: tenryuu-kancolle
+    name: 天龍
     kana: てんりゅう
     work: 艦隊これくしょん
     year: 2013
     danbooru: tenryuu_(kancolle)
     anilist: Tenryuu
 
-  - name: 姫野
+  - id: himeno-chainsaw-man
+    name: 姫野
     kana: ひめの
     work: チェンソーマン
     year: 2018
     danbooru: himeno_(chainsaw_man)
     anilist: Himeno
 
-  - name: ディミトリ・アレクサンドル・ブレーダッド
+  - id: dimitri-blaiddyd
+    name: ディミトリ・アレクサンドル・ブレーダッド
     kana: でぃみとりあれくさんどるぶれーだっど
     work: ファイアーエムブレム風花雪月
     year: 2019
     danbooru: dimitri_alexandre_blaiddyd
     anilist: Dimitri Alexandre Blaiddyd
 
-  - name: フィッシュル
+  - id: fischl
+    name: フィッシュル
     kana: ふぃっしゅる
     work: 原神
     year: 2020
     danbooru: fischl_(genshin_impact)
     anilist: Fischl
 
-  - name: ガイア
+  - id: kaeya
+    name: ガイア
     kana: がいあ
     work: 原神
     year: 2020
     danbooru: kaeya_(genshin_impact)
     anilist: Kaeya
 
-  - name: 北斗
+  - id: beidou
+    name: 北斗
     kana: ほくと
     work: 原神
     year: 2020
     danbooru: beidou_(genshin_impact)
     anilist: Beidou
 
-  - name: ディルック
+  - id: diluc
+    name: ディルック
     kana: でぃるっく
     work: 原神
     year: 2020
     danbooru: diluc_(genshin_impact)
     anilist: Diluc
 
-  - name: 坂本美緒
+  - id: sakamoto-mio
+    name: 坂本美緒
     kana: さかもとみお
     work: ストライクウィッチーズ
     year: 2008
     danbooru: sakamoto_mio
     anilist: Mio Sakamoto
 
-  - name: バイケン
+  - id: baiken
+    name: バイケン
     kana: ばいけん
     work: ギルティギア
     year: 1998
     danbooru: baiken
     anilist: Baiken
 
-  - name: クァンシ
+  - id: quanxi
+    name: クァンシ
     kana: くぁんし
     work: チェンソーマン
     year: 2018
     danbooru: quanxi_(chainsaw_man)
     anilist: Quanxi
 
-  - name: ギレーヌ・デドルディア
+  - id: ghislaine-dedoldia
+    name: ギレーヌ・デドルディア
     kana: ぎれーぬでどるでぃあ
     work: 無職転生
     year: 2014
     danbooru: ghislaine_dedoldia
     anilist: Ghislaine Dedoldia
 
-  - name: ニィロウ
+  - id: nilou
+    name: ニィロウ
     kana: にぃろう
     work: 原神
     year: 2020
     danbooru: nilou_(genshin_impact)
     anilist: Nilou
 
-  - name: ブラックスワン
+  - id: black-swan
+    name: ブラックスワン
     kana: ぶらっくすわん
     work: 崩壊：スターレイル
     year: 2023
     danbooru: black_swan_(honkai:_star_rail)
     anilist: Black Swan
 
-  - name: エリシア
+  - id: elysia
+    name: エリシア
     kana: えりしあ
     work: 崩壊3rd
     year: 2016
     danbooru: elysia_(honkai_impact)
     anilist: Elysia
 
-  - name: ネロ・クラウディウス
+  - id: nero-claudius
+    name: ネロ・クラウディウス
     kana: ねろくらうでぃうす
     work: Fate/EXTRA
     year: 2010
     danbooru: nero_claudius_(fate)
     anilist: Nero Claudius
 
-  - name: アクア
+  - id: azura-fire-emblem
+    name: アクア
     kana: あくあ
     work: ファイアーエムブレムif
     year: 2015
     danbooru: azura_(fire_emblem)
     anilist: Azura
 
-  - name: 黄泉
+  - id: acheron
+    name: 黄泉
     kana: よみ
     work: 崩壊：スターレイル
     year: 2023
     danbooru: acheron_(honkai:_star_rail)
     anilist: Acheron
 
-  - name: アベンチュリン
+  - id: aventurine
+    name: アベンチュリン
     kana: あべんちゅりん
     work: 崩壊：スターレイル
     year: 2023
     danbooru: aventurine_(honkai:_star_rail)
     anilist: Aventurine
 
-  - name: スレッタ・マーキュリー
+  - id: suletta-mercury
+    name: スレッタ・マーキュリー
     kana: すれったまーきゅりー
     work: 機動戦士ガンダム 水星の魔女
     year: 2022
     danbooru: suletta_mercury
     anilist: Suletta Mercury
 
-  - name: ミオリネ・レンブラン
+  - id: miorine-rembran
+    name: ミオリネ・レンブラン
     kana: みおりねれんぶらん
     work: 機動戦士ガンダム 水星の魔女
     year: 2022
     danbooru: miorine_rembran
     anilist: Miorine Rembran
 
-  - name: ケルシー
+  - id: kaltsit
+    name: ケルシー
     kana: けるしー
     work: アークナイツ
     year: 2019
     danbooru: kal'tsit_(arknights)
     anilist: Kal'tsit
 
-  - name: オモリ
+  - id: omori
+    name: オモリ
     kana: おもり
     work: OMORI
     year: 2020
     danbooru: omori_(omori)
     anilist: Omori
 
-  - name: 妃咲
+  - id: kisaki-blue-archive
+    name: 妃咲
     kana: きさき
     work: ブルーアーカイブ
     year: 2021
     danbooru: kisaki_(blue_archive)
     anilist: Kisaki
 
-  - name: トキ
+  - id: toki-blue-archive
+    name: トキ
     kana: とき
     work: ブルーアーカイブ
     year: 2021
     danbooru: toki_(blue_archive)
     anilist: Toki
 
-  - name: モルガン
+  - id: morgan-le-fay
+    name: モルガン
     kana: もるがん
     work: Fate/Grand Order
     year: 2015
     danbooru: morgan_le_fay_(fate)
     anilist: Morgan le Fay
 
-  - name: バーヴァン・シー
+  - id: baobhan-sith
+    name: バーヴァン・シー
     kana: ばーばんしー
     work: Fate/Grand Order
     year: 2015
     danbooru: baobhan_sith_(fate)
     anilist: Baobhan Sith
 
-  - name: 殺生院キアラ
+  - id: sessyoin-kiara
+    name: 殺生院キアラ
     kana: せっしょういんきあら
     work: Fate/EXTRA CCC
     year: 2013
     danbooru: sessyoin_kiara
     anilist: Kiara Sessyoin
 
-  - name: アルテラ
+  - id: altera
+    name: アルテラ
     kana: あるてら
     work: Fate/Grand Order
     year: 2015
     danbooru: altera_(fate)
     anilist: Altera
 
-  - name: コレダ・ベロボーグ
+  - id: koleda-belobog
+    name: コレダ・ベロボーグ
     kana: これだべろぼーぐ
     work: ゼンレスゾーンゼロ
     year: 2024
     danbooru: koleda_belobog
     anilist: Koleda Belobog
 
-  - name: ν -ノーティーン-
+  - id: nu-13
+    name: ν -ノーティーン-
     kana: にゅーのーてぃーん
     work: ブレイブルー
     year: 2008
     danbooru: nu-13
     anilist: Nu-13
 
-  - name: M16A1
+  - id: m16a1
+    name: M16A1
     kana: えむじゅうろくえーわん
     work: ドールズフロントライン
     year: 2016
