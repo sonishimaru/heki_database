@@ -16106,8 +16106,9 @@
   elements:
     - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 81%', src: danbooru}
     - {id: mekakushi, weight: core, note: 'danbooru blindfold 85%', src: danbooru}
+    - {id: beeru, weight: sub, note: 'danbooru veil 36%', src: danbooru}
     - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 93%（共有 15% のため比重を下げた）', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 99%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 99%（共有 42% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: tachibana-hibiki

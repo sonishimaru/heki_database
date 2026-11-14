@@ -14222,9 +14222,7 @@
 - id: sword-maiden
   name: 剣の乙女
   date: '2026-11-14'
-  unmapped_danbooru:
-  - tag: veil
-    frequency: 0.3594
+  unmapped_danbooru: []
   near_miss:
   - id: shisutaa
     tag: nun_headdress
