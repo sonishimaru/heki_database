@@ -3,6 +3,50 @@
 # このファイルは tools/ingest/auto.py が全体を書き直す。手で編集しないこと。
 # レビューして採用するときは、そのエントリを data/characters.yaml へ移して磨く。
 # 同じ id が characters.yaml にある場合、そちらが優先され、このファイル側は無視される。
+- id: 9s
+  name: 9S
+  kana: ないんえす
+  work: 'NieR:Automata'
+  year: 2017
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b133041-XkN8gKwPwopM.jpg'
+    page: 'https://anilist.co/character/133041'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-14'
+  elements:
+    - {id: mekakushi, weight: core, note: 'danbooru blindfold 74%', src: danbooru}
+    - {id: shirogami, weight: core, note: 'danbooru white_hair 62%', src: danbooru}
+    - {id: choker, weight: sub, note: 'danbooru choker 52%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 65%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 52%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: a2
+  name: A2
+  kana: えーつー
+  work: 'NieR:Automata'
+  year: 2017
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b138298-iGfSohqtJYsT.jpg'
+    page: 'https://anilist.co/character/138298'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-14'
+  elements:
+    - {id: shirogami, weight: core, note: 'danbooru white_hair 73%', src: danbooru}
+    - {id: buki, weight: sub, note: 'danbooru weapon 45%', src: danbooru}
+    - {id: jinzou, weight: sub, note: 'danbooru android 55%', src: danbooru}
+    - {id: namida-bokuro, weight: sub, note: 'danbooru mole_under_mouth 56%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 70%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 58%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 77%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: abarai-renji
   name: 阿散井恋次
   kana: あばらいれんじ
@@ -1835,6 +1879,29 @@
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 38%', src: danbooru}
     - {id: aome, weight: spice, note: 'danbooru blue_eyes 50%（共有 24% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 48%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: character
+  name: 北斗
+  kana: ほくと
+  work: 原神
+  year: 2020
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b212388-L07J15y5CbF2.jpg'
+    page: 'https://anilist.co/character/212388'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-14'
+  elements:
+    - {id: gantai, weight: core, note: 'danbooru eyepatch 83%', src: danbooru}
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 61%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 74%（共有 12% のため比重を下げた）', src: danbooru}
+    - {id: mekakure, weight: sub, note: 'danbooru hair_over_one_eye 46%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 50%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 68%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 86%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: chiaki-shinichi
