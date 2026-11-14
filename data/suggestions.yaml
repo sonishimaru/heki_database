@@ -1119,16 +1119,16 @@
   new_tag_proposals: []
 - id: ayanami-rei
   name: 綾波レイ
-  date: '2026-11-13'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.296
+    frequency: 0.2964
     threshold: 0.5
   - id: seifuku
     tag: school_uniform
-    frequency: 0.2006
+    frequency: 0.2004
     threshold: 0.3
   new_tag_proposals: []
 - id: ayanokouji-kiyotaka
@@ -1179,7 +1179,7 @@
   new_tag_proposals: []
 - id: ayase-chihaya
   name: 綾瀬千早
-  date: '2026-11-12'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: hakama
@@ -2117,7 +2117,7 @@
   new_tag_proposals: []
 - id: emilia
   name: エミリア
-  date: '2026-11-13'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -2126,7 +2126,7 @@
     threshold: 0.5
   - id: pattsun
     tag: blunt_bangs
-    frequency: 0.2131
+    frequency: 0.2128
     threshold: 0.4
   new_tag_proposals: []
 - id: emiya-kiritsugu
@@ -2751,7 +2751,7 @@
   new_tag_proposals: []
 - id: gasai-yuno
   name: 我妻由乃
-  date: '2026-11-13'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: twintail
@@ -4657,20 +4657,20 @@
   new_tag_proposals: []
 - id: ishigami-senku
   name: 石神千空
-  date: '2026-11-12'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.35
+    frequency: 0.3443
     threshold: 0.5
   - id: houtai
     tag: bandages
-    frequency: 0.275
+    frequency: 0.2869
     threshold: 0.35
   - id: tanpatsu
     tag: short_hair
-    frequency: 0.15
+    frequency: 0.1557
     threshold: 0.35
   new_tag_proposals: []
 - id: ishigami-yuu
@@ -4917,7 +4917,7 @@
   new_tag_proposals: []
 - id: jabami-yumeko
   name: 蛇喰夢子
-  date: '2026-11-12'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: yubiwa
@@ -5253,7 +5253,7 @@
   new_tag_proposals: []
 - id: kagura
   name: 神楽
-  date: '2026-11-13'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
@@ -5473,16 +5473,16 @@
   new_tag_proposals: []
 - id: kaname-madoka
   name: 鹿目まどか
-  date: '2026-11-13'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
     tag: frills
-    frequency: 0.2724
+    frequency: 0.2728
     threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.2674
+    frequency: 0.2672
     threshold: 0.35
   new_tag_proposals: []
 - id: kanbaru-suruga
@@ -5659,7 +5659,7 @@
   new_tag_proposals: []
 - id: katsura-kotonoha
   name: 桂言葉
-  date: '2026-11-12'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -6519,7 +6519,7 @@
   new_tag_proposals: []
 - id: koizumi-hanayo
   name: 小泉花陽
-  date: '2026-11-12'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: seifuku
@@ -6579,7 +6579,7 @@
   new_tag_proposals: []
 - id: komatsu-nana
   name: 小松奈々
-  date: '2026-11-12'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: piasu
@@ -7706,6 +7706,44 @@
   - name: datsugoku
     axis: 技能・行動
     reason: 何度捕まっても常に脱獄に成功しているという特筆すべき実績があるため。
+- id: m16a1
+  name: M16A1
+  date: '2026-11-14'
+  unmapped_danbooru: []
+  near_miss:
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.3258
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.2702
+    threshold: 0.35
+  - id: kinpatsu
+    tag: blonde_hair
+    frequency: 0.2503
+    threshold: 0.35
+  - id: kin-no-me
+    tag: yellow_eyes
+    frequency: 0.245
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2384
+    threshold: 0.35
+  - id: pattsun
+    tag: blunt_bangs
+    frequency: 0.2106
+    threshold: 0.4
+  - id: shirogami
+    tag: white_hair
+    frequency: 0.2026
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2013
+    threshold: 0.5
+  new_tag_proposals: []
 - id: maebara-keiichi
   name: 前原圭一
   date: '2026-11-12'
@@ -8658,12 +8696,12 @@
   new_tag_proposals: []
 - id: misaka-mikoto
   name: 御坂美琴
-  date: '2026-11-13'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.267
+    frequency: 0.2669
     threshold: 0.5
   new_tag_proposals: []
 - id: misaki-mei
@@ -9153,7 +9191,7 @@
   new_tag_proposals: []
 - id: mutou-yuugi
   name: 武藤遊戯
-  date: '2026-11-12'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: murasaki-gami
@@ -9201,17 +9239,17 @@
   new_tag_proposals: []
 - id: nagato-yuki
   name: 長門有希
-  date: '2026-11-13'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: megane
     tag: glasses
-    frequency: 0.2651
+    frequency: 0.2652
     threshold: 0.35
   new_tag_proposals: []
 - id: nagatoro-hayase
   name: 長瀞早瀬
-  date: '2026-11-13'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: yaeba
@@ -10650,7 +10688,7 @@
   new_tag_proposals: []
 - id: pinoko
   name: ピノコ
-  date: '2026-11-12'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: bob-cut
@@ -10721,20 +10759,20 @@
   new_tag_proposals: []
 - id: raiden-shogun
   name: 雷電将軍
-  date: '2026-11-12'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: pattsun
     tag: blunt_bangs
-    frequency: 0.321
+    frequency: 0.3212
     threshold: 0.4
   - id: buki
     tag: weapon
-    frequency: 0.2512
+    frequency: 0.2518
     threshold: 0.35
   - id: ponytail
     tag: low-tied_long_hair
-    frequency: 0.2408
+    frequency: 0.241
     threshold: 0.35
   - id: kishi
     tag: armor
@@ -10957,7 +10995,7 @@
   new_tag_proposals: []
 - id: rengoku-kyojuro
   name: 煉獄杏寿郎
-  date: '2026-11-13'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
@@ -11687,12 +11725,12 @@
   new_tag_proposals: []
 - id: sakura-kyouko
   name: 佐倉杏子
-  date: '2026-11-13'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: buki
     tag: weapon
-    frequency: 0.2771
+    frequency: 0.2773
     threshold: 0.35
   - id: yaeba
     tag: fang
@@ -11863,7 +11901,7 @@
   new_tag_proposals: []
 - id: sano-manjirou
   name: 佐野万次郎
-  date: '2026-11-12'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: sakotsu
@@ -12362,7 +12400,7 @@
   new_tag_proposals: []
 - id: shiina-mahiru
   name: 椎名真昼
-  date: '2026-11-12'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: chapatsu
@@ -12774,12 +12812,12 @@
   new_tag_proposals: []
 - id: shirai-kuroko
   name: 白井黒子
-  date: '2026-11-13'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.2456
+    frequency: 0.245
     threshold: 0.5
   new_tag_proposals: []
 - id: shirakami-fubuki
@@ -13285,7 +13323,7 @@
   new_tag_proposals: []
 - id: souma-kyou
   name: 草摩夾
-  date: '2026-11-12'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
@@ -13951,28 +13989,28 @@
   new_tag_proposals: []
 - id: tanya-degurechaff
   name: ターニャ・デグレチャフ
-  date: '2026-11-12'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.4315
+    frequency: 0.4286
     threshold: 0.5
   - id: ponytail
     tag: ponytail
-    frequency: 0.2934
+    frequency: 0.2918
     threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.2812
+    frequency: 0.2797
     threshold: 0.35
   - id: buki
     tag: weapon
-    frequency: 0.2592
+    frequency: 0.2579
     threshold: 0.35
   - id: tebukuro
     tag: gloves
-    frequency: 0.2518
+    frequency: 0.2506
     threshold: 0.35
   new_tag_proposals: []
 - id: tedeza-rize
@@ -14387,20 +14425,20 @@
   new_tag_proposals: []
 - id: tomoe-mami
   name: 巴マミ
-  date: '2026-11-13'
+  date: '2026-11-14'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.3572
+    frequency: 0.3568
     threshold: 0.5
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.3298
+    frequency: 0.33
     threshold: 0.35
   - id: buki
     tag: weapon
-    frequency: 0.3056
+    frequency: 0.3058
     threshold: 0.35
   new_tag_proposals: []
 - id: tony-tony-chopper

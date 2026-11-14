@@ -1345,7 +1345,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-13'
+    date: '2026-11-14'
   elements:
     - {id: aogami, weight: core, note: 'danbooru blue_hair 84%', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 80%（共有 12% のため比重を下げた）', src: danbooru}
@@ -1423,13 +1423,13 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-12'
+    date: '2026-11-14'
   elements:
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 62%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: ponytail, weight: sub, note: 'danbooru ponytail 46%', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 50%', src: danbooru}
-    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 79%（共有 22% のため比重を下げた）', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 62%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 79%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 62%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ayase-eli
@@ -2418,7 +2418,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-13'
+    date: '2026-11-14'
   elements:
     - {id: erufu, weight: core, note: 'danbooru pointy_ears 71%', src: danbooru}
     - {id: mitsuami, weight: core, note: 'danbooru braid 60%', src: danbooru}
@@ -3196,7 +3196,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-13'
+    date: '2026-11-14'
   elements:
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 90%', src: danbooru}
     - {id: momoiro-no-me, weight: sub, note: 'danbooru pink_eyes 53%', src: danbooru}
@@ -5426,11 +5426,11 @@
   summary: （要記入）
   analysis:
     method: danbooru+auto
-    date: '2026-11-12'
+    date: '2026-11-14'
   elements:
     - {id: messhu, weight: core, note: 'danbooru multicolored_hair 62%', src: danbooru}
-    - {id: akame, weight: sub, note: 'danbooru red_eyes 68%（共有 13% のため比重を下げた）', src: danbooru}
-    - {id: kokuin, weight: sub, note: 'danbooru facial_mark 42%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 67%（共有 12% のため比重を下げた）', src: danbooru}
+    - {id: kokuin, weight: sub, note: 'danbooru facial_mark 43%', src: danbooru}
     - {id: midorigami, weight: sub, note: 'danbooru green_hair 57%', src: danbooru}
     - {id: sakadachi-gami, weight: sub, note: 'danbooru spiked_hair 57%', src: danbooru}
     - {id: shirogami, weight: sub, note: 'danbooru white_hair 39%', src: danbooru}
@@ -5731,14 +5731,14 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-12'
+    date: '2026-11-14'
   elements:
-    - {id: akame, weight: sub, note: 'danbooru red_eyes 75%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 75%（共有 12% のため比重を下げた）', src: danbooru}
     - {id: hime-cut, weight: sub, note: 'danbooru hime_cut 55%', src: danbooru}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 52%', src: danbooru}
     - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 53%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 82%（共有 19% のため比重を下げた）', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 40% のため比重を下げた）', src: danbooru}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 88%（共有 28% のため比重を下げた）', src: danbooru}
   patterns: []
 
@@ -6138,12 +6138,12 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-13'
+    date: '2026-11-14'
   elements:
     - {id: akagami, weight: sub, note: 'danbooru orange_hair 46%', src: danbooru}
     - {id: chuukafuku, weight: sub, note: 'danbooru chinese_clothes 49%', src: danbooru}
     - {id: odango, weight: sub, note: 'danbooru hair_bun 57%', src: danbooru}
-    - {id: aome, weight: spice, note: 'danbooru blue_eyes 72%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 72%（共有 23% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 42%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
@@ -6447,7 +6447,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-13'
+    date: '2026-11-14'
   elements:
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 86%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 66%', src: danbooru}
@@ -6455,7 +6455,7 @@
     - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 47%', src: danbooru}
     - {id: momoiro-no-me, weight: sub, note: 'danbooru pink_eyes 51%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 54%', src: danbooru}
-    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 36%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 37%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kanbaru-suruga
@@ -6696,10 +6696,10 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-12'
+    date: '2026-11-14'
   elements:
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 47%', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 71%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 71%（共有 40% のため比重を下げた）', src: danbooru}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 46%（共有 28% のため比重を下げた）', src: danbooru}
   patterns: []
 
@@ -7618,10 +7618,10 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-12'
+    date: '2026-11-14'
   elements:
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 80%', src: danbooru}
-    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 86%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 86%（共有 21% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 84%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
@@ -7699,10 +7699,10 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-12'
+    date: '2026-11-14'
   elements:
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 53%', src: danbooru}
-    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 65%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 65%（共有 21% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: komeiji-koishi
@@ -8951,6 +8951,30 @@
     - {id: neko-o-kaburu, weight: sub, note: '資料: 相手の油断を誘う見せかけとして、無能な振る舞い（演技）をするため。', src: gemini}
   patterns: []
 
+- id: m16a1
+  name: M16A1
+  kana: えむじゅうろくえーわん
+  work: ドールズフロントライン
+  year: 2016
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b135782-1Zjpc21SX7Zk.jpg'
+    page: 'https://anilist.co/character/135782'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-14'
+  elements:
+    - {id: gantai, weight: core, note: 'danbooru eyepatch 85%', src: danbooru}
+    - {id: kizuato, weight: core, note: 'danbooru scar 62%', src: danbooru}
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 78%', src: danbooru}
+    - {id: mitsuami, weight: sub, note: 'danbooru braid 58%', src: danbooru}
+    - {id: namida-bokuro, weight: sub, note: 'danbooru mole_under_eye 52%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 37%', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 40%（共有 21% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 80%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: maebara-keiichi
   name: 前原圭一
   kana: まえばらけいいち
@@ -9966,12 +9990,12 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-13'
+    date: '2026-11-14'
   elements:
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 84%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 49%', src: danbooru}
     - {id: semi-long, weight: sub, note: 'danbooru medium_hair 40%', src: danbooru}
-    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 90%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 90%（共有 21% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 40%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
@@ -10526,7 +10550,7 @@
   summary: （要記入）
   analysis:
     method: danbooru+auto
-    date: '2026-11-12'
+    date: '2026-11-14'
   elements:
     - {id: messhu, weight: core, note: 'danbooru multicolored_hair 74%', src: danbooru}
     - {id: sakadachi-gami, weight: core, note: 'danbooru spiked_hair 68%', src: danbooru}
@@ -10588,7 +10612,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-13'
+    date: '2026-11-14'
   elements:
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 37%', src: danbooru}
     - {id: murasaki-gami, weight: sub, note: 'danbooru purple_hair 54%', src: danbooru}
@@ -10608,7 +10632,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-13'
+    date: '2026-11-14'
   elements:
     - {id: kasshoku, weight: core, note: 'danbooru tan 86%', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 70%（共有 16% のため比重を下げた）', src: danbooru}
@@ -12193,9 +12217,9 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-12'
+    date: '2026-11-14'
   elements:
-    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 59%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 59%（共有 21% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 86%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
@@ -12286,7 +12310,7 @@
   summary: （要記入）
   analysis:
     method: danbooru+auto
-    date: '2026-11-12'
+    date: '2026-11-14'
   elements:
     - {id: mitsuami, weight: core, note: 'danbooru braid 60%', src: danbooru}
     - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 89%', src: danbooru}
@@ -12294,7 +12318,7 @@
     - {id: namida-bokuro, weight: core, note: 'danbooru mole_under_eye 63%', src: danbooru}
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 58%', src: danbooru}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 58%', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 86%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 86%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ram-re-zero
@@ -12555,7 +12579,7 @@
   summary: （要記入）
   analysis:
     method: danbooru+auto
-    date: '2026-11-13'
+    date: '2026-11-14'
   elements:
     - {id: messhu, weight: core, note: 'danbooru multicolored_hair 84%', src: danbooru}
     - {id: akagami, weight: sub, note: 'danbooru red_hair 63%（共有 8% のため比重を下げた）', src: danbooru}
@@ -13385,7 +13409,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-13'
+    date: '2026-11-14'
   elements:
     - {id: akagami, weight: sub, note: 'danbooru red_hair 83%（共有 8% のため比重を下げた）', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 71%（共有 12% のため比重を下げた）', src: danbooru}
@@ -13578,7 +13602,7 @@
   summary: （要記入）
   analysis:
     method: danbooru+auto
-    date: '2026-11-12'
+    date: '2026-11-14'
   elements:
     - {id: kurome, weight: core, note: 'danbooru black_eyes 68%', src: danbooru}
     - {id: hikari-nashi, weight: sub, note: 'danbooru empty_eyes 46%', src: danbooru}
@@ -14173,13 +14197,13 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-12'
+    date: '2026-11-14'
   elements:
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 41%', src: danbooru}
     - {id: kin-no-me, weight: sub, note: 'danbooru yellow_eyes 45%', src: danbooru}
     - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 66%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 30%', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 91%（共有 39% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 91%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shiina-mayuri
@@ -14593,12 +14617,12 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-13'
+    date: '2026-11-14'
   elements:
-    - {id: twintail, weight: core, note: 'danbooru twintails 86%', src: danbooru}
+    - {id: twintail, weight: core, note: 'danbooru twintails 87%', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 68%（共有 16% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 60%（共有 19% のため比重を下げた）', src: danbooru}
-    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 84%（共有 22% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 84%（共有 21% のため比重を下げた）', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 68%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
@@ -15150,7 +15174,7 @@
   summary: （要記入）
   analysis:
     method: danbooru+auto
-    date: '2026-11-12'
+    date: '2026-11-14'
   elements:
     - {id: akagami, weight: sub, note: 'danbooru orange_hair 67%（共有 8% のため比重を下げた）', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 50%', src: danbooru}
@@ -15918,12 +15942,12 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-12'
+    date: '2026-11-14'
   elements:
-    - {id: ahoge, weight: sub, note: 'danbooru ahoge 46%', src: danbooru}
+    - {id: ahoge, weight: sub, note: 'danbooru ahoge 45%', src: danbooru}
     - {id: gunpuku, weight: sub, note: 'danbooru military_uniform 58%', src: danbooru}
     - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 85%（共有 15% のため比重を下げた）', src: danbooru}
-    - {id: aome, weight: spice, note: 'danbooru blue_eyes 65%（共有 24% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 65%（共有 23% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 39%（共有 40% のため比重を下げた）', src: danbooru}
   patterns: []
 
@@ -16396,7 +16420,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-13'
+    date: '2026-11-14'
   elements:
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 71%', src: danbooru}
     - {id: tate-rooru, weight: core, note: 'danbooru drill_hair 88%', src: danbooru}
