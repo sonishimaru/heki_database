@@ -11833,34 +11833,32 @@
   new_tag_proposals: []
 - id: rosaria-genshin
   name: ロサリア
-  date: '2026-11-13'
+  date: '2026-11-14'
   unmapped_danbooru:
   - tag: fishnets
-    frequency: 0.5823
+    frequency: 0.5816
   - tag: fishnet_pantyhose
-    frequency: 0.5112
-  - tag: veil
-    frequency: 0.3992
+    frequency: 0.5105
   near_miss:
   - id: kusekke
     tag: hair_between_eyes
-    frequency: 0.3597
+    frequency: 0.3592
     threshold: 0.5
   - id: mekakure
     tag: hair_over_one_eye
-    frequency: 0.3281
+    frequency: 0.3276
     threshold: 0.35
   - id: akame
     tag: red_eyes
-    frequency: 0.2964
+    frequency: 0.2961
     threshold: 0.35
   - id: oukan
     tag: tiara
-    frequency: 0.1871
+    frequency: 0.1868
     threshold: 0.35
   - id: buki
     tag: weapon
-    frequency: 0.1752
+    frequency: 0.175
     threshold: 0.35
   new_tag_proposals: []
 - id: roxy-migurdia

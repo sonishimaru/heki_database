@@ -3,18 +3,17 @@
 # 掘らずに分かる。tools/report.py run で整形して表示できる。
 
 date: '2026-11-14'
-対象: 21
-完了: 21
+対象: 1
+完了: 1
 失敗: []
 レーン:
-  資料: 0 / 19
-  識別: 0 / 21
+  資料: 0 / 1
+  識別: 0 / 1
 レーンの理由:
   資料: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
   識別: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
 取得元:
-  danbooru: 21 / 21
-  anilist: 19 / 21
-取得元の理由:
-  anilist: 'HTTP 404: https://graphql.anilist.co'
+  danbooru: 1 / 1
+  anilist: 1 / 1
+取得元の理由: {}
 失敗の理由: {}

@@ -13460,23 +13460,23 @@
     page: 'https://anilist.co/character/319048'
     credit: AniList
   analysis:
-    method: both+danbooru+gemini+knowledge+auto
-    model: 'gemini-pro-latest'
-    date: '2026-11-13'
+    method: danbooru+gemini+knowledge+auto
+    date: '2026-11-14'
   elements:
     - {id: ansatsusha, weight: core, note: '通説: モンドの平和を裏から守るため、夜な夜な汚れ仕事を引き受けている。', src: knowledge}
     - {id: kodomo, weight: core, note: '資料: 年齢は8歳であると明記されている。', src: gemini}
-    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 69% / 通説: 実装前後のモデル変更で胸のサイズが界隈を騒がせた。', src: both}
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 69%', src: danbooru}
     - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 63%', src: danbooru}
     - {id: reijou, weight: core, note: '資料: 本名が「Rosaria von Valencia」であり、名前に貴族を示す「von」が含まれていることから推測。', src: gemini}
-    - {id: shisutaa, weight: core, note: 'danbooru nun 66% / 通説: 西風教会のシスターだが、祈りも仕事もサボる不良シスター。', src: both}
+    - {id: shisutaa, weight: core, note: 'danbooru nun 66%', src: danbooru}
     - {id: akagami, weight: sub, note: 'danbooru red_hair 57%', src: danbooru}
+    - {id: beeru, weight: sub, note: 'danbooru veil 40%', src: danbooru}
     - {id: gouri, weight: sub, note: '通説: 無駄を極端に嫌い、どんな状況でも定時退社を貫く。', src: knowledge}
     - {id: kuma, weight: sub, note: '通説: 夜の裏仕事のせいか、目の下に濃い隈ができている。', src: knowledge}
     - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 46%', src: danbooru}
     - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 42%', src: danbooru}
-    - {id: tebukuro, weight: sub, note: 'danbooru gloves 65%（共有 13% のため比重を下げた）', src: danbooru}
-    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 51%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 65%（共有 14% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 51%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: roxy-migurdia
