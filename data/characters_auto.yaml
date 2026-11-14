@@ -1418,8 +1418,8 @@
     date: '2026-11-14'
   elements:
     - {id: aogami, weight: core, note: 'danbooru blue_hair 84%', src: danbooru}
-    - {id: akame, weight: sub, note: 'danbooru red_eyes 80%（共有 12% のため比重を下げた）', src: danbooru}
-    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 79%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 80%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 79%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: ayanokouji-kiyotaka
@@ -2674,7 +2674,7 @@
     - {id: mitsuami, weight: core, note: 'danbooru braid 60%', src: danbooru}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 87%', src: danbooru}
     - {id: shirogami, weight: sub, note: 'danbooru white_hair 54%', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 42% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: emiya-kiritsugu
@@ -3474,7 +3474,7 @@
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 90%', src: danbooru}
     - {id: momoiro-no-me, weight: sub, note: 'danbooru pink_eyes 53%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 38%', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 80%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 80%（共有 42% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: gawr-gura
@@ -6533,7 +6533,7 @@
     - {id: chuukafuku, weight: sub, note: 'danbooru chinese_clothes 49%', src: danbooru}
     - {id: odango, weight: sub, note: 'danbooru hair_bun 57%', src: danbooru}
     - {id: aome, weight: spice, note: 'danbooru blue_eyes 72%（共有 23% のため比重を下げた）', src: danbooru}
-    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 42%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 42%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kagurazaka-asuna
@@ -6864,7 +6864,7 @@
     - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 47%', src: danbooru}
     - {id: momoiro-no-me, weight: sub, note: 'danbooru pink_eyes 51%', src: danbooru}
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 54%', src: danbooru}
-    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 37%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 37%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kanbaru-suruga
@@ -10467,11 +10467,11 @@
     method: danbooru+auto
     date: '2026-11-14'
   elements:
-    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 84%（共有 16% のため比重を下げた）', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 84%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 49%', src: danbooru}
     - {id: semi-long, weight: sub, note: 'danbooru medium_hair 40%', src: danbooru}
-    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 90%（共有 21% のため比重を下げた）', src: danbooru}
-    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 40%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 90%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 40%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: misaki-mei
@@ -11113,8 +11113,8 @@
   elements:
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 37%', src: danbooru}
     - {id: murasaki-gami, weight: sub, note: 'danbooru purple_hair 54%', src: danbooru}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 66%（共有 19% のため比重を下げた）', src: danbooru}
-    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 90%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 66%（共有 18% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 90%（共有 39% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nagatoro-hayase
@@ -11132,9 +11132,9 @@
     date: '2026-11-14'
   elements:
     - {id: kasshoku, weight: core, note: 'danbooru tan 86%', src: danbooru}
-    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 70%（共有 16% のため比重を下げた）', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 40% のため比重を下げた）', src: danbooru}
-    - {id: kurokami, weight: spice, note: 'danbooru black_hair 84%（共有 28% のため比重を下げた）', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 70%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 42% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 84%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nagisa-kaworu
@@ -13186,7 +13186,7 @@
     - {id: buki, weight: sub, note: 'danbooru weapon 50%', src: danbooru}
     - {id: gaitou, weight: sub, note: 'danbooru cape 43%', src: danbooru}
     - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 78%（共有 15% のため比重を下げた）', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 62%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 62%（共有 42% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: renton-thurston
@@ -14034,10 +14034,10 @@
     date: '2026-11-14'
   elements:
     - {id: akagami, weight: sub, note: 'danbooru red_hair 83%（共有 8% のため比重を下げた）', src: danbooru}
-    - {id: akame, weight: sub, note: 'danbooru red_eyes 71%（共有 12% のため比重を下げた）', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 71%（共有 13% のため比重を下げた）', src: danbooru}
     - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 38%', src: danbooru}
-    - {id: ponytail, weight: sub, note: 'danbooru ponytail 69%（共有 8% のため比重を下げた）', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 94%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 69%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 94%（共有 42% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: sakura-miko
@@ -15266,10 +15266,10 @@
     date: '2026-11-14'
   elements:
     - {id: twintail, weight: core, note: 'danbooru twintails 87%', src: danbooru}
-    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 68%（共有 16% のため比重を下げた）', src: danbooru}
-    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 60%（共有 19% のため比重を下げた）', src: danbooru}
-    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 84%（共有 21% のため比重を下げた）', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 68%（共有 40% のため比重を下げた）', src: danbooru}
+    - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 68%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: seifuku, weight: sub, note: 'danbooru school_uniform 60%（共有 18% のため比重を下げた）', src: danbooru}
+    - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 84%（共有 20% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 68%（共有 42% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shirakami-fubuki
