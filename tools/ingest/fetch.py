@@ -59,18 +59,41 @@ query ($search: String) {
 """
 
 
+# 429（Too Many Requests）は「落ちている」ではなく「速すぎる」なので、
+# 待って同じ要求をやり直す。2026-11-14 の巡回で 12 件のうち 8 件がこれで
+# 落ちた。related_tag は重い集計で、tags.json は同時に応答していたから、
+# この経路だけに絞りが掛かっていた。間隔 2 秒で何ヶ月も通っていたのに
+# 急に出たので、前日に 811 件の取り直しと逆引きを続けて回したことで
+# 枠を使い切ったのだと思う。
+RETRY_STATUS = {429, 502, 503, 504}
+RETRY_WAITS = (15, 45, 90)
+
+
 def http(url: str, data: bytes | None = None, content_type: str | None = None) -> bytes:
     headers = {"User-Agent": UA}
     if content_type:
         headers["Content-Type"] = content_type
-    request = urllib.request.Request(url, data=data, headers=headers)
-    try:
-        with urllib.request.urlopen(request, timeout=60) as response:
-            return response.read()
-    except urllib.error.HTTPError as err:
-        raise SystemExit(f"HTTP {err.code}: {url}\n{err.read().decode('utf-8', 'replace')[:300]}")
-    except urllib.error.URLError as err:
-        raise SystemExit(f"接続できません: {url}（{err.reason}）ネットワーク制限のある環境では手元のマシンで実行してください。")
+    last = ""
+    for attempt, wait in enumerate((*RETRY_WAITS, None)):
+        request = urllib.request.Request(url, data=data, headers=headers)
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response:
+                return response.read()
+        except urllib.error.HTTPError as err:
+            body = err.read().decode("utf-8", "replace")[:300]
+            last = f"HTTP {err.code}: {url}\n{body}"
+            if err.code not in RETRY_STATUS or wait is None:
+                raise SystemExit(last)
+            # Retry-After が来ていればそれに従う。無ければ段階的に待つ。
+            try:
+                wait = max(wait, int(err.headers.get("Retry-After", 0)))
+            except (TypeError, ValueError):
+                pass
+            print(f"  HTTP {err.code}。{wait} 秒待って {attempt + 2} 回目を試します", file=sys.stderr)
+            time.sleep(wait)
+        except urllib.error.URLError as err:
+            raise SystemExit(f"接続できません: {url}（{err.reason}）ネットワーク制限のある環境では手元のマシンで実行してください。")
+    raise SystemExit(last)
 
 
 def save(path: Path, text: str) -> None:
@@ -268,6 +291,12 @@ def cmd_danbooru(args) -> int:
         raw = json.loads(http(url))
     except SystemExit as err:
         head = str(err).splitlines()[0]
+        # 429 のときは切り分けを撃たない。原因は「速すぎる」と分かっている
+        # のに、失敗ごとに追加の問い合わせを出すと制限をさらに悪くする。
+        # 実際 2026-11-14 は 8 件の失敗それぞれに tags.json を 1 回ずつ
+        # 足していて、自分で傷を広げていた。
+        if "HTTP 429" in head:
+            raise SystemExit(head)
         # auto.py の reason_of は stderr の 1 行目しか要約に残さない。
         # 切り分けを改行で足すと last_run.yaml から落ちるので同じ行に置く。
         raise SystemExit(f"{head}／切り分け: {api_alive(tag, args.sleep)}")
