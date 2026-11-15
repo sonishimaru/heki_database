@@ -6517,3 +6517,338 @@ characters:
     year: 2016
     danbooru: m16a1_(girls'_frontline)
     anilist: M16A1
+
+  # --- 33期目。狙いを「私が追っていた 10 軸」から「辞書全体の実例数」へ
+  # 変えた。Danbooru で引ける見出し語 133 語を実例の少ない順に並べたら、
+  # 3 件以下が 34 語あり、31期目・32期目で狙った 10 軸はその一部に過ぎな
+  # かった。58巡目の時点で「逆引きで直せる穴は尽きた」と書いたのは、
+  # 自分が追っていた分だけを見ていたせい。
+  #
+  # 目の形の 3 語（つり目 0・たれ目 1・ジト目 1）はもう逆引きでも直らない
+  # ことが分かっている。31期目で tsurime を逆引きしたのに 0 のままだった
+  # ので、最も関連の強い人物でも閾値に届かないという実験結果が出ている。
+  # 部屋着も閾値 0.5 のまま逆引きの最大が 0.030 で、衣装差分のタグ
+  # （hina_(pajamas)_(blue_archive) など）しか上位に来ない。和泉紗霧は
+  # 既にキューに居るので、これ以上入れても動かない。
+  #
+  # lookup.yml に渡したのは gyaru randoseru robe drill_hair angel_wings
+  # hand_fan lipstick oversized_clothes pale_skin pajamas black_sclera
+  # ainu_clothes の 12 語。民族衣装が当たりで、神威 0.269・アシㇼパ 0.188・
+  # シトナイ 0.093・ナコルル 0.089 と上位が濃い。化粧は最大 0.012 しか
+  # なく、逆引きでも薄い。
+  #
+  # 候補 54 名から既存 14 名を除いて 40 名。うち七七（原神）は日本語の
+  # 読みに確信が持てないので外した。id は全件自分で書いている（58巡目の
+  # 潰れを繰り返さないため）。
+
+  - id: kanna-kamui
+    name: カンナカムイ
+    kana: かんなかむい
+    work: 小林さんちのメイドラゴン
+    year: 2013
+    danbooru: kanna_kamui
+    anilist: Kanna Kamui
+
+  - id: wei-wuxian
+    name: 魏無羨
+    kana: ぎむせん
+    work: 魔道祖師
+    year: 2015
+    danbooru: wei_wuxian
+    anilist: Wei Wuxian
+
+  - id: lan-wangji
+    name: 藍忘機
+    kana: らんぼうき
+    work: 魔道祖師
+    year: 2015
+    danbooru: lan_wangji
+    anilist: Lan Wangji
+
+  - id: enkidu
+    name: エルキドゥ
+    kana: えるきどぅ
+    work: Fate/strange Fake
+    year: 2015
+    danbooru: enkidu_(fate)
+    anilist: Enkidu
+
+  - id: harry-potter
+    name: ハリー・ポッター
+    kana: はりーぽったー
+    work: ハリー・ポッター
+    year: 1997
+    danbooru: harry_potter
+    anilist: Harry Potter
+
+  - id: elaina
+    name: イレイナ
+    kana: いれいな
+    work: 魔女の旅々
+    year: 2016
+    danbooru: elaina_(majo_no_tabitabi)
+    anilist: Elaina
+
+  - id: anchovy
+    name: アンチョビ
+    kana: あんちょび
+    work: ガールズ&パンツァー
+    year: 2012
+    danbooru: anchovy_(girls_und_panzer)
+    anilist: Anchovy
+
+  - id: kanzaki-ranko
+    name: 神崎蘭子
+    kana: かんざきらんこ
+    work: アイドルマスター シンデレラガールズ
+    year: 2011
+    danbooru: kanzaki_ranko
+    anilist: Ranko Kanzaki
+
+  - id: celestia-ludenberg
+    name: セレスティア・ルーデンベルク
+    kana: せれすてぃあるーでんべるく
+    work: ダンガンロンパ
+    year: 2010
+    danbooru: celestia_ludenberg
+    anilist: Celestia Ludenberg
+
+  - id: kasane-teto
+    name: 重音テト
+    kana: かさねてと
+    work: UTAU
+    year: 2008
+    danbooru: kasane_teto
+    anilist: Kasane Teto
+
+  - id: wakasagihime
+    name: わかさぎ姫
+    kana: わかさぎひめ
+    work: 東方Project
+    year: 2013
+    danbooru: wakasagihime
+    anilist: Wakasagihime
+
+  - id: mika-blue-archive
+    name: ミカ
+    kana: みか
+    work: ブルーアーカイブ
+    year: 2021
+    danbooru: mika_(blue_archive)
+    anilist: Mika
+
+  - id: angel-devil
+    name: 天使の悪魔
+    kana: てんしのあくま
+    work: チェンソーマン
+    year: 2018
+    danbooru: angel_devil_(chainsaw_man)
+    anilist: Angel Devil
+
+  - id: pit-kid-icarus
+    name: ピット
+    kana: ぴっと
+    work: 光神話 パルテナの鏡
+    year: 1986
+    danbooru: pit_(kid_icarus)
+    anilist: Pit
+
+  - id: dizzy-guilty-gear
+    name: ディズィー
+    kana: でぃずぃー
+    work: ギルティギア
+    year: 2000
+    danbooru: dizzy_(guilty_gear)
+    anilist: Dizzy
+
+  - id: jibril
+    name: ジブリール
+    kana: じぶりーる
+    work: ノーゲーム・ノーライフ
+    year: 2012
+    danbooru: jibril_(no_game_no_life)
+    anilist: Jibril
+
+  - id: amane-kanata
+    name: 天音かなた
+    kana: あまねかなた
+    work: ホロライブ
+    year: 2019
+    danbooru: amane_kanata
+    anilist: Amane Kanata
+
+  - id: kamisato-ayaka
+    name: 神里綾華
+    kana: かみさとあやか
+    work: 原神
+    year: 2020
+    danbooru: kamisato_ayaka
+    anilist: Kamisato Ayaka
+
+  - id: shiver-splatoon
+    name: フウカ
+    kana: ふうか
+    work: スプラトゥーン3
+    year: 2022
+    danbooru: shiver_(splatoon)
+    anilist: Shiver
+
+  - id: yakumo-ran
+    name: 八雲藍
+    kana: やくもらん
+    work: 東方Project
+    year: 2002
+    danbooru: yakumo_ran
+    anilist: Ran Yakumo
+
+  - id: kujo-jolyne
+    name: 空条徐倫
+    kana: くうじょうじょりーん
+    work: ジョジョの奇妙な冒険
+    year: 1999
+    danbooru: kujo_jolyne
+    anilist: Jolyne Cujoh
+
+  - id: bayonetta
+    name: ベヨネッタ
+    kana: べよねった
+    work: ベヨネッタ
+    year: 2009
+    danbooru: bayonetta
+    anilist: Bayonetta
+
+  - id: urbosa
+    name: ウルボザ
+    kana: うるぼざ
+    work: ゼルダの伝説 ブレス オブ ザ ワイルド
+    year: 2017
+    danbooru: urbosa
+    anilist: Urbosa
+
+  - id: iono
+    name: ナンジャモ
+    kana: なんじゃも
+    work: ポケットモンスター スカーレット・バイオレット
+    year: 2022
+    danbooru: iono_(pokemon)
+    anilist: Iono
+
+  - id: oyama-mahiro
+    name: 緒山まひろ
+    kana: おやままひろ
+    work: お兄ちゃんはおしまい!
+    year: 2017
+    danbooru: oyama_mahiro
+    anilist: Mahiro Oyama
+
+  - id: hanako-blue-archive
+    name: ハナコ
+    kana: はなこ
+    work: ブルーアーカイブ
+    year: 2021
+    danbooru: hanako_(blue_archive)
+    anilist: Hanako
+
+  - id: nanashi-mumei
+    name: 七詩ムメイ
+    kana: ななしむめい
+    work: ホロライブ
+    year: 2021
+    danbooru: nanashi_mumei
+    anilist: Nanashi Mumei
+
+  - id: abigail-williams
+    name: アビゲイル・ウィリアムズ
+    kana: あびげいるうぃりあむず
+    work: Fate/Grand Order
+    year: 2017
+    danbooru: abigail_williams_(fate)
+    anilist: Abigail Williams
+
+  - id: sucy-manbavaran
+    name: スーシィ・マンバヴァラン
+    kana: すーしぃまんばばらん
+    work: リトルウィッチアカデミア
+    year: 2013
+    danbooru: sucy_manbavaran
+    anilist: Sucy Manbavaran
+
+  - id: oshino-ougi
+    name: 忍野扇
+    kana: おしのおうぎ
+    work: 物語シリーズ
+    year: 2010
+    danbooru: oshino_ougi
+    anilist: Ougi Oshino
+
+  - id: karna
+    name: カルナ
+    kana: かるな
+    work: Fate/Apocrypha
+    year: 2012
+    danbooru: karna_(fate)
+    anilist: Karna
+
+  - id: ashido-mina
+    name: 芦戸三奈
+    kana: あしどみな
+    work: 僕のヒーローアカデミア
+    year: 2014
+    danbooru: ashido_mina
+    anilist: Mina Ashido
+
+  - id: android-21
+    name: 人造人間21号
+    kana: じんぞうにんげんにじゅういちごう
+    work: ドラゴンボール ファイターズ
+    year: 2018
+    danbooru: android_21
+    anilist: Android 21
+
+  - id: kamoi-kancolle
+    name: 神威
+    kana: かもい
+    work: 艦隊これくしょん
+    year: 2013
+    danbooru: kamoi_(kancolle)
+    anilist: Kamoi
+
+  - id: nakoruru
+    name: ナコルル
+    kana: なこるる
+    work: サムライスピリッツ
+    year: 1993
+    danbooru: nakoruru
+    anilist: Nakoruru
+
+  - id: eruruu
+    name: エルルゥ
+    kana: えるるぅ
+    work: うたわれるもの
+    year: 2002
+    danbooru: eruruu
+    anilist: Eruruw
+
+  - id: sitonai
+    name: シトナイ
+    kana: しとない
+    work: Fate/Grand Order
+    year: 2015
+    danbooru: sitonai_(fate)
+    anilist: Sitonai
+
+  - id: jougasaki-mika
+    name: 城ヶ崎美嘉
+    kana: じょうがさきみか
+    work: アイドルマスター シンデレラガールズ
+    year: 2011
+    danbooru: jougasaki_mika
+    anilist: Mika Jougasaki
+
+  - id: miyashita-ai
+    name: 宮下愛
+    kana: みやしたあい
+    work: ラブライブ!虹ヶ咲学園スクールアイドル同好会
+    year: 2017
+    danbooru: miyashita_ai
+    anilist: Ai Miyashita
