@@ -159,7 +159,7 @@ elements:
     tags: [frills, frilled_dress, lolita_fashion, gothic_lolita, layered_dress]
   gaitou:
     tags: [cape, cloak, coat, long_coat, hooded_cloak, hooded_coat, trench_coat, white_cape,
-        red_coat]
+        red_coat, blue_cape]
 
   # --- 小物 ---
   megane:
@@ -224,7 +224,7 @@ elements:
   mitsuami:
     tags: [braid, single_braid, twin_braids, french_braid, braided_ponytail, crown_braid, multiple_braids, half_up_braid, side_braid]
   odango:
-    tags: [hair_bun, double_bun, single_hair_bun, bun_cover, cone_hair_bun]
+    tags: [hair_bun, double_bun, single_hair_bun, bun_cover, cone_hair_bun, single_side_bun]
 
   # --- 体格（追加） ---
   kasshoku:
@@ -353,7 +353,8 @@ elements:
   tate-rooru:
     tags: [drill_hair, twin_drills, quad_drills]
   tsubasa:
-    tags: [wings, bat_wings, angel_wings, feathered_wings, demon_wings, black_wings, low_wings]
+    tags: [wings, bat_wings, angel_wings, feathered_wings, demon_wings, black_wings, low_wings,
+        white_wings]
   piasu:
     tags: [piercing, ear_piercing, earrings, single_earring, snake_earrings, face_piercing]
     threshold: 0.5
@@ -420,7 +421,7 @@ elements:
 
   # --- 18 巡目に昇格した語 ---
   juujin:
-    tags: [furry, furry_female, furry_male, anthro]
+    tags: [furry, furry_female, furry_male, anthro, body_fur]
     threshold: 0.5
     note: 獣耳だけの絵にも付くことがあるので閾値を上げている
   kuroi-shiberne:
@@ -459,3 +460,20 @@ elements:
     tags: [veil]
     note: 逆引きで確かめられたのは veil だけ。bridal_veil などの派生は
       Danbooru に実在するか確認できていないので入れていない
+
+# 61 巡目。未対応タグの報告 274 種類を見たが、新しい見出し語に値するものは
+# 無かった。2 作品以上に達したのは 16 種類で、そのうち 4 種類は既にある
+# 見出し語にタグの綴りが足りていないだけだった。
+#   white_wings → 翼（天使の悪魔 0.65・ジブリール 0.70・ミカ 0.73・
+#     コロンビーナ 0.37。angel_wings と black_wings は入れていたのに
+#     白い翼の綴りだけ抜けていた）
+#   body_fur → 獣人（しずえ 0.35・フォン・ライカン 0.53）
+#   single_side_bun → お団子（ミカ 0.57・由比ヶ浜結衣 0.48。double_bun と
+#     single_hair_bun は入っていた）
+#   blue_cape → コート・マント（ディミトリ 0.47・力石徹 0.50。white_cape と
+#     red_coat は入っていたので色の綴りを足す前例はある）
+# one_eye_covered（北斗 0.36・ディミトリ 0.41・京楽春水 0.39）は入れない。
+# 北斗とディミトリは既に眼帯が付いていて、北斗は目隠れも付いている。
+# 同じ事実を 3 つの見出し語で数えることになる。
+# fur-trimmed_jacket（ギレーヌ 0.47・スコール 0.45）も入れない。
+# gaitou は外套の軸で、ファー付きの上着は外套とは限らない。

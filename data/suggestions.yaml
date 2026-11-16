@@ -4,8 +4,7 @@
 #   data/elements/ に追加し、wd_map.yaml に対応を書く。
 # new_tag_proposals: classify が語彙に無いと判断した概念の提案。
 # near_miss: 対応はあるが閾値に届かなかったもの（実測値）。閾値を勘で
-#   動かさないための材料。tools/report.py が集計する。
-# 採用・却下は人が決める。処理済みのエントリは消してよい。
+
 - id: 9s
   name: 9S
   date: '2026-11-14'
@@ -1952,34 +1951,6 @@
     tag: mask
     frequency: 0.2059
     threshold: 0.4
-  new_tag_proposals: []
-- id: character
-  name: 北斗
-  date: '2026-11-14'
-  unmapped_danbooru:
-  - tag: hair_stick
-    frequency: 0.4725
-  - tag: one_eye_covered
-    frequency: 0.3571
-  - tag: colored_eyepatch
-    frequency: 0.3544
-  near_miss:
-  - id: piasu
-    tag: earrings
-    frequency: 0.3805
-    threshold: 0.5
-  - id: chuukafuku
-    tag: chinese_clothes
-    frequency: 0.2679
-    threshold: 0.35
-  - id: kurokami
-    tag: black_hair
-    frequency: 0.2335
-    threshold: 0.35
-  - id: buki
-    tag: weapon
-    frequency: 0.1607
-    threshold: 0.35
   new_tag_proposals: []
 - id: chiaki-shinichi
   name: 千秋真一
