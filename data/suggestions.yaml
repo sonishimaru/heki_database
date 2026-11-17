@@ -4,7 +4,8 @@
 #   data/elements/ に追加し、wd_map.yaml に対応を書く。
 # new_tag_proposals: classify が語彙に無いと判断した概念の提案。
 # near_miss: 対応はあるが閾値に届かなかったもの（実測値）。閾値を勘で
-
+#   動かさないための材料。tools/report.py が集計する。
+# 採用・却下は人が決める。処理済みのエントリは消してよい。
 - id: 9s
   name: 9S
   date: '2026-11-14'
@@ -69,6 +70,22 @@
   - id: hakama
     tag: hakama
     frequency: 0.1528
+    threshold: 0.35
+  new_tag_proposals: []
+- id: abigail-williams
+  name: アビゲイル・ウィリアムズ
+  date: '2026-11-17'
+  unmapped_danbooru:
+  - tag: orange_bow
+    frequency: 0.6828
+  near_miss:
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.3586
+    threshold: 0.5
+  - id: odango
+    tag: hair_bun
+    frequency: 0.1944
     threshold: 0.35
   new_tag_proposals: []
 - id: accelerator
@@ -806,6 +823,54 @@
     frequency: 0.2157
     threshold: 0.35
   new_tag_proposals: []
+- id: android-21
+  name: 人造人間21号
+  date: '2026-11-17'
+  unmapped_danbooru:
+  - tag: pink_skin
+    frequency: 0.3884
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4503
+    threshold: 0.5
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3806
+    threshold: 0.5
+  - id: akame
+    tag: red_eyes
+    frequency: 0.3297
+    threshold: 0.35
+  - id: erufu
+    tag: pointy_ears
+    frequency: 0.3
+    threshold: 0.35
+  - id: shirogami
+    tag: white_hair
+    frequency: 0.2813
+    threshold: 0.35
+  - id: kuroi-shiberne
+    tag: colored_sclera
+    frequency: 0.2748
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.251
+    threshold: 0.35
+  - id: akagami
+    tag: red_hair
+    frequency: 0.2258
+    threshold: 0.35
+  - id: hakui
+    tag: lab_coat
+    frequency: 0.1858
+    threshold: 0.35
+  - id: bukabuka
+    tag: sleeves_past_wrists
+    frequency: 0.1671
+    threshold: 0.35
+  new_tag_proposals: []
 - id: angel-devil
   name: 天使の悪魔
   date: '2026-11-15'
@@ -1119,6 +1184,26 @@
     tag: blue_eyes
     frequency: 0.1948
     threshold: 0.35
+  new_tag_proposals: []
+- id: ashido-mina
+  name: 芦戸三奈
+  date: '2026-11-17'
+  unmapped_danbooru:
+  - tag: pink_skin
+    frequency: 0.9187
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.4578
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1679
+    threshold: 0.35
+  - id: kusekke
+    tag: messy_hair
+    frequency: 0.1519
+    threshold: 0.5
   new_tag_proposals: []
 - id: asirpa
   name: アシリパ
@@ -2652,6 +2737,22 @@
     frequency: 0.1741
     threshold: 0.35
   new_tag_proposals: []
+- id: eruruu
+  name: エルルゥ
+  date: '2026-11-17'
+  unmapped_danbooru:
+  - tag: layered_sleeves
+    frequency: 0.4279
+  near_miss:
+  - id: minzoku-ishou
+    tag: ainu_clothes
+    frequency: 0.2703
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.1622
+    threshold: 0.35
+  new_tag_proposals: []
 - id: eureka
   name: エウレカ
   date: '2026-11-12'
@@ -3619,6 +3720,16 @@
     tag: black_hair
     frequency: 0.2
     threshold: 0.35
+  new_tag_proposals: []
+- id: hanako-blue-archive
+  name: ハナコ
+  date: '2026-11-17'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3832
+    threshold: 0.5
   new_tag_proposals: []
 - id: hanamoto-hagumi
   name: 花本はぐみ
@@ -6166,6 +6277,28 @@
     frequency: 0.1765
     threshold: 0.35
   new_tag_proposals: []
+- id: kamoi-kancolle
+  name: 神威
+  date: '2026-11-17'
+  unmapped_danbooru:
+  - tag: sideboob
+    frequency: 0.41
+  - tag: cropped_jacket
+    frequency: 0.4013
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4165
+    threshold: 0.5
+  - id: wasou
+    tag: japanese_clothes
+    frequency: 0.2343
+    threshold: 0.35
+  - id: houtai
+    tag: bandages
+    frequency: 0.1768
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kaname-madoka
   name: 鹿目まどか
   date: '2026-11-14'
@@ -6321,6 +6454,54 @@
     tag: large_breasts
     frequency: 0.1609
     threshold: 0.5
+  new_tag_proposals: []
+- id: karna
+  name: カルナ
+  date: '2026-11-17'
+  unmapped_danbooru:
+  - tag: kundala_(fate)
+    frequency: 0.4767
+  - tag: kavacha_(fate)
+    frequency: 0.4157
+  - tag: chest_jewel
+    frequency: 0.3852
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.4491
+    threshold: 0.5
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3808
+    threshold: 0.5
+  - id: buki
+    tag: weapon
+    frequency: 0.2863
+    threshold: 0.35
+  - id: kishi
+    tag: armor
+    frequency: 0.2442
+    threshold: 0.4
+  - id: yoroi
+    tag: armor
+    frequency: 0.2442
+    threshold: 0.35
+  - id: choker
+    tag: collar
+    frequency: 0.234
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2151
+    threshold: 0.35
+  - id: gaitou
+    tag: cape
+    frequency: 0.2108
+    threshold: 0.35
+  - id: mekakure
+    tag: hair_over_one_eye
+    frequency: 0.1744
+    threshold: 0.35
   new_tag_proposals: []
 - id: kasane-teto
   name: 重音テト
@@ -10372,6 +10553,20 @@
     frequency: 0.1985
     threshold: 0.35
   new_tag_proposals: []
+- id: nakoruru
+  name: ナコルル
+  date: '2026-11-17'
+  unmapped_danbooru: []
+  near_miss:
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.3187
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.2396
+    threshold: 0.35
+  new_tag_proposals: []
 - id: nami
   name: ナミ
   date: '2026-11-12'
@@ -10475,6 +10670,34 @@
     tag: hair_between_eyes
     frequency: 0.3109
     threshold: 0.5
+  new_tag_proposals: []
+- id: nanashi-mumei
+  name: 七詩ムメイ
+  date: '2026-11-17'
+  unmapped_danbooru:
+  - tag: feather_hair_ornament
+    frequency: 0.3851
+  near_miss:
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.3463
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2853
+    threshold: 0.5
+  - id: choker
+    tag: choker
+    frequency: 0.2293
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2027
+    threshold: 0.35
+  - id: knit
+    tag: sweater
+    frequency: 0.1803
+    threshold: 0.35
   new_tag_proposals: []
 - id: naoe-riki
   name: 直枝理樹
@@ -11477,6 +11700,24 @@
     frequency: 0.2656
     threshold: 0.5
   new_tag_proposals: []
+- id: oshino-ougi
+  name: 忍野扇
+  date: '2026-11-17'
+  unmapped_danbooru: []
+  near_miss:
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.3597
+    threshold: 0.5
+  - id: knit
+    tag: turtleneck
+    frequency: 0.3497
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2739
+    threshold: 0.35
+  new_tag_proposals: []
 - id: oshino-shinobu
   name: 忍野忍
   date: '2026-11-12'
@@ -11555,6 +11796,40 @@
   - id: kin-no-me
     tag: yellow_eyes
     frequency: 0.1685
+    threshold: 0.35
+  new_tag_proposals: []
+- id: oyama-mahiro
+  name: 緒山まひろ
+  date: '2026-11-17'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.4634
+    threshold: 0.5
+  - id: shirogami
+    tag: grey_hair
+    frequency: 0.2632
+    threshold: 0.35
+  - id: messhu
+    tag: multicolored_hair
+    frequency: 0.2568
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.2285
+    threshold: 0.5
+  - id: kemomimi
+    tag: animal_ears
+    frequency: 0.1635
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1582
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.1555
     threshold: 0.35
   new_tag_proposals: []
 - id: patchouli-knowledge
@@ -14593,6 +14868,32 @@
     tag: long_hair
     frequency: 0.1643
     threshold: 0.35
+  new_tag_proposals: []
+- id: sucy-manbavaran
+  name: スーシィ・マンバヴァラン
+  date: '2026-11-17'
+  unmapped_danbooru: []
+  near_miss:
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.3196
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2922
+    threshold: 0.3
+  - id: gizaba
+    tag: sharp_teeth
+    frequency: 0.2118
+    threshold: 0.35
+  - id: keshou
+    tag: makeup
+    frequency: 0.1941
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.151
+    threshold: 0.5
   new_tag_proposals: []
 - id: sugimoto-saichi
   name: 杉元佐一
