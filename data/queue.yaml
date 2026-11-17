@@ -6852,3 +6852,120 @@ characters:
     year: 2017
     danbooru: miyashita_ai
     anilist: Ai Miyashita
+
+  # --- 34期目。姫カット 3・楽器 3・坊主頭 3・ぽっちゃり 1・作り笑い 1 を狙う。
+  # lookup.yml に hime_cut instrument bald fake_smile folding_fan plump を
+  # 渡した。扇子とランドセルは人物を足す必要が無かった。天井に一番近いのは
+  # 黒神めだか 0.333 と宮内れんげ 0.3205 で、どちらも既にキューに居る。
+  # 62巡目で閾値を 0.30 に下げたので、当て直せば付く。
+  #
+  # 逆引きの「共起」は per-character の付与率とは別の指標だと気付いた。
+  # bald の共起はサイタマで 0.059 しかないが、彼は全コマ坊主なので付与率は
+  # 高いはず。共起は「Danbooru がそのタグと結び付けている人物」を見つける
+  # ためのもので、閾値に届くかの予測には使えない。だから作り笑いと
+  # ぽっちゃりも共起が薄いだけで諦めず、人物を入れて実測する。
+  #
+  # 候補 28 名のうち 16 名は既にキューに居た（けいおん!勢・サイタマ・
+  # クリリン・センシなど）。新規 12 名を入れる。
+  #
+  # 後藤ひとりは gotou_hitori で既に入っていて、Danbooru が gotoh_hitori を
+  # 別名として解決している。彼女はギター奏者なのに楽器が付いていない。
+  # 実測を見たら instrument 0.2032 で、0.30 に下げても届かない。小物でも
+  # 天井の高さは語ごとに違う（扇子 0.333・指輪 0.322・ランドセル 0.321 は
+  # 0.35 のすぐ下だが、楽器はもっと低い）。だから楽器の閾値は下げない。
+
+  - id: houraisan-kaguya
+    name: 蓬莱山輝夜
+    kana: ほうらいさんかぐや
+    work: 東方Project
+    year: 2002
+    danbooru: houraisan_kaguya
+    anilist: Kaguya Houraisan
+
+  - id: silence-suzuka
+    name: サイレンススズカ
+    kana: さいれんすすずか
+    work: ウマ娘 プリティーダービー
+    year: 2018
+    danbooru: silence_suzuka_(umamusume)
+    anilist: Silence Suzuka
+
+  - id: fujiwara-no-mokou
+    name: 藤原妹紅
+    kana: ふじわらのもこう
+    work: 東方Project
+    year: 2004
+    danbooru: fujiwara_no_mokou
+    anilist: Fujiwara no Mokou
+
+  - id: hatsuyuki-kancolle
+    name: 初雪
+    kana: はつゆき
+    work: 艦隊これくしょん
+    year: 2013
+    danbooru: hatsuyuki_(kancolle)
+    anilist: Hatsuyuki
+
+  - id: ikaruga-senran-kagura
+    name: 斑鳩
+    kana: いかるが
+    work: 閃乱カグラ
+    year: 2011
+    danbooru: ikaruga_(senran_kagura)
+    anilist: Ikaruga
+
+  - id: muten-roushi
+    name: 亀仙人
+    kana: かめせんにん
+    work: ドラゴンボール
+    year: 1984
+    danbooru: muten_roushi
+    anilist: Master Roshi
+
+  - id: tenshinhan
+    name: 天津飯
+    kana: てんしんはん
+    work: ドラゴンボール
+    year: 1984
+    danbooru: tenshinhan
+    anilist: Tien Shinhan
+
+  - id: tatsumaki
+    name: タツマキ
+    kana: たつまき
+    work: ワンパンマン
+    year: 2009
+    danbooru: tatsumaki
+    anilist: Tatsumaki
+
+  - id: venti
+    name: ウェンティ
+    kana: うぇんてぃ
+    work: 原神
+    year: 2020
+    danbooru: venti_(genshin_impact)
+    anilist: Venti
+
+  - id: horikawa-raiko
+    name: 堀川雷鼓
+    kana: ほりかわらいこ
+    work: 東方Project
+    year: 2013
+    danbooru: horikawa_raiko
+    anilist: Raiko Horikawa
+
+  - id: mimura-kanako
+    name: 三村かな子
+    kana: みむらかなこ
+    work: アイドルマスター シンデレラガールズ
+    year: 2011
+    danbooru: mimura_kanako
+    anilist: Kanako Mimura
+
+  - id: melony
+    name: メロン
+    kana: めろん
+    work: ポケットモンスター ソード・シールド
+    year: 2019
+    danbooru: melony_(pokemon)
+    anilist: Melony
