@@ -6624,6 +6624,25 @@
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 58%', src: danbooru}
   patterns: []
 
+- id: jougasaki-mika
+  name: 城ヶ崎美嘉
+  kana: じょうがさきみか
+  work: アイドルマスター シンデレラガールズ
+  year: 2011
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b78121-QLKIdJBjSawx.jpg'
+    page: 'https://anilist.co/character/78121'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-17'
+  elements:
+    - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 74%', src: danbooru}
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 90%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 44%（共有 43% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kabru
   name: カブルー
   kana: かぶるー
@@ -11241,6 +11260,26 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 80%（共有 19% のため比重を下げた）', src: danbooru}
     - {id: chapatsu, weight: spice, note: 'danbooru brown_hair 81%（共有 22% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 83%（共有 40% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: miyashita-ai
+  name: 宮下愛
+  kana: みやしたあい
+  work: 'ラブライブ!虹ヶ咲学園スクールアイドル同好会'
+  year: 2017
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b132799-mWXBIgFlmAtU.png'
+    page: 'https://anilist.co/character/132799'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-17'
+  elements:
+    - {id: kin-no-me, weight: sub, note: 'danbooru orange_eyes 51%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 93%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 62%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: semi-long, weight: sub, note: 'danbooru medium_hair 52%', src: danbooru}
   patterns: []
 
 - id: miyata-ichirou
@@ -16275,6 +16314,26 @@
     date: '2026-11-12'
   elements:
     - {id: aogami, weight: sub, note: 'danbooru blue_hair 49%', src: danbooru}
+  patterns: []
+
+- id: sitonai
+  name: シトナイ
+  kana: しとない
+  work: Fate/Grand Order
+  year: 2015
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b217620-cDQz73kApOFY.png'
+    page: 'https://anilist.co/character/217620'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-17'
+  elements:
+    - {id: minzoku-ishou, weight: core, note: 'danbooru ainu_clothes 80%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 71%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 55%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 98%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: sol-badguy

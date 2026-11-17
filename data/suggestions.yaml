@@ -5789,6 +5789,36 @@
     frequency: 0.1711
     threshold: 0.35
   new_tag_proposals: []
+- id: jougasaki-mika
+  name: 城ヶ崎美嘉
+  date: '2026-11-17'
+  unmapped_danbooru: []
+  near_miss:
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.3065
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2781
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2766
+    threshold: 0.35
+  - id: twintail
+    tag: twintails
+    frequency: 0.276
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2718
+    threshold: 0.5
+  - id: piasu
+    tag: earrings
+    frequency: 0.2613
+    threshold: 0.5
+  new_tag_proposals: []
 - id: kabru
   name: カブルー
   date: '2026-11-14'
@@ -9952,6 +9982,32 @@
   - id: chairo-no-me
     tag: brown_eyes
     frequency: 0.2683
+    threshold: 0.35
+  new_tag_proposals: []
+- id: miyashita-ai
+  name: 宮下愛
+  date: '2026-11-17'
+  unmapped_danbooru: []
+  near_miss:
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2629
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2535
+    threshold: 0.5
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2243
+    threshold: 0.3
+  - id: mitsuami
+    tag: braid
+    frequency: 0.1939
+    threshold: 0.35
+  - id: gyaru
+    tag: gyaru
+    frequency: 0.1764
     threshold: 0.35
   new_tag_proposals: []
 - id: miyata-ichirou
@@ -14470,6 +14526,32 @@
   - id: gaitou
     tag: coat
     frequency: 0.1621
+    threshold: 0.35
+  new_tag_proposals: []
+- id: sitonai
+  name: シトナイ
+  date: '2026-11-17'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3734
+    threshold: 0.5
+  - id: shirogami
+    tag: white_hair
+    frequency: 0.2785
+    threshold: 0.35
+  - id: kinpatsu
+    tag: blonde_hair
+    frequency: 0.2532
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.2342
+    threshold: 0.5
+  - id: buki
+    tag: weapon
+    frequency: 0.1899
     threshold: 0.35
   new_tag_proposals: []
 - id: sol-badguy
