@@ -1460,3 +1460,48 @@
   pairs_with: [shisutaa, shoutai, reijou]
   contrasts_with: [kamen]
   tags: [定番]
+
+# --- 64 巡目。ピンク肌と第三の目を昇格した ---
+# 63巡目に report.py の未対応タグの一覧へ「報告した人物が既に持っている
+# 要素」を出すようにした。その列を見ながら 2 作品以上の 15 種を選り分けたら、
+# 昇格に値するのはこの 2 語だけだった。
+#
+# 落としたものと理由:
+#   one_eye_covered … 報告者 3 名全員が既に眼帯を持っている（重複）
+#   gerudo … ゼルダ 1 作品の種族名（作品固有）
+#   tentacle_hair・big_hair・short_eyebrows・double-parted_bangs・
+#     flipped_hair … 髪の描き方の細部で、独立に選べる facet になっていない
+#   sideboob・v・official_alternate_hairstyle … 絵の構図やメタ情報で、
+#     人物の特徴ではない
+#   puffy_short_sleeves・sleeveless_dress・fur-trimmed_jacket … 服の細部。
+#     フリルや外套と同じ register を占めるうえ実例 2 件
+
+- id: pinku-hada
+  name: ピンク肌
+  kana: ぴんくはだ
+  aliases: [桃色の肌]
+  axis: appearance.build
+  summary: 人のものではない肌の色。ひと目で人間ではないと分かる。
+  effect: 本人は気にしていない態度で通し、周りの反応だけで異質さを語らせる。
+  pairs_with: [jingai, kuroi-shiberne, juujin]
+  contrasts_with: [irojiro, kasshoku]
+  tags: [応用]
+
+# 人造人間21号 0.92（ドラゴンボール）と芦戸三奈 0.90（僕のヒーロー
+# アカデミア）から出た。肌の軸には褐色肌と色白があるが、どちらも
+# 人間の範囲の濃淡で、人外の色は入っていなかった。2 名とも肌の軸が
+# 空のままだったので、足せばそのまま付く。
+
+- id: daisan-no-me
+  name: 第三の目
+  kana: だいさんのめ
+  aliases: [三つ目, 額の目]
+  axis: appearance.face
+  summary: 額などにあるもう一つの目。開くこと自体が事件になる。
+  effect: 閉じた状態を既定にして、開く一回を物語の転換点に取っておく。
+  pairs_with: [jingai, kami, nouryokusha]
+  contrasts_with: []
+  tags: [応用]
+
+# 霊烏路空 0.70（東方Project）と天津飯 0.52（ドラゴンボール）から出た。
+# 目の軸には色・形・眼帯・目隠れがあるが、数の facet が無かった。
