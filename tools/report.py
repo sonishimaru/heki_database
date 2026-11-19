@@ -121,6 +121,15 @@ def works_by_id() -> dict[str, str]:
     return {e["id"]: e.get("work") or "?" for e in entries or []}
 
 
+def elements_by_id() -> dict[str, list[str]]:
+    """人物 id → 既に付いている要素 id。未対応タグを見るときに必ず要る。"""
+    path = ROOT / "data" / "characters_auto.yaml"
+    if not path.exists():
+        return {}
+    entries = yaml.safe_load(path.read_text(encoding="utf-8")) or []
+    return {e["id"]: [x["id"] for x in e.get("elements") or []] for e in entries}
+
+
 def report_unmapped(suggestions: list[dict]) -> None:
     """対応表に無い高頻度タグと、資料レーンからの新語提案。
 
@@ -128,11 +137,22 @@ def report_unmapped(suggestions: list[dict]) -> None:
     作品数で数える。件数で数えていたせいで、鉄拳の 2 人から出た
     v-shaped_eyebrows が「複数作品」と出て、1 作品しか裏が無いのに
     基準を満たしたように見えていた（8 種のうち実際に 2 作品だったのは 4 種）。
+
+    タグごとに、報告した人物と、その人物が既に持っている要素も出す。
+    61巡目に white_wings・body_fur・single_side_bun・blue_cape の 4 綴りを
+    「対応表の穴」として足したが、当て直しても実例が 1 件も増えなかった。
+    報告していた 10 名全員が、もっと広いタグで既に同じ見出し語を持って
+    いた（天使の悪魔は wings 92%、しずえは furry 89%、ミカは hair_bun 70%、
+    力石徹は cape 100%）。色や部位の下位タグはたいてい上位タグの傘の下に
+    あるので、穴ではなく重複でしかない。足す前に確かめられるようにする。
     """
     works = works_by_id()
+    have = elements_by_id()
     tag_works: dict[str, set[str]] = {}
     tag_count: Counter = Counter()
     tag_best: dict[str, float] = {}
+    tag_names: dict[str, list[str]] = {}
+    tag_have: dict[str, set[str]] = {}
     proposal_works: dict[str, set[str]] = {}
     for entry in suggestions:
         work = works.get(entry["id"], "?")
@@ -140,6 +160,8 @@ def report_unmapped(suggestions: list[dict]) -> None:
             tag_works.setdefault(row["tag"], set()).add(work)
             tag_count[row["tag"]] += 1
             tag_best[row["tag"]] = max(tag_best.get(row["tag"], 0.0), row["frequency"])
+            tag_names.setdefault(row["tag"], []).append(entry.get("name") or entry["id"])
+            tag_have.setdefault(row["tag"], set()).update(have.get(entry["id"]) or [])
         for row in entry.get("new_tag_proposals") or []:
             label = row.get("name") or row.get("tag") or ""
             if label:
@@ -151,6 +173,9 @@ def report_unmapped(suggestions: list[dict]) -> None:
         nwork = len(tag_works[tag])
         mark = f"  ←{nwork} 作品" if nwork >= 2 else ""
         print(f"  {tag:<34} {tag_count[tag]:>2} 件 / 最高 {tag_best[tag]:.2f}{mark}")
+        if nwork >= 2:
+            print(f"      報告した人物: {'・'.join(tag_names[tag][:6])}")
+            print(f"      既に持っている要素: {'・'.join(sorted(tag_have[tag])[:14]) or 'なし'}")
     if not tag_works:
         print("  なし")
 

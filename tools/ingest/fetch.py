@@ -89,7 +89,13 @@ def http(url: str, data: bytes | None = None, content_type: str | None = None) -
                 wait = max(wait, int(err.headers.get("Retry-After", 0)))
             except (TypeError, ValueError):
                 pass
-            print(f"  HTTP {err.code}。{wait} 秒待って {attempt + 2} 回目を試します", file=sys.stderr)
+            # stdout に出す。auto.py の try_fetch は stderr=PIPE で受け取って
+            # 成功時は捨てるので、stderr に書くと再試行が走ったこと自体が
+            # 記録に残らない。56巡目に入れた再試行の効果を 62巡目の全件
+            # 取り直し（3 時間）で確かめようとして、ログに 1 行も出ていない
+            # ことに気付いた。「制限が出なかった」のか「出たが吸収した」のかを
+            # 区別できないままだった。
+            print(f"  HTTP {err.code}。{wait} 秒待って {attempt + 2} 回目を試します")
             time.sleep(wait)
         except urllib.error.URLError as err:
             raise SystemExit(f"接続できません: {url}（{err.reason}）ネットワーク制限のある環境では手元のマシンで実行してください。")
