@@ -6969,3 +6969,255 @@ characters:
     year: 2019
     danbooru: melony_(pokemon)
     anilist: Melony
+
+  # --- 35期目。白衣 3・黒い白目 2・鬼 4・幽霊 4・袴 4・ヘッドホン 4・
+  # リーゼント 4 を狙う。64巡目に昇格したピンク肌と第三の目も補強する。
+  # lookup.yml に lab_coat ghost oni hakama headphones pompadour
+  # colored_sclera third_eye pink_skin を渡した。
+  #
+  # 共起が飛び抜けていたのは pompadour の東方仗助 0.474 と third_eye の
+  # 霊烏路空 0.479。どちらもその人物の記号そのものなので当然だが、
+  # 霊烏路空とカービィ（pink_skin 0.075）は既にキューに居るので、
+  # 当て直せば新語 2 語はそこから付く。
+  #
+  # 白衣は上位が薄かった（最高でも 0.016）。研究者や医者の服は作品ごとに
+  # 違うタグが付くらしく、逆引きでは濃い人物が出てこない。今回は入れた
+  # 人物の実測を見て、次に判断する。
+  #
+  # 候補 39 名のうち既存 10 名を除いて 29 名。id は全件書いている。
+  #
+  # 東方仗助は higashikata_jousuke で既に入っていて、リーゼントも付いて
+  # いる（逆引きが返した綴りは higashikata_josuke だが、Danbooru が別名と
+  # して解決している）。長音の揺れはここでも効いていない。
+
+  - id: ibuki-suika
+    name: 伊吹萃香
+    kana: いぶきすいか
+    work: 東方Project
+    year: 2004
+    danbooru: ibuki_suika
+    anilist: Suika Ibuki
+
+  - id: shuten-douji
+    name: 酒呑童子
+    kana: しゅてんどうじ
+    work: Fate/Grand Order
+    year: 2016
+    danbooru: shuten_douji_(fate)
+    anilist: Shuten Douji
+
+  - id: nakiri-ayame
+    name: 百鬼あやめ
+    kana: なきりあやめ
+    work: ホロライブ
+    year: 2018
+    danbooru: nakiri_ayame
+    anilist: Nakiri Ayame
+
+  - id: hoshiguma-yuugi
+    name: 星熊勇儀
+    kana: ほしぐまゆうぎ
+    work: 東方Project
+    year: 2008
+    danbooru: hoshiguma_yuugi
+    anilist: Yuugi Hoshiguma
+
+  - id: ibaraki-douji
+    name: 茨木童子
+    kana: いばらきどうじ
+    work: Fate/Grand Order
+    year: 2016
+    danbooru: ibaraki_douji_(fate)
+    anilist: Ibaraki Douji
+
+  - id: soukaku
+    name: 蒼角
+    kana: そうかく
+    work: ゼンレスゾーンゼロ
+    year: 2024
+    danbooru: soukaku_(zenless_zone_zero)
+    anilist: Soukaku
+
+  - id: perona
+    name: ペローナ
+    kana: ぺろーな
+    work: ONE PIECE
+    year: 2007
+    danbooru: perona
+    anilist: Perona
+
+  - id: kaenbyou-rin
+    name: 火焔猫燐
+    kana: かえんびょうりん
+    work: 東方Project
+    year: 2008
+    danbooru: kaenbyou_rin
+    anilist: Rin Kaenbyou
+
+  - id: onozuka-komachi
+    name: 小野塚小町
+    kana: おのづかこまち
+    work: 東方Project
+    year: 2005
+    danbooru: onozuka_komachi
+    anilist: Komachi Onozuka
+
+  - id: soga-no-tojiko
+    name: 蘇我屠自古
+    kana: そがのとじこ
+    work: 東方Project
+    year: 2011
+    danbooru: soga_no_tojiko
+    anilist: Tojiko Soga
+
+  - id: akagi-kancolle
+    name: 赤城
+    kana: あかぎ
+    work: 艦隊これくしょん
+    year: 2013
+    danbooru: akagi_(kancolle)
+    anilist: Akagi
+
+  - id: zuikaku-kancolle
+    name: 瑞鶴
+    kana: ずいかく
+    work: 艦隊これくしょん
+    year: 2013
+    danbooru: zuikaku_(kancolle)
+    anilist: Zuikaku
+
+  - id: houshou-kancolle
+    name: 鳳翔
+    kana: ほうしょう
+    work: 艦隊これくしょん
+    year: 2013
+    danbooru: houshou_(kancolle)
+    anilist: Houshou
+
+  - id: hieda-no-akyuu
+    name: 稗田阿求
+    kana: ひえだのあきゅう
+    work: 東方Project
+    year: 2006
+    danbooru: hieda_no_akyuu
+    anilist: Akyuu Hieda
+
+  - id: kagamine-len
+    name: 鏡音レン
+    kana: かがみねれん
+    work: VOCALOID
+    year: 2007
+    danbooru: kagamine_len
+    anilist: Len Kagamine
+
+  - id: momoi-blue-archive
+    name: モモイ
+    kana: ももい
+    work: ブルーアーカイブ
+    year: 2021
+    danbooru: momoi_(blue_archive)
+    anilist: Momoi
+
+  - id: midori-blue-archive
+    name: ミドリ
+    kana: みどり
+    work: ブルーアーカイブ
+    year: 2021
+    danbooru: midori_(blue_archive)
+    anilist: Midori
+
+  - id: megurine-luka
+    name: 巡音ルカ
+    kana: めぐりねるか
+    work: VOCALOID
+    year: 2009
+    danbooru: megurine_luka
+    anilist: Luka Megurine
+
+  - id: super-sonico
+    name: すーぱーそに子
+    kana: すーぱーそにこ
+    work: すーぱーそに子
+    year: 2006
+    danbooru: super_sonico
+    anilist: Super Sonico
+
+  - id: sakura-futaba
+    name: 佐倉双葉
+    kana: さくらふたば
+    work: ペルソナ5
+    year: 2016
+    danbooru: sakura_futaba
+    anilist: Futaba Sakura
+
+  - id: elesa
+    name: カミツレ
+    kana: かみつれ
+    work: ポケットモンスター ブラック・ホワイト
+    year: 2010
+    danbooru: elesa_(pokemon)
+    anilist: Elesa
+
+  - id: nijimura-okuyasu
+    name: 虹村億泰
+    kana: にじむらおくやす
+    work: ジョジョの奇妙な冒険
+    year: 1992
+    danbooru: nijimura_okuyasu
+    anilist: Okuyasu Nijimura
+
+  - id: owada-mondo
+    name: 大和田紋土
+    kana: おおわだもんど
+    work: ダンガンロンパ
+    year: 2010
+    danbooru: owada_mondo
+    anilist: Mondo Owada
+
+  - id: ishimaru-kiyotaka
+    name: 石丸清多夏
+    kana: いしまるきよたか
+    work: ダンガンロンパ
+    year: 2010
+    danbooru: ishimaru_kiyotaka
+    anilist: Kiyotaka Ishimaru
+
+  - id: rebecca-cyberpunk
+    name: レベッカ
+    kana: れべっか
+    work: サイバーパンク エッジランナーズ
+    year: 2022
+    danbooru: rebecca_(cyberpunk)
+    anilist: Rebecca
+
+  - id: midna
+    name: ミドナ
+    kana: みどな
+    work: ゼルダの伝説 トワイライトプリンセス
+    year: 2006
+    danbooru: midna
+    anilist: Midna
+
+  - id: susie-deltarune
+    name: スージー
+    kana: すーじー
+    work: DELTARUNE
+    year: 2018
+    danbooru: susie_(deltarune)
+    anilist: Susie
+
+  - id: kris-deltarune
+    name: クリス
+    kana: くりす
+    work: DELTARUNE
+    year: 2018
+    danbooru: kris_(deltarune)
+    anilist: Kris
+
+  - id: princess-bubblegum
+    name: バブルガム王女
+    kana: ばぶるがむおうじょ
+    work: アドベンチャー・タイム
+    year: 2010
+    danbooru: princess_bonnibel_bubblegum
+    anilist: Princess Bubblegum
