@@ -9289,6 +9289,24 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: kris-deltarune
+  name: クリス
+  kana: くりす
+  work: DELTARUNE
+  year: 2018
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b62481-ZZDa7vn17lMU.png'
+    page: 'https://anilist.co/character/62481'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-20'
+  elements:
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 49%', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 63%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: krista-lenz
   name: クリスタ・レンズ
   kana: くりすたれんず
@@ -10968,6 +10986,28 @@
     - {id: tebukuro, weight: sub, note: 'danbooru gloves 40%', src: danbooru}
     - {id: tsubasa, weight: sub, note: 'danbooru wings 36%', src: danbooru}
     - {id: yoroi, weight: sub, note: 'danbooru armor 57%', src: danbooru}
+  patterns: []
+
+- id: midna
+  name: ミドナ
+  kana: みどな
+  work: ゼルダの伝説 トワイライトプリンセス
+  year: 2006
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/126040-4GEe9SvzW7WA.png'
+    page: 'https://anilist.co/character/126040'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-20'
+  elements:
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 63%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru orange_hair 63%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 72%（共有 13% のため比重を下げた）', src: danbooru}
+    - {id: helmet, weight: sub, note: 'danbooru helmet 48%', src: danbooru}
+    - {id: kuroi-shiberne, weight: sub, note: 'danbooru colored_sclera 59%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 59%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: midori-blue-archive
@@ -14109,6 +14149,22 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: princess-bubblegum
+  name: バブルガム王女
+  kana: ばぶるがむおうじょ
+  work: アドベンチャー・タイム
+  year: 2010
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-20'
+  elements:
+    - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 94%', src: danbooru}
+    - {id: pinku-hada, weight: core, note: 'danbooru pink_skin 79%', src: danbooru}
+    - {id: oukan, weight: sub, note: 'danbooru tiara 43%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 81%（共有 43% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: princess-peach
   name: ピーチ姫
   kana: ぴーちひめ
@@ -14258,6 +14314,29 @@
     - {id: kokuin, weight: sub, note: 'danbooru tattoo 50%', src: danbooru}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 80%（共有 27% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 57%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: rebecca-cyberpunk
+  name: レベッカ
+  kana: れべっか
+  work: サイバーパンク エッジランナーズ
+  year: 2022
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b284163-tt8smoAXl24x.jpg'
+    page: 'https://anilist.co/character/284163'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-20'
+  elements:
+    - {id: kokuin, weight: core, note: 'danbooru tattoo 76%', src: danbooru}
+    - {id: kuroi-shiberne, weight: core, note: 'danbooru colored_sclera 83%', src: danbooru}
+    - {id: midorigami, weight: core, note: 'danbooru green_hair 63%', src: danbooru}
+    - {id: jinzou, weight: sub, note: 'danbooru cyborg 37%', src: danbooru}
+    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 35%', src: danbooru}
+    - {id: twintail, weight: sub, note: 'danbooru twintails 60%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 65%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: red-blood-cell
@@ -17477,6 +17556,27 @@
     - {id: akame, weight: sub, note: 'danbooru red_eyes 46%', src: danbooru}
     - {id: momoiro-no-me, weight: sub, note: 'danbooru pink_eyes 43%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 84%（共有 43% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: susie-deltarune
+  name: スージー
+  kana: すーじー
+  work: DELTARUNE
+  year: 2018
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b6301-pOxHrQUXaAaB.jpg'
+    page: 'https://anilist.co/character/6301'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-20'
+  elements:
+    - {id: juujin, weight: core, note: 'danbooru furry 83%', src: danbooru}
+    - {id: gizaba, weight: sub, note: 'danbooru sharp_teeth 37%', src: danbooru}
+    - {id: kuroi-shiberne, weight: sub, note: 'danbooru colored_sclera 37%', src: danbooru}
+    - {id: sobakasu, weight: sub, note: 'danbooru freckles 38%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 66%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: suzuki-sonoko

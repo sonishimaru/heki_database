@@ -8180,6 +8180,54 @@
     frequency: 0.1538
     threshold: 0.4
   new_tag_proposals: []
+- id: kris-deltarune
+  name: クリス
+  date: '2026-11-20'
+  unmapped_danbooru:
+  - tag: blue_skin
+    frequency: 0.4796
+  near_miss:
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.333
+    threshold: 0.35
+  - id: kishi
+    tag: armor
+    frequency: 0.3236
+    threshold: 0.4
+  - id: yoroi
+    tag: armor
+    frequency: 0.3236
+    threshold: 0.35
+  - id: aogami
+    tag: blue_hair
+    frequency: 0.3183
+    threshold: 0.35
+  - id: chuuseiteki
+    tag: androgynous
+    frequency: 0.2754
+    threshold: 0.5
+  - id: knit
+    tag: sweater
+    frequency: 0.2639
+    threshold: 0.35
+  - id: gaitou
+    tag: cape
+    frequency: 0.2524
+    threshold: 0.35
+  - id: ahoge
+    tag: antenna_hair
+    frequency: 0.2503
+    threshold: 0.35
+  - id: kurokami
+    tag: black_hair
+    frequency: 0.2115
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2063
+    threshold: 0.35
+  new_tag_proposals: []
 - id: krista-lenz
   name: クリスタ・レンズ
   date: '2026-11-19'
@@ -9756,6 +9804,32 @@
     tag: armor
     frequency: 0.1803
     threshold: 0.35
+  new_tag_proposals: []
+- id: midna
+  name: ミドナ
+  date: '2026-11-20'
+  unmapped_danbooru:
+  - tag: yellow_sclera
+    frequency: 0.5663
+  - tag: multicolored_skin
+    frequency: 0.4639
+  - tag: two-tone_skin
+    frequency: 0.4401
+  - tag: black_skin
+    frequency: 0.4056
+  near_miss:
+  - id: yaeba
+    tag: fang
+    frequency: 0.2967
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.1931
+    threshold: 0.5
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.165
+    threshold: 0.5
   new_tag_proposals: []
 - id: midori-blue-archive
   name: ミドリ
@@ -12592,6 +12666,20 @@
     frequency: 0.1902
     threshold: 0.35
   new_tag_proposals: []
+- id: princess-bubblegum
+  name: バブルガム王女
+  date: '2026-11-20'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3182
+    threshold: 0.5
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.1623
+    threshold: 0.35
+  new_tag_proposals: []
 - id: princess-peach
   name: ピーチ姫
   date: '2026-11-18'
@@ -12732,6 +12820,38 @@
   - id: mafuraa
     tag: scarf
     frequency: 0.175
+    threshold: 0.35
+  new_tag_proposals: []
+- id: rebecca-cyberpunk
+  name: レベッカ
+  date: '2026-11-20'
+  unmapped_danbooru:
+  - tag: red_sclera
+    frequency: 0.7724
+  - tag: mechanical_eyes
+    frequency: 0.5277
+  - tag: leg_tattoo
+    frequency: 0.5164
+  - tag: kitsch_jacket_(cyberpunk)
+    frequency: 0.4509
+  - tag: stomach_tattoo
+    frequency: 0.4211
+  near_miss:
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.4587
+    threshold: 0.5
+  - id: buki
+    tag: weapon
+    frequency: 0.325
+    threshold: 0.35
+  - id: akame
+    tag: red_eyes
+    frequency: 0.2155
+    threshold: 0.35
+  - id: aogami
+    tag: aqua_hair
+    frequency: 0.1906
     threshold: 0.35
   new_tag_proposals: []
 - id: red-blood-cell
@@ -15700,6 +15820,32 @@
     tag: bishounen
     frequency: 0.2812
     threshold: 0.5
+  new_tag_proposals: []
+- id: susie-deltarune
+  name: スージー
+  date: '2026-11-20'
+  unmapped_danbooru:
+  - tag: reptile_girl
+    frequency: 0.4158
+  - tag: yellow_sclera
+    frequency: 0.3579
+  near_miss:
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.3053
+    threshold: 0.35
+  - id: pinku-hada
+    tag: pink_skin
+    frequency: 0.2842
+    threshold: 0.35
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.2684
+    threshold: 0.35
+  - id: shippo
+    tag: tail
+    frequency: 0.1632
+    threshold: 0.35
   new_tag_proposals: []
 - id: suzuki-sonoko
   name: 鈴木園子
