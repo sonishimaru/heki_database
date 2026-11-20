@@ -2610,6 +2610,32 @@
     frequency: 0.1696
     threshold: 0.5
   new_tag_proposals: []
+- id: elesa
+  name: カミツレ
+  date: '2026-11-20'
+  unmapped_danbooru: []
+  near_miss:
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2958
+    threshold: 0.35
+  - id: choker
+    tag: choker
+    frequency: 0.2704
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2693
+    threshold: 0.35
+  - id: bob-cut
+    tag: short_hair_with_long_locks
+    frequency: 0.1843
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.1821
+    threshold: 0.35
+  new_tag_proposals: []
 - id: elias-ainsworth
   name: エリアス・エインズワース
   date: '2026-11-18'
@@ -4144,6 +4170,16 @@
     frequency: 0.2222
     threshold: 0.45
   new_tag_proposals: []
+- id: hieda-no-akyuu
+  name: 稗田阿求
+  date: '2026-11-20'
+  unmapped_danbooru: []
+  near_miss:
+  - id: hakama
+    tag: hakama
+    frequency: 0.2663
+    threshold: 0.35
+  new_tag_proposals: []
 - id: hiei
   name: 飛影
   date: '2026-11-18'
@@ -4932,6 +4968,28 @@
     frequency: 0.1798
     threshold: 0.35
   new_tag_proposals: []
+- id: houshou-kancolle
+  name: 鳳翔
+  date: '2026-11-20'
+  unmapped_danbooru: []
+  near_miss:
+  - id: hakama
+    tag: hakama
+    frequency: 0.3386
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.3005
+    threshold: 0.35
+  - id: aogami
+    tag: blue_hair
+    frequency: 0.186
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.177
+    threshold: 0.35
+  new_tag_proposals: []
 - id: houshou-marine
   name: 宝鐘マリン
   date: '2026-11-18'
@@ -5568,6 +5626,18 @@
     frequency: 0.1682
     threshold: 0.35
   new_tag_proposals: []
+- id: ishimaru-kiyotaka
+  name: 石丸清多夏
+  date: '2026-11-20'
+  unmapped_danbooru:
+  - tag: armband
+    frequency: 0.3796
+  near_miss:
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.1944
+    threshold: 0.3
+  new_tag_proposals: []
 - id: isshiki-iroha
   name: 一色いろは
   date: '2026-11-18'
@@ -6191,6 +6261,28 @@
     tag: sweater
     frequency: 0.1589
     threshold: 0.35
+  new_tag_proposals: []
+- id: kagamine-len
+  name: 鏡音レン
+  date: '2026-11-20'
+  unmapped_danbooru: []
+  near_miss:
+  - id: seifuku
+    tag: sailor_collar
+    frequency: 0.2659
+    threshold: 0.3
+  - id: heddohon
+    tag: headphones
+    frequency: 0.2601
+    threshold: 0.35
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.2598
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2048
+    threshold: 0.5
   new_tag_proposals: []
 - id: kagamine-rin
   name: 鏡音リン
@@ -9553,6 +9645,20 @@
     frequency: 0.2464
     threshold: 0.35
   new_tag_proposals: []
+- id: megurine-luka
+  name: 巡音ルカ
+  date: '2026-11-20'
+  unmapped_danbooru: []
+  near_miss:
+  - id: heddohon
+    tag: headphones
+    frequency: 0.261
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.2104
+    threshold: 0.5
+  new_tag_proposals: []
 - id: meliodas
   name: メリオダス
   date: '2026-11-18'
@@ -9650,6 +9756,38 @@
     tag: armor
     frequency: 0.1803
     threshold: 0.35
+  new_tag_proposals: []
+- id: midori-blue-archive
+  name: ミドリ
+  date: '2026-11-20'
+  unmapped_danbooru:
+  - tag: animal_ear_headphones
+    frequency: 0.8926
+  - tag: cat_ear_headphones
+    frequency: 0.8607
+  - tag: green_halo
+    frequency: 0.6783
+  near_miss:
+  - id: meido
+    tag: maid_headdress
+    frequency: 0.2142
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.2074
+    threshold: 0.35
+  - id: pattsun
+    tag: blunt_bangs
+    frequency: 0.1874
+    threshold: 0.4
+  - id: paakaa
+    tag: hood
+    frequency: 0.1786
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.1524
+    threshold: 0.5
   new_tag_proposals: []
 - id: midorima-shintarou
   name: 緑間真太郎
@@ -10381,6 +10519,28 @@
   - id: sakotsu
     tag: collarbone
     frequency: 0.1631
+    threshold: 0.35
+  new_tag_proposals: []
+- id: momoi-blue-archive
+  name: モモイ
+  date: '2026-11-20'
+  unmapped_danbooru:
+  - tag: animal_ear_headphones
+    frequency: 0.8528
+  - tag: cat_ear_headphones
+    frequency: 0.8169
+  near_miss:
+  - id: akame
+    tag: red_eyes
+    frequency: 0.2717
+    threshold: 0.35
+  - id: furiru
+    tag: frills
+    frequency: 0.1642
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.1598
     threshold: 0.35
   new_tag_proposals: []
 - id: momose-narumi
@@ -11345,6 +11505,14 @@
     frequency: 0.2059
     threshold: 0.3
   new_tag_proposals: []
+- id: nijimura-okuyasu
+  name: 虹村億泰
+  date: '2026-11-20'
+  unmapped_danbooru:
+  - tag: dollar_sign
+    frequency: 0.4217
+  near_miss: []
+  new_tag_proposals: []
 - id: nilou
   name: ニィロウ
   date: '2026-11-19'
@@ -12168,6 +12336,36 @@
   - id: kin-no-me
     tag: yellow_eyes
     frequency: 0.1675
+    threshold: 0.35
+  new_tag_proposals: []
+- id: owada-mondo
+  name: 大和田紋土
+  date: '2026-11-20'
+  unmapped_danbooru: []
+  near_miss:
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.3281
+    threshold: 0.35
+  - id: kinniku
+    tag: muscular
+    frequency: 0.2812
+    threshold: 0.35
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.2656
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2656
+    threshold: 0.35
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.25
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.2344
     threshold: 0.35
   new_tag_proposals: []
 - id: oyama-mahiro
@@ -13414,6 +13612,28 @@
   - id: sakotsu
     tag: collarbone
     frequency: 0.1672
+    threshold: 0.35
+  new_tag_proposals: []
+- id: sakura-futaba
+  name: 佐倉双葉
+  date: '2026-11-20'
+  unmapped_danbooru:
+  - tag: fur-trimmed_jacket
+    frequency: 0.4084
+  - tag: behind-the-head_headphones
+    frequency: 0.4034
+  near_miss:
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2337
+    threshold: 0.35
+  - id: hinnyuu
+    tag: small_breasts
+    frequency: 0.2109
+    threshold: 0.5
+  - id: chairo-no-me
+    tag: brown_eyes
+    frequency: 0.1612
     threshold: 0.35
   new_tag_proposals: []
 - id: sakura-kyouko
