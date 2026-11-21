@@ -2198,6 +2198,24 @@
     frequency: 0.1897
     threshold: 0.3
   new_tag_proposals: []
+- id: chongyue
+  name: 重岳
+  date: '2026-11-21'
+  unmapped_danbooru: []
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.4853
+    threshold: 0.5
+  - id: chapatsu
+    tag: brown_hair
+    frequency: 0.3472
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.1769
+    threshold: 0.35
+  new_tag_proposals: []
 - id: chun-li
   name: 春麗
   date: '2026-11-20'
@@ -2320,6 +2338,36 @@
   - id: kin-no-me
     tag: yellow_eyes
     frequency: 0.1818
+    threshold: 0.35
+  new_tag_proposals: []
+- id: dan-heng
+  name: 丹恒
+  date: '2026-11-21'
+  unmapped_danbooru:
+  - tag: eyeliner
+    frequency: 0.3772
+  - tag: red_eyeliner
+    frequency: 0.3697
+  near_miss:
+  - id: chuukafuku
+    tag: chinese_clothes
+    frequency: 0.3405
+    threshold: 0.35
+  - id: aome
+    tag: aqua_eyes
+    frequency: 0.2587
+    threshold: 0.35
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.2559
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2295
+    threshold: 0.35
+  - id: messhu
+    tag: multicolored_hair
+    frequency: 0.2192
     threshold: 0.35
   new_tag_proposals: []
 - id: darkness-konosuba
@@ -2485,6 +2533,56 @@
     tag: helmet
     frequency: 0.25
     threshold: 0.35
+  new_tag_proposals: []
+- id: durin
+  name: ドゥリン
+  date: '2026-11-21'
+  unmapped_danbooru:
+  - tag: dragon_wings
+    frequency: 0.3934
+  near_miss:
+  - id: semi-long
+    tag: medium_hair
+    frequency: 0.2342
+    threshold: 0.35
+  - id: shippo
+    tag: tail
+    frequency: 0.2319
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2037
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.171
+    threshold: 0.35
+  new_tag_proposals: []
+- id: dusk-arknights
+  name: 夕
+  date: '2026-11-21'
+  unmapped_danbooru: []
+  near_miss:
+  - id: chuukafuku
+    tag: chinese_clothes
+    frequency: 0.2345
+    threshold: 0.35
+  - id: midorigami
+    tag: green_hair
+    frequency: 0.199
+    threshold: 0.35
+  - id: kin-no-me
+    tag: orange_eyes
+    frequency: 0.1775
+    threshold: 0.35
+  - id: buki
+    tag: weapon
+    frequency: 0.1746
+    threshold: 0.35
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.1631
+    threshold: 0.5
   new_tag_proposals: []
 - id: dva
   name: D.Va
@@ -5378,6 +5476,40 @@
     frequency: 0.2793
     threshold: 0.5
   new_tag_proposals: []
+- id: ilulu
+  name: イルル
+  date: '2026-11-21'
+  unmapped_danbooru: []
+  near_miss:
+  - id: messhu
+    tag: multicolored_hair
+    frequency: 0.3484
+    threshold: 0.35
+  - id: shippo
+    tag: tail
+    frequency: 0.2756
+    threshold: 0.35
+  - id: yaeba
+    tag: fang
+    frequency: 0.2745
+    threshold: 0.35
+  - id: momoiro-no-me
+    tag: pink_eyes
+    frequency: 0.2404
+    threshold: 0.35
+  - id: gizaba
+    tag: sharp_teeth
+    frequency: 0.237
+    threshold: 0.35
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.2084
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1929
+    threshold: 0.35
+  new_tag_proposals: []
 - id: imaizumi-shunsuke
   name: 今泉俊輔
   date: '2026-11-20'
@@ -7112,6 +7244,22 @@
     frequency: 0.2241
     threshold: 0.35
   new_tag_proposals: []
+- id: kicchou-yachie
+  name: 吉弔八千慧
+  date: '2026-11-21'
+  unmapped_danbooru:
+  - tag: turtle_shell
+    frequency: 0.6748
+  - tag: scales
+    frequency: 0.4446
+  - tag: yellow_horns
+    frequency: 0.3863
+  near_miss:
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.3
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kiki
   name: キキ
   date: '2026-11-20'
@@ -7486,6 +7634,30 @@
     frequency: 0.2143
     threshold: 0.35
   new_tag_proposals: []
+- id: kiryu-coco
+  name: 桐生ココ
+  date: '2026-11-21'
+  unmapped_danbooru:
+  - tag: horn_ornament
+    frequency: 0.6677
+  - tag: horn_bow
+    frequency: 0.6295
+  - tag: blonde_streaks
+    frequency: 0.5897
+  - tag: striped_bow
+    frequency: 0.551
+  - tag: diagonal-striped_bow
+    frequency: 0.4811
+  near_miss:
+  - id: yaeba
+    tag: fang
+    frequency: 0.3248
+    threshold: 0.35
+  - id: heterochromia
+    tag: multicolored_eyes
+    frequency: 0.2755
+    threshold: 0.35
+  new_tag_proposals: []
 - id: kiryu-kazuma
   name: 桐生一馬
   date: '2026-11-20'
@@ -7635,6 +7807,32 @@
     tag: ring
     frequency: 0.1684
     threshold: 0.3
+  new_tag_proposals: []
+- id: kiyohime
+  name: 清姫
+  date: '2026-11-21'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kyonyuu
+    tag: large_breasts
+    frequency: 0.3342
+    threshold: 0.5
+  - id: aogami
+    tag: aqua_hair
+    frequency: 0.3172
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2966
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2201
+    threshold: 0.35
+  - id: akame
+    tag: red_eyes
+    frequency: 0.1786
+    threshold: 0.35
   new_tag_proposals: []
 - id: klee
   name: クレー
@@ -8946,6 +9144,38 @@
     frequency: 0.1971
     threshold: 0.5
   new_tag_proposals: []
+- id: lucoa
+  name: ルコア
+  date: '2026-11-21'
+  unmapped_danbooru:
+  - tag: horns_through_headwear
+    frequency: 0.3866
+  near_miss:
+  - id: itome
+    tag: closed_eyes
+    frequency: 0.3692
+    threshold: 0.6
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.3171
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2581
+    threshold: 0.5
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.2581
+    threshold: 0.35
+  - id: heterochromia
+    tag: heterochromia
+    frequency: 0.2303
+    threshold: 0.35
+  - id: aogami
+    tag: blue_hair
+    frequency: 0.2257
+    threshold: 0.35
+  new_tag_proposals: []
 - id: lucy-elfen
   name: ルーシー
   date: '2026-11-20'
@@ -9391,6 +9621,32 @@
   - id: kizuato
     tag: scar
     frequency: 0.2137
+    threshold: 0.35
+  new_tag_proposals: []
+- id: malleus-draconia
+  name: マレウス・ドラコニア
+  date: '2026-11-21'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3221
+    threshold: 0.5
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2953
+    threshold: 0.35
+  - id: yaeba
+    tag: fangs
+    frequency: 0.2282
+    threshold: 0.35
+  - id: seifuku
+    tag: school_uniform
+    frequency: 0.2215
+    threshold: 0.3
+  - id: keshou
+    tag: makeup
+    frequency: 0.1879
     threshold: 0.35
   new_tag_proposals: []
 - id: mankanshoku-mako
@@ -11518,6 +11774,36 @@
     tag: twintails
     frequency: 0.154
     threshold: 0.35
+  new_tag_proposals: []
+- id: nian-arknights
+  name: 年
+  date: '2026-11-21'
+  unmapped_danbooru: []
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.4186
+    threshold: 0.5
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.3017
+    threshold: 0.35
+  - id: chuukafuku
+    tag: chinese_clothes
+    frequency: 0.2493
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.1789
+    threshold: 0.35
+  - id: kokuin
+    tag: tattoo
+    frequency: 0.1729
+    threshold: 0.35
+  - id: sensu
+    tag: hand_fan
+    frequency: 0.1634
+    threshold: 0.3
   new_tag_proposals: []
 - id: nico-robin
   name: ニコ・ロビン
@@ -15122,6 +15408,44 @@
   - id: chairo-no-me
     tag: brown_eyes
     frequency: 0.3182
+    threshold: 0.35
+  new_tag_proposals: []
+- id: shu-arknights
+  name: 煌
+  date: '2026-11-21'
+  unmapped_danbooru:
+  - tag: off_shoulder
+    frequency: 0.482
+  - tag: colored_extremities
+    frequency: 0.3918
+  near_miss:
+  - id: midori-no-me
+    tag: green_eyes
+    frequency: 0.2646
+    threshold: 0.35
+  - id: murasaki-gami
+    tag: purple_hair
+    frequency: 0.2179
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.209
+    threshold: 0.35
+  - id: haiiro-no-me
+    tag: grey_eyes
+    frequency: 0.2062
+    threshold: 0.35
+  - id: sakotsu
+    tag: collarbone
+    frequency: 0.1846
+    threshold: 0.35
+  - id: keshou
+    tag: makeup
+    frequency: 0.1793
+    threshold: 0.35
+  - id: choker
+    tag: choker
+    frequency: 0.1524
     threshold: 0.35
   new_tag_proposals: []
 - id: shulk

@@ -2421,6 +2421,31 @@
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 86%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: chongyue
+  name: 重岳
+  kana: じゅうがく
+  work: アークナイツ
+  year: 2019
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b326760-V1gkHd3YoT29.png'
+    page: 'https://anilist.co/character/326760'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-21'
+  elements:
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 84%', src: danbooru}
+    - {id: jingai, weight: core, note: 'danbooru horns 93%', src: danbooru}
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 67%', src: danbooru}
+    - {id: ryuu, weight: core, note: 'danbooru dragon_horns 78%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 52%', src: danbooru}
+    - {id: ponytail, weight: sub, note: 'danbooru ponytail 44%', src: danbooru}
+    - {id: shippo, weight: sub, note: 'danbooru tail 56%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 63%（共有 43% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 40%（共有 27% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: chun-li
   name: 春麗
   kana: しゅんりー
@@ -2528,6 +2553,31 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 50%', src: danbooru}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 43%（共有 27% のため比重を下げた）', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 41%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: dan-heng
+  name: 丹恒
+  kana: たんこう
+  work: 崩壊：スターレイル
+  year: 2023
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b314988-GRznn0CbXHS9.png'
+    page: 'https://anilist.co/character/314988'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-21'
+  elements:
+    - {id: jingai, weight: core, note: 'danbooru horns 66%', src: danbooru}
+    - {id: erufu, weight: sub, note: 'danbooru pointy_ears 58%', src: danbooru}
+    - {id: keshou, weight: sub, note: 'danbooru makeup 46%', src: danbooru}
+    - {id: kusekke, weight: sub, note: 'danbooru hair_between_eyes 55%', src: danbooru}
+    - {id: piasu, weight: sub, note: 'danbooru earrings 53%', src: danbooru}
+    - {id: ryuu, weight: sub, note: 'danbooru dragon_horns 57%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 43%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 63%（共有 43% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 83%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: darkness-konosuba
@@ -2733,6 +2783,55 @@
     - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 38%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 100%（共有 43% のため比重を下げた）', src: danbooru}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 75%（共有 27% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: durin
+  name: ドゥリン
+  kana: どぅりん
+  work: 原神
+  year: 2020
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b294145-71aZ5r0U4EZq.jpg'
+    page: 'https://anilist.co/character/294145'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-21'
+  elements:
+    - {id: jingai, weight: core, note: 'danbooru horns 85%', src: danbooru}
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 70%', src: danbooru}
+    - {id: ryuu, weight: core, note: 'danbooru dragon_horns 80%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 44%', src: danbooru}
+    - {id: kusekke, weight: sub, note: 'danbooru hair_between_eyes 55%', src: danbooru}
+    - {id: tebukuro, weight: sub, note: 'danbooru gloves 42%', src: danbooru}
+    - {id: tsubasa, weight: sub, note: 'danbooru wings 44%', src: danbooru}
+  patterns: []
+
+- id: dusk-arknights
+  name: 夕
+  kana: ゆう
+  work: アークナイツ
+  year: 2019
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b30273-0uMHhMCNNqTG.jpg'
+    page: 'https://anilist.co/character/30273'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-21'
+  elements:
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 94%', src: danbooru}
+    - {id: jingai, weight: core, note: 'danbooru horns 97%', src: danbooru}
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 62%', src: danbooru}
+    - {id: piasu, weight: core, note: 'danbooru earrings 61%', src: danbooru}
+    - {id: ryuu, weight: core, note: 'danbooru dragon_horns 86%', src: danbooru}
+    - {id: shippo, weight: core, note: 'danbooru tail 63%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 65%（共有 14% のため比重を下げた）', src: danbooru}
+    - {id: mekakure, weight: sub, note: 'danbooru hair_over_one_eye 50%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 79%（共有 43% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 89%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: dva
@@ -6103,6 +6202,31 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 89%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: ilulu
+  name: イルル
+  kana: いるる
+  work: 小林さんちのメイドラゴン
+  year: 2013
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b133060-a0eapiHScXAz.png'
+    page: 'https://anilist.co/character/133060'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-21'
+  elements:
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 65%', src: danbooru}
+    - {id: jingai, weight: core, note: 'danbooru horns 98%', src: danbooru}
+    - {id: kyonyuu, weight: core, note: 'danbooru huge_breasts 73%', src: danbooru}
+    - {id: ryuu, weight: core, note: 'danbooru dragon_horns 84%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru red_hair 44%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 57%', src: danbooru}
+    - {id: pinku-gami, weight: sub, note: 'danbooru pink_hair 55%', src: danbooru}
+    - {id: twintail, weight: sub, note: 'danbooru twintails 49%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 70%（共有 43% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: imaizumi-shunsuke
   name: 今泉俊輔
   kana: いまいずみしゅんすけ
@@ -8124,6 +8248,24 @@
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 72%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: kicchou-yachie
+  name: 吉弔八千慧
+  kana: きっちょうやちえ
+  work: 東方Project
+  year: 2019
+  summary: （要記入）
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-21'
+  elements:
+    - {id: jingai, weight: core, note: 'danbooru horns 98%', src: danbooru}
+    - {id: ryuu, weight: core, note: 'danbooru dragon_horns 76%', src: danbooru}
+    - {id: shippo, weight: core, note: 'danbooru tail 80%', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 72%（共有 14% のため比重を下げた）', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 90%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 91%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kiki
   name: キキ
   kana: きき
@@ -8514,6 +8656,35 @@
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 86%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: kiryu-coco
+  name: 桐生ココ
+  kana: きりゅうここ
+  work: ホロライブ
+  year: 2019
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b177217-XgKtzcSvm1YG.png'
+    page: 'https://anilist.co/character/177217'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-21'
+  elements:
+    - {id: ahoge, weight: core, note: 'danbooru ahoge 82%', src: danbooru}
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 83%', src: danbooru}
+    - {id: jingai, weight: core, note: 'danbooru horns 97%', src: danbooru}
+    - {id: kyonyuu, weight: core, note: 'danbooru large_breasts 66%', src: danbooru}
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 79%', src: danbooru}
+    - {id: ryuu, weight: core, note: 'danbooru dragon_horns 95%', src: danbooru}
+    - {id: akagami, weight: sub, note: 'danbooru orange_hair 93%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: akame, weight: sub, note: 'danbooru red_eyes 61%（共有 14% のため比重を下げた）', src: danbooru}
+    - {id: mitsuami, weight: sub, note: 'danbooru braid 43%', src: danbooru}
+    - {id: murasaki-no-me, weight: sub, note: 'danbooru purple_eyes 42%', src: danbooru}
+    - {id: pattsun, weight: sub, note: 'danbooru blunt_bangs 51%', src: danbooru}
+    - {id: shippo, weight: sub, note: 'danbooru tail 58%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 87%（共有 43% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: kiryu-kazuma
   name: 桐生一馬
   kana: きりゅうかずま
@@ -8682,6 +8853,28 @@
     - {id: messhu, weight: sub, note: 'danbooru multicolored_hair 41%', src: danbooru}
     - {id: piasu, weight: sub, note: 'danbooru piercing 59%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 86%（共有 43% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: kiyohime
+  name: 清姫
+  kana: きよひめ
+  work: Fate/Grand Order
+  year: 2015
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b172548-lHhjiIPXQjFZ.png'
+    page: 'https://anilist.co/character/172548'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-21'
+  elements:
+    - {id: jingai, weight: core, note: 'danbooru horns 91%', src: danbooru}
+    - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 67%', src: danbooru}
+    - {id: ryuu, weight: core, note: 'danbooru dragon_girl 95%', src: danbooru}
+    - {id: midorigami, weight: sub, note: 'danbooru green_hair 44%', src: danbooru}
+    - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 49%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 91%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: klee
@@ -10218,6 +10411,29 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: lucoa
+  name: ルコア
+  kana: るこあ
+  work: 小林さんちのメイドラゴン
+  year: 2013
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b120975-oOyfRbMSpSpy.png'
+    page: 'https://anilist.co/character/120975'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-21'
+  elements:
+    - {id: jingai, weight: core, note: 'danbooru horns 96%', src: danbooru}
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 83%', src: danbooru}
+    - {id: midorigami, weight: core, note: 'danbooru green_hair 72%', src: danbooru}
+    - {id: ryuu, weight: core, note: 'danbooru dragon_horns 76%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 77%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: kyonyuu, weight: sub, note: 'danbooru huge_breasts 59%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 86%（共有 43% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: lucy-elfen
   name: ルーシー
   kana: るーしー
@@ -10585,6 +10801,28 @@
     - {id: gaitou, weight: sub, note: 'danbooru cape 42%', src: danbooru}
     - {id: mekakushi, weight: sub, note: 'danbooru covered_eyes 48%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 43% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: malleus-draconia
+  name: マレウス・ドラコニア
+  kana: まれうすどらこにあ
+  work: ツイステッドワンダーランド
+  year: 2020
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b199053-iEwA7YJxTRiX.png'
+    page: 'https://anilist.co/character/199053'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-21'
+  elements:
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 80%', src: danbooru}
+    - {id: jingai, weight: core, note: 'danbooru horns 87%', src: danbooru}
+    - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 72%（共有 8% のため比重を下げた）', src: danbooru}
+    - {id: ryuu, weight: sub, note: 'danbooru dragon_horns 53%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 63%（共有 43% のため比重を下げた）', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 61%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: mankanshoku-mako
@@ -12911,6 +13149,31 @@
     - {id: kyonyuu, weight: sub, note: 'danbooru large_breasts 54%', src: danbooru}
     - {id: midori-no-me, weight: sub, note: 'danbooru green_eyes 80%（共有 8% のため比重を下げた）', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 38%（共有 43% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: nian-arknights
+  name: 年
+  kana: にゃん
+  work: アークナイツ
+  year: 2019
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b14953-vnd5tQps1Pd6.png'
+    page: 'https://anilist.co/character/14953'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-21'
+  elements:
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 84%', src: danbooru}
+    - {id: jingai, weight: core, note: 'danbooru horns 97%', src: danbooru}
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 69%', src: danbooru}
+    - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 70%', src: danbooru}
+    - {id: mitsuami, weight: sub, note: 'danbooru braid 37%', src: danbooru}
+    - {id: ryuu, weight: sub, note: 'danbooru dragon_horns 60%', src: danbooru}
+    - {id: shippo, weight: sub, note: 'danbooru tail 60%', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru white_hair 72%（共有 9% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 64%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: nico-robin
@@ -16930,6 +17193,33 @@
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 55%', src: danbooru}
     - {id: yakusoku, weight: sub, note: '資料: 大人になったら結婚してほしいという天沢聖司の申し出を承諾し、将来の約束を交わしている。', src: gemini}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 77%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: shu-arknights
+  name: 煌
+  kana: こう
+  work: アークナイツ
+  year: 2019
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b12051-DZE2V53eMi5d.png'
+    page: 'https://anilist.co/character/12051'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-21'
+  elements:
+    - {id: erufu, weight: core, note: 'danbooru pointy_ears 81%', src: danbooru}
+    - {id: jingai, weight: core, note: 'danbooru horns 94%', src: danbooru}
+    - {id: kusekke, weight: core, note: 'danbooru hair_between_eyes 62%', src: danbooru}
+    - {id: messhu, weight: core, note: 'danbooru multicolored_hair 86%', src: danbooru}
+    - {id: ryuu, weight: core, note: 'danbooru dragon_horns 88%', src: danbooru}
+    - {id: aogami, weight: sub, note: 'danbooru blue_hair 56%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 78%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: piasu, weight: sub, note: 'danbooru earrings 59%', src: danbooru}
+    - {id: shippo, weight: sub, note: 'danbooru tail 50%', src: danbooru}
+    - {id: shirogami, weight: sub, note: 'danbooru grey_hair 53%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 88%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shulk
