@@ -112,6 +112,7 @@ def write_run_summary(targets: list[dict], failed: list[str], tally: dict) -> No
             kind: f"{tally.get(f'取得_{kind}', 0)} / {tally[f'取得_{kind}_試行']}"
             for kind in ("danbooru", "anilist", "page") if tally.get(f"取得_{kind}_試行")
         },
+        "再試行": tally.get("再試行", 0),
         "取得元の理由": {
             kind: tally[f"取得_{kind}_理由"]
             for kind in ("danbooru", "anilist", "page") if tally.get(f"取得_{kind}_理由")
@@ -216,13 +217,29 @@ def process(entry: dict, api_key: str | None, sleep: float, tally: dict) -> None
         """
         tally[f"取得_{kind}_試行"] = tally.get(f"取得_{kind}_試行", 0) + 1
         try:
-            run(cmd, stderr=subprocess.PIPE, text=True)
+            # stdout も受け取って、そのまま出し直しつつ再試行の回数を数える。
+            # 63巡目に再試行の通知を stdout へ移したが、それでも「全件取り直し
+            # の 3 時間で 429 が出たのか」を調べるにはログ 7000 行を grep する
+            # しかなく、ログの配信ホストはこのセッションのプロキシで 403 に
+            # なる。要約に数字で残れば git pull だけで分かる。last_run.yaml を
+            # 作った 49巡目と同じ理由。
+            done = run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+            if done.stdout:
+                print(done.stdout, end="")
+                hits = done.stdout.count("秒待って")
+                if hits:
+                    tally["再試行"] = tally.get("再試行", 0) + hits
             time.sleep(sleep)
             if out_path.exists():
                 tally[f"取得_{kind}"] = tally.get(f"取得_{kind}", 0) + 1
                 return True
             return False
         except subprocess.CalledProcessError as err:
+            if err.stdout:
+                print(err.stdout, end="")
+                hits = err.stdout.count("秒待って")
+                if hits:
+                    tally["再試行"] = tally.get("再試行", 0) + hits
             why = reason_of(err)
             tally.setdefault(f"取得_{kind}_理由", why)
             # 取得元ごとの理由は setdefault で最初の一件しか残らない。取得元が
