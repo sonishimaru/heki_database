@@ -7221,3 +7221,261 @@ characters:
     year: 2010
     danbooru: princess_bonnibel_bubblegum
     anilist: Princess Bubblegum
+
+  # --- 36期目。まだ逆引きを当てていなかった 6 語を狙う。
+  # 竜 4・ヘルメット 5・死んだ目 5・中性的 5・女装 5・美少年 3。
+  # lookup.yml に dragon_girl helmet empty_eyes androgynous crossdressing
+  # bishounen kabuto dragon_boy を渡した。
+  #
+  # kabuto は「該当する人物タグがありません」と返った。ヘルメットの対応表に
+  # 入れている綴りだが、Danbooru 側に人物との結び付きが無い。兜の絵は
+  # armor や helmet で足りているのだと思う。外さずに残すが、これで引ける
+  # 人物は増えないと分かった。
+  #
+  # ヘルメットは共起が最高 0.027（ゼロ／ロックマン）しかない。かぶるのは
+  # 一部の絵だけなので、指輪や扇子と同じ形。いま入れる人物の実測を見て、
+  # 0.30 に下げるかを次に決める。
+  # 死んだ目も共起は薄い（最高 0.019）が、62巡目に学んだとおり共起は
+  # per-character の付与率とは別の指標なので、これだけでは諦めない。
+  #
+  # 候補 37 名のうち既存 7 名を除いて 30 名。
+
+  - id: shu-arknights
+    name: 煌
+    kana: こう
+    work: アークナイツ
+    year: 2019
+    danbooru: shu_(arknights)
+    anilist: Shu
+
+  - id: dusk-arknights
+    name: 夕
+    kana: ゆう
+    work: アークナイツ
+    year: 2019
+    danbooru: dusk_(arknights)
+    anilist: Dusk
+
+  - id: kiyohime
+    name: 清姫
+    kana: きよひめ
+    work: Fate/Grand Order
+    year: 2015
+    danbooru: kiyohime_(fate)
+    anilist: Kiyohime
+
+  - id: nian-arknights
+    name: 年
+    kana: にゃん
+    work: アークナイツ
+    year: 2019
+    danbooru: nian_(arknights)
+    anilist: Nian
+
+  - id: kicchou-yachie
+    name: 吉弔八千慧
+    kana: きっちょうやちえ
+    work: 東方Project
+    year: 2019
+    danbooru: kicchou_yachie
+    anilist: Yachie Kicchou
+
+  - id: ilulu
+    name: イルル
+    kana: いるる
+    work: 小林さんちのメイドラゴン
+    year: 2013
+    danbooru: ilulu_(maidragon)
+    anilist: Ilulu
+
+  - id: lucoa
+    name: ルコア
+    kana: るこあ
+    work: 小林さんちのメイドラゴン
+    year: 2013
+    danbooru: lucoa_(maidragon)
+    anilist: Quetzalcoatl
+
+  - id: kiryu-coco
+    name: 桐生ココ
+    kana: きりゅうここ
+    work: ホロライブ
+    year: 2019
+    danbooru: kiryu_coco
+    anilist: Kiryu Coco
+
+  - id: dan-heng
+    name: 丹恒
+    kana: たんこう
+    work: 崩壊：スターレイル
+    year: 2023
+    danbooru: dan_heng_(honkai:_star_rail)
+    anilist: Dan Heng
+
+  - id: chongyue
+    name: 重岳
+    kana: じゅうがく
+    work: アークナイツ
+    year: 2019
+    danbooru: chongyue_(arknights)
+    anilist: Chongyue
+
+  - id: durin
+    name: ドゥリン
+    kana: どぅりん
+    work: 原神
+    year: 2020
+    danbooru: durin_(genshin_impact)
+    anilist: Durin
+
+  - id: malleus-draconia
+    name: マレウス・ドラコニア
+    kana: まれうすどらこにあ
+    work: ツイステッドワンダーランド
+    year: 2020
+    danbooru: malleus_draconia
+    anilist: Malleus Draconia
+
+  - id: shirogane-naoto
+    name: 白鐘直斗
+    kana: しろがねなおと
+    work: ペルソナ4
+    year: 2008
+    danbooru: shirogane_naoto
+    anilist: Naoto Shirogane
+
+  - id: rika-pokemon
+    name: チリ
+    kana: ちり
+    work: ポケットモンスター スカーレット・バイオレット
+    year: 2022
+    danbooru: rika_(pokemon)
+    anilist: Rika
+
+  - id: astolfo
+    name: アストルフォ
+    kana: あすとるふぉ
+    work: Fate/Apocrypha
+    year: 2012
+    danbooru: astolfo_(fate)
+    anilist: Astolfo
+
+  - id: lio-fotia
+    name: リオ・フォーティア
+    kana: りおふぉーてぃあ
+    work: プロメア
+    year: 2019
+    danbooru: lio_fotia
+    anilist: Lio Fotia
+
+  - id: kino
+    name: キノ
+    kana: きの
+    work: キノの旅
+    year: 2000
+    danbooru: kino_(kino_no_tabi)
+    anilist: Kino
+
+  - id: cinnabar
+    name: シンシャ
+    kana: しんしゃ
+    work: 宝石の国
+    year: 2012
+    danbooru: cinnabar_(houseki_no_kuni)
+    anilist: Cinnabar
+
+  - id: cloud-strife
+    name: クラウド・ストライフ
+    kana: くらうどすとらいふ
+    work: ファイナルファンタジーVII
+    year: 1997
+    danbooru: cloud_strife
+    anilist: Cloud Strife
+
+  - id: fujisaki-chihiro
+    name: 不二咲千尋
+    kana: ふじさきちひろ
+    work: ダンガンロンパ
+    year: 2010
+    danbooru: fujisaki_chihiro
+    anilist: Chihiro Fujisaki
+
+  - id: hua-cheng
+    name: 花城
+    kana: かじょう
+    work: 天官賜福
+    year: 2017
+    danbooru: hua_cheng
+    anilist: Hua Cheng
+
+  - id: xie-lian
+    name: 謝憐
+    kana: しゃれん
+    work: 天官賜福
+    year: 2017
+    danbooru: xie_lian
+    anilist: Xie Lian
+
+  - id: xiao
+    name: 魈
+    kana: しょう
+    work: 原神
+    year: 2020
+    danbooru: xiao_(genshin_impact)
+    anilist: Xiao
+
+  - id: kaedehara-kazuha
+    name: 楓原万葉
+    kana: かえではらかずは
+    work: 原神
+    year: 2020
+    danbooru: kaedehara_kazuha
+    anilist: Kaedehara Kazuha
+
+  - id: houjou-tokiyuki
+    name: 北条時行
+    kana: ほうじょうときゆき
+    work: 逃げ上手の若君
+    year: 2021
+    danbooru: houjou_tokiyuki_(nige_jouzu_no_wakagimi)
+    anilist: Hojo Tokiyuki
+
+  - id: zero-mega-man
+    name: ゼロ
+    kana: ぜろ
+    work: ロックマンX
+    year: 1993
+    danbooru: zero_(mega_man)
+    anilist: Zero
+
+  - id: kaban
+    name: かばん
+    kana: かばん
+    work: けものフレンズ
+    year: 2015
+    danbooru: kaban_(kemono_friends)
+    anilist: Kaban
+
+  - id: x-mega-man
+    name: エックス
+    kana: えっくす
+    work: ロックマンX
+    year: 1993
+    danbooru: x_(mega_man)
+    anilist: X
+
+  - id: agnes-tachyon
+    name: アグネスタキオン
+    kana: あぐねすたきおん
+    work: ウマ娘 プリティーダービー
+    year: 2018
+    danbooru: agnes_tachyon_(umamusume)
+    anilist: Agnes Tachyon
+
+  - id: tatara-kogasa
+    name: 多々良小傘
+    kana: たたらこがさ
+    work: 東方Project
+    year: 2009
+    danbooru: tatara_kogasa
+    anilist: Kogasa Tatara
