@@ -182,6 +182,24 @@
     frequency: 0.1518
     threshold: 0.5
   new_tag_proposals: []
+- id: agnes-tachyon
+  name: アグネスタキオン
+  date: '2026-11-22'
+  unmapped_danbooru: []
+  near_miss:
+  - id: piasu
+    tag: earrings
+    frequency: 0.4588
+    threshold: 0.5
+  - id: knit
+    tag: sweater
+    frequency: 0.3416
+    threshold: 0.35
+  - id: gaitou
+    tag: coat
+    frequency: 0.3262
+    threshold: 0.35
+  new_tag_proposals: []
 - id: ahri
   name: アーリ
   date: '2026-11-20'
@@ -5060,6 +5078,30 @@
     frequency: 0.2159
     threshold: 0.5
   new_tag_proposals: []
+- id: houjou-tokiyuki
+  name: 北条時行
+  date: '2026-11-22'
+  unmapped_danbooru:
+  - tag: sidelocks_tied_back
+    frequency: 0.6074
+  near_miss:
+  - id: hakama
+    tag: hakama
+    frequency: 0.2517
+    threshold: 0.3
+  - id: bishounen
+    tag: bishounen
+    frequency: 0.245
+    threshold: 0.5
+  - id: josou
+    tag: trap
+    frequency: 0.198
+    threshold: 0.5
+  - id: chuuseiteki
+    tag: androgynous
+    frequency: 0.1544
+    threshold: 0.5
+  new_tag_proposals: []
 - id: hououji-fuu
   name: 鳳凰寺風
   date: '2026-11-20'
@@ -6307,6 +6349,28 @@
     tag: earrings
     frequency: 0.261
     threshold: 0.5
+  new_tag_proposals: []
+- id: kaban
+  name: かばん
+  date: '2026-11-22'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.3246
+    threshold: 0.5
+  - id: helmet
+    tag: helmet
+    frequency: 0.2984
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1875
+    threshold: 0.35
+  - id: kemomimi
+    tag: animal_ears
+    frequency: 0.1643
+    threshold: 0.35
   new_tag_proposals: []
 - id: kabru
   name: カブルー
@@ -16867,6 +16931,18 @@
     frequency: 0.2533
     threshold: 0.35
   new_tag_proposals: []
+- id: tatara-kogasa
+  name: 多々良小傘
+  date: '2026-11-22'
+  unmapped_danbooru:
+  - tag: umbrella
+    frequency: 0.7624
+  - tag: karakasa_obake
+    frequency: 0.5816
+  - tag: purple_umbrella
+    frequency: 0.3748
+  near_miss: []
+  new_tag_proposals: []
 - id: tatsumaki
   name: タツマキ
   date: '2026-11-21'
@@ -18413,6 +18489,22 @@
     frequency: 0.2044
     threshold: 0.35
   new_tag_proposals: []
+- id: x-mega-man
+  name: エックス
+  date: '2026-11-22'
+  unmapped_danbooru:
+  - tag: forehead_jewel
+    frequency: 0.652
+  - tag: arm_cannon
+    frequency: 0.5364
+  - tag: blue_helmet
+    frequency: 0.4589
+  near_miss:
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.2193
+    threshold: 0.35
+  new_tag_proposals: []
 - id: xiao
   name: 魈
   date: '2026-11-22'
@@ -19337,6 +19429,34 @@
   - id: chouhatsu
     tag: long_hair
     frequency: 0.1663
+    threshold: 0.35
+  new_tag_proposals: []
+- id: zero-mega-man
+  name: ゼロ
+  date: '2026-11-22'
+  unmapped_danbooru:
+  - tag: red_helmet
+    frequency: 0.5858
+  - tag: forehead_jewel
+    frequency: 0.5711
+  - tag: red_armor
+    frequency: 0.5408
+  - tag: energy_sword
+    frequency: 0.406
+  - tag: z_saber
+    frequency: 0.3848
+  near_miss:
+  - id: ponytail
+    tag: ponytail
+    frequency: 0.1904
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.1757
+    threshold: 0.35
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.1577
     threshold: 0.35
   new_tag_proposals: []
 - id: zero-two
