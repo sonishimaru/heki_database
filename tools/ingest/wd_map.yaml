@@ -590,3 +590,17 @@ elements:
 #     wd_map は語ごとに 1 つの閾値しか持てず、タグごとの信頼度の違いを
 #     表せない。タグ単位の閾値が要る場面だが、今は 1 語のために仕組みを
 #     足さない。実測だけ残す。
+
+  # --- 70 巡目に昇格した語 ---
+  tsuno:
+    tags: [horns, single_horn, oni_horns, dragon_horns, demon_horns, curled_horns,
+        skin-covered_horns, pointy_horns]
+    note: 種族の語（鬼・竜・悪魔）とは別に、部位として立てる
+  googuru:
+    tags: [goggles, goggles_on_head, goggles_around_neck]
+  kasa:
+    tags: [umbrella, parasol, holding_umbrella, oil-paper_umbrella]
+    threshold: 0.3
+    note: 手に持つ小物なので扇子と同じ扱い
+  aoi-hada:
+    tags: [blue_skin]

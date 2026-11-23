@@ -1505,3 +1505,76 @@
 
 # 霊烏路空 0.70（東方Project）と天津飯 0.52（ドラゴンボール）から出た。
 # 目の軸には色・形・眼帯・目隠れがあるが、数の facet が無かった。
+
+# --- 70 巡目。角・ゴーグル・傘・青い肌を昇格した ---
+# 36期目で竜と鬼を 30 名分入れた結果、未対応タグの報告が 345 種類に増えた。
+# 「既に持っている要素」の列を見ながら 2 作品以上の 13 種を選り分けた。
+#
+# 落としたものと理由:
+#   one_eye_covered（4 作品 0.66）… 報告者が全員 gantai を持っている。
+#     64巡目と同じ重複。作品が 2 → 4 に増えても重複は重複。
+#   eyeliner（3 作品 0.47）… 報告者が全員 keshou（化粧）を持っている。
+#     アイライナーは化粧の一種で、独立した facet ではない。
+#   fur-trimmed_jacket（3 作品 0.47）… 61巡目と同じ判断。ファー付きの
+#     上着は外套とは限らない。
+#   gerudo … ゼルダ 1 作品の種族名。
+#   tentacle_hair・big_hair・horn_ornament・white_hanfu・
+#     colored_extremities … 髪や服の描き方の細部、または作品固有の衣装名。
+
+- id: tsuno
+  name: 角
+  kana: つの
+  aliases: [ツノ, 一本角]
+  axis: appearance.parts
+  summary: 頭から生えた角。人でないことが一目で分かる。
+  effect: 折れる・隠す・掴まれるという事件を角ひとつで起こせるようにする。
+  pairs_with: [oni, ryuu, akuma]
+  contrasts_with: []
+  tags: [定番]
+
+# skin-covered_horns が 百鬼あやめ 0.93・酒呑童子・蒼角 の 3 作品から出た。
+# 体の部位の軸には尻尾と翼があるのに角が無かった。鬼・竜・悪魔は種族の軸
+# なので別物で、獣耳（種族）と尻尾（部位）が両方あるのと同じ形。
+
+- id: googuru
+  name: ゴーグル
+  kana: ごーぐる
+  aliases: [防護眼鏡]
+  axis: appearance.item
+  summary: 目を覆う風防。かけるのではなく、額に上げて待っている。
+  effect: 下ろす動作を「始める合図」にして、台詞の代わりに使う。
+  pairs_with: [buki, pairotto, hachimaki]
+  contrasts_with: [megane]
+  tags: [定番]
+
+# goggles が シモン 0.78（グレンラガン）と 八神太一（デジモン）から出た。
+# メガネとは別物で、視力の道具ではなく装備。対比に置いた。
+
+- id: kasa
+  name: 傘
+  kana: かさ
+  aliases: [日傘, 唐傘]
+  axis: appearance.item
+  summary: 手に持つ傘。差している間だけ二人の世界ができる。
+  effect: 相手に差し掛ける一回を取っておき、それまでは自分の分だけ差させる。
+  pairs_with: [wasou, sensu, futari-dake]
+  contrasts_with: []
+  tags: [定番]
+
+# umbrella が 多々良小傘 0.76（東方Project）と 雪代巴（るろうに剣心）から
+# 出た。手に持つ小物なので、閾値は扇子と同じ 0.30 にしてある。
+
+- id: aoi-hada
+  name: 青い肌
+  kana: あおいはだ
+  aliases: [青白い肌, 蒼い肌]
+  axis: appearance.build
+  summary: 人のものではない青の肌。冷たさをそのまま見せている。
+  effect: 体温の低さを触れた相手に言わせ、本人には触れさせない。
+  pairs_with: [jingai, oni, tsuno]
+  contrasts_with: [irojiro, kasshoku, pinku-hada]
+  tags: [応用]
+
+# blue_skin が クリス 0.92（DELTARUNE）と 蒼角（ゼンレスゾーンゼロ）から
+# 出た。64巡目にピンク肌を同じ基準（2 作品・0.9 台・肌の軸が空）で昇格
+# させているので、同じ証拠の強さなら同じ扱いにする。
