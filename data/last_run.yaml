@@ -4,18 +4,24 @@
 
 date: '2026-11-24'
 対象: 12
-完了: 12
-失敗: []
+完了: 11
+失敗:
+- raoh
 レーン:
-  資料: 0 / 11
+  資料: 0 / 12
   識別: 0 / 12
 レーンの理由:
   資料: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
   識別: Gemini の残高が尽きています。AI Studio（https://ai.studio/projects）で課金を確認してください。
 取得元:
-  danbooru: 12 / 12
-  anilist: 11 / 12
+  danbooru: 11 / 12
+  anilist: 12 / 12
 再試行: 0
 取得元の理由:
-  anilist: 'HTTP 404: https://graphql.anilist.co'
-失敗の理由: {}
+  danbooru: '作例 0 件で別名もありません。名前が違います: raoh。似た名前: pharaohmon（作例 5）、pharaoh_man（作例 30）、pharaoh_(cat)（作例
+    134）、raoh_(hokuto_no_ken)（作例 174）、mouar_pharaoh（作例 41）、pharaoh_(monster_girl_encyclopedia)（作例
+    39）。カッコ付き: raoh_(hokuto_no_ken)（作例 174）'
+失敗の理由:
+  raoh: 'danbooru: 作例 0 件で別名もありません。名前が違います: raoh。似た名前: pharaohmon（作例 5）、pharaoh_man（作例
+    30）、pharaoh_(cat)（作例 134）、raoh_(hokuto_no_ken)（作例 174）、mouar_pharaoh（作例 41）、pharaoh_(monster_girl_encyclopedia)（作例
+    39）。カッコ付き: raoh_(hokuto_no_ken)（作例 174）'

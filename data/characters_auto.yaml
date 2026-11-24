@@ -1355,6 +1355,23 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 61%（共有 44% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: asakura-minami
+  name: 浅倉南
+  kana: あさくらみなみ
+  work: タッチ
+  year: 1981
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b11214-dOdCQFkgdakM.png'
+    page: 'https://anilist.co/character/11214'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-24'
+  elements:
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 47%', src: danbooru}
+  patterns: []
+
 - id: asakura-ryoko
   name: 朝倉涼子
   kana: あさくらりょうこ
@@ -2563,6 +2580,25 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 47%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: clarisse-de-cagliostro
+  name: クラリス
+  kana: くらりす
+  work: ルパン三世 カリオストロの城
+  year: 1979
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/11236.jpg'
+    page: 'https://anilist.co/character/11236'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-24'
+  elements:
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 71%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 83%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 62%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: cloud-strife
   name: クラウド・ストライフ
   kana: くらうどすとらいふ
@@ -3603,6 +3639,24 @@
     - {id: gishi, weight: sub, note: '資料: 悟空との戦いを生き延びた際、複数の金属製補綴（義体）を装着した姿となった。', src: gemini}
     - {id: shujuu, weight: sub, note: '資料: ベジータなどを手下として従え、任務やお使いを命じている。', src: gemini}
     - {id: taijou, weight: sub, note: '資料: 復讐のため向かった地球にて、トランクスに容易に倒された。', src: gemini}
+  patterns: []
+
+- id: fudou-akira
+  name: 不動明
+  kana: ふどうあきら
+  work: デビルマン
+  year: 1972
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2456-rTjIXMLPHTu2.jpg'
+    page: 'https://anilist.co/character/2456'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-24'
+  elements:
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 52%（共有 27% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 43%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: fuji-shuusuke
@@ -7186,6 +7240,24 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 67%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: jonathan-joestar
+  name: ジョナサン・ジョースター
+  kana: じょなさんじょーすたー
+  work: ジョジョの奇妙な冒険
+  year: 1987
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b8087-GTrObHQvujB5.png'
+    page: 'https://anilist.co/character/8087'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-24'
+  elements:
+    - {id: aogami, weight: sub, note: 'danbooru blue_hair 46%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 47%（共有 23% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: joseph-joestar
   name: ジョセフ・ジョースター
   kana: じょせふじょーすたー
@@ -7767,6 +7839,25 @@
     - {id: nouryokusha, weight: sub, note: '資料: 水の呼吸および日の呼吸を戦闘スタイルとし、伝説の日の呼吸の使い手である。', src: gemini}
     - {id: toshiue, weight: sub, note: '資料: 妹である禰豆子に対して兄（年上）の立場にある。', src: gemini}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 51%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: kamille-bidan
+  name: カミーユ・ビダン
+  kana: かみーゆびだん
+  work: 機動戦士Ζガンダム
+  year: 1985
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1341-dZu7Pi8FAKGi.png'
+    page: 'https://anilist.co/character/1341'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-24'
+  elements:
+    - {id: aogami, weight: core, note: 'danbooru blue_hair 68%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 74%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 49%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: kamina
@@ -8594,6 +8685,23 @@
     - {id: ponytail, weight: sub, note: 'danbooru ponytail 67%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru blazer 67%（共有 17% のため比重を下げた）', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 67%（共有 44% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: kinnikuman
+  name: キン肉マン
+  kana: きんにくまん
+  work: キン肉マン
+  year: 1979
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b3364-EvjkHz7VwscQ.jpg'
+    page: 'https://anilist.co/character/3364'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-24'
+  elements:
+    - {id: kinniku, weight: sub, note: 'danbooru muscular 43%', src: danbooru}
   patterns: []
 
 - id: kino
@@ -10361,6 +10469,26 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 83%（共有 44% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: lalah-sune
+  name: ララァ・スン
+  kana: ららぁすん
+  work: 機動戦士ガンダム
+  year: 1979
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1386-fIq9Mgd3pAZ2.png'
+    page: 'https://anilist.co/character/1386'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-24'
+  elements:
+    - {id: kasshoku, weight: core, note: 'danbooru dark_skin 89%', src: danbooru}
+    - {id: midori-no-me, weight: core, note: 'danbooru green_eyes 69%', src: danbooru}
+    - {id: odango, weight: sub, note: 'danbooru hair_bun 55%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 69%（共有 27% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: lan-wangji
   name: 藍忘機
   kana: らんぼうき
@@ -10780,6 +10908,24 @@
     - {id: muhoumono, weight: core, note: '資料: 世界で最も手配されている大泥棒であり、捕まっても脱獄を繰り返す社会の外側で生きる存在であるため。', src: gemini}
     - {id: kataomoi, weight: sub, note: '資料: 峰不二子に夢中になっており、それが原因でしばしば困った状況に陥っているため。', src: gemini}
     - {id: neko-o-kaburu, weight: sub, note: '資料: 相手の油断を誘う見せかけとして、無能な振る舞い（演技）をするため。', src: gemini}
+  patterns: []
+
+- id: lynn-minmay
+  name: リン・ミンメイ
+  kana: りんみんめい
+  work: 超時空要塞マクロス
+  year: 1982
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b5295-nsPBOglhRDtV.png'
+    page: 'https://anilist.co/character/5295'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-24'
+  elements:
+    - {id: aogami, weight: sub, note: 'danbooru blue_hair 55%', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 67%（共有 44% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: m16a1
@@ -11802,6 +11948,24 @@
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 87%（共有 44% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: minamoto-shizuka
+  name: 源静香
+  kana: みなもとしずか
+  work: ドラえもん
+  year: 1969
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b8260-Hz17eZuElZ7U.png'
+    page: 'https://anilist.co/character/8260'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-24'
+  elements:
+    - {id: twintail, weight: core, note: 'danbooru twintails 79%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 69%（共有 27% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: minase-iori
   name: 水瀬伊織
   kana: みなせいおり
@@ -12566,6 +12730,24 @@
     - {id: shoutai, weight: sub, note: '資料: 正体は不明。', src: gemini}
     - {id: wasou, weight: sub, note: 'danbooru japanese_clothes 36%', src: danbooru}
     - {id: hogosha, weight: spice, note: '通説: 実家を飛び出した魔理沙を預かった過去があり、今でも彼女たちから親戚のお兄さんのように扱われている。', src: knowledge}
+  patterns: []
+
+- id: moroboshi-ataru
+  name: 諸星あたる
+  kana: もろぼしあたる
+  work: うる星やつら
+  year: 1978
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b4834-N3Rgvc0ASR1d.jpg'
+    page: 'https://anilist.co/character/4834'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-24'
+  elements:
+    - {id: jingai, weight: sub, note: 'danbooru horns 39%', src: danbooru}
+    - {id: tsuno, weight: sub, note: 'danbooru horns 39%', src: danbooru}
   patterns: []
 
 - id: mouri-ran
@@ -14477,6 +14659,24 @@
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 74%', src: danbooru}
     - {id: gishiki, weight: sub, note: '資料: 使う魔法を曜日に応じて分ける秘密の趣味がある', src: gemini}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 89%（共有 44% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: pazu
+  name: パズー
+  kana: ぱずー
+  work: 天空の城ラピュタ
+  year: 1986
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b8524-GsNaG6GxiZrP.jpg'
+    page: 'https://anilist.co/character/8524'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-24'
+  elements:
+    - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 75%（共有 19% のため比重を下げた）', src: danbooru}
+    - {id: gakki, weight: sub, note: 'danbooru instrument 50%', src: danbooru}
   patterns: []
 
 - id: pecorine
