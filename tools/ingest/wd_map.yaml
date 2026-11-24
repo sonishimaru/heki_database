@@ -437,7 +437,14 @@ elements:
     threshold: 0.5
     note: 獣耳だけの絵にも付くことがあるので閾値を上げている
   kuroi-shiberne:
-    tags: [colored_sclera, black_sclera]
+    tags: [colored_sclera, black_sclera, yellow_sclera]
+    note: |
+      yellow_sclera は 72巡目に足した。実例は増えない（ミドナとスージーは
+      colored_sclera で既に付いている）。目的は報告を正すこと。未対応タグの
+      一覧に「2 作品から出た穴」として毎回出続けるが、穴ではなく同じ facet の
+      色の違いなので、対応表に入れて黙らせる。61巡目の white_wings と同じ形
+      だが、あのときは実例が増えると誤って予想した。今回は増えないと分かって
+      いて足している
 
   # --- 19 巡目に昇格した語 ---
   regent:

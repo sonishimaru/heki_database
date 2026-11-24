@@ -1271,15 +1271,26 @@
   tags: [定番]
 
 - id: kuroi-shiberne
-  name: 黒い白目
-  kana: くろいしろめ
-  aliases: [黒目がち, 白目が黒い]
+  name: 色付き白目
+  kana: いろつきしろめ
+  aliases: [黒い白目, 白目が黒い, 黄色い白目]
   axis: appearance.eyeshape
-  summary: 白目まで黒い目。人でないことが目に出る。
+  summary: 白目に色がついた目。人でないことが目に出る。
   effect: ふだんは隠しておき、素が出る場面でそこだけ変える。
   pairs_with: [hikari-nashi, oni, akuma]
   contrasts_with: []
   tags: [応用]
+
+# 72 巡目に「黒い白目」から改名した。実例 5 件の内訳を見たら、5 件すべてが
+# colored_sclera（白目に色がある）由来で、black_sclera（黒い白目）由来は
+# 1 件も無かった。しかもミドナとスージーは yellow_sclera 0.57 が別に
+# 報告されていて、黄色い白目である。黒くない人物を「黒い白目」として
+# 数えていた。
+# 66巡目のコミットに「増えたのは black_sclera の分」と書いたが、これも
+# 間違い。black_sclera 由来は 0 件で、増えたのは colored_sclera の分だった。
+# facet は「白目が白くない」で、色は二次的なものなので、名前をその通りに
+# する。id は記録側の要素 id として使われているので変えない（変えると
+# 当て直しまで既存 5 件が検証に通らなくなる）。
 
 # --- 19 巡目 ---
 

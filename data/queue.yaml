@@ -7479,3 +7479,154 @@ characters:
     year: 2009
     danbooru: tatara_kogasa
     anilist: Kogasa Tatara
+
+  # --- 37期目。狙いを変えた。薄い軸ではなく、収録の偏りを埋める。
+  #
+  # Danbooru で引ける語のうち実例 5 件以下は 18 語残っているが、全部が
+  # 構造的な理由で薄い（小物の可視性・作品固有タグ・資料レーン待ち）。
+  # 18 語すべて逆引きを当て終わっているので、人物を足しても埋まらない。
+  # つまり「薄い軸を狙う」という補充の口実はここで尽きた。
+  #
+  # 代わりに収録の偏りを測った（995 名・370 作品）。
+  #   1960年代 8・1970年代 8・1980年代 42・1990年代 164・2000年代 286・
+  #   2010年代 405・2020年代 82
+  # 1960〜80年代が 58 名（5.8%）しかない。原型を集める辞書なのに、原型を
+  # 作った年代が薄い。ツンデレ・ヤンデレの類は後の世代の語だが、主従・
+  # 宿敵・自己犠牲・継承・復讐のような物語役割の原型は 70〜80年代の作品に
+  # 多くある。
+  #
+  # ただし候補 31 名のうち 14 名は既にキューに居た（峰不二子・オスカル・
+  # シャア・アムロ・矢吹丈・ケンシロウ・星矢・乱馬・のび太・メーテル・
+  # シータ・キキ・ディオ・石川五ェ門）。有名どころは入っていたので、
+  # 年代の薄さは「取りこぼし」よりも「その年代の人物タグ自体が少ない」
+  # ことの反映でもある。新規 17 名を入れる。確信の持てない綴りは入れない
+  # （シャンプーは tag に / が入るので外した。ナウシカと AKIRA の金田は
+  # 綴りに確信が持てないので外した）。
+
+  - id: moroboshi-ataru
+    name: 諸星あたる
+    kana: もろぼしあたる
+    work: うる星やつら
+    year: 1978
+    danbooru: moroboshi_ataru
+    anilist: Ataru Moroboshi
+
+  - id: lalah-sune
+    name: ララァ・スン
+    kana: ららぁすん
+    work: 機動戦士ガンダム
+    year: 1979
+    danbooru: lalah_sune
+    anilist: Lalah Sune
+
+  - id: kamille-bidan
+    name: カミーユ・ビダン
+    kana: かみーゆびだん
+    work: 機動戦士Ζガンダム
+    year: 1985
+    danbooru: kamille_bidan
+    anilist: Kamille Bidan
+
+  - id: raoh
+    name: ラオウ
+    kana: らおう
+    work: 北斗の拳
+    year: 1983
+    danbooru: raoh
+    anilist: Raoh
+
+  - id: asakura-minami
+    name: 浅倉南
+    kana: あさくらみなみ
+    work: タッチ
+    year: 1981
+    danbooru: asakura_minami
+    anilist: Minami Asakura
+
+  - id: minamoto-shizuka
+    name: 源静香
+    kana: みなもとしずか
+    work: ドラえもん
+    year: 1969
+    danbooru: minamoto_shizuka
+    anilist: Shizuka Minamoto
+
+  - id: lynn-minmay
+    name: リン・ミンメイ
+    kana: りんみんめい
+    work: 超時空要塞マクロス
+    year: 1982
+    danbooru: lynn_minmay
+    anilist: Lynn Minmay
+
+  - id: pazu
+    name: パズー
+    kana: ぱずー
+    work: 天空の城ラピュタ
+    year: 1986
+    danbooru: pazu
+    anilist: Pazu
+
+  - id: kinnikuman
+    name: キン肉マン
+    kana: きんにくまん
+    work: キン肉マン
+    year: 1979
+    danbooru: kinnikuman
+    anilist: Kinnikuman
+
+  - id: jonathan-joestar
+    name: ジョナサン・ジョースター
+    kana: じょなさんじょーすたー
+    work: ジョジョの奇妙な冒険
+    year: 1987
+    danbooru: jonathan_joestar
+    anilist: Jonathan Joestar
+
+  - id: fudou-akira
+    name: 不動明
+    kana: ふどうあきら
+    work: デビルマン
+    year: 1972
+    danbooru: fudou_akira
+    anilist: Akira Fudo
+
+  - id: clarisse-de-cagliostro
+    name: クラリス
+    kana: くらりす
+    work: ルパン三世 カリオストロの城
+    year: 1979
+    danbooru: clarisse_de_cagliostro
+    anilist: Clarisse
+
+  - id: norimaki-arale
+    name: 則巻アラレ
+    kana: のりまきあられ
+    work: Dr.スランプ
+    year: 1980
+    danbooru: norimaki_arale
+    anilist: Arale Norimaki
+
+  - id: reinhard-von-lohengramm
+    name: ラインハルト・フォン・ローエングラム
+    kana: らいんはるとふぉんろーえんぐらむ
+    work: 銀河英雄伝説
+    year: 1982
+    danbooru: reinhard_von_lohengramm
+    anilist: Reinhard von Lohengramm
+
+  - id: yang-wen-li
+    name: ヤン・ウェンリー
+    kana: やんうぇんりー
+    work: 銀河英雄伝説
+    year: 1982
+    danbooru: yang_wen-li
+    anilist: Yang Wen-li
+
+  - id: shima-tetsuo
+    name: 島鉄雄
+    kana: しまてつお
+    work: AKIRA
+    year: 1982
+    danbooru: shima_tetsuo
+    anilist: Tetsuo Shima
