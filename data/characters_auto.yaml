@@ -1643,7 +1643,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-24'
+    date: '2026-11-25'
   elements:
     - {id: aogami, weight: core, note: 'danbooru blue_hair 84%', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 80%（共有 14% のため比重を下げた）', src: danbooru}
@@ -3183,13 +3183,13 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-24'
+    date: '2026-11-25'
   elements:
     - {id: erufu, weight: core, note: 'danbooru pointy_ears 71%', src: danbooru}
     - {id: mitsuami, weight: core, note: 'danbooru braid 61%', src: danbooru}
     - {id: murasaki-no-me, weight: core, note: 'danbooru purple_eyes 87%', src: danbooru}
     - {id: shirogami, weight: sub, note: 'danbooru white_hair 54%', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 44% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 92%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: emiya-kiritsugu
@@ -4082,12 +4082,12 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-24'
+    date: '2026-11-25'
   elements:
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 90%', src: danbooru}
     - {id: momoiro-no-me, weight: sub, note: 'danbooru pink_eyes 53%', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 38%', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 80%（共有 44% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 80%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: gawr-gura
@@ -12156,7 +12156,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-24'
+    date: '2026-11-25'
   elements:
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 84%（共有 14% のため比重を下げた）', src: danbooru}
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 90%（共有 19% のため比重を下げた）', src: danbooru}
@@ -12878,7 +12878,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-24'
+    date: '2026-11-25'
   elements:
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 37%', src: danbooru}
     - {id: murasaki-gami, weight: sub, note: 'danbooru purple_hair 54%', src: danbooru}
@@ -12898,11 +12898,11 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-24'
+    date: '2026-11-25'
   elements:
     - {id: kasshoku, weight: core, note: 'danbooru tan 86%', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 70%（共有 14% のため比重を下げた）', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 44% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 85%（共有 43% のため比重を下げた）', src: danbooru}
     - {id: kurokami, weight: spice, note: 'danbooru black_hair 84%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
@@ -13949,6 +13949,26 @@
     date: '2026-11-23'
   elements:
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 43%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: norimaki-arale
+  name: 則巻アラレ
+  kana: のりまきあられ
+  work: Dr.スランプ
+  year: 1980
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b3182-x4O8F7qRjlhG.png'
+    page: 'https://anilist.co/character/3182'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-25'
+  elements:
+    - {id: megane, weight: core, note: 'danbooru glasses 86%', src: danbooru}
+    - {id: murasaki-gami, weight: core, note: 'danbooru purple_hair 66%', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 40%（共有 23% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 73%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: norman-yakusoku
@@ -15012,6 +15032,23 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 62%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: raoh
+  name: ラオウ
+  kana: らおう
+  work: 北斗の拳
+  year: 1983
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b1375-J4lAw8j1ICi1.png'
+    page: 'https://anilist.co/character/1375'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-25'
+  elements:
+    - {id: kinniku, weight: sub, note: 'danbooru muscular 48%', src: danbooru}
+  patterns: []
+
 - id: raphtalia
   name: ラフタリア
   kana: らふたりあ
@@ -15144,6 +15181,26 @@
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 64%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
+- id: reinhard-von-lohengramm
+  name: ラインハルト・フォン・ローエングラム
+  kana: らいんはるとふぉんろーえんぐらむ
+  work: 銀河英雄伝説
+  year: 1982
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b3066-bq8s1DooZyTJ.png'
+    page: 'https://anilist.co/character/3066'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-25'
+  elements:
+    - {id: gaitou, weight: sub, note: 'danbooru cape 46%', src: danbooru}
+    - {id: gunpuku, weight: sub, note: 'danbooru military_uniform 49%', src: danbooru}
+    - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 94%（共有 15% のため比重を下げた）', src: danbooru}
+    - {id: aome, weight: spice, note: 'danbooru blue_eyes 77%（共有 23% のため比重を下げた）', src: danbooru}
+  patterns: []
+
 - id: reiuji-utsuho
   name: 霊烏路空
   kana: れいうじうつほ
@@ -15249,14 +15306,14 @@
   summary: （要記入）
   analysis:
     method: danbooru+auto
-    date: '2026-11-24'
+    date: '2026-11-25'
   elements:
     - {id: messhu, weight: core, note: 'danbooru multicolored_hair 84%', src: danbooru}
     - {id: akagami, weight: sub, note: 'danbooru red_hair 63%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: buki, weight: sub, note: 'danbooru weapon 50%', src: danbooru}
     - {id: gaitou, weight: sub, note: 'danbooru cape 43%', src: danbooru}
     - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 78%（共有 15% のため比重を下げた）', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 62%（共有 44% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 62%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: renton-thurston
@@ -17037,6 +17094,24 @@
     - {id: kinpatsu, weight: sub, note: 'danbooru blonde_hair 93%（共有 15% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 33%', src: danbooru}
     - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 87%（共有 38% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: shima-tetsuo
+  name: 島鉄雄
+  kana: しまてつお
+  work: AKIRA
+  year: 1982
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2589-HR4oPhkLGq6q.png'
+    page: 'https://anilist.co/character/2589'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-25'
+  elements:
+    - {id: gaitou, weight: sub, note: 'danbooru cape 54%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 46%（共有 27% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shimakaze-kancolle
@@ -20965,6 +21040,25 @@
     - {id: semi-long, weight: sub, note: 'danbooru medium_hair 50%', src: danbooru}
     - {id: tareme, weight: sub, note: 'danbooru tareme 50%', src: danbooru}
     - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 50%（共有 44% のため比重を下げた）', src: danbooru}
+  patterns: []
+
+- id: yang-wen-li
+  name: ヤン・ウェンリー
+  kana: やんうぇんりー
+  work: 銀河英雄伝説
+  year: 1982
+  summary: （要記入）
+  image:
+    url: 'https://s4.anilist.co/file/anilistcdn/character/large/b2780-4S84iiE9LyIY.png'
+    page: 'https://anilist.co/character/2780'
+    credit: AniList
+  analysis:
+    method: danbooru+auto
+    date: '2026-11-25'
+  elements:
+    - {id: gunpuku, weight: sub, note: 'danbooru military_uniform 42%', src: danbooru}
+    - {id: kurokami, weight: spice, note: 'danbooru black_hair 36%（共有 27% のため比重を下げた）', src: danbooru}
+    - {id: tanpatsu, weight: spice, note: 'danbooru short_hair 42%（共有 38% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: yaoyorozu-momo

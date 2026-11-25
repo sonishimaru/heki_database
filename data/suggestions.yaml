@@ -1492,7 +1492,7 @@
   new_tag_proposals: []
 - id: ayanami-rei
   name: 綾波レイ
-  date: '2026-11-24'
+  date: '2026-11-25'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -2898,7 +2898,7 @@
   new_tag_proposals: []
 - id: emilia
   name: エミリア
-  date: '2026-11-24'
+  date: '2026-11-25'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
@@ -3626,7 +3626,7 @@
   new_tag_proposals: []
 - id: gasai-yuno
   name: 我妻由乃
-  date: '2026-11-24'
+  date: '2026-11-25'
   unmapped_danbooru: []
   near_miss:
   - id: twintail
@@ -10979,12 +10979,12 @@
   new_tag_proposals: []
 - id: misaka-mikoto
   name: 御坂美琴
-  date: '2026-11-24'
+  date: '2026-11-25'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.2668
+    frequency: 0.2667
     threshold: 0.5
   new_tag_proposals: []
 - id: misaki-mei
@@ -11637,17 +11637,17 @@
   new_tag_proposals: []
 - id: nagato-yuki
   name: 長門有希
-  date: '2026-11-24'
+  date: '2026-11-25'
   unmapped_danbooru: []
   near_miss:
   - id: megane
     tag: glasses
-    frequency: 0.2653
+    frequency: 0.2652
     threshold: 0.35
   new_tag_proposals: []
 - id: nagatoro-hayase
   name: 長瀞早瀬
-  date: '2026-11-24'
+  date: '2026-11-25'
   unmapped_danbooru: []
   near_miss:
   - id: yaeba
@@ -12717,6 +12717,24 @@
     frequency: 0.1905
     threshold: 0.35
   new_tag_proposals: []
+- id: norimaki-arale
+  name: 則巻アラレ
+  date: '2026-11-25'
+  unmapped_danbooru:
+  - tag: overalls
+    frequency: 0.5
+  - tag: winged_hat
+    frequency: 0.3614
+  near_miss:
+  - id: tebukuro
+    tag: gloves
+    frequency: 0.3168
+    threshold: 0.35
+  - id: murasaki-no-me
+    tag: purple_eyes
+    frequency: 0.2574
+    threshold: 0.35
+  new_tag_proposals: []
 - id: nu-13
   name: ν -ノーティーン-
   date: '2026-11-23'
@@ -13620,6 +13638,20 @@
     frequency: 0.3111
     threshold: 0.35
   new_tag_proposals: []
+- id: raoh
+  name: ラオウ
+  date: '2026-11-25'
+  unmapped_danbooru: []
+  near_miss:
+  - id: kinpatsu
+    tag: blonde_hair
+    frequency: 0.2069
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.1724
+    threshold: 0.35
+  new_tag_proposals: []
 - id: raphtalia
   name: ラフタリア
   date: '2026-11-23'
@@ -13774,6 +13806,24 @@
     frequency: 0.1579
     threshold: 0.3
   new_tag_proposals: []
+- id: reinhard-von-lohengramm
+  name: ラインハルト・フォン・ローエングラム
+  date: '2026-11-25'
+  unmapped_danbooru: []
+  near_miss:
+  - id: chouhatsu
+    tag: long_hair
+    frequency: 0.3143
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.2857
+    threshold: 0.35
+  - id: kusekke
+    tag: hair_between_eyes
+    frequency: 0.2286
+    threshold: 0.5
+  new_tag_proposals: []
 - id: reiuji-utsuho
   name: 霊烏路空
   date: '2026-11-23'
@@ -13842,7 +13892,7 @@
   new_tag_proposals: []
 - id: rengoku-kyojuro
   name: 煉獄杏寿郎
-  date: '2026-11-24'
+  date: '2026-11-25'
   unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
@@ -15402,6 +15452,32 @@
   - id: knit
     tag: sweater
     frequency: 0.2
+    threshold: 0.35
+  new_tag_proposals: []
+- id: shima-tetsuo
+  name: 島鉄雄
+  date: '2026-11-25'
+  unmapped_danbooru: []
+  near_miss:
+  - id: sakadachi-gami
+    tag: spiked_hair
+    frequency: 0.3
+    threshold: 0.35
+  - id: jinzou
+    tag: cyborg
+    frequency: 0.26
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.2
+    threshold: 0.35
+  - id: tanpatsu
+    tag: short_hair
+    frequency: 0.18
+    threshold: 0.35
+  - id: gishi
+    tag: mechanical_arms
+    frequency: 0.16
     threshold: 0.35
   new_tag_proposals: []
 - id: shimakaze-kancolle
@@ -19118,6 +19194,24 @@
   - tag: red_border
     frequency: 0.5
   near_miss: []
+  new_tag_proposals: []
+- id: yang-wen-li
+  name: ヤン・ウェンリー
+  date: '2026-11-25'
+  unmapped_danbooru: []
+  near_miss:
+  - id: aogami
+    tag: blue_hair
+    frequency: 0.3333
+    threshold: 0.35
+  - id: kurome
+    tag: black_eyes
+    frequency: 0.2121
+    threshold: 0.35
+  - id: aome
+    tag: blue_eyes
+    frequency: 0.1515
+    threshold: 0.35
   new_tag_proposals: []
 - id: yaoyorozu-momo
   name: 八百万百
