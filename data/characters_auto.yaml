@@ -7629,7 +7629,7 @@
     credit: AniList
   analysis:
     method: danbooru+knowledge+auto
-    date: '2026-11-24'
+    date: '2026-11-25'
   elements:
     - {id: uchuujin, weight: core, note: '通説: 宇宙最強の戦闘民族「夜兎族」の生き残りとして地球に来ている', src: knowledge}
     - {id: akagami, weight: sub, note: 'danbooru orange_hair 46%', src: danbooru}
@@ -8022,7 +8022,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-24'
+    date: '2026-11-25'
   elements:
     - {id: pinku-gami, weight: core, note: 'danbooru pink_hair 86%', src: danbooru}
     - {id: twintail, weight: core, note: 'danbooru twintails 66%', src: danbooru}
@@ -16208,13 +16208,13 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-24'
+    date: '2026-11-25'
   elements:
     - {id: akagami, weight: sub, note: 'danbooru red_hair 83%（共有 9% のため比重を下げた）', src: danbooru}
     - {id: akame, weight: sub, note: 'danbooru red_eyes 71%（共有 14% のため比重を下げた）', src: danbooru}
     - {id: mahou-shoujo, weight: sub, note: 'danbooru magical_girl 38%', src: danbooru}
     - {id: ponytail, weight: sub, note: 'danbooru ponytail 69%（共有 9% のため比重を下げた）', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 94%（共有 44% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 94%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: sakura-miko
@@ -17465,13 +17465,13 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-24'
+    date: '2026-11-25'
   elements:
     - {id: twintail, weight: core, note: 'danbooru twintails 87%', src: danbooru}
     - {id: chairo-no-me, weight: sub, note: 'danbooru brown_eyes 69%（共有 14% のため比重を下げた）', src: danbooru}
     - {id: chapatsu, weight: sub, note: 'danbooru brown_hair 84%（共有 19% のため比重を下げた）', src: danbooru}
     - {id: seifuku, weight: sub, note: 'danbooru school_uniform 60%（共有 17% のため比重を下げた）', src: danbooru}
-    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 68%（共有 44% のため比重を下げた）', src: danbooru}
+    - {id: chouhatsu, weight: spice, note: 'danbooru long_hair 68%（共有 43% のため比重を下げた）', src: danbooru}
   patterns: []
 
 - id: shirakami-fubuki
@@ -19644,7 +19644,7 @@
     credit: AniList
   analysis:
     method: danbooru+auto
-    date: '2026-11-24'
+    date: '2026-11-25'
   elements:
     - {id: kin-no-me, weight: core, note: 'danbooru yellow_eyes 71%', src: danbooru}
     - {id: tate-rooru, weight: core, note: 'danbooru drill_hair 88%', src: danbooru}

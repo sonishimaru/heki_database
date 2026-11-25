@@ -6778,7 +6778,7 @@
   new_tag_proposals: []
 - id: kagura
   name: 神楽
-  date: '2026-11-24'
+  date: '2026-11-25'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
@@ -7094,7 +7094,7 @@
   new_tag_proposals: []
 - id: kaname-madoka
   name: 鹿目まどか
-  date: '2026-11-24'
+  date: '2026-11-25'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
@@ -14682,7 +14682,7 @@
   new_tag_proposals: []
 - id: sakura-kyouko
   name: 佐倉杏子
-  date: '2026-11-24'
+  date: '2026-11-25'
   unmapped_danbooru: []
   near_miss:
   - id: buki
@@ -15818,12 +15818,12 @@
   new_tag_proposals: []
 - id: shirai-kuroko
   name: 白井黒子
-  date: '2026-11-24'
+  date: '2026-11-25'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.244
+    frequency: 0.2446
     threshold: 0.5
   new_tag_proposals: []
 - id: shirakami-fubuki
@@ -17815,7 +17815,7 @@
   new_tag_proposals: []
 - id: tomoe-mami
   name: 巴マミ
-  date: '2026-11-24'
+  date: '2026-11-25'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
