@@ -130,6 +130,32 @@ def elements_by_id() -> dict[str, list[str]]:
     return {e["id"]: [x["id"] for x in e.get("elements") or []] for e in entries}
 
 
+def report_orphans() -> None:
+    """キューに無い自動記録。当て直しが永久に来ない記録を洗い出す。
+
+    73 巡目に見つけた。綴りが解決できなかった人物をキューから外したとき、
+    characters_auto.yaml の記録はそのまま残る。auto.py はキューを見て
+    処理対象を決めるので、キューに無い id は二度と当て直されない。
+    見出し語を足しても閾値を変えても、その記録だけ取り残される。
+    黙って残るのが問題なので、毎回の確認で見えるようにする。
+    """
+    queue_path = ROOT / "data" / "queue.yaml"
+    auto_path = ROOT / "data" / "characters_auto.yaml"
+    if not queue_path.exists() or not auto_path.exists():
+        return
+    payload = yaml.safe_load(queue_path.read_text(encoding="utf-8")) or {}
+    entries = payload.get("characters") if isinstance(payload, dict) else payload
+    queued = {e["id"] for e in entries or [] if e.get("id")}
+    auto = yaml.safe_load(auto_path.read_text(encoding="utf-8")) or []
+    orphans = [c for c in auto if c.get("id") not in queued]
+    print(f"\n■ キューに無い自動記録（当て直しが来ない）: {len(orphans)} 件")
+    for c in orphans:
+        n = len(c.get("elements") or [])
+        print(f"  {c.get('name')}（{c.get('work')}）{n} 要素  id={c.get('id')}")
+    if not orphans:
+        print("  なし")
+
+
 def report_unmapped(suggestions: list[dict]) -> None:
     """対応表に無い高頻度タグと、資料レーンからの新語提案。
 
@@ -437,6 +463,8 @@ def main() -> None:
         report_near_miss(suggestions)
     if which in ("all", "unmapped"):
         report_unmapped(suggestions)
+    if which in ("all", "orphans"):
+        report_orphans()
     if which in ("all", "identity"):
         report_identity(db)
     if which in ("all", "chars"):

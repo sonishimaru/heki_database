@@ -286,11 +286,37 @@ GENERIC_TAGS = {
 }
 
 
+def danbooru_sample_size(path: Path) -> int | None:
+    """その人物の Danbooru 投稿数（頻度の母数）。
+
+    73 巡目に必要になった。要素が 1〜2 個しかない記録が 57 件あり、原因を
+    調べたら頻度の刻みに出ていた。浅倉南と矢吹丈は 0.2667 と 0.2（= 4/15 と
+    3/15）、常闇踏陰は 0.25 と 0.1875（= 4/16 と 3/16）、ラオウは 0.2069 と
+    0.1724（= 6/29 と 5/29）。母数が 15〜29 枚しかない人物では、髪の色や
+    短髪のような基本の語すら 35% に届かない。4/15 は合意かもしれないが、
+    15 枚では「35% を超えている」と言い切れないので、落ちるのは正しい。
+    語彙が足りないのでもなく、男性の語が薄いのでもなかった（対応表に無い
+    タグは 57 名合わせて 13 種類しかなく、すべて 1 作品の小物だった）。
+    直せないが、見えるようにはできる。記録に母数を残す。
+    """
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    tag = payload.get("tag") or payload.get("query")
+    for row in payload.get("related_tags") or []:
+        if row.get("name") == tag:
+            return row.get("post_count")
+    # 自分のタグが関連タグに出ない場合は、最大の post_count を母数とみなす。
+    counts = [row.get("post_count") for row in payload.get("related_tags") or []
+              if isinstance(row.get("post_count"), int)]
+    return max(counts) if counts else None
+
+
 def from_danbooru(path: Path) -> list[dict]:
     """Danbooru の関連タグ頻度（群衆合意）を見出し語へ翻訳する。
 
     frequency は「そのキャラのタグが付いた投稿のうち、このタグも付いている割合」なので、
-    そのまま出現率として扱える。数千枚の人力タグの合意であり、少数フレームの機械タグより強い。
+    そのまま出現率として扱える。人力タグの合意であり、少数フレームの機械タグより強い。
+    ただし母数は人物によって大きく違う。数千枚ある人物もいれば 15 枚の人物もいて、
+    後者では基本の語すら閾値に届かない。母数は danbooru_sample_size で記録に残す。
     """
     payload = json.loads(path.read_text(encoding="utf-8"))
     freq = {row["name"]: row["frequency"] for row in payload["related_tags"] if row.get("name")}
@@ -500,6 +526,7 @@ def main() -> int:
             "frames": frames or None,
             "cuts": args.cuts,
             "date": args.date,
+            "作例": danbooru_sample_size(args.danbooru) if args.danbooru else None,
         },
         "elements": [
             {"id": i["id"], "weight": i["weight"], "note": i["note"]} for i in merged
