@@ -123,7 +123,11 @@ def emit_character_yaml(entry: dict) -> str:
     analysis = entry.get("analysis") or {}
     if analysis:
         out.append("  analysis:")
-        for key in ("method", "model", "frames", "cuts", "date"):
+        # キーは固定列。ここに無いキーは黙って捨てられる。73巡目に merge.py へ
+        # 「作例」（Danbooru の母数）を足したのに記録へ 1 件も出ず、原因が
+        # これだった。単体では数えられていたが、書き出しで落ちていた。
+        # 項目を足すときは、この列にも足して、実際に書かれたファイルを見る。
+        for key in ("method", "model", "frames", "cuts", "date", "作例"):
             if analysis.get(key) not in (None, ""):
                 out.append(f"    {key}: {yaml_quote(analysis[key])}")
 
