@@ -1492,7 +1492,7 @@
   new_tag_proposals: []
 - id: ayanami-rei
   name: 綾波レイ
-  date: '2026-11-25'
+  date: '2026-11-26'
   unmapped_danbooru: []
   near_miss:
   - id: kusekke
@@ -2898,16 +2898,16 @@
   new_tag_proposals: []
 - id: emilia
   name: エミリア
-  date: '2026-11-25'
+  date: '2026-11-26'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
     tag: large_breasts
-    frequency: 0.2332
+    frequency: 0.233
     threshold: 0.5
   - id: pattsun
     tag: blunt_bangs
-    frequency: 0.2118
+    frequency: 0.2116
     threshold: 0.4
   new_tag_proposals: []
 - id: emiya-kiritsugu
@@ -3626,7 +3626,7 @@
   new_tag_proposals: []
 - id: gasai-yuno
   name: 我妻由乃
-  date: '2026-11-25'
+  date: '2026-11-26'
   unmapped_danbooru: []
   near_miss:
   - id: twintail
@@ -6778,7 +6778,7 @@
   new_tag_proposals: []
 - id: kagura
   name: 神楽
-  date: '2026-11-25'
+  date: '2026-11-26'
   unmapped_danbooru: []
   near_miss:
   - id: chouhatsu
@@ -7094,16 +7094,16 @@
   new_tag_proposals: []
 - id: kaname-madoka
   name: 鹿目まどか
-  date: '2026-11-25'
+  date: '2026-11-26'
   unmapped_danbooru: []
   near_miss:
   - id: furiru
     tag: frills
-    frequency: 0.2722
+    frequency: 0.272
     threshold: 0.35
   - id: chouhatsu
     tag: long_hair
-    frequency: 0.2672
+    frequency: 0.267
     threshold: 0.35
   new_tag_proposals: []
 - id: kanbaru-suruga
@@ -10979,7 +10979,7 @@
   new_tag_proposals: []
 - id: misaka-mikoto
   name: 御坂美琴
-  date: '2026-11-25'
+  date: '2026-11-26'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
@@ -11637,7 +11637,7 @@
   new_tag_proposals: []
 - id: nagato-yuki
   name: 長門有希
-  date: '2026-11-25'
+  date: '2026-11-26'
   unmapped_danbooru: []
   near_miss:
   - id: megane
@@ -11647,24 +11647,24 @@
   new_tag_proposals: []
 - id: nagatoro-hayase
   name: 長瀞早瀬
-  date: '2026-11-25'
+  date: '2026-11-26'
   unmapped_danbooru: []
   near_miss:
   - id: yaeba
     tag: fang
-    frequency: 0.3294
+    frequency: 0.3299
     threshold: 0.35
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.3106
+    frequency: 0.3103
     threshold: 0.5
   - id: sakotsu
     tag: collarbone
-    frequency: 0.1741
+    frequency: 0.174
     threshold: 0.35
   - id: seifuku
     tag: school_uniform
-    frequency: 0.1702
+    frequency: 0.1701
     threshold: 0.3
   new_tag_proposals: []
 - id: nagisa-kaworu
@@ -13892,7 +13892,7 @@
   new_tag_proposals: []
 - id: rengoku-kyojuro
   name: 煉獄杏寿郎
-  date: '2026-11-25'
+  date: '2026-11-26'
   unmapped_danbooru: []
   near_miss:
   - id: kin-no-me
@@ -14682,7 +14682,7 @@
   new_tag_proposals: []
 - id: sakura-kyouko
   name: 佐倉杏子
-  date: '2026-11-25'
+  date: '2026-11-26'
   unmapped_danbooru: []
   near_miss:
   - id: buki
@@ -15818,12 +15818,12 @@
   new_tag_proposals: []
 - id: shirai-kuroko
   name: 白井黒子
-  date: '2026-11-25'
+  date: '2026-11-26'
   unmapped_danbooru: []
   near_miss:
   - id: hinnyuu
     tag: small_breasts
-    frequency: 0.2446
+    frequency: 0.2452
     threshold: 0.5
   new_tag_proposals: []
 - id: shirakami-fubuki
@@ -17815,7 +17815,7 @@
   new_tag_proposals: []
 - id: tomoe-mami
   name: 巴マミ
-  date: '2026-11-25'
+  date: '2026-11-26'
   unmapped_danbooru: []
   near_miss:
   - id: kyonyuu
